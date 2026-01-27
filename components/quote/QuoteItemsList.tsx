@@ -1,0 +1,110 @@
+"use client";
+
+import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useQuote } from "./QuoteProvider";
+import Image from "next/image";
+
+const MAX_VISIBLE_ITEMS = 3;
+
+export function QuoteItemsList() {
+  const tQuote = useTranslations("quote");
+  const tQuotePage = useTranslations("quote.submitPage");
+  const tProducts = useTranslations("products");
+
+  const { items, removeItem, updateQuantity } = useQuote();
+  const [showAllItems, setShowAllItems] = useState(false);
+
+  const hasMoreItems = items.length > MAX_VISIBLE_ITEMS;
+  const visibleItems = showAllItems ? items : items.slice(0, MAX_VISIBLE_ITEMS);
+
+  return (
+    <div className="flex-1">
+      <h2 className="text-xl font-semibold mb-4">
+        {tQuotePage("itemsInQuote")}
+      </h2>
+      <ul className="space-y-4">
+        {visibleItems.map((item) => (
+          <li
+            key={item.product.slug}
+            className="flex gap-4 p-4 rounded-xl bg-muted/50"
+          >
+            <Image
+              width={800}
+              height={600}
+              src={item.product.imageUrl}
+              alt={tProducts(`${item.product.slug}.name`) || item.product.slug}
+              className="size-20 md:size-24 object-cover rounded-lg shrink-0"
+            />
+            <div className="flex-1 min-w-0">
+              <h3 className="font-medium text-base md:text-lg mb-2">
+                {tProducts(`${item.product.slug}.name`) || item.product.slug}
+              </h3>
+              <div className="flex items-center gap-2 flex-wrap">
+                <Button
+                  variant="outline"
+                  size="icon-xs"
+                  onClick={() =>
+                    updateQuantity(item.product.slug, item.quantity - 1)
+                  }
+                  aria-label="Decrease quantity"
+                >
+                  <Minus className="size-3" />
+                </Button>
+                <span className="text-center text-sm font-medium">
+                  {item.quantity > 1
+                    ? `${item.quantity} ${tQuote("packs")}`
+                    : `${item.quantity} ${tQuote("pack")}`}
+                </span>
+                <Button
+                  variant="outline"
+                  size="icon-xs"
+                  onClick={() =>
+                    updateQuantity(item.product.slug, item.quantity + 1)
+                  }
+                  aria-label="Increase quantity"
+                >
+                  <Plus className="size-3" />
+                </Button>
+                <Button
+                  variant="destructive"
+                  size="sm"
+                  className="ml-auto"
+                  onClick={() => removeItem(item.product.slug)}
+                  aria-label="Remove item"
+                >
+                  <Trash2 className="size-4 mr-1" />
+                  {tQuote("remove")}
+                </Button>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+
+      {hasMoreItems && (
+        <Button
+          variant="ghost"
+          className="w-full mt-4"
+          onClick={() => setShowAllItems(!showAllItems)}
+        >
+          {showAllItems ? (
+            <>
+              <ChevronUp className="size-4 mr-2" />
+              {tQuotePage("showLess")}
+            </>
+          ) : (
+            <>
+              <ChevronDown className="size-4 mr-2" />
+              {tQuotePage("showAllItems", {
+                count: items.length - MAX_VISIBLE_ITEMS,
+              })}
+            </>
+          )}
+        </Button>
+      )}
+    </div>
+  );
+}

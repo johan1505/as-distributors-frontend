@@ -1,0 +1,385 @@
+{
+  "site": {
+    "name": "Pacific Islander Foods",
+    "title": "Pacific Islander Foods - Authentic Polynesian Food Distributor",
+    "description": "Your trusted source for authentic Polynesian foods. We supply restaurants, retailers, and food service providers with premium Hawaiian, Samoan, and Tongan products.",
+    "tagline": "Bringing the Pacific to Your Table",
+    "keywords": "Polynesian food, Hawaiian food distributor, Pacific Islander foods, poi, haupia, kalua pork, wholesale Hawaiian food, Samoan food, Tongan food",
+    "pageNotFound": "Page Not Found"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "quote": "Quote Cart",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "hero": {
+      "title": "Authentic Polynesian Foods",
+      "subtitle": "From the Pacific Islands to your kitchen",
+      "cta": "Browse Products"
+    },
+    "intro": {
+      "title": "About Pacific Islander Foods",
+      "description": "For over 25 years, we've been the premier distributor of authentic Polynesian foods across the mainland. Our deep roots in Hawaiian, Samoan, and Tongan communities ensure every product we carry meets the highest standards of authenticity and quality."
+    },
+    "values": {
+      "title": "Our Values",
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "Every product sourced directly from Pacific Island producers and trusted partners."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "Rigorous quality control ensures only the finest products reach your customers."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Supporting Pacific Islander communities and preserving culinary traditions."
+      }
+    },
+    "featured": {
+      "title": "Featured Products",
+      "viewAll": "View All Products"
+    }
+  },
+  "catalog": {
+    "title": "Our Products",
+    "description": "Browse our selection of authentic Polynesian foods",
+    "allProducts": "All Products",
+    "search": {
+      "placeholder": "Search products...",
+      "noResults": "No products found matching your search."
+    },
+    "filter": {
+      "all": "All Categories",
+      "label": "Filter by category"
+    },
+    "seoTitle": "Product Catalog - Pacific Islander Foods",
+    "seoDescription": "Browse our complete selection of authentic Polynesian foods including poi, haupia, kalua pork, and more. Wholesale pricing for restaurants and retailers.",
+    "seoKeywords": "Hawaiian food catalog, Polynesian food products, wholesale poi, Hawaiian restaurant supplies, Pacific Island foods wholesale"
+  },
+  "product": {
+    "itemNumber": "Item #",
+    "unitPerPack": "Units per Pack",
+    "overallSize": "Size",
+    "category": "Category",
+    "addToQuote": "Add pack to quote",
+    "addMoreToQuote": "Add more packs to quote",
+    "addedToQuote": "Added!",
+    "inQuote": "In Quote",
+    "backToCatalog": "Back to Catalog"
+  },
+  "quote": {
+    "packs": "Packs",
+    "pack": "Pack",
+    "title": "Quote Cart",
+    "empty": "Your quote cart is empty",
+    "emptyDescription": "Add products from our catalog to request a quote.",
+    "browseCatalog": "Browse Catalog",
+    "quantity": "Qty",
+    "remove": "Remove",
+    "clearAll": "Clear All",
+    "subtotal": "Items in Quote",
+    "submit": "Submit Quote Request",
+    "itemCount": "{count, plural, =0 {No items} =1 {1 item} other {# items}}",
+    "requestQuote": "Request quote",
+    "submitPage": {
+      "title": "Submit Quote Request",
+      "seoTitle": "Request a Quote - Pacific Islander Foods",
+      "seoDescription": "Submit a quote request for authentic Polynesian foods. Wholesale pricing for restaurants, retailers, and food service providers. Fast response from our sales team.",
+      "seoKeywords": "wholesale quote, Polynesian food wholesale, Hawaiian food distributor, bulk ordering, restaurant supplies",
+      "contactInfo": "Contact Information",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "sendRequest": "Send quote request",
+      "requiredFields": "Please fill in all fields to submit your quote request. Our sales team will contact you shortly.",
+      "showAllItems": "Show {count} more items",
+      "showLess": "Show less",
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Please enter a valid phone number"
+      },
+      "item": "item",
+      "items": "items",
+      "itemsInQuote": "Items in Quote"
+    }
+  },
+  "sales": {
+    "title": "Need Help?",
+    "description": "Our sales team is here to assist you with orders and questions.",
+    "phone": "Call Us",
+    "email": "Email Us",
+    "close": "Close",
+    "openSalesWidget": "Open Sales Widget"
+  },
+  "footer": {
+    "copyright": "© {year} Pacific Islander Foods. All rights reserved.",
+    "tagline": "Authentic Polynesian Foods Since 1998"
+  },
+  "categories": {
+    "categoryFilter": "Search in a different category",
+    "traditional-staples": "Traditional Staples",
+    "frozen-foods": "Frozen Foods",
+    "desserts": "Desserts",
+    "beverages": "Beverages",
+    "snacks": "Snacks",
+    "seasonings": "Seasonings & Sauces"
+  },
+  "categorySeo": {
+    "traditional-staples": {
+      "title": "Traditional Staples - Authentic Hawaiian Foods | Pacific Islander Foods",
+      "description": "Discover our selection of traditional Hawaiian staples including poi, taro, and other authentic Polynesian foods. Wholesale pricing for restaurants and retailers.",
+      "pageDescription": "Experience the heart of Hawaiian cuisine with our traditional staples. From hand-pounded poi to premium taro products, we bring authentic island flavors to your table.",
+      "keywords": "poi, taro, Hawaiian staples, traditional Hawaiian food, authentic poi, wholesale taro"
+    },
+    "frozen-foods": {
+      "title": "Frozen Hawaiian Foods - Ready to Heat & Serve | Pacific Islander Foods",
+      "description": "Premium frozen Hawaiian foods including kalua pork and lau lau. Authentic preparation, convenient packaging. Wholesale for restaurants and caterers.",
+      "pageDescription": "Enjoy authentic Hawaiian cuisine with our premium frozen selections. Expertly prepared using traditional methods and flash-frozen to preserve authentic island flavors.",
+      "keywords": "frozen Hawaiian food, kalua pork, lau lau, frozen luau food, Hawaiian catering, frozen poi"
+    },
+    "desserts": {
+      "title": "Hawaiian Desserts - Haupia & Traditional Sweets | Pacific Islander Foods",
+      "description": "Authentic Hawaiian desserts and sweet treats including haupia coconut pudding. Easy-to-prepare mixes for luaus and celebrations.",
+      "pageDescription": "Sweeten your menu with our traditional Hawaiian desserts. From creamy haupia to tropical treats, bring the taste of island celebrations to your customers.",
+      "keywords": "haupia, Hawaiian desserts, coconut pudding, luau desserts, Hawaiian sweets, tropical desserts"
+    },
+    "beverages": {
+      "title": "Polynesian Beverages - Coconut Milk & Tropical Drinks | Pacific Islander Foods",
+      "description": "Premium Polynesian beverages including pure coconut milk. Essential ingredients for authentic tropical drinks and cooking.",
+      "pageDescription": "Refresh your offerings with our premium Polynesian beverages and drink ingredients. Pure, authentic flavors for tropical cocktails, smoothies, and traditional recipes.",
+      "keywords": "coconut milk, Polynesian drinks, tropical beverages, Hawaiian drinks, coconut water, luau drinks"
+    },
+    "snacks": {
+      "title": "Hawaiian Snacks - Taro Chips & Island Treats | Pacific Islander Foods",
+      "description": "Delicious Hawaiian snacks including crispy taro chips. Unique island flavors perfect for retail and food service.",
+      "pageDescription": "Discover the unique flavors of Hawaiian snacking. From crispy taro chips to island-inspired treats, our snacks bring authentic Polynesian taste to every bite.",
+      "keywords": "taro chips, Hawaiian snacks, island snacks, Hawaiian chips, tropical snacks, Polynesian snacks"
+    },
+    "seasonings": {
+      "title": "Hawaiian Seasonings & Sauces - Li Hing Mui & Poke Sauce | Pacific Islander Foods",
+      "description": "Authentic Hawaiian seasonings and sauces including li hing mui powder and poke sauce. Essential flavors for Hawaiian cuisine.",
+      "pageDescription": "Elevate your dishes with our authentic Hawaiian seasonings and sauces. From the sweet-sour magic of li hing mui to our signature poke sauce, we've got your flavor needs covered.",
+      "keywords": "li hing mui, poke sauce, Hawaiian seasoning, Hawaiian sauces, poke bowl sauce, dried plum powder"
+    }
+  },
+  "breadcrumb": {
+    "products": "Products"
+  },
+  "products": {
+    "poi-fresh": {
+      "name": "Fresh Poi",
+      "description": "Traditional Hawaiian poi made from hand-pounded taro root. This staple of Hawaiian cuisine has a smooth, creamy texture and mild, slightly sweet flavor. Perfect for luaus, Hawaiian restaurants, and authentic island dining experiences.",
+      "seoTitle": "Fresh Poi - Traditional Hawaiian Taro | Pacific Islander Foods",
+      "seoDescription": "Authentic Hawaiian poi made from premium taro root. Smooth, creamy texture perfect for luaus and Hawaiian restaurants. Wholesale distributor pricing available.",
+      "seoKeywords": "fresh poi, Hawaiian poi, taro poi, traditional poi, wholesale poi, authentic Hawaiian poi"
+    },
+    "haupia-mix": {
+      "name": "Haupia Coconut Pudding Mix",
+      "description": "Traditional Hawaiian coconut pudding mix. Simply add water and coconut milk to create the authentic creamy dessert beloved at luaus and celebrations. Each box makes approximately 24 servings.",
+      "seoTitle": "Haupia Coconut Pudding Mix - Hawaiian Dessert | Pacific Islander Foods",
+      "seoDescription": "Easy-to-prepare Hawaiian haupia coconut pudding mix. Traditional luau dessert, makes 24 servings. Wholesale pricing for restaurants and caterers.",
+      "seoKeywords": "haupia mix, coconut pudding mix, Hawaiian dessert, luau dessert, haupia pudding, coconut haupia"
+    },
+    "kalua-pork-frozen": {
+      "name": "Kalua Pork (Frozen)",
+      "description": "Slow-roasted kalua pork prepared in traditional Hawaiian style. Tender, smoky, and perfectly seasoned with Hawaiian sea salt. Ready to heat and serve for authentic island flavor.",
+      "seoTitle": "Frozen Kalua Pork - Authentic Hawaiian Style | Pacific Islander Foods",
+      "seoDescription": "Pre-cooked frozen kalua pork in traditional Hawaiian style. Tender, smoky flavor ready to heat and serve. Perfect for restaurants and catering.",
+      "seoKeywords": "kalua pork, frozen kalua pork, Hawaiian pork, luau pork, smoked pork Hawaiian, kalua pig"
+    },
+    "lau-lau-frozen": {
+      "name": "Lau Lau (Frozen)",
+      "description": "Traditional Hawaiian lau lau featuring tender pork and fish wrapped in taro and ti leaves. Steamed to perfection using time-honored methods. Simply heat and serve for an authentic Hawaiian experience.",
+      "seoTitle": "Frozen Lau Lau - Traditional Hawaiian Dish | Pacific Islander Foods",
+      "seoDescription": "Authentic frozen lau lau with pork and fish wrapped in taro leaves. Traditional Hawaiian preparation, ready to heat and serve. Wholesale available.",
+      "seoKeywords": "lau lau, frozen lau lau, Hawaiian lau lau, taro leaf wrapped pork, traditional Hawaiian dish"
+    },
+    "coconut-milk-can": {
+      "name": "Premium Coconut Milk",
+      "description": "Rich, creamy coconut milk perfect for cooking and beverages. Made from fresh coconuts with no preservatives. Essential ingredient for authentic Polynesian cuisine including curries, desserts, and tropical drinks.",
+      "seoTitle": "Premium Coconut Milk - Polynesian Cooking Essential | Pacific Islander Foods",
+      "seoDescription": "Pure, creamy coconut milk for authentic Polynesian cooking. No preservatives, rich flavor. Bulk pricing for restaurants and food service.",
+      "seoKeywords": "coconut milk, premium coconut milk, cooking coconut milk, bulk coconut milk, Polynesian coconut milk"
+    },
+    "taro-chips": {
+      "name": "Taro Chips",
+      "description": "Crispy taro root chips lightly seasoned with Hawaiian sea salt. A delicious alternative to potato chips with a unique, earthy flavor. Perfect for snacking or as a side dish at Hawaiian-themed events.",
+      "seoTitle": "Taro Chips - Hawaiian Sea Salt | Pacific Islander Foods",
+      "seoDescription": "Crispy Hawaiian taro chips with sea salt. Unique earthy flavor, perfect snack alternative. Wholesale and bulk ordering available.",
+      "seoKeywords": "taro chips, Hawaiian taro chips, taro root chips, Hawaiian chips, taro snacks, sea salt chips"
+    },
+    "li-hing-mui-powder": {
+      "name": "Li Hing Mui Powder",
+      "description": "Sweet, sour, and salty li hing mui powder made from dried plum. A beloved Hawaiian flavoring for candy, fruits, and drinks. Essential for creating authentic Hawaiian shave ice and local-style treats.",
+      "seoTitle": "Li Hing Mui Powder - Hawaiian Plum Seasoning | Pacific Islander Foods",
+      "seoDescription": "Authentic li hing mui powder from dried plum. Sweet, sour, salty Hawaiian flavoring for shave ice, candy, and fruits. Bulk pricing available.",
+      "seoKeywords": "li hing mui, li hing powder, dried plum powder, Hawaiian seasoning, shave ice topping, crack seed"
+    },
+    "poke-sauce": {
+      "name": "Hawaiian Poke Sauce",
+      "description": "Authentic Hawaiian-style poke sauce blend with soy sauce, sesame oil, and traditional seasonings. Perfect base for creating restaurant-quality poke bowls. Simply mix with fresh fish and your favorite toppings.",
+      "seoTitle": "Hawaiian Poke Sauce - Authentic Poke Bowl Seasoning | Pacific Islander Foods",
+      "seoDescription": "Ready-to-use Hawaiian poke sauce for authentic poke bowls. Traditional soy-sesame blend. Wholesale pricing for restaurants and poke shops.",
+      "seoKeywords": "poke sauce, Hawaiian poke sauce, poke bowl sauce, poke seasoning, ahi poke sauce, sashimi sauce"
+    },
+    "teriyaki-sauce": {
+      "name": "Teriyaki Sauce",
+      "description": "Classic Hawaiian-style teriyaki sauce with a perfect balance of sweet and savory. Made with soy sauce, brown sugar, and traditional seasonings. Ideal for marinating meats, glazing, and adding authentic island flavor to your dishes.",
+      "seoTitle": "Teriyaki Sauce - Hawaiian Style | Pacific Islander Foods",
+      "seoDescription": "Authentic Hawaiian-style teriyaki sauce perfect for marinating and glazing. Sweet and savory blend. Wholesale pricing for restaurants and food service.",
+      "seoKeywords": "teriyaki sauce, Hawaiian teriyaki, teriyaki marinade, Hawaiian sauce, teriyaki glaze, Asian sauce"
+    },
+    "shoyu-sauce": {
+      "name": "Shoyu Sauce",
+      "description": "Premium Hawaiian shoyu (soy sauce) with rich, umami flavor. Essential ingredient for authentic Hawaiian and Japanese cuisine. Perfect for dipping, seasoning, and cooking. Made with traditional fermentation methods.",
+      "seoTitle": "Shoyu Sauce - Premium Hawaiian Soy Sauce | Pacific Islander Foods",
+      "seoDescription": "Premium Hawaiian shoyu sauce with authentic umami flavor. Essential for Hawaiian and Japanese cooking. Wholesale pricing available.",
+      "seoKeywords": "shoyu sauce, Hawaiian soy sauce, shoyu, soy sauce, Hawaiian seasoning, umami sauce"
+    },
+    "taro-root-fresh": {
+      "name": "Fresh Taro Root",
+      "description": "Premium fresh taro root, the foundation of traditional Hawaiian cuisine. Versatile root vegetable perfect for making poi, taro chips, and traditional dishes. Rich in nutrients and authentic island flavor.",
+      "seoTitle": "Fresh Taro Root - Traditional Hawaiian Staple | Pacific Islander Foods",
+      "seoDescription": "Premium fresh taro root for authentic Hawaiian cooking. Perfect for making poi and traditional dishes. Wholesale pricing available.",
+      "seoKeywords": "taro root, fresh taro, Hawaiian taro, poi taro, traditional Hawaiian food, taro vegetable"
+    },
+    "sweet-potato-hawaiian": {
+      "name": "Hawaiian Sweet Potato",
+      "description": "Authentic Hawaiian sweet potato (ʻuala) with vibrant purple or orange flesh. Naturally sweet and nutritious, perfect for traditional Hawaiian dishes, desserts, and modern culinary applications.",
+      "seoTitle": "Hawaiian Sweet Potato - Authentic ʻUala | Pacific Islander Foods",
+      "seoDescription": "Authentic Hawaiian sweet potato with vibrant color and natural sweetness. Perfect for traditional and modern dishes. Wholesale available.",
+      "seoKeywords": "Hawaiian sweet potato, ʻuala, purple sweet potato, Hawaiian yam, traditional Hawaiian food, island sweet potato"
+    },
+    "breadfruit-fresh": {
+      "name": "Fresh Breadfruit",
+      "description": "Traditional Polynesian breadfruit (ʻulu), a versatile staple food. When cooked, it has a starchy texture similar to bread or potatoes. Essential ingredient in many Pacific Island cuisines and a sustainable food source.",
+      "seoTitle": "Fresh Breadfruit - Traditional Polynesian Staple | Pacific Islander Foods",
+      "seoDescription": "Authentic fresh breadfruit (ʻulu) from the Pacific Islands. Versatile staple food perfect for traditional cooking. Wholesale pricing available.",
+      "seoKeywords": "breadfruit, ʻulu, Polynesian breadfruit, Hawaiian breadfruit, traditional staple, Pacific Island food"
+    },
+    "kulolo-mix": {
+      "name": "Kulolo Mix",
+      "description": "Traditional Hawaiian kulolo dessert mix made from taro and coconut. Rich, dense, and naturally sweet. Simply prepare and steam for an authentic Hawaiian dessert that's perfect for luaus and special occasions.",
+      "seoTitle": "Kulolo Mix - Traditional Hawaiian Taro Dessert | Pacific Islander Foods",
+      "seoDescription": "Authentic Hawaiian kulolo mix made from taro and coconut. Traditional dessert perfect for luaus. Easy to prepare, wholesale pricing available.",
+      "seoKeywords": "kulolo, kulolo mix, Hawaiian dessert, taro dessert, coconut taro, traditional Hawaiian sweet"
+    },
+    "malasada-mix": {
+      "name": "Malasada Mix",
+      "description": "Authentic Portuguese-Hawaiian malasada dough mix. Create the beloved Hawaiian donut treat - light, fluffy, and perfect for dusting with sugar. A favorite at festivals and local bakeries throughout the islands.",
+      "seoTitle": "Malasada Mix - Hawaiian Donut Mix | Pacific Islander Foods",
+      "seoDescription": "Authentic malasada mix for creating traditional Hawaiian donuts. Light and fluffy, perfect for festivals. Wholesale pricing for bakeries.",
+      "seoKeywords": "malasada, malasada mix, Hawaiian donut, Portuguese donut, Hawaiian pastry, island donut"
+    },
+    "coconut-haupia-pie": {
+      "name": "Coconut Haupia Pie",
+      "description": "Ready-to-serve coconut haupia pie with a flaky crust and creamy coconut filling. Traditional Hawaiian dessert that combines the best of island flavors. Perfect for restaurants, bakeries, and special events.",
+      "seoTitle": "Coconut Haupia Pie - Traditional Hawaiian Dessert | Pacific Islander Foods",
+      "seoDescription": "Ready-to-serve coconut haupia pie with authentic island flavors. Traditional Hawaiian dessert perfect for restaurants and events. Wholesale available.",
+      "seoKeywords": "haupia pie, coconut pie, Hawaiian pie, traditional dessert, luau dessert, coconut pudding pie"
+    },
+    "chicken-long-rice-frozen": {
+      "name": "Chicken Long Rice (Frozen)",
+      "description": "Traditional Hawaiian chicken long rice, a comforting noodle soup dish. Tender chicken, clear broth, and bean thread noodles. Pre-cooked and frozen, ready to heat and serve for authentic island comfort food.",
+      "seoTitle": "Frozen Chicken Long Rice - Hawaiian Comfort Food | Pacific Islander Foods",
+      "seoDescription": "Pre-cooked frozen chicken long rice, traditional Hawaiian noodle soup. Ready to heat and serve. Perfect for restaurants and catering. Wholesale pricing.",
+      "seoKeywords": "chicken long rice, Hawaiian soup, frozen Hawaiian food, bean thread noodles, Hawaiian comfort food, luau food"
+    },
+    "squid-luau-frozen": {
+      "name": "Squid Luau (Frozen)",
+      "description": "Traditional Hawaiian squid luau featuring tender squid cooked with taro leaves in coconut milk. Rich, savory, and deeply flavorful. Pre-cooked and frozen, ready to heat and serve for authentic island dining.",
+      "seoTitle": "Frozen Squid Luau - Traditional Hawaiian Dish | Pacific Islander Foods",
+      "seoDescription": "Pre-cooked frozen squid luau with taro leaves and coconut milk. Traditional Hawaiian preparation, ready to heat and serve. Wholesale available.",
+      "seoKeywords": "squid luau, Hawaiian squid, taro leaf dish, frozen Hawaiian food, traditional luau food, coconut squid"
+    },
+    "guava-nectar": {
+      "name": "Guava Nectar",
+      "description": "Pure, tropical guava nectar made from fresh Hawaiian guavas. Sweet, fragrant, and refreshing. Perfect for beverages, cocktails, smoothies, or enjoyed on its own. Essential for authentic tropical drink menus.",
+      "seoTitle": "Guava Nectar - Hawaiian Tropical Drink | Pacific Islander Foods",
+      "seoDescription": "Pure Hawaiian guava nectar for tropical beverages and cocktails. Sweet and fragrant. Wholesale pricing for restaurants and bars.",
+      "seoKeywords": "guava nectar, Hawaiian guava, tropical juice, guava drink, Polynesian beverage, island juice"
+    },
+    "passion-fruit-juice": {
+      "name": "Passion Fruit Juice",
+      "description": "Tart and tropical passion fruit juice from Hawaiian passion fruits. Bright, tangy flavor perfect for cocktails, smoothies, and refreshing beverages. A beloved island flavor that adds authentic tropical taste to any drink.",
+      "seoTitle": "Passion Fruit Juice - Hawaiian Tropical Beverage | Pacific Islander Foods",
+      "seoDescription": "Authentic Hawaiian passion fruit juice with bright, tangy flavor. Perfect for cocktails and beverages. Wholesale pricing available.",
+      "seoKeywords": "passion fruit juice, Hawaiian passion fruit, tropical juice, lilikoi juice, island beverage, tropical drink"
+    },
+    "lilikoi-juice": {
+      "name": "Lilikoi Juice",
+      "description": "Authentic Hawaiian lilikoi (passion fruit) juice with intense tropical flavor. Tart, sweet, and aromatic. Perfect for cocktails, desserts, and refreshing drinks. A signature island flavor that captures the essence of Hawaii.",
+      "seoTitle": "Lilikoi Juice - Authentic Hawaiian Passion Fruit | Pacific Islander Foods",
+      "seoDescription": "Authentic Hawaiian lilikoi juice with intense tropical flavor. Perfect for cocktails and beverages. Wholesale pricing for restaurants and bars.",
+      "seoKeywords": "lilikoi juice, Hawaiian lilikoi, passion fruit juice, tropical beverage, island juice, Hawaiian drink"
+    },
+    "macadamia-nuts": {
+      "name": "Macadamia Nuts",
+      "description": "Premium Hawaiian macadamia nuts, roasted to perfection. Rich, buttery, and crunchy. Perfect for snacking, baking, or as a premium ingredient. A beloved Hawaiian treat that's both delicious and nutritious.",
+      "seoTitle": "Macadamia Nuts - Hawaiian Premium Snack | Pacific Islander Foods",
+      "seoDescription": "Premium roasted Hawaiian macadamia nuts. Rich and buttery, perfect for snacking and baking. Wholesale pricing available.",
+      "seoKeywords": "macadamia nuts, Hawaiian macadamia, roasted macadamia, Hawaiian snack, premium nuts, island snack"
+    },
+    "dried-ika": {
+      "name": "Dried Ika (Squid)",
+      "description": "Traditional Hawaiian dried squid snack. Salty, chewy, and full of umami flavor. A popular local snack that's perfect for on-the-go or as a bar snack. Authentic island flavor in every bite.",
+      "seoTitle": "Dried Ika - Hawaiian Squid Snack | Pacific Islander Foods",
+      "seoDescription": "Traditional Hawaiian dried squid snack. Salty and chewy, perfect for snacking. Authentic island flavor. Wholesale pricing available.",
+      "seoKeywords": "dried ika, Hawaiian squid, dried squid snack, island snack, Hawaiian jerky, seafood snack"
+    },
+    "arare-rice-crackers": {
+      "name": "Arare Rice Crackers",
+      "description": "Crispy Japanese-Hawaiian rice crackers with soy sauce flavor. Light, crunchy, and addictive. A popular snack in Hawaii that combines Japanese and local island tastes. Perfect for snacking or as a bar accompaniment.",
+      "seoTitle": "Arare Rice Crackers - Hawaiian Japanese Snack | Pacific Islander Foods",
+      "seoDescription": "Crispy Hawaiian arare rice crackers with soy sauce flavor. Popular island snack. Wholesale pricing for retailers and food service.",
+      "seoKeywords": "arare, rice crackers, Hawaiian snack, Japanese rice crackers, soy sauce crackers, island snack"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with Pacific Islander Foods. We're here to help with your wholesale food distribution needs.",
+    "seoTitle": "Contact Us - Pacific Islander Foods",
+    "seoDescription": "Contact Pacific Islander Foods for wholesale Polynesian food distribution. Reach out via phone, email, or visit our Honolulu location. Fast response from our sales team.",
+    "seoKeywords": "contact Pacific Islander Foods, Hawaiian food distributor contact, wholesale food distributor, Polynesian food supplier, Honolulu food distributor",
+    "heading": "Get in Touch",
+    "subheading": "We're here to help with your wholesale food distribution needs",
+    "phone": {
+      "label": "Phone",
+      "description": "Call us during business hours",
+      "ariaLabel": "Call us at {phone}"
+    },
+    "email": {
+      "label": "Email",
+      "description": "Send us an email anytime",
+      "ariaLabel": "Email us at {email}"
+    },
+    "address": {
+      "label": "Address",
+      "street": "1234 Pacific Way",
+      "city": "Honolulu",
+      "state": "HI",
+      "zipCode": "96815",
+      "description": "Visit us at our Honolulu location",
+      "ariaLabel": "Open {address} in Google Maps"
+    },
+    "hours": {
+      "label": "Business Hours",
+      "monday": "Monday - Friday: 8:00 AM - 5:00 PM HST",
+      "saturday": "Saturday: 9:00 AM - 2:00 PM HST",
+      "sunday": "Sunday: Closed"
+    },
+    "jsonLd": {
+      "availableLanguage": "English",
+      "contactType": "sales"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "poi-fresh",
+    "itemNumber": "POI-001",
+    "unitPerPack": 12,
+    "overallSize": "16 oz",
+    "imageUrl": "https://kazysdallas.com/cdn/shop/products/KazysGS0418-web-web_300x.png?v=1656360559",
+    "categoryKey": "traditional-staples",
+    "featured": true
+  },
+  {
+    "slug": "taro-root-fresh",
+    "itemNumber": "TAR-011",
+    "unitPerPack": 20,
+    "overallSize": "2 lb",
+    "imageUrl": "https://img06.weeecdn.com/product/image/926/638/3C5A6B0A3C20F23D.png",
+    "categoryKey": "traditional-staples",
+    "featured": false
+  },
+  {
+    "slug": "sweet-potato-hawaiian",
+    "itemNumber": "SWE-012",
+    "unitPerPack": 15,
+    "overallSize": "3 lb",
+    "imageUrl": "https://hawaiianchipcompany.com/cdn/shop/products/HawaiianChipCompany-Product-OriginalSweetPotato_1000x.jpg?v=1598312889",
+    "categoryKey": "traditional-staples",
+    "featured": false
+  },
+  {
+    "slug": "breadfruit-fresh",
+    "itemNumber": "BRE-013",
+    "unitPerPack": 10,
+    "overallSize": "2.5 lb",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZE1VZDhFsa6AFYzNiXghGmom9SdwjdSe0Vw&s",
+    "categoryKey": "traditional-staples",
+    "featured": false
+  },
+  {
+    "slug": "haupia-mix",
+    "itemNumber": "HAU-002",
+    "unitPerPack": 24,
+    "overallSize": "8 oz",
+    "imageUrl": "https://images.albertsons-media.com/is/image/ABS/960076359-ECOM?$ng-ecom-pdp-mobile$&defaultImage=Not_Available",
+    "categoryKey": "desserts",
+    "featured": true
+  },
+  {
+    "slug": "kulolo-mix",
+    "itemNumber": "KUL-014",
+    "unitPerPack": 12,
+    "overallSize": "12 oz",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSrHCesOupMvzFO4AOOwe8ahGXk-LdnqglQ&s",
+    "categoryKey": "desserts",
+    "featured": false
+  },
+  {
+    "slug": "malasada-mix",
+    "itemNumber": "MAL-015",
+    "unitPerPack": 18,
+    "overallSize": "16 oz",
+    "imageUrl": "https://i5.walmartimages.com/asr/4ceaf916-2a52-4e71-814e-2f14c2520852.0b247759868eb3786f7750362023b820.jpeg",
+    "categoryKey": "desserts",
+    "featured": false
+  },
+  {
+    "slug": "coconut-haupia-pie",
+    "itemNumber": "COH-016",
+    "unitPerPack": 6,
+    "overallSize": "9 inch",
+    "imageUrl": "https://i.ebayimg.com/images/g/Xq0AAeSwp1to-UQF/s-l1600.webp",
+    "categoryKey": "desserts",
+    "featured": false
+  },
+  {
+    "slug": "kalua-pork-frozen",
+    "itemNumber": "KAL-003",
+    "unitPerPack": 6,
+    "overallSize": "2 lb",
+    "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_3f4c8150-194a-4390-b0f4-a957ab3ea1b7",
+    "categoryKey": "frozen-foods",
+    "featured": true
+  },
+  {
+    "slug": "lau-lau-frozen",
+    "itemNumber": "LAU-004",
+    "unitPerPack": 12,
+    "overallSize": "12 oz",
+    "imageUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/14873646/2316948131.jpg",
+    "categoryKey": "frozen-foods",
+    "featured": false
+  },
+  {
+    "slug": "chicken-long-rice-frozen",
+    "itemNumber": "CHI-017",
+    "unitPerPack": 8,
+    "overallSize": "16 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1621447504864-d8686e12698c?w=800&q=80",
+    "categoryKey": "frozen-foods",
+    "featured": false
+  },
+  {
+    "slug": "squid-luau-frozen",
+    "itemNumber": "SQU-018",
+    "unitPerPack": 10,
+    "overallSize": "14 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&q=80",
+    "categoryKey": "frozen-foods",
+    "featured": false
+  },
+  {
+    "slug": "coconut-milk-can",
+    "itemNumber": "COC-005",
+    "unitPerPack": 24,
+    "overallSize": "13.5 oz",
+    "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2/963d9c97-0a96-4e54-8894-bd5a750cc304-retina-large.jpg",
+    "categoryKey": "beverages",
+    "featured": false
+  },
+  {
+    "slug": "guava-nectar",
+    "itemNumber": "GUA-019",
+    "unitPerPack": 12,
+    "overallSize": "46 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+    "categoryKey": "beverages",
+    "featured": false
+  },
+  {
+    "slug": "passion-fruit-juice",
+    "itemNumber": "PAS-020",
+    "unitPerPack": 12,
+    "overallSize": "33.8 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1550411294-875e8d3a8a5e?w=800&q=80",
+    "categoryKey": "beverages",
+    "featured": false
+  },
+  {
+    "slug": "lilikoi-juice",
+    "itemNumber": "LIL-021",
+    "unitPerPack": 12,
+    "overallSize": "33.8 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "categoryKey": "beverages",
+    "featured": false
+  },
+  {
+    "slug": "taro-chips",
+    "itemNumber": "TAR-006",
+    "unitPerPack": 12,
+    "overallSize": "5 oz",
+    "imageUrl": "https://www.hawaiianfarmersmarket.com/cdn/shop/products/ScreenShot2022-03-24at12.20.13PM.png?v=1648160957",
+    "categoryKey": "snacks",
+    "featured": true
+  },
+  {
+    "slug": "macadamia-nuts",
+    "itemNumber": "MAC-022",
+    "unitPerPack": 12,
+    "overallSize": "6 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1606914501449-5a96b6ce24ca?w=800&q=80",
+    "categoryKey": "snacks",
+    "featured": false
+  },
+  {
+    "slug": "dried-ika",
+    "itemNumber": "DRI-023",
+    "unitPerPack": 24,
+    "overallSize": "2 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&q=80",
+    "categoryKey": "snacks",
+    "featured": false
+  },
+  {
+    "slug": "arare-rice-crackers",
+    "itemNumber": "ARA-024",
+    "unitPerPack": 18,
+    "overallSize": "3.5 oz",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "categoryKey": "snacks",
+    "featured": false
+  },
+  {
+    "slug": "li-hing-mui-powder",
+    "itemNumber": "LIH-007",
+    "unitPerPack": 12,
+    "overallSize": "2 oz",
+    "imageUrl": "https://www.snackhawaii.com/cdn/shop/products/plum-powder-hawaii_700x700.jpg?v=1743194267",
+    "categoryKey": "seasonings",
+    "featured": false
+  },
+  {
+    "slug": "poke-sauce",
+    "itemNumber": "POK-008",
+    "unitPerPack": 12,
+    "overallSize": "12 oz",
+    "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004139002444",
+    "categoryKey": "seasonings",
+    "featured": false
+  },
+  {
+    "slug": "teriyaki-sauce",
+    "itemNumber": "SAU-009",
+    "unitPerPack": 12,
+    "overallSize": "16 oz",
+    "imageUrl": "https://i5.walmartimages.com/asr/6d76d737-888f-4e53-9548-a4291a5d3352_1.025a026f9c844a332ac38377dd8f6258.jpeg",
+    "categoryKey": "seasonings",
+    "featured": false
+  },
+  {
+    "slug": "shoyu-sauce",
+    "itemNumber": "SAU-010",
+    "unitPerPack": 24,
+    "overallSize": "10 oz",
+    "imageUrl": "https://alohashoyu.com/wp-content/uploads/2018/12/DSC00321-Edit.jpg",
+    "categoryKey": "seasonings",
+    "featured": false
+  }
+]
