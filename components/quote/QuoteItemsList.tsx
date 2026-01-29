@@ -37,6 +37,7 @@ export function QuoteItemsList() {
               src={item.product.imageUrl}
               alt={tProducts(`${item.product.slug}.name`) || item.product.slug}
               className="size-20 md:size-24 object-cover rounded-lg shrink-0"
+              loading="lazy"
             />
             <div className="flex-1 min-w-0">
               <h3 className="font-medium text-base md:text-lg mb-2">

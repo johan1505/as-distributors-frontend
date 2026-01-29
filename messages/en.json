@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "Pacific Islander Foods",
-    "title": "Pacific Islander Foods - Authentic Polynesian Food Distributor",
-    "description": "Your trusted source for authentic Polynesian foods. We supply restaurants, retailers, and food service providers with premium Hawaiian, Samoan, and Tongan products.",
+    "name": "A & S Distributors",
+    "title": "A & S Distributors - Pacific Island Foods Distributor",
+    "description": "Your trusted source for authentic Pacific Island foods from Fiji, New Zealand & Australia. We supply restaurants, retailers, and food service providers with premium products at competitive prices.",
     "tagline": "Bringing the Pacific to Your Table",
-    "keywords": "Polynesian food, Hawaiian food distributor, Pacific Islander foods, poi, haupia, kalua pork, wholesale Hawaiian food, Samoan food, Tongan food",
+    "keywords": "Pacific Island food, Fiji food distributor, New Zealand lamb, corned beef, coconut products, wholesale Pacific food, Samoan food, Tongan food",
     "pageNotFound": "Page Not Found"
   },
   "nav": {
@@ -15,27 +15,27 @@
   },
   "home": {
     "hero": {
-      "title": "Authentic Polynesian Foods",
-      "subtitle": "From the Pacific Islands to your kitchen",
+      "title": "Authentic Pacific Island Foods",
+      "subtitle": "From Fiji, New Zealand & Australia to your kitchen",
       "cta": "Browse Products"
     },
     "intro": {
-      "title": "About Pacific Islander Foods",
-      "description": "For over 25 years, we've been the premier distributor of authentic Polynesian foods across the mainland. Our deep roots in Hawaiian, Samoan, and Tongan communities ensure every product we carry meets the highest standards of authenticity and quality."
+      "title": "About A & S Distributors",
+      "description": "A & S Distributors is a family owned business committed to serving our family of customers who depend on us for the highest quality foods from Fiji, New Zealand & Australia. We are the Northern California Distributor for The New Zealand Lamb Company and have our own USDA facility for cutting all goat and lamb varieties."
     },
     "values": {
-      "title": "Our Values",
+      "title": "The Four C's of Customer Service",
       "authenticity": {
-        "title": "Authenticity",
-        "description": "Every product sourced directly from Pacific Island producers and trusted partners."
+        "title": "Concern",
+        "description": "Concern that we have for our customers and our employees."
       },
       "quality": {
-        "title": "Quality",
-        "description": "Rigorous quality control ensures only the finest products reach your customers."
+        "title": "Confidence",
+        "description": "Confidence that we bring our customers the highest quality foods from the Pacific Islands."
       },
       "community": {
-        "title": "Community",
-        "description": "Supporting Pacific Islander communities and preserving culinary traditions."
+        "title": "Commitment",
+        "description": "Commitment to provide the best to our customers with integrity and respect."
       }
     },
     "featured": {
@@ -45,7 +45,7 @@
   },
   "catalog": {
     "title": "Our Products",
-    "description": "Browse our selection of authentic Polynesian foods",
+    "description": "Browse our selection of authentic Pacific Island foods",
     "allProducts": "All Products",
     "search": {
       "placeholder": "Search products...",
@@ -55,9 +55,9 @@
       "all": "All Categories",
       "label": "Filter by category"
     },
-    "seoTitle": "Product Catalog - Pacific Islander Foods",
-    "seoDescription": "Browse our complete selection of authentic Polynesian foods including poi, haupia, kalua pork, and more. Wholesale pricing for restaurants and retailers.",
-    "seoKeywords": "Hawaiian food catalog, Polynesian food products, wholesale poi, Hawaiian restaurant supplies, Pacific Island foods wholesale"
+    "seoTitle": "Product Catalog - A & S Distributors",
+    "seoDescription": "Browse our complete selection of authentic Pacific Island foods including corned beef, lamb, coconut products, and more. Wholesale pricing for restaurants and retailers.",
+    "seoKeywords": "Pacific Island food catalog, Fiji food products, wholesale corned beef, New Zealand lamb, Pacific Island foods wholesale"
   },
   "product": {
     "itemNumber": "Item #",
@@ -86,9 +86,9 @@
     "requestQuote": "Request quote",
     "submitPage": {
       "title": "Submit Quote Request",
-      "seoTitle": "Request a Quote - Pacific Islander Foods",
-      "seoDescription": "Submit a quote request for authentic Polynesian foods. Wholesale pricing for restaurants, retailers, and food service providers. Fast response from our sales team.",
-      "seoKeywords": "wholesale quote, Polynesian food wholesale, Hawaiian food distributor, bulk ordering, restaurant supplies",
+      "seoTitle": "Request a Quote - A & S Distributors",
+      "seoDescription": "Submit a quote request for authentic Pacific Island foods. Wholesale pricing for restaurants, retailers, and food service providers. Fast response from our sales team.",
+      "seoKeywords": "wholesale quote, Pacific Island food wholesale, Fiji food distributor, bulk ordering, restaurant supplies",
       "contactInfo": "Contact Information",
       "name": "Full Name",
       "namePlaceholder": "Enter your full name",
@@ -121,235 +121,1474 @@
     "openSalesWidget": "Open Sales Widget"
   },
   "footer": {
-    "copyright": "© {year} Pacific Islander Foods. All rights reserved.",
-    "tagline": "Authentic Polynesian Foods Since 1998"
+    "copyright": "A & S Distributors. All rights reserved.",
+    "tagline": "Authentic Pacific Island Foods"
   },
   "categories": {
     "categoryFilter": "Search in a different category",
-    "traditional-staples": "Traditional Staples",
-    "frozen-foods": "Frozen Foods",
-    "desserts": "Desserts",
-    "beverages": "Beverages",
+    "corned-beef": "Corned Beef",
+    "canned-fish-tuna": "Canned Fish & Tuna",
+    "canned-vegetables": "Canned Vegetables",
+    "cookies": "Cookies",
+    "crackers": "Crackers",
     "snacks": "Snacks",
-    "seasonings": "Seasonings & Sauces"
+    "candies": "Candies",
+    "pickles-spices": "Pickles & Spices",
+    "oils": "Oils",
+    "breakfast-cereal": "Breakfast Cereal",
+    "powders-teas": "Powders & Teas",
+    "new-zealand-lamb": "New Zealand Lamb & Goat",
+    "sausages": "Sausages",
+    "white-meats-fish": "White Meats & Fiji Fish",
+    "root-vegetables": "Root Vegetables",
+    "misc-frozen-fresh": "Misc. Frozen & Fresh"
   },
   "categorySeo": {
-    "traditional-staples": {
-      "title": "Traditional Staples - Authentic Hawaiian Foods | Pacific Islander Foods",
-      "description": "Discover our selection of traditional Hawaiian staples including poi, taro, and other authentic Polynesian foods. Wholesale pricing for restaurants and retailers.",
-      "pageDescription": "Experience the heart of Hawaiian cuisine with our traditional staples. From hand-pounded poi to premium taro products, we bring authentic island flavors to your table.",
-      "keywords": "poi, taro, Hawaiian staples, traditional Hawaiian food, authentic poi, wholesale taro"
+    "corned-beef": {
+      "title": "Corned Beef - Premium Canned Meats | A & S Distributors",
+      "description": "High quality corned beef and mutton from Australia. Ox & Palm, Pacific, Colonial, Globe and Crown brands available in various sizes.",
+      "pageDescription": "Premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified with no added hormones or antibiotics.",
+      "keywords": "corned beef, Ox & Palm, Pacific corned beef, corned mutton, halal corned beef, wholesale corned beef"
     },
-    "frozen-foods": {
-      "title": "Frozen Hawaiian Foods - Ready to Heat & Serve | Pacific Islander Foods",
-      "description": "Premium frozen Hawaiian foods including kalua pork and lau lau. Authentic preparation, convenient packaging. Wholesale for restaurants and caterers.",
-      "pageDescription": "Enjoy authentic Hawaiian cuisine with our premium frozen selections. Expertly prepared using traditional methods and flash-frozen to preserve authentic island flavors.",
-      "keywords": "frozen Hawaiian food, kalua pork, lau lau, frozen luau food, Hawaiian catering, frozen poi"
+    "canned-fish-tuna": {
+      "title": "Canned Fish & Tuna - Mackerel & Sardines | A & S Distributors",
+      "description": "Quality canned mackerel, tuna, and sardines in natural oil or tomato sauce. Angel, Pacific Ocean, 777, Brunswick, and Skipper brands.",
+      "pageDescription": "Premium canned fish products including mackerel in natural oil or tomato sauce, chunk tuna, and sardines. Perfect for traditional Pacific Island recipes.",
+      "keywords": "canned mackerel, canned tuna, sardines, Pacific fish, wholesale canned fish, mackerel tomato sauce"
     },
-    "desserts": {
-      "title": "Hawaiian Desserts - Haupia & Traditional Sweets | Pacific Islander Foods",
-      "description": "Authentic Hawaiian desserts and sweet treats including haupia coconut pudding. Easy-to-prepare mixes for luaus and celebrations.",
-      "pageDescription": "Sweeten your menu with our traditional Hawaiian desserts. From creamy haupia to tropical treats, bring the taste of island celebrations to your customers.",
-      "keywords": "haupia, Hawaiian desserts, coconut pudding, luau desserts, Hawaiian sweets, tropical desserts"
+    "canned-vegetables": {
+      "title": "Canned Vegetables - Coconut Milk & Pacific Products | A & S Distributors",
+      "description": "Premium coconut milk, coconut cream, taro leaves, and Pacific Island vegetables. Perfect for traditional recipes and curries.",
+      "pageDescription": "Rich and tasty coconut milk and cream for classic regional dishes, soups, curries, sauces, desserts and beverages. A great alternative to dairy.",
+      "keywords": "coconut milk, coconut cream, taro leaves, palusami, duruka, Pacific vegetables, Fiji coconut"
     },
-    "beverages": {
-      "title": "Polynesian Beverages - Coconut Milk & Tropical Drinks | Pacific Islander Foods",
-      "description": "Premium Polynesian beverages including pure coconut milk. Essential ingredients for authentic tropical drinks and cooking.",
-      "pageDescription": "Refresh your offerings with our premium Polynesian beverages and drink ingredients. Pure, authentic flavors for tropical cocktails, smoothies, and traditional recipes.",
-      "keywords": "coconut milk, Polynesian drinks, tropical beverages, Hawaiian drinks, coconut water, luau drinks"
+    "cookies": {
+      "title": "Cookies - Tim Tam & Pacific Island Favorites | A & S Distributors",
+      "description": "Popular cookies including Tim Tam varieties, FMF cookies, Monte Carlo, and traditional Milk Arrowroot biscuits from Australia and Fiji.",
+      "pageDescription": "Beloved cookie varieties from Australia and the Pacific Islands. From the iconic Tim Tam to traditional Milk Arrowroot biscuits.",
+      "keywords": "Tim Tam, FMF cookies, Milk Arrowroot, Monte Carlo, Australian cookies, Fiji biscuits, wholesale cookies"
+    },
+    "crackers": {
+      "title": "Crackers - FMF Breakfast Crackers & More | A & S Distributors",
+      "description": "Iconic FMF Breakfast Crackers from Fiji and other popular crackers. Available in multiple sizes from retail to bulk.",
+      "pageDescription": "Not just a breakfast cracker but an anytime cracker snack. FMF Breakfast Crackers are one of Fiji's most well-recognized products, loved by all for their unique taste.",
+      "keywords": "FMF breakfast crackers, Fiji crackers, SAO crackers, wholesale crackers, Pacific Island crackers"
     },
     "snacks": {
-      "title": "Hawaiian Snacks - Taro Chips & Island Treats | Pacific Islander Foods",
-      "description": "Delicious Hawaiian snacks including crispy taro chips. Unique island flavors perfect for retail and food service.",
-      "pageDescription": "Discover the unique flavors of Hawaiian snacking. From crispy taro chips to island-inspired treats, our snacks bring authentic Polynesian taste to every bite.",
-      "keywords": "taro chips, Hawaiian snacks, island snacks, Hawaiian chips, tropical snacks, Polynesian snacks"
+      "title": "Snacks - Boja King & Pacific Island Mixes | A & S Distributors",
+      "description": "Popular snacks including Boja King cheese and chicken flavored snacks, traditional mixes like Fiji Mix, Punjabi Mix, and more.",
+      "pageDescription": "Discover the unique flavors of Pacific Island snacking. From Boja King flavored snacks to traditional spiced mixes and fried peas.",
+      "keywords": "Boja King snacks, Fiji mix, Punjabi mix, fried peas, Pacific snacks, wholesale snacks, cheese snacks"
     },
-    "seasonings": {
-      "title": "Hawaiian Seasonings & Sauces - Li Hing Mui & Poke Sauce | Pacific Islander Foods",
-      "description": "Authentic Hawaiian seasonings and sauces including li hing mui powder and poke sauce. Essential flavors for Hawaiian cuisine.",
-      "pageDescription": "Elevate your dishes with our authentic Hawaiian seasonings and sauces. From the sweet-sour magic of li hing mui to our signature poke sauce, we've got your flavor needs covered.",
-      "keywords": "li hing mui, poke sauce, Hawaiian seasoning, Hawaiian sauces, poke bowl sauce, dried plum powder"
+    "candies": {
+      "title": "Candies - Cadbury & Jasons Peanut Ruffs | A & S Distributors",
+      "description": "Popular chocolate bars including Cadbury varieties and the beloved Jasons Peanut Ruffs from the Pacific Islands.",
+      "pageDescription": "Sweet treats from Australia and the Pacific. Cadbury chocolate bars and the iconic Jasons Peanut Ruffs candy.",
+      "keywords": "Cadbury chocolate, Jasons Peanut Ruffs, Pacific candy, Australian chocolate, wholesale candy"
+    },
+    "pickles-spices": {
+      "title": "Pickles & Spices - Curry Powder & Chutneys | A & S Distributors",
+      "description": "Traditional pickles, chutneys, curry powders, and masalas. Punjas and Pacific Choice brands for authentic Indian-Fiji flavors.",
+      "pageDescription": "Authentic spices and condiments for traditional Pacific Island and Indian-Fiji cuisine. Curry powders, masalas, pickles, and chutneys.",
+      "keywords": "curry powder, masala, mango pickle, tamarind chutney, Punjas spices, Fiji spices, wholesale spices"
+    },
+    "oils": {
+      "title": "Oils - Coconut Oil & Ghee Butter | A & S Distributors",
+      "description": "Premium cooking oils including coconut oil, mustard oil, ghee butter, and scented natural coconut oils for body care.",
+      "pageDescription": "Quality cooking oils and traditional ghee butter. Plus our popular scented natural coconut oils in Tiara, Rose, Frangipani, and Sandalwood.",
+      "keywords": "coconut oil, ghee butter, mustard oil, natural coconut oil, Punjas oil, scented coconut oil, wholesale oils"
+    },
+    "breakfast-cereal": {
+      "title": "Breakfast Cereal - Weetbix | A & S Distributors",
+      "description": "Weetbix breakfast cereal from Australia in various sizes. A healthy and nutritious way to start the day.",
+      "pageDescription": "Start your day with Weetbix, Australia's favorite breakfast cereal. High in fiber and whole grain goodness.",
+      "keywords": "Weetbix, breakfast cereal, Australian cereal, wholesale cereal, healthy breakfast"
+    },
+    "powders-teas": {
+      "title": "Powders & Teas - Milo, Kava & More | A & S Distributors",
+      "description": "Popular beverages including Milo powder, Kava (Lawena and Wake), milk powder, cocoa, and quality black teas.",
+      "pageDescription": "Essential powders and teas including the beloved Milo, traditional Kava from Fiji, milk powder, cocoa, and premium black teas.",
+      "keywords": "Milo powder, Kava powder, Fiji Kava, milk powder, black tea, Bushells tea, wholesale powders"
+    },
+    "new-zealand-lamb": {
+      "title": "New Zealand Lamb & Goat - USDA Certified | A & S Distributors",
+      "description": "Premium New Zealand lamb and Australian goat. We are the Northern California Distributor for The New Zealand Lamb Company with our own USDA cutting facility.",
+      "pageDescription": "Fresh New Zealand lamb and Australian goat, cut in our own USDA certified facility. Available whole or pre-packed in various cuts.",
+      "keywords": "New Zealand lamb, Australian goat, lamb shoulder, lamb leg, lamb flap, wholesale lamb, USDA lamb"
+    },
+    "sausages": {
+      "title": "Sausages - Lamb, Chicken & Samoan Bangers | A & S Distributors",
+      "description": "Quality sausages including lamb sausage, chicken sausage, and traditional Samoan beef bangers.",
+      "pageDescription": "Delicious sausages made with quality ingredients. Lamb, chicken, and our popular Samoan Beef Bangers.",
+      "keywords": "lamb sausage, chicken sausage, Samoan beef bangers, wholesale sausages, Pacific sausages"
+    },
+    "white-meats-fish": {
+      "title": "White Meats & Fiji Fish - Duck, Turkey & More | A & S Distributors",
+      "description": "Fresh and frozen meats including Fiji fish (Kawa Kawa, Ulavi), Muscovy duck, turkey tails, and more. Halal options available.",
+      "pageDescription": "Quality white meats and fresh Fiji fish. Kawa Kawa, Parrot Fish, Muscovy Duck, Turkey Tails, and more. Halal options available.",
+      "keywords": "Fiji fish, Kawa Kawa, turkey tails, Muscovy duck, halal poultry, Povi Masima, wholesale meats"
+    },
+    "root-vegetables": {
+      "title": "Root Vegetables - Taro, Cassava & Breadfruit | A & S Distributors",
+      "description": "Fresh and frozen Pacific Island root vegetables including taro, cassava, breadfruit, and more. Essential for traditional recipes.",
+      "pageDescription": "Traditional Pacific Island root vegetables. Taro in multiple varieties, cassava, breadfruit, and other staples for authentic island cooking.",
+      "keywords": "taro, cassava, breadfruit, Pacific vegetables, Fiji vegetables, frozen taro, wholesale root vegetables"
+    },
+    "misc-frozen-fresh": {
+      "title": "Misc. Frozen & Fresh - Ice Cream, Butter & Juices | A & S Distributors",
+      "description": "Various frozen and fresh products including Tuckers ice cream, Anchor butter, Sunquick juice concentrates, and more.",
+      "pageDescription": "A variety of frozen and fresh products from the Pacific. Ice cream, butter, juice concentrates, paranthas, and more.",
+      "keywords": "Tuckers ice cream, Anchor butter, Sunquick juice, Bula Noni, frozen products, wholesale frozen"
     }
   },
   "breadcrumb": {
     "products": "Products"
   },
   "products": {
-    "poi-fresh": {
-      "name": "Fresh Poi",
-      "description": "Traditional Hawaiian poi made from hand-pounded taro root. This staple of Hawaiian cuisine has a smooth, creamy texture and mild, slightly sweet flavor. Perfect for luaus, Hawaiian restaurants, and authentic island dining experiences.",
-      "seoTitle": "Fresh Poi - Traditional Hawaiian Taro | Pacific Islander Foods",
-      "seoDescription": "Authentic Hawaiian poi made from premium taro root. Smooth, creamy texture perfect for luaus and Hawaiian restaurants. Wholesale distributor pricing available.",
-      "seoKeywords": "fresh poi, Hawaiian poi, taro poi, traditional poi, wholesale poi, authentic Hawaiian poi"
+    "ox-palm-corned-beef-7oz": {
+      "name": "Ox & Palm Corned Beef (7 oz)",
+      "description": "Premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef on the market. HACCP & USDA certified with no added hormones or antibiotics. Great for corned beef hash, grilled cheese, pasta, sandwiches, and eggs.",
+      "seoTitle": "Ox & Palm Corned Beef 7oz - Premium Australian | A & S Distributors",
+      "seoDescription": "High quality Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified, no hormones. Wholesale pricing available.",
+      "seoKeywords": "Ox & Palm corned beef, Australian corned beef, premium corned beef, wholesale corned beef"
     },
-    "haupia-mix": {
-      "name": "Haupia Coconut Pudding Mix",
-      "description": "Traditional Hawaiian coconut pudding mix. Simply add water and coconut milk to create the authentic creamy dessert beloved at luaus and celebrations. Each box makes approximately 24 servings.",
-      "seoTitle": "Haupia Coconut Pudding Mix - Hawaiian Dessert | Pacific Islander Foods",
-      "seoDescription": "Easy-to-prepare Hawaiian haupia coconut pudding mix. Traditional luau dessert, makes 24 servings. Wholesale pricing for restaurants and caterers.",
-      "seoKeywords": "haupia mix, coconut pudding mix, Hawaiian dessert, luau dessert, haupia pudding, coconut haupia"
+    "ox-palm-corned-beef-11-5oz": {
+      "name": "Ox & Palm Corned Beef (11.5 oz)",
+      "description": "Premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef on the market. HACCP & USDA certified with no added hormones or antibiotics. Perfect size for family meals.",
+      "seoTitle": "Ox & Palm Corned Beef 11.5oz - Premium Australian | A & S Distributors",
+      "seoDescription": "High quality Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified, no hormones. Wholesale pricing available.",
+      "seoKeywords": "Ox & Palm corned beef, Australian corned beef, premium corned beef, wholesale corned beef"
     },
-    "kalua-pork-frozen": {
-      "name": "Kalua Pork (Frozen)",
-      "description": "Slow-roasted kalua pork prepared in traditional Hawaiian style. Tender, smoky, and perfectly seasoned with Hawaiian sea salt. Ready to heat and serve for authentic island flavor.",
-      "seoTitle": "Frozen Kalua Pork - Authentic Hawaiian Style | Pacific Islander Foods",
-      "seoDescription": "Pre-cooked frozen kalua pork in traditional Hawaiian style. Tender, smoky flavor ready to heat and serve. Perfect for restaurants and catering.",
-      "seoKeywords": "kalua pork, frozen kalua pork, Hawaiian pork, luau pork, smoked pork Hawaiian, kalua pig"
+    "ox-palm-corned-beef-tapered": {
+      "name": "Ox & Palm Corned Beef (Tapered)",
+      "description": "Premium corned beef in a tapered can design. Made from high quality grass-fed Australian Angus beef. HACCP & USDA certified with no added hormones or antibiotics. Easy to slice and serve.",
+      "seoTitle": "Ox & Palm Corned Beef Tapered Can | A & S Distributors",
+      "seoDescription": "Ox & Palm corned beef in convenient tapered can. Premium Australian beef, USDA certified. Wholesale pricing available.",
+      "seoKeywords": "Ox & Palm corned beef, tapered can, Australian corned beef, wholesale corned beef"
     },
-    "lau-lau-frozen": {
-      "name": "Lau Lau (Frozen)",
-      "description": "Traditional Hawaiian lau lau featuring tender pork and fish wrapped in taro and ti leaves. Steamed to perfection using time-honored methods. Simply heat and serve for an authentic Hawaiian experience.",
-      "seoTitle": "Frozen Lau Lau - Traditional Hawaiian Dish | Pacific Islander Foods",
-      "seoDescription": "Authentic frozen lau lau with pork and fish wrapped in taro leaves. Traditional Hawaiian preparation, ready to heat and serve. Wholesale available.",
-      "seoKeywords": "lau lau, frozen lau lau, Hawaiian lau lau, taro leaf wrapped pork, traditional Hawaiian dish"
+    "ox-palm-corned-beef-15oz": {
+      "name": "Ox & Palm Corned Beef (15 oz)",
+      "description": "Large size premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef. HACCP & USDA certified. Perfect for feeding larger groups.",
+      "seoTitle": "Ox & Palm Corned Beef 15oz - Large Size | A & S Distributors",
+      "seoDescription": "Large 15oz Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified. Wholesale pricing available.",
+      "seoKeywords": "Ox & Palm corned beef, large corned beef, Australian corned beef, wholesale corned beef"
     },
-    "coconut-milk-can": {
-      "name": "Premium Coconut Milk",
-      "description": "Rich, creamy coconut milk perfect for cooking and beverages. Made from fresh coconuts with no preservatives. Essential ingredient for authentic Polynesian cuisine including curries, desserts, and tropical drinks.",
-      "seoTitle": "Premium Coconut Milk - Polynesian Cooking Essential | Pacific Islander Foods",
-      "seoDescription": "Pure, creamy coconut milk for authentic Polynesian cooking. No preservatives, rich flavor. Bulk pricing for restaurants and food service.",
-      "seoKeywords": "coconut milk, premium coconut milk, cooking coconut milk, bulk coconut milk, Polynesian coconut milk"
+    "ox-palm-corned-beef-3lb": {
+      "name": "Ox & Palm Corned Beef (3 lb)",
+      "description": "Bulk size premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified with no added hormones or antibiotics. Ideal for restaurants and catering.",
+      "seoTitle": "Ox & Palm Corned Beef 3lb - Bulk Size | A & S Distributors",
+      "seoDescription": "Bulk 3lb Ox & Palm corned beef for restaurants and catering. Premium Australian beef, USDA certified. Wholesale pricing.",
+      "seoKeywords": "Ox & Palm corned beef, bulk corned beef, restaurant corned beef, wholesale corned beef"
     },
-    "taro-chips": {
-      "name": "Taro Chips",
-      "description": "Crispy taro root chips lightly seasoned with Hawaiian sea salt. A delicious alternative to potato chips with a unique, earthy flavor. Perfect for snacking or as a side dish at Hawaiian-themed events.",
-      "seoTitle": "Taro Chips - Hawaiian Sea Salt | Pacific Islander Foods",
-      "seoDescription": "Crispy Hawaiian taro chips with sea salt. Unique earthy flavor, perfect snack alternative. Wholesale and bulk ordering available.",
-      "seoKeywords": "taro chips, Hawaiian taro chips, taro root chips, Hawaiian chips, taro snacks, sea salt chips"
+    "ox-palm-corned-beef-6lb": {
+      "name": "Ox & Palm Corned Beef (6 lb)",
+      "description": "Extra large bulk size premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified. Perfect for large scale food service operations.",
+      "seoTitle": "Ox & Palm Corned Beef 6lb - Extra Large | A & S Distributors",
+      "seoDescription": "Extra large 6lb Ox & Palm corned beef for food service. Premium Australian beef, USDA certified. Wholesale pricing.",
+      "seoKeywords": "Ox & Palm corned beef, bulk corned beef, food service corned beef, wholesale corned beef"
     },
-    "li-hing-mui-powder": {
-      "name": "Li Hing Mui Powder",
-      "description": "Sweet, sour, and salty li hing mui powder made from dried plum. A beloved Hawaiian flavoring for candy, fruits, and drinks. Essential for creating authentic Hawaiian shave ice and local-style treats.",
-      "seoTitle": "Li Hing Mui Powder - Hawaiian Plum Seasoning | Pacific Islander Foods",
-      "seoDescription": "Authentic li hing mui powder from dried plum. Sweet, sour, salty Hawaiian flavoring for shave ice, candy, and fruits. Bulk pricing available.",
-      "seoKeywords": "li hing mui, li hing powder, dried plum powder, Hawaiian seasoning, shave ice topping, crack seed"
+    "pacific-corned-beef-11-5oz": {
+      "name": "Pacific Corned Beef (11.5 oz)",
+      "description": "Made in Australia from at least 99% Australian ingredients. Pacific corned beef has been a favourite for generations, made to a New Zealand recipe with natural juices. A good source of protein and iron. Convenient size for weekday dinners.",
+      "seoTitle": "Pacific Corned Beef 11.5oz - Traditional Recipe | A & S Distributors",
+      "seoDescription": "Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
+      "seoKeywords": "Pacific corned beef, Australian corned beef, traditional corned beef, wholesale corned beef"
     },
-    "poke-sauce": {
-      "name": "Hawaiian Poke Sauce",
-      "description": "Authentic Hawaiian-style poke sauce blend with soy sauce, sesame oil, and traditional seasonings. Perfect base for creating restaurant-quality poke bowls. Simply mix with fresh fish and your favorite toppings.",
-      "seoTitle": "Hawaiian Poke Sauce - Authentic Poke Bowl Seasoning | Pacific Islander Foods",
-      "seoDescription": "Ready-to-use Hawaiian poke sauce for authentic poke bowls. Traditional soy-sesame blend. Wholesale pricing for restaurants and poke shops.",
-      "seoKeywords": "poke sauce, Hawaiian poke sauce, poke bowl sauce, poke seasoning, ahi poke sauce, sashimi sauce"
+    "pacific-corned-beef-7oz": {
+      "name": "Pacific Corned Beef (7 oz)",
+      "description": "Made in Australia from at least 99% Australian ingredients. Pacific corned beef has been a favourite for generations. Made to a New Zealand recipe with natural juices. Perfect portion size.",
+      "seoTitle": "Pacific Corned Beef 7oz - Traditional Recipe | A & S Distributors",
+      "seoDescription": "Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
+      "seoKeywords": "Pacific corned beef, Australian corned beef, traditional corned beef, wholesale corned beef"
     },
-    "teriyaki-sauce": {
-      "name": "Teriyaki Sauce",
-      "description": "Classic Hawaiian-style teriyaki sauce with a perfect balance of sweet and savory. Made with soy sauce, brown sugar, and traditional seasonings. Ideal for marinating meats, glazing, and adding authentic island flavor to your dishes.",
-      "seoTitle": "Teriyaki Sauce - Hawaiian Style | Pacific Islander Foods",
-      "seoDescription": "Authentic Hawaiian-style teriyaki sauce perfect for marinating and glazing. Sweet and savory blend. Wholesale pricing for restaurants and food service.",
-      "seoKeywords": "teriyaki sauce, Hawaiian teriyaki, teriyaki marinade, Hawaiian sauce, teriyaki glaze, Asian sauce"
+    "pacific-corned-beef-15oz": {
+      "name": "Pacific Corned Beef (15 oz)",
+      "description": "Large size Pacific corned beef made in Australia from at least 99% Australian ingredients. Traditional New Zealand recipe with natural juices. Great for family meals.",
+      "seoTitle": "Pacific Corned Beef 15oz - Family Size | A & S Distributors",
+      "seoDescription": "Large Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
+      "seoKeywords": "Pacific corned beef, large corned beef, Australian corned beef, wholesale corned beef"
     },
-    "shoyu-sauce": {
-      "name": "Shoyu Sauce",
-      "description": "Premium Hawaiian shoyu (soy sauce) with rich, umami flavor. Essential ingredient for authentic Hawaiian and Japanese cuisine. Perfect for dipping, seasoning, and cooking. Made with traditional fermentation methods.",
-      "seoTitle": "Shoyu Sauce - Premium Hawaiian Soy Sauce | Pacific Islander Foods",
-      "seoDescription": "Premium Hawaiian shoyu sauce with authentic umami flavor. Essential for Hawaiian and Japanese cooking. Wholesale pricing available.",
-      "seoKeywords": "shoyu sauce, Hawaiian soy sauce, shoyu, soy sauce, Hawaiian seasoning, umami sauce"
+    "pacific-corned-beef-3lb": {
+      "name": "Pacific Corned Beef (3 lb)",
+      "description": "Bulk size Pacific corned beef made in Australia from at least 99% Australian ingredients. Traditional New Zealand recipe. Perfect for restaurants and catering operations.",
+      "seoTitle": "Pacific Corned Beef 3lb - Bulk Size | A & S Distributors",
+      "seoDescription": "Bulk Pacific corned beef for restaurants. Traditional New Zealand recipe, Australian ingredients. Wholesale pricing.",
+      "seoKeywords": "Pacific corned beef, bulk corned beef, restaurant corned beef, wholesale corned beef"
     },
-    "taro-root-fresh": {
-      "name": "Fresh Taro Root",
-      "description": "Premium fresh taro root, the foundation of traditional Hawaiian cuisine. Versatile root vegetable perfect for making poi, taro chips, and traditional dishes. Rich in nutrients and authentic island flavor.",
-      "seoTitle": "Fresh Taro Root - Traditional Hawaiian Staple | Pacific Islander Foods",
-      "seoDescription": "Premium fresh taro root for authentic Hawaiian cooking. Perfect for making poi and traditional dishes. Wholesale pricing available.",
-      "seoKeywords": "taro root, fresh taro, Hawaiian taro, poi taro, traditional Hawaiian food, taro vegetable"
+    "crown-corned-mutton": {
+      "name": "Crown Corned Mutton",
+      "description": "Quality corned mutton from Crown brand. A traditional Pacific Island favorite with rich, savory flavor. Perfect for traditional recipes and island-style cooking.",
+      "seoTitle": "Crown Corned Mutton | A & S Distributors",
+      "seoDescription": "Crown corned mutton, a Pacific Island favorite. Rich flavor for traditional recipes. Wholesale pricing available.",
+      "seoKeywords": "corned mutton, Crown mutton, Pacific Island food, wholesale mutton"
     },
-    "sweet-potato-hawaiian": {
-      "name": "Hawaiian Sweet Potato",
-      "description": "Authentic Hawaiian sweet potato (ʻuala) with vibrant purple or orange flesh. Naturally sweet and nutritious, perfect for traditional Hawaiian dishes, desserts, and modern culinary applications.",
-      "seoTitle": "Hawaiian Sweet Potato - Authentic ʻUala | Pacific Islander Foods",
-      "seoDescription": "Authentic Hawaiian sweet potato with vibrant color and natural sweetness. Perfect for traditional and modern dishes. Wholesale available.",
-      "seoKeywords": "Hawaiian sweet potato, ʻuala, purple sweet potato, Hawaiian yam, traditional Hawaiian food, island sweet potato"
+    "colonial-corned-mutton-halal": {
+      "name": "Colonial Corned Mutton (Halal)",
+      "description": "Halal certified Colonial corned mutton. Premium quality mutton prepared according to Halal standards. A favorite in Pacific Island and Muslim communities.",
+      "seoTitle": "Colonial Corned Mutton Halal | A & S Distributors",
+      "seoDescription": "Halal certified Colonial corned mutton. Premium quality for Pacific Island recipes. Wholesale pricing available.",
+      "seoKeywords": "halal corned mutton, Colonial mutton, halal meat, wholesale halal"
     },
-    "breadfruit-fresh": {
-      "name": "Fresh Breadfruit",
-      "description": "Traditional Polynesian breadfruit (ʻulu), a versatile staple food. When cooked, it has a starchy texture similar to bread or potatoes. Essential ingredient in many Pacific Island cuisines and a sustainable food source.",
-      "seoTitle": "Fresh Breadfruit - Traditional Polynesian Staple | Pacific Islander Foods",
-      "seoDescription": "Authentic fresh breadfruit (ʻulu) from the Pacific Islands. Versatile staple food perfect for traditional cooking. Wholesale pricing available.",
-      "seoKeywords": "breadfruit, ʻulu, Polynesian breadfruit, Hawaiian breadfruit, traditional staple, Pacific Island food"
+    "colonial-corned-mutton-regular": {
+      "name": "Colonial Corned Mutton (Regular)",
+      "description": "Colonial corned mutton in regular preparation. Premium quality mutton with rich, traditional flavor. A staple in Pacific Island cuisine.",
+      "seoTitle": "Colonial Corned Mutton Regular | A & S Distributors",
+      "seoDescription": "Colonial corned mutton, premium quality for traditional recipes. Wholesale pricing available.",
+      "seoKeywords": "corned mutton, Colonial mutton, Pacific Island food, wholesale mutton"
     },
-    "kulolo-mix": {
-      "name": "Kulolo Mix",
-      "description": "Traditional Hawaiian kulolo dessert mix made from taro and coconut. Rich, dense, and naturally sweet. Simply prepare and steam for an authentic Hawaiian dessert that's perfect for luaus and special occasions.",
-      "seoTitle": "Kulolo Mix - Traditional Hawaiian Taro Dessert | Pacific Islander Foods",
-      "seoDescription": "Authentic Hawaiian kulolo mix made from taro and coconut. Traditional dessert perfect for luaus. Easy to prepare, wholesale pricing available.",
-      "seoKeywords": "kulolo, kulolo mix, Hawaiian dessert, taro dessert, coconut taro, traditional Hawaiian sweet"
+    "globe-corned-mutton-halal": {
+      "name": "Globe Corned Mutton (Halal)",
+      "description": "Halal certified Globe corned mutton. Quality mutton prepared according to Halal standards. Popular choice for traditional Pacific Island and Middle Eastern recipes.",
+      "seoTitle": "Globe Corned Mutton Halal | A & S Distributors",
+      "seoDescription": "Halal certified Globe corned mutton. Quality preparation for traditional recipes. Wholesale pricing available.",
+      "seoKeywords": "halal corned mutton, Globe mutton, halal meat, wholesale halal"
     },
-    "malasada-mix": {
-      "name": "Malasada Mix",
-      "description": "Authentic Portuguese-Hawaiian malasada dough mix. Create the beloved Hawaiian donut treat - light, fluffy, and perfect for dusting with sugar. A favorite at festivals and local bakeries throughout the islands.",
-      "seoTitle": "Malasada Mix - Hawaiian Donut Mix | Pacific Islander Foods",
-      "seoDescription": "Authentic malasada mix for creating traditional Hawaiian donuts. Light and fluffy, perfect for festivals. Wholesale pricing for bakeries.",
-      "seoKeywords": "malasada, malasada mix, Hawaiian donut, Portuguese donut, Hawaiian pastry, island donut"
+    "globe-corned-mutton-regular": {
+      "name": "Globe Corned Mutton (Regular)",
+      "description": "Globe corned mutton in regular preparation. Quality mutton with savory flavor, perfect for traditional Pacific Island cooking.",
+      "seoTitle": "Globe Corned Mutton Regular | A & S Distributors",
+      "seoDescription": "Globe corned mutton, quality preparation for traditional recipes. Wholesale pricing available.",
+      "seoKeywords": "corned mutton, Globe mutton, Pacific Island food, wholesale mutton"
     },
-    "coconut-haupia-pie": {
-      "name": "Coconut Haupia Pie",
-      "description": "Ready-to-serve coconut haupia pie with a flaky crust and creamy coconut filling. Traditional Hawaiian dessert that combines the best of island flavors. Perfect for restaurants, bakeries, and special events.",
-      "seoTitle": "Coconut Haupia Pie - Traditional Hawaiian Dessert | Pacific Islander Foods",
-      "seoDescription": "Ready-to-serve coconut haupia pie with authentic island flavors. Traditional Hawaiian dessert perfect for restaurants and events. Wholesale available.",
-      "seoKeywords": "haupia pie, coconut pie, Hawaiian pie, traditional dessert, luau dessert, coconut pudding pie"
+    "angel-mackerel-natural-oil": {
+      "name": "Angel Mackerel in Natural Oil",
+      "description": "Quality canned mackerel packed in natural oil. Angel brand is known for its premium fish products. Perfect for salads, sandwiches, and traditional Pacific Island recipes.",
+      "seoTitle": "Angel Mackerel in Natural Oil | A & S Distributors",
+      "seoDescription": "Premium Angel brand mackerel in natural oil. Quality canned fish for various recipes. Wholesale pricing available.",
+      "seoKeywords": "canned mackerel, Angel mackerel, fish in oil, wholesale canned fish"
     },
-    "chicken-long-rice-frozen": {
-      "name": "Chicken Long Rice (Frozen)",
-      "description": "Traditional Hawaiian chicken long rice, a comforting noodle soup dish. Tender chicken, clear broth, and bean thread noodles. Pre-cooked and frozen, ready to heat and serve for authentic island comfort food.",
-      "seoTitle": "Frozen Chicken Long Rice - Hawaiian Comfort Food | Pacific Islander Foods",
-      "seoDescription": "Pre-cooked frozen chicken long rice, traditional Hawaiian noodle soup. Ready to heat and serve. Perfect for restaurants and catering. Wholesale pricing.",
-      "seoKeywords": "chicken long rice, Hawaiian soup, frozen Hawaiian food, bean thread noodles, Hawaiian comfort food, luau food"
+    "angel-mackerel-tomato-sauce": {
+      "name": "Angel Mackerel in Tomato Sauce",
+      "description": "Quality canned mackerel in rich tomato sauce. Angel brand premium fish ready to eat or use in recipes. A Pacific Island kitchen staple.",
+      "seoTitle": "Angel Mackerel in Tomato Sauce | A & S Distributors",
+      "seoDescription": "Premium Angel brand mackerel in tomato sauce. Ready to eat canned fish. Wholesale pricing available.",
+      "seoKeywords": "canned mackerel, mackerel tomato sauce, Angel mackerel, wholesale canned fish"
     },
-    "squid-luau-frozen": {
-      "name": "Squid Luau (Frozen)",
-      "description": "Traditional Hawaiian squid luau featuring tender squid cooked with taro leaves in coconut milk. Rich, savory, and deeply flavorful. Pre-cooked and frozen, ready to heat and serve for authentic island dining.",
-      "seoTitle": "Frozen Squid Luau - Traditional Hawaiian Dish | Pacific Islander Foods",
-      "seoDescription": "Pre-cooked frozen squid luau with taro leaves and coconut milk. Traditional Hawaiian preparation, ready to heat and serve. Wholesale available.",
-      "seoKeywords": "squid luau, Hawaiian squid, taro leaf dish, frozen Hawaiian food, traditional luau food, coconut squid"
+    "pacific-ocean-mackerel-natural-oil": {
+      "name": "Pacific Ocean Mackerel in Natural Oil",
+      "description": "Pacific Ocean brand mackerel packed in natural oil. Quality canned fish perfect for traditional recipes and everyday meals.",
+      "seoTitle": "Pacific Ocean Mackerel in Natural Oil | A & S Distributors",
+      "seoDescription": "Pacific Ocean brand mackerel in natural oil. Quality canned fish. Wholesale pricing available.",
+      "seoKeywords": "canned mackerel, Pacific Ocean mackerel, fish in oil, wholesale canned fish"
     },
-    "guava-nectar": {
-      "name": "Guava Nectar",
-      "description": "Pure, tropical guava nectar made from fresh Hawaiian guavas. Sweet, fragrant, and refreshing. Perfect for beverages, cocktails, smoothies, or enjoyed on its own. Essential for authentic tropical drink menus.",
-      "seoTitle": "Guava Nectar - Hawaiian Tropical Drink | Pacific Islander Foods",
-      "seoDescription": "Pure Hawaiian guava nectar for tropical beverages and cocktails. Sweet and fragrant. Wholesale pricing for restaurants and bars.",
-      "seoKeywords": "guava nectar, Hawaiian guava, tropical juice, guava drink, Polynesian beverage, island juice"
+    "pacific-ocean-mackerel-tomato-sauce": {
+      "name": "Pacific Ocean Mackerel in Tomato Sauce",
+      "description": "Pacific Ocean brand mackerel in savory tomato sauce. Ready to eat or add to your favorite recipes. A convenient protein source.",
+      "seoTitle": "Pacific Ocean Mackerel in Tomato Sauce | A & S Distributors",
+      "seoDescription": "Pacific Ocean brand mackerel in tomato sauce. Ready to eat. Wholesale pricing available.",
+      "seoKeywords": "canned mackerel, mackerel tomato sauce, Pacific Ocean fish, wholesale canned fish"
     },
-    "passion-fruit-juice": {
-      "name": "Passion Fruit Juice",
-      "description": "Tart and tropical passion fruit juice from Hawaiian passion fruits. Bright, tangy flavor perfect for cocktails, smoothies, and refreshing beverages. A beloved island flavor that adds authentic tropical taste to any drink.",
-      "seoTitle": "Passion Fruit Juice - Hawaiian Tropical Beverage | Pacific Islander Foods",
-      "seoDescription": "Authentic Hawaiian passion fruit juice with bright, tangy flavor. Perfect for cocktails and beverages. Wholesale pricing available.",
-      "seoKeywords": "passion fruit juice, Hawaiian passion fruit, tropical juice, lilikoi juice, island beverage, tropical drink"
+    "777-mackerel-natural-oil": {
+      "name": "777 Mackerel in Natural Oil",
+      "description": "777 brand mackerel packed in natural oil. A trusted brand for quality canned fish. Versatile ingredient for many dishes.",
+      "seoTitle": "777 Mackerel in Natural Oil | A & S Distributors",
+      "seoDescription": "777 brand mackerel in natural oil. Quality canned fish. Wholesale pricing available.",
+      "seoKeywords": "777 mackerel, canned mackerel, fish in oil, wholesale canned fish"
     },
-    "lilikoi-juice": {
-      "name": "Lilikoi Juice",
-      "description": "Authentic Hawaiian lilikoi (passion fruit) juice with intense tropical flavor. Tart, sweet, and aromatic. Perfect for cocktails, desserts, and refreshing drinks. A signature island flavor that captures the essence of Hawaii.",
-      "seoTitle": "Lilikoi Juice - Authentic Hawaiian Passion Fruit | Pacific Islander Foods",
-      "seoDescription": "Authentic Hawaiian lilikoi juice with intense tropical flavor. Perfect for cocktails and beverages. Wholesale pricing for restaurants and bars.",
-      "seoKeywords": "lilikoi juice, Hawaiian lilikoi, passion fruit juice, tropical beverage, island juice, Hawaiian drink"
+    "777-mackerel-tomato-sauce": {
+      "name": "777 Mackerel in Tomato Sauce",
+      "description": "777 brand mackerel in flavorful tomato sauce. Ready to serve or incorporate into recipes. A convenient and tasty protein option.",
+      "seoTitle": "777 Mackerel in Tomato Sauce | A & S Distributors",
+      "seoDescription": "777 brand mackerel in tomato sauce. Ready to eat canned fish. Wholesale pricing available.",
+      "seoKeywords": "777 mackerel, mackerel tomato sauce, canned fish, wholesale canned fish"
     },
-    "macadamia-nuts": {
-      "name": "Macadamia Nuts",
-      "description": "Premium Hawaiian macadamia nuts, roasted to perfection. Rich, buttery, and crunchy. Perfect for snacking, baking, or as a premium ingredient. A beloved Hawaiian treat that's both delicious and nutritious.",
-      "seoTitle": "Macadamia Nuts - Hawaiian Premium Snack | Pacific Islander Foods",
-      "seoDescription": "Premium roasted Hawaiian macadamia nuts. Rich and buttery, perfect for snacking and baking. Wholesale pricing available.",
-      "seoKeywords": "macadamia nuts, Hawaiian macadamia, roasted macadamia, Hawaiian snack, premium nuts, island snack"
+    "brunswick-sardines-soybean-oil": {
+      "name": "Brunswick Sardines in Soybean Oil",
+      "description": "Quality Brunswick sardines packed in soybean oil. A protein-rich snack or meal addition. Perfect for sandwiches, salads, or eating straight from the can.",
+      "seoTitle": "Brunswick Sardines in Soybean Oil | A & S Distributors",
+      "seoDescription": "Brunswick sardines in soybean oil. Quality canned fish, protein-rich. Wholesale pricing available.",
+      "seoKeywords": "Brunswick sardines, canned sardines, sardines in oil, wholesale sardines"
     },
-    "dried-ika": {
-      "name": "Dried Ika (Squid)",
-      "description": "Traditional Hawaiian dried squid snack. Salty, chewy, and full of umami flavor. A popular local snack that's perfect for on-the-go or as a bar snack. Authentic island flavor in every bite.",
-      "seoTitle": "Dried Ika - Hawaiian Squid Snack | Pacific Islander Foods",
-      "seoDescription": "Traditional Hawaiian dried squid snack. Salty and chewy, perfect for snacking. Authentic island flavor. Wholesale pricing available.",
-      "seoKeywords": "dried ika, Hawaiian squid, dried squid snack, island snack, Hawaiian jerky, seafood snack"
+    "skipper-tuna-vegetable-oil": {
+      "name": "Skipper Tuna in Vegetable Oil",
+      "description": "Skipper brand tuna packed in vegetable oil. Quality chunk tuna perfect for sandwiches, salads, and casseroles. A versatile pantry staple.",
+      "seoTitle": "Skipper Tuna in Vegetable Oil | A & S Distributors",
+      "seoDescription": "Skipper brand tuna in vegetable oil. Quality canned tuna. Wholesale pricing available.",
+      "seoKeywords": "Skipper tuna, canned tuna, tuna in oil, wholesale tuna"
     },
-    "arare-rice-crackers": {
-      "name": "Arare Rice Crackers",
-      "description": "Crispy Japanese-Hawaiian rice crackers with soy sauce flavor. Light, crunchy, and addictive. A popular snack in Hawaii that combines Japanese and local island tastes. Perfect for snacking or as a bar accompaniment.",
-      "seoTitle": "Arare Rice Crackers - Hawaiian Japanese Snack | Pacific Islander Foods",
-      "seoDescription": "Crispy Hawaiian arare rice crackers with soy sauce flavor. Popular island snack. Wholesale pricing for retailers and food service.",
-      "seoKeywords": "arare, rice crackers, Hawaiian snack, Japanese rice crackers, soy sauce crackers, island snack"
+    "la-pana-tongol-chunk-tuna": {
+      "name": "L'a Pana Tongol Chunk Tuna",
+      "description": "L'a Pana brand Tongol chunk tuna. Premium quality tuna with firm texture and mild flavor. Perfect for tuna salads, sandwiches, and Pacific Island recipes.",
+      "seoTitle": "L'a Pana Tongol Chunk Tuna | A & S Distributors",
+      "seoDescription": "L'a Pana Tongol chunk tuna. Premium quality canned tuna. Wholesale pricing available.",
+      "seoKeywords": "Tongol tuna, chunk tuna, L'a Pana tuna, wholesale tuna"
+    },
+    "pacific-taste-coconut-milk-13oz": {
+      "name": "Pacific Taste Coconut Milk (13.53 oz)",
+      "description": "Rich and tasty coconut milk goodness. Perfect for classic regional dishes, soups, curries, sauces, desserts and beverages. Coconut milk is also a great alternative to dairy.",
+      "seoTitle": "Pacific Taste Coconut Milk 13oz | A & S Distributors",
+      "seoDescription": "Rich Pacific Taste coconut milk for cooking and beverages. Dairy alternative. Wholesale pricing available.",
+      "seoKeywords": "coconut milk, Pacific Taste, cooking coconut milk, dairy alternative, wholesale coconut milk"
+    },
+    "pacific-taste-coconut-milk-98oz": {
+      "name": "Pacific Taste Coconut Milk (98.1 oz)",
+      "description": "Large format coconut milk for food service and commercial use. Rich and creamy, perfect for restaurants, bakeries, and large-scale cooking operations.",
+      "seoTitle": "Pacific Taste Coconut Milk 98oz - Food Service | A & S Distributors",
+      "seoDescription": "Large format Pacific Taste coconut milk for restaurants. Rich and creamy. Wholesale pricing available.",
+      "seoKeywords": "bulk coconut milk, food service coconut milk, restaurant coconut milk, wholesale coconut milk"
+    },
+    "pacific-crown-fiji-coconut-cream": {
+      "name": "Pacific Crown Fiji Coconut Cream",
+      "description": "Premium Fiji coconut cream with rich, thick consistency. Higher fat content than coconut milk for extra creamy results. Perfect for desserts, curries, and specialty dishes.",
+      "seoTitle": "Pacific Crown Fiji Coconut Cream | A & S Distributors",
+      "seoDescription": "Premium Fiji coconut cream, thick and rich. Perfect for desserts and curries. Wholesale pricing available.",
+      "seoKeywords": "coconut cream, Fiji coconut, Pacific Crown, thick coconut cream, wholesale coconut cream"
+    },
+    "pacific-crown-tahitian-chestnut": {
+      "name": "Pacific Crown Tahitian Chestnut",
+      "description": "Canned Tahitian chestnut (Ivi) ready to use. A traditional Pacific Island ingredient with sweet, nutty flavor. Perfect for desserts and traditional recipes.",
+      "seoTitle": "Pacific Crown Tahitian Chestnut | A & S Distributors",
+      "seoDescription": "Canned Tahitian chestnut (Ivi) for traditional recipes. Sweet nutty flavor. Wholesale pricing available.",
+      "seoKeywords": "Tahitian chestnut, Ivi, Pacific Island food, canned chestnut, wholesale Pacific food"
+    },
+    "watties-spaghetti-tomato-sauce": {
+      "name": "Watties Spaghetti in Tomato Sauce",
+      "description": "Watties spaghetti in rich tomato sauce. A classic New Zealand brand loved for generations. Quick and easy meal or side dish.",
+      "seoTitle": "Watties Spaghetti in Tomato Sauce | A & S Distributors",
+      "seoDescription": "Classic Watties spaghetti in tomato sauce from New Zealand. Quick meal option. Wholesale pricing available.",
+      "seoKeywords": "Watties spaghetti, canned spaghetti, New Zealand food, wholesale canned food"
+    },
+    "watties-baked-beans-tomato-sauce": {
+      "name": "Watties Baked Beans in Tomato Sauce",
+      "description": "Watties baked beans in savory tomato sauce. A New Zealand breakfast staple and versatile side dish. High in protein and fiber.",
+      "seoTitle": "Watties Baked Beans in Tomato Sauce | A & S Distributors",
+      "seoDescription": "Classic Watties baked beans from New Zealand. Breakfast staple. Wholesale pricing available.",
+      "seoKeywords": "Watties baked beans, canned beans, New Zealand food, wholesale baked beans"
+    },
+    "palusami-taro-leaves": {
+      "name": "Palusami Taro Leaves",
+      "description": "Canned taro leaves for making traditional Palusami dish. Taro leaves cooked in coconut cream is a beloved Pacific Island delicacy. Ready to use.",
+      "seoTitle": "Palusami Taro Leaves | A & S Distributors",
+      "seoDescription": "Canned taro leaves for traditional Palusami. Pacific Island delicacy. Wholesale pricing available.",
+      "seoKeywords": "taro leaves, Palusami, Pacific Island food, Samoan food, wholesale taro leaves"
+    },
+    "pacific-crown-duruka-stalk-brine": {
+      "name": "Pacific Crown Duruka Stalk in Brine",
+      "description": "Canned Duruka (Fiji asparagus) in brine. A unique Pacific Island vegetable with mild, delicate flavor. Traditional ingredient in Fijian cuisine.",
+      "seoTitle": "Pacific Crown Duruka Stalk in Brine | A & S Distributors",
+      "seoDescription": "Canned Duruka (Fiji asparagus) in brine. Traditional Fijian vegetable. Wholesale pricing available.",
+      "seoKeywords": "Duruka, Fiji asparagus, Pacific vegetable, Fijian food, wholesale Pacific food"
+    },
+    "milk-arrowroot": {
+      "name": "Milk Arrowroot",
+      "description": "A classic Australian biscuit that has been a household staple for over a century. Light, crisp, and mildly sweet with a delicate milky flavor. Traditionally used for teething babies and beloved by all ages for dunking in tea.",
+      "seoTitle": "Milk Arrowroot Biscuits | A & S Distributors",
+      "seoDescription": "Classic Milk Arrowroot biscuits, an Australian household staple. Light and crisp, perfect for tea. Wholesale pricing available.",
+      "seoKeywords": "milk arrowroot, Australian biscuits, classic cookies, wholesale biscuits"
+    },
+    "fmf-milk-arrowroot": {
+      "name": "FMF Milk Arrowroot",
+      "description": "FMF's take on the classic milk arrowroot biscuit, made in Fiji using quality ingredients. Light and crispy with a gentle sweetness, these biscuits are a must-have in Fijian households. Perfect paired with your morning tea or coffee.",
+      "seoTitle": "FMF Milk Arrowroot Biscuits | A & S Distributors",
+      "seoDescription": "FMF Milk Arrowroot from Fiji. Light, crispy biscuits perfect with tea. Wholesale pricing available.",
+      "seoKeywords": "FMF milk arrowroot, Fiji biscuits, Fijian cookies, wholesale biscuits"
+    },
+    "monte-carlo": {
+      "name": "Monte Carlo",
+      "description": "An iconic Australian cream biscuit featuring two golden coconut-flavored biscuits sandwiching a layer of sweet jam and vanilla cream. First made by Arnott's in 1926, this beloved treat delivers the perfect balance of crunch and sweetness.",
+      "seoTitle": "Monte Carlo Cream Biscuits | A & S Distributors",
+      "seoDescription": "Iconic Monte Carlo cream biscuits with jam and vanilla filling. Australian classic since 1926. Wholesale pricing available.",
+      "seoKeywords": "Monte Carlo, Arnott's biscuits, cream biscuits, Australian cookies, wholesale cookies"
+    },
+    "fmf-coconut-cookies": {
+      "name": "FMF Coconut Cookies",
+      "description": "Made by Fiji's largest food company, these cookies feature the tropical taste of real coconut in every bite. Crisp, golden, and fragrant with toasted coconut, they capture the essence of Pacific Island flavors.",
+      "seoTitle": "FMF Coconut Cookies from Fiji | A & S Distributors",
+      "seoDescription": "FMF Coconut Cookies made in Fiji with real coconut. Crisp and tropical. Wholesale pricing available.",
+      "seoKeywords": "FMF coconut cookies, Fiji cookies, coconut biscuits, Pacific Island food"
+    },
+    "delta-cream": {
+      "name": "Delta Cream",
+      "description": "A beloved Australian cream biscuit with two crunchy biscuits sandwiching a smooth vanilla cream filling. Known for its satisfying snap and sweet cream center, Delta Cream has been a tea-time favorite for generations.",
+      "seoTitle": "Delta Cream Biscuits | A & S Distributors",
+      "seoDescription": "Delta Cream biscuits with vanilla cream filling. Australian tea-time favorite. Wholesale pricing available.",
+      "seoKeywords": "Delta Cream, cream biscuits, Australian cookies, vanilla cream cookies"
+    },
+    "scotch-finger": {
+      "name": "Scotch Finger",
+      "description": "A traditional buttery shortbread-style biscuit originating from Scotland and perfected in Australia. With a rich, crumbly texture and subtle sweetness, Scotch Fingers are the quintessential biscuit for dunking in tea or coffee.",
+      "seoTitle": "Scotch Finger Biscuits | A & S Distributors",
+      "seoDescription": "Traditional Scotch Finger shortbread biscuits. Buttery and perfect for dunking. Wholesale pricing available.",
+      "seoKeywords": "Scotch Finger, shortbread biscuits, buttery cookies, Australian biscuits"
+    },
+    "tim-tam-original": {
+      "name": "Tim Tam Original",
+      "description": "The iconic Australian chocolate biscuit. Two chocolate malted biscuits sandwiched with chocolate cream filling, coated in chocolate. Perfect for the famous 'Tim Tam Slam'.",
+      "seoTitle": "Tim Tam Original Chocolate Biscuits | A & S Distributors",
+      "seoDescription": "Iconic Australian Tim Tam chocolate biscuits. Perfect for Tim Tam Slam. Wholesale pricing available.",
+      "seoKeywords": "Tim Tam, Australian biscuits, chocolate cookies, Tim Tam Slam, wholesale Tim Tam"
+    },
+    "tim-tam-extra-chocolate": {
+      "name": "Tim Tam Extra Chocolate",
+      "description": "For the serious chocolate lover. Arnott's Double Coat Tim Tam features an extra thick chocolate coating surrounding the classic combination of crunchy biscuit and smooth chocolate cream. More chocolate in every bite.",
+      "seoTitle": "Tim Tam Double Coat Extra Chocolate | A & S Distributors",
+      "seoDescription": "Tim Tam Double Coat with extra thick chocolate coating. For serious chocolate lovers. Wholesale pricing available.",
+      "seoKeywords": "Tim Tam double coat, extra chocolate, Arnott's biscuits, Australian chocolate"
+    },
+    "tim-tam-dark-chocolate": {
+      "name": "Tim Tam Dark Chocolate",
+      "description": "A sophisticated twist on the Australian classic. Features two crunchy biscuits with a luscious dark chocolate center, all wrapped in a smooth dark chocolate coating. Rich, intense, and deeply satisfying for dark chocolate enthusiasts.",
+      "seoTitle": "Tim Tam Dark Chocolate Biscuits | A & S Distributors",
+      "seoDescription": "Tim Tam Dark Chocolate with rich dark chocolate coating and center. Wholesale pricing available.",
+      "seoKeywords": "Tim Tam dark chocolate, dark chocolate biscuits, Arnott's, Australian cookies"
+    },
+    "tim-tam-chewy-caramel": {
+      "name": "Tim Tam Chewy Caramel",
+      "description": "A decadent combination of crunchy biscuit and gooey chewy caramel center, all coated in smooth milk chocolate. The caramel adds an irresistible chewiness that makes these Tim Tams impossible to eat just one.",
+      "seoTitle": "Tim Tam Chewy Caramel | A & S Distributors",
+      "seoDescription": "Tim Tam Chewy Caramel with gooey caramel center and chocolate coating. Wholesale pricing available.",
+      "seoKeywords": "Tim Tam caramel, chewy caramel biscuits, Arnott's Tim Tam, Australian chocolate"
+    },
+    "tim-tam-mint": {
+      "name": "Tim Tam Mint",
+      "description": "A refreshing take on Australia's favorite biscuit. Cool peppermint cream sandwiched between two chocolate biscuits and coated in dark chocolate. The perfect balance of mint freshness and chocolate indulgence.",
+      "seoTitle": "Tim Tam Mint Chocolate | A & S Distributors",
+      "seoDescription": "Tim Tam Mint with cool peppermint cream and dark chocolate. Refreshing and indulgent. Wholesale pricing available.",
+      "seoKeywords": "Tim Tam mint, mint chocolate biscuits, Arnott's mint, Australian chocolate"
+    },
+    "shortbread-plain": {
+      "name": "Shortbread Plain",
+      "description": "Traditional Scottish-style shortbread made with simple, quality ingredients: butter, sugar, and flour. These golden, crumbly biscuits have a rich buttery flavor and melt-in-your-mouth texture that pairs perfectly with tea.",
+      "seoTitle": "Plain Shortbread Biscuits | A & S Distributors",
+      "seoDescription": "Traditional plain shortbread, buttery and crumbly. Perfect with tea. Wholesale pricing available.",
+      "seoKeywords": "shortbread, plain shortbread, buttery biscuits, traditional cookies"
+    },
+    "punjas-milk-arrowroot": {
+      "name": "Punjas Milk Arrowroot",
+      "description": "From Fiji's trusted Punjas brand, these milk arrowroot biscuits are a household essential throughout the Pacific. Light, digestible, and gently sweet, they've been enjoyed by generations of Fijian families with their morning and afternoon tea.",
+      "seoTitle": "Punjas Milk Arrowroot from Fiji | A & S Distributors",
+      "seoDescription": "Punjas Milk Arrowroot biscuits from Fiji. Light and perfect with tea. Wholesale pricing available.",
+      "seoKeywords": "Punjas milk arrowroot, Fiji biscuits, Punjas cookies, Pacific Island food"
+    },
+    "big-sister-light-fruit-cake": {
+      "name": "Big Sister Light Fruit Cake",
+      "description": "A classic Australian fruit cake with a lighter color and milder flavor. Studded with sultanas, currants, and mixed peel, this moist cake is perfect for afternoon tea or as a festive treat. A Big Sister family recipe loved for generations.",
+      "seoTitle": "Big Sister Light Fruit Cake | A & S Distributors",
+      "seoDescription": "Big Sister Light Fruit Cake, moist with sultanas and mixed peel. Australian classic. Wholesale pricing available.",
+      "seoKeywords": "Big Sister fruit cake, light fruit cake, Australian cake, Christmas cake"
+    },
+    "big-sister-dark-fruit-cake": {
+      "name": "Big Sister Dark Fruit Cake",
+      "description": "A rich, traditional dark fruit cake packed with dried fruits and warm spices. The darker color comes from molasses and longer baking, creating deeper flavors. A holiday favorite and celebration staple in Australian and Pacific Island homes.",
+      "seoTitle": "Big Sister Dark Fruit Cake | A & S Distributors",
+      "seoDescription": "Big Sister Dark Fruit Cake, rich and traditional with dried fruits. Perfect for celebrations. Wholesale pricing available.",
+      "seoKeywords": "Big Sister dark cake, dark fruit cake, Australian fruit cake, celebration cake"
+    },
+    "fmf-breakfast-crackers-13oz": {
+      "name": "FMF Breakfast Crackers (13.22 oz)",
+      "description": "Not just a breakfast cracker but an anytime cracker snack. One of Fiji's most well-recognised products, loved by all for its unique taste. Has become an iconic product in Fiji and Pacific Island countries. Commonly had with tea and coffee.",
+      "seoTitle": "FMF Breakfast Crackers 13oz | A & S Distributors",
+      "seoDescription": "Iconic FMF Breakfast Crackers from Fiji. Perfect with tea and coffee. Wholesale pricing available.",
+      "seoKeywords": "FMF crackers, Fiji crackers, breakfast crackers, Pacific Island food, wholesale crackers"
+    },
+    "fmf-breakfast-crackers-8oz": {
+      "name": "FMF Breakfast Crackers (8 oz)",
+      "description": "The smaller pack of Fiji's most iconic cracker. Same great taste that has made FMF Breakfast Crackers a household name since 1973. Light, crunchy, and perfect for a quick snack or alongside your favorite spreads and dips.",
+      "seoTitle": "FMF Breakfast Crackers 8oz | A & S Distributors",
+      "seoDescription": "FMF Breakfast Crackers in convenient 8oz size. Fiji's iconic cracker. Wholesale pricing available.",
+      "seoKeywords": "FMF breakfast crackers, Fiji crackers, light crackers, Pacific snacks"
+    },
+    "fmf-breakfast-crackers-4lb": {
+      "name": "FMF Breakfast Crackers (4 lb)",
+      "description": "Bulk pack of Fiji's legendary breakfast crackers for serious fans and food service. These light, crispy crackers from FMF Foods have been a Pacific Island institution for over 50 years. Stock up and never run out.",
+      "seoTitle": "FMF Breakfast Crackers 4lb Bulk | A & S Distributors",
+      "seoDescription": "Bulk 4lb pack of FMF Breakfast Crackers from Fiji. Perfect for food service. Wholesale pricing available.",
+      "seoKeywords": "FMF crackers bulk, Fiji breakfast crackers, wholesale crackers, Pacific food"
+    },
+    "fmf-scotch-finger": {
+      "name": "FMF Scotch Finger",
+      "description": "FMF's buttery shortbread-style finger biscuit made in Fiji. With a rich, golden color and satisfying crunch, these biscuits capture the traditional Scottish recipe while adding a touch of Pacific warmth. Ideal for tea time.",
+      "seoTitle": "FMF Scotch Finger Biscuits | A & S Distributors",
+      "seoDescription": "FMF Scotch Finger biscuits from Fiji. Buttery shortbread style. Wholesale pricing available.",
+      "seoKeywords": "FMF scotch finger, Fiji biscuits, shortbread cookies, Pacific Island food"
+    },
+    "sao-shortbread-cream": {
+      "name": "SAO Shortbread Cream",
+      "description": "A delightful cream-filled version of the classic SAO cracker. Two crispy, lightly salted crackers sandwich a layer of sweet cream for the perfect sweet-savory balance. A popular choice for afternoon tea throughout the Pacific.",
+      "seoTitle": "SAO Shortbread Cream Crackers | A & S Distributors",
+      "seoDescription": "SAO Shortbread Cream crackers with sweet cream filling. Perfect sweet-savory balance. Wholesale pricing available.",
+      "seoKeywords": "SAO cream crackers, shortbread cream, filled crackers, Pacific snacks"
+    },
+    "fmf-breakfast-crackers-11lb": {
+      "name": "FMF Breakfast Crackers (11 lb)",
+      "description": "The largest pack available of Fiji's beloved breakfast crackers. Ideal for restaurants, catering operations, and retailers who need consistent supply of this Pacific Island staple. Same quality, maximum value.",
+      "seoTitle": "FMF Breakfast Crackers 11lb Bulk | A & S Distributors",
+      "seoDescription": "Extra large 11lb bulk pack of FMF Breakfast Crackers. Ideal for food service. Wholesale pricing available.",
+      "seoKeywords": "FMF crackers bulk, wholesale crackers, Fiji food service, Pacific Island crackers"
+    },
+    "fmf-flour": {
+      "name": "FMF Flour",
+      "description": "Premium all-purpose flour from Fiji's largest food manufacturer. Milled to exacting standards under ISO and HACCP certification, FMF flour is the foundation of countless Pacific Island recipes. Perfect for roti, bread, cakes, and pastries.",
+      "seoTitle": "FMF All-Purpose Flour | A & S Distributors",
+      "seoDescription": "Premium FMF flour from Fiji. ISO certified, perfect for baking. Wholesale pricing available.",
+      "seoKeywords": "FMF flour, Fiji flour, baking flour, Pacific Island food"
+    },
+    "corn-puff-mix": {
+      "name": "Corn Puff Mix",
+      "description": "A crunchy medley of corn-based puffs seasoned with savory spices. This popular snack mix brings together different textures and flavors, making it ideal for parties, movie nights, or anytime snacking.",
+      "seoTitle": "Corn Puff Mix Snacks | A & S Distributors",
+      "seoDescription": "Crunchy Corn Puff Mix with savory spices. Perfect party snack. Wholesale pricing available.",
+      "seoKeywords": "corn puff mix, snack mix, party snacks, Pacific Island snacks"
+    },
+    "lakdhi-methai": {
+      "name": "Lakdhi Methai",
+      "description": "A traditional Indian-Fijian sweet snack made from deep-fried dough coated in sugar syrup. These golden, crunchy treats are a staple at celebrations and festivals throughout Fiji's Indo-Fijian community. Sweet, satisfying, and steeped in tradition.",
+      "seoTitle": "Lakdhi Methai Indian Sweets | A & S Distributors",
+      "seoDescription": "Traditional Lakdhi Methai, a sweet Indian-Fijian snack. Perfect for celebrations. Wholesale pricing available.",
+      "seoKeywords": "Lakdhi Methai, Indian sweets, Fiji sweets, traditional snacks"
+    },
+    "murkoo": {
+      "name": "Murkoo",
+      "description": "A beloved South Indian crispy snack made from rice and urad dal flour, shaped into small spirals or sticks. Seasoned with cumin and pepper, Murkoo delivers a satisfying crunch with every bite. A tea-time essential in Indo-Fijian households.",
+      "seoTitle": "Murkoo Crispy Snacks | A & S Distributors",
+      "seoDescription": "Traditional Murkoo crispy snacks with cumin and pepper. Indo-Fijian favorite. Wholesale pricing available.",
+      "seoKeywords": "Murkoo, Indian snacks, crispy snacks, Fiji food, tea time snacks"
+    },
+    "rice-murkoo": {
+      "name": "Rice Murkoo",
+      "description": "A lighter variation of the classic Murkoo made primarily with rice flour for an extra crispy texture. These delicate spiral-shaped snacks have a subtle flavor that makes them perfect for pairing with chutneys or enjoying on their own.",
+      "seoTitle": "Rice Murkoo Snacks | A & S Distributors",
+      "seoDescription": "Light and crispy Rice Murkoo snacks. Made with rice flour. Wholesale pricing available.",
+      "seoKeywords": "Rice Murkoo, rice snacks, crispy snacks, Indian-Fijian food"
+    },
+    "desi-mix": {
+      "name": "Desi Mix",
+      "description": "A savory assortment of traditional Indian snacks including sev, boondi, peanuts, and fried lentils. Seasoned with aromatic spices, this mix offers a variety of textures and flavors in every handful. A go-to snack for chai time.",
+      "seoTitle": "Desi Mix Traditional Snacks | A & S Distributors",
+      "seoDescription": "Savory Desi Mix with sev, boondi, and peanuts. Traditional Indian flavors. Wholesale pricing available.",
+      "seoKeywords": "Desi Mix, Indian snack mix, namkeen, chai snacks, wholesale snacks"
+    },
+    "punjabi-mix": {
+      "name": "Punjabi Mix",
+      "description": "A robust snack mix inspired by the bold flavors of Punjab. Features a hearty combination of crunchy elements including papdi, peanuts, and spiced sev. More substantial and boldly spiced than other mixes, true to Punjabi culinary tradition.",
+      "seoTitle": "Punjabi Mix Snacks | A & S Distributors",
+      "seoDescription": "Bold Punjabi Mix with papdi, peanuts, and spiced sev. Hearty and flavorful. Wholesale pricing available.",
+      "seoKeywords": "Punjabi Mix, Indian snacks, spiced mix, namkeen, wholesale snacks"
+    },
+    "madras-mix": {
+      "name": "Madras Mix",
+      "description": "A South Indian style snack mix featuring the distinctive flavors of Madras (Chennai). Contains a blend of crunchy rice flakes, peanuts, curry leaves, and dried chilies. Offers a unique tangy-spicy taste profile that sets it apart.",
+      "seoTitle": "Madras Mix South Indian Snacks | A & S Distributors",
+      "seoDescription": "South Indian Madras Mix with curry leaves and spices. Tangy and spicy. Wholesale pricing available.",
+      "seoKeywords": "Madras Mix, South Indian snacks, spicy mix, namkeen, Pacific Island food"
+    },
+    "sao-plain": {
+      "name": "SAO Plain",
+      "description": "Thin, crispy savory snacks with a light, airy texture. These plain sev-style snacks are made from chickpea flour and have a subtle seasoning that makes them versatile. Enjoy alone or add to chaats and snack mixes.",
+      "seoTitle": "SAO Plain Savory Snacks | A & S Distributors",
+      "seoDescription": "Light and crispy SAO Plain snacks. Versatile and delicious. Wholesale pricing available.",
+      "seoKeywords": "SAO plain, sev snacks, Indian snacks, savory snacks"
+    },
+    "sao-fine": {
+      "name": "SAO Fine",
+      "description": "Extra-fine textured savory snacks made from chickpea flour. Thinner and more delicate than regular sev, these crispy strands melt in your mouth. Perfect as a topping for chaats, salads, or enjoyed straight from the pack.",
+      "seoTitle": "SAO Fine Thin Savory Snacks | A & S Distributors",
+      "seoDescription": "Extra-fine SAO snacks, thin and delicate. Perfect for toppings. Wholesale pricing available.",
+      "seoKeywords": "SAO fine, fine sev, thin snacks, Indian toppings"
+    },
+    "sao-mix": {
+      "name": "SAO Mix",
+      "description": "A combination of different SAO varieties and complementary snacks blended together for maximum flavor and texture variety. This mix offers something different in every bite, from crunchy to crispy to savory.",
+      "seoTitle": "SAO Mix Variety Snacks | A & S Distributors",
+      "seoDescription": "SAO Mix with variety of textures and flavors. Ultimate snack blend. Wholesale pricing available.",
+      "seoKeywords": "SAO mix, snack variety, mixed snacks, Indian namkeen"
+    },
+    "peanut-peas-mix": {
+      "name": "Peanut Peas Mix",
+      "description": "A protein-packed snack combining roasted peanuts with crispy fried split peas. Lightly salted and seasoned, this mix offers a satisfying crunch and nutty flavor. A popular everyday snack throughout Fiji and the Pacific Islands.",
+      "seoTitle": "Peanut Peas Mix Snacks | A & S Distributors",
+      "seoDescription": "Protein-packed Peanut Peas Mix. Roasted peanuts and crispy peas. Wholesale pricing available.",
+      "seoKeywords": "peanut peas mix, protein snacks, nut mix, Pacific Island snacks"
+    },
+    "fried-peanuts": {
+      "name": "Fried Peanuts",
+      "description": "Whole peanuts deep-fried to golden perfection and seasoned with salt. These crunchy peanuts have a richer, more intense flavor than roasted varieties. A simple, satisfying snack that pairs well with beverages.",
+      "seoTitle": "Fried Peanuts Snacks | A & S Distributors",
+      "seoDescription": "Golden fried peanuts, crispy and salted. Classic snack. Wholesale pricing available.",
+      "seoKeywords": "fried peanuts, salted peanuts, nut snacks, Pacific Island food"
+    },
+    "fried-peas": {
+      "name": "Fried Peas",
+      "description": "Split peas deep-fried until crispy and lightly salted. These crunchy morsels are a staple snack across South Asia and the Pacific. Low in fat compared to other fried snacks, they deliver satisfying crunch with every handful.",
+      "seoTitle": "Fried Peas Crispy Snacks | A & S Distributors",
+      "seoDescription": "Crispy fried peas, lightly salted. Popular Pacific Island snack. Wholesale pricing available.",
+      "seoKeywords": "fried peas, crispy peas, Indian snacks, Pacific Island snacks"
+    },
+    "fried-peas-hot": {
+      "name": "Fried Peas Hot",
+      "description": "Crispy fried split peas coated with a spicy chili seasoning for those who like heat. The same satisfying crunch as regular fried peas but with a fiery kick. A popular choice for spice lovers throughout the Pacific.",
+      "seoTitle": "Hot Fried Peas Spicy Snacks | A & S Distributors",
+      "seoDescription": "Spicy hot fried peas with chili seasoning. For heat lovers. Wholesale pricing available.",
+      "seoKeywords": "hot fried peas, spicy peas, chili snacks, Pacific Island snacks"
+    },
+    "fiji-mix": {
+      "name": "Fiji Mix",
+      "description": "Traditional Fijian snack mix with a blend of savory spiced ingredients. A popular snack for gatherings and everyday munching. Authentic Pacific Island flavors.",
+      "seoTitle": "Fiji Mix Snack | A & S Distributors",
+      "seoDescription": "Traditional Fiji Mix snack with authentic Pacific Island flavors. Wholesale pricing available.",
+      "seoKeywords": "Fiji mix, Pacific snacks, Fijian food, snack mix, wholesale snacks"
+    },
+    "fix-mix-spicy": {
+      "name": "Fix Mix Spicy",
+      "description": "A fiery blend of spiced snack components for those who crave bold flavors. This larger format mix combines various crunchy elements with a generous coating of chili and spices. Perfect for sharing at gatherings where heat is appreciated.",
+      "seoTitle": "Fix Mix Spicy Snacks | A & S Distributors",
+      "seoDescription": "Fiery Fix Mix Spicy blend for heat lovers. Bold flavors. Wholesale pricing available.",
+      "seoKeywords": "Fix Mix spicy, hot snack mix, spicy snacks, Pacific Island food"
+    },
+    "boja-king-cheese-snack-56gr": {
+      "name": "Boja King Cheese Snack (56 gr)",
+      "description": "Light and airy corn puffs bursting with real cheese flavor. Boja King has been a favorite across the Pacific for over 30 years. These baked (not fried) snacks are halal certified and perfect for on-the-go snacking.",
+      "seoTitle": "Boja King Cheese Puffs 56g | A & S Distributors",
+      "seoDescription": "Boja King Cheese puffs, baked with real cheese flavor. Pacific Island favorite. Wholesale pricing available.",
+      "seoKeywords": "Boja King cheese, cheese puffs, Fiji snacks, halal snacks"
+    },
+    "boja-king-cheese-snack-64gr": {
+      "name": "Boja King Cheese Snack (64 gr)",
+      "description": "Crunchy corn puffs coated in savory cheese seasoning. This mid-size pack of Boja King is perfect for individual snacking. Made from corn and rice, baked for a lighter crunch that has made it Fiji's favorite snack for decades.",
+      "seoTitle": "Boja King Cheese Puffs 64g | A & S Distributors",
+      "seoDescription": "Boja King Cheese puffs 64g, crunchy and cheesy. Fiji's favorite. Wholesale pricing available.",
+      "seoKeywords": "Boja King cheese, cheese snacks, Fiji puffs, baked snacks"
+    },
+    "boja-king-cheese-snack-28oz": {
+      "name": "Boja King Cheese Snack (28 oz)",
+      "description": "Family-size pack of Fiji's iconic cheese puffs. Boja King's signature cheese flavor in a generous portion perfect for sharing at parties, family gatherings, or stocking up for cheese puff enthusiasts.",
+      "seoTitle": "Boja King Cheese Puffs 28oz Family Size | A & S Distributors",
+      "seoDescription": "Family-size Boja King Cheese puffs, perfect for sharing. Wholesale pricing available.",
+      "seoKeywords": "Boja King family size, cheese puffs bulk, Fiji snacks, party snacks"
+    },
+    "boja-king-chicken-snack-156oz": {
+      "name": "Boja King Chicken Snack (156 oz)",
+      "description": "Extra-large bulk pack of Boja King's popular chicken-flavored puffs. Same light, crunchy texture with savory chicken seasoning. Ideal for retailers, events, or serious Boja King fans who never want to run out.",
+      "seoTitle": "Boja King Chicken Puffs 156oz Bulk | A & S Distributors",
+      "seoDescription": "Bulk Boja King Chicken puffs, savory chicken flavor. Perfect for retailers. Wholesale pricing available.",
+      "seoKeywords": "Boja King chicken bulk, chicken puffs, Fiji snacks wholesale"
+    },
+    "boja-king-chicken-snack-64oz": {
+      "name": "Boja King Chicken Snack (64 oz)",
+      "description": "Large pack of chicken-flavored corn puffs from Fiji's beloved Boja King brand. Savory, crunchy, and satisfying with the same baked quality that has made Boja King a Pacific Island institution.",
+      "seoTitle": "Boja King Chicken Puffs 64oz | A & S Distributors",
+      "seoDescription": "Large Boja King Chicken puffs pack, savory and crunchy. Wholesale pricing available.",
+      "seoKeywords": "Boja King chicken, chicken snacks, Fiji puffs, Pacific Island food"
+    },
+    "boja-king-chicken-snack-28oz": {
+      "name": "Boja King Chicken Snack (28 oz)",
+      "description": "Family-size bag of Boja King chicken puffs. These light, airy snacks are seasoned with savory chicken flavoring that appeals to all ages. A party essential in Pacific Island households.",
+      "seoTitle": "Boja King Chicken Puffs 28oz | A & S Distributors",
+      "seoDescription": "Family-size Boja King Chicken puffs. Party essential. Wholesale pricing available.",
+      "seoKeywords": "Boja King chicken, family snacks, Fiji puffs, party food"
+    },
+    "boja-king-cheese-20gr": {
+      "name": "Boja King Cheese (20 gr)",
+      "description": "Single-serve pack of Fiji's favorite cheese puffs. Perfect for lunch boxes, convenience stores, or quick snacking. The same great Boja King taste in a portion-controlled size.",
+      "seoTitle": "Boja King Cheese Puffs 20g Single Serve | A & S Distributors",
+      "seoDescription": "Single-serve Boja King Cheese puffs. Perfect for lunch boxes. Wholesale pricing available.",
+      "seoKeywords": "Boja King single serve, cheese puffs small, Fiji snacks, lunch box snacks"
+    },
+    "boja-king-cheese-100gr": {
+      "name": "Boja King Cheese (100 gr)",
+      "description": "A satisfying portion of Boja King cheese puffs for personal snacking. Light, crunchy, and packed with cheesy goodness. This mid-size bag is the choice for everyday enjoyment.",
+      "seoTitle": "Boja King Cheese Puffs 100g | A & S Distributors",
+      "seoDescription": "Boja King Cheese puffs 100g, perfect personal size. Wholesale pricing available.",
+      "seoKeywords": "Boja King cheese, cheese snacks, Fiji puffs, personal size"
+    },
+    "boja-king-cheese-250gr": {
+      "name": "Boja King Cheese (250 gr)",
+      "description": "Sharing-size pack of Boja King's legendary cheese puffs. Enough for movie nights, small gatherings, or a week of snacking. The cheese flavor that Pacific Islanders have loved for over three decades.",
+      "seoTitle": "Boja King Cheese Puffs 250g Sharing Size | A & S Distributors",
+      "seoDescription": "Sharing-size Boja King Cheese puffs 250g. Perfect for gatherings. Wholesale pricing available.",
+      "seoKeywords": "Boja King sharing size, cheese puffs, Fiji snacks, party snacks"
+    },
+    "boja-king-chicken-20gr": {
+      "name": "Boja King Chicken (20 gr)",
+      "description": "Pocket-size pack of chicken-flavored Boja King puffs. Convenient for on-the-go snacking, school lunches, or vending. All the savory chicken taste in a perfectly portioned package.",
+      "seoTitle": "Boja King Chicken Puffs 20g | A & S Distributors",
+      "seoDescription": "Pocket-size Boja King Chicken puffs. On-the-go snacking. Wholesale pricing available.",
+      "seoKeywords": "Boja King small, chicken puffs, convenience snacks, Fiji food"
+    },
+    "boja-king-chicken-28gr": {
+      "name": "Boja King Chicken (28 gr)",
+      "description": "Individual serving of Boja King's popular chicken puffs. Slightly larger than the 20g pack, this size offers more satisfaction while remaining perfectly portable. Baked, halal certified, and delicious.",
+      "seoTitle": "Boja King Chicken Puffs 28g | A & S Distributors",
+      "seoDescription": "Individual Boja King Chicken puffs 28g. Halal certified. Wholesale pricing available.",
+      "seoKeywords": "Boja King individual, chicken snacks, halal puffs, Fiji snacks"
+    },
+    "boja-king-chicken-100gr": {
+      "name": "Boja King Chicken (100 gr)",
+      "description": "Personal-size bag of Boja King chicken puffs. Made from quality corn and rice, baked to crunchy perfection with savory chicken seasoning. The right size for everyday snacking enjoyment.",
+      "seoTitle": "Boja King Chicken Puffs 100g | A & S Distributors",
+      "seoDescription": "Personal-size Boja King Chicken puffs 100g. Crunchy and savory. Wholesale pricing available.",
+      "seoKeywords": "Boja King chicken, baked puffs, Fiji snacks, everyday snacks"
+    },
+    "boja-king-ufo-burger-20gr": {
+      "name": "Boja King UFO's Burger (20 gr)",
+      "description": "Fun, flying saucer-shaped corn snacks with bold burger flavor. UFO's are a Fiji favorite, especially with kids who love the unique shape and savory taste. Single-serve size perfect for lunch boxes.",
+      "seoTitle": "Boja King UFO Burger Snacks 20g | A & S Distributors",
+      "seoDescription": "Boja King UFO burger-flavored snacks. Fun shape, great taste. Wholesale pricing available.",
+      "seoKeywords": "Boja King UFO, burger snacks, kids snacks, Fiji food"
+    },
+    "boja-king-ufo-burger-100gr": {
+      "name": "Boja King UFO's Burger (100 gr)",
+      "description": "Mid-size bag of UFO's burger-flavored corn snacks. The distinctive saucer shape and savory burger seasoning have made UFO's one of the most popular snacks in the South Pacific region.",
+      "seoTitle": "Boja King UFO Burger Snacks 100g | A & S Distributors",
+      "seoDescription": "Boja King UFO burger snacks 100g. South Pacific favorite. Wholesale pricing available.",
+      "seoKeywords": "UFO snacks, burger flavor, Fiji puffs, Pacific Island snacks"
+    },
+    "boja-king-ufo-burger-200gr": {
+      "name": "Boja King UFO's Burger (200 gr)",
+      "description": "Family-size pack of Fiji's beloved UFO's burger-flavored snacks. These flying saucer-shaped treats deliver crunchy, savory satisfaction. Perfect for sharing or stocking up on this Pacific Island classic.",
+      "seoTitle": "Boja King UFO Burger Snacks 200g Family | A & S Distributors",
+      "seoDescription": "Family-size Boja King UFO burger snacks. Perfect for sharing. Wholesale pricing available.",
+      "seoKeywords": "UFO snacks family, burger puffs, Fiji snacks, Pacific Island food"
+    },
+    "cadbury-crunchie-bars": {
+      "name": "Cadbury Crunchie Bars",
+      "description": "Classic Cadbury Crunchie with golden honeycomb center covered in milk chocolate. A beloved Australian confection with satisfying crunch and sweetness.",
+      "seoTitle": "Cadbury Crunchie Bars | A & S Distributors",
+      "seoDescription": "Classic Cadbury Crunchie honeycomb chocolate bars. Australian favorite. Wholesale pricing available.",
+      "seoKeywords": "Cadbury Crunchie, honeycomb chocolate, Australian candy, wholesale chocolate"
+    },
+    "cadbury-dream-bars": {
+      "name": "Cadbury Dream Bars",
+      "description": "Silky smooth white chocolate from Cadbury. Dream bars offer a creamy, melt-in-your-mouth experience with the quality you expect from one of Australia's most trusted chocolate brands. A sweeter alternative to milk chocolate.",
+      "seoTitle": "Cadbury Dream White Chocolate Bars | A & S Distributors",
+      "seoDescription": "Cadbury Dream white chocolate bars, silky and smooth. Australian favorite. Wholesale pricing available.",
+      "seoKeywords": "Cadbury Dream, white chocolate, Cadbury bars, Australian chocolate"
+    },
+    "cadbury-fruit-nut": {
+      "name": "Cadbury Fruit Nut",
+      "description": "Classic Cadbury Dairy Milk chocolate studded with juicy raisins and crunchy almonds. This beloved combination of fruit, nuts, and smooth milk chocolate has been a favorite for generations. Perfect for those who like texture with their chocolate.",
+      "seoTitle": "Cadbury Fruit & Nut Chocolate | A & S Distributors",
+      "seoDescription": "Cadbury Fruit & Nut with raisins and almonds. Classic combination. Wholesale pricing available.",
+      "seoKeywords": "Cadbury Fruit Nut, raisins almonds chocolate, Australian chocolate"
+    },
+    "cadbury-dairy-milk-bar": {
+      "name": "Cadbury Dairy Milk Bar",
+      "description": "The iconic purple-wrapped chocolate bar that has defined milk chocolate for over a century. Made with fresh milk and cocoa, Cadbury Dairy Milk delivers that unmistakable creamy sweetness loved across Australia and the Pacific.",
+      "seoTitle": "Cadbury Dairy Milk Chocolate Bar | A & S Distributors",
+      "seoDescription": "Classic Cadbury Dairy Milk chocolate. Iconic creamy taste. Wholesale pricing available.",
+      "seoKeywords": "Cadbury Dairy Milk, milk chocolate, Cadbury bars, Australian chocolate"
+    },
+    "jasons-peanut-ruffs-20gr": {
+      "name": "Jasons Peanut Ruffs (20 gr)",
+      "description": "Single-serve pack of Fiji's beloved peanut butter puffs. Made with real peanut butter and baked (not fried), Peanut Ruffs have been a Pacific Islander favorite for over 30 years. Light, nutty, and utterly addictive.",
+      "seoTitle": "Jasons Peanut Ruffs 20g | A & S Distributors",
+      "seoDescription": "Single-serve Jasons Peanut Ruffs, made with real peanut butter. Fiji favorite. Wholesale pricing available.",
+      "seoKeywords": "Jasons Peanut Ruffs, peanut butter puffs, Fiji snacks, Pacific Island candy"
+    },
+    "jasons-peanut-ruffs-64gr": {
+      "name": "Jasons Peanut Ruffs (64 gr)",
+      "description": "Mid-size bag of the legendary Peanut Ruffs from Fiji. These light, airy puffs are made with wholesome corn, rice, and real peanut butter flavor. Once you start, good luck stopping - they're that good.",
+      "seoTitle": "Jasons Peanut Ruffs 64g | A & S Distributors",
+      "seoDescription": "Jasons Peanut Ruffs 64g bag, light peanut butter puffs. Wholesale pricing available.",
+      "seoKeywords": "Peanut Ruffs, Jasons snacks, peanut puffs, Fiji candy"
+    },
+    "jasons-peanut-ruffs-156gr": {
+      "name": "Jasons Peanut Ruffs (156 gr)",
+      "description": "Large sharing bag of Peanut Ruffs for true fans. These iconic Fiji puffs combine the richness of peanut butter with a light, crunchy texture. Perfect for parties or satisfying serious Peanut Ruffs cravings.",
+      "seoTitle": "Jasons Peanut Ruffs 156g Large | A & S Distributors",
+      "seoDescription": "Large Jasons Peanut Ruffs 156g for sharing. Fiji's favorite snack. Wholesale pricing available.",
+      "seoKeywords": "Peanut Ruffs large, Jasons Fiji, peanut butter snacks, Pacific Island food"
+    },
+    "amra-pickles": {
+      "name": "Amra Pickles",
+      "description": "Traditional Fijian pickle made from amra fruit (Indian hog plum). This tangy, spiced condiment adds a burst of sour-sweet flavor to meals. A beloved accompaniment to curries and rice dishes in Indo-Fijian households.",
+      "seoTitle": "Amra Pickles Traditional Fiji | A & S Distributors",
+      "seoDescription": "Traditional Amra Pickles from Fiji. Tangy and spiced. Wholesale pricing available.",
+      "seoKeywords": "Amra pickles, Fiji pickles, Indian hog plum, traditional condiments"
+    },
+    "kamrak-star-pickle-apple": {
+      "name": "Kamrak Star Pickle Apple",
+      "description": "Pickled star apple (kamrak/carambola) prepared in traditional Fijian style. The distinctive star-shaped fruit is preserved with spices to create a unique sweet-sour pickle. A specialty condiment treasured in Indo-Fijian cuisine.",
+      "seoTitle": "Kamrak Star Apple Pickle | A & S Distributors",
+      "seoDescription": "Kamrak Star Apple Pickle, traditional Fiji preparation. Unique sweet-sour flavor. Wholesale pricing available.",
+      "seoKeywords": "Kamrak pickle, star apple, carambola pickle, Fiji condiments"
+    },
+    "kutchla-hot-mango-chutney": {
+      "name": "Kutchla Hot Mango Chutney",
+      "description": "A fiery mango chutney with bold spices and serious heat. Made in the kutchla style with raw green mangoes, chilies, and aromatic spices. For those who like their condiments with a kick alongside their curry.",
+      "seoTitle": "Kutchla Hot Mango Chutney | A & S Distributors",
+      "seoDescription": "Spicy Kutchla Hot Mango Chutney. Bold flavors with serious heat. Wholesale pricing available.",
+      "seoKeywords": "hot mango chutney, kutchla, spicy chutney, Fiji condiments"
+    },
+    "homemade-mango": {
+      "name": "Homemade Mango",
+      "description": "Traditional homestyle mango pickle made the way Fijian grandmothers have prepared it for generations. Raw mangoes preserved with mustard oil, fenugreek, and warming spices. The authentic taste of Fiji in every jar.",
+      "seoTitle": "Homemade Style Mango Pickle | A & S Distributors",
+      "seoDescription": "Homemade style mango pickle, traditional Fiji recipe. Authentic taste. Wholesale pricing available.",
+      "seoKeywords": "homemade mango pickle, traditional pickle, Fiji mango, Indian-Fijian food"
+    },
+    "tamarind-chutney": {
+      "name": "Tamarind Chutney",
+      "description": "Sweet and tangy tamarind chutney, perfect as a condiment for Indian and Pacific Island dishes. Essential accompaniment for samosas, pakoras, and more.",
+      "seoTitle": "Tamarind Chutney | A & S Distributors",
+      "seoDescription": "Sweet and tangy tamarind chutney. Perfect condiment for Indian dishes. Wholesale pricing available.",
+      "seoKeywords": "tamarind chutney, Indian condiment, Pacific condiment, wholesale chutney"
+    },
+    "bongo-chili": {
+      "name": "Bongo Chili",
+      "description": "Fiery chili pickle made with bird's eye chilies and traditional spices. This intensely hot condiment is for serious heat seekers who want to add explosive flavor to their meals. A little goes a long way.",
+      "seoTitle": "Bongo Chili Hot Pickle | A & S Distributors",
+      "seoDescription": "Bongo Chili, intensely hot chili pickle. For heat seekers. Wholesale pricing available.",
+      "seoKeywords": "Bongo Chili, hot pickle, chili condiment, spicy Fiji food"
+    },
+    "haldi-powder-turmeric": {
+      "name": "Haldi Powder Turmeric",
+      "description": "Pure ground turmeric (haldi) essential for authentic curries and traditional cooking. This golden spice adds vibrant color and earthy, slightly bitter warmth to dishes. Also valued for its traditional wellness properties.",
+      "seoTitle": "Haldi Turmeric Powder | A & S Distributors",
+      "seoDescription": "Pure Haldi turmeric powder for curries and cooking. Vibrant color. Wholesale pricing available.",
+      "seoKeywords": "haldi, turmeric powder, curry spices, Indian spices, Fiji food"
+    },
+    "pacific-choice-curry-powder-mild": {
+      "name": "Pacific Choice Curry Powder Mild",
+      "description": "A gentle curry blend for those who prefer flavor without the heat. Pacific Choice mild curry powder combines coriander, turmeric, cumin, and warm spices in perfect proportion. Family-friendly for everyday cooking.",
+      "seoTitle": "Pacific Choice Mild Curry Powder | A & S Distributors",
+      "seoDescription": "Pacific Choice Mild Curry Powder, gentle blend for family cooking. Wholesale pricing available.",
+      "seoKeywords": "mild curry powder, Pacific Choice, gentle spices, family curry"
+    },
+    "pacific-choice-curry-powder-hot": {
+      "name": "Pacific Choice Curry Powder Hot",
+      "description": "Pacific Choice curry powder with extra chili kick for those who like it hot. Same aromatic blend of coriander, turmeric, and spices but with added heat. Perfect for Fiji-style curries with bold flavor.",
+      "seoTitle": "Pacific Choice Hot Curry Powder | A & S Distributors",
+      "seoDescription": "Pacific Choice Hot Curry Powder with extra heat. Bold Fiji-style flavor. Wholesale pricing available.",
+      "seoKeywords": "hot curry powder, Pacific Choice, spicy curry, Fiji spices"
+    },
+    "punjas-curry-powder": {
+      "name": "Punjas Curry Powder",
+      "description": "The authentic Fiji-style curry powder from Punjas, containing 52% coriander, turmeric, cinnamon, fenugreek, and other quality spices. ISO certified and processed to Australian standards. The foundation of countless Fiji curries.",
+      "seoTitle": "Punjas Curry Powder Fiji Style | A & S Distributors",
+      "seoDescription": "Authentic Punjas Curry Powder, Fiji style. ISO certified quality. Wholesale pricing available.",
+      "seoKeywords": "Punjas curry, Fiji curry powder, authentic spices, wholesale curry"
+    },
+    "sweet-mango-pickle": {
+      "name": "Sweet Mango Pickle",
+      "description": "A milder, sweeter take on traditional mango pickle. Raw mangoes preserved with sugar, spices, and a touch of vinegar create a tangy-sweet condiment. Perfect for those who want mango pickle flavor without intense heat.",
+      "seoTitle": "Sweet Mango Pickle | A & S Distributors",
+      "seoDescription": "Sweet Mango Pickle, tangy-sweet condiment. Milder heat level. Wholesale pricing available.",
+      "seoKeywords": "sweet mango pickle, mild pickle, mango condiment, Fiji food"
+    },
+    "punjas-hot-masala-12pk": {
+      "name": "Punjas Hot Masala 12pk",
+      "description": "Punjas Garam (Hot) Masala in a convenient 12-pack. This aromatic spice blend features warming spices like cardamom, cinnamon, cloves, and black pepper. Essential for finishing curries with authentic Fiji-Indian flavor.",
+      "seoTitle": "Punjas Hot Garam Masala 12 Pack | A & S Distributors",
+      "seoDescription": "Punjas Hot Masala 12-pack, authentic garam masala blend. Wholesale pricing available.",
+      "seoKeywords": "Punjas masala, garam masala, hot spices, Fiji spice blend"
+    },
+    "punjas-hot-masala-24pk": {
+      "name": "Punjas Hot Masala 24pk",
+      "description": "Bulk 24-pack of Punjas Garam Masala for restaurants and frequent cooks. The same authentic blend of warming spices that Fiji families have relied on for generations. Stock up and never run out.",
+      "seoTitle": "Punjas Hot Garam Masala 24 Pack | A & S Distributors",
+      "seoDescription": "Bulk Punjas Hot Masala 24-pack for restaurants. Authentic blend. Wholesale pricing available.",
+      "seoKeywords": "Punjas masala bulk, garam masala wholesale, Fiji spices, restaurant supplies"
+    },
+    "punjas-meat-masala": {
+      "name": "Punjas Meat Masala",
+      "description": "A robust spice blend specially formulated for meat dishes. Punjas Meat Masala contains a carefully balanced mix of spices that complement lamb, goat, and beef. Creates deeply flavored, aromatic meat curries.",
+      "seoTitle": "Punjas Meat Masala Spice Blend | A & S Distributors",
+      "seoDescription": "Punjas Meat Masala, specially blended for meat dishes. Rich flavor. Wholesale pricing available.",
+      "seoKeywords": "Punjas meat masala, meat spices, curry blend, Fiji spices"
+    },
+    "punjas-coconut-oil": {
+      "name": "Punjas Coconut Oil",
+      "description": "Quality coconut oil from Punjas, a trusted Fiji brand. Perfect for cooking, frying, and baking. Traditional oil used throughout the Pacific Islands.",
+      "seoTitle": "Punjas Coconut Oil | A & S Distributors",
+      "seoDescription": "Quality Punjas coconut oil from Fiji. Perfect for cooking. Wholesale pricing available.",
+      "seoKeywords": "Punjas coconut oil, Fiji coconut oil, cooking oil, wholesale coconut oil"
+    },
+    "punjas-mustard-oil-750ml": {
+      "name": "Punjas Mustard Oil (750 ml)",
+      "description": "Pure mustard oil with its characteristic pungent aroma and flavor. Essential for authentic Bengali and North Indian cooking, pickling, and massage. This traditional oil adds distinctive taste to dishes that no other oil can replicate.",
+      "seoTitle": "Punjas Mustard Oil 750ml | A & S Distributors",
+      "seoDescription": "Pure Punjas Mustard Oil 750ml for authentic cooking. Traditional flavor. Wholesale pricing available.",
+      "seoKeywords": "Punjas mustard oil, pure mustard oil, Indian cooking oil, Fiji food"
+    },
+    "punjas-mustard-oil-2lt": {
+      "name": "Punjas Mustard Oil (2 lt)",
+      "description": "Larger format Punjas mustard oil for households that use this essential cooking oil regularly. The same pungent, flavorful oil used in traditional Indian-Fijian cooking, pickling, and frying.",
+      "seoTitle": "Punjas Mustard Oil 2 Liter | A & S Distributors",
+      "seoDescription": "Punjas Mustard Oil 2 liter size. Traditional cooking essential. Wholesale pricing available.",
+      "seoKeywords": "mustard oil 2L, Punjas oil, cooking oil bulk, Indian oil"
+    },
+    "punjas-mustard-oil-4lt": {
+      "name": "Punjas Mustard Oil (4 lt)",
+      "description": "Bulk size Punjas mustard oil for restaurants and serious home cooks. High smoke point makes it ideal for frying and sauteing. The distinctive mustard flavor transforms vegetable dishes and adds authenticity to traditional recipes.",
+      "seoTitle": "Punjas Mustard Oil 4 Liter Bulk | A & S Distributors",
+      "seoDescription": "Bulk Punjas Mustard Oil 4 liter for restaurants. High smoke point. Wholesale pricing available.",
+      "seoKeywords": "mustard oil bulk, Punjas oil 4L, restaurant cooking oil, wholesale oil"
+    },
+    "punjas-ghee-butter-750ml": {
+      "name": "Punjas Ghee Butter (750 ml)",
+      "description": "Clarified butter (ghee) from Fiji's trusted Punjas brand. Rich, nutty flavor with high smoke point, making it ideal for frying, sauteing, and finishing dishes. An essential fat in Indian-Fijian cooking and Ayurvedic tradition.",
+      "seoTitle": "Punjas Ghee Butter 750ml | A & S Distributors",
+      "seoDescription": "Punjas Ghee clarified butter 750ml. Rich and versatile. Wholesale pricing available.",
+      "seoKeywords": "Punjas ghee, clarified butter, cooking ghee, Fiji ghee"
+    },
+    "punjas-ghee-butter-2lt": {
+      "name": "Punjas Ghee Butter (2 lt)",
+      "description": "Family size Punjas ghee for regular cooking use. This clarified butter is shelf-stable and adds incomparable richness to rice, dal, rotis, and sweets. A staple in Indo-Fijian kitchens for generations.",
+      "seoTitle": "Punjas Ghee Butter 2 Liter | A & S Distributors",
+      "seoDescription": "Punjas Ghee 2 liter family size. Essential cooking fat. Wholesale pricing available.",
+      "seoKeywords": "Punjas ghee 2L, ghee family size, clarified butter, Fiji cooking"
+    },
+    "punjas-vanaspati": {
+      "name": "Punjas Vanaspati",
+      "description": "Vegetable-based ghee alternative from Punjas. This hydrogenated vegetable fat provides similar cooking properties to ghee at a lower cost. Commonly used for frying, baking, and making traditional sweets.",
+      "seoTitle": "Punjas Vanaspati Vegetable Ghee | A & S Distributors",
+      "seoDescription": "Punjas Vanaspati vegetable ghee alternative. Versatile cooking fat. Wholesale pricing available.",
+      "seoKeywords": "Punjas vanaspati, vegetable ghee, cooking fat, Fiji food"
+    },
+    "punjas-ghee-butter-4lt": {
+      "name": "Punjas Ghee Butter (4 lt)",
+      "description": "Bulk container of Punjas premium ghee for commercial kitchens and heavy home use. Pure clarified butter that withstands high heat without burning. The foundation of authentic Indo-Fijian cuisine.",
+      "seoTitle": "Punjas Ghee Butter 4 Liter Bulk | A & S Distributors",
+      "seoDescription": "Bulk Punjas Ghee 4 liter for commercial use. Premium clarified butter. Wholesale pricing available.",
+      "seoKeywords": "Punjas ghee bulk, commercial ghee, clarified butter 4L, wholesale ghee"
+    },
+    "natural-coconut-oil-tiara": {
+      "name": "Natural Coconut Oil Tiara",
+      "description": "Scented natural coconut oil infused with Tiare flower fragrance. Perfect for skin and hair care. Traditional Pacific Island beauty product with tropical aroma.",
+      "seoTitle": "Natural Coconut Oil Tiara Scent | A & S Distributors",
+      "seoDescription": "Tiare scented natural coconut oil for body care. Traditional Pacific beauty. Wholesale pricing available.",
+      "seoKeywords": "Tiare coconut oil, scented coconut oil, body oil, Pacific beauty, wholesale coconut oil"
+    },
+    "natural-coconut-oil-frangipani": {
+      "name": "Natural Coconut Oil Frangipani",
+      "description": "Pure coconut oil infused with the intoxicating scent of frangipani flowers. This body oil moisturizes skin while leaving a beautiful tropical fragrance. A traditional Pacific Island beauty product used for generations.",
+      "seoTitle": "Natural Coconut Oil Frangipani Scent | A & S Distributors",
+      "seoDescription": "Frangipani scented natural coconut oil for skin. Tropical fragrance. Wholesale pricing available.",
+      "seoKeywords": "frangipani coconut oil, scented body oil, Pacific beauty, tropical oil"
+    },
+    "natural-coconut-oil-rose": {
+      "name": "Natural Coconut Oil Rose",
+      "description": "Luxurious coconut oil delicately scented with rose. This body care oil combines the moisturizing power of coconut with the timeless elegance of rose fragrance. Perfect for skin and hair care rituals.",
+      "seoTitle": "Natural Coconut Oil Rose Scent | A & S Distributors",
+      "seoDescription": "Rose scented natural coconut oil for body care. Elegant fragrance. Wholesale pricing available.",
+      "seoKeywords": "rose coconut oil, scented body oil, rose fragrance, Pacific beauty"
+    },
+    "natural-coconut-oil-infusion": {
+      "name": "Natural Coconut Oil Infusion",
+      "description": "A unique blend of coconut oil infused with multiple tropical botanicals. This multi-scented body oil offers a complex fragrance experience while deeply moisturizing skin. Traditional Pacific Island beauty meets modern wellness.",
+      "seoTitle": "Natural Coconut Oil Botanical Infusion | A & S Distributors",
+      "seoDescription": "Botanical infusion coconut oil for body care. Multi-scented blend. Wholesale pricing available.",
+      "seoKeywords": "infused coconut oil, botanical oil, body care, Pacific beauty products"
+    },
+    "natural-coconut-oil-sandalwood": {
+      "name": "Natural Coconut Oil Sandalwood",
+      "description": "Pure coconut oil with the warm, woody scent of sandalwood. This grounding fragrance has been prized across Asia and the Pacific for centuries. Excellent for massage, skin care, and creating a calming atmosphere.",
+      "seoTitle": "Natural Coconut Oil Sandalwood Scent | A & S Distributors",
+      "seoDescription": "Sandalwood scented natural coconut oil. Warm, woody fragrance. Wholesale pricing available.",
+      "seoKeywords": "sandalwood coconut oil, scented oil, massage oil, Pacific beauty"
+    },
+    "weetbix-breakfast-cereal-13oz": {
+      "name": "Weetbix Breakfast Cereal (13.22 oz)",
+      "description": "Australia's favorite breakfast cereal. Weetbix is made from whole grain wheat, high in fiber and iron. A healthy and nutritious way to start the day.",
+      "seoTitle": "Weetbix Breakfast Cereal 13oz | A & S Distributors",
+      "seoDescription": "Weetbix breakfast cereal from Australia. Whole grain, high fiber. Wholesale pricing available.",
+      "seoKeywords": "Weetbix, Australian cereal, whole grain cereal, healthy breakfast, wholesale cereal"
+    },
+    "weetbix-breakfast-cereal-20oz": {
+      "name": "Weetbix Breakfast Cereal (20 oz)",
+      "description": "A larger box of Australia's most trusted breakfast cereal. Weetbix biscuits are 97% whole grain wheat, high in fiber and iron, with low sugar. This size is perfect for families who start every morning with Weetbix.",
+      "seoTitle": "Weetbix Breakfast Cereal 20oz | A & S Distributors",
+      "seoDescription": "Weetbix 20oz family size, 97% whole grain wheat. Healthy Australian breakfast. Wholesale pricing available.",
+      "seoKeywords": "Weetbix 20oz, whole grain cereal, Australian breakfast, healthy cereal"
+    },
+    "weetbix-breakfast-cereal-26oz": {
+      "name": "Weetbix Breakfast Cereal (26 oz)",
+      "description": "Extra-large Weetbix pack for Weetbix enthusiasts and larger families. The same whole grain biscuits Australians have trusted for generations. Low GI energy that keeps you going until lunch.",
+      "seoTitle": "Weetbix Breakfast Cereal 26oz Extra Large | A & S Distributors",
+      "seoDescription": "Extra-large Weetbix 26oz pack. Whole grain, low GI energy. Wholesale pricing available.",
+      "seoKeywords": "Weetbix large, whole grain breakfast, Australian cereal, family cereal"
+    },
+    "weetbix-breakfast-cereal-2lb": {
+      "name": "Weetbix Breakfast Cereal (2 lb)",
+      "description": "Bulk format Weetbix for maximum value. Stock up on the breakfast cereal that has fueled Australian athletes and families for decades. 97% whole grain wheat with vitamins and minerals for a strong start.",
+      "seoTitle": "Weetbix Breakfast Cereal 2lb Bulk | A & S Distributors",
+      "seoDescription": "Bulk Weetbix 2lb pack. Maximum value, whole grain nutrition. Wholesale pricing available.",
+      "seoKeywords": "Weetbix bulk, wholesale cereal, Australian breakfast, whole grain"
+    },
+    "fufu-mix-plantain-flour": {
+      "name": "Fufu Mix Plantain Flour",
+      "description": "Pre-mixed plantain flour for making traditional West African fufu. Simply add hot water and stir to create the smooth, stretchy dough served alongside soups and stews. Brings authentic African cuisine to Pacific Islander and diaspora communities.",
+      "seoTitle": "Fufu Mix Plantain Flour | A & S Distributors",
+      "seoDescription": "Plantain flour fufu mix, easy preparation. Traditional African food. Wholesale pricing available.",
+      "seoKeywords": "fufu mix, plantain flour, African food, traditional fufu"
+    },
+    "fufu-mix-cocoyam-flour": {
+      "name": "Fufu Mix Cocoyam Flour",
+      "description": "Cocoyam-based fufu mix for a slightly different texture and flavor profile than plantain fufu. This traditional flour creates smooth, pliable fufu when mixed with hot water. A West African staple finding new fans in Pacific communities.",
+      "seoTitle": "Fufu Mix Cocoyam Flour | A & S Distributors",
+      "seoDescription": "Cocoyam flour fufu mix. Traditional African staple. Wholesale pricing available.",
+      "seoKeywords": "cocoyam fufu, fufu flour, African food, traditional cooking"
+    },
+    "rewa-full-cream-milk-powder": {
+      "name": "Rewa Full Cream Milk Powder",
+      "description": "Rewa full cream milk powder from Fiji. Rich and creamy taste, perfect for beverages, cooking, and baking. Long shelf life and convenient storage.",
+      "seoTitle": "Rewa Full Cream Milk Powder | A & S Distributors",
+      "seoDescription": "Rewa milk powder from Fiji. Rich and creamy for beverages and cooking. Wholesale pricing available.",
+      "seoKeywords": "Rewa milk powder, Fiji milk powder, full cream powder, wholesale milk powder"
+    },
+    "milo-powder-singapore-14oz": {
+      "name": "Milo Powder Singapore (14 oz)",
+      "description": "The Singapore version of Nestle's beloved chocolate malt drink with its distinctive stronger malt-forward taste. Made with malt barley, milk, and cocoa, fortified with vitamins and minerals. The taste of childhood for millions across Asia and the Pacific.",
+      "seoTitle": "Milo Powder Singapore 14oz | A & S Distributors",
+      "seoDescription": "Singapore Milo powder 14oz. Chocolate malt drink, fortified. Wholesale pricing available.",
+      "seoKeywords": "Milo Singapore, chocolate malt, Nestle Milo, Pacific beverages"
+    },
+    "milo-powder-singapore-3lb": {
+      "name": "Milo Powder Singapore (3 lb)",
+      "description": "Bulk tin of Singapore Milo for serious Milo lovers and families. Singapore is Nestle's global center of excellence for Milo, producing the signature malt taste preferred throughout Southeast Asia and the Pacific. Never run out of this breakfast essential.",
+      "seoTitle": "Milo Powder Singapore 3lb Tin | A & S Distributors",
+      "seoDescription": "Large Singapore Milo tin 3lb. Family size chocolate malt. Wholesale pricing available.",
+      "seoKeywords": "Milo bulk, Singapore Milo tin, chocolate malt large, Nestle Milo"
+    },
+    "kava-lawena-powder": {
+      "name": "Kava Lawena Powder",
+      "description": "Traditional Fiji Kava powder made from the lateral roots (lawena) of the kava plant. Known for its smoother, milder taste. Used in traditional Pacific Island ceremonies and social gatherings.",
+      "seoTitle": "Kava Lawena Powder from Fiji | A & S Distributors",
+      "seoDescription": "Traditional Fiji Kava Lawena powder. Smooth and mild taste. Wholesale pricing available.",
+      "seoKeywords": "Kava powder, Fiji Kava, Lawena Kava, traditional Kava, wholesale Kava"
+    },
+    "kava-wake-powder": {
+      "name": "Kava Wake Powder",
+      "description": "Made from the main root (waka) of the kava plant, this variety offers stronger, more potent effects than lawena. Waka kava has higher kavalactone content for a more pronounced calming experience. For experienced kava drinkers who prefer a stronger cup.",
+      "seoTitle": "Kava Waka Powder Strong | A & S Distributors",
+      "seoDescription": "Strong Kava Waka powder from main root. More potent variety. Wholesale pricing available.",
+      "seoKeywords": "Kava Waka, strong kava, Fiji kava powder, premium kava"
+    },
+    "nestle-cocoa": {
+      "name": "Nestle Cocoa",
+      "description": "Pure unsweetened cocoa powder from Nestle for baking and hot chocolate. This versatile cocoa can be used in cakes, brownies, cookies, and beverages. A pantry staple for chocolate lovers and bakers alike.",
+      "seoTitle": "Nestle Cocoa Powder | A & S Distributors",
+      "seoDescription": "Nestle Cocoa powder for baking and beverages. Pure unsweetened cocoa. Wholesale pricing available.",
+      "seoKeywords": "Nestle cocoa, cocoa powder, baking cocoa, hot chocolate"
+    },
+    "bushells-black-tea-200gr": {
+      "name": "Bushells Black Tea (200 gr)",
+      "description": "Australia's first tea brand, established in 1883. Bushells Blue Label loose leaf tea offers a well-rounded, full-flavored cup crafted especially for Australian tastes. Over 130 years of tea expertise in every bag.",
+      "seoTitle": "Bushells Black Tea 200g Loose Leaf | A & S Distributors",
+      "seoDescription": "Bushells Blue Label black tea 200g. Australia's first tea brand. Wholesale pricing available.",
+      "seoKeywords": "Bushells tea, Australian tea, loose leaf black tea, Blue Label"
+    },
+    "bushells-black-tea-500gr": {
+      "name": "Bushells Black Tea (500 gr)",
+      "description": "Larger pack of Bushells Blue Label loose leaf tea for households that appreciate quality black tea daily. Full-bodied flavor from carefully selected leaves. The tea that has accompanied Australian conversations for over a century.",
+      "seoTitle": "Bushells Black Tea 500g Loose Leaf | A & S Distributors",
+      "seoDescription": "Bushells Blue Label black tea 500g family size. Full-bodied flavor. Wholesale pricing available.",
+      "seoKeywords": "Bushells tea 500g, Australian black tea, loose leaf tea, wholesale tea"
+    },
+    "ceylon-black-tea-200gr": {
+      "name": "Ceylon Black Tea (200 gr)",
+      "description": "Premium black tea from Sri Lanka (Ceylon), renowned worldwide for its bright, brisk flavor and golden liquor. These loose tea leaves steep into a refreshing cup with the distinctive Ceylon character prized by tea connoisseurs.",
+      "seoTitle": "Ceylon Black Tea 200g Loose Leaf | A & S Distributors",
+      "seoDescription": "Premium Ceylon black tea 200g from Sri Lanka. Bright, brisk flavor. Wholesale pricing available.",
+      "seoKeywords": "Ceylon tea, Sri Lanka tea, black tea, premium loose leaf"
+    },
+    "ceylon-black-tea-500gr": {
+      "name": "Ceylon Black Tea (500 gr)",
+      "description": "Bulk pack of authentic Ceylon black tea for true tea enthusiasts. Sri Lankan tea is celebrated for its quality and distinctive taste. This larger size provides excellent value for daily tea drinkers and foodservice.",
+      "seoTitle": "Ceylon Black Tea 500g Bulk | A & S Distributors",
+      "seoDescription": "Ceylon black tea 500g bulk size. Authentic Sri Lankan quality. Wholesale pricing available.",
+      "seoKeywords": "Ceylon tea bulk, Sri Lanka tea large, black tea wholesale, loose leaf"
+    },
+    "punjas-tea-masala": {
+      "name": "Punjas Tea Masala",
+      "description": "A fragrant blend of warming spices designed specifically for making chai. Punjas Tea Masala contains cardamom, cinnamon, ginger, cloves, and other spices that transform ordinary tea into aromatic Indian-style masala chai.",
+      "seoTitle": "Punjas Tea Masala Chai Spices | A & S Distributors",
+      "seoDescription": "Punjas Tea Masala for authentic chai. Warming spice blend. Wholesale pricing available.",
+      "seoKeywords": "Punjas tea masala, chai spices, masala chai blend, Indian tea spices"
+    },
+    "lamb-shoulder-whole": {
+      "name": "Lamb Shoulder Whole",
+      "description": "Premium New Zealand lamb shoulder, whole. Cut in our own USDA certified facility. Perfect for roasting, braising, or slow cooking. Rich, succulent meat from grass-fed lambs.",
+      "seoTitle": "New Zealand Lamb Shoulder Whole | A & S Distributors",
+      "seoDescription": "Premium New Zealand lamb shoulder, USDA certified. Perfect for roasting. Wholesale pricing available.",
+      "seoKeywords": "lamb shoulder, New Zealand lamb, whole lamb, USDA lamb, wholesale lamb"
+    },
+    "lamb-regular-diced": {
+      "name": "Lamb Regular Diced",
+      "description": "New Zealand lamb cut into uniform cubes for curries, stews, and kebabs. Grass-fed and processed in our USDA certified facility for consistent quality. Ready to cook for quick meal preparation.",
+      "seoTitle": "New Zealand Lamb Diced | A & S Distributors",
+      "seoDescription": "Diced New Zealand lamb for curries and stews. USDA certified. Wholesale pricing available.",
+      "seoKeywords": "diced lamb, lamb cubes, New Zealand lamb, curry meat"
+    },
+    "lamb-regular-diced-prepack": {
+      "name": "Lamb Regular Diced Prepack",
+      "description": "Convenient pre-packaged portions of diced New Zealand lamb. Each pack contains perfectly cubed meat ready for your recipes. Ideal for retailers and households who want consistent portion sizes.",
+      "seoTitle": "Lamb Diced Prepack Portions | A & S Distributors",
+      "seoDescription": "Pre-packed diced lamb portions. Convenient for retail. Wholesale pricing available.",
+      "seoKeywords": "lamb prepack, diced lamb portions, retail lamb, convenience meat"
+    },
+    "lamb-neck-whole": {
+      "name": "Lamb Neck Whole",
+      "description": "Whole lamb necks from New Zealand, a flavorful cut prized for slow cooking. The connective tissue breaks down during braising to create rich, succulent meat. A favorite for traditional Pacific Island and Middle Eastern dishes.",
+      "seoTitle": "Lamb Neck Whole for Braising | A & S Distributors",
+      "seoDescription": "Whole lamb neck for slow cooking and braising. Rich flavor. Wholesale pricing available.",
+      "seoKeywords": "lamb neck, braising meat, slow cook lamb, New Zealand lamb"
+    },
+    "lamb-neck-sliced": {
+      "name": "Lamb Neck Sliced",
+      "description": "New Zealand lamb neck cut into medallions for easier cooking. These cross-cut slices expose more surface area for browning while reducing cooking time. Perfect for soups, stews, and curries.",
+      "seoTitle": "Lamb Neck Sliced Medallions | A & S Distributors",
+      "seoDescription": "Sliced lamb neck medallions. Easier cooking, great flavor. Wholesale pricing available.",
+      "seoKeywords": "sliced lamb neck, lamb medallions, stew meat, New Zealand lamb"
+    },
+    "lamb-neck-sliced-prepack": {
+      "name": "Lamb Neck Sliced Prepack",
+      "description": "Pre-packaged sliced lamb neck in convenient retail-ready portions. Each pack contains neck medallions perfect for a family meal. The same quality cut, portioned and ready to sell or cook.",
+      "seoTitle": "Lamb Neck Sliced Prepack | A & S Distributors",
+      "seoDescription": "Pre-packed sliced lamb neck. Retail-ready portions. Wholesale pricing available.",
+      "seoKeywords": "lamb neck prepack, sliced lamb portions, retail meat, convenience lamb"
+    },
+    "lamb-leg-whole": {
+      "name": "Lamb Leg Whole",
+      "description": "Whole leg of New Zealand lamb, the classic centerpiece roast. Lean, tender meat from grass-fed lambs, perfect for roasting with herbs and garlic. Feeds a crowd for special occasions and Sunday dinners.",
+      "seoTitle": "Whole Lamb Leg Roast | A & S Distributors",
+      "seoDescription": "Whole New Zealand lamb leg for roasting. Classic centerpiece. Wholesale pricing available.",
+      "seoKeywords": "lamb leg, leg roast, New Zealand lamb, whole lamb leg"
+    },
+    "lamb-leg-sliced-prepack": {
+      "name": "Lamb Leg Sliced Prepack",
+      "description": "Boneless lamb leg sliced into steaks and pre-packaged for convenience. Lean, versatile cuts perfect for grilling, pan-frying, or quick roasting. All the quality of whole leg in easy-to-use portions.",
+      "seoTitle": "Lamb Leg Steaks Prepack | A & S Distributors",
+      "seoDescription": "Pre-packed lamb leg steaks. Lean and versatile. Wholesale pricing available.",
+      "seoKeywords": "lamb leg steaks, sliced lamb, lamb prepack, grill meat"
+    },
+    "lamb-flap-whole": {
+      "name": "Lamb Flap Whole",
+      "description": "New Zealand lamb flap (belly), a flavorful cut popular throughout the Pacific Islands. The higher fat content makes it ideal for grilling and barbecue, becoming crispy outside while staying juicy inside. A Pacific Island feast essential.",
+      "seoTitle": "Lamb Flap Belly Cut | A & S Distributors",
+      "seoDescription": "New Zealand lamb flap for grilling. Pacific Island favorite. Wholesale pricing available.",
+      "seoKeywords": "lamb flap, lamb belly, BBQ lamb, Pacific Island meat"
+    },
+    "lamb-flap-sliced-prepack": {
+      "name": "Lamb Flap Sliced Prepack",
+      "description": "Lamb flap sliced and pre-packaged for easy grilling and cooking. Each portion is ready for the barbecue or pan. The cut that has become synonymous with Pacific Island celebrations, in convenient retail packs.",
+      "seoTitle": "Lamb Flap Sliced Prepack | A & S Distributors",
+      "seoDescription": "Pre-packed sliced lamb flap. BBQ ready. Wholesale pricing available.",
+      "seoKeywords": "lamb flap prepack, sliced lamb belly, BBQ meat, Pacific Island food"
+    },
+    "lamb-shank-whole": {
+      "name": "Lamb Shank Whole",
+      "description": "Whole lamb shanks, the ultimate cut for slow braising. Rich in collagen that transforms into silky gelatin when cooked low and slow. The result is fall-off-the-bone tender meat in a rich, flavorful sauce.",
+      "seoTitle": "Lamb Shank Whole for Braising | A & S Distributors",
+      "seoDescription": "Whole lamb shanks, perfect for braising. Fall-off-bone tender. Wholesale pricing available.",
+      "seoKeywords": "lamb shank, braised lamb, slow cook, New Zealand lamb"
+    },
+    "lamb-shank-sliced-prepack": {
+      "name": "Lamb Shank Sliced Prepack",
+      "description": "Lamb shank cut crosswise into osso buco-style pieces and pre-packaged. These portions expose the marrow and cook faster than whole shanks while delivering the same rich, braised flavor.",
+      "seoTitle": "Lamb Shank Sliced Osso Buco Style | A & S Distributors",
+      "seoDescription": "Pre-packed sliced lamb shank. Osso buco style. Wholesale pricing available.",
+      "seoKeywords": "sliced lamb shank, osso buco, braising meat, lamb prepack"
+    },
+    "australian-goat-whole": {
+      "name": "Australian Goat Whole",
+      "description": "Whole Australian goat carcass, a lean protein popular in Caribbean, African, South Asian, and Pacific Island cuisines. Our goats are processed in our USDA certified facility. Ideal for traditional curries, stews, and roasts.",
+      "seoTitle": "Whole Australian Goat | A & S Distributors",
+      "seoDescription": "Whole Australian goat carcass. USDA certified processing. Wholesale pricing available.",
+      "seoKeywords": "whole goat, Australian goat, goat meat, curry goat"
+    },
+    "australian-goat-diced-prepack": {
+      "name": "Australian Goat Diced Prepack",
+      "description": "Australian goat meat cubed and pre-packaged for convenient curry-making. Lean, flavorful meat that shines in slow-cooked dishes. Each pack is portioned for easy retail or home cooking.",
+      "seoTitle": "Goat Meat Diced Prepack | A & S Distributors",
+      "seoDescription": "Pre-packed diced goat meat. Perfect for curries. Wholesale pricing available.",
+      "seoKeywords": "diced goat, goat curry meat, goat prepack, Australian goat"
+    },
+    "chicken-sausage": {
+      "name": "Chicken Sausage",
+      "description": "Quality chicken sausage made with premium ingredients. Lower fat alternative to traditional sausages. Perfect for grilling, frying, or adding to recipes.",
+      "seoTitle": "Chicken Sausage | A & S Distributors",
+      "seoDescription": "Quality chicken sausage, lower fat alternative. Perfect for grilling. Wholesale pricing available.",
+      "seoKeywords": "chicken sausage, poultry sausage, healthy sausage, wholesale sausage"
+    },
+    "chicken-sausage-hot": {
+      "name": "Chicken Sausage Hot",
+      "description": "Spicy version of our popular chicken sausage with added chili and cayenne pepper. Delivers the same lean protein with a kick of heat. Perfect for those who like their sausages with some fire.",
+      "seoTitle": "Hot Spicy Chicken Sausage | A & S Distributors",
+      "seoDescription": "Spicy chicken sausage with chili heat. Lean protein with a kick. Wholesale pricing available.",
+      "seoKeywords": "spicy chicken sausage, hot sausage, chili sausage, Pacific Island food"
+    },
+    "lamb-sausage-5lb": {
+      "name": "Lamb Sausage (5 lb)",
+      "description": "Bulk pack of premium lamb sausages made with New Zealand lamb. Rich, distinctive lamb flavor in every link. This larger format is ideal for restaurants, catering, and families who love lamb.",
+      "seoTitle": "Lamb Sausage 5lb Bulk Pack | A & S Distributors",
+      "seoDescription": "Bulk lamb sausage 5lb pack. Premium New Zealand lamb. Wholesale pricing available.",
+      "seoKeywords": "lamb sausage bulk, New Zealand lamb sausage, wholesale sausage"
+    },
+    "lamb-sausage-2lb": {
+      "name": "Lamb Sausage (2 lb)",
+      "description": "Convenient retail pack of lamb sausages made from quality New Zealand lamb. The distinctive flavor of lamb shines through in these well-seasoned links. Perfect for family barbecues and weeknight dinners.",
+      "seoTitle": "Lamb Sausage 2lb Pack | A & S Distributors",
+      "seoDescription": "Lamb sausage 2lb retail pack. Quality New Zealand lamb. Wholesale pricing available.",
+      "seoKeywords": "lamb sausage, New Zealand lamb, gourmet sausage, Pacific Island food"
+    },
+    "lamb-sausage-hot": {
+      "name": "Lamb Sausage Hot",
+      "description": "Spiced lamb sausages with added heat from chili peppers. The rich flavor of New Zealand lamb meets bold spices for a sausage that packs a punch. For heat lovers who appreciate quality lamb.",
+      "seoTitle": "Hot Spicy Lamb Sausage | A & S Distributors",
+      "seoDescription": "Spicy lamb sausage with chili heat. Premium New Zealand lamb. Wholesale pricing available.",
+      "seoKeywords": "spicy lamb sausage, hot lamb sausage, chili lamb, New Zealand lamb"
+    },
+    "samoan-beef-bangers": {
+      "name": "Samoan Beef Bangers",
+      "description": "Traditional Samoan-style beef sausages with Pacific Island seasonings. These hearty bangers are a staple at Samoan gatherings and barbecues. Juicy beef links with authentic island flavor that brings people together.",
+      "seoTitle": "Samoan Beef Bangers Sausages | A & S Distributors",
+      "seoDescription": "Traditional Samoan beef sausages. Pacific Island favorite. Wholesale pricing available.",
+      "seoKeywords": "Samoan sausage, beef bangers, Pacific Island sausage, Samoan food"
+    },
+    "fish-kawa-kawa": {
+      "name": "Fish Kawa Kawa",
+      "description": "Fresh Fiji Kawa Kawa fish (Mackerel Tuna). A prized Pacific Island fish with firm flesh and rich flavor. Perfect for grilling, baking, or traditional preparations.",
+      "seoTitle": "Fiji Kawa Kawa Fish | A & S Distributors",
+      "seoDescription": "Fresh Fiji Kawa Kawa fish (Mackerel Tuna). Firm flesh, rich flavor. Wholesale pricing available.",
+      "seoKeywords": "Kawa Kawa, Fiji fish, Mackerel Tuna, Pacific fish, wholesale fish"
+    },
+    "fish-kawa-kawa-steak-slices": {
+      "name": "Fish Kawa Kawa Steak Slices",
+      "description": "Kawa Kawa cut into convenient steak portions ready for cooking. These thick-cut slices are perfect for grilling, pan-searing, or baking. Firm flesh holds up well to high heat and bold seasonings.",
+      "seoTitle": "Kawa Kawa Fish Steaks | A & S Distributors",
+      "seoDescription": "Pre-cut Kawa Kawa fish steaks. Ready to cook. Wholesale pricing available.",
+      "seoKeywords": "Kawa Kawa steaks, Fiji fish portions, fish steaks, Pacific seafood"
+    },
+    "ulavi-parrot-fish": {
+      "name": "Ulavi Parrot Fish",
+      "description": "Ulavi (Parrot Fish) from Fiji waters, prized for its sweet, delicate white flesh. This reef fish has been a traditional catch in Fiji for generations. Excellent steamed, grilled, or prepared in coconut milk.",
+      "seoTitle": "Ulavi Fiji Parrot Fish | A & S Distributors",
+      "seoDescription": "Fiji Ulavi Parrot Fish, sweet delicate flesh. Traditional Pacific catch. Wholesale pricing available.",
+      "seoKeywords": "Ulavi fish, Parrot fish, Fiji fish, Pacific seafood"
+    },
+    "unicorn-ta": {
+      "name": "Unicorn Ta",
+      "description": "Unicorn fish (Ta in Fijian), a distinctive reef fish with mild, sweet flesh. Named for the horn-like projection on its head, this fish is valued throughout the Pacific for its clean taste and firm texture.",
+      "seoTitle": "Unicorn Fish Ta Fiji | A & S Distributors",
+      "seoDescription": "Fiji Unicorn fish (Ta), mild sweet flesh. Distinctive reef fish. Wholesale pricing available.",
+      "seoKeywords": "Unicorn fish, Ta fish, Fiji seafood, Pacific Island fish"
+    },
+    "kawango": {
+      "name": "Kawango",
+      "description": "Kawango, a popular reef fish from Fiji known for its firm texture and mild flavor. This fish is a versatile choice that works well with many cooking methods and seasonings. A staple in Pacific Island seafood dishes.",
+      "seoTitle": "Kawango Fiji Reef Fish | A & S Distributors",
+      "seoDescription": "Fiji Kawango reef fish, firm and mild. Versatile cooking. Wholesale pricing available.",
+      "seoKeywords": "Kawango fish, Fiji fish, reef fish, Pacific seafood"
+    },
+    "muscovy-duck-halal": {
+      "name": "Muscovy Duck Halal",
+      "description": "Halal certified Muscovy duck, a leaner variety prized for its rich, beefy flavor distinct from regular duck. Less fatty than Pekin duck but more flavorful. Popular in Caribbean, Asian, and Pacific Island cuisines.",
+      "seoTitle": "Muscovy Duck Halal Certified | A & S Distributors",
+      "seoDescription": "Halal Muscovy duck, lean and flavorful. Rich taste. Wholesale pricing available.",
+      "seoKeywords": "Muscovy duck, halal duck, lean duck, Pacific Island poultry"
+    },
+    "roosters-halal": {
+      "name": "Roosters Halal",
+      "description": "Halal certified roosters (mature male chickens) for traditional recipes that call for more flavorful, firmer poultry. The longer growth period develops deeper chicken flavor ideal for soups, stews, and curries.",
+      "seoTitle": "Roosters Halal Certified | A & S Distributors",
+      "seoDescription": "Halal roosters for traditional cooking. Rich chicken flavor. Wholesale pricing available.",
+      "seoKeywords": "halal rooster, mature chicken, soup chicken, Pacific Island poultry"
+    },
+    "povi-masima": {
+      "name": "Povi Masima",
+      "description": "Salt beef (Povi Masima in Samoan), a traditional Pacific Island preserved meat. Beef cured in salt brine, this protein staple has been essential in island cooking for generations. Requires soaking before cooking to reduce saltiness.",
+      "seoTitle": "Povi Masima Salt Beef | A & S Distributors",
+      "seoDescription": "Traditional Povi Masima salt beef. Samoan preserved meat. Wholesale pricing available.",
+      "seoKeywords": "Povi Masima, salt beef, Samoan food, preserved meat, Pacific Island food"
+    },
+    "turkey-tails": {
+      "name": "Turkey Tails",
+      "description": "Turkey tails, a prized cut throughout the Pacific Islands for their rich, fatty meat. When grilled or roasted, the fat renders out leaving crispy, flavorful meat. A beloved ingredient at Pacific Island barbecues and celebrations.",
+      "seoTitle": "Turkey Tails Pacific Island Favorite | A & S Distributors",
+      "seoDescription": "Turkey tails for grilling and roasting. Pacific Island BBQ staple. Wholesale pricing available.",
+      "seoKeywords": "turkey tails, Pacific Island food, BBQ meat, Samoan food"
+    },
+    "yellow-cassava-2lb": {
+      "name": "Yellow Cassava (2.20 lbs)",
+      "description": "Fresh yellow cassava root, a staple in Pacific Island cuisine. Starchy root vegetable that can be boiled, fried, or baked. Rich in carbohydrates and fiber.",
+      "seoTitle": "Yellow Cassava Root | A & S Distributors",
+      "seoDescription": "Fresh yellow cassava root, Pacific Island staple. Versatile cooking options. Wholesale pricing available.",
+      "seoKeywords": "cassava, yellow cassava, Pacific vegetable, root vegetable, wholesale cassava"
+    },
+    "white-cassava-5lb": {
+      "name": "White Cassava (5 lb)",
+      "description": "Traditional white cassava in a larger family pack. This starchy root has a mild, slightly sweet flavor when cooked. Boil, fry, or bake for a satisfying carbohydrate that has sustained Pacific Island communities for centuries.",
+      "seoTitle": "White Cassava 5lb Family Pack | A & S Distributors",
+      "seoDescription": "White cassava 5lb pack. Traditional Pacific Island staple. Wholesale pricing available.",
+      "seoKeywords": "white cassava, cassava bulk, Pacific vegetables, root vegetable"
+    },
+    "white-cassava-2lb": {
+      "name": "White Cassava (2 lb)",
+      "description": "Convenient retail-size pack of white cassava root. This gluten-free starch can be prepared many ways: boiled with coconut milk, fried as chips, or mashed. A versatile base for traditional and modern dishes.",
+      "seoTitle": "White Cassava 2lb Pack | A & S Distributors",
+      "seoDescription": "White cassava 2lb retail pack. Gluten-free, versatile. Wholesale pricing available.",
+      "seoKeywords": "white cassava, cassava root, gluten-free starch, Pacific Island food"
+    },
+    "jackfruit": {
+      "name": "Jackfruit",
+      "description": "Frozen jackfruit, the world's largest tree fruit, valued for its unique meaty texture. When young, jackfruit can be used as a meat substitute in curries and tacos. Ripe jackfruit is sweet with tropical flavor notes.",
+      "seoTitle": "Frozen Jackfruit | A & S Distributors",
+      "seoDescription": "Frozen jackfruit, versatile tropical fruit. Meat substitute option. Wholesale pricing available.",
+      "seoKeywords": "jackfruit, tropical fruit, meat substitute, Pacific Island food"
+    },
+    "purple-taro-2lb": {
+      "name": "Purple Taro (2 lb)",
+      "description": "Striking purple-fleshed taro that reveals vibrant color when cooked. This variety has a slightly nuttier flavor than white taro. Popular for poi, taro chips, and desserts where the purple color adds visual appeal.",
+      "seoTitle": "Purple Taro 2lb | A & S Distributors",
+      "seoDescription": "Purple-fleshed taro 2lb pack. Vibrant color, nutty flavor. Wholesale pricing available.",
+      "seoKeywords": "purple taro, colored taro, Pacific vegetables, Fiji taro"
+    },
+    "purple-taro-5lb": {
+      "name": "Purple Taro (5 lb)",
+      "description": "Larger pack of purple taro for families and foodservice. The beautiful purple flesh makes impressive presentations in traditional dishes and modern fusion cuisine. Earthy, slightly sweet flavor pairs well with coconut.",
+      "seoTitle": "Purple Taro 5lb Pack | A & S Distributors",
+      "seoDescription": "Purple taro 5lb family pack. Beautiful color, great flavor. Wholesale pricing available.",
+      "seoKeywords": "purple taro bulk, taro root, Pacific Island vegetables, wholesale taro"
+    },
+    "pink-taro": {
+      "name": "Pink Taro",
+      "description": "Fresh pink taro, a starchy root vegetable that holds significant cultural and culinary importance in many Pacific Island nations. Also known as Talo in Tongan. Enjoy with many famous dishes including delicious Taro with Coconut Milk.",
+      "seoTitle": "Fresh Pink Taro | A & S Distributors",
+      "seoDescription": "Fresh pink taro root, Pacific Island staple. Cultural significance and delicious flavor. Wholesale pricing available.",
+      "seoKeywords": "pink taro, taro root, Talo, Pacific vegetable, wholesale taro"
+    },
+    "yellow-taro-2lb": {
+      "name": "Yellow Taro (2 lb)",
+      "description": "Yellow-fleshed taro variety with a creamier texture than white taro when cooked. This variety is particularly prized for its smooth consistency in mashed preparations and its subtle sweetness. Perfect for traditional lolo (coconut cream) dishes.",
+      "seoTitle": "Yellow Taro 2lb | A & S Distributors",
+      "seoDescription": "Yellow taro 2lb, creamy texture when cooked. Traditional Pacific staple. Wholesale pricing available.",
+      "seoKeywords": "yellow taro, taro root, Pacific vegetables, Fiji taro"
+    },
+    "yellow-taro-5lb": {
+      "name": "Yellow Taro (5 lb)",
+      "description": "Family pack of yellow taro for regular cooking. The yellow flesh indicates higher beta-carotene content. Becomes wonderfully creamy when boiled and pairs beautifully with coconut milk in traditional Pacific Island preparations.",
+      "seoTitle": "Yellow Taro 5lb Family Pack | A & S Distributors",
+      "seoDescription": "Yellow taro 5lb pack. Creamy, nutritious. Wholesale pricing available.",
+      "seoKeywords": "yellow taro bulk, taro family pack, Pacific Island food, wholesale taro"
+    },
+    "bele": {
+      "name": "Bele",
+      "description": "Bele (Fijian spinach), a nutritious leafy green vegetable grown throughout the Pacific. These tender leaves cook quickly and have a mild, slightly mucilaginous texture similar to okra. Essential for rourou and other traditional Fijian dishes.",
+      "seoTitle": "Bele Fijian Spinach Greens | A & S Distributors",
+      "seoDescription": "Fresh Bele greens, Fijian spinach. Nutritious leafy vegetable. Wholesale pricing available.",
+      "seoKeywords": "Bele, Fijian spinach, Pacific greens, leafy vegetables"
+    },
+    "duruka": {
+      "name": "Duruka",
+      "description": "Fresh Duruka, often called Fiji asparagus, is the unopened flower of the Fiji fan palm. With a delicate, slightly sweet flavor, duruka is considered a delicacy in Fiji. Best steamed, stir-fried, or added to coconut-based dishes.",
+      "seoTitle": "Fresh Duruka Fiji Asparagus | A & S Distributors",
+      "seoDescription": "Fresh Duruka, Fiji asparagus delicacy. Delicate sweet flavor. Wholesale pricing available.",
+      "seoKeywords": "Duruka, Fiji asparagus, Fijian vegetable, Pacific delicacy"
+    },
+    "white-taro": {
+      "name": "White Taro",
+      "description": "Classic white-fleshed taro, the most common variety used throughout the Pacific Islands. Starchy and slightly nutty when cooked, white taro is incredibly versatile - boiled, baked, fried, or mashed with coconut cream.",
+      "seoTitle": "White Taro Root | A & S Distributors",
+      "seoDescription": "Classic white taro root. Versatile Pacific Island staple. Wholesale pricing available.",
+      "seoKeywords": "white taro, taro root, Pacific vegetables, traditional food"
+    },
+    "taro-leaves": {
+      "name": "Taro Leaves",
+      "description": "Fresh taro leaves (lu, lau, palusami) used throughout the Pacific for wrapped dishes cooked in coconut cream. When slow-cooked, these large leaves become tender and absorb rich coconut flavors. Essential for palusami and lu pulu.",
+      "seoTitle": "Fresh Taro Leaves for Palusami | A & S Distributors",
+      "seoDescription": "Fresh taro leaves for traditional Pacific dishes. Perfect for palusami. Wholesale pricing available.",
+      "seoKeywords": "taro leaves, palusami leaves, lu, Pacific Island food"
+    },
+    "breadfruit-1kg": {
+      "name": "Breadfruit (1 kg)",
+      "description": "Frozen breadfruit in convenient portion size. This starchy fruit has a bread-like texture when cooked and can be roasted, boiled, fried, or mashed. A sustainable Pacific Island staple that sustained islanders for millennia.",
+      "seoTitle": "Frozen Breadfruit 1kg | A & S Distributors",
+      "seoDescription": "Frozen breadfruit 1kg portion. Bread-like texture. Wholesale pricing available.",
+      "seoKeywords": "breadfruit, ulu, Pacific fruit, Pacific Island food"
+    },
+    "breadfruit-5lb": {
+      "name": "Breadfruit (5 lb)",
+      "description": "Larger pack of frozen breadfruit for families and restaurants. Ripe breadfruit is slightly sweet and perfect for desserts, while starchy breadfruit makes excellent fries, chips, and side dishes. A versatile Pacific Island ingredient.",
+      "seoTitle": "Frozen Breadfruit 5lb Pack | A & S Distributors",
+      "seoDescription": "Frozen breadfruit 5lb family size. Versatile cooking. Wholesale pricing available.",
+      "seoKeywords": "breadfruit bulk, Pacific fruit, ulu, wholesale breadfruit"
+    },
+    "tahitian-chestnut-ivi": {
+      "name": "Tahitian Chestnut Ivi",
+      "description": "Fresh Tahitian chestnut (Ivi in Fijian), a tropical nut with rich, starchy flesh similar to chestnuts. These seasonal nuts are roasted, boiled, or added to curries. A treasured Pacific Island ingredient with sweet, nutty flavor.",
+      "seoTitle": "Tahitian Chestnut Ivi Fresh | A & S Distributors",
+      "seoDescription": "Fresh Tahitian chestnut (Ivi). Sweet, nutty tropical treat. Wholesale pricing available.",
+      "seoKeywords": "Tahitian chestnut, Ivi, Pacific nuts, tropical chestnut"
+    },
+    "paranthas-plain-value-pack": {
+      "name": "Paranthas Plain Value Pack",
+      "description": "Frozen plain paranthas (layered flatbread) ready to cook. These flaky, buttery breads are perfect for breakfast with eggs, alongside curries, or filled with your favorite ingredients. A staple in Indo-Fijian kitchens, now ready in minutes.",
+      "seoTitle": "Frozen Plain Paranthas Value Pack | A & S Distributors",
+      "seoDescription": "Frozen paranthas value pack, ready to cook. Flaky and delicious. Wholesale pricing available.",
+      "seoKeywords": "paranthas, frozen flatbread, Indian bread, Indo-Fijian food"
+    },
+    "anchor-butter-new-zealand": {
+      "name": "Anchor Butter New Zealand",
+      "description": "Premium New Zealand Anchor butter made from grass-fed cow's milk. Rich, creamy taste perfect for cooking, baking, and spreading. A trusted brand worldwide.",
+      "seoTitle": "Anchor Butter from New Zealand | A & S Distributors",
+      "seoDescription": "Premium New Zealand Anchor butter. Grass-fed, rich and creamy. Wholesale pricing available.",
+      "seoKeywords": "Anchor butter, New Zealand butter, premium butter, grass-fed butter, wholesale butter"
+    },
+    "tuckers-blitz": {
+      "name": "Tuckers Blitz",
+      "description": "Tuckers Blitz ice cream, a Fiji favorite known for its creamy texture and tropical flavors. This beloved brand has been cooling down Pacific Islanders for generations. Available in 2-liter tubs for family enjoyment.",
+      "seoTitle": "Tuckers Blitz Ice Cream | A & S Distributors",
+      "seoDescription": "Tuckers Blitz ice cream from Fiji. Creamy tropical favorite. Wholesale pricing available.",
+      "seoKeywords": "Tuckers ice cream, Fiji ice cream, Blitz, Pacific Island dessert"
+    },
+    "tucker-blitz-bars": {
+      "name": "Tucker Blitz Bars",
+      "description": "Individual Tuckers Blitz ice cream bars for convenient single-serve treats. The same creamy Fiji ice cream in a handheld format. Perfect for retail, parties, or satisfying ice cream cravings on the go.",
+      "seoTitle": "Tuckers Blitz Ice Cream Bars | A & S Distributors",
+      "seoDescription": "Tuckers Blitz ice cream bars, single serve. Fiji favorite. Wholesale pricing available.",
+      "seoKeywords": "Tuckers ice cream bars, frozen treats, Fiji ice cream, single serve"
+    },
+    "tuckers-passion-fruit": {
+      "name": "Tuckers Passion Fruit",
+      "description": "Tuckers passion fruit ice cream featuring the tangy tropical flavor of real passion fruit. This refreshing flavor captures the essence of Pacific Island fruits. A perfect balance of sweet and tart.",
+      "seoTitle": "Tuckers Passion Fruit Ice Cream | A & S Distributors",
+      "seoDescription": "Tuckers Passion Fruit ice cream. Tangy tropical flavor. Wholesale pricing available.",
+      "seoKeywords": "passion fruit ice cream, Tuckers, tropical ice cream, Fiji dessert"
+    },
+    "tuckers-triple-ripple": {
+      "name": "Tuckers Triple Ripple",
+      "description": "Tuckers Triple Ripple ice cream with three delicious flavors swirled together. This fun, colorful ice cream is a hit with kids and adults alike. Classic Fiji ice cream quality in an exciting multi-flavor format.",
+      "seoTitle": "Tuckers Triple Ripple Ice Cream | A & S Distributors",
+      "seoDescription": "Tuckers Triple Ripple three-flavor ice cream. Fun and colorful. Wholesale pricing available.",
+      "seoKeywords": "Triple Ripple ice cream, Tuckers, multi-flavor, Fiji ice cream"
+    },
+    "sunquick-mango-juice-concentrate": {
+      "name": "Sunquick Mango Juice Concentrate",
+      "description": "Sunquick mango juice concentrate for making refreshing mango drinks at home. Simply mix with water for instant mango juice. The concentrated format is economical and captures the sweet, tropical taste of ripe mangoes.",
+      "seoTitle": "Sunquick Mango Juice Concentrate | A & S Distributors",
+      "seoDescription": "Sunquick Mango concentrate for juice drinks. Tropical and refreshing. Wholesale pricing available.",
+      "seoKeywords": "Sunquick mango, juice concentrate, mango drink, tropical beverage"
+    },
+    "bula-noni-fiji-islands": {
+      "name": "Bula Noni Fiji Islands",
+      "description": "Noni fruit juice from Fiji, made from the Morinda citrifolia fruit traditionally used throughout Polynesia for wellness purposes. This potent juice has a distinctive strong flavor and is consumed for its traditional health associations.",
+      "seoTitle": "Bula Noni Juice from Fiji | A & S Distributors",
+      "seoDescription": "Bula Noni juice from Fiji Islands. Traditional wellness drink. Wholesale pricing available.",
+      "seoKeywords": "Noni juice, Fiji Noni, Bula, traditional wellness, Pacific Island drink"
+    },
+    "sunquick-orange-juice-concentrate": {
+      "name": "Sunquick Orange Juice Concentrate",
+      "description": "Sunquick orange juice concentrate for mixing fresh-tasting orange drinks. This pantry staple lets you make orange juice whenever you want it. Economical and convenient for families and foodservice.",
+      "seoTitle": "Sunquick Orange Juice Concentrate | A & S Distributors",
+      "seoDescription": "Sunquick Orange concentrate for fresh juice. Economical and convenient. Wholesale pricing available.",
+      "seoKeywords": "Sunquick orange, juice concentrate, orange drink, beverage mix"
+    },
+    "sunquick-tropical-juice-concentrate": {
+      "name": "Sunquick Tropical Juice Concentrate",
+      "description": "Sunquick tropical fruit juice concentrate blending multiple exotic fruit flavors. Mix with water for a refreshing tropical punch that captures the taste of the Pacific. Perfect for parties and everyday refreshment.",
+      "seoTitle": "Sunquick Tropical Juice Concentrate | A & S Distributors",
+      "seoDescription": "Sunquick Tropical fruit concentrate. Exotic fruit blend. Wholesale pricing available.",
+      "seoKeywords": "Sunquick tropical, fruit concentrate, tropical punch, Pacific beverage"
     }
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Get in touch with Pacific Islander Foods. We're here to help with your wholesale food distribution needs.",
-    "seoTitle": "Contact Us - Pacific Islander Foods",
-    "seoDescription": "Contact Pacific Islander Foods for wholesale Polynesian food distribution. Reach out via phone, email, or visit our Honolulu location. Fast response from our sales team.",
-    "seoKeywords": "contact Pacific Islander Foods, Hawaiian food distributor contact, wholesale food distributor, Polynesian food supplier, Honolulu food distributor",
+    "description": "Get in touch with A & S Distributors. We're here to help with your wholesale food distribution needs.",
+    "seoTitle": "Contact Us - A & S Distributors",
+    "seoDescription": "Contact A & S Distributors for wholesale Pacific Island food distribution. Reach out via phone, email, or visit our Salida, CA location.",
+    "seoKeywords": "contact A & S Distributors, Pacific Island food distributor contact, wholesale food distributor, Fiji food supplier, California food distributor",
     "heading": "Get in Touch",
     "subheading": "We're here to help with your wholesale food distribution needs",
     "phone": {
@@ -364,17 +1603,17 @@
     },
     "address": {
       "label": "Address",
-      "street": "1234 Pacific Way",
-      "city": "Honolulu",
-      "state": "HI",
-      "zipCode": "96815",
-      "description": "Visit us at our Honolulu location",
+      "street": "4710 Elm Street",
+      "city": "Salida",
+      "state": "CA",
+      "zipCode": "95368",
+      "description": "Visit us at our Salida location",
       "ariaLabel": "Open {address} in Google Maps"
     },
     "hours": {
       "label": "Business Hours",
-      "monday": "Monday - Friday: 8:00 AM - 5:00 PM HST",
-      "saturday": "Saturday: 9:00 AM - 2:00 PM HST",
+      "monday": "Monday - Friday: 8:00 AM - 5:00 PM PST",
+      "saturday": "Saturday: 9:00 AM - 2:00 PM PST",
       "sunday": "Sunday: Closed"
     },
     "jsonLd": {

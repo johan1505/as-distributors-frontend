@@ -40,6 +40,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             src={product.imageUrl}
             alt={name}
             className="w-full h-full transition-transform duration-300 group-hover:scale-105"
+            loading="lazy"
           />
         </div>
       </Link>

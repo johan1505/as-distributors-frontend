@@ -33,7 +33,7 @@ export function generateStaticParams() {
       locale,
       categoryKey: product.categoryKey,
       slug: product.slug,
-    }))
+    })),
   );
 }
 
@@ -63,7 +63,7 @@ export async function generateMetadata({
   const name = tProducts(`${slug}.name`);
   const canonicalUrl = getCanonicalUrl(
     locale,
-    `${ROUTES.products}/${categoryKey}/${slug}`
+    `${ROUTES.products}/${categoryKey}/${slug}`,
   );
 
   return {
@@ -74,7 +74,7 @@ export async function generateMetadata({
       canonical: canonicalUrl,
       languages: getAlternateLanguages(
         `${ROUTES.products}/${categoryKey}/${slug}`,
-        locales
+        locales,
       ),
     },
     openGraph: {
@@ -151,7 +151,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   const productUrl = getCanonicalUrl(
     locale,
-    `${ROUTES.products}/${categoryKey}/${slug}`
+    `${ROUTES.products}/${categoryKey}/${slug}`,
   );
   // JSON-LD structured data for SEO with absolute URLs
   const productJsonLd: WithContext<Product> = {
@@ -199,7 +199,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         name: category,
         item: getCanonicalUrl(
           locale,
-          `${ROUTES.products}/${productBase.categoryKey}`
+          `${ROUTES.products}/${productBase.categoryKey}`,
         ),
       },
       {
@@ -208,7 +208,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         name: name,
         item: getCanonicalUrl(
           locale,
-          `${ROUTES.products}/${productBase.categoryKey}/${productBase.slug}`
+          `${ROUTES.products}/${productBase.categoryKey}/${productBase.slug}`,
         ),
       },
     ],
@@ -236,6 +236,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 src={productBase.imageUrl}
                 alt={name}
                 className="w-full h-full"
+                loading="lazy"
               />
             </div>
           </div>

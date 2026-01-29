@@ -13,15 +13,6 @@ export function ProductGrid({ products }: ProductGridProps) {
       {products.map((product) => (
         <ProductCard key={product.slug} product={product} />
       ))}
-      {products.map((product) => (
-        <ProductCard key={product.slug} product={product} />
-      ))}{" "}
-      {products.map((product) => (
-        <ProductCard key={product.slug} product={product} />
-      ))}{" "}
-      {products.map((product) => (
-        <ProductCard key={product.slug} product={product} />
-      ))}
     </div>
   );
 }
