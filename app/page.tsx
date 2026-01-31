@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
-import { ROUTES } from "@/lib/routes";
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { ROUTES } from '@/lib/routes';
 
 export default function BaseRedirect() {
-  const router = useRouter();
+	const router = useRouter();
 
-  useEffect(() => {
-    router.replace(`/en${ROUTES.home}`);
-  }, [router]);
+	useEffect(() => {
+		router.replace(`/en${ROUTES.home}`);
+	}, [router]);
 
-  return null;
+	return null;
 }

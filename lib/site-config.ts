@@ -4,10 +4,10 @@
  */
 
 // Placeholder base URL - replace with production URL when known
-export const BASE_URL = "https://pacificislanderfoods.com";
+export const BASE_URL = 'https://pacificislanderfoods.com';
 
 // Site metadata constants
-export const SITE_NAME = "Pacific Islander Foods";
+export const SITE_NAME = 'Pacific Islander Foods';
 
 /**
  * Generate an absolute URL from a path
@@ -15,9 +15,9 @@ export const SITE_NAME = "Pacific Islander Foods";
  * @returns The absolute URL
  */
 export function getAbsoluteUrl(path: string): string {
-  // Ensure path starts with /
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return `${BASE_URL}${normalizedPath}`;
+	// Ensure path starts with /
+	const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+	return `${BASE_URL}${normalizedPath}`;
 }
 
 /**
@@ -27,14 +27,14 @@ export function getAbsoluteUrl(path: string): string {
  * @returns Object with locale codes as keys and absolute URLs as values
  */
 export function getAlternateLanguages(
-  path: string,
-  locales: readonly string[]
+	path: string,
+	locales: readonly string[]
 ): Record<string, string> {
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return locales.reduce<Record<string, string>>((acc, locale) => {
-    acc[locale] = `${BASE_URL}/${locale}${normalizedPath}`;
-    return acc;
-  }, {});
+	const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+	return locales.reduce<Record<string, string>>((acc, locale) => {
+		acc[locale] = `${BASE_URL}/${locale}${normalizedPath}`;
+		return acc;
+	}, {});
 }
 
 /**
@@ -44,6 +44,6 @@ export function getAlternateLanguages(
  * @returns The canonical absolute URL
  */
 export function getCanonicalUrl(locale: string, path: string): string {
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return `${BASE_URL}/${locale}${normalizedPath}`;
+	const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+	return `${BASE_URL}/${locale}${normalizedPath}`;
 }
