@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useQuote } from "./QuoteProvider";
+import { ProductSlug } from "@/lib/products";
 import Image from "next/image";
 
 const MAX_VISIBLE_ITEMS = 3;
@@ -15,6 +16,11 @@ export function QuoteItemsList() {
   const tProducts = useTranslations("products");
 
   const { items, removeItem, updateQuantity } = useQuote();
+
+  // Helper to get product name from translations
+  const getProductName = (slug: ProductSlug) => {
+    return tProducts(`${slug}.name`);
+  };
   const [showAllItems, setShowAllItems] = useState(false);
 
   const hasMoreItems = items.length > MAX_VISIBLE_ITEMS;
@@ -35,13 +41,13 @@ export function QuoteItemsList() {
               width={800}
               height={600}
               src={item.product.imageUrl}
-              alt={tProducts(`${item.product.slug}.name`) || item.product.slug}
+              alt={getProductName(item.product.slug)}
               className="size-20 md:size-24 object-cover rounded-lg shrink-0"
               loading="lazy"
             />
             <div className="flex-1 min-w-0">
               <h3 className="font-medium text-base md:text-lg mb-2">
-                {tProducts(`${item.product.slug}.name`) || item.product.slug}
+                {getProductName(item.product.slug)}
               </h3>
               <div className="flex items-center gap-2 flex-wrap">
                 <Button

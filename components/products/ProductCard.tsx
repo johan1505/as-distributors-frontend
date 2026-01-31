@@ -55,10 +55,16 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <Badge variant="secondary">
-          <span className="text-muted-foreground">{t("unitPerPack")}</span>:{" "}
-          <span> {product.unitPerPack}</span>
-        </Badge>
+        <div className="flex flex-wrap gap-2">
+          <Badge variant="secondary">
+            <span className="text-muted-foreground">{t("overallSize")}</span>:{" "}
+            <span>{product.overallSize}</span>
+          </Badge>
+          <Badge variant="secondary">
+            <span className="text-muted-foreground">{t("unitPerPack")}</span>:{" "}
+            <span>{product.unitPerPack}</span>
+          </Badge>
+        </div>
         <p className="line-clamp-3 mt-4">{description}</p>
       </CardContent>
       <CardFooter>

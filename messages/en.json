@@ -97,6 +97,9 @@
       "phone": "Phone Number",
       "phonePlaceholder": "Enter your phone number",
       "sendRequest": "Send quote request",
+      "submitting": "Submitting...",
+      "agreeToContact": "I agree to be contacted by a sales representative regarding this quote request.",
+      "errorMessage": "Something went wrong. Please try again later.",
       "requiredFields": "Please fill in all fields to submit your quote request. Our sales team will contact you shortly.",
       "showAllItems": "Show {count} more items",
       "showLess": "Show less",
@@ -246,14 +249,14 @@
   },
   "products": {
     "ox-palm-corned-beef-7oz": {
-      "name": "Ox & Palm Corned Beef (7 oz)",
+      "name": "Ox & Palm Corned Beef",
       "description": "Premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef on the market. HACCP & USDA certified with no added hormones or antibiotics. Great for corned beef hash, grilled cheese, pasta, sandwiches, and eggs.",
       "seoTitle": "Ox & Palm Corned Beef 7oz - Premium Australian | A & S Distributors",
       "seoDescription": "High quality Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified, no hormones. Wholesale pricing available.",
       "seoKeywords": "Ox & Palm corned beef, Australian corned beef, premium corned beef, wholesale corned beef"
     },
     "ox-palm-corned-beef-11-5oz": {
-      "name": "Ox & Palm Corned Beef (11.5 oz)",
+      "name": "Ox & Palm Corned Beef",
       "description": "Premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef on the market. HACCP & USDA certified with no added hormones or antibiotics. Perfect size for family meals.",
       "seoTitle": "Ox & Palm Corned Beef 11.5oz - Premium Australian | A & S Distributors",
       "seoDescription": "High quality Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified, no hormones. Wholesale pricing available.",
@@ -267,49 +270,49 @@
       "seoKeywords": "Ox & Palm corned beef, tapered can, Australian corned beef, wholesale corned beef"
     },
     "ox-palm-corned-beef-15oz": {
-      "name": "Ox & Palm Corned Beef (15 oz)",
+      "name": "Ox & Palm Corned Beef",
       "description": "Large size premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef. HACCP & USDA certified. Perfect for feeding larger groups.",
       "seoTitle": "Ox & Palm Corned Beef 15oz - Large Size | A & S Distributors",
       "seoDescription": "Large 15oz Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified. Wholesale pricing available.",
       "seoKeywords": "Ox & Palm corned beef, large corned beef, Australian corned beef, wholesale corned beef"
     },
     "ox-palm-corned-beef-3lb": {
-      "name": "Ox & Palm Corned Beef (3 lb)",
+      "name": "Ox & Palm Corned Beef",
       "description": "Bulk size premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified with no added hormones or antibiotics. Ideal for restaurants and catering.",
       "seoTitle": "Ox & Palm Corned Beef 3lb - Bulk Size | A & S Distributors",
       "seoDescription": "Bulk 3lb Ox & Palm corned beef for restaurants and catering. Premium Australian beef, USDA certified. Wholesale pricing.",
       "seoKeywords": "Ox & Palm corned beef, bulk corned beef, restaurant corned beef, wholesale corned beef"
     },
     "ox-palm-corned-beef-6lb": {
-      "name": "Ox & Palm Corned Beef (6 lb)",
+      "name": "Ox & Palm Corned Beef",
       "description": "Extra large bulk size premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified. Perfect for large scale food service operations.",
       "seoTitle": "Ox & Palm Corned Beef 6lb - Extra Large | A & S Distributors",
       "seoDescription": "Extra large 6lb Ox & Palm corned beef for food service. Premium Australian beef, USDA certified. Wholesale pricing.",
       "seoKeywords": "Ox & Palm corned beef, bulk corned beef, food service corned beef, wholesale corned beef"
     },
     "pacific-corned-beef-11-5oz": {
-      "name": "Pacific Corned Beef (11.5 oz)",
+      "name": "Pacific Corned Beef",
       "description": "Made in Australia from at least 99% Australian ingredients. Pacific corned beef has been a favourite for generations, made to a New Zealand recipe with natural juices. A good source of protein and iron. Convenient size for weekday dinners.",
       "seoTitle": "Pacific Corned Beef 11.5oz - Traditional Recipe | A & S Distributors",
       "seoDescription": "Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
       "seoKeywords": "Pacific corned beef, Australian corned beef, traditional corned beef, wholesale corned beef"
     },
     "pacific-corned-beef-7oz": {
-      "name": "Pacific Corned Beef (7 oz)",
+      "name": "Pacific Corned Beef",
       "description": "Made in Australia from at least 99% Australian ingredients. Pacific corned beef has been a favourite for generations. Made to a New Zealand recipe with natural juices. Perfect portion size.",
       "seoTitle": "Pacific Corned Beef 7oz - Traditional Recipe | A & S Distributors",
       "seoDescription": "Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
       "seoKeywords": "Pacific corned beef, Australian corned beef, traditional corned beef, wholesale corned beef"
     },
     "pacific-corned-beef-15oz": {
-      "name": "Pacific Corned Beef (15 oz)",
+      "name": "Pacific Corned Beef",
       "description": "Large size Pacific corned beef made in Australia from at least 99% Australian ingredients. Traditional New Zealand recipe with natural juices. Great for family meals.",
       "seoTitle": "Pacific Corned Beef 15oz - Family Size | A & S Distributors",
       "seoDescription": "Large Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
       "seoKeywords": "Pacific corned beef, large corned beef, Australian corned beef, wholesale corned beef"
     },
     "pacific-corned-beef-3lb": {
-      "name": "Pacific Corned Beef (3 lb)",
+      "name": "Pacific Corned Beef",
       "description": "Bulk size Pacific corned beef made in Australia from at least 99% Australian ingredients. Traditional New Zealand recipe. Perfect for restaurants and catering operations.",
       "seoTitle": "Pacific Corned Beef 3lb - Bulk Size | A & S Distributors",
       "seoDescription": "Bulk Pacific corned beef for restaurants. Traditional New Zealand recipe, Australian ingredients. Wholesale pricing.",
@@ -330,7 +333,7 @@
       "seoKeywords": "halal corned mutton, Colonial mutton, halal meat, wholesale halal"
     },
     "colonial-corned-mutton-regular": {
-      "name": "Colonial Corned Mutton (Regular)",
+      "name": "Colonial Corned Mutton",
       "description": "Colonial corned mutton in regular preparation. Premium quality mutton with rich, traditional flavor. A staple in Pacific Island cuisine.",
       "seoTitle": "Colonial Corned Mutton Regular | A & S Distributors",
       "seoDescription": "Colonial corned mutton, premium quality for traditional recipes. Wholesale pricing available.",
@@ -344,7 +347,7 @@
       "seoKeywords": "halal corned mutton, Globe mutton, halal meat, wholesale halal"
     },
     "globe-corned-mutton-regular": {
-      "name": "Globe Corned Mutton (Regular)",
+      "name": "Globe Corned Mutton",
       "description": "Globe corned mutton in regular preparation. Quality mutton with savory flavor, perfect for traditional Pacific Island cooking.",
       "seoTitle": "Globe Corned Mutton Regular | A & S Distributors",
       "seoDescription": "Globe corned mutton, quality preparation for traditional recipes. Wholesale pricing available.",
@@ -414,14 +417,14 @@
       "seoKeywords": "Tongol tuna, chunk tuna, L'a Pana tuna, wholesale tuna"
     },
     "pacific-taste-coconut-milk-13oz": {
-      "name": "Pacific Taste Coconut Milk (13.53 oz)",
+      "name": "Pacific Taste Coconut Milk",
       "description": "Rich and tasty coconut milk goodness. Perfect for classic regional dishes, soups, curries, sauces, desserts and beverages. Coconut milk is also a great alternative to dairy.",
       "seoTitle": "Pacific Taste Coconut Milk 13oz | A & S Distributors",
       "seoDescription": "Rich Pacific Taste coconut milk for cooking and beverages. Dairy alternative. Wholesale pricing available.",
       "seoKeywords": "coconut milk, Pacific Taste, cooking coconut milk, dairy alternative, wholesale coconut milk"
     },
     "pacific-taste-coconut-milk-98oz": {
-      "name": "Pacific Taste Coconut Milk (98.1 oz)",
+      "name": "Pacific Taste Coconut Milk",
       "description": "Large format coconut milk for food service and commercial use. Rich and creamy, perfect for restaurants, bakeries, and large-scale cooking operations.",
       "seoTitle": "Pacific Taste Coconut Milk 98oz - Food Service | A & S Distributors",
       "seoDescription": "Large format Pacific Taste coconut milk for restaurants. Rich and creamy. Wholesale pricing available.",
@@ -575,21 +578,21 @@
       "seoKeywords": "Big Sister dark cake, dark fruit cake, Australian fruit cake, celebration cake"
     },
     "fmf-breakfast-crackers-13oz": {
-      "name": "FMF Breakfast Crackers (13.22 oz)",
+      "name": "FMF Breakfast Crackers",
       "description": "Not just a breakfast cracker but an anytime cracker snack. One of Fiji's most well-recognised products, loved by all for its unique taste. Has become an iconic product in Fiji and Pacific Island countries. Commonly had with tea and coffee.",
       "seoTitle": "FMF Breakfast Crackers 13oz | A & S Distributors",
       "seoDescription": "Iconic FMF Breakfast Crackers from Fiji. Perfect with tea and coffee. Wholesale pricing available.",
       "seoKeywords": "FMF crackers, Fiji crackers, breakfast crackers, Pacific Island food, wholesale crackers"
     },
     "fmf-breakfast-crackers-8oz": {
-      "name": "FMF Breakfast Crackers (8 oz)",
+      "name": "FMF Breakfast Crackers",
       "description": "The smaller pack of Fiji's most iconic cracker. Same great taste that has made FMF Breakfast Crackers a household name since 1973. Light, crunchy, and perfect for a quick snack or alongside your favorite spreads and dips.",
       "seoTitle": "FMF Breakfast Crackers 8oz | A & S Distributors",
       "seoDescription": "FMF Breakfast Crackers in convenient 8oz size. Fiji's iconic cracker. Wholesale pricing available.",
       "seoKeywords": "FMF breakfast crackers, Fiji crackers, light crackers, Pacific snacks"
     },
     "fmf-breakfast-crackers-4lb": {
-      "name": "FMF Breakfast Crackers (4 lb)",
+      "name": "FMF Breakfast Crackers",
       "description": "Bulk pack of Fiji's legendary breakfast crackers for serious fans and food service. These light, crispy crackers from FMF Foods have been a Pacific Island institution for over 50 years. Stock up and never run out.",
       "seoTitle": "FMF Breakfast Crackers 4lb Bulk | A & S Distributors",
       "seoDescription": "Bulk 4lb pack of FMF Breakfast Crackers from Fiji. Perfect for food service. Wholesale pricing available.",
@@ -610,7 +613,7 @@
       "seoKeywords": "SAO cream crackers, shortbread cream, filled crackers, Pacific snacks"
     },
     "fmf-breakfast-crackers-11lb": {
-      "name": "FMF Breakfast Crackers (11 lb)",
+      "name": "FMF Breakfast Crackers",
       "description": "The largest pack available of Fiji's beloved breakfast crackers. Ideal for restaurants, catering operations, and retailers who need consistent supply of this Pacific Island staple. Same quality, maximum value.",
       "seoTitle": "FMF Breakfast Crackers 11lb Bulk | A & S Distributors",
       "seoDescription": "Extra large 11lb bulk pack of FMF Breakfast Crackers. Ideal for food service. Wholesale pricing available.",
@@ -736,105 +739,105 @@
       "seoKeywords": "Fix Mix spicy, hot snack mix, spicy snacks, Pacific Island food"
     },
     "boja-king-cheese-snack-56gr": {
-      "name": "Boja King Cheese Snack (56 gr)",
+      "name": "Boja King Cheese Snack",
       "description": "Light and airy corn puffs bursting with real cheese flavor. Boja King has been a favorite across the Pacific for over 30 years. These baked (not fried) snacks are halal certified and perfect for on-the-go snacking.",
       "seoTitle": "Boja King Cheese Puffs 56g | A & S Distributors",
       "seoDescription": "Boja King Cheese puffs, baked with real cheese flavor. Pacific Island favorite. Wholesale pricing available.",
       "seoKeywords": "Boja King cheese, cheese puffs, Fiji snacks, halal snacks"
     },
     "boja-king-cheese-snack-64gr": {
-      "name": "Boja King Cheese Snack (64 gr)",
+      "name": "Boja King Cheese Snack",
       "description": "Crunchy corn puffs coated in savory cheese seasoning. This mid-size pack of Boja King is perfect for individual snacking. Made from corn and rice, baked for a lighter crunch that has made it Fiji's favorite snack for decades.",
       "seoTitle": "Boja King Cheese Puffs 64g | A & S Distributors",
       "seoDescription": "Boja King Cheese puffs 64g, crunchy and cheesy. Fiji's favorite. Wholesale pricing available.",
       "seoKeywords": "Boja King cheese, cheese snacks, Fiji puffs, baked snacks"
     },
     "boja-king-cheese-snack-28oz": {
-      "name": "Boja King Cheese Snack (28 oz)",
+      "name": "Boja King Cheese Snack",
       "description": "Family-size pack of Fiji's iconic cheese puffs. Boja King's signature cheese flavor in a generous portion perfect for sharing at parties, family gatherings, or stocking up for cheese puff enthusiasts.",
       "seoTitle": "Boja King Cheese Puffs 28oz Family Size | A & S Distributors",
       "seoDescription": "Family-size Boja King Cheese puffs, perfect for sharing. Wholesale pricing available.",
       "seoKeywords": "Boja King family size, cheese puffs bulk, Fiji snacks, party snacks"
     },
     "boja-king-chicken-snack-156oz": {
-      "name": "Boja King Chicken Snack (156 oz)",
+      "name": "Boja King Chicken Snack",
       "description": "Extra-large bulk pack of Boja King's popular chicken-flavored puffs. Same light, crunchy texture with savory chicken seasoning. Ideal for retailers, events, or serious Boja King fans who never want to run out.",
       "seoTitle": "Boja King Chicken Puffs 156oz Bulk | A & S Distributors",
       "seoDescription": "Bulk Boja King Chicken puffs, savory chicken flavor. Perfect for retailers. Wholesale pricing available.",
       "seoKeywords": "Boja King chicken bulk, chicken puffs, Fiji snacks wholesale"
     },
     "boja-king-chicken-snack-64oz": {
-      "name": "Boja King Chicken Snack (64 oz)",
+      "name": "Boja King Chicken Snack",
       "description": "Large pack of chicken-flavored corn puffs from Fiji's beloved Boja King brand. Savory, crunchy, and satisfying with the same baked quality that has made Boja King a Pacific Island institution.",
       "seoTitle": "Boja King Chicken Puffs 64oz | A & S Distributors",
       "seoDescription": "Large Boja King Chicken puffs pack, savory and crunchy. Wholesale pricing available.",
       "seoKeywords": "Boja King chicken, chicken snacks, Fiji puffs, Pacific Island food"
     },
     "boja-king-chicken-snack-28oz": {
-      "name": "Boja King Chicken Snack (28 oz)",
+      "name": "Boja King Chicken Snack",
       "description": "Family-size bag of Boja King chicken puffs. These light, airy snacks are seasoned with savory chicken flavoring that appeals to all ages. A party essential in Pacific Island households.",
       "seoTitle": "Boja King Chicken Puffs 28oz | A & S Distributors",
       "seoDescription": "Family-size Boja King Chicken puffs. Party essential. Wholesale pricing available.",
       "seoKeywords": "Boja King chicken, family snacks, Fiji puffs, party food"
     },
     "boja-king-cheese-20gr": {
-      "name": "Boja King Cheese (20 gr)",
+      "name": "Boja King Cheese",
       "description": "Single-serve pack of Fiji's favorite cheese puffs. Perfect for lunch boxes, convenience stores, or quick snacking. The same great Boja King taste in a portion-controlled size.",
       "seoTitle": "Boja King Cheese Puffs 20g Single Serve | A & S Distributors",
       "seoDescription": "Single-serve Boja King Cheese puffs. Perfect for lunch boxes. Wholesale pricing available.",
       "seoKeywords": "Boja King single serve, cheese puffs small, Fiji snacks, lunch box snacks"
     },
     "boja-king-cheese-100gr": {
-      "name": "Boja King Cheese (100 gr)",
+      "name": "Boja King Cheese",
       "description": "A satisfying portion of Boja King cheese puffs for personal snacking. Light, crunchy, and packed with cheesy goodness. This mid-size bag is the choice for everyday enjoyment.",
       "seoTitle": "Boja King Cheese Puffs 100g | A & S Distributors",
       "seoDescription": "Boja King Cheese puffs 100g, perfect personal size. Wholesale pricing available.",
       "seoKeywords": "Boja King cheese, cheese snacks, Fiji puffs, personal size"
     },
     "boja-king-cheese-250gr": {
-      "name": "Boja King Cheese (250 gr)",
+      "name": "Boja King Cheese",
       "description": "Sharing-size pack of Boja King's legendary cheese puffs. Enough for movie nights, small gatherings, or a week of snacking. The cheese flavor that Pacific Islanders have loved for over three decades.",
       "seoTitle": "Boja King Cheese Puffs 250g Sharing Size | A & S Distributors",
       "seoDescription": "Sharing-size Boja King Cheese puffs 250g. Perfect for gatherings. Wholesale pricing available.",
       "seoKeywords": "Boja King sharing size, cheese puffs, Fiji snacks, party snacks"
     },
     "boja-king-chicken-20gr": {
-      "name": "Boja King Chicken (20 gr)",
+      "name": "Boja King Chicken",
       "description": "Pocket-size pack of chicken-flavored Boja King puffs. Convenient for on-the-go snacking, school lunches, or vending. All the savory chicken taste in a perfectly portioned package.",
       "seoTitle": "Boja King Chicken Puffs 20g | A & S Distributors",
       "seoDescription": "Pocket-size Boja King Chicken puffs. On-the-go snacking. Wholesale pricing available.",
       "seoKeywords": "Boja King small, chicken puffs, convenience snacks, Fiji food"
     },
     "boja-king-chicken-28gr": {
-      "name": "Boja King Chicken (28 gr)",
+      "name": "Boja King Chicken",
       "description": "Individual serving of Boja King's popular chicken puffs. Slightly larger than the 20g pack, this size offers more satisfaction while remaining perfectly portable. Baked, halal certified, and delicious.",
       "seoTitle": "Boja King Chicken Puffs 28g | A & S Distributors",
       "seoDescription": "Individual Boja King Chicken puffs 28g. Halal certified. Wholesale pricing available.",
       "seoKeywords": "Boja King individual, chicken snacks, halal puffs, Fiji snacks"
     },
     "boja-king-chicken-100gr": {
-      "name": "Boja King Chicken (100 gr)",
+      "name": "Boja King Chicken",
       "description": "Personal-size bag of Boja King chicken puffs. Made from quality corn and rice, baked to crunchy perfection with savory chicken seasoning. The right size for everyday snacking enjoyment.",
       "seoTitle": "Boja King Chicken Puffs 100g | A & S Distributors",
       "seoDescription": "Personal-size Boja King Chicken puffs 100g. Crunchy and savory. Wholesale pricing available.",
       "seoKeywords": "Boja King chicken, baked puffs, Fiji snacks, everyday snacks"
     },
     "boja-king-ufo-burger-20gr": {
-      "name": "Boja King UFO's Burger (20 gr)",
+      "name": "Boja King UFO's Burger",
       "description": "Fun, flying saucer-shaped corn snacks with bold burger flavor. UFO's are a Fiji favorite, especially with kids who love the unique shape and savory taste. Single-serve size perfect for lunch boxes.",
       "seoTitle": "Boja King UFO Burger Snacks 20g | A & S Distributors",
       "seoDescription": "Boja King UFO burger-flavored snacks. Fun shape, great taste. Wholesale pricing available.",
       "seoKeywords": "Boja King UFO, burger snacks, kids snacks, Fiji food"
     },
     "boja-king-ufo-burger-100gr": {
-      "name": "Boja King UFO's Burger (100 gr)",
+      "name": "Boja King UFO's Burger",
       "description": "Mid-size bag of UFO's burger-flavored corn snacks. The distinctive saucer shape and savory burger seasoning have made UFO's one of the most popular snacks in the South Pacific region.",
       "seoTitle": "Boja King UFO Burger Snacks 100g | A & S Distributors",
       "seoDescription": "Boja King UFO burger snacks 100g. South Pacific favorite. Wholesale pricing available.",
       "seoKeywords": "UFO snacks, burger flavor, Fiji puffs, Pacific Island snacks"
     },
     "boja-king-ufo-burger-200gr": {
-      "name": "Boja King UFO's Burger (200 gr)",
+      "name": "Boja King UFO's Burger",
       "description": "Family-size pack of Fiji's beloved UFO's burger-flavored snacks. These flying saucer-shaped treats deliver crunchy, savory satisfaction. Perfect for sharing or stocking up on this Pacific Island classic.",
       "seoTitle": "Boja King UFO Burger Snacks 200g Family | A & S Distributors",
       "seoDescription": "Family-size Boja King UFO burger snacks. Perfect for sharing. Wholesale pricing available.",
@@ -869,21 +872,21 @@
       "seoKeywords": "Cadbury Dairy Milk, milk chocolate, Cadbury bars, Australian chocolate"
     },
     "jasons-peanut-ruffs-20gr": {
-      "name": "Jasons Peanut Ruffs (20 gr)",
+      "name": "Jasons Peanut Ruffs",
       "description": "Single-serve pack of Fiji's beloved peanut butter puffs. Made with real peanut butter and baked (not fried), Peanut Ruffs have been a Pacific Islander favorite for over 30 years. Light, nutty, and utterly addictive.",
       "seoTitle": "Jasons Peanut Ruffs 20g | A & S Distributors",
       "seoDescription": "Single-serve Jasons Peanut Ruffs, made with real peanut butter. Fiji favorite. Wholesale pricing available.",
       "seoKeywords": "Jasons Peanut Ruffs, peanut butter puffs, Fiji snacks, Pacific Island candy"
     },
     "jasons-peanut-ruffs-64gr": {
-      "name": "Jasons Peanut Ruffs (64 gr)",
+      "name": "Jasons Peanut Ruffs",
       "description": "Mid-size bag of the legendary Peanut Ruffs from Fiji. These light, airy puffs are made with wholesome corn, rice, and real peanut butter flavor. Once you start, good luck stopping - they're that good.",
       "seoTitle": "Jasons Peanut Ruffs 64g | A & S Distributors",
       "seoDescription": "Jasons Peanut Ruffs 64g bag, light peanut butter puffs. Wholesale pricing available.",
       "seoKeywords": "Peanut Ruffs, Jasons snacks, peanut puffs, Fiji candy"
     },
     "jasons-peanut-ruffs-156gr": {
-      "name": "Jasons Peanut Ruffs (156 gr)",
+      "name": "Jasons Peanut Ruffs",
       "description": "Large sharing bag of Peanut Ruffs for true fans. These iconic Fiji puffs combine the richness of peanut butter with a light, crunchy texture. Perfect for parties or satisfying serious Peanut Ruffs cravings.",
       "seoTitle": "Jasons Peanut Ruffs 156g Large | A & S Distributors",
       "seoDescription": "Large Jasons Peanut Ruffs 156g for sharing. Fiji's favorite snack. Wholesale pricing available.",
@@ -995,35 +998,35 @@
       "seoKeywords": "Punjas coconut oil, Fiji coconut oil, cooking oil, wholesale coconut oil"
     },
     "punjas-mustard-oil-750ml": {
-      "name": "Punjas Mustard Oil (750 ml)",
+      "name": "Punjas Mustard Oil",
       "description": "Pure mustard oil with its characteristic pungent aroma and flavor. Essential for authentic Bengali and North Indian cooking, pickling, and massage. This traditional oil adds distinctive taste to dishes that no other oil can replicate.",
       "seoTitle": "Punjas Mustard Oil 750ml | A & S Distributors",
       "seoDescription": "Pure Punjas Mustard Oil 750ml for authentic cooking. Traditional flavor. Wholesale pricing available.",
       "seoKeywords": "Punjas mustard oil, pure mustard oil, Indian cooking oil, Fiji food"
     },
     "punjas-mustard-oil-2lt": {
-      "name": "Punjas Mustard Oil (2 lt)",
+      "name": "Punjas Mustard Oil",
       "description": "Larger format Punjas mustard oil for households that use this essential cooking oil regularly. The same pungent, flavorful oil used in traditional Indian-Fijian cooking, pickling, and frying.",
       "seoTitle": "Punjas Mustard Oil 2 Liter | A & S Distributors",
       "seoDescription": "Punjas Mustard Oil 2 liter size. Traditional cooking essential. Wholesale pricing available.",
       "seoKeywords": "mustard oil 2L, Punjas oil, cooking oil bulk, Indian oil"
     },
     "punjas-mustard-oil-4lt": {
-      "name": "Punjas Mustard Oil (4 lt)",
+      "name": "Punjas Mustard Oil",
       "description": "Bulk size Punjas mustard oil for restaurants and serious home cooks. High smoke point makes it ideal for frying and sauteing. The distinctive mustard flavor transforms vegetable dishes and adds authenticity to traditional recipes.",
       "seoTitle": "Punjas Mustard Oil 4 Liter Bulk | A & S Distributors",
       "seoDescription": "Bulk Punjas Mustard Oil 4 liter for restaurants. High smoke point. Wholesale pricing available.",
       "seoKeywords": "mustard oil bulk, Punjas oil 4L, restaurant cooking oil, wholesale oil"
     },
     "punjas-ghee-butter-750ml": {
-      "name": "Punjas Ghee Butter (750 ml)",
+      "name": "Punjas Ghee Butter",
       "description": "Clarified butter (ghee) from Fiji's trusted Punjas brand. Rich, nutty flavor with high smoke point, making it ideal for frying, sauteing, and finishing dishes. An essential fat in Indian-Fijian cooking and Ayurvedic tradition.",
       "seoTitle": "Punjas Ghee Butter 750ml | A & S Distributors",
       "seoDescription": "Punjas Ghee clarified butter 750ml. Rich and versatile. Wholesale pricing available.",
       "seoKeywords": "Punjas ghee, clarified butter, cooking ghee, Fiji ghee"
     },
     "punjas-ghee-butter-2lt": {
-      "name": "Punjas Ghee Butter (2 lt)",
+      "name": "Punjas Ghee Butter",
       "description": "Family size Punjas ghee for regular cooking use. This clarified butter is shelf-stable and adds incomparable richness to rice, dal, rotis, and sweets. A staple in Indo-Fijian kitchens for generations.",
       "seoTitle": "Punjas Ghee Butter 2 Liter | A & S Distributors",
       "seoDescription": "Punjas Ghee 2 liter family size. Essential cooking fat. Wholesale pricing available.",
@@ -1037,7 +1040,7 @@
       "seoKeywords": "Punjas vanaspati, vegetable ghee, cooking fat, Fiji food"
     },
     "punjas-ghee-butter-4lt": {
-      "name": "Punjas Ghee Butter (4 lt)",
+      "name": "Punjas Ghee Butter",
       "description": "Bulk container of Punjas premium ghee for commercial kitchens and heavy home use. Pure clarified butter that withstands high heat without burning. The foundation of authentic Indo-Fijian cuisine.",
       "seoTitle": "Punjas Ghee Butter 4 Liter Bulk | A & S Distributors",
       "seoDescription": "Bulk Punjas Ghee 4 liter for commercial use. Premium clarified butter. Wholesale pricing available.",
@@ -1079,28 +1082,28 @@
       "seoKeywords": "sandalwood coconut oil, scented oil, massage oil, Pacific beauty"
     },
     "weetbix-breakfast-cereal-13oz": {
-      "name": "Weetbix Breakfast Cereal (13.22 oz)",
+      "name": "Weetbix Breakfast Cereal",
       "description": "Australia's favorite breakfast cereal. Weetbix is made from whole grain wheat, high in fiber and iron. A healthy and nutritious way to start the day.",
       "seoTitle": "Weetbix Breakfast Cereal 13oz | A & S Distributors",
       "seoDescription": "Weetbix breakfast cereal from Australia. Whole grain, high fiber. Wholesale pricing available.",
       "seoKeywords": "Weetbix, Australian cereal, whole grain cereal, healthy breakfast, wholesale cereal"
     },
     "weetbix-breakfast-cereal-20oz": {
-      "name": "Weetbix Breakfast Cereal (20 oz)",
+      "name": "Weetbix Breakfast Cereal",
       "description": "A larger box of Australia's most trusted breakfast cereal. Weetbix biscuits are 97% whole grain wheat, high in fiber and iron, with low sugar. This size is perfect for families who start every morning with Weetbix.",
       "seoTitle": "Weetbix Breakfast Cereal 20oz | A & S Distributors",
       "seoDescription": "Weetbix 20oz family size, 97% whole grain wheat. Healthy Australian breakfast. Wholesale pricing available.",
       "seoKeywords": "Weetbix 20oz, whole grain cereal, Australian breakfast, healthy cereal"
     },
     "weetbix-breakfast-cereal-26oz": {
-      "name": "Weetbix Breakfast Cereal (26 oz)",
+      "name": "Weetbix Breakfast Cereal",
       "description": "Extra-large Weetbix pack for Weetbix enthusiasts and larger families. The same whole grain biscuits Australians have trusted for generations. Low GI energy that keeps you going until lunch.",
       "seoTitle": "Weetbix Breakfast Cereal 26oz Extra Large | A & S Distributors",
       "seoDescription": "Extra-large Weetbix 26oz pack. Whole grain, low GI energy. Wholesale pricing available.",
       "seoKeywords": "Weetbix large, whole grain breakfast, Australian cereal, family cereal"
     },
     "weetbix-breakfast-cereal-2lb": {
-      "name": "Weetbix Breakfast Cereal (2 lb)",
+      "name": "Weetbix Breakfast Cereal",
       "description": "Bulk format Weetbix for maximum value. Stock up on the breakfast cereal that has fueled Australian athletes and families for decades. 97% whole grain wheat with vitamins and minerals for a strong start.",
       "seoTitle": "Weetbix Breakfast Cereal 2lb Bulk | A & S Distributors",
       "seoDescription": "Bulk Weetbix 2lb pack. Maximum value, whole grain nutrition. Wholesale pricing available.",
@@ -1128,14 +1131,14 @@
       "seoKeywords": "Rewa milk powder, Fiji milk powder, full cream powder, wholesale milk powder"
     },
     "milo-powder-singapore-14oz": {
-      "name": "Milo Powder Singapore (14 oz)",
+      "name": "Milo Powder Singapore",
       "description": "The Singapore version of Nestle's beloved chocolate malt drink with its distinctive stronger malt-forward taste. Made with malt barley, milk, and cocoa, fortified with vitamins and minerals. The taste of childhood for millions across Asia and the Pacific.",
       "seoTitle": "Milo Powder Singapore 14oz | A & S Distributors",
       "seoDescription": "Singapore Milo powder 14oz. Chocolate malt drink, fortified. Wholesale pricing available.",
       "seoKeywords": "Milo Singapore, chocolate malt, Nestle Milo, Pacific beverages"
     },
     "milo-powder-singapore-3lb": {
-      "name": "Milo Powder Singapore (3 lb)",
+      "name": "Milo Powder Singapore",
       "description": "Bulk tin of Singapore Milo for serious Milo lovers and families. Singapore is Nestle's global center of excellence for Milo, producing the signature malt taste preferred throughout Southeast Asia and the Pacific. Never run out of this breakfast essential.",
       "seoTitle": "Milo Powder Singapore 3lb Tin | A & S Distributors",
       "seoDescription": "Large Singapore Milo tin 3lb. Family size chocolate malt. Wholesale pricing available.",
@@ -1163,28 +1166,28 @@
       "seoKeywords": "Nestle cocoa, cocoa powder, baking cocoa, hot chocolate"
     },
     "bushells-black-tea-200gr": {
-      "name": "Bushells Black Tea (200 gr)",
+      "name": "Bushells Black Tea",
       "description": "Australia's first tea brand, established in 1883. Bushells Blue Label loose leaf tea offers a well-rounded, full-flavored cup crafted especially for Australian tastes. Over 130 years of tea expertise in every bag.",
       "seoTitle": "Bushells Black Tea 200g Loose Leaf | A & S Distributors",
       "seoDescription": "Bushells Blue Label black tea 200g. Australia's first tea brand. Wholesale pricing available.",
       "seoKeywords": "Bushells tea, Australian tea, loose leaf black tea, Blue Label"
     },
     "bushells-black-tea-500gr": {
-      "name": "Bushells Black Tea (500 gr)",
+      "name": "Bushells Black Tea",
       "description": "Larger pack of Bushells Blue Label loose leaf tea for households that appreciate quality black tea daily. Full-bodied flavor from carefully selected leaves. The tea that has accompanied Australian conversations for over a century.",
       "seoTitle": "Bushells Black Tea 500g Loose Leaf | A & S Distributors",
       "seoDescription": "Bushells Blue Label black tea 500g family size. Full-bodied flavor. Wholesale pricing available.",
       "seoKeywords": "Bushells tea 500g, Australian black tea, loose leaf tea, wholesale tea"
     },
     "ceylon-black-tea-200gr": {
-      "name": "Ceylon Black Tea (200 gr)",
+      "name": "Ceylon Black Tea",
       "description": "Premium black tea from Sri Lanka (Ceylon), renowned worldwide for its bright, brisk flavor and golden liquor. These loose tea leaves steep into a refreshing cup with the distinctive Ceylon character prized by tea connoisseurs.",
       "seoTitle": "Ceylon Black Tea 200g Loose Leaf | A & S Distributors",
       "seoDescription": "Premium Ceylon black tea 200g from Sri Lanka. Bright, brisk flavor. Wholesale pricing available.",
       "seoKeywords": "Ceylon tea, Sri Lanka tea, black tea, premium loose leaf"
     },
     "ceylon-black-tea-500gr": {
-      "name": "Ceylon Black Tea (500 gr)",
+      "name": "Ceylon Black Tea",
       "description": "Bulk pack of authentic Ceylon black tea for true tea enthusiasts. Sri Lankan tea is celebrated for its quality and distinctive taste. This larger size provides excellent value for daily tea drinkers and foodservice.",
       "seoTitle": "Ceylon Black Tea 500g Bulk | A & S Distributors",
       "seoDescription": "Ceylon black tea 500g bulk size. Authentic Sri Lankan quality. Wholesale pricing available.",
@@ -1310,14 +1313,14 @@
       "seoKeywords": "spicy chicken sausage, hot sausage, chili sausage, Pacific Island food"
     },
     "lamb-sausage-5lb": {
-      "name": "Lamb Sausage (5 lb)",
+      "name": "Lamb Sausage",
       "description": "Bulk pack of premium lamb sausages made with New Zealand lamb. Rich, distinctive lamb flavor in every link. This larger format is ideal for restaurants, catering, and families who love lamb.",
       "seoTitle": "Lamb Sausage 5lb Bulk Pack | A & S Distributors",
       "seoDescription": "Bulk lamb sausage 5lb pack. Premium New Zealand lamb. Wholesale pricing available.",
       "seoKeywords": "lamb sausage bulk, New Zealand lamb sausage, wholesale sausage"
     },
     "lamb-sausage-2lb": {
-      "name": "Lamb Sausage (2 lb)",
+      "name": "Lamb Sausage",
       "description": "Convenient retail pack of lamb sausages made from quality New Zealand lamb. The distinctive flavor of lamb shines through in these well-seasoned links. Perfect for family barbecues and weeknight dinners.",
       "seoTitle": "Lamb Sausage 2lb Pack | A & S Distributors",
       "seoDescription": "Lamb sausage 2lb retail pack. Quality New Zealand lamb. Wholesale pricing available.",
@@ -1401,21 +1404,21 @@
       "seoKeywords": "turkey tails, Pacific Island food, BBQ meat, Samoan food"
     },
     "yellow-cassava-2lb": {
-      "name": "Yellow Cassava (2.20 lbs)",
+      "name": "Yellow Cassava",
       "description": "Fresh yellow cassava root, a staple in Pacific Island cuisine. Starchy root vegetable that can be boiled, fried, or baked. Rich in carbohydrates and fiber.",
       "seoTitle": "Yellow Cassava Root | A & S Distributors",
       "seoDescription": "Fresh yellow cassava root, Pacific Island staple. Versatile cooking options. Wholesale pricing available.",
       "seoKeywords": "cassava, yellow cassava, Pacific vegetable, root vegetable, wholesale cassava"
     },
     "white-cassava-5lb": {
-      "name": "White Cassava (5 lb)",
+      "name": "White Cassava",
       "description": "Traditional white cassava in a larger family pack. This starchy root has a mild, slightly sweet flavor when cooked. Boil, fry, or bake for a satisfying carbohydrate that has sustained Pacific Island communities for centuries.",
       "seoTitle": "White Cassava 5lb Family Pack | A & S Distributors",
       "seoDescription": "White cassava 5lb pack. Traditional Pacific Island staple. Wholesale pricing available.",
       "seoKeywords": "white cassava, cassava bulk, Pacific vegetables, root vegetable"
     },
     "white-cassava-2lb": {
-      "name": "White Cassava (2 lb)",
+      "name": "White Cassava",
       "description": "Convenient retail-size pack of white cassava root. This gluten-free starch can be prepared many ways: boiled with coconut milk, fried as chips, or mashed. A versatile base for traditional and modern dishes.",
       "seoTitle": "White Cassava 2lb Pack | A & S Distributors",
       "seoDescription": "White cassava 2lb retail pack. Gluten-free, versatile. Wholesale pricing available.",
@@ -1429,14 +1432,14 @@
       "seoKeywords": "jackfruit, tropical fruit, meat substitute, Pacific Island food"
     },
     "purple-taro-2lb": {
-      "name": "Purple Taro (2 lb)",
+      "name": "Purple Taro",
       "description": "Striking purple-fleshed taro that reveals vibrant color when cooked. This variety has a slightly nuttier flavor than white taro. Popular for poi, taro chips, and desserts where the purple color adds visual appeal.",
       "seoTitle": "Purple Taro 2lb | A & S Distributors",
       "seoDescription": "Purple-fleshed taro 2lb pack. Vibrant color, nutty flavor. Wholesale pricing available.",
       "seoKeywords": "purple taro, colored taro, Pacific vegetables, Fiji taro"
     },
     "purple-taro-5lb": {
-      "name": "Purple Taro (5 lb)",
+      "name": "Purple Taro",
       "description": "Larger pack of purple taro for families and foodservice. The beautiful purple flesh makes impressive presentations in traditional dishes and modern fusion cuisine. Earthy, slightly sweet flavor pairs well with coconut.",
       "seoTitle": "Purple Taro 5lb Pack | A & S Distributors",
       "seoDescription": "Purple taro 5lb family pack. Beautiful color, great flavor. Wholesale pricing available.",
@@ -1450,14 +1453,14 @@
       "seoKeywords": "pink taro, taro root, Talo, Pacific vegetable, wholesale taro"
     },
     "yellow-taro-2lb": {
-      "name": "Yellow Taro (2 lb)",
+      "name": "Yellow Taro",
       "description": "Yellow-fleshed taro variety with a creamier texture than white taro when cooked. This variety is particularly prized for its smooth consistency in mashed preparations and its subtle sweetness. Perfect for traditional lolo (coconut cream) dishes.",
       "seoTitle": "Yellow Taro 2lb | A & S Distributors",
       "seoDescription": "Yellow taro 2lb, creamy texture when cooked. Traditional Pacific staple. Wholesale pricing available.",
       "seoKeywords": "yellow taro, taro root, Pacific vegetables, Fiji taro"
     },
     "yellow-taro-5lb": {
-      "name": "Yellow Taro (5 lb)",
+      "name": "Yellow Taro",
       "description": "Family pack of yellow taro for regular cooking. The yellow flesh indicates higher beta-carotene content. Becomes wonderfully creamy when boiled and pairs beautifully with coconut milk in traditional Pacific Island preparations.",
       "seoTitle": "Yellow Taro 5lb Family Pack | A & S Distributors",
       "seoDescription": "Yellow taro 5lb pack. Creamy, nutritious. Wholesale pricing available.",
@@ -1492,14 +1495,14 @@
       "seoKeywords": "taro leaves, palusami leaves, lu, Pacific Island food"
     },
     "breadfruit-1kg": {
-      "name": "Breadfruit (1 kg)",
+      "name": "Breadfruit",
       "description": "Frozen breadfruit in convenient portion size. This starchy fruit has a bread-like texture when cooked and can be roasted, boiled, fried, or mashed. A sustainable Pacific Island staple that sustained islanders for millennia.",
       "seoTitle": "Frozen Breadfruit 1kg | A & S Distributors",
       "seoDescription": "Frozen breadfruit 1kg portion. Bread-like texture. Wholesale pricing available.",
       "seoKeywords": "breadfruit, ulu, Pacific fruit, Pacific Island food"
     },
     "breadfruit-5lb": {
-      "name": "Breadfruit (5 lb)",
+      "name": "Breadfruit",
       "description": "Larger pack of frozen breadfruit for families and restaurants. Ripe breadfruit is slightly sweet and perfect for desserts, while starchy breadfruit makes excellent fries, chips, and side dishes. A versatile Pacific Island ingredient.",
       "seoTitle": "Frozen Breadfruit 5lb Pack | A & S Distributors",
       "seoDescription": "Frozen breadfruit 5lb family size. Versatile cooking. Wholesale pricing available.",

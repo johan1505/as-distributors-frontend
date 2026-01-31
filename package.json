@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "test:type-check": "tsc --noEmit"
+    "dev:lint:fix": "biome lint --write .",
+		"test:format": "biome format .",
+		"dev:format:fix": "biome format --write .",
+		"test:type-check": "tsc --noEmit",
+		"test": "npm-run-all test:*"
   },
   "dependencies": {
     "@base-ui/react": "^1.0.0",

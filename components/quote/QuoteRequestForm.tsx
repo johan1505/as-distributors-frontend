@@ -1,33 +1,45 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Field, FieldLabel, FieldGroup } from "@/components/ui/field";
+import { Field, FieldLabel, FieldGroup, FieldError } from "@/components/ui/field";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useQuote } from "./QuoteProvider";
-import { ProductBase } from "@/lib/products";
+import { ProductSlug } from "@/lib/products";
+import { ROUTES } from "@/lib/routes";
+import { Loader2 } from "lucide-react";
 
-type QuoteItem = Pick<ProductBase, "slug"> & { quantity: number };
+type QuoteItem = { slug: ProductSlug; quantity: number };
 
-interface FormattedQuoteData {
+interface QuoteRequestPayload {
   contactInfo: {
     name: string;
     email: string;
     phone: string;
   };
-  quoteItems: Array<QuoteItem>;
+  quoteItems: QuoteItem[];
   metadata: {
     totalItems: number;
     totalUniqueProducts: number;
-    submittedAt: string;
   };
+  agreedToContact: boolean;
 }
+
+const QUOTE_API_URL = process.env.NEXT_PUBLIC_QUOTE_API_URL;
 
 export function QuoteRequestForm() {
   const tQuotePage = useTranslations("quote.submitPage");
-  const { items, totalItems } = useQuote();
+  const router = useRouter();
+  const { items, totalItems, clearCart } = useQuote();
 
-  const formatQuoteData = (formData: FormData): FormattedQuoteData => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [agreedToContact, setAgreedToContact] = useState(false);
+
+  const formatQuoteData = (formData: FormData): QuoteRequestPayload => {
     const contactInfo = {
       name: formData.get("name") as string,
       email: formData.get("email") as string,
@@ -42,27 +54,57 @@ export function QuoteRequestForm() {
     const metadata = {
       totalItems,
       totalUniqueProducts: items.length,
-      submittedAt: new Date().toLocaleString(),
     };
 
     return {
       contactInfo,
       quoteItems,
       metadata,
+      agreedToContact,
     };
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    // Form will be validated by HTML5 validation
-    // This handler is a stub for future server action or API call
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError(null);
+    setIsSubmitting(true);
 
-    const formData = new FormData(e.currentTarget);
-    const formattedData = formatQuoteData(formData);
+    // TODO: Remove this after testing
+    // await new Promise((succes) => {
+    //   setTimeout(succes, 6000);
+    // });
 
-    // TODO: Implement actual submission logic (e.g., server action)
-    // The formatted data is now ready for API submission
-    console.log("Formatted quote request data:", formattedData);
+    try {
+      const formData = new FormData(e.currentTarget);
+      const payload = formatQuoteData(formData);
+
+      if (!QUOTE_API_URL) {
+        throw new Error("Quote API URL is not configured");
+      }
+
+      const response = await fetch(QUOTE_API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.error || "Failed to submit quote request");
+      }
+
+      // Success: clear cart and redirect to products page
+      clearCart();
+      router.push(ROUTES.products);
+    } catch (err) {
+      console.error("Error submitting quote:", err);
+      setError(tQuotePage("errorMessage"));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -84,6 +126,7 @@ export function QuoteRequestForm() {
               required
               autoComplete="name"
               placeholder={tQuotePage("namePlaceholder")}
+              disabled={isSubmitting}
             />
           </Field>
 
@@ -99,6 +142,7 @@ export function QuoteRequestForm() {
               required
               autoComplete="email"
               placeholder={tQuotePage("emailPlaceholder")}
+              disabled={isSubmitting}
             />
           </Field>
 
@@ -114,10 +158,35 @@ export function QuoteRequestForm() {
               required
               autoComplete="tel"
               placeholder={tQuotePage("phonePlaceholder")}
+              disabled={isSubmitting}
             />
           </Field>
 
-          <Button type="submit" className="w-full" size="lg">
+          <Field className="flex-row">
+            <Checkbox
+              className="flex-5"
+              id="agreedToContact"
+              name="agreedToContact"
+              required
+              checked={agreedToContact}
+              onCheckedChange={(checked) =>
+                setAgreedToContact(checked === true)
+              }
+              disabled={isSubmitting}
+            />
+            <FieldLabel>{tQuotePage("agreeToContact")}</FieldLabel>
+          </Field>
+
+          {error ? <FieldError> {tQuotePage("errorMessage")}</FieldError> : null}
+          <Button
+            type="submit"
+            className="w-full"
+            size="lg"
+            disabled={isSubmitting || !agreedToContact}
+          >
+            {isSubmitting ? (
+              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+            ) : null}
             {tQuotePage("sendRequest")}
           </Button>
         </FieldGroup>
