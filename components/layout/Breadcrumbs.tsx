@@ -32,17 +32,20 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
           return (
             <React.Fragment key={index}>
               <BreadcrumbItem>
-                {isLast ? (
-                  <BreadcrumbPage>{item.label}</BreadcrumbPage>
-                ) : (
-                  <BreadcrumbLink
-                    render={(props) => (
-                      <Link {...props} href={item.href || "#"}>
-                        {item.label}
-                      </Link>
-                    )}
-                  />
-                )}
+                {isLast ?
+                  (
+                    <BreadcrumbPage>
+                      {item.label}
+                    </BreadcrumbPage>
+                  ) : (
+                    <BreadcrumbLink
+                      render={(props) => (
+                        <Link {...props} href={item.href || "#"}>
+                          {item.label}
+                        </Link>
+                      )}
+                    />
+                  )}
               </BreadcrumbItem>
               {!isLast && <BreadcrumbSeparator />}
             </React.Fragment>

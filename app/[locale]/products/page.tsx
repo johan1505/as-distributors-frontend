@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Locale } from "next-intl";
+import type { Locale } from "next-intl";
 import {
   getAllProductsBase,
   getCategories,
@@ -19,7 +19,7 @@ import {
 } from "@/lib/site-config";
 import { ROUTES } from "@/lib/routes";
 import { JSON_LD_CONSTANTS } from "@/lib/constants";
-import { CollectionPage, WithContext } from "schema-dts";
+import type { CollectionPage, WithContext } from "schema-dts";
 
 interface CatalogPageProps {
   params: Promise<{ locale: Locale }>;

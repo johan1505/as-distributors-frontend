@@ -1,11 +1,11 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Leaf, Award, Users } from "lucide-react";
 import { getFeaturedProducts } from "@/lib/products";
-import { Locale } from "next-intl";
+import type { Locale } from "next-intl";
 import { ProductCard } from "@/components/products/ProductCard";
 import { locales } from "@/i18n/config";
 import {

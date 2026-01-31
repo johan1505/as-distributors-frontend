@@ -1,6 +1,6 @@
 import { ROUTES } from "@/lib/routes";
 import { BASE_URL } from "@/lib/site-config";
-import { Organization, WebSite, WithContext } from "schema-dts";
+import type { Organization, WebSite, WithContext } from "schema-dts";
 import { JSON_LD_CONSTANTS, CONTANCT } from "@/lib/constants";
 interface OrganizationSchemaProps {
   name: string;

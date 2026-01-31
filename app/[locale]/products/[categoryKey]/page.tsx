@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/i18n/config";
@@ -18,7 +18,7 @@ import {
   BASE_URL,
 } from "@/lib/site-config";
 import { ROUTES } from "@/lib/routes";
-import { BreadcrumbList, CollectionPage, WithContext } from "schema-dts";
+import type { BreadcrumbList, CollectionPage, WithContext } from "schema-dts";
 import { JSON_LD_CONSTANTS } from "@/lib/constants";
 
 interface CategoryPageProps {

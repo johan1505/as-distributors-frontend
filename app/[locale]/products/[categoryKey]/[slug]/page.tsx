@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Package, Ruler } from "lucide-react";
@@ -19,7 +19,7 @@ import {
   SITE_NAME,
 } from "@/lib/site-config";
 import { ROUTES } from "@/lib/routes";
-import { BreadcrumbList, Product, WithContext } from "schema-dts";
+import type { BreadcrumbList, Product, WithContext } from "schema-dts";
 import { JSON_LD_CONSTANTS } from "@/lib/constants";
 
 interface ProductPageProps {

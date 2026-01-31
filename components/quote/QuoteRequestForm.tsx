@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Field, FieldLabel, FieldGroup, FieldError } from "@/components/ui/field";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useQuote } from "./QuoteProvider";
-import { ProductSlug } from "@/lib/products";
+import type { ProductSlug } from "@/lib/products";
 import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
 

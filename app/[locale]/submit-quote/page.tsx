@@ -1,9 +1,9 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PaddingLayout } from "@/components/layout/PaddingLayout";
 import { SubmitQuoteContent } from "@/components/quote/SubmitQuoteContent";
 import { locales } from "@/i18n/config";
-import { hasLocale, Locale } from "next-intl";
+import { hasLocale, type Locale } from "next-intl";
 import { notFound } from "next/navigation";
 import {
   getCanonicalUrl,
@@ -12,7 +12,7 @@ import {
   BASE_URL,
 } from "@/lib/site-config";
 import { ROUTES } from "@/lib/routes";
-import { WebPage, WithContext } from "schema-dts";
+import type { WebPage, WithContext } from "schema-dts";
 import { JSON_LD_CONSTANTS } from "@/lib/constants";
 
 interface SubmitQuotePageProps {

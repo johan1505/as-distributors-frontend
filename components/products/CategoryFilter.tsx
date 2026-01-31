@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/select";
 import { useRouter } from "@/i18n/navigation";
 
-import { CategoryKey } from "@/lib/products";
+import type { CategoryKey } from "@/lib/products";
 import { useTranslations } from "next-intl";
 import { Label } from "../ui/label";
 import { ROUTES } from "@/lib/routes";

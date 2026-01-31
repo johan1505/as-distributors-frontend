@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useQuote } from "./QuoteProvider";
-import { ProductSlug } from "@/lib/products";
+import type { ProductSlug } from "@/lib/products";
 import Image from "next/image";
 
 const MAX_VISIBLE_ITEMS = 3;

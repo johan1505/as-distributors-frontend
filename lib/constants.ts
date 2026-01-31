@@ -1,4 +1,4 @@
-import { CategoryKey, ProductSlug } from "./products";
+import type { CategoryKey, ProductSlug } from "./products";
 import { BASE_URL } from "./site-config";
 
 export const JSON_LD_CONSTANTS = {
