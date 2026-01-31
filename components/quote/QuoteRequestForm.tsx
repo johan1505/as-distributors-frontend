@@ -162,9 +162,8 @@ export function QuoteRequestForm() {
             />
           </Field>
 
-          <Field className="flex-row">
+          <Field orientation="horizontal">
             <Checkbox
-              className="flex-5"
               id="agreedToContact"
               name="agreedToContact"
               required
@@ -174,7 +173,9 @@ export function QuoteRequestForm() {
               }
               disabled={isSubmitting}
             />
-            <FieldLabel>{tQuotePage("agreeToContact")}</FieldLabel>
+            <FieldLabel htmlFor="agreedToContact">
+              {tQuotePage("agreeToContact")}
+            </FieldLabel>
           </Field>
 
           {error ? <FieldError> {tQuotePage("errorMessage")}</FieldError> : null}
