@@ -10,32 +10,42 @@
 	"nav": {
 		"home": "Home",
 		"products": "Products",
-		"quote": "Quote Cart",
+		"quote": "Submit Quote Request",
 		"contact": "Contact Us"
 	},
 	"home": {
 		"hero": {
-			"title": "Authentic Pacific Island Foods",
-			"subtitle": "From Fiji, New Zealand & Australia to your kitchen",
+			"title": "A & S Distributors",
+			"subtitle": "Pacific Island Foods Distributor",
+			"description": "Authentic Pacific Island foods from Fiji, New Zealand & Australia. Serving Northern California since 1995.",
 			"cta": "Browse Products"
 		},
 		"intro": {
-			"title": "About A & S Distributors",
-			"description": "A & S Distributors is a family owned business committed to serving our family of customers who depend on us for the highest quality foods from Fiji, New Zealand & Australia. We are the Northern California Distributor for The New Zealand Lamb Company and have our own USDA facility for cutting all goat and lamb varieties."
+			"title": "Family-Owned, Island-Inspired",
+			"p1": "A & S Distributors is a family owned business committed to serving our family of customers who depend on us for the highest quality foods from Fiji, New Zealand & Australia. We are the Northern California Distributor for The New Zealand Lamb Company and have our own USDA facility for cutting all goat and lamb varieties. We carry a variety of fresh, frozen and dry Pacific Island specialty foods at competitive prices.",
+			"p2": "At A & S Distributors we strive for excellence by building lasting relationships with our customers through our commitment to integrity and respect. We are dedicated to consistently helping stores provide quality products their customers will use to make delicious meals for their families.",
+			"p3": "We strive to provide a level of service that not only delivers the products our customers need but also includes a commitment to ensure accuracy of your orders. Going the \"extra mile\" is what sets A & S Distributors apart from our competitors. We look forward to working with you.",
+			"owners": "Ajay Kochhar and Sanjay Kochhar",
+			"ownersTitle": "Owners, A & S Distributors"
 		},
 		"values": {
 			"title": "The Four C's of Customer Service",
-			"authenticity": {
+			"subtitle": "Our guiding principles since day one",
+			"concern": {
 				"title": "Concern",
 				"description": "Concern that we have for our customers and our employees."
 			},
-			"quality": {
+			"confidence": {
 				"title": "Confidence",
 				"description": "Confidence that we bring our customers the highest quality foods from the Pacific Islands."
 			},
-			"community": {
+			"commitment": {
 				"title": "Commitment",
 				"description": "Commitment to provide the best to our customers with integrity and respect."
+			},
+			"convenience": {
+				"title": "Convenience",
+				"description": "Providing the kind of service that lets our customers know how important they are to us."
 			}
 		},
 		"featured": {
@@ -73,7 +83,7 @@
 	"quote": {
 		"packs": "Packs",
 		"pack": "Pack",
-		"title": "Quote Cart",
+		"title": "Submit Quote Request",
 		"empty": "Your quote cart is empty",
 		"emptyDescription": "Add products from our catalog to request a quote.",
 		"browseCatalog": "Browse Catalog",
@@ -124,13 +134,15 @@
 		"openSalesWidget": "Open Sales Widget"
 	},
 	"footer": {
-		"copyright": "A & S Distributors. All rights reserved.",
-		"tagline": "Authentic Pacific Island Foods"
+		"description": "Authentic Pacific Island foods from Fiji, New Zealand & Australia.",
+		"quickLinks": "Quick Links",
+		"contact": "Contact",
+		"copyright": "A & S Distributors. All rights reserved."
 	},
 	"categories": {
 		"categoryFilter": "Search in a different category",
 		"corned-beef": "Corned Beef",
-		"canned-fish-tuna": "Canned Fish & Tuna",
+		"fish-tuna": "Fish & Tuna",
 		"canned-vegetables": "Canned Vegetables",
 		"cookies": "Cookies",
 		"crackers": "Crackers",
@@ -140,9 +152,9 @@
 		"oils": "Oils",
 		"breakfast-cereal": "Breakfast Cereal",
 		"powders-teas": "Powders & Teas",
-		"new-zealand-lamb": "New Zealand Lamb & Goat",
+		"lamb-goat": "Lamb & Goat",
 		"sausages": "Sausages",
-		"white-meats-fish": "White Meats & Fiji Fish",
+		"white-meats": "White Meats",
 		"root-vegetables": "Root Vegetables",
 		"misc-frozen-fresh": "Misc. Frozen & Fresh"
 	},
@@ -153,11 +165,11 @@
 			"pageDescription": "Premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified with no added hormones or antibiotics.",
 			"keywords": "corned beef, Ox & Palm, Pacific corned beef, corned mutton, halal corned beef, wholesale corned beef"
 		},
-		"canned-fish-tuna": {
-			"title": "Canned Fish & Tuna - Mackerel & Sardines | A & S Distributors",
-			"description": "Quality canned mackerel, tuna, and sardines in natural oil or tomato sauce. Angel, Pacific Ocean, 777, Brunswick, and Skipper brands.",
-			"pageDescription": "Premium canned fish products including mackerel in natural oil or tomato sauce, chunk tuna, and sardines. Perfect for traditional Pacific Island recipes.",
-			"keywords": "canned mackerel, canned tuna, sardines, Pacific fish, wholesale canned fish, mackerel tomato sauce"
+		"fish-tuna": {
+			"title": "Fish & Tuna - Fresh, Frozen & Canned | A & S Distributors",
+			"description": "Quality fish and tuna including fresh Fiji fish (Kawa Kawa, Ulavi, Parrot Fish), canned mackerel, tuna, and sardines. Angel, Pacific Ocean, 777, Brunswick, and Skipper brands.",
+			"pageDescription": "Premium fish products including fresh Fiji fish and canned varieties. Kawa Kawa, Parrot Fish, mackerel in natural oil or tomato sauce, chunk tuna, and sardines.",
+			"keywords": "Fiji fish, Kawa Kawa, canned mackerel, canned tuna, sardines, Pacific fish, wholesale fish, Parrot Fish"
 		},
 		"canned-vegetables": {
 			"title": "Canned Vegetables - Coconut Milk & Pacific Products | A & S Distributors",
@@ -213,7 +225,7 @@
 			"pageDescription": "Essential powders and teas including the beloved Milo, traditional Kava from Fiji, milk powder, cocoa, and premium black teas.",
 			"keywords": "Milo powder, Kava powder, Fiji Kava, milk powder, black tea, Bushells tea, wholesale powders"
 		},
-		"new-zealand-lamb": {
+		"lamb-goat": {
 			"title": "New Zealand Lamb & Goat - USDA Certified | A & S Distributors",
 			"description": "Premium New Zealand lamb and Australian goat. We are the Northern California Distributor for The New Zealand Lamb Company with our own USDA cutting facility.",
 			"pageDescription": "Fresh New Zealand lamb and Australian goat, cut in our own USDA certified facility. Available whole or pre-packed in various cuts.",
@@ -225,11 +237,11 @@
 			"pageDescription": "Delicious sausages made with quality ingredients. Lamb, chicken, and our popular Samoan Beef Bangers.",
 			"keywords": "lamb sausage, chicken sausage, Samoan beef bangers, wholesale sausages, Pacific sausages"
 		},
-		"white-meats-fish": {
-			"title": "White Meats & Fiji Fish - Duck, Turkey & More | A & S Distributors",
-			"description": "Fresh and frozen meats including Fiji fish (Kawa Kawa, Ulavi), Muscovy duck, turkey tails, and more. Halal options available.",
-			"pageDescription": "Quality white meats and fresh Fiji fish. Kawa Kawa, Parrot Fish, Muscovy Duck, Turkey Tails, and more. Halal options available.",
-			"keywords": "Fiji fish, Kawa Kawa, turkey tails, Muscovy duck, halal poultry, Povi Masima, wholesale meats"
+		"white-meats": {
+			"title": "White Meats - Duck, Turkey & Poultry | A & S Distributors",
+			"description": "Fresh and frozen white meats including Muscovy duck, turkey tails, roosters, and more. Halal options available.",
+			"pageDescription": "Quality white meats and poultry. Muscovy Duck, Turkey Tails, Roosters, and more. Halal options available.",
+			"keywords": "turkey tails, Muscovy duck, halal poultry, Povi Masima, roosters, wholesale meats"
 		},
 		"root-vegetables": {
 			"title": "Root Vegetables - Taro, Cassava & Breadfruit | A & S Distributors",

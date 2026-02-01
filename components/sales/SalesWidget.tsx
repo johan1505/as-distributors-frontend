@@ -50,7 +50,7 @@ export function SalesWidget() {
                   <MessageCircle className="size-5 text-primary" />
                 </div>
                 <div>
-                  <CardTitle className="text-base">{t("title")}</CardTitle>
+                  <CardTitle className="font-display text-base">{t("title")}</CardTitle>
                   <CardDescription className="text-xs">
                     {t("description")}
                   </CardDescription>

@@ -22,7 +22,7 @@ export function Header() {
   const t = useTranslations("quote");
 
   return (
-    <header className="sticky top-0 z-30 w-full border-b bg-background">
+    <header className="sticky top-0 z-30 w-full border-b border-ocean/10 bg-background/95 backdrop-blur-sm">
       <div className="flex flex-col lg:flex-row h-full justify-between p-4 gap-4">
         {/* Left Side: Sidebar Trigger & Breadcrumbs */}
         <div className="flex items-center gap-4">

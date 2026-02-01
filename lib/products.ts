@@ -202,7 +202,7 @@ export type ProductSlug = (typeof PRODUCT_SLUGS)[number];
 // Define category keys as const array to preserve literal types and derive union type
 const CATEGORY_KEYS = [
 	'corned-beef',
-	'canned-fish-tuna',
+	'fish-tuna',
 	'canned-vegetables',
 	'cookies',
 	'crackers',
@@ -212,9 +212,9 @@ const CATEGORY_KEYS = [
 	'oils',
 	'breakfast-cereal',
 	'powders-teas',
-	'new-zealand-lamb',
+	'lamb-goat',
 	'sausages',
-	'white-meats-fish',
+	'white-meats',
 	'root-vegetables',
 	'misc-frozen-fresh',
 ] as const;

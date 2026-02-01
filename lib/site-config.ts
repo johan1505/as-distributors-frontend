@@ -3,11 +3,11 @@
  * Replace BASE_URL with the production URL when deploying
  */
 
-// Placeholder base URL - replace with production URL when known
+// TODO: Placeholder base URL - replace with production URL when known
 export const BASE_URL = 'https://pacificislanderfoods.com';
 
 // Site metadata constants
-export const SITE_NAME = 'Pacific Islander Foods';
+export const SITE_NAME = 'A & S Distributors';
 
 /**
  * Generate an absolute URL from a path

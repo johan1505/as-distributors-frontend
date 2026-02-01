@@ -10,6 +10,10 @@
 	--color-foreground: var(--foreground);
 	--font-sans: var(--font-sans);
 	--font-mono: var(--font-geist-mono);
+	--font-display: var(--font-display);
+	--color-ocean: var(--ocean);
+	--color-ocean-light: var(--ocean-light);
+	--color-ocean-muted: var(--ocean-muted);
 	--color-sidebar-ring: var(--sidebar-ring);
 	--color-sidebar-border: var(--sidebar-border);
 	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -57,6 +61,9 @@
 	--popover-foreground: oklch(0.141 0.005 285.823);
 	--primary: oklch(0.65 0.18 132);
 	--primary-foreground: oklch(0.99 0.03 121);
+	--ocean: oklch(0.55 0.16 235);
+	--ocean-light: oklch(0.75 0.1 235);
+	--ocean-muted: oklch(0.94 0.03 235);
 	--secondary: oklch(0.967 0.001 286.375);
 	--secondary-foreground: oklch(0.21 0.006 285.885);
 	--muted: oklch(0.967 0.001 286.375);
@@ -92,6 +99,9 @@
 	--popover-foreground: oklch(0.985 0 0);
 	--primary: oklch(0.77 0.2 131);
 	--primary-foreground: oklch(0.27 0.07 132);
+	--ocean: oklch(0.7 0.14 235);
+	--ocean-light: oklch(0.8 0.1 235);
+	--ocean-muted: oklch(0.22 0.04 235);
 	--secondary: oklch(0.274 0.006 286.033);
 	--secondary-foreground: oklch(0.985 0 0);
 	--muted: oklch(0.274 0.006 286.033);

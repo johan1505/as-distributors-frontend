@@ -39,23 +39,52 @@ export function ProductCatalog({
     });
   }, [products, search, tProducts]);
 
-  // Group products by category
+  // Group products by category, prioritizing categories with name matches
   const groupedProducts = useMemo(() => {
     const groups: Record<string, ProductBase[]> = {};
+    const categoriesWithNameMatch = new Set<string>();
+
     filteredProducts.forEach((product) => {
       if (!groups[product.categoryKey]) {
         groups[product.categoryKey] = [];
       }
       groups[product.categoryKey].push(product);
+
+      // Track if this category has a product with a name match
+      if (search) {
+        const name = tProducts(`${product.slug}.name`);
+        if (name.toLowerCase().includes(search.toLowerCase())) {
+          categoriesWithNameMatch.add(product.categoryKey);
+        }
+      }
     });
 
-    return Object.entries(groups).map(([categoryKey, products]) => ({
-      category: categoryKey,
-      categoryLabel:
-        categories.find((c) => c.key === categoryKey)?.label || categoryKey,
-      products,
-    }));
-  }, [filteredProducts, categories]);
+    return Object.entries(groups)
+      .map(([categoryKey, categoryProducts]) => ({
+        category: categoryKey,
+        categoryLabel:
+          categories.find((c) => c.key === categoryKey)?.label || categoryKey,
+        products: search
+          ? categoryProducts.slice().sort((a, b) => {
+              const aName = tProducts(`${a.slug}.name`).toLowerCase();
+              const bName = tProducts(`${b.slug}.name`).toLowerCase();
+              const searchLower = search.toLowerCase();
+              const aHasNameMatch = aName.includes(searchLower);
+              const bHasNameMatch = bName.includes(searchLower);
+              if (aHasNameMatch && !bHasNameMatch) return -1;
+              if (!aHasNameMatch && bHasNameMatch) return 1;
+              return 0;
+            })
+          : categoryProducts,
+        hasNameMatch: categoriesWithNameMatch.has(categoryKey),
+      }))
+      .sort((a, b) => {
+        // Categories with name matches come first
+        if (a.hasNameMatch && !b.hasNameMatch) return -1;
+        if (!a.hasNameMatch && b.hasNameMatch) return 1;
+        return 0;
+      });
+  }, [filteredProducts, categories, search, tProducts]);
 
   const isMobile = useIsMobile();
 
@@ -84,7 +113,7 @@ export function ProductCatalog({
         groupedProducts.map((group) => (
           <section key={group.category}>
             {groupedProducts.length > 1 ? (
-              <h2 className="text-2xl font-semibold mb-6">
+              <h2 className="font-display text-2xl font-semibold mb-6">
                 {group.categoryLabel}
               </h2>
             ) : null}

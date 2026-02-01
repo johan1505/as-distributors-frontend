@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { buttonVariants } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, Leaf, Award, Users } from 'lucide-react';
+import { ArrowRight, Heart, Shield, Handshake, Clock, Fish, Beef, Leaf } from 'lucide-react';
 import { getFeaturedProducts } from '@/lib/products';
 import type { Locale } from 'next-intl';
 import { ProductCard } from '@/components/products/ProductCard';
@@ -73,110 +72,196 @@ export default async function HomePage({ params }: HomePageProps) {
 	setRequestLocale(locale);
 
 	const t = await getTranslations('home');
-
+	const tNav = await getTranslations('nav');
 	const featuredProductsBase = getFeaturedProducts();
 
 	const values = [
 		{
-			icon: Leaf,
-			title: t('values.authenticity.title'),
-			description: t('values.authenticity.description'),
+			icon: Heart,
+			title: t('values.concern.title'),
+			description: t('values.concern.description'),
+			color: 'primary' as const,
 		},
 		{
-			icon: Award,
-			title: t('values.quality.title'),
-			description: t('values.quality.description'),
+			icon: Shield,
+			title: t('values.confidence.title'),
+			description: t('values.confidence.description'),
+			color: 'ocean' as const,
 		},
 		{
-			icon: Users,
-			title: t('values.community.title'),
-			description: t('values.community.description'),
+			icon: Handshake,
+			title: t('values.commitment.title'),
+			description: t('values.commitment.description'),
+			color: 'primary' as const,
+		},
+		{
+			icon: Clock,
+			title: t('values.convenience.title'),
+			description: t('values.convenience.description'),
+			color: 'ocean' as const,
 		},
 	];
 
 	return (
 		<>
 			{/* Hero Section */}
-			<section className="relative overflow-hidden bg-linear-to-br from-primary/5 via-background to-primary/10">
-				<div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMjIiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAzMHYySDE0di0yaDE0ek0zNiAyNnYySDE0di0yaDE0eiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
-				<div className="container mx-auto px-4 py-24 md:py-32 relative">
-					<div className="max-w-3xl mx-auto text-center">
-						<span className="text-6xl mb-6 block">🌺</span>
-						<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-							{t('hero.title')}
-						</h1>
-						<p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-							{t('hero.subtitle')}
-						</p>
-						<Link
-							href={ROUTES.products}
-							className={buttonVariants({ size: 'lg', className: 'gap-2' })}
-						>
-							{t('hero.cta')}
-						</Link>
-					</div>
-				</div>
-				{/* Wave decoration */}
-				<div className="absolute bottom-0 left-0 right-0">
-					{/* biome-ignore lint/a11y/noSvgWithoutTitle : no title needed */}
+			<section className="relative overflow-hidden">
+				{/* Ocean gradient background */}
+				<div className="absolute inset-0 bg-gradient-to-br from-ocean-muted via-background to-primary/5" />
+
+				{/* Decorative wave layers */}
+				<div className="absolute inset-0 pointer-events-none overflow-hidden">
+					{/* biome-ignore lint/a11y/noSvgWithoutTitle : decorative */}
 					<svg
-						viewBox="0 0 1440 120"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-						className="w-full h-auto"
+						className="absolute bottom-0 w-full h-32 md:h-48"
+						viewBox="0 0 1440 320"
 						preserveAspectRatio="none"
 					>
 						<path
-							d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
-							className="fill-background"
+							className="fill-ocean/10"
+							d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,250.7C960,235,1056,181,1152,165.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L0,320Z"
 						/>
+						<path
+							className="fill-primary/5"
+							d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,213.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L0,320Z"
+						/>
+					</svg>
+				</div>
+
+				<div className="container mx-auto px-4 py-20 md:py-32 relative">
+					<div className="max-w-4xl mx-auto text-center">
+						<h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 text-foreground">
+							{t('hero.title')}
+						</h1>
+						<p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+							{t('hero.description')}
+						</p>
+
+						<div className="flex flex-col sm:flex-row gap-4 justify-center">
+							<Link
+								href={ROUTES.products}
+								className={buttonVariants({ size: 'lg', className: 'gap-2' })}
+							>
+								{t('hero.cta')}
+								<ArrowRight className="size-4" />
+							</Link>
+							<Link
+								href={ROUTES.contact}
+								className={buttonVariants({
+									variant: 'outline',
+									size: 'lg',
+									className: 'border-ocean/30 hover:bg-ocean-muted',
+								})}
+							>
+								{tNav('contact')}
+							</Link>
+						</div>
+					</div>
+				</div>
+
+				{/* Bottom wave transition */}
+				<div className="absolute bottom-0 left-0 right-0 pointer-events-none">
+					{/* biome-ignore lint/a11y/noSvgWithoutTitle : decorative */}
+					<svg
+						viewBox="0 0 1440 80"
+						className="w-full h-auto fill-background"
+						preserveAspectRatio="none"
+					>
+						<path d="M0,40 C360,80 1080,0 1440,50 L1440,80 L0,80 Z" />
 					</svg>
 				</div>
 			</section>
 
-			{/* Intro Section */}
+			{/* Intro Section - Two Column */}
 			<section className="container mx-auto px-4 py-16 md:py-24">
-				<div className="max-w-3xl mx-auto text-center">
-					<h2 className="text-3xl font-bold mb-6">{t('intro.title')}</h2>
-					<p className="text-lg text-muted-foreground leading-relaxed">{t('intro.description')}</p>
+				<div className="grid md:grid-cols-5 gap-12 items-center max-w-6xl mx-auto">
+					{/* Left: Visual element */}
+					<div className="md:col-span-2 flex justify-center">
+						<div className="relative">
+							{/* Main decorative circle */}
+							<div className="size-48 md:size-56 rounded-full bg-gradient-to-br from-ocean-muted to-primary/10 flex items-center justify-center">
+								<div className="size-32 md:size-40 rounded-full bg-gradient-to-br from-ocean/20 to-primary/20 flex items-center justify-center">
+									<Fish className="size-16 md:size-20 text-ocean" />
+								</div>
+							</div>
+							{/* Floating accent icons */}
+							<div className="absolute -top-2 -right-2 size-14 rounded-full bg-primary/15 flex items-center justify-center shadow-sm">
+								<Beef className="size-7 text-primary" />
+							</div>
+							<div className="absolute -bottom-1 -left-3 size-12 rounded-full bg-ocean/15 flex items-center justify-center shadow-sm">
+								<Leaf className="size-6 text-ocean" />
+							</div>
+						</div>
+					</div>
+
+					{/* Right: Text content */}
+					<div className="md:col-span-3">
+						<h2 className="font-display text-2xl md:text-3xl font-semibold mb-6 text-foreground">
+							{t('intro.title')}
+						</h2>
+						<div className="space-y-4 text-muted-foreground">
+							<p className="text-base leading-relaxed">{t('intro.p1')}</p>
+							<p className="text-base leading-relaxed">{t('intro.p2')}</p>
+							<p className="text-base leading-relaxed">{t('intro.p3')}</p>
+						</div>
+						<div className="mt-8 pt-6 border-t border-border/50">
+							<p className="font-display text-lg font-medium text-foreground">
+								{t('intro.owners')}
+							</p>
+							<p className="text-sm text-muted-foreground">{t('intro.ownersTitle')}</p>
+						</div>
+					</div>
 				</div>
 			</section>
 
-			{/* Values Section */}
-			<section className="bg-muted/30 py-16 md:py-24">
+			{/* Values Section - Alternating Styles */}
+			<section className="bg-gradient-to-b from-ocean-muted/40 via-ocean-muted/20 to-background py-16 md:py-24">
 				<div className="container mx-auto px-4">
-					<h2 className="text-3xl font-bold text-center mb-12">{t('values.title')}</h2>
-					<div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
-						{values.map((value, index) => (
-							// biome-ignore lint/suspicious/noArrayIndexKey: key is needed
-							<Card key={index} className="text-center">
-								<CardContent className="pt-8">
-									<div className="size-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-										<value.icon className="size-8 text-primary" />
-									</div>
-									<h3 className="text-xl font-semibold mb-2">{value.title}</h3>
-									<p className="text-muted-foreground">{value.description}</p>
-								</CardContent>
-							</Card>
+					<h2 className="font-display text-2xl md:text-3xl font-semibold text-center mb-4">
+						{t('values.title')}
+					</h2>
+					<p className="text-center text-muted-foreground mb-12 max-w-xl mx-auto">
+						{t('values.subtitle')}
+					</p>
+
+					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+						{values.map((value) => (
+							<div
+								key={value.title}
+								className={
+									'p-6 rounded-2xl transition-all duration-300 hover:shadow-md bg-white border border-border /50 shadow - sm hover:border-primary/30'
+								}
+							>
+								<div
+									className={`size-12 rounded-xl flex items-center justify-center mb-4 bg-primary/10`}
+								>
+									<value.icon className={`size-6 text-primary`} />
+								</div>
+								<h3 className="text-lg font-semibold mb-2">{value.title}</h3>
+								<p className="text-sm text-muted-foreground leading-relaxed">{value.description}</p>
+							</div>
 						))}
 					</div>
 				</div>
 			</section>
 
 			{/* Featured Products Section */}
-			<section className="container mx-auto px-8 py-16 md:py-24">
+			<section className="container mx-auto px-4 py-8 md:py-16">
 				<div className="flex items-center justify-between mb-8">
-					<h2 className="text-3xl font-bold">{t('featured.title')}</h2>
+					<h2 className="font-display text-2xl md:text-3xl font-semibold">{t('featured.title')}</h2>
 					<Link
 						href={ROUTES.products}
-						className={buttonVariants({ variant: 'ghost', className: 'gap-2' })}
+						className={buttonVariants({
+							variant: 'ghost',
+							className: 'gap-2 text-ocean hover:text-ocean hover:bg-ocean-muted',
+						})}
 					>
 						{t('featured.viewAll')}
 						<ArrowRight className="size-4" />
 					</Link>
 				</div>
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-					{featuredProductsBase.map((product) => {
+					{featuredProductsBase.slice(0, 8).map((product) => {
 						return <ProductCard key={product.slug} product={product} hideQuoteCart />;
 					})}
 				</div>

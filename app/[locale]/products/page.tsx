@@ -120,7 +120,9 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
 
 			<div className="flex flex-col gap-8">
 				<div>
-					<h1 className="text-3xl md:text-4xl font-bold mb-2">{tCatalog('title')}</h1>
+					<h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">
+						{tCatalog('title')}
+					</h1>
 					<p className="text-muted-foreground">{tCatalog('description')}</p>
 				</div>
 

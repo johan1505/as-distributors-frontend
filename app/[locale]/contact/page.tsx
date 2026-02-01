@@ -118,12 +118,12 @@ export default async function ContactPage({ params }: ContactPageProps) {
 			<div className="max-w-2xl mx-auto">
 				{/* Header */}
 				<div className="mb-8">
-					<h1 className="text-3xl md:text-4xl font-bold mb-2">{t('title')}</h1>
+					<h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">{t('title')}</h1>
 					<p className="text-lg text-muted-foreground">{t('description')}</p>
 				</div>
 
 				{/* Contact Information List */}
-				<dl className="space-y-6">
+				<dl className="space-y-6 bg-ocean-muted/30 rounded-2xl p-6 border border-ocean/10">
 					{/* Phone */}
 					<div>
 						<dt className="text-sm font-medium text-muted-foreground mb-1 flex items-center gap-2">
@@ -132,7 +132,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 						<dd>
 							<a
 								href={`tel:${phoneNumber}`}
-								className="font-medium underline inline-flex items-center gap-1"
+								className="font-medium text-ocean hover:text-ocean-light underline inline-flex items-center gap-2 transition-colors"
 								aria-label={t('phone.ariaLabel', { phone: phoneNumber })}
 							>
 								<Phone className="size-4" />
@@ -149,7 +149,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 						<dd>
 							<a
 								href={`mailto:${emailAddress}`}
-								className="font-medium underline inline-flex items-center gap-1"
+								className="font-medium text-ocean hover:text-ocean-light underline inline-flex items-center gap-2 transition-colors"
 								aria-label={t('email.ariaLabel', { email: emailAddress })}
 							>
 								<Mail className="size-4" />
@@ -168,7 +168,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 								href={googleMapsUrl}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="font-medium underline inline-flex items-center gap-1"
+								className="font-medium text-ocean hover:text-ocean-light underline inline-flex items-center gap-2 transition-colors"
 								aria-label={t('address.ariaLabel', { address: fullAddress })}
 							>
 								<MapPin className="size-4" />

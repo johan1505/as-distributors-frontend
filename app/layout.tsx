@@ -1,7 +1,13 @@
-import { Geist, Geist_Mono, Inter } from 'next/font/google';
+import { Geist, Geist_Mono, Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+
+const playfair = Playfair_Display({
+	subsets: ['latin'],
+	variable: '--font-display',
+	weight: ['400', '500', '600', '700'],
+});
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -19,7 +25,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className={inter.variable} suppressHydrationWarning>
+		<html lang="en" className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
 			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
 		</html>
 	);

@@ -59,19 +59,20 @@ export function SearchBar() {
   );
 
   return (
-    <form onSubmit={handleSubmit} className="flex md:w-full">
+    <form onSubmit={handleSubmit} className="relative md:w-full">
       <Input
         type="search"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder={tCatalog("search.placeholder")}
-        className="flex-1"
+        className="pr-10"
       />
       <Button
         type="submit"
         variant="default"
-        size="default"
+        size="icon"
         aria-label={tCatalog("search.placeholder")}
+        className="absolute right-0 top-0 h-full rounded-l-none rounded-r-4xl px-3 border-0"
       >
         <Search className="size-4" />
       </Button>

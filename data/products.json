@@ -140,7 +140,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": true
 	},
 	{
@@ -149,7 +149,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -158,7 +158,7 @@
 		"unitPerPack": 12,
 		"overallSize": "15 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -167,7 +167,7 @@
 		"unitPerPack": 12,
 		"overallSize": "15 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -176,7 +176,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -185,7 +185,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -194,7 +194,7 @@
 		"unitPerPack": 100,
 		"overallSize": "3.75 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -203,7 +203,7 @@
 		"unitPerPack": 24,
 		"overallSize": "7.05 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -212,7 +212,7 @@
 		"unitPerPack": 24,
 		"overallSize": "7.05 oz",
 		"imageUrl": "",
-		"categoryKey": "canned-fish-tuna",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -1229,7 +1229,7 @@
 		"unitPerPack": 1,
 		"overallSize": "45-50 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": true
 	},
 	{
@@ -1238,7 +1238,7 @@
 		"unitPerPack": 1,
 		"overallSize": "18 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1247,7 +1247,7 @@
 		"unitPerPack": 1,
 		"overallSize": "N/A",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1256,7 +1256,7 @@
 		"unitPerPack": 1,
 		"overallSize": "45-50 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1265,7 +1265,7 @@
 		"unitPerPack": 1,
 		"overallSize": "45-50 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1274,7 +1274,7 @@
 		"unitPerPack": 1,
 		"overallSize": "45-50 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1283,7 +1283,7 @@
 		"unitPerPack": 1,
 		"overallSize": "45-50 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1292,7 +1292,7 @@
 		"unitPerPack": 1,
 		"overallSize": "45-50 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1301,7 +1301,7 @@
 		"unitPerPack": 1,
 		"overallSize": "22 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1310,7 +1310,7 @@
 		"unitPerPack": 1,
 		"overallSize": "22 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1319,7 +1319,7 @@
 		"unitPerPack": 1,
 		"overallSize": "18 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1328,7 +1328,7 @@
 		"unitPerPack": 28,
 		"overallSize": "2 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1337,7 +1337,7 @@
 		"unitPerPack": 1,
 		"overallSize": "35-42 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1346,7 +1346,7 @@
 		"unitPerPack": 1,
 		"overallSize": "35-42 lbs",
 		"imageUrl": "",
-		"categoryKey": "new-zealand-lamb",
+		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
@@ -1409,7 +1409,7 @@
 		"unitPerPack": 18,
 		"overallSize": "35 lbs",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "fish-tuna",
 		"featured": true
 	},
 	{
@@ -1418,7 +1418,7 @@
 		"unitPerPack": 1,
 		"overallSize": "N/A",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -1427,7 +1427,7 @@
 		"unitPerPack": 1,
 		"overallSize": "N/A",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -1436,7 +1436,7 @@
 		"unitPerPack": 1,
 		"overallSize": "N/A",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -1445,7 +1445,7 @@
 		"unitPerPack": 1,
 		"overallSize": "10 pcs",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
@@ -1454,8 +1454,8 @@
 		"unitPerPack": 1,
 		"overallSize": "65 lbs",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
-		"featured": false
+		"categoryKey": "white-meats",
+		"featured": true
 	},
 	{
 		"slug": "roosters-halal",
@@ -1463,7 +1463,7 @@
 		"unitPerPack": 1,
 		"overallSize": "N/A",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "white-meats",
 		"featured": false
 	},
 	{
@@ -1472,7 +1472,7 @@
 		"unitPerPack": 1,
 		"overallSize": "20 lbs",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "white-meats",
 		"featured": false
 	},
 	{
@@ -1481,7 +1481,7 @@
 		"unitPerPack": 1,
 		"overallSize": "20 lbs",
 		"imageUrl": "",
-		"categoryKey": "white-meats-fish",
+		"categoryKey": "white-meats",
 		"featured": false
 	},
 	{

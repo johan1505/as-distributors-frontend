@@ -28,7 +28,7 @@ export function QuoteItemsList() {
 
   return (
     <div className="flex-1">
-      <h2 className="text-xl font-semibold mb-4">
+      <h2 className="font-display text-xl font-semibold mb-4">
         {tQuotePage("itemsInQuote")}
       </h2>
       <ul className="space-y-4">

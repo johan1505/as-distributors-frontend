@@ -28,12 +28,12 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
   const description = tProducts(`${product.slug}.description`);
 
   return (
-    <Card className="group overflow-hidden hover:shadow-lg transition-all duration-300">
+    <Card className="group overflow-hidden hover:shadow-lg hover:border-ocean/30 transition-all duration-300">
       <Link
         href={`${ROUTES.products}/${product.categoryKey}/${product.slug}`}
         className="block"
       >
-        <div className="aspect-4/3 overflow-hidden">
+        <div className="aspect-4/3 overflow-hidden bg-ocean-muted/30">
           <Image
             width={100}
             height={500}
@@ -45,10 +45,10 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         </div>
       </Link>
       <CardHeader>
-        <CardTitle>
+        <CardTitle className="font-display">
           <Link
             href={`${ROUTES.products}/${product.categoryKey}/${product.slug}`}
-            className="group-hover:text-primary transition-colors line-clamp-1"
+            className="group-hover:text-ocean transition-colors line-clamp-1"
           >
             {name}
           </Link>
@@ -56,16 +56,16 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
       </CardHeader>
       <CardContent>
         <div className="flex flex-wrap gap-2">
-          <Badge variant="secondary">
+          <Badge variant="secondary" className="bg-ocean-muted/50 border-ocean/10">
             <span className="text-muted-foreground">{t("overallSize")}</span>:{" "}
             <span>{product.overallSize}</span>
           </Badge>
-          <Badge variant="secondary">
+          <Badge variant="secondary" className="bg-primary/5 border-primary/10">
             <span className="text-muted-foreground">{t("unitPerPack")}</span>:{" "}
             <span>{product.unitPerPack}</span>
           </Badge>
         </div>
-        <p className="line-clamp-3 mt-4">{description}</p>
+        <p className="line-clamp-3 mt-4 text-muted-foreground">{description}</p>
       </CardContent>
       <CardFooter>
         {hideQuoteCart ? null : (
@@ -73,7 +73,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             product={product}
             variant="secondary"
             size="sm"
-            className="w-full"
+            className="w-full hover:bg-ocean hover:text-white hover:border-ocean"
           />
         )}
       </CardFooter>
