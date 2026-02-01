@@ -40,6 +40,7 @@ interface AppSidebarProps {
 
 export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
   const t = useTranslations("nav");
+  const tNav = useTranslations("nav");
   const tCatalog = useTranslations("catalog");
   const tCategories = useTranslations("categories");
   const tHome = useTranslations("home");
@@ -156,30 +157,44 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
         </SidebarGroup>
       </SidebarContent>
 
-      <SidebarFooter className="border-t">
+      <SidebarFooter className="border-t border-ocean/20 pt-4">
         {locales.length > 1 && (
-          <SidebarMenu>
-            <SidebarMenuItem>
-              <SidebarMenuButton tooltip="Language">
-                <Globe className="size-4" />
-                <div className="flex items-center gap-2">
-                  {locales.map((loc) => (
-                    <Link
-                      key={loc}
-                      href={pathname}
-                      locale={loc}
-                      className={`px-2 py-1 text-xs font-medium rounded-md transition-colors ${locale === loc
-                        ? "bg-primary text-primary-foreground"
-                        : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                        }`}
-                    >
-                      {loc.toUpperCase()}
-                    </Link>
-                  ))}
-                </div>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-          </SidebarMenu>
+          <div className="px-2 pb-2">
+            <div className="flex items-center gap-2 mb-3 px-2">
+              <Globe className="size-5 text-ocean" />
+              <span className="text-sm font-semibold text-foreground">{tNav("language")}</span>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {locales.map((loc) => {
+                const languageNames: Record<string, string> = {
+                  en: "English",
+                  es: "Español",
+                  sm: "Samoa",
+                  ko: "한국어",
+                  zh: "中文",
+                };
+                return (
+                  <Link
+                    key={loc}
+                    href={pathname}
+                    locale={loc}
+                    onClick={() => {
+                      if (isMobile) {
+                        setOpenMobile(false);
+                      }
+                    }}
+                    className={`flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium rounded-lg transition-all ${
+                      locale === loc
+                        ? "bg-ocean text-white shadow-md"
+                        : "bg-muted/50 text-muted-foreground hover:bg-ocean/10 hover:text-ocean border border-transparent hover:border-ocean/30"
+                    }`}
+                  >
+                    {languageNames[loc] || loc.toUpperCase()}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
         )}
       </SidebarFooter>
     </SidebarPrimitive>

@@ -11,13 +11,14 @@
 		"home": "Home",
 		"products": "Products",
 		"quote": "Submit Quote Request",
-		"contact": "Contact Us"
+		"contact": "Contact Us",
+		"language": "Language"
 	},
 	"home": {
 		"hero": {
 			"title": "A & S Distributors",
 			"subtitle": "Pacific Island Foods Distributor",
-			"description": "Authentic Pacific Island foods from Fiji, New Zealand & Australia. Serving Northern California since 1995.",
+			"description": "Authentic Pacific Island foods from Fiji, New Zealand & Australia. Serving customers since 1995.",
 			"cta": "Browse Products"
 		},
 		"intro": {

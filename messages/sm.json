@@ -1,0 +1,232 @@
+{
+	"site": {
+		"name": "A & S Distributors",
+		"title": "A & S Distributors - Fa'atau Mea'ai o le Pasefika",
+		"description": "O lau fa'alagolago mo mea'ai moni o le Pasefika mai Fiti, Niu Sila ma Ausetalia. Matou te tu'uina atu i faleaiga, fa'atau oloa, ma fa'atau mea'ai oloa lelei i tau taugofie.",
+		"tagline": "Aumai le Pasefika i lau Laulau",
+		"keywords": "mea'ai Pasefika, fa'atau mea'ai Fiti, mamoe Niu Sila, povi kone, oloa niu, mea'ai Pasefika fa'atau tele, mea'ai Samoa, mea'ai Toga",
+		"pageNotFound": "E Le'i Maua le Itulau"
+	},
+	"nav": {
+		"home": "Aiga",
+		"products": "Oloa",
+		"quote": "Talosaga Tau",
+		"contact": "Fa'afeso'ota'i",
+		"language": "Gagana"
+	},
+	"home": {
+		"hero": {
+			"title": "A & S Distributors",
+			"subtitle": "Fa'atau Mea'ai o le Pasefika",
+			"description": "Mea'ai moni o le Pasefika mai Fiti, Niu Sila ma Ausetalia. Tautuaina Kalefonia i Matu talu mai le 1995.",
+			"cta": "Va'ai Oloa"
+		},
+		"intro": {
+			"title": "Pisinisi Aiga, Musumusuga Pasefika",
+			"p1": "O le A & S Distributors o se pisinisi aiga e fa'amoemoe i le tautuaina o la matou aiga o tagata fa'atau e fa'alagolago mai ia matou mo mea'ai maualuga mai Fiti, Niu Sila ma Ausetalia. O matou o le Fa'atau o le Itu i Matu o Kalefonia mo The New Zealand Lamb Company ma o lo matou lava fale USDA mo le tipi o mamoe ma 'oti uma. Matou te ave mai le tele o mea'ai fa'apitoa o le Pasefika e susu, fa'amalo ma mago i tau taugofie.",
+			"p2": "I le A & S Distributors matou te taumafai mo le lelei sili e ala i le fausia o so'otaga tumau ma a matou tagata fa'atau e ala i lo matou fa'amoemoe i le fa'amaoni ma le fa'aaloalo. Matou te tu'uina atu i fale oloa oloa lelei e fa'aaoga e o latou tagata fa'atau e fai ai mea'ai manaia mo o latou aiga.",
+			"p3": "Matou te taumafai e tu'uina atu se tulaga o auaunaga e le gata e avatu oloa e mana'omia e a matou tagata fa'atau ae fa'apea fo'i le fa'amautu o le sa'o o au fa'atonuga. O le alu i le \"maila fa'aopoopo\" o le mea lea e ese ai le A & S Distributors mai o matou tagata fa'atau. Matou te fa'atalitali i le galulue fa'atasi ma oe.",
+			"owners": "Ajay Kochhar ma Sanjay Kochhar",
+			"ownersTitle": "Matai, A & S Distributors"
+		},
+		"values": {
+			"title": "O C e Fa o le Auaunaga Tagata Fa'atau",
+			"subtitle": "O a matou ta'iala talu mai le aso muamua",
+			"concern": {
+				"title": "Popole",
+				"description": "Popole o lo o ia matou mo a matou tagata fa'atau ma tagata faigaluega."
+			},
+			"confidence": {
+				"title": "Fa'atuatua",
+				"description": "Fa'atuatua e matou avatu i a matou tagata fa'atau mea'ai maualuga sili mai le Pasefika."
+			},
+			"commitment": {
+				"title": "Fa'amoemoe",
+				"description": "Fa'amoemoe e tu'uina atu le mea sili i a matou tagata fa'atau ma le fa'amaoni ma le fa'aaloalo."
+			},
+			"convenience": {
+				"title": "Faigofie",
+				"description": "Tu'uina atu le ituaiga auaunaga e iloa ai e a matou tagata fa'atau le taua o i latou ia matou."
+			}
+		},
+		"featured": {
+			"title": "Oloa Fa'apitoa",
+			"viewAll": "Va'ai Oloa Uma"
+		}
+	},
+	"catalog": {
+		"title": "A Matou Oloa",
+		"description": "Su'e mai a matou mea'ai moni o le Pasefika",
+		"allProducts": "Oloa Uma",
+		"search": {
+			"placeholder": "Su'e oloa...",
+			"noResults": "E leai ni oloa e fetaui ma lau su'esu'ega."
+		},
+		"filter": {
+			"all": "Vaega Uma",
+			"label": "Fa'amama i le vaega"
+		},
+		"seoTitle": "Lisi Oloa - A & S Distributors",
+		"seoDescription": "Su'e mai a matou oloa moni o le Pasefika e aofia ai povi kone, mamoe, oloa niu, ma isi. Tau fa'atau tele mo faleaiga ma fa'atau oloa.",
+		"seoKeywords": "lisi mea'ai Pasefika, oloa mea'ai Fiti, povi kone fa'atau tele, mamoe Niu Sila, mea'ai Pasefika fa'atau tele"
+	},
+	"product": {
+		"itemNumber": "Oloa #",
+		"unitPerPack": "Fasi i le Pusa",
+		"overallSize": "Lapopo'a",
+		"category": "Vaega",
+		"addToQuote": "Fa'aopoopo pusa i tau",
+		"addMoreToQuote": "Fa'aopoopo isi pusa i tau",
+		"addedToQuote": "Ua Fa'aopoopo!",
+		"inQuote": "I le Tau",
+		"backToCatalog": "Toe Fo'i i le Lisi"
+	},
+	"quote": {
+		"packs": "Pusa",
+		"pack": "Pusa",
+		"title": "Talosaga Tau",
+		"empty": "E gaogao lau ato tau",
+		"emptyDescription": "Fa'aopoopo oloa mai la matou lisi e talosaga ai se tau.",
+		"browseCatalog": "Su'e Lisi",
+		"quantity": "Aof.",
+		"remove": "Aveese",
+		"clearAll": "Fa'amama Uma",
+		"subtotal": "Oloa i le Tau",
+		"submit": "Auina Talosaga Tau",
+		"itemCount": "{count, plural, =0 {E leai ni oloa} =1 {1 oloa} other {# oloa}}",
+		"requestQuote": "Talosaga tau",
+		"submitPage": {
+			"title": "Auina Talosaga Tau",
+			"seoTitle": "Talosaga Tau - A & S Distributors",
+			"seoDescription": "Auina se talosaga tau mo mea'ai moni o le Pasefika. Tau fa'atau tele mo faleaiga, fa'atau oloa, ma tagata tu'uina atu mea'ai. Tali vave mai la matou 'au fa'atau.",
+			"seoKeywords": "tau fa'atau tele, mea'ai Pasefika fa'atau tele, fa'atau mea'ai Fiti, fa'atonuga tele, oloa faleaiga",
+			"contactInfo": "Fa'amatalaga Fa'afeso'ota'i",
+			"name": "Igoa Atoa",
+			"namePlaceholder": "Tu'u lou igoa atoa",
+			"email": "Imeli",
+			"emailPlaceholder": "Tu'u lou imeli",
+			"phone": "Numera Telefoni",
+			"phonePlaceholder": "Tu'u lou numera telefoni",
+			"sendRequest": "Auina talosaga tau",
+			"submitting": "O loo auina...",
+			"agreeToContact": "Ou te ioe e fa'afeso'ota'i a'u e se sui fa'atau e uiga i lenei talosaga tau.",
+			"errorMessage": "Na iai se mea na tupu. Fa'amolemole toe taumafai mulimuli ane.",
+			"requiredFields": "Fa'amolemole fa'atumu uma vaega e auina lou talosaga tau. O la matou 'au fa'atau o le a fa'afeso'ota'i oe vave.",
+			"showAllItems": "Fa'aali {count} isi oloa",
+			"showLess": "Fa'aali itiiti",
+			"validation": {
+				"nameRequired": "E mana'omia le igoa",
+				"emailRequired": "E mana'omia le imeli",
+				"emailInvalid": "Fa'amolemole tu'u se imeli sa'o",
+				"phoneRequired": "E mana'omia le numera telefoni",
+				"phoneInvalid": "Fa'amolemole tu'u se numera telefoni sa'o"
+			},
+			"item": "oloa",
+			"items": "oloa",
+			"itemsInQuote": "Oloa i le Tau"
+		}
+	},
+	"sales": {
+		"title": "Mana'omia Fesoasoani?",
+		"description": "O la matou 'au fa'atau o lo o iai e fesoasoani ia te oe i fa'atonuga ma fesili.",
+		"phone": "Vala'au Mai",
+		"email": "Imeli Mai",
+		"close": "Tapuni",
+		"openSalesWidget": "Tatala Widget Fa'atau"
+	},
+	"footer": {
+		"description": "Mea'ai moni o le Pasefika mai Fiti, Niu Sila ma Ausetalia.",
+		"quickLinks": "So'otaga Vave",
+		"contact": "Fa'afeso'ota'i",
+		"copyright": "A & S Distributors. Aia uma e fa'asaoina."
+	},
+	"categories": {
+		"categoryFilter": "Su'e i se vaega ese",
+		"corned-beef": "Povi Kone",
+		"fish-tuna": "I'a ma Tuna",
+		"canned-vegetables": "Fualaau Fai Tini",
+		"cookies": "Pisiketi",
+		"crackers": "Masi",
+		"snacks": "Mea'ai Itiiti",
+		"candies": "Lole",
+		"pickles-spices": "Mea Kiki ma Mea Manogi",
+		"oils": "Suau'u",
+		"breakfast-cereal": "Mea'ai Taeao",
+		"powders-teas": "Pauta ma Ti",
+		"lamb-goat": "Mamoe ma 'Oti",
+		"sausages": "Susiti",
+		"white-meats": "Aano Pa'epa'e",
+		"root-vegetables": "Fualaau A'a",
+		"misc-frozen-fresh": "Isi Fa'amalo ma Susu"
+	},
+	"categorySeo": {
+		"corned-beef": {
+			"title": "Povi Kone - Aano Tini Maualuga | A & S Distributors",
+			"description": "Povi kone ma mamoe maualuga mai Ausetalia. O Ox & Palm, Pacific, Colonial, Globe ma Crown e maua i lapopo'a eseese.",
+			"pageDescription": "Povi kone maualuga faia mai povi Angus Ausetalia maualuga. HACCP & USDA fa'amaonia e aunoa ma ni hormones po'o ni antibiotic.",
+			"keywords": "povi kone, Ox & Palm, Pacific povi kone, mamoe kone, povi kone halal, povi kone fa'atau tele"
+		},
+		"fish-tuna": {
+			"title": "I'a ma Tuna - Susu, Fa'amalo & Tini | A & S Distributors",
+			"description": "I'a ma tuna lelei e aofia ai i'a susu Fiti (Kawa Kawa, Ulavi, I'a Polo), mackerel tini, tuna, ma sardines.",
+			"pageDescription": "Oloa i'a maualuga e aofia ai i'a susu Fiti ma ituaiga tini. Kawa Kawa, I'a Polo, mackerel i suau'u masani po'o tomato sauce, tuna, ma sardines.",
+			"keywords": "i'a Fiti, Kawa Kawa, mackerel tini, tuna tini, sardines, i'a Pasefika, i'a fa'atau tele, I'a Polo"
+		},
+		"canned-vegetables": {
+			"title": "Fualaau Tini - Susu Niu & Oloa Pasefika | A & S Distributors",
+			"description": "Susu niu maualuga, kilimi niu, lau talo, ma fualaau Pasefika. Lelei mo mea'ai masani ma kare.",
+			"pageDescription": "Susu niu ma kilimi suamalie mo mea'ai masani, supo, kare, sosi, mea suamalie ma mea inu. O se sui lelei mo susu povi.",
+			"keywords": "susu niu, kilimi niu, lau talo, palusami, duruka, fualaau Pasefika, niu Fiti"
+		}
+	},
+	"breadcrumb": {
+		"products": "Oloa"
+	},
+	"products": {
+		"ox-palm-corned-beef-7oz": {
+			"name": "Ox & Palm Povi Kone",
+			"description": "Povi kone maualuga faia mai povi Angus Ausetalia maualuga. Sili atu le susu ma le tele o fasi nai lo isi povi kone i le maketi. HACCP & USDA fa'amaonia e aunoa ma ni hormones po'o ni antibiotic. Lelei mo hash povi kone, sanuisi, pasta, ma fuamoa.",
+			"seoTitle": "Ox & Palm Povi Kone 7oz - Premium Ausetalia | A & S Distributors",
+			"seoDescription": "Povi kone Ox & Palm maualuga mai povi Angus Ausetalia. USDA fa'amaonia, e leai ni hormones. Tau fa'atau tele e maua.",
+			"seoKeywords": "Ox & Palm povi kone, povi kone Ausetalia, povi kone maualuga, povi kone fa'atau tele"
+		}
+	},
+	"contact": {
+		"title": "Fa'afeso'ota'i Mai",
+		"description": "Fa'afeso'ota'i le A & S Distributors. O lo o matou iinei e fesoasoani atu i ou mana'oga fa'atau mea'ai tele.",
+		"seoTitle": "Fa'afeso'ota'i Mai - A & S Distributors",
+		"seoDescription": "Fa'afeso'ota'i le A & S Distributors mo fa'atau mea'ai Pasefika. Vala'au, imeli, po'o a'siai i lo matou nofoaga i Salida, CA.",
+		"seoKeywords": "fa'afeso'ota'i A & S Distributors, fa'atau mea'ai Pasefika, fa'atau mea'ai tele, oloa mea'ai Fiti, fa'atau mea'ai Kalefonia",
+		"heading": "Fa'afeso'ota'i Mai",
+		"subheading": "O lo o matou iinei e fesoasoani atu i ou mana'oga fa'atau mea'ai tele",
+		"phone": {
+			"label": "Telefoni",
+			"description": "Vala'au mai i taimi pisinisi",
+			"ariaLabel": "Vala'au mai i le {phone}"
+		},
+		"email": {
+			"label": "Imeli",
+			"description": "Imeli mai i so'o se taimi",
+			"ariaLabel": "Imeli mai i le {email}"
+		},
+		"address": {
+			"label": "Tuatusi",
+			"street": "4710 Elm Street",
+			"city": "Salida",
+			"state": "CA",
+			"zipCode": "95368",
+			"description": "Asiasi mai i lo matou nofoaga Salida",
+			"ariaLabel": "Tatala {address} i Google Maps"
+		},
+		"hours": {
+			"label": "Taimi Pisinisi",
+			"monday": "Aso Gafua - Aso Faraile: 8:00 AM - 5:00 PM PST",
+			"saturday": "Aso To'ona'i: 9:00 AM - 2:00 PM PST",
+			"sunday": "Aso Sa: Tapunia"
+		},
+		"jsonLd": {
+			"availableLanguage": "Samoa",
+			"contactType": "fa'atau"
+		}
+	}
+}

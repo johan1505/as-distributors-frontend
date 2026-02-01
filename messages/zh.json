@@ -1,0 +1,232 @@
+{
+	"site": {
+		"name": "A & S Distributors",
+		"title": "A & S Distributors - 太平洋岛屿食品分销商",
+		"description": "您值得信赖的斐济、新西兰和澳大利亚正宗太平洋岛屿食品来源。我们以有竞争力的价格为餐厅、零售商和食品服务提供商提供优质产品。",
+		"tagline": "将太平洋带到您的餐桌",
+		"keywords": "太平洋岛屿食品, 斐济食品分销商, 新西兰羊肉, 咸牛肉, 椰子产品, 批发太平洋食品, 萨摩亚食品, 汤加食品",
+		"pageNotFound": "页面未找到"
+	},
+	"nav": {
+		"home": "首页",
+		"products": "产品",
+		"quote": "提交报价请求",
+		"contact": "联系我们",
+		"language": "语言"
+	},
+	"home": {
+		"hero": {
+			"title": "A & S Distributors",
+			"subtitle": "太平洋岛屿食品分销商",
+			"description": "来自斐济、新西兰和澳大利亚的正宗太平洋岛屿食品。自1995年起服务北加州。",
+			"cta": "浏览产品"
+		},
+		"intro": {
+			"title": "家族企业，岛屿灵感",
+			"p1": "A & S Distributors是一家家族企业，致力于为依赖我们提供斐济、新西兰和澳大利亚最高品质食品的客户家庭服务。我们是新西兰羊肉公司的北加州分销商，并拥有自己的USDA认证设施，用于切割所有山羊和羊肉品种。我们以有竞争力的价格提供各种新鲜、冷冻和干燥的太平洋岛屿特色食品。",
+			"p2": "在A & S Distributors，我们通过对诚信和尊重的承诺与客户建立持久的关系，努力追求卓越。我们致力于持续帮助商店提供优质产品，让他们的客户为家人制作美味佳肴。",
+			"p3": "我们努力提供不仅能交付客户所需产品的服务水平，还包括确保订单准确性的承诺。\"多走一英里\"是A & S Distributors与竞争对手的区别所在。我们期待与您合作。",
+			"owners": "Ajay Kochhar和Sanjay Kochhar",
+			"ownersTitle": "A & S Distributors所有者"
+		},
+		"values": {
+			"title": "客户服务的四个C",
+			"subtitle": "我们从第一天起的指导原则",
+			"concern": {
+				"title": "关怀",
+				"description": "我们对客户和员工的关怀。"
+			},
+			"confidence": {
+				"title": "信心",
+				"description": "我们有信心为客户带来太平洋岛屿最高品质的食品。"
+			},
+			"commitment": {
+				"title": "承诺",
+				"description": "以诚信和尊重为客户提供最好的承诺。"
+			},
+			"convenience": {
+				"title": "便利",
+				"description": "提供让客户知道他们对我们有多重要的服务。"
+			}
+		},
+		"featured": {
+			"title": "特色产品",
+			"viewAll": "查看所有产品"
+		}
+	},
+	"catalog": {
+		"title": "我们的产品",
+		"description": "浏览我们精选的正宗太平洋岛屿食品",
+		"allProducts": "所有产品",
+		"search": {
+			"placeholder": "搜索产品...",
+			"noResults": "未找到匹配您搜索的产品。"
+		},
+		"filter": {
+			"all": "所有类别",
+			"label": "按类别筛选"
+		},
+		"seoTitle": "产品目录 - A & S Distributors",
+		"seoDescription": "浏览我们完整的正宗太平洋岛屿食品选择，包括咸牛肉、羊肉、椰子产品等。餐厅和零售商的批发价格。",
+		"seoKeywords": "太平洋岛屿食品目录, 斐济食品产品, 批发咸牛肉, 新西兰羊肉, 太平洋岛屿食品批发"
+	},
+	"product": {
+		"itemNumber": "商品 #",
+		"unitPerPack": "每包数量",
+		"overallSize": "规格",
+		"category": "类别",
+		"addToQuote": "添加包装到报价",
+		"addMoreToQuote": "添加更多包装到报价",
+		"addedToQuote": "已添加！",
+		"inQuote": "在报价中",
+		"backToCatalog": "返回目录"
+	},
+	"quote": {
+		"packs": "包",
+		"pack": "包",
+		"title": "提交报价请求",
+		"empty": "您的报价车为空",
+		"emptyDescription": "从我们的目录中添加产品以请求报价。",
+		"browseCatalog": "浏览目录",
+		"quantity": "数量",
+		"remove": "移除",
+		"clearAll": "清除所有",
+		"subtotal": "报价中的项目",
+		"submit": "提交报价请求",
+		"itemCount": "{count, plural, =0 {无项目} =1 {1个项目} other {#个项目}}",
+		"requestQuote": "请求报价",
+		"submitPage": {
+			"title": "提交报价请求",
+			"seoTitle": "请求报价 - A & S Distributors",
+			"seoDescription": "提交正宗太平洋岛屿食品的报价请求。餐厅、零售商和食品服务提供商的批发价格。销售团队快速响应。",
+			"seoKeywords": "批发报价, 太平洋岛屿食品批发, 斐济食品分销商, 大批量订购, 餐厅供应",
+			"contactInfo": "联系信息",
+			"name": "全名",
+			"namePlaceholder": "输入您的全名",
+			"email": "电子邮件地址",
+			"emailPlaceholder": "输入您的电子邮件",
+			"phone": "电话号码",
+			"phonePlaceholder": "输入您的电话号码",
+			"sendRequest": "发送报价请求",
+			"submitting": "正在提交...",
+			"agreeToContact": "我同意销售代表就此报价请求与我联系。",
+			"errorMessage": "出了点问题。请稍后再试。",
+			"requiredFields": "请填写所有字段以提交您的报价请求。我们的销售团队将很快与您联系。",
+			"showAllItems": "显示更多{count}个项目",
+			"showLess": "显示更少",
+			"validation": {
+				"nameRequired": "姓名是必填项",
+				"emailRequired": "电子邮件是必填项",
+				"emailInvalid": "请输入有效的电子邮件地址",
+				"phoneRequired": "电话号码是必填项",
+				"phoneInvalid": "请输入有效的电话号码"
+			},
+			"item": "项目",
+			"items": "项目",
+			"itemsInQuote": "报价中的项目"
+		}
+	},
+	"sales": {
+		"title": "需要帮助？",
+		"description": "我们的销售团队随时为您提供订单和问题方面的帮助。",
+		"phone": "致电我们",
+		"email": "发送邮件",
+		"close": "关闭",
+		"openSalesWidget": "打开销售小部件"
+	},
+	"footer": {
+		"description": "来自斐济、新西兰和澳大利亚的正宗太平洋岛屿食品。",
+		"quickLinks": "快速链接",
+		"contact": "联系方式",
+		"copyright": "A & S Distributors. 保留所有权利。"
+	},
+	"categories": {
+		"categoryFilter": "在其他类别中搜索",
+		"corned-beef": "咸牛肉",
+		"fish-tuna": "鱼类和金枪鱼",
+		"canned-vegetables": "罐装蔬菜",
+		"cookies": "饼干",
+		"crackers": "薄脆饼干",
+		"snacks": "零食",
+		"candies": "糖果",
+		"pickles-spices": "腌菜和香料",
+		"oils": "油类",
+		"breakfast-cereal": "早餐谷物",
+		"powders-teas": "粉类和茶",
+		"lamb-goat": "羊肉和山羊肉",
+		"sausages": "香肠",
+		"white-meats": "白肉",
+		"root-vegetables": "根茎类蔬菜",
+		"misc-frozen-fresh": "其他冷冻和新鲜"
+	},
+	"categorySeo": {
+		"corned-beef": {
+			"title": "咸牛肉 - 优质罐装肉类 | A & S Distributors",
+			"description": "来自澳大利亚的高品质咸牛肉和羊肉。Ox & Palm、Pacific、Colonial、Globe和Crown品牌提供多种规格。",
+			"pageDescription": "优质咸牛肉，由高品质草饲澳大利亚安格斯牛肉制成。HACCP和USDA认证，不添加激素或抗生素。",
+			"keywords": "咸牛肉, Ox & Palm, Pacific咸牛肉, 咸羊肉, 清真咸牛肉, 批发咸牛肉"
+		},
+		"fish-tuna": {
+			"title": "鱼类和金枪鱼 - 新鲜、冷冻和罐装 | A & S Distributors",
+			"description": "优质鱼类和金枪鱼，包括新鲜斐济鱼（Kawa Kawa、Ulavi、鹦鹉鱼）、罐装鲭鱼、金枪鱼和沙丁鱼。",
+			"pageDescription": "优质鱼类产品，包括新鲜斐济鱼和罐装品种。Kawa Kawa、鹦鹉鱼、天然油或番茄酱鲭鱼、块状金枪鱼和沙丁鱼。",
+			"keywords": "斐济鱼, Kawa Kawa, 罐装鲭鱼, 罐装金枪鱼, 沙丁鱼, 太平洋鱼, 批发鱼, 鹦鹉鱼"
+		},
+		"canned-vegetables": {
+			"title": "罐装蔬菜 - 椰浆和太平洋产品 | A & S Distributors",
+			"description": "优质椰浆、椰子奶油、芋头叶和太平洋岛屿蔬菜。非常适合传统食谱和咖喱。",
+			"pageDescription": "浓郁可口的椰浆和椰子奶油，用于经典地区菜肴、汤、咖喱、酱汁、甜点和饮料。乳制品的绝佳替代品。",
+			"keywords": "椰浆, 椰子奶油, 芋头叶, palusami, duruka, 太平洋蔬菜, 斐济椰子"
+		}
+	},
+	"breadcrumb": {
+		"products": "产品"
+	},
+	"products": {
+		"ox-palm-corned-beef-7oz": {
+			"name": "Ox & Palm Corned Beef",
+			"description": "优质咸牛肉，由高品质草饲澳大利亚安格斯牛肉制成。比市场上其他咸牛肉更多汁、块更大。HACCP和USDA认证，不添加激素或抗生素。非常适合咸牛肉土豆饼、烤奶酪三明治、意大利面和鸡蛋。",
+			"seoTitle": "Ox & Palm Corned Beef 7oz - 优质澳大利亚产品 | A & S Distributors",
+			"seoDescription": "高品质Ox & Palm咸牛肉，由草饲澳大利亚安格斯牛肉制成。USDA认证，无激素。提供批发价格。",
+			"seoKeywords": "Ox & Palm咸牛肉, 澳大利亚咸牛肉, 优质咸牛肉, 批发咸牛肉"
+		}
+	},
+	"contact": {
+		"title": "联系我们",
+		"description": "联系A & S Distributors。我们随时为您的批发食品分销需求提供帮助。",
+		"seoTitle": "联系我们 - A & S Distributors",
+		"seoDescription": "联系A & S Distributors获取批发太平洋岛屿食品分销。通过电话、电子邮件联系或访问我们位于加州Salida的位置。",
+		"seoKeywords": "联系A & S Distributors, 太平洋岛屿食品分销商联系方式, 批发食品分销商, 斐济食品供应商, 加州食品分销商",
+		"heading": "联系我们",
+		"subheading": "我们随时为您的批发食品分销需求提供帮助",
+		"phone": {
+			"label": "电话",
+			"description": "在工作时间致电我们",
+			"ariaLabel": "拨打{phone}"
+		},
+		"email": {
+			"label": "电子邮件",
+			"description": "随时发送电子邮件给我们",
+			"ariaLabel": "发送邮件至{email}"
+		},
+		"address": {
+			"label": "地址",
+			"street": "4710 Elm Street",
+			"city": "Salida",
+			"state": "CA",
+			"zipCode": "95368",
+			"description": "访问我们的Salida位置",
+			"ariaLabel": "在Google地图中打开{address}"
+		},
+		"hours": {
+			"label": "营业时间",
+			"monday": "周一至周五: 上午8:00 - 下午5:00 PST",
+			"saturday": "周六: 上午9:00 - 下午2:00 PST",
+			"sunday": "周日: 休息"
+		},
+		"jsonLd": {
+			"availableLanguage": "中文",
+			"contactType": "销售"
+		}
+	}
+}

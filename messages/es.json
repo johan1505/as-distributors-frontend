@@ -1,0 +1,317 @@
+{
+	"site": {
+		"name": "A & S Distributors",
+		"title": "A & S Distributors - Distribuidor de Alimentos de las Islas del Pacífico",
+		"description": "Su fuente confiable de alimentos auténticos de las Islas del Pacífico de Fiji, Nueva Zelanda y Australia. Abastecemos restaurantes, minoristas y proveedores de servicios de alimentos con productos premium a precios competitivos.",
+		"tagline": "Llevando el Pacífico a Su Mesa",
+		"keywords": "comida de las Islas del Pacífico, distribuidor de comida de Fiji, cordero de Nueva Zelanda, carne en conserva, productos de coco, comida del Pacífico al por mayor, comida samoana, comida tongana",
+		"pageNotFound": "Página No Encontrada"
+	},
+	"nav": {
+		"home": "Inicio",
+		"products": "Productos",
+		"quote": "Solicitar Cotización",
+		"contact": "Contáctenos",
+		"language": "Idioma"
+	},
+	"home": {
+		"hero": {
+			"title": "A & S Distributors",
+			"subtitle": "Distribuidor de Alimentos de las Islas del Pacífico",
+			"description": "Alimentos auténticos de las Islas del Pacífico de Fiji, Nueva Zelanda y Australia. Sirviendo al Norte de California desde 1995.",
+			"cta": "Ver Productos"
+		},
+		"intro": {
+			"title": "Empresa Familiar, Inspiración Isleña",
+			"p1": "A & S Distributors es una empresa familiar comprometida con servir a nuestra familia de clientes que dependen de nosotros para obtener alimentos de la más alta calidad de Fiji, Nueva Zelanda y Australia. Somos el distribuidor del Norte de California para The New Zealand Lamb Company y tenemos nuestra propia instalación USDA para cortar todas las variedades de cabra y cordero. Ofrecemos una variedad de alimentos especiales de las Islas del Pacífico frescos, congelados y secos a precios competitivos.",
+			"p2": "En A & S Distributors nos esforzamos por la excelencia construyendo relaciones duraderas con nuestros clientes a través de nuestro compromiso con la integridad y el respeto. Estamos dedicados a ayudar constantemente a las tiendas a proporcionar productos de calidad que sus clientes usarán para hacer comidas deliciosas para sus familias.",
+			"p3": "Nos esforzamos por proporcionar un nivel de servicio que no solo entrega los productos que nuestros clientes necesitan, sino que también incluye un compromiso para garantizar la precisión de sus pedidos. Ir la \"milla extra\" es lo que distingue a A & S Distributors de nuestros competidores. Esperamos trabajar con usted.",
+			"owners": "Ajay Kochhar y Sanjay Kochhar",
+			"ownersTitle": "Propietarios, A & S Distributors"
+		},
+		"values": {
+			"title": "Las Cuatro C del Servicio al Cliente",
+			"subtitle": "Nuestros principios rectores desde el primer día",
+			"concern": {
+				"title": "Preocupación",
+				"description": "Preocupación que tenemos por nuestros clientes y nuestros empleados."
+			},
+			"confidence": {
+				"title": "Confianza",
+				"description": "Confianza de que traemos a nuestros clientes los alimentos de más alta calidad de las Islas del Pacífico."
+			},
+			"commitment": {
+				"title": "Compromiso",
+				"description": "Compromiso de proporcionar lo mejor a nuestros clientes con integridad y respeto."
+			},
+			"convenience": {
+				"title": "Conveniencia",
+				"description": "Proporcionar el tipo de servicio que permite a nuestros clientes saber lo importantes que son para nosotros."
+			}
+		},
+		"featured": {
+			"title": "Productos Destacados",
+			"viewAll": "Ver Todos los Productos"
+		}
+	},
+	"catalog": {
+		"title": "Nuestros Productos",
+		"description": "Explore nuestra selección de alimentos auténticos de las Islas del Pacífico",
+		"allProducts": "Todos los Productos",
+		"search": {
+			"placeholder": "Buscar productos...",
+			"noResults": "No se encontraron productos que coincidan con su búsqueda."
+		},
+		"filter": {
+			"all": "Todas las Categorías",
+			"label": "Filtrar por categoría"
+		},
+		"seoTitle": "Catálogo de Productos - A & S Distributors",
+		"seoDescription": "Explore nuestra selección completa de alimentos auténticos de las Islas del Pacífico, incluyendo carne en conserva, cordero, productos de coco y más. Precios al por mayor para restaurantes y minoristas.",
+		"seoKeywords": "catálogo de alimentos de las Islas del Pacífico, productos alimenticios de Fiji, carne en conserva al por mayor, cordero de Nueva Zelanda, alimentos de las Islas del Pacífico al por mayor"
+	},
+	"product": {
+		"itemNumber": "Artículo #",
+		"unitPerPack": "Unidades por Paquete",
+		"overallSize": "Tamaño",
+		"category": "Categoría",
+		"addToQuote": "Agregar paquete a cotización",
+		"addMoreToQuote": "Agregar más paquetes a cotización",
+		"addedToQuote": "¡Agregado!",
+		"inQuote": "En Cotización",
+		"backToCatalog": "Volver al Catálogo"
+	},
+	"quote": {
+		"packs": "Paquetes",
+		"pack": "Paquete",
+		"title": "Solicitar Cotización",
+		"empty": "Su carrito de cotización está vacío",
+		"emptyDescription": "Agregue productos de nuestro catálogo para solicitar una cotización.",
+		"browseCatalog": "Ver Catálogo",
+		"quantity": "Cant.",
+		"remove": "Eliminar",
+		"clearAll": "Limpiar Todo",
+		"subtotal": "Artículos en Cotización",
+		"submit": "Enviar Solicitud de Cotización",
+		"itemCount": "{count, plural, =0 {Sin artículos} =1 {1 artículo} other {# artículos}}",
+		"requestQuote": "Solicitar cotización",
+		"submitPage": {
+			"title": "Enviar Solicitud de Cotización",
+			"seoTitle": "Solicitar Cotización - A & S Distributors",
+			"seoDescription": "Envíe una solicitud de cotización para alimentos auténticos de las Islas del Pacífico. Precios al por mayor para restaurantes, minoristas y proveedores de servicios de alimentos. Respuesta rápida de nuestro equipo de ventas.",
+			"seoKeywords": "cotización al por mayor, alimentos de las Islas del Pacífico al por mayor, distribuidor de alimentos de Fiji, pedidos a granel, suministros para restaurantes",
+			"contactInfo": "Información de Contacto",
+			"name": "Nombre Completo",
+			"namePlaceholder": "Ingrese su nombre completo",
+			"email": "Correo Electrónico",
+			"emailPlaceholder": "Ingrese su correo electrónico",
+			"phone": "Número de Teléfono",
+			"phonePlaceholder": "Ingrese su número de teléfono",
+			"sendRequest": "Enviar solicitud de cotización",
+			"submitting": "Enviando...",
+			"agreeToContact": "Acepto ser contactado por un representante de ventas respecto a esta solicitud de cotización.",
+			"errorMessage": "Algo salió mal. Por favor intente de nuevo más tarde.",
+			"requiredFields": "Por favor complete todos los campos para enviar su solicitud de cotización. Nuestro equipo de ventas se pondrá en contacto con usted pronto.",
+			"showAllItems": "Mostrar {count} artículos más",
+			"showLess": "Mostrar menos",
+			"validation": {
+				"nameRequired": "El nombre es requerido",
+				"emailRequired": "El correo electrónico es requerido",
+				"emailInvalid": "Por favor ingrese una dirección de correo electrónico válida",
+				"phoneRequired": "El número de teléfono es requerido",
+				"phoneInvalid": "Por favor ingrese un número de teléfono válido"
+			},
+			"item": "artículo",
+			"items": "artículos",
+			"itemsInQuote": "Artículos en Cotización"
+		}
+	},
+	"sales": {
+		"title": "¿Necesita Ayuda?",
+		"description": "Nuestro equipo de ventas está aquí para ayudarlo con pedidos y preguntas.",
+		"phone": "Llámenos",
+		"email": "Envíenos un Email",
+		"close": "Cerrar",
+		"openSalesWidget": "Abrir Widget de Ventas"
+	},
+	"footer": {
+		"description": "Alimentos auténticos de las Islas del Pacífico de Fiji, Nueva Zelanda y Australia.",
+		"quickLinks": "Enlaces Rápidos",
+		"contact": "Contacto",
+		"copyright": "A & S Distributors. Todos los derechos reservados."
+	},
+	"categories": {
+		"categoryFilter": "Buscar en una categoría diferente",
+		"corned-beef": "Carne en Conserva",
+		"fish-tuna": "Pescado y Atún",
+		"canned-vegetables": "Vegetales Enlatados",
+		"cookies": "Galletas",
+		"crackers": "Crackers",
+		"snacks": "Bocadillos",
+		"candies": "Dulces",
+		"pickles-spices": "Encurtidos y Especias",
+		"oils": "Aceites",
+		"breakfast-cereal": "Cereal de Desayuno",
+		"powders-teas": "Polvos y Tés",
+		"lamb-goat": "Cordero y Cabra",
+		"sausages": "Salchichas",
+		"white-meats": "Carnes Blancas",
+		"root-vegetables": "Vegetales de Raíz",
+		"misc-frozen-fresh": "Varios Congelados y Frescos"
+	},
+	"categorySeo": {
+		"corned-beef": {
+			"title": "Carne en Conserva - Carnes Enlatadas Premium | A & S Distributors",
+			"description": "Carne en conserva y cordero de alta calidad de Australia. Marcas Ox & Palm, Pacific, Colonial, Globe y Crown disponibles en varios tamaños.",
+			"pageDescription": "Carne en conserva premium hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos.",
+			"keywords": "carne en conserva, Ox & Palm, Pacific carne en conserva, cordero en conserva, carne en conserva halal, carne en conserva al por mayor"
+		},
+		"fish-tuna": {
+			"title": "Pescado y Atún - Fresco, Congelado y Enlatado | A & S Distributors",
+			"description": "Pescado y atún de calidad incluyendo pescado fresco de Fiji (Kawa Kawa, Ulavi, Pez Loro), caballa enlatada, atún y sardinas.",
+			"pageDescription": "Productos de pescado premium incluyendo pescado fresco de Fiji y variedades enlatadas. Kawa Kawa, Pez Loro, caballa en aceite natural o salsa de tomate, atún en trozos y sardinas.",
+			"keywords": "pescado de Fiji, Kawa Kawa, caballa enlatada, atún enlatado, sardinas, pescado del Pacífico, pescado al por mayor, Pez Loro"
+		},
+		"canned-vegetables": {
+			"title": "Vegetales Enlatados - Leche de Coco y Productos del Pacífico | A & S Distributors",
+			"description": "Leche de coco premium, crema de coco, hojas de taro y vegetales de las Islas del Pacífico. Perfecto para recetas tradicionales y curries.",
+			"pageDescription": "Leche y crema de coco rica y sabrosa para platos regionales clásicos, sopas, curries, salsas, postres y bebidas. Una gran alternativa a los lácteos.",
+			"keywords": "leche de coco, crema de coco, hojas de taro, palusami, duruka, vegetales del Pacífico, coco de Fiji"
+		},
+		"cookies": {
+			"title": "Galletas - Tim Tam y Favoritos de las Islas del Pacífico | A & S Distributors",
+			"description": "Galletas populares incluyendo variedades de Tim Tam, galletas FMF, Monte Carlo y galletas tradicionales Milk Arrowroot de Australia y Fiji.",
+			"pageDescription": "Variedades de galletas amadas de Australia y las Islas del Pacífico. Desde el icónico Tim Tam hasta las tradicionales galletas Milk Arrowroot.",
+			"keywords": "Tim Tam, galletas FMF, Milk Arrowroot, Monte Carlo, galletas australianas, galletas de Fiji, galletas al por mayor"
+		},
+		"crackers": {
+			"title": "Crackers - FMF Breakfast Crackers y Más | A & S Distributors",
+			"description": "Los icónicos FMF Breakfast Crackers de Fiji y otros crackers populares. Disponibles en múltiples tamaños desde minorista hasta granel.",
+			"pageDescription": "No solo un cracker de desayuno sino un snack para cualquier momento. Los FMF Breakfast Crackers son uno de los productos más reconocidos de Fiji, amados por todos por su sabor único.",
+			"keywords": "FMF breakfast crackers, crackers de Fiji, SAO crackers, crackers al por mayor, crackers de las Islas del Pacífico"
+		},
+		"snacks": {
+			"title": "Bocadillos - Boja King y Mezclas de las Islas del Pacífico | A & S Distributors",
+			"description": "Bocadillos populares incluyendo Boja King sabor queso y pollo, mezclas tradicionales como Fiji Mix, Punjabi Mix y más.",
+			"pageDescription": "Descubra los sabores únicos de los bocadillos de las Islas del Pacífico. Desde los bocadillos Boja King hasta las mezclas especiadas tradicionales y guisantes fritos.",
+			"keywords": "bocadillos Boja King, Fiji mix, Punjabi mix, guisantes fritos, bocadillos del Pacífico, bocadillos al por mayor, bocadillos de queso"
+		},
+		"candies": {
+			"title": "Dulces - Cadbury y Jasons Peanut Ruffs | A & S Distributors",
+			"description": "Barras de chocolate populares incluyendo variedades de Cadbury y los queridos Jasons Peanut Ruffs de las Islas del Pacífico.",
+			"pageDescription": "Dulces de Australia y el Pacífico. Barras de chocolate Cadbury y los icónicos dulces Jasons Peanut Ruffs.",
+			"keywords": "chocolate Cadbury, Jasons Peanut Ruffs, dulces del Pacífico, chocolate australiano, dulces al por mayor"
+		},
+		"pickles-spices": {
+			"title": "Encurtidos y Especias - Curry en Polvo y Chutneys | A & S Distributors",
+			"description": "Encurtidos tradicionales, chutneys, curry en polvo y masalas. Marcas Punjas y Pacific Choice para sabores auténticos Indo-Fiji.",
+			"pageDescription": "Especias y condimentos auténticos para la cocina tradicional de las Islas del Pacífico e Indo-Fiji. Curry en polvo, masalas, encurtidos y chutneys.",
+			"keywords": "curry en polvo, masala, encurtido de mango, chutney de tamarindo, especias Punjas, especias de Fiji, especias al por mayor"
+		},
+		"oils": {
+			"title": "Aceites - Aceite de Coco y Mantequilla Ghee | A & S Distributors",
+			"description": "Aceites de cocina premium incluyendo aceite de coco, aceite de mostaza, mantequilla ghee y aceites de coco naturales perfumados para el cuidado corporal.",
+			"pageDescription": "Aceites de cocina de calidad y mantequilla ghee tradicional. Además de nuestros populares aceites de coco naturales perfumados en Tiara, Rosa, Frangipani y Sándalo.",
+			"keywords": "aceite de coco, mantequilla ghee, aceite de mostaza, aceite de coco natural, aceite Punjas, aceite de coco perfumado, aceites al por mayor"
+		},
+		"breakfast-cereal": {
+			"title": "Cereal de Desayuno - Weetbix | A & S Distributors",
+			"description": "Cereal de desayuno Weetbix de Australia en varios tamaños. Una forma saludable y nutritiva de comenzar el día.",
+			"pageDescription": "Comience su día con Weetbix, el cereal de desayuno favorito de Australia. Alto en fibra y bondad de grano entero.",
+			"keywords": "Weetbix, cereal de desayuno, cereal australiano, cereal al por mayor, desayuno saludable"
+		},
+		"powders-teas": {
+			"title": "Polvos y Tés - Milo, Kava y Más | A & S Distributors",
+			"description": "Bebidas populares incluyendo Milo en polvo, Kava (Lawena y Wake), leche en polvo, cacao y tés negros de calidad.",
+			"pageDescription": "Polvos y tés esenciales incluyendo el querido Milo, Kava tradicional de Fiji, leche en polvo, cacao y tés negros premium.",
+			"keywords": "Milo en polvo, Kava en polvo, Kava de Fiji, leche en polvo, té negro, té Bushells, polvos al por mayor"
+		},
+		"lamb-goat": {
+			"title": "Cordero y Cabra de Nueva Zelanda - Certificado USDA | A & S Distributors",
+			"description": "Cordero premium de Nueva Zelanda y cabra australiana. Somos el distribuidor del Norte de California para The New Zealand Lamb Company con nuestra propia instalación de corte USDA.",
+			"pageDescription": "Cordero fresco de Nueva Zelanda y cabra australiana, cortados en nuestra propia instalación certificada USDA. Disponibles enteros o pre-empacados en varios cortes.",
+			"keywords": "cordero de Nueva Zelanda, cabra australiana, paleta de cordero, pierna de cordero, falda de cordero, cordero al por mayor, cordero USDA"
+		},
+		"sausages": {
+			"title": "Salchichas - Cordero, Pollo y Bangers Samoanos | A & S Distributors",
+			"description": "Salchichas de calidad incluyendo salchicha de cordero, salchicha de pollo y tradicionales bangers de res samoanos.",
+			"pageDescription": "Deliciosas salchichas hechas con ingredientes de calidad. Cordero, pollo y nuestros populares Samoan Beef Bangers.",
+			"keywords": "salchicha de cordero, salchicha de pollo, Samoan beef bangers, salchichas al por mayor, salchichas del Pacífico"
+		},
+		"white-meats": {
+			"title": "Carnes Blancas - Pato, Pavo y Aves | A & S Distributors",
+			"description": "Carnes blancas frescas y congeladas incluyendo pato Muscovy, colas de pavo, gallos y más. Opciones halal disponibles.",
+			"pageDescription": "Carnes blancas y aves de calidad. Pato Muscovy, Colas de Pavo, Gallos y más. Opciones halal disponibles.",
+			"keywords": "colas de pavo, pato Muscovy, aves halal, Povi Masima, gallos, carnes al por mayor"
+		},
+		"root-vegetables": {
+			"title": "Vegetales de Raíz - Taro, Yuca y Fruta de Pan | A & S Distributors",
+			"description": "Vegetales de raíz frescos y congelados de las Islas del Pacífico incluyendo taro, yuca, fruta de pan y más. Esenciales para recetas tradicionales.",
+			"pageDescription": "Vegetales de raíz tradicionales de las Islas del Pacífico. Taro en múltiples variedades, yuca, fruta de pan y otros alimentos básicos para cocina isleña auténtica.",
+			"keywords": "taro, yuca, fruta de pan, vegetales del Pacífico, vegetales de Fiji, taro congelado, vegetales de raíz al por mayor"
+		},
+		"misc-frozen-fresh": {
+			"title": "Varios Congelados y Frescos - Helado, Mantequilla y Jugos | A & S Distributors",
+			"description": "Varios productos congelados y frescos incluyendo helado Tuckers, mantequilla Anchor, concentrados de jugo Sunquick y más.",
+			"pageDescription": "Una variedad de productos congelados y frescos del Pacífico. Helado, mantequilla, concentrados de jugo, paranthas y más.",
+			"keywords": "helado Tuckers, mantequilla Anchor, jugo Sunquick, Bula Noni, productos congelados, congelados al por mayor"
+		}
+	},
+	"breadcrumb": {
+		"products": "Productos"
+	},
+	"products": {
+		"ox-palm-corned-beef-7oz": {
+			"name": "Ox & Palm Corned Beef",
+			"description": "Carne en conserva premium hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Más jugosa y con más trozos que otras carnes en conserva del mercado. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos. Excelente para hash de carne en conserva, sándwiches de queso asado, pasta y huevos.",
+			"seoTitle": "Ox & Palm Corned Beef 7oz - Premium Australiana | A & S Distributors",
+			"seoDescription": "Carne en conserva Ox & Palm de alta calidad de carne de res Angus australiana alimentada con pasto. Certificada USDA, sin hormonas. Precios al por mayor disponibles.",
+			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva australiana, carne en conserva premium, carne en conserva al por mayor"
+		},
+		"ox-palm-corned-beef-11-5oz": {
+			"name": "Ox & Palm Corned Beef",
+			"description": "Carne en conserva premium hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Más jugosa y con más trozos que otras carnes en conserva del mercado. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos. Tamaño perfecto para comidas familiares.",
+			"seoTitle": "Ox & Palm Corned Beef 11.5oz - Premium Australiana | A & S Distributors",
+			"seoDescription": "Carne en conserva Ox & Palm de alta calidad de carne de res Angus australiana alimentada con pasto. Certificada USDA, sin hormonas. Precios al por mayor disponibles.",
+			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva australiana, carne en conserva premium, carne en conserva al por mayor"
+		}
+	},
+	"contact": {
+		"title": "Contáctenos",
+		"description": "Póngase en contacto con A & S Distributors. Estamos aquí para ayudarle con sus necesidades de distribución de alimentos al por mayor.",
+		"seoTitle": "Contáctenos - A & S Distributors",
+		"seoDescription": "Contacte a A & S Distributors para distribución de alimentos de las Islas del Pacífico al por mayor. Comuníquese por teléfono, correo electrónico o visite nuestra ubicación en Salida, CA.",
+		"seoKeywords": "contactar A & S Distributors, contacto distribuidor de alimentos de las Islas del Pacífico, distribuidor de alimentos al por mayor, proveedor de alimentos de Fiji, distribuidor de alimentos de California",
+		"heading": "Póngase en Contacto",
+		"subheading": "Estamos aquí para ayudarle con sus necesidades de distribución de alimentos al por mayor",
+		"phone": {
+			"label": "Teléfono",
+			"description": "Llámenos durante el horario comercial",
+			"ariaLabel": "Llámenos al {phone}"
+		},
+		"email": {
+			"label": "Correo Electrónico",
+			"description": "Envíenos un correo electrónico en cualquier momento",
+			"ariaLabel": "Envíenos un correo a {email}"
+		},
+		"address": {
+			"label": "Dirección",
+			"street": "4710 Elm Street",
+			"city": "Salida",
+			"state": "CA",
+			"zipCode": "95368",
+			"description": "Visítenos en nuestra ubicación de Salida",
+			"ariaLabel": "Abrir {address} en Google Maps"
+		},
+		"hours": {
+			"label": "Horario Comercial",
+			"monday": "Lunes - Viernes: 8:00 AM - 5:00 PM PST",
+			"saturday": "Sábado: 9:00 AM - 2:00 PM PST",
+			"sunday": "Domingo: Cerrado"
+		},
+		"jsonLd": {
+			"availableLanguage": "Español",
+			"contactType": "ventas"
+		}
+	}
+}

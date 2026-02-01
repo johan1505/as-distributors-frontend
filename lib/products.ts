@@ -2,7 +2,7 @@ import productsData from '@/data/products.json';
 import categoriesData from '@/data/categories.json';
 
 // Define slugs as const array to preserve literal types and derive union type
-const PRODUCT_SLUGS = [
+export const PRODUCT_SLUGS = [
 	'ox-palm-corned-beef-7oz',
 	'ox-palm-corned-beef-11-5oz',
 	'ox-palm-corned-beef-tapered',

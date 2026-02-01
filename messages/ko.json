@@ -1,0 +1,232 @@
+{
+	"site": {
+		"name": "A & S Distributors",
+		"title": "A & S Distributors - 태평양 섬 식품 유통업체",
+		"description": "피지, 뉴질랜드, 호주에서 온 정통 태평양 섬 식품의 신뢰할 수 있는 공급원입니다. 레스토랑, 소매업체, 식품 서비스 제공업체에 경쟁력 있는 가격으로 프리미엄 제품을 공급합니다.",
+		"tagline": "태평양을 당신의 식탁으로",
+		"keywords": "태평양 섬 음식, 피지 음식 유통업체, 뉴질랜드 양고기, 콘비프, 코코넛 제품, 도매 태평양 음식, 사모아 음식, 통가 음식",
+		"pageNotFound": "페이지를 찾을 수 없습니다"
+	},
+	"nav": {
+		"home": "홈",
+		"products": "제품",
+		"quote": "견적 요청",
+		"contact": "문의하기",
+		"language": "언어"
+	},
+	"home": {
+		"hero": {
+			"title": "A & S Distributors",
+			"subtitle": "태평양 섬 식품 유통업체",
+			"description": "피지, 뉴질랜드, 호주에서 온 정통 태평양 섬 식품. 1995년부터 북캘리포니아 서비스.",
+			"cta": "제품 둘러보기"
+		},
+		"intro": {
+			"title": "가족 경영, 섬에서 영감을 받은",
+			"p1": "A & S Distributors는 피지, 뉴질랜드, 호주에서 최고 품질의 식품을 위해 저희를 신뢰하는 고객 가족을 위해 헌신하는 가족 경영 기업입니다. 저희는 The New Zealand Lamb Company의 북캘리포니아 유통업체이며 모든 염소와 양고기 품종을 절단하는 자체 USDA 시설을 보유하고 있습니다. 경쟁력 있는 가격으로 다양한 신선, 냉동 및 건조 태평양 섬 특산 식품을 제공합니다.",
+			"p2": "A & S Distributors에서 우리는 성실함과 존중에 대한 헌신을 통해 고객과 지속적인 관계를 구축함으로써 탁월함을 추구합니다. 우리는 고객의 가족을 위해 맛있는 식사를 만드는 데 사용할 품질 제품을 매장에서 제공할 수 있도록 지속적으로 돕기 위해 노력합니다.",
+			"p3": "우리는 고객이 필요로 하는 제품을 제공할 뿐만 아니라 주문의 정확성을 보장하기 위한 헌신도 포함하는 수준의 서비스를 제공하기 위해 노력합니다. \"추가 노력\"을 기울이는 것이 A & S Distributors를 경쟁업체와 차별화하는 요소입니다. 함께 일하기를 기대합니다.",
+			"owners": "Ajay Kochhar와 Sanjay Kochhar",
+			"ownersTitle": "A & S Distributors 소유주"
+		},
+		"values": {
+			"title": "고객 서비스의 4가지 C",
+			"subtitle": "첫날부터의 지침 원칙",
+			"concern": {
+				"title": "관심",
+				"description": "고객과 직원에 대한 관심."
+			},
+			"confidence": {
+				"title": "신뢰",
+				"description": "태평양 섬에서 최고 품질의 식품을 고객에게 제공한다는 신뢰."
+			},
+			"commitment": {
+				"title": "헌신",
+				"description": "성실함과 존중으로 고객에게 최고를 제공하겠다는 헌신."
+			},
+			"convenience": {
+				"title": "편의",
+				"description": "고객이 우리에게 얼마나 중요한지 알 수 있는 서비스 제공."
+			}
+		},
+		"featured": {
+			"title": "추천 제품",
+			"viewAll": "모든 제품 보기"
+		}
+	},
+	"catalog": {
+		"title": "제품 목록",
+		"description": "정통 태평양 섬 식품 선택 둘러보기",
+		"allProducts": "모든 제품",
+		"search": {
+			"placeholder": "제품 검색...",
+			"noResults": "검색과 일치하는 제품이 없습니다."
+		},
+		"filter": {
+			"all": "모든 카테고리",
+			"label": "카테고리별 필터"
+		},
+		"seoTitle": "제품 카탈로그 - A & S Distributors",
+		"seoDescription": "콘비프, 양고기, 코코넛 제품 등을 포함한 정통 태평양 섬 식품의 전체 선택을 둘러보세요. 레스토랑과 소매업체를 위한 도매 가격.",
+		"seoKeywords": "태평양 섬 식품 카탈로그, 피지 식품 제품, 도매 콘비프, 뉴질랜드 양고기, 태평양 섬 식품 도매"
+	},
+	"product": {
+		"itemNumber": "품목 #",
+		"unitPerPack": "팩당 단위",
+		"overallSize": "크기",
+		"category": "카테고리",
+		"addToQuote": "팩을 견적에 추가",
+		"addMoreToQuote": "더 많은 팩을 견적에 추가",
+		"addedToQuote": "추가됨!",
+		"inQuote": "견적에 포함",
+		"backToCatalog": "카탈로그로 돌아가기"
+	},
+	"quote": {
+		"packs": "팩",
+		"pack": "팩",
+		"title": "견적 요청",
+		"empty": "견적 카트가 비어 있습니다",
+		"emptyDescription": "카탈로그에서 제품을 추가하여 견적을 요청하세요.",
+		"browseCatalog": "카탈로그 둘러보기",
+		"quantity": "수량",
+		"remove": "제거",
+		"clearAll": "모두 지우기",
+		"subtotal": "견적 항목",
+		"submit": "견적 요청 제출",
+		"itemCount": "{count, plural, =0 {항목 없음} =1 {1개 항목} other {#개 항목}}",
+		"requestQuote": "견적 요청",
+		"submitPage": {
+			"title": "견적 요청 제출",
+			"seoTitle": "견적 요청 - A & S Distributors",
+			"seoDescription": "정통 태평양 섬 식품에 대한 견적을 요청하세요. 레스토랑, 소매업체, 식품 서비스 제공업체를 위한 도매 가격. 영업팀의 빠른 응답.",
+			"seoKeywords": "도매 견적, 태평양 섬 식품 도매, 피지 식품 유통업체, 대량 주문, 레스토랑 공급",
+			"contactInfo": "연락처 정보",
+			"name": "성함",
+			"namePlaceholder": "성함을 입력하세요",
+			"email": "이메일 주소",
+			"emailPlaceholder": "이메일을 입력하세요",
+			"phone": "전화번호",
+			"phonePlaceholder": "전화번호를 입력하세요",
+			"sendRequest": "견적 요청 보내기",
+			"submitting": "제출 중...",
+			"agreeToContact": "이 견적 요청과 관련하여 영업 담당자가 연락하는 것에 동의합니다.",
+			"errorMessage": "문제가 발생했습니다. 나중에 다시 시도해 주세요.",
+			"requiredFields": "견적 요청을 제출하려면 모든 필드를 작성해 주세요. 영업팀이 곧 연락드리겠습니다.",
+			"showAllItems": "{count}개 항목 더 보기",
+			"showLess": "간략히 보기",
+			"validation": {
+				"nameRequired": "이름이 필요합니다",
+				"emailRequired": "이메일이 필요합니다",
+				"emailInvalid": "유효한 이메일 주소를 입력해 주세요",
+				"phoneRequired": "전화번호가 필요합니다",
+				"phoneInvalid": "유효한 전화번호를 입력해 주세요"
+			},
+			"item": "항목",
+			"items": "항목",
+			"itemsInQuote": "견적 항목"
+		}
+	},
+	"sales": {
+		"title": "도움이 필요하세요?",
+		"description": "영업팀이 주문과 질문에 대해 도와드립니다.",
+		"phone": "전화하기",
+		"email": "이메일 보내기",
+		"close": "닫기",
+		"openSalesWidget": "영업 위젯 열기"
+	},
+	"footer": {
+		"description": "피지, 뉴질랜드, 호주에서 온 정통 태평양 섬 식품.",
+		"quickLinks": "빠른 링크",
+		"contact": "연락처",
+		"copyright": "A & S Distributors. 모든 권리 보유."
+	},
+	"categories": {
+		"categoryFilter": "다른 카테고리에서 검색",
+		"corned-beef": "콘비프",
+		"fish-tuna": "생선 및 참치",
+		"canned-vegetables": "통조림 채소",
+		"cookies": "쿠키",
+		"crackers": "크래커",
+		"snacks": "스낵",
+		"candies": "사탕",
+		"pickles-spices": "피클 및 향신료",
+		"oils": "오일",
+		"breakfast-cereal": "아침 시리얼",
+		"powders-teas": "분말 및 차",
+		"lamb-goat": "양고기 및 염소고기",
+		"sausages": "소시지",
+		"white-meats": "백색육",
+		"root-vegetables": "뿌리채소",
+		"misc-frozen-fresh": "기타 냉동 및 신선"
+	},
+	"categorySeo": {
+		"corned-beef": {
+			"title": "콘비프 - 프리미엄 통조림 고기 | A & S Distributors",
+			"description": "호주산 고품질 콘비프와 양고기. Ox & Palm, Pacific, Colonial, Globe, Crown 브랜드가 다양한 크기로 제공됩니다.",
+			"pageDescription": "고품질 초식 호주 앵거스 쇠고기로 만든 프리미엄 콘비프. 호르몬이나 항생제가 첨가되지 않은 HACCP 및 USDA 인증.",
+			"keywords": "콘비프, Ox & Palm, Pacific 콘비프, 양고기 통조림, 할랄 콘비프, 도매 콘비프"
+		},
+		"fish-tuna": {
+			"title": "생선 및 참치 - 신선, 냉동 및 통조림 | A & S Distributors",
+			"description": "신선한 피지 생선(Kawa Kawa, Ulavi, 앵무새 생선), 통조림 고등어, 참치, 정어리를 포함한 품질 생선과 참치.",
+			"pageDescription": "신선한 피지 생선과 통조림 품종을 포함한 프리미엄 생선 제품. Kawa Kawa, 앵무새 생선, 천연 오일 또는 토마토 소스의 고등어, 청크 참치, 정어리.",
+			"keywords": "피지 생선, Kawa Kawa, 통조림 고등어, 통조림 참치, 정어리, 태평양 생선, 도매 생선, 앵무새 생선"
+		},
+		"canned-vegetables": {
+			"title": "통조림 채소 - 코코넛 밀크 및 태평양 제품 | A & S Distributors",
+			"description": "프리미엄 코코넛 밀크, 코코넛 크림, 타로 잎, 태평양 섬 채소. 전통 레시피와 카레에 완벽.",
+			"pageDescription": "클래식 지역 요리, 수프, 카레, 소스, 디저트, 음료를 위한 풍부하고 맛있는 코코넛 밀크와 크림. 유제품의 훌륭한 대안.",
+			"keywords": "코코넛 밀크, 코코넛 크림, 타로 잎, 팔루사미, 두루카, 태평양 채소, 피지 코코넛"
+		}
+	},
+	"breadcrumb": {
+		"products": "제품"
+	},
+	"products": {
+		"ox-palm-corned-beef-7oz": {
+			"name": "Ox & Palm Corned Beef",
+			"description": "고품질 초식 호주 앵거스 쇠고기로 만든 프리미엄 콘비프. 시중의 다른 콘비프보다 더 육즙이 풍부하고 덩어리가 큽니다. 호르몬이나 항생제가 첨가되지 않은 HACCP 및 USDA 인증. 콘비프 해시, 그릴드 치즈, 파스타, 계란 요리에 좋습니다.",
+			"seoTitle": "Ox & Palm Corned Beef 7oz - 프리미엄 호주산 | A & S Distributors",
+			"seoDescription": "초식 호주 앵거스 쇠고기로 만든 고품질 Ox & Palm 콘비프. USDA 인증, 호르몬 없음. 도매 가격 제공.",
+			"seoKeywords": "Ox & Palm 콘비프, 호주 콘비프, 프리미엄 콘비프, 도매 콘비프"
+		}
+	},
+	"contact": {
+		"title": "문의하기",
+		"description": "A & S Distributors에 연락하세요. 도매 식품 유통에 대한 문의를 도와드리겠습니다.",
+		"seoTitle": "문의하기 - A & S Distributors",
+		"seoDescription": "도매 태평양 섬 식품 유통에 대해 A & S Distributors에 문의하세요. 전화, 이메일로 연락하거나 캘리포니아 Salida 위치를 방문하세요.",
+		"seoKeywords": "A & S Distributors 문의, 태평양 섬 식품 유통업체 연락처, 도매 식품 유통업체, 피지 식품 공급업체, 캘리포니아 식품 유통업체",
+		"heading": "연락하기",
+		"subheading": "도매 식품 유통에 대한 문의를 도와드리겠습니다",
+		"phone": {
+			"label": "전화",
+			"description": "영업 시간 중 전화주세요",
+			"ariaLabel": "{phone}로 전화하기"
+		},
+		"email": {
+			"label": "이메일",
+			"description": "언제든지 이메일을 보내주세요",
+			"ariaLabel": "{email}로 이메일 보내기"
+		},
+		"address": {
+			"label": "주소",
+			"street": "4710 Elm Street",
+			"city": "Salida",
+			"state": "CA",
+			"zipCode": "95368",
+			"description": "Salida 위치 방문",
+			"ariaLabel": "Google Maps에서 {address} 열기"
+		},
+		"hours": {
+			"label": "영업 시간",
+			"monday": "월요일 - 금요일: 오전 8:00 - 오후 5:00 PST",
+			"saturday": "토요일: 오전 9:00 - 오후 2:00 PST",
+			"sunday": "일요일: 휴무"
+		},
+		"jsonLd": {
+			"availableLanguage": "한국어",
+			"contactType": "영업"
+		}
+	}
+}

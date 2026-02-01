@@ -9,8 +9,8 @@ import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/l
 import { ROUTES } from '@/lib/routes';
 import type { WebPage, WithContext } from 'schema-dts';
 import { JSON_LD_CONSTANTS } from '@/lib/constants';
-import enMessages from "@/messages/en.json"; // Add this import
-import { PRODUCT_SLUGS, ProductSlug } from '@/lib/products';
+import enMessages from '@/messages/en.json'; // Add this import
+import { PRODUCT_SLUGS, type ProductSlug } from '@/lib/products';
 
 interface SubmitQuotePageProps {
 	params: Promise<{ locale: Locale }>;
@@ -86,11 +86,14 @@ export default async function SubmitQuotePage({ params }: SubmitQuotePageProps) 
 
 	const tQuote = await getTranslations('quote.submitPage');
 
-	const productSlugToNameMapInEnglish: Record<ProductSlug, string> = PRODUCT_SLUGS.reduce((acc, slug) => {
-		const product = enMessages.products[slug];
-		acc[slug] = product?.name ?? slug;
-		return acc;
-	}, {} as Record<ProductSlug, string>);
+	const productSlugToNameMapInEnglish: Record<ProductSlug, string> = PRODUCT_SLUGS.reduce(
+		(acc, slug) => {
+			const product = enMessages.products[slug];
+			acc[slug] = product?.name ?? slug;
+			return acc;
+		},
+		{} as Record<ProductSlug, string>
+	);
 
 	const submitQuoteUrl = getCanonicalUrl(locale, ROUTES.submitQuote);
 
