@@ -52,7 +52,7 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
     };
 
     const quoteItems: QuoteItem[] = items.map((item) => ({
-      productName: productSlugToNameMapInEnglish[item.product.slug],
+      productName: `${productSlugToNameMapInEnglish[item.product.slug]} (${item.product.overallSize})`,
       quantity: item.quantity,
     }));
 

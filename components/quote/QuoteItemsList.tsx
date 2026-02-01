@@ -2,11 +2,14 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useQuote } from "./QuoteProvider";
 import type { ProductSlug } from "@/lib/products";
 import Image from "next/image";
+import { ROUTES } from "@/lib/routes";
+import { Badge } from "../ui/badge";
 
 const MAX_VISIBLE_ITEMS = 3;
 
@@ -14,6 +17,8 @@ export function QuoteItemsList() {
   const tQuote = useTranslations("quote");
   const tQuotePage = useTranslations("quote.submitPage");
   const tProducts = useTranslations("products");
+  const tProduct = useTranslations("product");
+
 
   const { items, removeItem, updateQuantity } = useQuote();
 
@@ -35,7 +40,7 @@ export function QuoteItemsList() {
         {visibleItems.map((item) => (
           <li
             key={item.product.slug}
-            className="flex gap-4 p-4 rounded-xl bg-muted/50"
+            className="flex items-center gap-4 p-4 rounded-xl bg-muted/50"
           >
             <Image
               width={800}
@@ -45,10 +50,17 @@ export function QuoteItemsList() {
               className="size-20 md:size-24 object-cover rounded-lg shrink-0"
               loading="lazy"
             />
-            <div className="flex-1 min-w-0">
-              <h3 className="font-medium text-base md:text-lg mb-2">
+            <div className="flex flex-col gap-4">
+              <Link
+                href={`${ROUTES.products}/${item.product.categoryKey}/${item.product.slug}`}
+                className="text-ocean transition-colors line-clamp-1"
+              >
                 {getProductName(item.product.slug)}
-              </h3>
+              </Link>
+              <Badge variant="secondary" className="bg-ocean-muted/50 border-ocean/10">
+                <span className="text-muted-foreground">{tProduct("overallSize")}</span>:{" "}
+                <span>{item.product.overallSize}</span>
+              </Badge>
               <div className="flex items-center gap-2 flex-wrap">
                 <Button
                   variant="outline"
