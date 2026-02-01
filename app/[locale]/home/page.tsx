@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
-import { buttonVariants } from '@/components/ui/button';
+import { buttonVariants } from '@/lib/button-variants';
 import { ArrowRight, Heart, Shield, Handshake, Clock, Fish, Beef, Leaf } from 'lucide-react';
 import { getFeaturedProducts } from '@/lib/products';
 import type { Locale } from 'next-intl';
-import { ProductCard } from '@/components/products/ProductCard';
+import { FeaturedProductsCarousel } from '@/components/products/FeaturedProductsCarousel';
 import { locales } from '@/i18n/config';
 import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
@@ -260,10 +260,8 @@ export default async function HomePage({ params }: HomePageProps) {
 						<ArrowRight className="size-4" />
 					</Link>
 				</div>
-				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-					{featuredProductsBase.slice(0, 8).map((product) => {
-						return <ProductCard key={product.slug} product={product} hideQuoteCart />;
-					})}
+				<div className="px-8 md:px-12">
+					<FeaturedProductsCarousel products={featuredProductsBase} />
 				</div>
 			</section>
 		</>

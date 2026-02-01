@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { ShoppingCart } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/lib/button-variants";
 import { useQuote } from "./QuoteProvider";
 import { QuoteItemsList } from "./QuoteItemsList";
 import { QuoteRequestForm } from "./QuoteRequestForm";

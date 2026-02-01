@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import { ShoppingCart } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/lib/button-variants";
 import { useQuote } from "@/components/quote/QuoteProvider";
 import { SidebarTrigger } from "@/components/layout/Sidebar";
 import { SearchBar } from "@/components/products/SearchBar";
