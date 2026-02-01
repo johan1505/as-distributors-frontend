@@ -17,7 +17,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <span className="font-display font-semibold text-xl text-ocean">{tSite("name")}</span>
+              <span className="font-semibold text-xl text-ocean">{tSite("name")}</span>
             </div>
             <p className="text-sm text-muted-foreground">
               {t("description")}
@@ -26,7 +26,7 @@ export function Footer() {
 
           {/* Navigation */}
           <div>
-            <h2 className="font-display font-semibold mb-4">{t("quickLinks")}</h2>
+            <h2 className="font-semibold mb-4">{t("quickLinks")}</h2>
             <nav aria-label="Footer navigation" className="flex flex-col gap-2">
               <Link
                 href={ROUTES.home}
@@ -51,7 +51,7 @@ export function Footer() {
 
           {/* Contact */}
           <address className="not-italic">
-            <h2 className="font-display font-semibold mb-4">{t("contact")}</h2>
+            <h2 className="font-semibold mb-4">{t("contact")}</h2>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <a
                 href={`tel:${CONTANCT.TELEPHONE}`}

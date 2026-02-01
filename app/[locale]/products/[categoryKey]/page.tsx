@@ -175,7 +175,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 			<div className="flex flex-col gap-8">
 				{/* Header */}
 				<div>
-					<h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">{categoryName}</h1>
+					<h1 className="text-3xl md:text-4xl font-semibold mb-2">{categoryName}</h1>
 					<p className="text-muted-foreground max-w-2xl">{categoryDescription}</p>
 				</div>
 

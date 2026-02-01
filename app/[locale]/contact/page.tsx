@@ -118,7 +118,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 			<div className="max-w-2xl mx-auto">
 				{/* Header */}
 				<div className="mb-8">
-					<h1 className="font-display text-3xl md:text-4xl font-semibold mb-2">{t('title')}</h1>
+					<h1 className="text-3xl md:text-4xl font-semibold mb-2">{t('title')}</h1>
 					<p className="text-lg text-muted-foreground">{t('description')}</p>
 				</div>
 

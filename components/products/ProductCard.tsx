@@ -14,6 +14,8 @@ import type { ProductBase } from "@/lib/products";
 import { Badge } from "../ui/badge";
 import Image from "next/image";
 import { ROUTES } from "@/lib/routes";
+import { useQuote } from "../quote/QuoteProvider";
+import { cn } from "@/lib/utils";
 
 interface ProductCardProps {
   product: ProductBase;
@@ -26,6 +28,11 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
 
   const name = tProducts(`${product.slug}.name`);
   const description = tProducts(`${product.slug}.description`);
+
+  const { items } = useQuote();
+
+  const quantity =
+    items.find((item) => item.product.slug === product.slug)?.quantity ?? 0;
 
   return (
     <Card className="group overflow-hidden hover:shadow-lg hover:border-ocean/30 transition-all duration-300">
@@ -45,7 +52,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         </div>
       </Link>
       <CardHeader>
-        <CardTitle className="font-display">
+        <CardTitle>
           <Link
             href={`${ROUTES.products}/${product.categoryKey}/${product.slug}`}
             className="group-hover:text-ocean transition-colors line-clamp-1"
@@ -60,7 +67,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             <span className="text-muted-foreground">{t("overallSize")}</span>:{" "}
             <span>{product.overallSize}</span>
           </Badge>
-          <Badge variant="secondary" className="bg-primary/5 border-primary/10">
+          <Badge variant="secondary" className="bg-primary/15 border-primary/10">
             <span className="text-muted-foreground">{t("unitPerPack")}</span>:{" "}
             <span>{product.unitPerPack}</span>
           </Badge>
@@ -73,7 +80,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             product={product}
             variant="secondary"
             size="sm"
-            className="w-full hover:bg-ocean hover:text-white hover:border-ocean"
+            className={cn("w-full hover:bg-primary hover:text-white", quantity > 0 ? 'bg-primary/15' : '')}
           />
         )}
       </CardFooter>

@@ -121,7 +121,7 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
   return (
     <div className="lg:w-96 shrink-0">
       <form onSubmit={handleSubmit}>
-        <h2 className="font-display text-xl font-semibold mb-4">
+        <h2 className="text-xl font-semibold mb-4">
           {tQuotePage("contactInfo")}
         </h2>
         <FieldGroup>

@@ -222,7 +222,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
 					{/* Product Details */}
 					<div className="flex flex-col justify-center md:p-0 p-6">
-						<h1 className="font-display text-3xl md:text-4xl font-semibold mb-4">{name}</h1>
+						<h1 className="text-3xl md:text-4xl font-semibold mb-4">{name}</h1>
 
 						<p className="text-lg text-muted-foreground mb-8 leading-relaxed">{description}</p>
 

@@ -130,7 +130,7 @@ export default async function HomePage({ params }: HomePageProps) {
 
 				<div className="container mx-auto px-4 py-20 md:py-32 relative">
 					<div className="max-w-4xl mx-auto text-center">
-						<h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 text-foreground">
+						<h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 text-foreground">
 							{t('hero.title')}
 						</h1>
 						<p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
@@ -196,7 +196,7 @@ export default async function HomePage({ params }: HomePageProps) {
 
 					{/* Right: Text content */}
 					<div className="md:col-span-3">
-						<h2 className="font-display text-2xl md:text-3xl font-semibold mb-6 text-foreground">
+						<h2 className="text-2xl md:text-3xl font-semibold mb-6 text-foreground">
 							{t('intro.title')}
 						</h2>
 						<div className="space-y-4 text-muted-foreground">
@@ -205,9 +205,7 @@ export default async function HomePage({ params }: HomePageProps) {
 							<p className="text-base leading-relaxed">{t('intro.p3')}</p>
 						</div>
 						<div className="mt-8 pt-6 border-t border-border/50">
-							<p className="font-display text-lg font-medium text-foreground">
-								{t('intro.owners')}
-							</p>
+							<p className="text-lg font-medium text-foreground">{t('intro.owners')}</p>
 							<p className="text-sm text-muted-foreground">{t('intro.ownersTitle')}</p>
 						</div>
 					</div>
@@ -217,7 +215,7 @@ export default async function HomePage({ params }: HomePageProps) {
 			{/* Values Section - Alternating Styles */}
 			<section className="bg-gradient-to-b from-ocean-muted/40 via-ocean-muted/20 to-background py-16 md:py-24">
 				<div className="container mx-auto px-4">
-					<h2 className="font-display text-2xl md:text-3xl font-semibold text-center mb-4">
+					<h2 className="text-2xl md:text-3xl font-semibold text-center mb-4">
 						{t('values.title')}
 					</h2>
 					<p className="text-center text-muted-foreground mb-12 max-w-xl mx-auto">
@@ -248,7 +246,7 @@ export default async function HomePage({ params }: HomePageProps) {
 			{/* Featured Products Section */}
 			<section className="container mx-auto px-4 py-8 md:py-16">
 				<div className="flex items-center justify-between mb-8">
-					<h2 className="font-display text-2xl md:text-3xl font-semibold">{t('featured.title')}</h2>
+					<h2 className="text-2xl md:text-3xl font-semibold">{t('featured.title')}</h2>
 					<Link
 						href={ROUTES.products}
 						className={buttonVariants({

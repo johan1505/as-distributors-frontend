@@ -24,7 +24,7 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
         <ShoppingCart className="size-16 text-muted-foreground mb-4" />
-        <h1 className="font-display text-2xl md:text-3xl font-semibold mb-2">
+        <h1 className="text-2xl md:text-3xl font-semibold mb-2">
           {tQuote("empty")}
         </h1>
         <p className="text-muted-foreground mb-6">
@@ -40,7 +40,7 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
   return (
     <div className="max-w-4xl mx-auto">
       <div className="mb-8">
-        <h1 className="font-display text-2xl md:text-3xl font-semibold mb-2">
+        <h1 className="text-2xl md:text-3xl font-semibold mb-2">
           {tQuotePage("title")}
         </h1>
         <p className="text-muted-foreground mb-4">

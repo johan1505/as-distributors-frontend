@@ -54,7 +54,7 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" render={<Link href={ROUTES.home} />}>
-              <span className="font-display font-semibold truncate text-ocean">{tHome("hero.title")}</span>
+              <span className="font-semibold truncate text-ocean">{tHome("hero.title")}</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
@@ -183,11 +183,10 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                         setOpenMobile(false);
                       }
                     }}
-                    className={`flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium rounded-lg transition-all ${
-                      locale === loc
+                    className={`flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium rounded-lg transition-all ${locale === loc
                         ? "bg-ocean text-white shadow-md"
                         : "bg-muted/50 text-muted-foreground hover:bg-ocean/10 hover:text-ocean border border-transparent hover:border-ocean/30"
-                    }`}
+                      }`}
                   >
                     {languageNames[loc] || loc.toUpperCase()}
                   </Link>

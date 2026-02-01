@@ -66,15 +66,15 @@ export function ProductCatalog({
           categories.find((c) => c.key === categoryKey)?.label || categoryKey,
         products: search
           ? categoryProducts.slice().sort((a, b) => {
-              const aName = tProducts(`${a.slug}.name`).toLowerCase();
-              const bName = tProducts(`${b.slug}.name`).toLowerCase();
-              const searchLower = search.toLowerCase();
-              const aHasNameMatch = aName.includes(searchLower);
-              const bHasNameMatch = bName.includes(searchLower);
-              if (aHasNameMatch && !bHasNameMatch) return -1;
-              if (!aHasNameMatch && bHasNameMatch) return 1;
-              return 0;
-            })
+            const aName = tProducts(`${a.slug}.name`).toLowerCase();
+            const bName = tProducts(`${b.slug}.name`).toLowerCase();
+            const searchLower = search.toLowerCase();
+            const aHasNameMatch = aName.includes(searchLower);
+            const bHasNameMatch = bName.includes(searchLower);
+            if (aHasNameMatch && !bHasNameMatch) return -1;
+            if (!aHasNameMatch && bHasNameMatch) return 1;
+            return 0;
+          })
           : categoryProducts,
         hasNameMatch: categoriesWithNameMatch.has(categoryKey),
       }))
@@ -113,7 +113,7 @@ export function ProductCatalog({
         groupedProducts.map((group) => (
           <section key={group.category}>
             {groupedProducts.length > 1 ? (
-              <h2 className="font-display text-2xl font-semibold mb-6">
+              <h2 className="text-2xl font-semibold mb-6">
                 {group.categoryLabel}
               </h2>
             ) : null}

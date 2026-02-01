@@ -8,9 +8,7 @@
 	--breakpoint-3xl: 120rem;
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
-	--font-sans: var(--font-sans);
-	--font-mono: var(--font-geist-mono);
-	--font-display: var(--font-display);
+	--font-sans: var(--font-primary);
 	--color-ocean: var(--ocean);
 	--color-ocean-light: var(--ocean-light);
 	--color-ocean-muted: var(--ocean-muted);
@@ -131,7 +129,10 @@
 	* {
 		@apply border-border outline-ring/50;
 	}
+	html {
+		font-size: 18px; /* Base font size - change this to scale all text globally */
+	}
 	body {
-		@apply bg-background text-foreground;
+		@apply bg-background text-foreground font-sans;
 	}
 }
