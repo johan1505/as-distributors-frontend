@@ -115,70 +115,70 @@ export default async function ContactPage({ params }: ContactPageProps) {
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageJsonLd) }}
 			/>
 
-			<div className="max-w-2xl mx-auto">
+			<div className="max-w-xl mx-auto">
 				{/* Header */}
-				<div className="mb-8">
-					<h1 className="text-3xl md:text-4xl font-semibold mb-2">{t('title')}</h1>
-					<p className="text-lg text-muted-foreground">{t('description')}</p>
+				<div className="mb-12 text-center">
+					<h1 className="text-3xl md:text-4xl font-semibold mb-3">{t('title')}</h1>
+					<p className="text-muted-foreground">{t('description')}</p>
 				</div>
 
-				{/* Contact Information List */}
-				<dl className="space-y-6 bg-ocean-muted/30 rounded-2xl p-6 border border-ocean/10">
+				{/* Contact Information */}
+				<div className="space-y-8">
 					{/* Phone */}
-					<div>
-						<dt className="text-sm font-medium text-muted-foreground mb-1 flex items-center gap-2">
-							{t('phone.label')}
-						</dt>
-						<dd>
-							<a
-								href={`tel:${phoneNumber}`}
-								className="font-medium text-ocean hover:text-ocean-light underline inline-flex items-center gap-2 transition-colors"
-								aria-label={t('phone.ariaLabel', { phone: phoneNumber })}
-							>
-								<Phone className="size-4" />
-								{phoneNumber}
-							</a>
-						</dd>
-					</div>
+					<a
+						href={`tel:${phoneNumber}`}
+						className="group flex items-center gap-4 py-4 border-b border-border/50 hover:border-ocean/30 transition-colors"
+						aria-label={t('phone.ariaLabel', { phone: phoneNumber })}
+					>
+						<div className="size-10 rounded-full bg-muted flex items-center justify-center group-hover:bg-ocean/10 transition-colors">
+							<Phone className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
+						</div>
+						<div>
+							<p className="text-xs text-muted-foreground uppercase tracking-wider mb-0.5">
+								{t('phone.label')}
+							</p>
+							<p className="font-medium group-hover:text-ocean transition-colors">{phoneNumber}</p>
+						</div>
+					</a>
 
 					{/* Email */}
-					<div>
-						<dt className="text-sm font-medium text-muted-foreground mb-1 flex items-center gap-2">
-							{t('email.label')}
-						</dt>
-						<dd>
-							<a
-								href={`mailto:${emailAddress}`}
-								className="font-medium text-ocean hover:text-ocean-light underline inline-flex items-center gap-2 transition-colors"
-								aria-label={t('email.ariaLabel', { email: emailAddress })}
-							>
-								<Mail className="size-4" />
-								{emailAddress}
-							</a>
-						</dd>
-					</div>
+					<a
+						href={`mailto:${emailAddress}`}
+						className="group flex items-center gap-4 py-4 border-b border-border/50 hover:border-ocean/30 transition-colors"
+						aria-label={t('email.ariaLabel', { email: emailAddress })}
+					>
+						<div className="size-10 rounded-full bg-muted flex items-center justify-center group-hover:bg-ocean/10 transition-colors">
+							<Mail className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
+						</div>
+						<div>
+							<p className="text-xs text-muted-foreground uppercase tracking-wider mb-0.5">
+								{t('email.label')}
+							</p>
+							<p className="font-medium group-hover:text-ocean transition-colors">{emailAddress}</p>
+						</div>
+					</a>
 
 					{/* Address */}
-					<div>
-						<dt className="text-sm font-medium text-muted-foreground mb-1 flex items-center gap-2">
-							{t('address.label')}
-						</dt>
-						<dd>
-							<a
-								href={googleMapsUrl}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="font-medium text-ocean hover:text-ocean-light underline inline-flex items-center gap-2 transition-colors"
-								aria-label={t('address.ariaLabel', { address: fullAddress })}
-							>
-								<MapPin className="size-4" />
-								<address className="not-italic">
-									{address.street} {address.city}, {address.state} {address.zipCode}
-								</address>
-							</a>
-						</dd>
-					</div>
-				</dl>
+					<a
+						href={googleMapsUrl}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="group flex items-center gap-4 py-4 border-b border-border/50 hover:border-ocean/30 transition-colors"
+						aria-label={t('address.ariaLabel', { address: fullAddress })}
+					>
+						<div className="size-10 rounded-full bg-muted flex items-center justify-center group-hover:bg-ocean/10 transition-colors">
+							<MapPin className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
+						</div>
+						<div>
+							<p className="text-xs text-muted-foreground uppercase tracking-wider mb-0.5">
+								{t('address.label')}
+							</p>
+							<address className="not-italic font-medium group-hover:text-ocean transition-colors">
+								{address.street}, {address.city}, {address.state} {address.zipCode}
+							</address>
+						</div>
+					</a>
+				</div>
 			</div>
 		</PaddingLayout>
 	);

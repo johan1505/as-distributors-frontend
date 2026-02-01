@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Home, Package, ChevronDown, Globe, Phone, ShoppingBag } from "lucide-react";
+import { Home, Package, ChevronDown, Globe, Phone, ShoppingBag, Check } from "lucide-react";
 import { CATEGORY_ICONS } from "@/lib/category-icons";
 import {
   Sidebar as SidebarPrimitive,
@@ -26,6 +26,12 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from "@/components/ui/dropdown-menu";
 import { Link, usePathname } from "@/i18n/navigation";
 import { isActivePath } from "@/lib/path-utils";
 import type { CategoryKey } from "@/lib/products";
@@ -160,39 +166,45 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
       <SidebarFooter className="border-t border-ocean/20 pt-4">
         {locales.length > 1 && (
           <div className="px-2 pb-2">
-            <div className="flex items-center gap-2 mb-3 px-2">
-              <Globe className="size-5 text-ocean" />
-              <span className="text-sm font-semibold text-foreground">{tNav("language")}</span>
-            </div>
-            <div className="grid grid-cols-2 gap-2">
-              {locales.map((loc) => {
-                const languageNames: Record<string, string> = {
-                  en: "English",
-                  es: "Español",
-                  sm: "Samoa",
-                  ko: "한국어",
-                  zh: "中文",
-                };
-                return (
-                  <Link
-                    key={loc}
-                    href={pathname}
-                    locale={loc}
-                    onClick={() => {
-                      if (isMobile) {
-                        setOpenMobile(false);
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium hover:bg-muted transition-colors">
+                <Globe className="size-4 text-ocean" />
+                <span>{tNav("language")}</span>
+                <ChevronDown className="ml-auto size-4 text-muted-foreground" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent side="top" align="start" sideOffset={8}>
+                {locales.map((loc) => {
+                  const languageNames: Record<string, string> = {
+                    en: "English",
+                    es: "Español",
+                    sm: "Samoa",
+                    ko: "한국어",
+                    zh: "中文",
+                  };
+                  const isActive = locale === loc;
+                  return (
+                    <DropdownMenuItem
+                      key={loc}
+                      render={
+                        <Link
+                          href={pathname}
+                          locale={loc}
+                          onClick={() => {
+                            if (isMobile) {
+                              setOpenMobile(false);
+                            }
+                          }}
+                        />
                       }
-                    }}
-                    className={`flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium rounded-lg transition-all ${locale === loc
-                        ? "bg-ocean text-white shadow-md"
-                        : "bg-muted/50 text-muted-foreground hover:bg-ocean/10 hover:text-ocean border border-transparent hover:border-ocean/30"
-                      }`}
-                  >
-                    {languageNames[loc] || loc.toUpperCase()}
-                  </Link>
-                );
-              })}
-            </div>
+                      className={isActive ? "bg-ocean/10 text-ocean" : ""}
+                    >
+                      {languageNames[loc] || loc.toUpperCase()}
+                      {isActive && <Check className="ml-auto size-4" />}
+                    </DropdownMenuItem>
+                  );
+                })}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         )}
       </SidebarFooter>

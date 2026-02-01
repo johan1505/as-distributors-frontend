@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { AddToQuoteButton } from "@/components/quote/AddToQuoteButton";
 import type { ProductBase } from "@/lib/products";
-import { Badge } from "../ui/badge";
+import { ProductBadges } from "./ProductBadges";
 import Image from "next/image";
 import { ROUTES } from "@/lib/routes";
 import { useQuote } from "../quote/QuoteProvider";
@@ -62,16 +62,13 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="flex flex-wrap gap-2">
-          <Badge variant="secondary" className="bg-ocean-muted/50 border-ocean/10">
-            <span className="text-muted-foreground">{t("overallSize")}</span>:{" "}
-            <span>{product.overallSize}</span>
-          </Badge>
-          <Badge variant="secondary" className="bg-primary/15 border-primary/10">
-            <span className="text-muted-foreground">{t("unitPerPack")}</span>:{" "}
-            <span>{product.unitPerPack}</span>
-          </Badge>
-        </div>
+        <ProductBadges
+          overallSize={product.overallSize}
+          unitPerPack={product.unitPerPack}
+          overallSizeLabel={t("overallSize")}
+          unitPerPackLabel={t("unitPerPack")}
+          variant="compact"
+        />
         <p className="line-clamp-3 mt-4 text-muted-foreground">{description}</p>
       </CardContent>
       <CardFooter>

@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Package, Ruler } from 'lucide-react';
 import { getAllProductsBase, getProductBySlug, isProductSlug, isCategoryKey } from '@/lib/products';
 import { locales } from '@/i18n/config';
 import { AddToQuoteButton } from '@/components/quote/AddToQuoteButton';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
+import { ProductBadges } from '@/components/products/ProductBadges';
 import { hasLocale } from 'next-intl';
 import { getCanonicalUrl, getAlternateLanguages, SITE_NAME } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
@@ -233,16 +233,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
 								<span className="font-medium">{productBase.itemNumber}</span>
 							</Badge>
 
-							<Badge variant={'secondary'} className="text-sm p-5">
-								<Package className="size-3.5 text-muted-foreground" />
-								<span className="text-muted-foreground">{t('unitPerPack')}:</span>
-								<span className="font-medium">{productBase.unitPerPack}</span>
-							</Badge>
-							<Badge variant={'secondary'} className="text-sm p-5">
-								<Ruler className="size-3.5 text-muted-foreground" />
-								<span className="text-muted-foreground">{t('overallSize')}:</span>
-								<span className="font-medium">{productBase.overallSize}</span>
-							</Badge>
+							<ProductBadges
+								overallSize={productBase.overallSize}
+								unitPerPack={productBase.unitPerPack}
+								overallSizeLabel={t('overallSize')}
+								unitPerPackLabel={t('unitPerPack')}
+								variant="large"
+							/>
 						</div>
 						{/* Add to Quote */}
 						<AddToQuoteButton product={productBase} size="lg" className="w-full sm:w-auto" />
