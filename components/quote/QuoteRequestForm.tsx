@@ -8,13 +8,13 @@ import { Input } from "@/components/ui/input";
 import { Field, FieldLabel, FieldGroup, FieldError } from "@/components/ui/field";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useQuote } from "./QuoteProvider";
-import type { ProductSlug } from "@/lib/products";
 import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
+import { ProductSlug } from "@/lib/products";
 
-type QuoteItem = { slug: ProductSlug; quantity: number };
+export type QuoteItem = { productName: string; quantity: number };
 
-interface QuoteRequestPayload {
+export interface QuoteRequestPayload {
   contactInfo: {
     name: string;
     email: string;
@@ -24,13 +24,18 @@ interface QuoteRequestPayload {
   metadata: {
     totalItems: number;
     totalUniqueProducts: number;
+    submittedAt: string;
   };
   agreedToContact: boolean;
 }
 
 const QUOTE_API_URL = process.env.NEXT_PUBLIC_QUOTE_API_URL;
 
-export function QuoteRequestForm() {
+type QuoteRequestFormProps = {
+  productSlugToNameMapInEnglish: Record<ProductSlug, string>;
+}
+
+export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequestFormProps) {
   const tQuotePage = useTranslations("quote.submitPage");
   const router = useRouter();
   const { items, totalItems, clearCart } = useQuote();
@@ -47,13 +52,24 @@ export function QuoteRequestForm() {
     };
 
     const quoteItems: QuoteItem[] = items.map((item) => ({
-      slug: item.product.slug,
+      productName: productSlugToNameMapInEnglish[item.product.slug],
       quantity: item.quantity,
     }));
+
+    const date = new Date();
+    const submittedAt = date.toLocaleString("en-US", {
+      timeZone: "America/Los_Angeles",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
 
     const metadata = {
       totalItems,
       totalUniqueProducts: items.length,
+      submittedAt,
     };
 
     return {
@@ -68,11 +84,6 @@ export function QuoteRequestForm() {
     e.preventDefault();
     setError(null);
     setIsSubmitting(true);
-
-    // TODO: Remove this after testing
-    // await new Promise((succes) => {
-    //   setTimeout(succes, 6000);
-    // });
 
     try {
       const formData = new FormData(e.currentTarget);

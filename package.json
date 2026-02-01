@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy:local": "dotenv -- bash scripts/deploy.sh",
     "deploy": "npm install && npm run test && npm run build",
     "dev:fix": "biome lint --write . && biome format --write .",
     "test:format": "biome format .",

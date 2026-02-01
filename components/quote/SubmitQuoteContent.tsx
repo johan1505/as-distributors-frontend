@@ -9,8 +9,13 @@ import { QuoteRequestForm } from "./QuoteRequestForm";
 import { Link } from "@/i18n/navigation";
 import { Separator } from "@/components/ui/separator";
 import { ROUTES } from "@/lib/routes";
+import { ProductSlug } from "@/lib/products";
 
-export function SubmitQuoteContent() {
+type SubmitQuoteContentProps = {
+  productSlugToNameMapInEnglish: Record<ProductSlug, string>;
+}
+
+export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuoteContentProps) {
   const tQuote = useTranslations("quote");
   const tQuotePage = useTranslations("quote.submitPage");
   const { items } = useQuote();
@@ -46,7 +51,7 @@ export function SubmitQuoteContent() {
       <div className="flex flex-col lg:flex-row gap-8">
         <QuoteItemsList />
         <Separator orientation="vertical" />
-        <QuoteRequestForm />
+        <QuoteRequestForm productSlugToNameMapInEnglish={productSlugToNameMapInEnglish} />
       </div>
     </div>
   );
