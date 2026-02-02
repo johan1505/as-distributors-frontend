@@ -95,6 +95,7 @@
 		"submit": "Auina Talosaga Tau",
 		"itemCount": "{count, plural, =0 {E leai ni oloa} =1 {1 oloa} other {# oloa}}",
 		"requestQuote": "Talosaga tau",
+		"successMessage": "Ua manuia le tuuina atu o lau talosaga tau! O le a vave lava ona faafesootai atu la matou au.",
 		"submitPage": {
 			"title": "Auina Talosaga Tau",
 			"seoTitle": "Talosaga Tau - A & S Distributors",

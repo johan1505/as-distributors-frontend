@@ -107,9 +107,9 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
         throw new Error(data.error || "Failed to submit quote request");
       }
 
-      // Success: clear cart and redirect to products page
+      // Success: clear cart and redirect to products page with success indicator
       clearCart();
-      router.push(ROUTES.products);
+      router.push(`${ROUTES.products}?quoteSuccess=true`);
     } catch (err) {
       console.error("Error submitting quote:", err);
       setError(tQuotePage("errorMessage"));

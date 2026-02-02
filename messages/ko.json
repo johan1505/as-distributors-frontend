@@ -95,6 +95,7 @@
 		"submit": "견적 요청 제출",
 		"itemCount": "{count, plural, =0 {항목 없음} =1 {1개 항목} other {#개 항목}}",
 		"requestQuote": "견적 요청",
+		"successMessage": "견적 요청이 성공적으로 제출되었습니다! 곧 연락드리겠습니다.",
 		"submitPage": {
 			"title": "견적 요청 제출",
 			"seoTitle": "견적 요청 - A & S Distributors",

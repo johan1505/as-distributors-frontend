@@ -9,7 +9,11 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ROUTES } from "@/lib/routes";
 
-export function SearchBar() {
+interface SearchBarProps {
+  fullWidth?: boolean;
+}
+
+export function SearchBar({ fullWidth = false }: SearchBarProps) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -59,7 +63,7 @@ export function SearchBar() {
   );
 
   return (
-    <form onSubmit={handleSubmit} className="relative md:w-full">
+    <form onSubmit={handleSubmit} className={`relative ${fullWidth ? "w-full" : "flex-1 md:flex-none md:w-64 lg:w-80"}`}>
       <Input
         type="search"
         value={inputValue}

@@ -6,6 +6,7 @@ import { getAllProductsBase, getCategories, getCategoryImage } from '@/lib/produ
 import { ProductCatalog } from '@/components/products/ProductCatalog';
 import { ProductCatalogSkeleton } from '@/components/products/ProductCatalogSkeleton';
 import { PaddingLayout } from '@/components/layout/PaddingLayout';
+import { QuoteSuccessBanner } from '@/components/quote/QuoteSuccessBanner';
 import { locales } from '@/i18n/config';
 import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
@@ -118,7 +119,11 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogJsonLd) }}
 			/>
 
-			<div className="flex flex-col gap-8">
+			<div className="flex flex-col gap-6 w-full">
+				<Suspense fallback={null}>
+					<QuoteSuccessBanner />
+				</Suspense>
+
 				<div>
 					<h1 className="text-3xl md:text-4xl font-semibold mb-2">{tCatalog('title')}</h1>
 					<p className="text-muted-foreground">{tCatalog('description')}</p>

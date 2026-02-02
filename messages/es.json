@@ -95,6 +95,7 @@
 		"submit": "Enviar Solicitud de Cotización",
 		"itemCount": "{count, plural, =0 {Sin artículos} =1 {1 artículo} other {# artículos}}",
 		"requestQuote": "Solicitar cotización",
+		"successMessage": "Su solicitud de cotización ha sido enviada con éxito. Nuestro equipo se pondrá en contacto pronto.",
 		"submitPage": {
 			"title": "Enviar Solicitud de Cotización",
 			"seoTitle": "Solicitar Cotización - A & S Distributors",

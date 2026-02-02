@@ -95,6 +95,7 @@
 		"submit": "Submit Quote Request",
 		"itemCount": "{count, plural, =0 {No items} =1 {1 item} other {# items}}",
 		"requestQuote": "Request quote",
+		"successMessage": "Your quote request has been submitted successfully! Our team will contact you soon.",
 		"submitPage": {
 			"title": "Submit Quote Request",
 			"seoTitle": "Request a Quote - A & S Distributors",

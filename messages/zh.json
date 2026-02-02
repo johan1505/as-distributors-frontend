@@ -95,6 +95,7 @@
 		"submit": "提交报价请求",
 		"itemCount": "{count, plural, =0 {无项目} =1 {1个项目} other {#个项目}}",
 		"requestQuote": "请求报价",
+		"successMessage": "您的报价请求已成功提交！我们的团队将很快与您联系。",
 		"submitPage": {
 			"title": "提交报价请求",
 			"seoTitle": "请求报价 - A & S Distributors",

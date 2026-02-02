@@ -23,7 +23,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-30 w-full border-b border-ocean/10 bg-background/95 backdrop-blur-sm">
-      <div className="flex flex-col lg:flex-row h-full justify-between p-4 gap-4">
+      <div className="flex flex-col md:flex-row h-full justify-between p-4 gap-4">
         {/* Left Side: Sidebar Trigger & Breadcrumbs */}
         <div className="flex items-center gap-4">
           <SidebarTrigger />
@@ -32,9 +32,9 @@ export function Header() {
 
         {/* Right Side: Search & Request Quote Button */}
         {!isHome ? (
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className={`flex flex-row items-center gap-2 md:gap-4 ${isSubmitQuote ? "w-full md:w-auto" : ""}`}>
             <Suspense fallback={<SearchBarSkeleton />}>
-              <SearchBar />
+              <SearchBar fullWidth={isSubmitQuote} />
             </Suspense>
 
             {!isSubmitQuote && (
@@ -42,10 +42,11 @@ export function Header() {
                 href={ROUTES.submitQuote}
                 className={buttonVariants({
                   variant: "default",
+                  className: "shrink-0",
                 })}
               >
                 <ShoppingCart className="size-4" />
-                {t("requestQuote")}
+                <span className="hidden sm:inline">{t("requestQuote")}</span>
                 {totalItems > 0 && (
                   <span className="ml-1 size-6 rounded-full bg-white text-primary font-semibold flex items-center justify-center">
                     {totalItems > 99 ? "99+" : totalItems}
