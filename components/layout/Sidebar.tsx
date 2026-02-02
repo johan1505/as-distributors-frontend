@@ -133,8 +133,10 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                               `${ROUTES.products}/${categoryKey}`
                             )}
                           >
-                            <Icon className="size-4 text-ocean" />
-                            {tCategories(categoryKey)}
+                            <Icon className="size-4 text-ocean flex-shrink-0" />
+                            <span className="line-clamp-1">
+                              {tCategories(categoryKey)}
+                            </span>
                           </SidebarMenuSubButton>
                         </SidebarMenuSubItem>
                       );
