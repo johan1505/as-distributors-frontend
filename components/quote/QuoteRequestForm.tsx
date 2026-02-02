@@ -29,7 +29,7 @@ export interface QuoteRequestPayload {
   agreedToContact: boolean;
 }
 
-const QUOTE_API_URL = process.env.NEXT_PUBLIC_QUOTE_API_URL;
+const QUOTE_API_URL = `${process.env.NEXT_PUBLIC_QUOTE_API_URL}/quote`;
 
 type QuoteRequestFormProps = {
   productSlugToNameMapInEnglish: Record<ProductSlug, string>;
