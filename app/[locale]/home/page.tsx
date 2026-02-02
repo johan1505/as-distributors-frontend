@@ -5,7 +5,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { ArrowRight, Heart, Shield, Handshake, Clock, Fish, Beef, Leaf } from 'lucide-react';
 import { getFeaturedProducts } from '@/lib/products';
 import type { Locale } from 'next-intl';
-import { ProductCard } from '@/components/products/ProductCard';
+import { FeaturedProductsCarousel } from '@/components/products/FeaturedProductsCarousel';
 import { locales } from '@/i18n/config';
 import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
@@ -212,6 +212,24 @@ export default async function HomePage({ params }: HomePageProps) {
 				</div>
 			</section>
 
+			{/* Featured Products Section */}
+			<section className="px-4 md:py-16">
+				<div className="flex items-center justify-between mb-8">
+					<h2 className="text-2xl md:text-3xl font-semibold">{t('featured.title')}</h2>
+					<Link
+						href={ROUTES.products}
+						className={buttonVariants({
+							variant: 'ghost',
+							className: 'text-ocean hover:text-ocean hover:bg-ocean-muted',
+						})}
+					>
+						{t('featured.viewAll')}
+						<ArrowRight className="size-4" />
+					</Link>
+				</div>
+				<FeaturedProductsCarousel products={featuredProductsBase.slice(0, 8)} />
+			</section>
+
 			{/* Values Section - Alternating Styles */}
 			<section className="bg-gradient-to-b from-ocean-muted/40 via-ocean-muted/20 to-background py-16 md:py-24">
 				<div className="container mx-auto px-4">
@@ -240,28 +258,6 @@ export default async function HomePage({ params }: HomePageProps) {
 							</div>
 						))}
 					</div>
-				</div>
-			</section>
-
-			{/* Featured Products Section */}
-			<section className="container mx-auto px-4 py-8 md:py-16">
-				<div className="flex items-center justify-between mb-8">
-					<h2 className="text-2xl md:text-3xl font-semibold">{t('featured.title')}</h2>
-					<Link
-						href={ROUTES.products}
-						className={buttonVariants({
-							variant: 'ghost',
-							className: 'gap-2 text-ocean hover:text-ocean hover:bg-ocean-muted',
-						})}
-					>
-						{t('featured.viewAll')}
-						<ArrowRight className="size-4" />
-					</Link>
-				</div>
-				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-					{featuredProductsBase.slice(0, 8).map((product) => {
-						return <ProductCard key={product.slug} product={product} hideQuoteCart />;
-					})}
 				</div>
 			</section>
 		</>

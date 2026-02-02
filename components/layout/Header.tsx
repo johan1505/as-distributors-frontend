@@ -47,7 +47,7 @@ export function Header() {
                 <ShoppingCart className="size-4" />
                 {t("requestQuote")}
                 {totalItems > 0 && (
-                  <span className="ml-1 size-5 rounded-full bg-white text-primary text-[10px] font-semibold flex items-center justify-center">
+                  <span className="ml-1 size-6 rounded-full bg-white text-primary font-semibold flex items-center justify-center">
                     {totalItems > 99 ? "99+" : totalItems}
                   </span>
                 )}
