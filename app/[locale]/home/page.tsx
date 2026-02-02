@@ -230,6 +230,21 @@ export default async function HomePage({ params }: HomePageProps) {
 				<FeaturedProductsCarousel products={featuredProductsBase.slice(0, 8)} />
 			</section>
 
+			{/* Wave transition to Values Section */}
+			<div className="relative">
+				{/* biome-ignore lint/a11y/noSvgWithoutTitle : decorative */}
+				<svg className="w-full h-20 md:h-32" viewBox="0 0 1440 120" preserveAspectRatio="none">
+					<path
+						className="fill-ocean/10"
+						d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z"
+					/>
+					<path
+						className="fill-primary/5"
+						d="M0,80 C240,20 480,100 720,40 C960,100 1200,20 1440,80 L1440,120 L0,120 Z"
+					/>
+				</svg>
+			</div>
+
 			{/* Values Section - Alternating Styles */}
 			<section className="bg-gradient-to-b from-ocean-muted/40 via-ocean-muted/20 to-background py-16 md:py-24">
 				<div className="container mx-auto px-4">

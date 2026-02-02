@@ -11,7 +11,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t bg-gradient-to-b from-ocean-muted/30 to-background">
+    <footer className="border-t bg-linear-to-b from-muted/50 to-background">
       <div className="container mx-auto px-4 py-12">
         <div className="grid gap-8 md:grid-cols-3">
           {/* Brand */}
