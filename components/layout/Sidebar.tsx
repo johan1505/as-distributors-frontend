@@ -60,7 +60,7 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" render={<Link href={ROUTES.home} />}>
-              <span className="font-semibold truncate text-ocean">{tHome("hero.title")}</span>
+              <span className="font-semibold truncate text-foreground">{tHome("hero.title")}</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
