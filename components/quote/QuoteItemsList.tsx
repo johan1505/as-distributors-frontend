@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useQuote } from "./QuoteProvider";
+import { getProductImageSource } from "@/lib/products";
 import type { ProductSlug } from "@/lib/products";
 import Image from "next/image";
 import { ROUTES } from "@/lib/routes";
@@ -45,8 +46,8 @@ export function QuoteItemsList() {
             <Image
               width={800}
               height={600}
-              src={item.product.imageUrl}
-              alt={getProductName(item.product.slug)}
+              src={getProductImageSource(item.product.slug)}
+              alt={tProducts(`${item.product.slug}.imageAlt`)}
               className="size-20 md:size-24 object-cover rounded-lg shrink-0"
               loading="lazy"
             />

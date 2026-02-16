@@ -12,7 +12,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 interface ProductCatalogProps {
   selectedCategory: CategoryKey | "all";
   products: ProductBase[];
-  categories: { key: CategoryKey; label: string; imageUrl?: string }[];
+  categories: { key: CategoryKey; label: string }[];
 }
 
 export function ProductCatalog({

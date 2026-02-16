@@ -1,5 +1,4 @@
 import productsData from '@/data/products.json';
-import categoriesData from '@/data/categories.json';
 
 // Define slugs as const array to preserve literal types and derive union type
 export const PRODUCT_SLUGS = [
@@ -249,9 +248,12 @@ export interface ProductBase {
 	itemNumber: string;
 	unitPerPack: number;
 	overallSize: string;
-	imageUrl: string;
 	categoryKey: CategoryKey;
 	featured: boolean;
+}
+
+export function getProductImageSource(slug: ProductSlug): string {
+	return `/images/${slug}.webp`;
 }
 
 // Type guard for ProductBase
@@ -260,7 +262,6 @@ function isValidProductBase(p: {
 	itemNumber: string;
 	unitPerPack: number;
 	overallSize: string;
-	imageUrl: string;
 	categoryKey: string;
 	featured: boolean;
 }): p is ProductBase {
@@ -294,9 +295,4 @@ export function getCategories(): CategoryKey[] {
 
 export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
 	return getAllProductsBase().filter((p) => p.categoryKey === categoryKey);
-}
-
-export function getCategoryImage(categoryKey: CategoryKey): string {
-	const images = categoriesData as Record<CategoryKey, string>;
-	return images[categoryKey] || '';
 }

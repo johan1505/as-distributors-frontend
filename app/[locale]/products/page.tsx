@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from 'next-intl';
-import { getAllProductsBase, getCategories, getCategoryImage } from '@/lib/products';
+import { getAllProductsBase, getCategories } from '@/lib/products';
 import { ProductCatalog } from '@/components/products/ProductCatalog';
 import { ProductCatalogSkeleton } from '@/components/products/ProductCatalogSkeleton';
 import { PaddingLayout } from '@/components/layout/PaddingLayout';
@@ -83,7 +83,6 @@ export default async function CatalogPage({ params }: CatalogPageProps) {
 	const categories = categoryKeys.map((key) => ({
 		key,
 		label: tCategories(key),
-		imageUrl: getCategoryImage(key),
 	}));
 
 	// JSON-LD structured data for the product catalog

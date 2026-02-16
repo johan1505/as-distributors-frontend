@@ -1,14 +1,20 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getAllProductsBase, getProductBySlug, isProductSlug, isCategoryKey } from '@/lib/products';
+import {
+	getAllProductsBase,
+	getProductBySlug,
+	getProductImageSource,
+	isProductSlug,
+	isCategoryKey,
+} from '@/lib/products';
 import { locales } from '@/i18n/config';
 import { AddToQuoteButton } from '@/components/quote/AddToQuoteButton';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { ProductBadges } from '@/components/products/ProductBadges';
 import { hasLocale } from 'next-intl';
-import { getCanonicalUrl, getAlternateLanguages, SITE_NAME } from '@/lib/site-config';
+import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 import type { BreadcrumbList, Product, WithContext } from 'schema-dts';
 import { JSON_LD_CONSTANTS } from '@/lib/constants';
@@ -49,7 +55,8 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 	const seoTitle = tProducts(`${slug}.seoTitle`);
 	const seoDescription = tProducts(`${slug}.seoDescription`);
 	const seoKeywords = tProducts(`${slug}.seoKeywords`);
-	const name = tProducts(`${slug}.name`);
+	const imageAlt = tProducts(`${slug}.imageAlt`);
+	const imageSrc = `${BASE_URL}${getProductImageSource(slug)}`;
 	const canonicalUrl = getCanonicalUrl(locale, `${ROUTES.products}/${categoryKey}/${slug}`);
 
 	return {
@@ -67,10 +74,10 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 			siteName: SITE_NAME,
 			images: [
 				{
-					url: productBase.imageUrl,
+					url: imageSrc,
 					width: 800,
 					height: 600,
-					alt: name,
+					alt: imageAlt,
 				},
 			],
 			locale,
@@ -80,7 +87,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 			card: 'summary_large_image',
 			title: seoTitle,
 			description: seoDescription,
-			images: [productBase.imageUrl],
+			images: [imageSrc],
 		},
 		robots: {
 			index: true,
@@ -142,7 +149,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 		description: description,
 		image: {
 			'@type': 'ImageObject',
-			url: productBase.imageUrl,
+			url: `${BASE_URL}${getProductImageSource(slug)}`,
 			width: '1200',
 			height: '1200',
 		},
@@ -212,8 +219,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
 							<Image
 								width={800}
 								height={600}
-								src={productBase.imageUrl}
-								alt={name}
+								src={getProductImageSource(slug)}
+								alt={tProducts(`${slug}.imageAlt`)}
 								className="w-full h-full"
 								loading="lazy"
 							/>
