@@ -43,8 +43,8 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
       >
         <div className="aspect-4/3 overflow-hidden bg-ocean-muted/30">
           <Image
-            width={100}
-            height={500}
+            width={800}
+            height={600}
             src={getProductImageSource(product.slug)}
             alt={tProducts(`${product.slug}.imageAlt`)}
             className="w-full h-full transition-transform duration-300 group-hover:scale-105"
