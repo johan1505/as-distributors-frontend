@@ -40,13 +40,13 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         href={`${ROUTES.products}/${product.categoryKey}/${product.slug}`}
         className="block"
       >
-        <div className="aspect-4/3 overflow-hidden bg-ocean-muted/30">
+        <div className="aspect-4/3 overflow-hidden bg-white p-4">
           <Image
             width={800}
             height={600}
             src={getProductImageSource(product.slug)}
             alt={tProducts(`${product.slug}.imageAlt`)}
-            className="w-full h-full transition-transform duration-300 group-hover:scale-105"
+            className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
           />
         </div>

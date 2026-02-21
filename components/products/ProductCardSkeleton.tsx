@@ -10,7 +10,7 @@ export function ProductCardSkeleton() {
   return (
     <Card className="overflow-hidden">
       {/* Image skeleton */}
-      <div className="aspect-[4/3] overflow-hidden">
+      <div className="aspect-4/3 overflow-hidden">
         <Skeleton className="h-full w-full" />
       </div>
 

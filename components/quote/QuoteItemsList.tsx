@@ -48,7 +48,7 @@ export function QuoteItemsList() {
               height={600}
               src={getProductImageSource(item.product.slug)}
               alt={tProducts(`${item.product.slug}.imageAlt`)}
-              className="size-20 md:size-24 object-cover rounded-lg shrink-0"
+              className="size-20 md:size-24 object-contain bg-white rounded-lg shrink-0"
               loading="lazy"
             />
             <div className="flex flex-col gap-4">

@@ -176,13 +176,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
 				<div className="grid md:gap-8 gap-0 lg:grid-cols-2 md:p-8">
 					{/* Product Image */}
 					<div className="h-full flex items-center justify-center">
-						<div className="overflow-hidden md:rounded-2xl bg-muted">
+						<div className="overflow-hidden md:rounded-2xl bg-white aspect-4/3 p-4">
 							<Image
 								width={800}
 								height={600}
 								src={getProductImageSource(slug)}
 								alt={tProducts(`${slug}.imageAlt`)}
-								className="w-full h-full"
+								className="w-full h-full object-contain"
 								loading="lazy"
 							/>
 						</div>
