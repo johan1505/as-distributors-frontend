@@ -1,4 +1,11 @@
 {
+	"accessGate": {
+		"title": "A & S Distributors",
+		"description": "O lenei saite o lo'o i le va'aiga. Fa'aulu le code e fa'aauau ai.",
+		"placeholder": "Fa'aulu le code",
+		"submit": "Ulufale",
+		"error": "Code sese. Fa'amolemole taumafai fo'i."
+	},
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - Fa'atau Mea'ai o le Pasefika",

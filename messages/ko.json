@@ -1,4 +1,11 @@
 {
+	"accessGate": {
+		"title": "A & S Distributors",
+		"description": "이 사이트는 현재 미리보기 상태입니다. 접속 코드를 입력하여 계속하세요.",
+		"placeholder": "접속 코드 입력",
+		"submit": "입장",
+		"error": "잘못된 코드입니다. 다시 시도해 주세요."
+	},
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - 태평양 섬 식품 유통업체",

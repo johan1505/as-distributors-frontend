@@ -1,4 +1,11 @@
 {
+	"accessGate": {
+		"title": "A & S Distributors",
+		"description": "This site is currently in preview. Enter the access code to continue.",
+		"placeholder": "Enter access code",
+		"submit": "Enter",
+		"error": "Incorrect code. Please try again."
+	},
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - Pacific Island Foods Distributor",

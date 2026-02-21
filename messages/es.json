@@ -1,4 +1,11 @@
 {
+	"accessGate": {
+		"title": "A & S Distributors",
+		"description": "Este sitio está actualmente en vista previa. Ingrese el código de acceso para continuar.",
+		"placeholder": "Ingrese el código de acceso",
+		"submit": "Entrar",
+		"error": "Código incorrecto. Por favor, inténtelo de nuevo."
+	},
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - Distribuidor de Alimentos de las Islas del Pacífico",

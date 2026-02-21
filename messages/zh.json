@@ -1,4 +1,11 @@
 {
+	"accessGate": {
+		"title": "A & S Distributors",
+		"description": "此网站目前处于预览状态。请输入访问代码以继续。",
+		"placeholder": "输入访问代码",
+		"submit": "进入",
+		"error": "代码错误，请重试。"
+	},
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - 太平洋岛屿食品分销商",
