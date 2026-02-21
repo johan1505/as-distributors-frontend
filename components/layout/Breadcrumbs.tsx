@@ -31,10 +31,10 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
 
           return (
             <React.Fragment key={index}>
-              <BreadcrumbItem>
+              <BreadcrumbItem className={isLast ? "min-w-0" : "shrink-0"}>
                 {isLast ?
                   (
-                    <BreadcrumbPage>
+                    <BreadcrumbPage className="truncate">
                       {item.label}
                     </BreadcrumbPage>
                   ) : (
@@ -47,7 +47,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
                     />
                   )}
               </BreadcrumbItem>
-              {!isLast && <BreadcrumbSeparator />}
+              {!isLast && <BreadcrumbSeparator className="shrink-0" />}
             </React.Fragment>
           );
         })}
