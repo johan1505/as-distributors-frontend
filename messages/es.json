@@ -9,7 +9,7 @@
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - Distribuidor de Alimentos de las Islas del Pacífico",
-		"description": "Su fuente confiable de alimentos auténticos de las Islas del Pacífico de Fiji, Nueva Zelanda y Australia. Abastecemos restaurantes, minoristas y proveedores de servicios de alimentos con productos premium a precios competitivos.",
+		"description": "Su fuente confiable de alimentos auténticos de las Islas del Pacífico de Fiji, Nueva Zelanda y Australia. Venta al por mayor para restaurantes y minoristas.",
 		"tagline": "Llevando el Pacífico a Su Mesa",
 		"keywords": "comida de las Islas del Pacífico, distribuidor de comida de Fiji, cordero de Nueva Zelanda, carne en conserva, productos de coco, comida del Pacífico al por mayor, comida samoana, comida tongana",
 		"pageNotFound": "Página No Encontrada"
@@ -74,7 +74,7 @@
 			"label": "Filtrar por categoría"
 		},
 		"seoTitle": "Catálogo de Productos - A & S Distributors",
-		"seoDescription": "Explore nuestra selección completa de alimentos auténticos de las Islas del Pacífico, incluyendo carne en conserva, cordero, productos de coco y más. Precios al por mayor para restaurantes y minoristas.",
+		"seoDescription": "Explore nuestra selección de alimentos auténticos de las Islas del Pacífico: carne en conserva, cordero, productos de coco y más. Precios al por mayor.",
 		"seoKeywords": "catálogo de alimentos de las Islas del Pacífico, productos alimenticios de Fiji, carne en conserva al por mayor, cordero de Nueva Zelanda, alimentos de las Islas del Pacífico al por mayor"
 	},
 	"product": {
@@ -106,7 +106,7 @@
 		"submitPage": {
 			"title": "Enviar Solicitud de Cotización",
 			"seoTitle": "Solicitar Cotización - A & S Distributors",
-			"seoDescription": "Envíe una solicitud de cotización para alimentos auténticos de las Islas del Pacífico. Precios al por mayor para restaurantes, minoristas y proveedores de servicios de alimentos. Respuesta rápida de nuestro equipo de ventas.",
+			"seoDescription": "Solicite una cotización para alimentos auténticos de las Islas del Pacífico. Precios al por mayor para restaurantes, minoristas y servicios de alimentos.",
 			"seoKeywords": "cotización al por mayor, alimentos de las Islas del Pacífico al por mayor, distribuidor de alimentos de Fiji, pedidos a granel, suministros para restaurantes",
 			"contactInfo": "Información de Contacto",
 			"name": "Nombre Completo",
@@ -237,7 +237,7 @@
 		},
 		"lamb-goat": {
 			"title": "Cordero y Cabra de Nueva Zelanda - Certificado USDA | A & S Distributors",
-			"description": "Cordero premium de Nueva Zelanda y cabra australiana. Somos el distribuidor del Norte de California para The New Zealand Lamb Company con nuestra propia instalación de corte USDA.",
+			"description": "Cordero premium de Nueva Zelanda y cabra australiana. Distribuidor del Norte de California para The New Zealand Lamb Company. Corte USDA.",
 			"pageDescription": "Cordero fresco de Nueva Zelanda y cabra australiana, cortados en nuestra propia instalación certificada USDA. Disponibles enteros o pre-empacados en varios cortes.",
 			"keywords": "cordero de Nueva Zelanda, cabra australiana, paleta de cordero, pierna de cordero, falda de cordero, cordero al por mayor, cordero USDA"
 		},
@@ -279,16 +279,16 @@
 		"ox-palm-corned-beef-7oz": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Carne en conserva premium hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Más jugosa y con más trozos que otras carnes en conserva del mercado. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos. Excelente para hash de carne en conserva, sándwiches de queso asado, pasta y huevos.",
-			"seoTitle": "Ox & Palm Corned Beef 7oz - Premium Australiana | A & S Distributors",
-			"seoDescription": "Carne en conserva Ox & Palm de alta calidad de carne de res Angus australiana alimentada con pasto. Certificada USDA, sin hormonas. Precios al por mayor disponibles.",
+			"seoTitle": "Ox & Palm Corned Beef 7oz | A & S Distributors",
+			"seoDescription": "Carne en conserva Ox & Palm de res Angus australiana alimentada con pasto. Certificada USDA, sin hormonas. Precios al por mayor.",
 			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva australiana, carne en conserva premium, carne en conserva al por mayor",
 			"imageAlt": "Lata de Ox & Palm Corned Beef"
 		},
 		"ox-palm-corned-beef-11-5oz": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Carne en conserva premium hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Más jugosa y con más trozos que otras carnes en conserva del mercado. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos. Tamaño perfecto para comidas familiares.",
-			"seoTitle": "Ox & Palm Corned Beef 11.5oz - Premium Australiana | A & S Distributors",
-			"seoDescription": "Carne en conserva Ox & Palm de alta calidad de carne de res Angus australiana alimentada con pasto. Certificada USDA, sin hormonas. Precios al por mayor disponibles.",
+			"seoTitle": "Ox & Palm Corned Beef 11.5oz | A & S Distributors",
+			"seoDescription": "Carne en conserva Ox & Palm de res Angus australiana alimentada con pasto. Certificada USDA, sin hormonas. Precios al por mayor.",
 			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva australiana, carne en conserva premium, carne en conserva al por mayor",
 			"imageAlt": "Lata de Ox & Palm Corned Beef"
 		},
@@ -303,7 +303,7 @@
 		"ox-palm-corned-beef-15oz": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Carne en conserva premium de tamaño grande hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Más jugosa y con más trozos que otras carnes en conserva. Certificada HACCP y USDA. Perfecta para alimentar grupos grandes.",
-			"seoTitle": "Ox & Palm Corned Beef 15oz - Tamaño Grande | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 15oz | A & S Distributors",
 			"seoDescription": "Ox & Palm corned beef grande de 15oz de carne de res Angus australiana alimentada con pasto. Certificada USDA. Precios al por mayor disponibles.",
 			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva grande, carne en conserva australiana, carne en conserva al por mayor",
 			"imageAlt": "Lata de Ox & Palm Corned Beef"
@@ -311,7 +311,7 @@
 		"ox-palm-corned-beef-3lb": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Carne en conserva premium a granel hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos. Ideal para restaurantes y catering.",
-			"seoTitle": "Ox & Palm Corned Beef 3lb - Tamaño a Granel | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 3lb | A & S Distributors",
 			"seoDescription": "Ox & Palm corned beef a granel de 3lb para restaurantes y catering. Carne australiana premium, certificada USDA. Precios al por mayor.",
 			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva a granel, carne en conserva para restaurantes, carne en conserva al por mayor",
 			"imageAlt": "Lata de Ox & Palm Corned Beef"
@@ -319,7 +319,7 @@
 		"ox-palm-corned-beef-6lb": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Carne en conserva premium de tamaño extra grande a granel hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Certificada HACCP y USDA. Perfecta para operaciones de servicio de alimentos a gran escala.",
-			"seoTitle": "Ox & Palm Corned Beef 6lb - Extra Grande | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 6lb | A & S Distributors",
 			"seoDescription": "Ox & Palm corned beef extra grande de 6lb para servicio de alimentos. Carne australiana premium, certificada USDA. Precios al por mayor.",
 			"seoKeywords": "Ox & Palm carne en conserva, carne en conserva a granel, carne en conserva para servicio de alimentos, carne en conserva al por mayor",
 			"imageAlt": "Lata de Ox & Palm Corned Beef"
@@ -327,7 +327,7 @@
 		"pacific-corned-beef-11-5oz": {
 			"name": "Pacific Corned Beef",
 			"description": "Hecha en Australia con al menos 99% de ingredientes australianos. La carne en conserva Pacific ha sido favorita por generaciones, hecha con receta neozelandesa con jugos naturales. Buena fuente de proteína y hierro. Tamaño conveniente para cenas entre semana.",
-			"seoTitle": "Pacific Corned Beef 11.5oz - Receta Tradicional | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 11.5oz | A & S Distributors",
 			"seoDescription": "Carne en conserva Pacific hecha con receta tradicional neozelandesa. 99% ingredientes australianos. Precios al por mayor disponibles.",
 			"seoKeywords": "Pacific carne en conserva, carne en conserva australiana, carne en conserva tradicional, carne en conserva al por mayor",
 			"imageAlt": "Lata de Pacific Corned Beef"
@@ -335,7 +335,7 @@
 		"pacific-corned-beef-7oz": {
 			"name": "Pacific Corned Beef",
 			"description": "Hecha en Australia con al menos 99% de ingredientes australianos. La carne en conserva Pacific ha sido favorita por generaciones. Hecha con receta neozelandesa con jugos naturales. Tamaño de porción perfecto.",
-			"seoTitle": "Pacific Corned Beef 7oz - Receta Tradicional | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 7oz | A & S Distributors",
 			"seoDescription": "Carne en conserva Pacific hecha con receta tradicional neozelandesa. 99% ingredientes australianos. Precios al por mayor disponibles.",
 			"seoKeywords": "Pacific carne en conserva, carne en conserva australiana, carne en conserva tradicional, carne en conserva al por mayor",
 			"imageAlt": "Lata de Pacific Corned Beef"
@@ -343,7 +343,7 @@
 		"pacific-corned-beef-15oz": {
 			"name": "Pacific Corned Beef",
 			"description": "Carne en conserva Pacific de tamaño grande hecha en Australia con al menos 99% de ingredientes australianos. Receta tradicional neozelandesa con jugos naturales. Excelente para comidas familiares.",
-			"seoTitle": "Pacific Corned Beef 15oz - Tamaño Familiar | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 15oz | A & S Distributors",
 			"seoDescription": "Carne en conserva Pacific grande hecha con receta tradicional neozelandesa. 99% ingredientes australianos. Precios al por mayor disponibles.",
 			"seoKeywords": "Pacific carne en conserva, carne en conserva grande, carne en conserva australiana, carne en conserva al por mayor",
 			"imageAlt": "Lata de Pacific Corned Beef"
@@ -351,7 +351,7 @@
 		"pacific-corned-beef-3lb": {
 			"name": "Pacific Corned Beef",
 			"description": "Carne en conserva Pacific a granel hecha en Australia con al menos 99% de ingredientes australianos. Receta tradicional neozelandesa. Perfecta para restaurantes y operaciones de catering.",
-			"seoTitle": "Pacific Corned Beef 3lb - Tamaño a Granel | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 3lb | A & S Distributors",
 			"seoDescription": "Carne en conserva Pacific a granel para restaurantes. Receta tradicional neozelandesa, ingredientes australianos. Precios al por mayor.",
 			"seoKeywords": "Pacific carne en conserva, carne en conserva a granel, carne en conserva para restaurantes, carne en conserva al por mayor",
 			"imageAlt": "Lata de Pacific Corned Beef"
@@ -463,7 +463,7 @@
 		"pacific-taste-coconut-milk-98oz": {
 			"name": "Pacific Taste Leche de Coco",
 			"description": "Leche de coco en formato grande para servicio de alimentos y uso comercial. Rica y cremosa, perfecta para restaurantes, panaderías y operaciones de cocina a gran escala.",
-			"seoTitle": "Pacific Taste Leche de Coco 98oz - Servicio de Alimentos | A & S Distributors",
+			"seoTitle": "Pacific Taste Leche de Coco 98oz | A & S Distributors",
 			"seoDescription": "Leche de coco Pacific Taste en formato grande para restaurantes. Rica y cremosa. Precios al por mayor disponibles.",
 			"seoKeywords": "leche de coco a granel, leche de coco para servicio de alimentos, leche de coco para restaurantes, leche de coco al por mayor",
 			"imageAlt": "Lata de Pacific Taste Leche de Coco"
@@ -663,7 +663,7 @@
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Breakfast Crackers",
 			"description": "Paquete a granel de los legendarios breakfast crackers de Fiji para verdaderos fanáticos y servicio de alimentos. Estos crackers ligeros y crujientes de FMF Foods han sido una institución de las Islas del Pacífico por más de 50 años. Abastécete y nunca te quedes sin ellos.",
-			"seoTitle": "FMF Breakfast Crackers 4lb A Granel | A & S Distributors",
+			"seoTitle": "FMF Breakfast Crackers 4lb | A & S Distributors",
 			"seoDescription": "Paquete a granel de 4lb de FMF Breakfast Crackers de Fiji. Perfecto para servicio de alimentos. Precios al por mayor disponibles.",
 			"seoKeywords": "FMF crackers a granel, Fiji breakfast crackers, crackers al por mayor, comida del Pacífico",
 			"imageAlt": "Paquete de FMF Breakfast Crackers"
@@ -687,7 +687,7 @@
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF Breakfast Crackers",
 			"description": "El paquete más grande disponible de los queridos breakfast crackers de Fiji. Ideal para restaurantes, operaciones de catering y minoristas que necesitan suministro constante de este básico de las Islas del Pacífico. Misma calidad, máximo valor.",
-			"seoTitle": "FMF Breakfast Crackers 11lb A Granel | A & S Distributors",
+			"seoTitle": "FMF Breakfast Crackers 11lb | A & S Distributors",
 			"seoDescription": "Paquete extra grande a granel de 11lb de FMF Breakfast Crackers. Ideal para servicio de alimentos. Precios al por mayor disponibles.",
 			"seoKeywords": "FMF crackers a granel, crackers al por mayor, servicio de alimentos Fiji, crackers de las Islas del Pacífico",
 			"imageAlt": "Paquete de FMF Breakfast Crackers"
@@ -847,7 +847,7 @@
 		"boja-king-cheese-snack-28oz": {
 			"name": "BONGOS Queso",
 			"description": "Paquete tamaño familiar de los icónicos cheese puffs de Fiji. El característico sabor a queso de BONGOS en una porción generosa perfecta para compartir en fiestas, reuniones familiares o para los entusiastas de los cheese puffs.",
-			"seoTitle": "BONGOS Cheese Puffs Tamaño Familiar | A & S Distributors",
+			"seoTitle": "BONGOS Cheese Puffs 28g | A & S Distributors",
 			"seoDescription": "BONGOS Cheese puffs tamaño familiar, perfectos para compartir. Precios al por mayor disponibles.",
 			"seoKeywords": "BONGOS tamaño familiar, cheese puffs a granel, snacks de Fiji, snacks para fiestas",
 			"imageAlt": "Paquete de BONGOS Cheese Snack"
@@ -855,7 +855,7 @@
 		"boja-king-chicken-snack-156oz": {
 			"name": "BONGOS Pollo",
 			"description": "Paquete a granel extra grande de los populares puffs sabor pollo BONGOS. Misma textura ligera y crujiente con sabroso sazonado de pollo. Ideal para minoristas, eventos o verdaderos fans de BONGOS que nunca quieren quedarse sin ellos.",
-			"seoTitle": "BONGOS Chicken Puffs A Granel | A & S Distributors",
+			"seoTitle": "BONGOS Chicken Puffs 156g | A & S Distributors",
 			"seoDescription": "BONGOS Chicken puffs a granel, sabroso sabor a pollo. Perfecto para minoristas. Precios al por mayor disponibles.",
 			"seoKeywords": "BONGOS chicken a granel, chicken puffs, snacks de Fiji al por mayor",
 			"imageAlt": "Paquete de BONGOS Chicken Snack"
@@ -871,7 +871,7 @@
 		"boja-king-chicken-snack-28oz": {
 			"name": "BONGOS Pollo",
 			"description": "Bolsa tamaño familiar de puffs de pollo BONGOS. Estos snacks ligeros y aireados están sazonados con sabroso sabor a pollo que atrae a todas las edades. Un esencial de fiestas en hogares de las Islas del Pacífico.",
-			"seoTitle": "BONGOS Chicken Puffs Tamaño Familiar | A & S Distributors",
+			"seoTitle": "BONGOS Chicken Puffs 28g | A & S Distributors",
 			"seoDescription": "BONGOS Chicken puffs tamaño familiar. Esencial de fiestas. Precios al por mayor disponibles.",
 			"seoKeywords": "BONGOS chicken, snacks familiares, puffs de Fiji, comida para fiestas",
 			"imageAlt": "Paquete de BONGOS Chicken Snack"
@@ -879,7 +879,7 @@
 		"boja-king-cheese-20gr": {
 			"name": "TWISTES Queso",
 			"description": "Paquete individual de los cheese puffs favoritos de Fiji. Perfecto para loncheras, tiendas de conveniencia o snackear rápido. El mismo gran sabor TWISTES en un tamaño de porción controlada.",
-			"seoTitle": "TWISTES Cheese Puffs 20g Individual | A & S Distributors",
+			"seoTitle": "TWISTES Cheese Puffs 20g | A & S Distributors",
 			"seoDescription": "TWISTES Cheese puffs individuales. Perfectos para loncheras. Precios al por mayor disponibles.",
 			"seoKeywords": "TWISTES individual, cheese puffs pequeños, snacks de Fiji, snacks para loncheras",
 			"imageAlt": "Paquete de TWISTES Cheese"
@@ -895,7 +895,7 @@
 		"boja-king-cheese-250gr": {
 			"name": "TWISTES Queso",
 			"description": "Paquete para compartir de los legendarios cheese puffs de TWISTES. Suficiente para noches de películas, pequeñas reuniones o una semana de snackear. El sabor a queso que los isleños del Pacífico han amado por más de tres décadas.",
-			"seoTitle": "TWISTES Cheese Puffs 250g Para Compartir | A & S Distributors",
+			"seoTitle": "TWISTES Cheese Puffs 250g | A & S Distributors",
 			"seoDescription": "TWISTES Cheese puffs 250g para compartir. Perfectos para reuniones. Precios al por mayor disponibles.",
 			"seoKeywords": "TWISTES para compartir, cheese puffs, snacks de Fiji, snacks para fiestas",
 			"imageAlt": "Paquete de TWISTES Cheese"
@@ -959,7 +959,7 @@
 		"boja-king-ufo-burger-200gr": {
 			"name": "UFO's Hamburguesa",
 			"description": "Paquete tamaño familiar de los queridos snacks UFO's sabor hamburguesa de Fiji. Estos snacks en forma de platillo volador ofrecen satisfacción crujiente y sabrosa. Perfectos para compartir o para abastecerse de este clásico de las Islas del Pacífico.",
-			"seoTitle": "UFO's Burger Snacks 200g Familiar | A & S Distributors",
+			"seoTitle": "UFO's Burger Snacks 200g | A & S Distributors",
 			"seoDescription": "UFO's burger snacks tamaño familiar. Perfectos para compartir. Precios al por mayor disponibles.",
 			"seoKeywords": "UFO's snacks familiar, burger puffs, snacks de Fiji, comida de las Islas del Pacífico",
 			"imageAlt": "Paquete de UFO's Burger"
@@ -1015,7 +1015,7 @@
 		"jasons-peanut-ruffs-156gr": {
 			"name": "Jasons Peanut Ruffs",
 			"description": "Bolsa grande para compartir de Peanut Ruffs para verdaderos fans. Estos icónicos puffs de Fiji combinan la riqueza de la mantequilla de maní con una textura ligera y crujiente. Perfectos para fiestas o satisfacer serios antojos de Peanut Ruffs.",
-			"seoTitle": "Jasons Peanut Ruffs 156g Grande | A & S Distributors",
+			"seoTitle": "Jasons Peanut Ruffs 156g | A & S Distributors",
 			"seoDescription": "Jasons Peanut Ruffs grandes 156g para compartir. El snack favorito de Fiji. Precios al por mayor disponibles.",
 			"seoKeywords": "Peanut Ruffs grande, Jasons Fiji, snacks de mantequilla de maní, comida de las Islas del Pacífico",
 			"imageAlt": "Paquete de Jasons Peanut Ruffs"
@@ -1809,7 +1809,7 @@
 		"title": "Contáctenos",
 		"description": "Póngase en contacto con A & S Distributors. Estamos aquí para ayudarle con sus necesidades de distribución de alimentos al por mayor.",
 		"seoTitle": "Contáctenos - A & S Distributors",
-		"seoDescription": "Contacte a A & S Distributors para distribución de alimentos de las Islas del Pacífico al por mayor. Comuníquese por teléfono, correo electrónico o visite nuestra ubicación en Salida, CA.",
+		"seoDescription": "Contacte a A & S Distributors para distribución de alimentos de las Islas del Pacífico al por mayor. Llámenos o visite nuestra ubicación en Salida, CA.",
 		"seoKeywords": "contactar A & S Distributors, contacto distribuidor de alimentos de las Islas del Pacífico, distribuidor de alimentos al por mayor, proveedor de alimentos de Fiji, distribuidor de alimentos de California",
 		"heading": "Póngase en Contacto",
 		"subheading": "Estamos aquí para ayudarle con sus necesidades de distribución de alimentos al por mayor",

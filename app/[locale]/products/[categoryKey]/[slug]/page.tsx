@@ -14,7 +14,7 @@ import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { ProductBadges } from '@/components/products/ProductBadges';
 import { hasLocale } from 'next-intl';
-import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
+import { getCanonicalUrl, BASE_URL, buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 import type { BreadcrumbList, Product, WithContext } from 'schema-dts';
 import { JSON_LD_CONSTANTS } from '@/lib/constants';
@@ -52,55 +52,16 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
 	const tProducts = await getTranslations({ locale, namespace: 'products' });
 
-	const seoTitle = tProducts(`${slug}.seoTitle`);
-	const seoDescription = tProducts(`${slug}.seoDescription`);
-	const seoKeywords = tProducts(`${slug}.seoKeywords`);
-	const imageAlt = tProducts(`${slug}.imageAlt`);
-	const imageSrc = `${BASE_URL}${getProductImageSource(slug)}`;
-	const canonicalUrl = getCanonicalUrl(locale, `${ROUTES.products}/${categoryKey}/${slug}`);
-
-	return {
-		title: seoTitle,
-		description: seoDescription,
-		keywords: seoKeywords.split(', '),
-		alternates: {
-			canonical: canonicalUrl,
-			languages: getAlternateLanguages(`${ROUTES.products}/${categoryKey}/${slug}`, locales),
-		},
-		openGraph: {
-			title: seoTitle,
-			description: seoDescription,
-			url: canonicalUrl,
-			siteName: SITE_NAME,
-			images: [
-				{
-					url: imageSrc,
-					width: 800,
-					height: 600,
-					alt: imageAlt,
-				},
-			],
-			locale,
-			type: 'article',
-		},
-		twitter: {
-			card: 'summary_large_image',
-			title: seoTitle,
-			description: seoDescription,
-			images: [imageSrc],
-		},
-		robots: {
-			index: true,
-			follow: true,
-			googleBot: {
-				index: true,
-				follow: true,
-				'max-video-preview': -1,
-				'max-image-preview': 'large',
-				'max-snippet': -1,
-			},
-		},
-	};
+	return buildPageMetadata({
+		title: tProducts(`${slug}.seoTitle`),
+		description: tProducts(`${slug}.seoDescription`),
+		keywords: tProducts(`${slug}.seoKeywords`),
+		route: `${ROUTES.products}/${categoryKey}/${slug}`,
+		locale,
+		ogImagePath: getProductImageSource(slug),
+		ogImageAlt: tProducts(`${slug}.imageAlt`),
+		ogType: 'article',
+	});
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {

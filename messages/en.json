@@ -9,7 +9,7 @@
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - Pacific Island Foods Distributor",
-		"description": "Your trusted source for authentic Pacific Island foods from Fiji, New Zealand & Australia. We supply restaurants, retailers, and food service providers with premium products at competitive prices.",
+		"description": "Your trusted source for authentic Pacific Island foods from Fiji, New Zealand & Australia. Wholesale supply for restaurants, retailers, and food service.",
 		"tagline": "Bringing the Pacific to Your Table",
 		"keywords": "Pacific Island food, Fiji food distributor, New Zealand lamb, corned beef, coconut products, wholesale Pacific food, Samoan food, Tongan food",
 		"pageNotFound": "Page Not Found"
@@ -74,7 +74,7 @@
 			"label": "Filter by category"
 		},
 		"seoTitle": "Product Catalog - A & S Distributors",
-		"seoDescription": "Browse our complete selection of authentic Pacific Island foods including corned beef, lamb, coconut products, and more. Wholesale pricing for restaurants and retailers.",
+		"seoDescription": "Browse our selection of authentic Pacific Island foods including corned beef, lamb, coconut products, and more. Wholesale pricing available.",
 		"seoKeywords": "Pacific Island food catalog, Fiji food products, wholesale corned beef, New Zealand lamb, Pacific Island foods wholesale"
 	},
 	"product": {
@@ -106,7 +106,7 @@
 		"submitPage": {
 			"title": "Submit Quote Request",
 			"seoTitle": "Request a Quote - A & S Distributors",
-			"seoDescription": "Submit a quote request for authentic Pacific Island foods. Wholesale pricing for restaurants, retailers, and food service providers. Fast response from our sales team.",
+			"seoDescription": "Request a quote for authentic Pacific Island foods. Wholesale pricing for restaurants, retailers, and food service. Fast response from our team.",
 			"seoKeywords": "wholesale quote, Pacific Island food wholesale, Fiji food distributor, bulk ordering, restaurant supplies",
 			"contactInfo": "Contact Information",
 			"name": "Full Name",
@@ -177,7 +177,7 @@
 		},
 		"fish-tuna": {
 			"title": "Fish & Tuna - Fresh, Frozen & Canned | A & S Distributors",
-			"description": "Quality fish and tuna including fresh Fiji fish (Kawa Kawa, Ulavi, Parrot Fish), canned mackerel, tuna, and sardines. Angel, Pacific Ocean, 777, Brunswick, and Skipper brands.",
+			"description": "Quality fish and tuna including fresh Fiji fish, canned mackerel, tuna, and sardines. Angel, Pacific Ocean, 777, Brunswick, and Skipper brands.",
 			"pageDescription": "Premium fish products including fresh Fiji fish and canned varieties. Kawa Kawa, Parrot Fish, mackerel in natural oil or tomato sauce, chunk tuna, and sardines.",
 			"keywords": "Fiji fish, Kawa Kawa, canned mackerel, canned tuna, sardines, Pacific fish, wholesale fish, Parrot Fish"
 		},
@@ -201,7 +201,7 @@
 		},
 		"snacks": {
 			"title": "Snacks - BONGOS, TWISTES, UFO's & Pacific Island Mixes | A & S Distributors",
-			"description": "Popular snacks including BONGOS, TWISTES, and UFO's cheese and chicken flavored snacks, Jasons Peanut Ruffs, traditional mixes like Fiji Mix, Punjabi Mix, and more.",
+			"description": "Popular snacks including BONGOS, TWISTES, UFO's cheese and chicken snacks, Jasons Peanut Ruffs, and mixes like Fiji Mix and Punjabi Mix.",
 			"pageDescription": "Discover the unique flavors of Pacific Island snacking. From BONGOS, TWISTES, and UFO's flavored snacks to Jasons Peanut Ruffs, traditional spiced mixes and fried peas.",
 			"keywords": "BONGOS snacks, TWISTES snacks, UFO's snacks, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, fried peas, Pacific snacks, wholesale snacks"
 		},
@@ -279,7 +279,7 @@
 		"ox-palm-corned-beef-7oz": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef on the market. HACCP & USDA certified with no added hormones or antibiotics. Great for corned beef hash, grilled cheese, pasta, sandwiches, and eggs.",
-			"seoTitle": "Ox & Palm Corned Beef 7oz - Premium Australian | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 7oz | A & S Distributors",
 			"seoDescription": "High quality Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified, no hormones. Wholesale pricing available.",
 			"seoKeywords": "Ox & Palm corned beef, Australian corned beef, premium corned beef, wholesale corned beef",
 			"imageAlt": "Can of Ox & Palm Corned Beef"
@@ -287,7 +287,7 @@
 		"ox-palm-corned-beef-11-5oz": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef on the market. HACCP & USDA certified with no added hormones or antibiotics. Perfect size for family meals.",
-			"seoTitle": "Ox & Palm Corned Beef 11.5oz - Premium Australian | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 11.5oz | A & S Distributors",
 			"seoDescription": "High quality Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified, no hormones. Wholesale pricing available.",
 			"seoKeywords": "Ox & Palm corned beef, Australian corned beef, premium corned beef, wholesale corned beef",
 			"imageAlt": "Can of Ox & Palm Corned Beef"
@@ -303,7 +303,7 @@
 		"ox-palm-corned-beef-15oz": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Large size premium corned beef made from high quality grass-fed Australian Angus beef. Juicier and chunkier than other corned beef. HACCP & USDA certified. Perfect for feeding larger groups.",
-			"seoTitle": "Ox & Palm Corned Beef 15oz - Large Size | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 15oz | A & S Distributors",
 			"seoDescription": "Large 15oz Ox & Palm corned beef from grass-fed Australian Angus beef. USDA certified. Wholesale pricing available.",
 			"seoKeywords": "Ox & Palm corned beef, large corned beef, Australian corned beef, wholesale corned beef",
 			"imageAlt": "Can of Ox & Palm Corned Beef"
@@ -311,7 +311,7 @@
 		"ox-palm-corned-beef-3lb": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Bulk size premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified with no added hormones or antibiotics. Ideal for restaurants and catering.",
-			"seoTitle": "Ox & Palm Corned Beef 3lb - Bulk Size | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 3lb | A & S Distributors",
 			"seoDescription": "Bulk 3lb Ox & Palm corned beef for restaurants and catering. Premium Australian beef, USDA certified. Wholesale pricing.",
 			"seoKeywords": "Ox & Palm corned beef, bulk corned beef, restaurant corned beef, wholesale corned beef",
 			"imageAlt": "Can of Ox & Palm Corned Beef"
@@ -319,7 +319,7 @@
 		"ox-palm-corned-beef-6lb": {
 			"name": "Ox & Palm Corned Beef",
 			"description": "Extra large bulk size premium corned beef made from high quality grass-fed Australian Angus beef. HACCP & USDA certified. Perfect for large scale food service operations.",
-			"seoTitle": "Ox & Palm Corned Beef 6lb - Extra Large | A & S Distributors",
+			"seoTitle": "Ox & Palm Corned Beef 6lb | A & S Distributors",
 			"seoDescription": "Extra large 6lb Ox & Palm corned beef for food service. Premium Australian beef, USDA certified. Wholesale pricing.",
 			"seoKeywords": "Ox & Palm corned beef, bulk corned beef, food service corned beef, wholesale corned beef",
 			"imageAlt": "Can of Ox & Palm Corned Beef"
@@ -327,7 +327,7 @@
 		"pacific-corned-beef-11-5oz": {
 			"name": "Pacific Corned Beef",
 			"description": "Made in Australia from at least 99% Australian ingredients. Pacific corned beef has been a favourite for generations, made to a New Zealand recipe with natural juices. A good source of protein and iron. Convenient size for weekday dinners.",
-			"seoTitle": "Pacific Corned Beef 11.5oz - Traditional Recipe | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 11.5oz | A & S Distributors",
 			"seoDescription": "Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
 			"seoKeywords": "Pacific corned beef, Australian corned beef, traditional corned beef, wholesale corned beef",
 			"imageAlt": "Can of Pacific Corned Beef"
@@ -335,7 +335,7 @@
 		"pacific-corned-beef-7oz": {
 			"name": "Pacific Corned Beef",
 			"description": "Made in Australia from at least 99% Australian ingredients. Pacific corned beef has been a favourite for generations. Made to a New Zealand recipe with natural juices. Perfect portion size.",
-			"seoTitle": "Pacific Corned Beef 7oz - Traditional Recipe | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 7oz | A & S Distributors",
 			"seoDescription": "Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
 			"seoKeywords": "Pacific corned beef, Australian corned beef, traditional corned beef, wholesale corned beef",
 			"imageAlt": "Can of Pacific Corned Beef"
@@ -343,7 +343,7 @@
 		"pacific-corned-beef-15oz": {
 			"name": "Pacific Corned Beef",
 			"description": "Large size Pacific corned beef made in Australia from at least 99% Australian ingredients. Traditional New Zealand recipe with natural juices. Great for family meals.",
-			"seoTitle": "Pacific Corned Beef 15oz - Family Size | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 15oz | A & S Distributors",
 			"seoDescription": "Large Pacific corned beef made to traditional New Zealand recipe. 99% Australian ingredients. Wholesale pricing available.",
 			"seoKeywords": "Pacific corned beef, large corned beef, Australian corned beef, wholesale corned beef",
 			"imageAlt": "Can of Pacific Corned Beef"
@@ -351,7 +351,7 @@
 		"pacific-corned-beef-3lb": {
 			"name": "Pacific Corned Beef",
 			"description": "Bulk size Pacific corned beef made in Australia from at least 99% Australian ingredients. Traditional New Zealand recipe. Perfect for restaurants and catering operations.",
-			"seoTitle": "Pacific Corned Beef 3lb - Bulk Size | A & S Distributors",
+			"seoTitle": "Pacific Corned Beef 3lb | A & S Distributors",
 			"seoDescription": "Bulk Pacific corned beef for restaurants. Traditional New Zealand recipe, Australian ingredients. Wholesale pricing.",
 			"seoKeywords": "Pacific corned beef, bulk corned beef, restaurant corned beef, wholesale corned beef",
 			"imageAlt": "Can of Pacific Corned Beef"
@@ -463,7 +463,7 @@
 		"pacific-taste-coconut-milk-98oz": {
 			"name": "Pacific Taste Coconut Milk",
 			"description": "Large format coconut milk for food service and commercial use. Rich and creamy, perfect for restaurants, bakeries, and large-scale cooking operations.",
-			"seoTitle": "Pacific Taste Coconut Milk 98oz - Food Service | A & S Distributors",
+			"seoTitle": "Pacific Taste Coconut Milk 98oz | A & S Distributors",
 			"seoDescription": "Large format Pacific Taste coconut milk for restaurants. Rich and creamy. Wholesale pricing available.",
 			"seoKeywords": "bulk coconut milk, food service coconut milk, restaurant coconut milk, wholesale coconut milk",
 			"imageAlt": "Can of Pacific Taste Coconut Milk"
@@ -663,7 +663,7 @@
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Breakfast Crackers",
 			"description": "Bulk pack of Fiji's legendary breakfast crackers for serious fans and food service. These light, crispy crackers from FMF Foods have been a Pacific Island institution for over 50 years. Stock up and never run out.",
-			"seoTitle": "FMF Breakfast Crackers 4lb Bulk | A & S Distributors",
+			"seoTitle": "FMF Breakfast Crackers 4lb | A & S Distributors",
 			"seoDescription": "Bulk 4lb pack of FMF Breakfast Crackers from Fiji. Perfect for food service. Wholesale pricing available.",
 			"seoKeywords": "FMF crackers bulk, Fiji breakfast crackers, wholesale crackers, Pacific food",
 			"imageAlt": "Package of FMF Breakfast Crackers"
@@ -687,7 +687,7 @@
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF Breakfast Crackers",
 			"description": "The largest pack available of Fiji's beloved breakfast crackers. Ideal for restaurants, catering operations, and retailers who need consistent supply of this Pacific Island staple. Same quality, maximum value.",
-			"seoTitle": "FMF Breakfast Crackers 11lb Bulk | A & S Distributors",
+			"seoTitle": "FMF Breakfast Crackers 11lb | A & S Distributors",
 			"seoDescription": "Extra large 11lb bulk pack of FMF Breakfast Crackers. Ideal for food service. Wholesale pricing available.",
 			"seoKeywords": "FMF crackers bulk, wholesale crackers, Fiji food service, Pacific Island crackers",
 			"imageAlt": "Package of FMF Breakfast Crackers"
@@ -847,7 +847,7 @@
 		"boja-king-cheese-snack-28oz": {
 			"name": "BONGOS Cheese Snack",
 			"description": "Family-size pack of Fiji's iconic cheese puffs. BONGOS signature cheese flavor in a generous portion perfect for sharing at parties, family gatherings, or stocking up for cheese puff enthusiasts.",
-			"seoTitle": "BONGOS Cheese Puffs Family Size | A & S Distributors",
+			"seoTitle": "BONGOS Cheese Puffs 28g | A & S Distributors",
 			"seoDescription": "Family-size BONGOS Cheese puffs, perfect for sharing. Wholesale pricing available.",
 			"seoKeywords": "BONGOS family size, cheese puffs bulk, Fiji snacks, party snacks",
 			"imageAlt": "Package of BONGOS Cheese Snack"
@@ -855,7 +855,7 @@
 		"boja-king-chicken-snack-156oz": {
 			"name": "BONGOS Chicken Snack",
 			"description": "Extra-large bulk pack of BONGOS popular chicken-flavored puffs. Same light, crunchy texture with savory chicken seasoning. Ideal for retailers, events, or serious fans who never want to run out.",
-			"seoTitle": "BONGOS Chicken Puffs Bulk | A & S Distributors",
+			"seoTitle": "BONGOS Chicken Puffs 156g | A & S Distributors",
 			"seoDescription": "Bulk BONGOS Chicken puffs, savory chicken flavor. Perfect for retailers. Wholesale pricing available.",
 			"seoKeywords": "BONGOS chicken bulk, chicken puffs, Fiji snacks wholesale",
 			"imageAlt": "Package of BONGOS Chicken Snack"
@@ -871,7 +871,7 @@
 		"boja-king-chicken-snack-28oz": {
 			"name": "BONGOS Chicken Snack",
 			"description": "Family-size bag of BONGOS chicken puffs. These light, airy snacks are seasoned with savory chicken flavoring that appeals to all ages. A party essential in Pacific Island households.",
-			"seoTitle": "BONGOS Chicken Puffs Family Size | A & S Distributors",
+			"seoTitle": "BONGOS Chicken Puffs 28g | A & S Distributors",
 			"seoDescription": "Family-size BONGOS Chicken puffs. Party essential. Wholesale pricing available.",
 			"seoKeywords": "BONGOS chicken, family snacks, Fiji puffs, party food",
 			"imageAlt": "Package of BONGOS Chicken Snack"
@@ -879,7 +879,7 @@
 		"boja-king-cheese-20gr": {
 			"name": "TWISTES Cheese",
 			"description": "Single-serve pack of Fiji's favorite cheese puffs. Perfect for lunch boxes, convenience stores, or quick snacking. The same great TWISTES taste in a portion-controlled size.",
-			"seoTitle": "TWISTES Cheese Puffs 20g Single Serve | A & S Distributors",
+			"seoTitle": "TWISTES Cheese Puffs 20g | A & S Distributors",
 			"seoDescription": "Single-serve TWISTES Cheese puffs. Perfect for lunch boxes. Wholesale pricing available.",
 			"seoKeywords": "TWISTES single serve, cheese puffs small, Fiji snacks, lunch box snacks",
 			"imageAlt": "Package of TWISTES Cheese snack"
@@ -895,7 +895,7 @@
 		"boja-king-cheese-250gr": {
 			"name": "TWISTES Cheese",
 			"description": "Sharing-size pack of TWISTES legendary cheese puffs. Enough for movie nights, small gatherings, or a week of snacking. The cheese flavor that Pacific Islanders have loved for over three decades.",
-			"seoTitle": "TWISTES Cheese Puffs 250g Sharing Size | A & S Distributors",
+			"seoTitle": "TWISTES Cheese Puffs 250g | A & S Distributors",
 			"seoDescription": "Sharing-size TWISTES Cheese puffs 250g. Perfect for gatherings. Wholesale pricing available.",
 			"seoKeywords": "TWISTES sharing size, cheese puffs, Fiji snacks, party snacks",
 			"imageAlt": "Package of TWISTES Cheese snack"
@@ -959,7 +959,7 @@
 		"boja-king-ufo-burger-200gr": {
 			"name": "UFO's Burger",
 			"description": "Family-size pack of Fiji's beloved UFO's burger-flavored snacks. These flying saucer-shaped treats deliver crunchy, savory satisfaction. Perfect for sharing or stocking up on this Pacific Island classic.",
-			"seoTitle": "UFO's Burger Snacks 200g Family | A & S Distributors",
+			"seoTitle": "UFO's Burger Snacks 200g | A & S Distributors",
 			"seoDescription": "Family-size UFO's burger snacks. Perfect for sharing. Wholesale pricing available.",
 			"seoKeywords": "UFO snacks family, burger puffs, Fiji snacks, Pacific Island food",
 			"imageAlt": "Package of UFO's Burger snack"
@@ -1015,7 +1015,7 @@
 		"jasons-peanut-ruffs-156gr": {
 			"name": "Jasons Peanut Ruffs",
 			"description": "Large sharing bag of Peanut Ruffs for true fans. These iconic Fiji puffs combine the richness of peanut butter with a light, crunchy texture. Perfect for parties or satisfying serious Peanut Ruffs cravings.",
-			"seoTitle": "Jasons Peanut Ruffs 156g Large | A & S Distributors",
+			"seoTitle": "Jasons Peanut Ruffs 156g | A & S Distributors",
 			"seoDescription": "Large Jasons Peanut Ruffs 156g for sharing. Fiji's favorite snack. Wholesale pricing available.",
 			"seoKeywords": "Peanut Ruffs large, Jasons Fiji, peanut butter snacks, Pacific Island food",
 			"imageAlt": "Package of Jasons Peanut Ruffs"

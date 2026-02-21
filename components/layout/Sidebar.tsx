@@ -172,8 +172,8 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                 {(() => {
                   const ActiveFlag = localeFlagMap[locale];
                   return ActiveFlag ? (
-                    <span className="flex size-4 items-center justify-center flex-shrink-0">
-                      <ActiveFlag className="h-3 w-4 rounded-sm overflow-hidden" />
+                    <span className="flex size-6 items-center justify-center flex-shrink-0">
+                      <ActiveFlag className="h-4 w-6 rounded-sm overflow-hidden" />
                     </span>
                   ) : (
                     <Globe className="size-4 text-ocean" />
@@ -210,7 +210,7 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                       className={isActive ? "bg-ocean/10 text-ocean" : ""}
                     >
                       {FlagIcon && (
-                        <FlagIcon className="h-3 w-4 rounded-sm overflow-hidden" />
+                        <FlagIcon className="h-4 w-6 rounded-sm overflow-hidden" />
                       )}
                       {languageNames[loc] || loc.toUpperCase()}
                       {isActive && <Check className="ml-auto size-4" />}

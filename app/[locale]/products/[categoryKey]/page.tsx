@@ -7,7 +7,7 @@ import { getCategories, getProductsByCategory, isCategoryKey } from '@/lib/produ
 import { ProductCatalog } from '@/components/products/ProductCatalog';
 import { ProductCatalogSkeleton } from '@/components/products/ProductCatalogSkeleton';
 import { PaddingLayout } from '@/components/layout/PaddingLayout';
-import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
+import { getCanonicalUrl, buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 import type { BreadcrumbList, CollectionPage, WithContext } from 'schema-dts';
 import { JSON_LD_CONSTANTS } from '@/lib/constants';
@@ -40,53 +40,13 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 		namespace: 'categorySeo',
 	});
 
-	const title = tCategorySeo(`${categoryKey}.title`);
-	const description = tCategorySeo(`${categoryKey}.description`);
-	const keywords = tCategorySeo(`${categoryKey}.keywords`);
-	const canonicalUrl = getCanonicalUrl(locale, `${ROUTES.products}/${categoryKey}`);
-
-	return {
-		title,
-		description,
-		keywords: keywords.split(', '),
-		alternates: {
-			canonical: canonicalUrl,
-			languages: getAlternateLanguages(`${ROUTES.products}/${categoryKey}`, locales),
-		},
-		openGraph: {
-			title,
-			description,
-			url: canonicalUrl,
-			siteName: SITE_NAME,
-			locale,
-			type: 'website',
-			images: [
-				{
-					url: `${BASE_URL}/og-category-${categoryKey}.jpg`,
-					width: 1200,
-					height: 630,
-					alt: title,
-				},
-			],
-		},
-		twitter: {
-			card: 'summary_large_image',
-			title,
-			description,
-			images: [`${BASE_URL}/og-category-${categoryKey}.jpg`],
-		},
-		robots: {
-			index: true,
-			follow: true,
-			googleBot: {
-				index: true,
-				follow: true,
-				'max-video-preview': -1,
-				'max-image-preview': 'large',
-				'max-snippet': -1,
-			},
-		},
-	};
+	return buildPageMetadata({
+		title: tCategorySeo(`${categoryKey}.title`),
+		description: tCategorySeo(`${categoryKey}.description`),
+		keywords: tCategorySeo(`${categoryKey}.keywords`),
+		route: `${ROUTES.products}/${categoryKey}`,
+		locale,
+	});
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {

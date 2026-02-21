@@ -6,8 +6,7 @@ import { ArrowRight, Heart, Shield, Handshake, Clock, Fish, Beef, Leaf } from 'l
 import { getFeaturedProducts } from '@/lib/products';
 import type { Locale } from 'next-intl';
 import { FeaturedProductsCarousel } from '@/components/products/FeaturedProductsCarousel';
-import { locales } from '@/i18n/config';
-import { getCanonicalUrl, getAlternateLanguages, SITE_NAME, BASE_URL } from '@/lib/site-config';
+import { buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 
 interface HomePageProps {
@@ -18,53 +17,13 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
 	const { locale } = await params;
 	const t = await getTranslations({ locale, namespace: 'site' });
 
-	const title = t('title');
-	const description = t('description');
-	const keywords = t('keywords');
-	const canonicalUrl = getCanonicalUrl(locale, ROUTES.home);
-
-	return {
-		title,
-		description,
-		keywords: keywords.split(', '),
-		alternates: {
-			canonical: canonicalUrl,
-			languages: getAlternateLanguages(ROUTES.home, locales),
-		},
-		openGraph: {
-			title,
-			description,
-			url: canonicalUrl,
-			siteName: SITE_NAME,
-			locale,
-			type: 'website',
-			images: [
-				{
-					url: `${BASE_URL}/og-home.jpg`,
-					width: 1200,
-					height: 630,
-					alt: title,
-				},
-			],
-		},
-		twitter: {
-			card: 'summary_large_image',
-			title,
-			description,
-			images: [`${BASE_URL}/og-home.jpg`],
-		},
-		robots: {
-			index: true,
-			follow: true,
-			googleBot: {
-				index: true,
-				follow: true,
-				'max-video-preview': -1,
-				'max-image-preview': 'large',
-				'max-snippet': -1,
-			},
-		},
-	};
+	return buildPageMetadata({
+		title: t('title'),
+		description: t('description'),
+		keywords: t('keywords'),
+		route: ROUTES.home,
+		locale,
+	});
 }
 
 export default async function HomePage({ params }: HomePageProps) {

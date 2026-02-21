@@ -9,7 +9,7 @@
 	"site": {
 		"name": "A & S Distributors",
 		"title": "A & S Distributors - Fa'atau Mea'ai o le Pasefika",
-		"description": "O lau fa'alagolago mo mea'ai moni o le Pasefika mai Fiti, Niu Sila ma Ausetalia. Matou te tu'uina atu i faleaiga, fa'atau oloa, ma fa'atau mea'ai oloa lelei i tau taugofie.",
+		"description": "O lau fa'alagolago mo mea'ai moni o le Pasefika mai Fiti, Niu Sila ma Ausetalia. Fa'atau tele mo faleaiga, fa'atau oloa, ma mea'ai.",
 		"tagline": "Aumai le Pasefika i lau Laulau",
 		"keywords": "mea'ai Pasefika, fa'atau mea'ai Fiti, mamoe Niu Sila, povi kone, oloa niu, mea'ai Pasefika fa'atau tele, mea'ai Samoa, mea'ai Toga",
 		"pageNotFound": "E Le'i Maua le Itulau"
@@ -106,7 +106,7 @@
 		"submitPage": {
 			"title": "Auina Talosaga Tau",
 			"seoTitle": "Talosaga Tau - A & S Distributors",
-			"seoDescription": "Auina se talosaga tau mo mea'ai moni o le Pasefika. Tau fa'atau tele mo faleaiga, fa'atau oloa, ma tagata tu'uina atu mea'ai. Tali vave mai la matou 'au fa'atau.",
+			"seoDescription": "Auina se talosaga tau mo mea'ai moni o le Pasefika. Tau fa'atau tele mo faleaiga, fa'atau oloa, ma mea'ai. Tali vave mai la matou 'au.",
 			"seoKeywords": "tau fa'atau tele, mea'ai Pasefika fa'atau tele, fa'atau mea'ai Fiti, fa'atonuga tele, oloa faleaiga",
 			"contactInfo": "Fa'amatalaga Fa'afeso'ota'i",
 			"name": "Igoa Atoa",
@@ -279,7 +279,7 @@
 		"ox-palm-corned-beef-7oz": {
 			"name": "Ox & Palm Povi Kone",
 			"description": "Povi kone maualuga faia mai povi Angus Ausetalia maualuga. Sili atu le susu ma le tele o fasi nai lo isi povi kone i le maketi. HACCP & USDA fa'amaonia e aunoa ma ni hormones po'o ni antibiotic. Lelei mo hash povi kone, sanuisi, pasta, ma fuamoa.",
-			"seoTitle": "Ox & Palm Povi Kone 7oz - Maualuga Ausetalia | A & S Distributors",
+			"seoTitle": "Ox & Palm Povi Kone 7oz | A & S Distributors",
 			"seoDescription": "Povi kone Ox & Palm maualuga mai povi Angus Ausetalia. USDA fa'amaonia, e leai ni hormones. Tau fa'atau tele e maua.",
 			"seoKeywords": "Ox & Palm povi kone, povi kone Ausetalia, povi kone maualuga, povi kone fa'atau tele",
 			"imageAlt": "Apa o Ox & Palm Povi Kone"
@@ -287,7 +287,7 @@
 		"ox-palm-corned-beef-11-5oz": {
 			"name": "Ox & Palm Povi Kone",
 			"description": "Povi kone maualuga faia mai povi Angus Ausetalia maualuga. Sili atu le susu ma le tele o fasi nai lo isi povi kone. HACCP & USDA fa'amaonia e aunoa ma ni hormones. Lapopo'a lelei mo mea'ai aiga.",
-			"seoTitle": "Ox & Palm Povi Kone 11.5oz - Maualuga Ausetalia | A & S Distributors",
+			"seoTitle": "Ox & Palm Povi Kone 11.5oz | A & S Distributors",
 			"seoDescription": "Povi kone Ox & Palm maualuga mai povi Angus Ausetalia. USDA fa'amaonia. Tau fa'atau tele e maua.",
 			"seoKeywords": "Ox & Palm povi kone, povi kone Ausetalia, povi kone maualuga, povi kone fa'atau tele",
 			"imageAlt": "Apa o Ox & Palm Povi Kone"
@@ -303,7 +303,7 @@
 		"ox-palm-corned-beef-15oz": {
 			"name": "Ox & Palm Povi Kone",
 			"description": "Lapopo'a tele povi kone maualuga faia mai povi Angus Ausetalia maualuga. Sili atu le susu ma le tele o fasi nai lo isi povi kone. HACCP & USDA fa'amaonia. Lelei mo fafagaina vaega tetele.",
-			"seoTitle": "Ox & Palm Povi Kone 15oz - Lapopo'a Tele | A & S Distributors",
+			"seoTitle": "Ox & Palm Povi Kone 15oz | A & S Distributors",
 			"seoDescription": "Ox & Palm povi kone 15oz mai povi Angus Ausetalia. USDA fa'amaonia. Tau fa'atau tele e maua.",
 			"seoKeywords": "Ox & Palm povi kone, povi kone tele, povi kone Ausetalia, povi kone fa'atau tele",
 			"imageAlt": "Apa o Ox & Palm Povi Kone"
@@ -311,7 +311,7 @@
 		"ox-palm-corned-beef-3lb": {
 			"name": "Ox & Palm Povi Kone",
 			"description": "Povi kone maualuga fa'atau tele faia mai povi Angus Ausetalia maualuga. HACCP & USDA fa'amaonia e aunoa ma ni hormones. Lelei mo faleaiga ma tu'uina atu mea'ai.",
-			"seoTitle": "Ox & Palm Povi Kone 3lb - Fa'atau Tele | A & S Distributors",
+			"seoTitle": "Ox & Palm Povi Kone 3lb | A & S Distributors",
 			"seoDescription": "Ox & Palm povi kone fa'atau tele 3lb mo faleaiga. Povi Ausetalia maualuga, USDA fa'amaonia. Tau fa'atau tele.",
 			"seoKeywords": "Ox & Palm povi kone, povi kone fa'atau tele, povi kone faleaiga, povi kone fa'atau tele",
 			"imageAlt": "Apa o Ox & Palm Povi Kone"
@@ -319,7 +319,7 @@
 		"ox-palm-corned-beef-6lb": {
 			"name": "Ox & Palm Povi Kone",
 			"description": "Povi kone maualuga fa'atau tele sili faia mai povi Angus Ausetalia maualuga. HACCP & USDA fa'amaonia. Lelei mo galuega tu'uina atu mea'ai tele.",
-			"seoTitle": "Ox & Palm Povi Kone 6lb - Sili Tele | A & S Distributors",
+			"seoTitle": "Ox & Palm Povi Kone 6lb | A & S Distributors",
 			"seoDescription": "Ox & Palm povi kone sili tele 6lb mo tu'uina atu mea'ai. Povi Ausetalia maualuga, USDA fa'amaonia. Tau fa'atau tele.",
 			"seoKeywords": "Ox & Palm povi kone, povi kone fa'atau tele, povi kone tu'uina atu mea'ai, povi kone fa'atau tele",
 			"imageAlt": "Apa o Ox & Palm Povi Kone"
@@ -327,7 +327,7 @@
 		"pacific-corned-beef-11-5oz": {
 			"name": "Pacific Povi Kone",
 			"description": "Faia i Ausetalia mai le itiiti ifo 99% mea Ausetalia. O le Pacific povi kone sa fiafia i ai tupulaga, faia i se fa'atonuga Niu Sila ma sua masani. O se puna lelei o porotini ma aano. Lapopo'a faigofie mo taeao o aso galuega.",
-			"seoTitle": "Pacific Povi Kone 11.5oz - Fa'atonuga Masani | A & S Distributors",
+			"seoTitle": "Pacific Povi Kone 11.5oz | A & S Distributors",
 			"seoDescription": "Pacific povi kone faia i fa'atonuga Niu Sila masani. 99% mea Ausetalia. Tau fa'atau tele e maua.",
 			"seoKeywords": "Pacific povi kone, povi kone Ausetalia, povi kone masani, povi kone fa'atau tele",
 			"imageAlt": "Apa o Pacific Povi Kone"
@@ -335,7 +335,7 @@
 		"pacific-corned-beef-7oz": {
 			"name": "Pacific Povi Kone",
 			"description": "Faia i Ausetalia mai le itiiti ifo 99% mea Ausetalia. O le Pacific povi kone sa fiafia i ai tupulaga. Faia i se fa'atonuga Niu Sila ma sua masani. Lapopo'a lelei.",
-			"seoTitle": "Pacific Povi Kone 7oz - Fa'atonuga Masani | A & S Distributors",
+			"seoTitle": "Pacific Povi Kone 7oz | A & S Distributors",
 			"seoDescription": "Pacific povi kone faia i fa'atonuga Niu Sila masani. 99% mea Ausetalia. Tau fa'atau tele e maua.",
 			"seoKeywords": "Pacific povi kone, povi kone Ausetalia, povi kone masani, povi kone fa'atau tele",
 			"imageAlt": "Apa o Pacific Povi Kone"
@@ -343,7 +343,7 @@
 		"pacific-corned-beef-15oz": {
 			"name": "Pacific Povi Kone",
 			"description": "Pacific povi kone lapopo'a tele faia i Ausetalia mai le itiiti ifo 99% mea Ausetalia. Fa'atonuga Niu Sila masani ma sua masani. Lelei mo mea'ai aiga.",
-			"seoTitle": "Pacific Povi Kone 15oz - Lapopo'a Aiga | A & S Distributors",
+			"seoTitle": "Pacific Povi Kone 15oz | A & S Distributors",
 			"seoDescription": "Pacific povi kone tele faia i fa'atonuga Niu Sila masani. 99% mea Ausetalia. Tau fa'atau tele e maua.",
 			"seoKeywords": "Pacific povi kone, povi kone tele, povi kone Ausetalia, povi kone fa'atau tele",
 			"imageAlt": "Apa o Pacific Povi Kone"
@@ -351,7 +351,7 @@
 		"pacific-corned-beef-3lb": {
 			"name": "Pacific Povi Kone",
 			"description": "Pacific povi kone fa'atau tele faia i Ausetalia mai le itiiti ifo 99% mea Ausetalia. Fa'atonuga Niu Sila masani. Lelei mo faleaiga ma galuega tu'uina atu mea'ai.",
-			"seoTitle": "Pacific Povi Kone 3lb - Fa'atau Tele | A & S Distributors",
+			"seoTitle": "Pacific Povi Kone 3lb | A & S Distributors",
 			"seoDescription": "Pacific povi kone fa'atau tele mo faleaiga. Fa'atonuga Niu Sila masani, mea Ausetalia. Tau fa'atau tele.",
 			"seoKeywords": "Pacific povi kone, povi kone fa'atau tele, povi kone faleaiga, povi kone fa'atau tele",
 			"imageAlt": "Apa o Pacific Povi Kone"
@@ -463,7 +463,7 @@
 		"pacific-taste-coconut-milk-98oz": {
 			"name": "Pacific Taste Susu Niu",
 			"description": "Susu niu lapopo'a tele mo tu'uina atu mea'ai ma fa'aaogaina fa'apisinisi. Suamalie ma kilimi, lelei mo faleaiga, fale areto, ma galuega kuka tele.",
-			"seoTitle": "Pacific Taste Susu Niu 98oz - Tu'uina Atu Mea'ai | A & S Distributors",
+			"seoTitle": "Pacific Taste Susu Niu 98oz | A & S Distributors",
 			"seoDescription": "Pacific Taste susu niu lapopo'a tele mo faleaiga. Suamalie ma kilimi. Tau fa'atau tele e maua.",
 			"seoKeywords": "susu niu fa'atau tele, susu niu tu'uina atu mea'ai, susu niu faleaiga, susu niu fa'atau tele",
 			"imageAlt": "Apa o Pacific Taste Susu Niu"
@@ -663,7 +663,7 @@
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Masi Taeao",
 			"description": "Pusa fa'atau tele o masi taeao ta'uta'ua o Fiti mo tagata fiafia tele ma tu'uina atu mea'ai. O nei masi mama, malo mai FMF Foods ua avea ma mea taua i le Pasefika mo le sili atu i le 50 tausaga. Fa'atumu ma aua ne'i uma.",
-			"seoTitle": "FMF Masi Taeao 4lb Fa'atau Tele | A & S Distributors",
+			"seoTitle": "FMF Masi Taeao 4lb | A & S Distributors",
 			"seoDescription": "Pusa fa'atau tele 4lb o FMF Masi Taeao mai Fiti. Lelei mo tu'uina atu mea'ai. Tau fa'atau tele e maua.",
 			"seoKeywords": "FMF masi fa'atau tele, masi taeao Fiti, masi fa'atau tele, mea'ai Pasefika",
 			"imageAlt": "Afifi o kalake FMF Masi Taeao"
@@ -687,7 +687,7 @@
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF Masi Taeao",
 			"description": "O le pusa sili ona tele e maua o masi taeao fiafia o Fiti. Sili mo faleaiga, galuega tu'uina atu mea'ai, ma fa'atau oloa e mana'omia le tu'uina atu tumau o lenei mea taua o le Pasefika. O le lelei lava, tau sili.",
-			"seoTitle": "FMF Masi Taeao 11lb Fa'atau Tele | A & S Distributors",
+			"seoTitle": "FMF Masi Taeao 11lb | A & S Distributors",
 			"seoDescription": "Pusa sili tele 11lb o FMF Masi Taeao. Sili mo tu'uina atu mea'ai. Tau fa'atau tele e maua.",
 			"seoKeywords": "FMF masi fa'atau tele, masi fa'atau tele, mea'ai Fiti tu'uina atu, masi motu Pasefika",
 			"imageAlt": "Afifi o kalake FMF Masi Taeao"
@@ -823,7 +823,7 @@
 		"boja-king-cheese-snack-28oz": {
 			"name": "BONGOS Sisi",
 			"description": "Pusa lapopo'a aiga o sisi puffs ta'uta'ua o Fiti. O le manogi sisi fa'apitoa a BONGOS i se fasi tele lelei mo le fa'asoa i pati, fa'atasiga aiga, pe fa'atumu mo tagata fiafia i sisi puffs.",
-			"seoTitle": "BONGOS Sisi Puffs 28oz Aiga | A & S Distributors",
+			"seoTitle": "BONGOS Sisi Puffs 28g | A & S Distributors",
 			"seoDescription": "BONGOS Sisi puffs lapopo'a aiga, lelei mo le fa'asoa. Tau fa'atau tele e maua.",
 			"seoKeywords": "BONGOS aiga, sisi puffs tele, mea'ai Fiti, mea'ai pati",
 			"imageAlt": "Afifi o BONGOS Sisi"
@@ -831,7 +831,7 @@
 		"boja-king-chicken-snack-156oz": {
 			"name": "BONGOS Moa",
 			"description": "Pusa fa'atau tele sili tele o puffs moa ta'uta'ua a BONGOS. O le aano mama, malo lava lea ma le mea manogi moa suamalie. Sili mo tagata fa'atau oloa, mea fa'apitoa, pe tagata fiafia tele i BONGOS e le fia uma.",
-			"seoTitle": "BONGOS Moa Puffs 156oz Fa'atau Tele | A & S Distributors",
+			"seoTitle": "BONGOS Moa Puffs 156g | A & S Distributors",
 			"seoDescription": "Fa'atau tele BONGOS Moa puffs, manogi moa suamalie. Lelei mo tagata fa'atau oloa. Tau fa'atau tele e maua.",
 			"seoKeywords": "BONGOS moa fa'atau tele, moa puffs, mea'ai Fiti fa'atau tele",
 			"imageAlt": "Afifi o BONGOS Moa"
@@ -1255,7 +1255,7 @@
 		"boja-king-chicken-snack-28oz": {
 			"name": "BONGOS Moa",
 			"description": "Pusa lapopo'a aiga o puffs moa BONGOS. O nei mea'ai mama, ea e mea manogi ma manogi moa suamalie e fiafia ai tagata uma. O se mea taua mo pati i aiga motu Pasefika.",
-			"seoTitle": "BONGOS Moa Puffs 28oz | A & S Distributors",
+			"seoTitle": "BONGOS Moa Puffs 28g | A & S Distributors",
 			"seoDescription": "BONGOS Moa puffs lapopo'a aiga. Mea taua mo pati. Tau fa'atau tele e maua.",
 			"seoKeywords": "BONGOS moa, mea'ai aiga, puffs Fiti, mea'ai pati",
 			"imageAlt": "Afifi o BONGOS Moa"
@@ -1263,7 +1263,7 @@
 		"boja-king-cheese-20gr": {
 			"name": "TWISTES Sisi",
 			"description": "Pusa tasi o sisi puffs fiafia o Fiti. Lelei mo pusa mea'ai, fale oloa faigofie, pe mea'ai itiiti vave. O le manogi TWISTES lelei lava lea i se lapopo'a fa'atonu.",
-			"seoTitle": "TWISTES Sisi Puffs 20g Tasi | A & S Distributors",
+			"seoTitle": "TWISTES Sisi Puffs 20g | A & S Distributors",
 			"seoDescription": "TWISTES Sisi puffs tasi. Lelei mo pusa mea'ai. Tau fa'atau tele e maua.",
 			"seoKeywords": "TWISTES tasi, sisi puffs itiiti, mea'ai Fiti, mea'ai pusa",
 			"imageAlt": "Afifi o TWISTES Sisi"
@@ -1279,7 +1279,7 @@
 		"boja-king-cheese-250gr": {
 			"name": "TWISTES Sisi",
 			"description": "Pusa fa'asoa o sisi puffs ta'uta'ua a TWISTES. Lava mo po tifaga, fa'atasiga itiiti, pe vaiaso o mea'ai itiiti. O le manogi sisi ua fiafia i ai tagata motu Pasefika mo le sili atu i le tolusefulu tausaga.",
-			"seoTitle": "TWISTES Sisi Puffs 250g Fa'asoa | A & S Distributors",
+			"seoTitle": "TWISTES Sisi Puffs 250g | A & S Distributors",
 			"seoDescription": "TWISTES Sisi puffs 250g fa'asoa. Lelei mo fa'atasiga. Tau fa'atau tele e maua.",
 			"seoKeywords": "TWISTES fa'asoa, sisi puffs, mea'ai Fiti, mea'ai pati",
 			"imageAlt": "Afifi o TWISTES Sisi"
@@ -1343,7 +1343,7 @@
 		"boja-king-ufo-burger-200gr": {
 			"name": "UFO's Burger",
 			"description": "Pusa lapopo'a aiga o mea'ai manogi burger UFO's fiafia o Fiti. O nei mea'ai foliga va'alele-saucer e tu'uina atu le fa'amalieina malo, suamalie. Lelei mo le fa'asoa pe fa'atumu i lenei mea masani motu Pasefika.",
-			"seoTitle": "UFO's Burger Mea'ai 200g Aiga | A & S Distributors",
+			"seoTitle": "UFO's Burger Mea'ai 200g | A & S Distributors",
 			"seoDescription": "UFO's mea'ai burger lapopo'a aiga. Lelei mo le fa'asoa. Tau fa'atau tele e maua.",
 			"seoKeywords": "UFO's mea'ai aiga, puffs burger, mea'ai Fiti, mea'ai motu Pasefika",
 			"imageAlt": "Afifi o UFO's Burger"
@@ -1367,7 +1367,7 @@
 		"jasons-peanut-ruffs-156gr": {
 			"name": "Jasons Peanut Ruffs",
 			"description": "Pusa tele fa'asoa o Peanut Ruffs mo tagata fiafia moni. O nei puffs Fiti ta'uta'ua e tu'ufa'atasi ai le suamalie o peanut butter ma le aano mama, malo. Lelei mo pati pe fa'amalieina mana'oga Peanut Ruffs tele.",
-			"seoTitle": "Jasons Peanut Ruffs 156g Tele | A & S Distributors",
+			"seoTitle": "Jasons Peanut Ruffs 156g | A & S Distributors",
 			"seoDescription": "Jasons Peanut Ruffs tele 156g mo le fa'asoa. Mea'ai fiafia sili Fiti. Tau fa'atau tele e maua.",
 			"seoKeywords": "Peanut Ruffs tele, Jasons Fiti, mea'ai peanut butter, mea'ai motu Pasefika",
 			"imageAlt": "Afifi o Jasons Peanut Ruffs"
