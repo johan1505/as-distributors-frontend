@@ -30,19 +30,19 @@ export function Footer() {
             <nav aria-label="Footer navigation" className="flex flex-col gap-2">
               <Link
                 href={ROUTES.home}
-                className="text-sm text-muted-foreground hover:text-ocean transition-colors"
+                className="text-sm text-muted-foreground hover:text-ocean transition-colors underline"
               >
                 {tNav("home")}
               </Link>
               <Link
                 href={ROUTES.products}
-                className="text-sm text-muted-foreground hover:text-ocean transition-colors"
+                className="text-sm text-muted-foreground hover:text-ocean transition-colors underline"
               >
                 {tNav("products")}
               </Link>
               <Link
                 href={ROUTES.contact}
-                className="text-sm text-muted-foreground hover:text-ocean transition-colors"
+                className="text-sm text-muted-foreground hover:text-ocean transition-colors underline"
               >
                 {tNav("contact")}
               </Link>
@@ -55,7 +55,7 @@ export function Footer() {
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <a
                 href={`tel:${CONTANCT.TELEPHONE}`}
-                className="hover:text-ocean transition-colors"
+                className="hover:text-ocean transition-colors underline"
                 aria-label={tContact("phone.ariaLabel", {
                   phone: CONTANCT.TELEPHONE,
                 })}
@@ -64,7 +64,7 @@ export function Footer() {
               </a>
               <a
                 href={`mailto:${CONTANCT.EMAIL}`}
-                className="hover:text-ocean transition-colors"
+                className="hover:text-ocean transition-colors underline"
                 aria-label={tContact("email.ariaLabel", {
                   email: CONTANCT.EMAIL,
                 })}
