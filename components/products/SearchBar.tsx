@@ -63,7 +63,7 @@ export function SearchBar({ fullWidth = false }: SearchBarProps) {
   );
 
   return (
-    <form onSubmit={handleSubmit} className={`relative ${fullWidth ? "w-full" : "flex-1 md:flex-none md:w-64 lg:w-80"}`}>
+    <form onSubmit={handleSubmit} className={`relative ${fullWidth ? "w-full" : "flex-1 @5xl:flex-none @5xl:w-80"}`}>
       <Input
         type="search"
         value={inputValue}
