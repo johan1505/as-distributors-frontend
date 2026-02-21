@@ -9,7 +9,7 @@
 	},
 	{
 		"slug": "ox-palm-corned-beef-11-5oz",
-		"itemNumber": "461",
+		"itemNumber": "462",
 		"unitPerPack": 24,
 		"overallSize": "11.5 oz",
 		"categoryKey": "corned-beef",
@@ -48,25 +48,25 @@
 		"featured": false
 	},
 	{
-		"slug": "pacific-corned-beef-11-5oz",
+		"slug": "pacific-corned-beef-7oz",
 		"itemNumber": "470",
+		"unitPerPack": 24,
+		"overallSize": "7 oz",
+		"categoryKey": "corned-beef",
+		"featured": false
+	},
+	{
+		"slug": "pacific-corned-beef-11-5oz",
+		"itemNumber": "471",
 		"unitPerPack": 24,
 		"overallSize": "11.5 oz",
 		"categoryKey": "corned-beef",
 		"featured": false
 	},
 	{
-		"slug": "pacific-corned-beef-7oz",
-		"itemNumber": "471",
-		"unitPerPack": 42,
-		"overallSize": "7 oz",
-		"categoryKey": "corned-beef",
-		"featured": false
-	},
-	{
 		"slug": "pacific-corned-beef-15oz",
 		"itemNumber": "472",
-		"unitPerPack": 42,
+		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "corned-beef",
 		"featured": false
@@ -112,14 +112,6 @@
 		"featured": false
 	},
 	{
-		"slug": "globe-corned-mutton-regular",
-		"itemNumber": "479",
-		"unitPerPack": 24,
-		"overallSize": "11.5 oz",
-		"categoryKey": "corned-beef",
-		"featured": false
-	},
-	{
 		"slug": "angel-mackerel-natural-oil",
 		"itemNumber": "400",
 		"unitPerPack": 24,
@@ -138,7 +130,7 @@
 	{
 		"slug": "pacific-ocean-mackerel-natural-oil",
 		"itemNumber": "404",
-		"unitPerPack": 12,
+		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "fish-tuna",
 		"featured": false
@@ -146,7 +138,7 @@
 	{
 		"slug": "pacific-ocean-mackerel-tomato-sauce",
 		"itemNumber": "406",
-		"unitPerPack": 12,
+		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "fish-tuna",
 		"featured": false
@@ -184,16 +176,48 @@
 		"featured": false
 	},
 	{
-		"slug": "la-pana-tongol-chunk-tuna",
-		"itemNumber": "414",
-		"unitPerPack": 24,
-		"overallSize": "7.05 oz",
+		"slug": "fish-kawa-kawa",
+		"itemNumber": "120",
+		"unitPerPack": 1,
+		"overallSize": "35 lbs aprox",
+		"categoryKey": "fish-tuna",
+		"featured": true
+	},
+	{
+		"slug": "fish-kawa-kawa-steak-slices",
+		"itemNumber": "121",
+		"unitPerPack": 1,
+		"overallSize": "N/A",
+		"categoryKey": "fish-tuna",
+		"featured": false
+	},
+	{
+		"slug": "ulavi-parrot-fish",
+		"itemNumber": "122",
+		"unitPerPack": 1,
+		"overallSize": "N/A",
+		"categoryKey": "fish-tuna",
+		"featured": false
+	},
+	{
+		"slug": "unicorn-ta",
+		"itemNumber": "123",
+		"unitPerPack": 1,
+		"overallSize": "N/A",
+		"categoryKey": "fish-tuna",
+		"featured": false
+	},
+	{
+		"slug": "kawango",
+		"itemNumber": "124",
+		"unitPerPack": 1,
+		"overallSize": "10 pcs",
 		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
 		"slug": "pacific-taste-coconut-milk-13oz",
-		"itemNumber": "420",
+		"itemNumber": "424",
 		"unitPerPack": 24,
 		"overallSize": "13.53 oz",
 		"categoryKey": "canned-vegetables",
@@ -201,7 +225,7 @@
 	},
 	{
 		"slug": "pacific-taste-coconut-milk-98oz",
-		"itemNumber": "422",
+		"itemNumber": "425",
 		"unitPerPack": 6,
 		"overallSize": "98.1 oz",
 		"categoryKey": "canned-vegetables",
@@ -209,7 +233,7 @@
 	},
 	{
 		"slug": "pacific-crown-fiji-coconut-cream",
-		"itemNumber": "424",
+		"itemNumber": "422",
 		"unitPerPack": 24,
 		"overallSize": "14.11 oz",
 		"categoryKey": "canned-vegetables",
@@ -217,7 +241,7 @@
 	},
 	{
 		"slug": "pacific-crown-tahitian-chestnut",
-		"itemNumber": "425",
+		"itemNumber": "427",
 		"unitPerPack": 24,
 		"overallSize": "14.11 oz",
 		"categoryKey": "canned-vegetables",
@@ -225,15 +249,15 @@
 	},
 	{
 		"slug": "watties-spaghetti-tomato-sauce",
-		"itemNumber": "426",
-		"unitPerPack": 24,
+		"itemNumber": "428",
+		"unitPerPack": 12,
 		"overallSize": "15 oz",
 		"categoryKey": "canned-vegetables",
 		"featured": false
 	},
 	{
 		"slug": "watties-baked-beans-tomato-sauce",
-		"itemNumber": "427",
+		"itemNumber": "429",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "canned-vegetables",
@@ -241,7 +265,7 @@
 	},
 	{
 		"slug": "palusami-taro-leaves",
-		"itemNumber": "428",
+		"itemNumber": "420",
 		"unitPerPack": 24,
 		"overallSize": "14.11 oz",
 		"categoryKey": "canned-vegetables",
@@ -249,7 +273,7 @@
 	},
 	{
 		"slug": "pacific-crown-duruka-stalk-brine",
-		"itemNumber": "429",
+		"itemNumber": "426",
 		"unitPerPack": 24,
 		"overallSize": "14.11 oz",
 		"categoryKey": "canned-vegetables",
@@ -258,13 +282,13 @@
 	{
 		"slug": "milk-arrowroot",
 		"itemNumber": "300",
-		"unitPerPack": 24,
+		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
 		"featured": true
 	},
 	{
-		"slug": "fmf-milk-arrowroot",
+		"slug": "monte-carlo",
 		"itemNumber": "301",
 		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
@@ -272,34 +296,34 @@
 		"featured": false
 	},
 	{
-		"slug": "monte-carlo",
+		"slug": "tim-tam-extra-chocolate",
 		"itemNumber": "302",
-		"unitPerPack": 24,
-		"overallSize": "8.8 oz",
+		"unitPerPack": 12,
+		"overallSize": "7.05 oz",
 		"categoryKey": "cookies",
 		"featured": false
 	},
 	{
-		"slug": "fmf-coconut-cookies",
+		"slug": "tim-tam-chewy-caramel",
 		"itemNumber": "303",
-		"unitPerPack": 24,
-		"overallSize": "8.8 oz",
-		"categoryKey": "cookies",
-		"featured": false
-	},
-	{
-		"slug": "delta-cream",
-		"itemNumber": "304",
-		"unitPerPack": 24,
-		"overallSize": "8.8 oz",
-		"categoryKey": "cookies",
-		"featured": false
-	},
-	{
-		"slug": "scotch-finger",
-		"itemNumber": "305",
 		"unitPerPack": 12,
 		"overallSize": "6.17 oz",
+		"categoryKey": "cookies",
+		"featured": false
+	},
+	{
+		"slug": "tim-tam-dark-chocolate",
+		"itemNumber": "304",
+		"unitPerPack": 12,
+		"overallSize": "7.05 oz",
+		"categoryKey": "cookies",
+		"featured": false
+	},
+	{
+		"slug": "tim-tam-mint",
+		"itemNumber": "305",
+		"unitPerPack": 12,
+		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
 		"featured": false
 	},
@@ -312,33 +336,25 @@
 		"featured": true
 	},
 	{
-		"slug": "tim-tam-extra-chocolate",
+		"slug": "delta-cream",
 		"itemNumber": "307",
-		"unitPerPack": 12,
-		"overallSize": "7.05 oz",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
 		"featured": false
 	},
 	{
-		"slug": "tim-tam-dark-chocolate",
-		"itemNumber": "308",
-		"unitPerPack": 24,
-		"overallSize": "7.05 oz",
-		"categoryKey": "cookies",
-		"featured": false
-	},
-	{
-		"slug": "tim-tam-chewy-caramel",
+		"slug": "scotch-finger",
 		"itemNumber": "309",
-		"unitPerPack": 12,
-		"overallSize": "6.17 oz",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
 		"featured": false
 	},
 	{
-		"slug": "tim-tam-mint",
+		"slug": "shortbread-cream",
 		"itemNumber": "310",
-		"unitPerPack": 24,
+		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
 		"featured": false
@@ -346,7 +362,7 @@
 	{
 		"slug": "shortbread-plain",
 		"itemNumber": "311",
-		"unitPerPack": 24,
+		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
 		"featured": false
@@ -354,6 +370,22 @@
 	{
 		"slug": "punjas-milk-arrowroot",
 		"itemNumber": "312",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies",
+		"featured": false
+	},
+	{
+		"slug": "fmf-milk-arrowroot",
+		"itemNumber": "320",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies",
+		"featured": false
+	},
+	{
+		"slug": "fmf-coconut-cookies",
+		"itemNumber": "322",
 		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies",
@@ -376,42 +408,50 @@
 		"featured": false
 	},
 	{
+		"slug": "fmf-flour",
+		"itemNumber": "380",
+		"unitPerPack": 1,
+		"overallSize": "10 kg",
+		"categoryKey": "cookies",
+		"featured": false
+	},
+	{
+		"slug": "sao-shortbread-cream",
+		"itemNumber": "308",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "crackers",
+		"featured": false
+	},
+	{
+		"slug": "fmf-scotch-finger",
+		"itemNumber": "324",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "crackers",
+		"featured": false
+	},
+	{
 		"slug": "fmf-breakfast-crackers-13oz",
-		"itemNumber": "320",
+		"itemNumber": "330",
 		"unitPerPack": 20,
 		"overallSize": "13.22 oz",
 		"categoryKey": "crackers",
 		"featured": true
 	},
 	{
-		"slug": "fmf-breakfast-crackers-8oz",
-		"itemNumber": "322",
+		"slug": "fmf-breakfast-crackers-fine",
+		"itemNumber": "331",
 		"unitPerPack": 20,
-		"overallSize": "8.8 oz",
+		"overallSize": "13.22 oz",
 		"categoryKey": "crackers",
 		"featured": false
 	},
 	{
 		"slug": "fmf-breakfast-crackers-4lb",
-		"itemNumber": "324",
+		"itemNumber": "332",
 		"unitPerPack": 6,
 		"overallSize": "4.4 lbs",
-		"categoryKey": "crackers",
-		"featured": false
-	},
-	{
-		"slug": "fmf-scotch-finger",
-		"itemNumber": "331",
-		"unitPerPack": 24,
-		"overallSize": "8.8 oz",
-		"categoryKey": "crackers",
-		"featured": false
-	},
-	{
-		"slug": "sao-shortbread-cream",
-		"itemNumber": "332",
-		"unitPerPack": 24,
-		"overallSize": "8.8 oz",
 		"categoryKey": "crackers",
 		"featured": false
 	},
@@ -420,14 +460,6 @@
 		"itemNumber": "335",
 		"unitPerPack": 1,
 		"overallSize": "11 lbs",
-		"categoryKey": "crackers",
-		"featured": false
-	},
-	{
-		"slug": "fmf-flour",
-		"itemNumber": "380",
-		"unitPerPack": 1,
-		"overallSize": "10 kg",
 		"categoryKey": "crackers",
 		"featured": false
 	},
@@ -442,7 +474,7 @@
 	{
 		"slug": "lakdhi-methai",
 		"itemNumber": "501",
-		"unitPerPack": 28,
+		"unitPerPack": 22,
 		"overallSize": "8 oz",
 		"categoryKey": "snacks",
 		"featured": false
@@ -472,7 +504,7 @@
 		"featured": false
 	},
 	{
-		"slug": "punjabi-mix",
+		"slug": "madras-mix",
 		"itemNumber": "505",
 		"unitPerPack": 22,
 		"overallSize": "12 oz",
@@ -480,7 +512,7 @@
 		"featured": false
 	},
 	{
-		"slug": "madras-mix",
+		"slug": "punjabi-mix",
 		"itemNumber": "506",
 		"unitPerPack": 22,
 		"overallSize": "12 oz",
@@ -490,8 +522,8 @@
 	{
 		"slug": "sao-plain",
 		"itemNumber": "507",
-		"unitPerPack": 22,
-		"overallSize": "7 oz",
+		"unitPerPack": 28,
+		"overallSize": "8 oz",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -563,7 +595,7 @@
 		"slug": "boja-king-cheese-snack-56gr",
 		"itemNumber": "520",
 		"unitPerPack": 12,
-		"overallSize": "56 gr",
+		"overallSize": "156 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -579,7 +611,7 @@
 		"slug": "boja-king-cheese-snack-28oz",
 		"itemNumber": "524",
 		"unitPerPack": 48,
-		"overallSize": "28 oz",
+		"overallSize": "28 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -587,7 +619,7 @@
 		"slug": "boja-king-chicken-snack-156oz",
 		"itemNumber": "530",
 		"unitPerPack": 12,
-		"overallSize": "156 oz",
+		"overallSize": "156 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -595,7 +627,7 @@
 		"slug": "boja-king-chicken-snack-64oz",
 		"itemNumber": "532",
 		"unitPerPack": 12,
-		"overallSize": "64 oz",
+		"overallSize": "64 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -603,7 +635,7 @@
 		"slug": "boja-king-chicken-snack-28oz",
 		"itemNumber": "534",
 		"unitPerPack": 48,
-		"overallSize": "28 oz",
+		"overallSize": "28 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -632,9 +664,17 @@
 		"featured": false
 	},
 	{
+		"slug": "twistes-cheese-500gr",
+		"itemNumber": "546",
+		"unitPerPack": 8,
+		"overallSize": "500 gr",
+		"categoryKey": "snacks",
+		"featured": false
+	},
+	{
 		"slug": "boja-king-chicken-20gr",
 		"itemNumber": "550",
-		"unitPerPack": 12,
+		"unitPerPack": 60,
 		"overallSize": "20 gr",
 		"categoryKey": "snacks",
 		"featured": false
@@ -643,15 +683,23 @@
 		"slug": "boja-king-chicken-28gr",
 		"itemNumber": "552",
 		"unitPerPack": 12,
-		"overallSize": "28 gr",
+		"overallSize": "100 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
 	{
 		"slug": "boja-king-chicken-100gr",
 		"itemNumber": "554",
-		"unitPerPack": 12,
-		"overallSize": "100 gr",
+		"unitPerPack": 16,
+		"overallSize": "250 gr",
+		"categoryKey": "snacks",
+		"featured": false
+	},
+	{
+		"slug": "twistes-chicken-500gr",
+		"itemNumber": "556",
+		"unitPerPack": 8,
+		"overallSize": "500 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -676,6 +724,30 @@
 		"itemNumber": "562",
 		"unitPerPack": 16,
 		"overallSize": "200 gr",
+		"categoryKey": "snacks",
+		"featured": false
+	},
+	{
+		"slug": "jasons-peanut-ruffs-20gr",
+		"itemNumber": "570",
+		"unitPerPack": 48,
+		"overallSize": "28 gr",
+		"categoryKey": "snacks",
+		"featured": false
+	},
+	{
+		"slug": "jasons-peanut-ruffs-64gr",
+		"itemNumber": "571",
+		"unitPerPack": 36,
+		"overallSize": "64 gr",
+		"categoryKey": "snacks",
+		"featured": false
+	},
+	{
+		"slug": "jasons-peanut-ruffs-156gr",
+		"itemNumber": "572",
+		"unitPerPack": 12,
+		"overallSize": "156 gr",
 		"categoryKey": "snacks",
 		"featured": false
 	},
@@ -708,30 +780,6 @@
 		"itemNumber": "519",
 		"unitPerPack": 42,
 		"overallSize": "1.76 oz",
-		"categoryKey": "candies",
-		"featured": false
-	},
-	{
-		"slug": "jasons-peanut-ruffs-20gr",
-		"itemNumber": "570",
-		"unitPerPack": 60,
-		"overallSize": "20 gr",
-		"categoryKey": "candies",
-		"featured": false
-	},
-	{
-		"slug": "jasons-peanut-ruffs-64gr",
-		"itemNumber": "571",
-		"unitPerPack": 16,
-		"overallSize": "64 gr",
-		"categoryKey": "candies",
-		"featured": false
-	},
-	{
-		"slug": "jasons-peanut-ruffs-156gr",
-		"itemNumber": "572",
-		"unitPerPack": 16,
-		"overallSize": "156 gr",
 		"categoryKey": "candies",
 		"featured": false
 	},
@@ -784,7 +832,7 @@
 		"featured": false
 	},
 	{
-		"slug": "haldi-powder-turmeric",
+		"slug": "sweet-mango-pickle",
 		"itemNumber": "356",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -816,9 +864,9 @@
 		"featured": false
 	},
 	{
-		"slug": "sweet-mango-pickle",
+		"slug": "haldi-powder-turmeric",
 		"itemNumber": "363",
-		"unitPerPack": 12,
+		"unitPerPack": 20,
 		"overallSize": "17.64 oz",
 		"categoryKey": "pickles-spices",
 		"featured": false
@@ -826,7 +874,7 @@
 	{
 		"slug": "punjas-hot-masala-12pk",
 		"itemNumber": "364",
-		"unitPerPack": 12,
+		"unitPerPack": 20,
 		"overallSize": "17.64 oz",
 		"categoryKey": "pickles-spices",
 		"featured": false
@@ -834,15 +882,15 @@
 	{
 		"slug": "punjas-hot-masala-24pk",
 		"itemNumber": "365",
-		"unitPerPack": 24,
-		"overallSize": "17.64 oz",
+		"unitPerPack": 10,
+		"overallSize": "2.20 lbs",
 		"categoryKey": "pickles-spices",
 		"featured": false
 	},
 	{
 		"slug": "punjas-meat-masala",
 		"itemNumber": "366",
-		"unitPerPack": 12,
+		"unitPerPack": 20,
 		"overallSize": "17.64 oz",
 		"categoryKey": "pickles-spices",
 		"featured": false
@@ -968,17 +1016,9 @@
 		"featured": false
 	},
 	{
-		"slug": "weetbix-breakfast-cereal-26oz",
-		"itemNumber": "392",
-		"unitPerPack": 12,
-		"overallSize": "26.45 oz",
-		"categoryKey": "breakfast-cereal",
-		"featured": false
-	},
-	{
 		"slug": "weetbix-breakfast-cereal-2lb",
 		"itemNumber": "393",
-		"unitPerPack": 24,
+		"unitPerPack": 12,
 		"overallSize": "2.46 lbs",
 		"categoryKey": "breakfast-cereal",
 		"featured": false
@@ -1026,7 +1066,7 @@
 	{
 		"slug": "kava-lawena-powder",
 		"itemNumber": "397",
-		"unitPerPack": 15,
+		"unitPerPack": 50,
 		"overallSize": "1 lb",
 		"categoryKey": "powders-teas",
 		"featured": true
@@ -1034,7 +1074,7 @@
 	{
 		"slug": "kava-wake-powder",
 		"itemNumber": "398",
-		"unitPerPack": 15,
+		"unitPerPack": 50,
 		"overallSize": "1 lb",
 		"categoryKey": "powders-teas",
 		"featured": false
@@ -1042,7 +1082,7 @@
 	{
 		"slug": "nestle-cocoa",
 		"itemNumber": "399",
-		"unitPerPack": 24,
+		"unitPerPack": 12,
 		"overallSize": "11.5 oz",
 		"categoryKey": "powders-teas",
 		"featured": false
@@ -1050,16 +1090,8 @@
 	{
 		"slug": "bushells-black-tea-200gr",
 		"itemNumber": "600",
-		"unitPerPack": 50,
+		"unitPerPack": 1,
 		"overallSize": "200 gr",
-		"categoryKey": "powders-teas",
-		"featured": false
-	},
-	{
-		"slug": "bushells-black-tea-500gr",
-		"itemNumber": "601",
-		"unitPerPack": 50,
-		"overallSize": "500 gr",
 		"categoryKey": "powders-teas",
 		"featured": false
 	},
@@ -1068,14 +1100,6 @@
 		"itemNumber": "602",
 		"unitPerPack": 1,
 		"overallSize": "200 gr",
-		"categoryKey": "powders-teas",
-		"featured": false
-	},
-	{
-		"slug": "ceylon-black-tea-500gr",
-		"itemNumber": "603",
-		"unitPerPack": 1,
-		"overallSize": "500 gr",
 		"categoryKey": "powders-teas",
 		"featured": false
 	},
@@ -1091,7 +1115,7 @@
 		"slug": "lamb-shoulder-whole",
 		"itemNumber": "100",
 		"unitPerPack": 1,
-		"overallSize": "45-50 lbs",
+		"overallSize": "40 lbs",
 		"categoryKey": "lamb-goat",
 		"featured": true
 	},
@@ -1107,7 +1131,7 @@
 		"slug": "lamb-regular-diced-prepack",
 		"itemNumber": "102",
 		"unitPerPack": 1,
-		"overallSize": "N/A",
+		"overallSize": "40 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1115,7 +1139,7 @@
 		"slug": "lamb-neck-whole",
 		"itemNumber": "103",
 		"unitPerPack": 1,
-		"overallSize": "45-50 lbs",
+		"overallSize": "40 lbs",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1123,7 +1147,7 @@
 		"slug": "lamb-neck-sliced",
 		"itemNumber": "104",
 		"unitPerPack": 1,
-		"overallSize": "45-50 lbs",
+		"overallSize": "18 lbs",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1131,7 +1155,7 @@
 		"slug": "lamb-neck-sliced-prepack",
 		"itemNumber": "105",
 		"unitPerPack": 1,
-		"overallSize": "45-50 lbs",
+		"overallSize": "40 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1139,7 +1163,7 @@
 		"slug": "lamb-leg-whole",
 		"itemNumber": "106",
 		"unitPerPack": 1,
-		"overallSize": "45-50 lbs",
+		"overallSize": "40 lbs",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1147,7 +1171,7 @@
 		"slug": "lamb-leg-sliced-prepack",
 		"itemNumber": "107",
 		"unitPerPack": 1,
-		"overallSize": "45-50 lbs",
+		"overallSize": "40 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1171,15 +1195,15 @@
 		"slug": "lamb-shank-whole",
 		"itemNumber": "110",
 		"unitPerPack": 1,
-		"overallSize": "18 lbs",
+		"overallSize": "20 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
 		"slug": "lamb-shank-sliced-prepack",
 		"itemNumber": "111",
-		"unitPerPack": 28,
-		"overallSize": "2 lbs",
+		"unitPerPack": 1,
+		"overallSize": "20 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1187,7 +1211,7 @@
 		"slug": "australian-goat-whole",
 		"itemNumber": "112",
 		"unitPerPack": 1,
-		"overallSize": "35-42 lbs",
+		"overallSize": "40 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
@@ -1195,13 +1219,13 @@
 		"slug": "australian-goat-diced-prepack",
 		"itemNumber": "113",
 		"unitPerPack": 1,
-		"overallSize": "35-42 lbs",
+		"overallSize": "40 lbs aprox",
 		"categoryKey": "lamb-goat",
 		"featured": false
 	},
 	{
 		"slug": "chicken-sausage",
-		"itemNumber": "114",
+		"itemNumber": "115",
 		"unitPerPack": 12,
 		"overallSize": "2 lbs",
 		"categoryKey": "sausages",
@@ -1209,30 +1233,30 @@
 	},
 	{
 		"slug": "chicken-sausage-hot",
-		"itemNumber": "115",
+		"itemNumber": "114",
 		"unitPerPack": 12,
 		"overallSize": "2 lbs",
-		"categoryKey": "sausages",
-		"featured": false
-	},
-	{
-		"slug": "lamb-sausage-5lb",
-		"itemNumber": "116",
-		"unitPerPack": 12,
-		"overallSize": "5 lbs",
 		"categoryKey": "sausages",
 		"featured": false
 	},
 	{
 		"slug": "lamb-sausage-2lb",
 		"itemNumber": "117",
-		"unitPerPack": 28,
+		"unitPerPack": 12,
 		"overallSize": "2 lbs",
 		"categoryKey": "sausages",
 		"featured": false
 	},
 	{
 		"slug": "lamb-sausage-hot",
+		"itemNumber": "116",
+		"unitPerPack": 12,
+		"overallSize": "2 lbs",
+		"categoryKey": "sausages",
+		"featured": false
+	},
+	{
+		"slug": "samoan-beef-bangers",
 		"itemNumber": "118",
 		"unitPerPack": 8,
 		"overallSize": "5 lbs",
@@ -1240,57 +1264,17 @@
 		"featured": false
 	},
 	{
-		"slug": "samoan-beef-bangers",
+		"slug": "samoan-pork-bangers",
 		"itemNumber": "119",
-		"unitPerPack": 12,
-		"overallSize": "2 lbs",
+		"unitPerPack": 8,
+		"overallSize": "5 lbs",
 		"categoryKey": "sausages",
-		"featured": false
-	},
-	{
-		"slug": "fish-kawa-kawa",
-		"itemNumber": "120",
-		"unitPerPack": 18,
-		"overallSize": "35 lbs",
-		"categoryKey": "fish-tuna",
-		"featured": true
-	},
-	{
-		"slug": "fish-kawa-kawa-steak-slices",
-		"itemNumber": "121",
-		"unitPerPack": 1,
-		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
-		"featured": false
-	},
-	{
-		"slug": "ulavi-parrot-fish",
-		"itemNumber": "122",
-		"unitPerPack": 1,
-		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
-		"featured": false
-	},
-	{
-		"slug": "unicorn-ta",
-		"itemNumber": "123",
-		"unitPerPack": 1,
-		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
-		"featured": false
-	},
-	{
-		"slug": "kawango",
-		"itemNumber": "124",
-		"unitPerPack": 1,
-		"overallSize": "10 pcs",
-		"categoryKey": "fish-tuna",
 		"featured": false
 	},
 	{
 		"slug": "muscovy-duck-halal",
 		"itemNumber": "125",
-		"unitPerPack": 1,
+		"unitPerPack": 8,
 		"overallSize": "65 lbs",
 		"categoryKey": "white-meats",
 		"featured": true
@@ -1299,7 +1283,7 @@
 		"slug": "roosters-halal",
 		"itemNumber": "126",
 		"unitPerPack": 1,
-		"overallSize": "N/A",
+		"overallSize": "10 pcs",
 		"categoryKey": "white-meats",
 		"featured": false
 	},
@@ -1315,7 +1299,7 @@
 		"slug": "turkey-tails",
 		"itemNumber": "128",
 		"unitPerPack": 1,
-		"overallSize": "20 lbs",
+		"overallSize": "30 lbs",
 		"categoryKey": "white-meats",
 		"featured": false
 	},
@@ -1323,33 +1307,33 @@
 		"slug": "yellow-cassava-2lb",
 		"itemNumber": "200",
 		"unitPerPack": 10,
-		"overallSize": "2.20 lbs",
+		"overallSize": "1 kg (2.20 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": true
 	},
 	{
 		"slug": "white-cassava-5lb",
 		"itemNumber": "201",
-		"unitPerPack": 4,
-		"overallSize": "5 lbs",
+		"unitPerPack": 10,
+		"overallSize": "1 kg",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
 	{
 		"slug": "white-cassava-2lb",
 		"itemNumber": "202",
-		"unitPerPack": 40,
-		"overallSize": "2.20 lbs",
+		"unitPerPack": 6,
+		"overallSize": "5 lbs",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
 	{
-		"slug": "jackfruit",
+		"slug": "pink-taro",
 		"itemNumber": "203",
-		"unitPerPack": 10,
-		"overallSize": "5 lbs",
+		"unitPerPack": 6,
+		"overallSize": "5 lbs or 1kg",
 		"categoryKey": "root-vegetables",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "purple-taro-2lb",
@@ -1368,12 +1352,12 @@
 		"featured": false
 	},
 	{
-		"slug": "pink-taro",
+		"slug": "white-taro",
 		"itemNumber": "206",
 		"unitPerPack": 6,
 		"overallSize": "5 lbs",
 		"categoryKey": "root-vegetables",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "yellow-taro-2lb",
@@ -1408,42 +1392,34 @@
 		"featured": false
 	},
 	{
-		"slug": "white-taro",
+		"slug": "jackfruit",
 		"itemNumber": "211",
-		"unitPerPack": 10,
-		"overallSize": "2.20 lbs",
+		"unitPerPack": 40,
+		"overallSize": "400 gr",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
 	{
 		"slug": "taro-leaves",
 		"itemNumber": "212",
-		"unitPerPack": 6,
-		"overallSize": "5 lbs",
-		"categoryKey": "root-vegetables",
-		"featured": false
-	},
-	{
-		"slug": "breadfruit-1kg",
-		"itemNumber": "213",
-		"unitPerPack": 20,
-		"overallSize": "1 kg",
+		"unitPerPack": 40,
+		"overallSize": "400 gr",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
 	{
 		"slug": "breadfruit-5lb",
 		"itemNumber": "214",
-		"unitPerPack": 1,
+		"unitPerPack": 6,
 		"overallSize": "5 lbs",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
 	{
 		"slug": "tahitian-chestnut-ivi",
-		"itemNumber": "219",
-		"unitPerPack": 10,
-		"overallSize": "2.20 lbs",
+		"itemNumber": "215",
+		"unitPerPack": 40,
+		"overallSize": "400 gr",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1496,35 +1472,59 @@
 		"featured": false
 	},
 	{
-		"slug": "sunquick-mango-juice-concentrate",
-		"itemNumber": "605",
-		"unitPerPack": 1,
-		"overallSize": "1 lt",
-		"categoryKey": "misc-frozen-fresh",
-		"featured": false
-	},
-	{
-		"slug": "bula-noni-fiji-islands",
+		"slug": "sunquick-tropical-juice-concentrate",
 		"itemNumber": "630",
 		"unitPerPack": 6,
-		"overallSize": "840 ml",
-		"categoryKey": "misc-frozen-fresh",
+		"overallSize": "700 ml",
+		"categoryKey": "drinks",
 		"featured": false
 	},
 	{
 		"slug": "sunquick-orange-juice-concentrate",
 		"itemNumber": "631",
 		"unitPerPack": 6,
-		"overallSize": "700 ml",
-		"categoryKey": "misc-frozen-fresh",
+		"overallSize": "840 ml",
+		"categoryKey": "drinks",
 		"featured": false
 	},
 	{
-		"slug": "sunquick-tropical-juice-concentrate",
+		"slug": "sunquick-mango-juice-concentrate",
 		"itemNumber": "632",
-		"unitPerPack": 26,
+		"unitPerPack": 6,
 		"overallSize": "840 ml",
-		"categoryKey": "misc-frozen-fresh",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "bula-noni-fiji-islands",
+		"itemNumber": "605",
+		"unitPerPack": 12,
+		"overallSize": "1 ltr",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "cordial-raspberry",
+		"itemNumber": "606",
+		"unitPerPack": 12,
+		"overallSize": "1 ltr",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "cordial-kola",
+		"itemNumber": "608",
+		"unitPerPack": 12,
+		"overallSize": "1 ltr",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "cordial-lime",
+		"itemNumber": "609",
+		"unitPerPack": 12,
+		"overallSize": "1 ltr",
+		"categoryKey": "drinks",
 		"featured": false
 	}
 ]

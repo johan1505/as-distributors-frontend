@@ -4,7 +4,7 @@
  */
 
 // TODO: Placeholder base URL - replace with production URL when known
-export const BASE_URL = 'https://pacificislanderfoods.com';
+export const BASE_URL = 'https://asdistributors.com';
 
 // Site metadata constants
 export const SITE_NAME = 'A & S Distributors';

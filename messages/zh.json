@@ -158,7 +158,8 @@
 		"sausages": "香肠",
 		"white-meats": "白肉",
 		"root-vegetables": "根茎类蔬菜",
-		"misc-frozen-fresh": "其他冷冻和新鲜"
+		"misc-frozen-fresh": "其他冷冻和新鲜",
+		"drinks": "饮料"
 	},
 	"categorySeo": {
 		"corned-beef": {
@@ -192,16 +193,16 @@
 			"keywords": "FMF早餐饼干, 斐济饼干, SAO饼干, 批发饼干, 太平洋岛屿饼干"
 		},
 		"snacks": {
-			"title": "零食 - Boja King及太平洋岛屿混合零食 | A & S Distributors",
-			"description": "热门零食包括Boja King芝士和鸡肉味零食、Fiji Mix、Punjabi Mix等传统混合零食。",
-			"pageDescription": "发现太平洋岛屿零食的独特风味。从Boja King风味零食到传统香料混合和炸豌豆。",
-			"keywords": "Boja King零食, Fiji mix, Punjabi mix, 炸豌豆, 太平洋零食, 批发零食, 芝士零食"
+			"title": "零食 - BONGOS、TWISTES、UFO's及太平洋岛屿混合零食 | A & S Distributors",
+			"description": "热门零食包括BONGOS、TWISTES和UFO's芝士和鸡肉味零食、Jasons Peanut Ruffs、Fiji Mix、Punjabi Mix等传统混合零食。",
+			"pageDescription": "发现太平洋岛屿零食的独特风味。从BONGOS、TWISTES和UFO's风味零食到Jasons Peanut Ruffs、传统香料混合和炸豌豆。",
+			"keywords": "BONGOS零食, TWISTES零食, UFO's零食, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, 炸豌豆, 太平洋零食, 批发零食"
 		},
 		"candies": {
-			"title": "糖果 - Cadbury及Jasons Peanut Ruffs | A & S Distributors",
-			"description": "热门巧克力棒包括各种Cadbury品种和深受太平洋岛屿喜爱的Jasons Peanut Ruffs。",
-			"pageDescription": "来自澳大利亚和太平洋的甜美零食。Cadbury巧克力棒和标志性的Jasons Peanut Ruffs糖果。",
-			"keywords": "Cadbury巧克力, Jasons Peanut Ruffs, 太平洋糖果, 澳大利亚巧克力, 批发糖果"
+			"title": "糖果 - Cadbury巧克力棒 | A & S Distributors",
+			"description": "热门Cadbury巧克力棒包括Crunchie、Dream、水果坚果和Dairy Milk等品种。",
+			"pageDescription": "来自澳大利亚的甜美零食。各种您喜爱的Cadbury巧克力棒品种。",
+			"keywords": "Cadbury巧克力, Crunchie巧克力棒, Dairy Milk, 澳大利亚巧克力, 批发糖果"
 		},
 		"pickles-spices": {
 			"title": "腌菜和香料 - 咖喱粉和酸辣酱 | A & S Distributors",
@@ -252,10 +253,16 @@
 			"keywords": "芋头, 木薯, 面包果, 太平洋蔬菜, 斐济蔬菜, 冷冻芋头, 批发根茎蔬菜"
 		},
 		"misc-frozen-fresh": {
-			"title": "其他冷冻和新鲜产品 - 冰淇淋、黄油和果汁 | A & S Distributors",
-			"description": "各种冷冻和新鲜产品包括Tuckers冰淇淋、Anchor黄油、Sunquick浓缩果汁等。",
-			"pageDescription": "来自太平洋的各种冷冻和新鲜产品。冰淇淋、黄油、浓缩果汁、印度薄饼等。",
-			"keywords": "Tuckers冰淇淋, Anchor黄油, Sunquick果汁, Bula Noni, 冷冻产品, 批发冷冻"
+			"title": "其他冷冻和新鲜产品 - 冰淇淋、黄油及更多 | A & S Distributors",
+			"description": "各种冷冻和新鲜产品包括Tuckers冰淇淋、Anchor黄油、印度薄饼等。",
+			"pageDescription": "来自太平洋的各种冷冻和新鲜产品。冰淇淋、黄油、印度薄饼等。",
+			"keywords": "Tuckers冰淇淋, Anchor黄油, 冷冻产品, 批发冷冻, 印度薄饼"
+		},
+		"drinks": {
+			"title": "饮料 - 浓缩果汁和诺丽果汁 | A & S Distributors",
+			"description": "清爽饮品包括Sunquick浓缩果汁、来自斐济的Bula Noni诺丽果汁和利口糖浆。各种场合的热带风味。",
+			"pageDescription": "来自太平洋的热带饮品。Sunquick热带、橙子和芒果口味浓缩果汁，以及Bula Noni保健果汁和清爽利口糖浆。",
+			"keywords": "Sunquick果汁, Bula Noni, 利口糖浆, 热带饮品, 浓缩果汁, 太平洋饮料, 批发饮品"
 		}
 	},
 	"breadcrumb": {
@@ -374,14 +381,6 @@
 			"seoKeywords": "清真咸羊肉, Globe羊肉, 清真肉, 批发清真",
 			"imageAlt": "Globe咸羊肉（清真）罐头"
 		},
-		"globe-corned-mutton-regular": {
-			"name": "Globe咸羊肉",
-			"description": "常规制备的Globe咸羊肉。具有鲜美风味的优质羊肉，非常适合传统太平洋岛屿烹饪。",
-			"seoTitle": "Globe咸羊肉 常规 | A & S Distributors",
-			"seoDescription": "Globe咸羊肉，传统食谱的优质制备。提供批发价格。",
-			"seoKeywords": "咸羊肉, Globe羊肉, 太平洋岛屿食品, 批发羊肉",
-			"imageAlt": "Globe咸羊肉罐头"
-		},
 		"angel-mackerel-natural-oil": {
 			"name": "Angel鲭鱼 天然油",
 			"description": "天然油浸优质罐装鲭鱼。Angel品牌以其优质鱼产品而闻名。非常适合沙拉、三明治和传统太平洋岛屿食谱。",
@@ -445,14 +444,6 @@
 			"seoDescription": "植物油浸Skipper品牌金枪鱼。优质罐装金枪鱼。提供批发价格。",
 			"seoKeywords": "Skipper金枪鱼, 罐装金枪鱼, 油浸金枪鱼, 批发金枪鱼",
 			"imageAlt": "Skipper金枪鱼 植物油罐头"
-		},
-		"la-pana-tongol-chunk-tuna": {
-			"name": "L'a Pana Tongol块状金枪鱼",
-			"description": "L'a Pana品牌Tongol块状金枪鱼。肉质紧实、口味清淡的优质金枪鱼。非常适合金枪鱼沙拉、三明治和太平洋岛屿食谱。",
-			"seoTitle": "L'a Pana Tongol块状金枪鱼 | A & S Distributors",
-			"seoDescription": "L'a Pana Tongol块状金枪鱼。优质罐装金枪鱼。提供批发价格。",
-			"seoKeywords": "Tongol金枪鱼, 块状金枪鱼, L'a Pana金枪鱼, 批发金枪鱼",
-			"imageAlt": "L'a Pana Tongol块状金枪鱼罐头"
 		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste椰奶",
@@ -718,6 +709,30 @@
 			"seoKeywords": "Sunquick热带, 水果浓缩液, 热带潘趣酒, 太平洋饮料",
 			"imageAlt": "Sunquick热带果汁浓缩液瓶装"
 		},
+		"cordial-raspberry": {
+			"name": "覆盆子利口糖浆",
+			"description": "清爽的覆盆子利口糖浆浓缩液，用于制作美味的覆盆子饮料。只需与水混合即可制成甜美水果味饮品。在太平洋岛屿各地家庭和聚会中的热门选择。",
+			"seoTitle": "覆盆子利口糖浆 | A & S Distributors",
+			"seoDescription": "覆盆子利口糖浆浓缩液。清爽水果饮品。提供批发价格。",
+			"seoKeywords": "覆盆子利口糖浆, 利口饮料, 水果饮品, 太平洋饮料",
+			"imageAlt": "覆盆子利口糖浆瓶装"
+		},
+		"cordial-kola": {
+			"name": "可乐利口糖浆",
+			"description": "经典可乐味利口糖浆浓缩液，用于制作清爽的可乐风格饮料。与水混合即可获得甜美芳香的可乐坚果风味饮品。太平洋岛屿各地令人怀念的最爱。",
+			"seoTitle": "可乐利口糖浆 | A & S Distributors",
+			"seoDescription": "可乐利口糖浆浓缩液。经典可乐风味。提供批发价格。",
+			"seoKeywords": "可乐利口糖浆, 可乐饮料, 利口浓缩液, 太平洋饮料",
+			"imageAlt": "可乐利口糖浆瓶装"
+		},
+		"cordial-lime": {
+			"name": "青柠利口糖浆",
+			"description": "酸爽的青柠利口糖浆浓缩液，用于制作清爽的青柠饮料。酸涩的柑橘风味非常适合炎热天气和热带聚会。只需与水混合即可获得即时青柠清爽饮品。",
+			"seoTitle": "青柠利口糖浆 | A & S Distributors",
+			"seoDescription": "青柠利口糖浆浓缩液。酸爽柑橘味。提供批发价格。",
+			"seoKeywords": "青柠利口糖浆, 青柠饮料, 柑橘饮品, 太平洋饮料",
+			"imageAlt": "青柠利口糖浆瓶装"
+		},
 		"monte-carlo": {
 			"name": "蒙特卡洛饼干",
 			"description": "标志性的澳大利亚奶油饼干，两片金黄色椰香饼干中间夹着一层甜果酱和香草奶油。自1926年由Arnott's首次制作，这款深受喜爱的点心完美平衡了酥脆和甜蜜。",
@@ -749,6 +764,14 @@
 			"seoDescription": "传统苏格兰手指酥饼。黄油风味，完美蘸食。提供批发价格。",
 			"seoKeywords": "苏格兰手指, 酥饼饼干, 黄油曲奇, 澳大利亚饼干",
 			"imageAlt": "苏格兰手指饼干饼干包装"
+		},
+		"shortbread-cream": {
+			"name": "奶油酥饼",
+			"description": "美味的奶油夹心酥饼，将黄油酥饼与顺滑奶油中心相结合。这些经典饼干在浓郁黄油风味和甜奶油馅料之间达到完美平衡。与茶或咖啡完美搭配。",
+			"seoTitle": "奶油酥饼 | A & S Distributors",
+			"seoDescription": "奶油酥饼，顺滑奶油夹心。经典美味。提供批发价格。",
+			"seoKeywords": "奶油酥饼, 奶油饼干, 夹心曲奇, 批发饼干",
+			"imageAlt": "奶油酥饼饼干包装"
 		},
 		"tim-tam-extra-chocolate": {
 			"name": "Tim Tam加倍巧克力",
@@ -814,13 +837,13 @@
 			"seoKeywords": "FMF饼干, 斐济饼干, 早餐饼干, 太平洋岛屿食品, 批发饼干",
 			"imageAlt": "FMF早餐饼干饼干包装"
 		},
-		"fmf-breakfast-crackers-8oz": {
-			"name": "FMF早餐饼干",
+		"fmf-breakfast-crackers-fine": {
+			"name": "FMF早餐饼干 精制",
 			"description": "斐济最具标志性饼干的小包装。自1973年以来，FMF早餐饼干就以其出色的口味成为家喻户晓的名字。轻盈酥脆，非常适合快速零食或搭配您喜爱的涂抹酱和蘸酱。",
-			"seoTitle": "FMF早餐饼干 8oz | A & S Distributors",
-			"seoDescription": "方便的8oz规格FMF早餐饼干。斐济标志性饼干。提供批发价格。",
-			"seoKeywords": "FMF早餐饼干, 斐济饼干, 轻盈饼干, 太平洋零食",
-			"imageAlt": "FMF早餐饼干饼干包装"
+			"seoTitle": "FMF早餐饼干 精制 | A & S Distributors",
+			"seoDescription": "FMF早餐饼干精制，斐济标志性饼干方便规格。提供批发价格。",
+			"seoKeywords": "FMF早餐饼干, 斐济饼干, 精制饼干, 太平洋零食",
+			"imageAlt": "FMF早餐饼干精制包装"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF早餐饼干",
@@ -991,124 +1014,140 @@
 			"imageAlt": "辣味混合零食包装"
 		},
 		"boja-king-cheese-snack-56gr": {
-			"name": "Boja King芝士零食",
-			"description": "轻盈蓬松的玉米泡芙，充满真正芝士风味。Boja King在太平洋地区深受喜爱超过30年。这些烘焙（非油炸）零食获得清真认证，非常适合随时随地享用。",
-			"seoTitle": "Boja King芝士泡芙 56g | A & S Distributors",
-			"seoDescription": "Boja King芝士泡芙，真正芝士风味烘焙。太平洋岛屿最爱。提供批发价格。",
-			"seoKeywords": "Boja King芝士, 芝士泡芙, 斐济零食, 清真零食",
-			"imageAlt": "Boja King芝士零食零食包装"
+			"name": "BONGOS 芝士",
+			"description": "轻盈蓬松的玉米泡芙，充满真正芝士风味。BONGOS在太平洋地区深受喜爱超过30年。这些烘焙（非油炸）零食获得清真认证，非常适合随时随地享用。",
+			"seoTitle": "BONGOS 芝士泡芙 56g | A & S Distributors",
+			"seoDescription": "BONGOS芝士泡芙，真正芝士风味烘焙。太平洋岛屿最爱。提供批发价格。",
+			"seoKeywords": "BONGOS芝士, 芝士泡芙, 斐济零食, 清真零食",
+			"imageAlt": "BONGOS芝士零食包装"
 		},
 		"boja-king-cheese-snack-64gr": {
-			"name": "Boja King芝士零食",
-			"description": "裹着咸香芝士调味的酥脆玉米泡芙。这种中等规格的Boja King非常适合个人享用。由玉米和大米制成，烘焙出更轻盈的酥脆，使其成为斐济几十年来最受欢迎的零食。",
-			"seoTitle": "Boja King芝士泡芙 64g | A & S Distributors",
-			"seoDescription": "Boja King芝士泡芙 64g，酥脆芝士味。斐济最爱。提供批发价格。",
-			"seoKeywords": "Boja King芝士, 芝士零食, 斐济泡芙, 烘焙零食",
-			"imageAlt": "Boja King芝士零食零食包装"
+			"name": "BONGOS 芝士",
+			"description": "裹着咸香芝士调味的酥脆玉米泡芙。这种中等规格的BONGOS非常适合个人享用。由玉米和大米制成，烘焙出更轻盈的酥脆，使其成为斐济几十年来最受欢迎的零食。",
+			"seoTitle": "BONGOS 芝士泡芙 64g | A & S Distributors",
+			"seoDescription": "BONGOS芝士泡芙 64g，酥脆芝士味。斐济最爱。提供批发价格。",
+			"seoKeywords": "BONGOS芝士, 芝士零食, 斐济泡芙, 烘焙零食",
+			"imageAlt": "BONGOS芝士零食包装"
 		},
 		"boja-king-cheese-snack-28oz": {
-			"name": "Boja King芝士零食",
-			"description": "斐济标志性芝士泡芙的家庭装。Boja King招牌芝士风味的慷慨份量，非常适合派对、家庭聚会分享，或为芝士泡芙爱好者储备。",
-			"seoTitle": "Boja King芝士泡芙 28oz家庭装 | A & S Distributors",
-			"seoDescription": "家庭装Boja King芝士泡芙，非常适合分享。提供批发价格。",
-			"seoKeywords": "Boja King家庭装, 芝士泡芙大包装, 斐济零食, 派对零食",
-			"imageAlt": "Boja King芝士零食零食包装"
+			"name": "BONGOS 芝士",
+			"description": "斐济标志性芝士泡芙的家庭装。BONGOS招牌芝士风味的慷慨份量，非常适合派对、家庭聚会分享，或为芝士泡芙爱好者储备。",
+			"seoTitle": "BONGOS 芝士泡芙 家庭装 | A & S Distributors",
+			"seoDescription": "家庭装BONGOS芝士泡芙，非常适合分享。提供批发价格。",
+			"seoKeywords": "BONGOS家庭装, 芝士泡芙大包装, 斐济零食, 派对零食",
+			"imageAlt": "BONGOS芝士零食包装"
 		},
 		"boja-king-chicken-snack-156oz": {
-			"name": "Boja King鸡肉味零食",
-			"description": "Boja King流行鸡肉味泡芙的超大批量包装。同样轻盈酥脆的质地，咸香鸡肉调味。非常适合零售商、活动或永远不想断货的Boja King真正粉丝。",
-			"seoTitle": "Boja King鸡肉泡芙 156oz批量装 | A & S Distributors",
-			"seoDescription": "批量Boja King鸡肉泡芙，咸香鸡肉风味。非常适合零售商。提供批发价格。",
-			"seoKeywords": "Boja King鸡肉批量, 鸡肉泡芙, 斐济零食批发",
-			"imageAlt": "Boja King鸡肉味零食零食包装"
+			"name": "BONGOS 鸡肉",
+			"description": "BONGOS流行鸡肉味泡芙的超大批量包装。同样轻盈酥脆的质地，咸香鸡肉调味。非常适合零售商、活动或永远不想断货的真正粉丝。",
+			"seoTitle": "BONGOS 鸡肉泡芙 批量装 | A & S Distributors",
+			"seoDescription": "批量BONGOS鸡肉泡芙，咸香鸡肉风味。非常适合零售商。提供批发价格。",
+			"seoKeywords": "BONGOS鸡肉批量, 鸡肉泡芙, 斐济零食批发",
+			"imageAlt": "BONGOS鸡肉零食包装"
 		},
 		"boja-king-chicken-snack-64oz": {
-			"name": "Boja King鸡肉味零食",
-			"description": "来自斐济深受喜爱的Boja King品牌的大包装鸡肉味玉米泡芙。咸香酥脆，令人满意，具有使Boja King成为太平洋岛屿标志的同样烘焙品质。",
-			"seoTitle": "Boja King鸡肉泡芙 64oz | A & S Distributors",
-			"seoDescription": "大包装Boja King鸡肉泡芙，咸香酥脆。提供批发价格。",
-			"seoKeywords": "Boja King鸡肉, 鸡肉零食, 斐济泡芙, 太平洋岛屿食品",
-			"imageAlt": "Boja King鸡肉味零食零食包装"
+			"name": "BONGOS 鸡肉",
+			"description": "来自斐济深受喜爱的BONGOS品牌的大包装鸡肉味玉米泡芙。咸香酥脆，令人满意，具有使BONGOS成为太平洋岛屿标志的同样烘焙品质。",
+			"seoTitle": "BONGOS 鸡肉泡芙 64oz | A & S Distributors",
+			"seoDescription": "大包装BONGOS鸡肉泡芙，咸香酥脆。提供批发价格。",
+			"seoKeywords": "BONGOS鸡肉, 鸡肉零食, 斐济泡芙, 太平洋岛屿食品",
+			"imageAlt": "BONGOS鸡肉零食包装"
 		},
 		"boja-king-chicken-snack-28oz": {
-			"name": "Boja King鸡肉味零食",
-			"description": "家庭装Boja King鸡肉泡芙。这些轻盈蓬松的零食用咸香鸡肉调味，吸引所有年龄段的人。太平洋岛屿家庭派对必备。",
-			"seoTitle": "Boja King鸡肉泡芙 28oz | A & S Distributors",
-			"seoDescription": "家庭装Boja King鸡肉泡芙。派对必备。提供批发价格。",
-			"seoKeywords": "Boja King鸡肉, 家庭零食, 斐济泡芙, 派对食品",
-			"imageAlt": "Boja King鸡肉味零食零食包装"
+			"name": "BONGOS 鸡肉",
+			"description": "家庭装BONGOS鸡肉泡芙。这些轻盈蓬松的零食用咸香鸡肉调味，吸引所有年龄段的人。太平洋岛屿家庭派对必备。",
+			"seoTitle": "BONGOS 鸡肉泡芙 家庭装 | A & S Distributors",
+			"seoDescription": "家庭装BONGOS鸡肉泡芙。派对必备。提供批发价格。",
+			"seoKeywords": "BONGOS鸡肉, 家庭零食, 斐济泡芙, 派对食品",
+			"imageAlt": "BONGOS鸡肉零食包装"
 		},
 		"boja-king-cheese-20gr": {
-			"name": "Boja King芝士",
-			"description": "斐济最爱芝士泡芙的单份包装。非常适合午餐盒、便利店或快速零食。同样美味的Boja King口味，份量控制的规格。",
-			"seoTitle": "Boja King芝士泡芙 20g单份装 | A & S Distributors",
-			"seoDescription": "单份Boja King芝士泡芙。非常适合午餐盒。提供批发价格。",
-			"seoKeywords": "Boja King单份, 芝士泡芙小包装, 斐济零食, 午餐盒零食",
-			"imageAlt": "Boja King芝士零食包装"
+			"name": "TWISTES 芝士",
+			"description": "斐济最爱芝士泡芙的单份包装。非常适合午餐盒、便利店或快速零食。同样美味的TWISTES口味，份量控制的规格。",
+			"seoTitle": "TWISTES 芝士泡芙 20g单份装 | A & S Distributors",
+			"seoDescription": "单份TWISTES芝士泡芙。非常适合午餐盒。提供批发价格。",
+			"seoKeywords": "TWISTES单份, 芝士泡芙小包装, 斐济零食, 午餐盒零食",
+			"imageAlt": "TWISTES芝士零食包装"
 		},
 		"boja-king-cheese-100gr": {
-			"name": "Boja King芝士",
-			"description": "个人享用份量的Boja King芝士泡芙。轻盈酥脆，充满芝士美味。这种中等规格是日常享用的选择。",
-			"seoTitle": "Boja King芝士泡芙 100g | A & S Distributors",
-			"seoDescription": "Boja King芝士泡芙 100g，完美个人规格。提供批发价格。",
-			"seoKeywords": "Boja King芝士, 芝士零食, 斐济泡芙, 个人规格",
-			"imageAlt": "Boja King芝士零食包装"
+			"name": "TWISTES 芝士",
+			"description": "个人享用份量的TWISTES芝士泡芙。轻盈酥脆，充满芝士美味。这种中等规格是日常享用的选择。",
+			"seoTitle": "TWISTES 芝士泡芙 100g | A & S Distributors",
+			"seoDescription": "TWISTES芝士泡芙 100g，完美个人规格。提供批发价格。",
+			"seoKeywords": "TWISTES芝士, 芝士零食, 斐济泡芙, 个人规格",
+			"imageAlt": "TWISTES芝士零食包装"
 		},
 		"boja-king-cheese-250gr": {
-			"name": "Boja King芝士",
-			"description": "Boja King传奇芝士泡芙的分享装。足够电影之夜、小型聚会或一周的零食。太平洋岛民喜爱超过三十年的芝士风味。",
-			"seoTitle": "Boja King芝士泡芙 250g分享装 | A & S Distributors",
-			"seoDescription": "分享装Boja King芝士泡芙 250g。非常适合聚会。提供批发价格。",
-			"seoKeywords": "Boja King分享装, 芝士泡芙, 斐济零食, 派对零食",
-			"imageAlt": "Boja King芝士零食包装"
+			"name": "TWISTES 芝士",
+			"description": "TWISTES传奇芝士泡芙的分享装。足够电影之夜、小型聚会或一周的零食。太平洋岛民喜爱超过三十年的芝士风味。",
+			"seoTitle": "TWISTES 芝士泡芙 250g分享装 | A & S Distributors",
+			"seoDescription": "分享装TWISTES芝士泡芙 250g。非常适合聚会。提供批发价格。",
+			"seoKeywords": "TWISTES分享装, 芝士泡芙, 斐济零食, 派对零食",
+			"imageAlt": "TWISTES芝士零食包装"
+		},
+		"twistes-cheese-500gr": {
+			"name": "TWISTES 芝士",
+			"description": "TWISTES芝士味泡芙的超大分享袋。由优质玉米和大米制成，烘焙至酥脆完美，裹着咸香芝士调味。为真正芝士泡芙爱好者和聚会准备的最大包装。",
+			"seoTitle": "TWISTES 芝士泡芙 500g | A & S Distributors",
+			"seoDescription": "TWISTES芝士泡芙 500g超大袋。烘焙芝士味。提供批发价格。",
+			"seoKeywords": "TWISTES芝士, 芝士泡芙大包装, 斐济零食, 烘焙零食",
+			"imageAlt": "TWISTES芝士零食包装"
 		},
 		"boja-king-chicken-20gr": {
-			"name": "Boja King鸡肉味",
-			"description": "口袋装鸡肉味Boja King泡芙。方便随时随地享用、学校午餐或自动售货。完美份量包装中的所有咸香鸡肉风味。",
-			"seoTitle": "Boja King鸡肉泡芙 20g | A & S Distributors",
-			"seoDescription": "口袋装Boja King鸡肉泡芙。随时随地零食。提供批发价格。",
-			"seoKeywords": "Boja King小包装, 鸡肉泡芙, 便利零食, 斐济食品",
-			"imageAlt": "Boja King鸡肉味零食包装"
+			"name": "TWISTES 鸡肉",
+			"description": "口袋装鸡肉味TWISTES泡芙。方便随时随地享用、学校午餐或自动售货。完美份量包装中的所有咸香鸡肉风味。",
+			"seoTitle": "TWISTES 鸡肉泡芙 20g | A & S Distributors",
+			"seoDescription": "口袋装TWISTES鸡肉泡芙。随时随地零食。提供批发价格。",
+			"seoKeywords": "TWISTES小包装, 鸡肉泡芙, 便利零食, 斐济食品",
+			"imageAlt": "TWISTES鸡肉零食包装"
 		},
 		"boja-king-chicken-28gr": {
-			"name": "Boja King鸡肉味",
-			"description": "Boja King流行鸡肉泡芙的个人份量。比20g包装稍大，这个规格提供更多满足感，同时保持完美便携。烘焙、清真认证、美味。",
-			"seoTitle": "Boja King鸡肉泡芙 28g | A & S Distributors",
-			"seoDescription": "个人份量Boja King鸡肉泡芙 28g。清真认证。提供批发价格。",
-			"seoKeywords": "Boja King个人装, 鸡肉零食, 清真泡芙, 斐济零食",
-			"imageAlt": "Boja King鸡肉味零食包装"
+			"name": "TWISTES 鸡肉",
+			"description": "TWISTES流行鸡肉泡芙的个人份量。比20g包装稍大，这个规格提供更多满足感，同时保持完美便携。烘焙、清真认证、美味。",
+			"seoTitle": "TWISTES 鸡肉泡芙 28g | A & S Distributors",
+			"seoDescription": "个人份量TWISTES鸡肉泡芙 28g。清真认证。提供批发价格。",
+			"seoKeywords": "TWISTES个人装, 鸡肉零食, 清真泡芙, 斐济零食",
+			"imageAlt": "TWISTES鸡肉零食包装"
 		},
 		"boja-king-chicken-100gr": {
-			"name": "Boja King鸡肉味",
-			"description": "个人规格的Boja King鸡肉泡芙。由优质玉米和大米制成，烘焙至酥脆完美，咸香鸡肉调味。日常零食享受的合适规格。",
-			"seoTitle": "Boja King鸡肉泡芙 100g | A & S Distributors",
-			"seoDescription": "个人规格Boja King鸡肉泡芙 100g。酥脆咸香。提供批发价格。",
-			"seoKeywords": "Boja King鸡肉, 烘焙泡芙, 斐济零食, 日常零食",
-			"imageAlt": "Boja King鸡肉味零食包装"
+			"name": "TWISTES 鸡肉",
+			"description": "个人规格的TWISTES鸡肉泡芙。由优质玉米和大米制成，烘焙至酥脆完美，咸香鸡肉调味。日常零食享受的合适规格。",
+			"seoTitle": "TWISTES 鸡肉泡芙 100g | A & S Distributors",
+			"seoDescription": "个人规格TWISTES鸡肉泡芙 100g。酥脆咸香。提供批发价格。",
+			"seoKeywords": "TWISTES鸡肉, 烘焙泡芙, 斐济零食, 日常零食",
+			"imageAlt": "TWISTES鸡肉零食包装"
+		},
+		"twistes-chicken-500gr": {
+			"name": "TWISTES 鸡肉",
+			"description": "TWISTES鸡肉味泡芙的超大分享袋。由优质玉米和大米制成，烘焙至酥脆完美，裹着咸香鸡肉调味。为鸡肉泡芙爱好者和聚会准备的最大包装。",
+			"seoTitle": "TWISTES 鸡肉泡芙 500g | A & S Distributors",
+			"seoDescription": "TWISTES鸡肉泡芙 500g超大袋。烘焙咸香鸡肉味。提供批发价格。",
+			"seoKeywords": "TWISTES鸡肉, 鸡肉泡芙大包装, 斐济零食, 烘焙零食",
+			"imageAlt": "TWISTES鸡肉零食包装"
 		},
 		"boja-king-ufo-burger-20gr": {
-			"name": "Boja King UFO汉堡味",
+			"name": "UFO's 汉堡",
 			"description": "有趣的飞碟形玉米零食，带有大胆的汉堡风味。UFO's是斐济的最爱，尤其受到喜欢独特形状和咸香口味的孩子们欢迎。单份规格非常适合午餐盒。",
-			"seoTitle": "Boja King UFO汉堡零食 20g | A & S Distributors",
-			"seoDescription": "Boja King UFO汉堡味零食。有趣形状，美味口感。提供批发价格。",
-			"seoKeywords": "Boja King UFO, 汉堡零食, 儿童零食, 斐济食品",
-			"imageAlt": "Boja King UFO汉堡味零食包装"
+			"seoTitle": "UFO's 汉堡零食 20g | A & S Distributors",
+			"seoDescription": "UFO's汉堡味零食。有趣形状，美味口感。提供批发价格。",
+			"seoKeywords": "UFO's汉堡, 汉堡零食, 儿童零食, 斐济食品",
+			"imageAlt": "UFO's汉堡零食包装"
 		},
 		"boja-king-ufo-burger-100gr": {
-			"name": "Boja King UFO汉堡味",
-			"description": "中等规格的UFO汉堡味玉米零食。独特的飞碟形状和咸香汉堡调味使UFO's成为南太平洋地区最受欢迎的零食之一。",
-			"seoTitle": "Boja King UFO汉堡零食 100g | A & S Distributors",
-			"seoDescription": "Boja King UFO汉堡零食 100g。南太平洋最爱。提供批发价格。",
-			"seoKeywords": "UFO零食, 汉堡风味, 斐济泡芙, 太平洋岛屿零食",
-			"imageAlt": "Boja King UFO汉堡味零食包装"
+			"name": "UFO's 汉堡",
+			"description": "中等规格的UFO's汉堡味玉米零食。独特的飞碟形状和咸香汉堡调味使UFO's成为南太平洋地区最受欢迎的零食之一。",
+			"seoTitle": "UFO's 汉堡零食 100g | A & S Distributors",
+			"seoDescription": "UFO's汉堡零食 100g。南太平洋最爱。提供批发价格。",
+			"seoKeywords": "UFO's零食, 汉堡风味, 斐济泡芙, 太平洋岛屿零食",
+			"imageAlt": "UFO's汉堡零食包装"
 		},
 		"boja-king-ufo-burger-200gr": {
-			"name": "Boja King UFO汉堡味",
-			"description": "斐济深受喜爱的UFO汉堡味零食的家庭装。这些飞碟形小点心提供酥脆咸香的满足感。非常适合分享或储备这种太平洋岛屿经典。",
-			"seoTitle": "Boja King UFO汉堡零食 200g家庭装 | A & S Distributors",
-			"seoDescription": "家庭装Boja King UFO汉堡零食。非常适合分享。提供批发价格。",
-			"seoKeywords": "UFO零食家庭装, 汉堡泡芙, 斐济零食, 太平洋岛屿食品",
-			"imageAlt": "Boja King UFO汉堡味零食包装"
+			"name": "UFO's 汉堡",
+			"description": "斐济深受喜爱的UFO's汉堡味零食的家庭装。这些飞碟形小点心提供酥脆咸香的满足感。非常适合分享或储备这种太平洋岛屿经典。",
+			"seoTitle": "UFO's 汉堡零食 200g家庭装 | A & S Distributors",
+			"seoDescription": "家庭装UFO's汉堡零食。非常适合分享。提供批发价格。",
+			"seoKeywords": "UFO's零食家庭装, 汉堡泡芙, 斐济零食, 太平洋岛屿食品",
+			"imageAlt": "UFO's汉堡零食包装"
 		},
 		"cadbury-crunchie-bars": {
 			"name": "Cadbury Crunchie巧克力棒",
@@ -1374,14 +1413,6 @@
 			"seoKeywords": "Weetbix 20oz, 全谷物麦片, 澳大利亚早餐, 健康麦片",
 			"imageAlt": "Weetbix早餐麦片盒装"
 		},
-		"weetbix-breakfast-cereal-26oz": {
-			"name": "Weetbix早餐麦片",
-			"description": "适合Weetbix爱好者和大家庭的超大Weetbix包装。澳大利亚人几代人信赖的同样全谷物饼干。低GI能量让您精力充沛到午餐时间。",
-			"seoTitle": "Weetbix早餐麦片 26oz超大装 | A & S Distributors",
-			"seoDescription": "超大Weetbix 26oz包装。全谷物，低GI能量。提供批发价格。",
-			"seoKeywords": "Weetbix大包装, 全谷物早餐, 澳大利亚麦片, 家庭麦片",
-			"imageAlt": "Weetbix早餐麦片盒装"
-		},
 		"weetbix-breakfast-cereal-2lb": {
 			"name": "Weetbix早餐麦片",
 			"description": "批量规格Weetbix，最大价值。储备这种几十年来为澳大利亚运动员和家庭提供能量的早餐麦片。97%全谷物小麦，含维生素和矿物质，开启强劲的一天。",
@@ -1438,28 +1469,12 @@
 			"seoKeywords": "Bushells茶, 澳大利亚茶, 散装红茶, 蓝标",
 			"imageAlt": "Bushells红茶盒装"
 		},
-		"bushells-black-tea-500gr": {
-			"name": "Bushells红茶",
-			"description": "适合每天欣赏优质红茶的家庭的大包装Bushells蓝标散装茶。精选茶叶带来醇厚风味。一个多世纪以来伴随澳大利亚人对话的茶。",
-			"seoTitle": "Bushells红茶 500g散装 | A & S Distributors",
-			"seoDescription": "Bushells蓝标红茶 500g家庭装。醇厚风味。提供批发价格。",
-			"seoKeywords": "Bushells茶 500g, 澳大利亚红茶, 散装茶, 批发茶",
-			"imageAlt": "Bushells红茶盒装"
-		},
 		"ceylon-black-tea-200gr": {
 			"name": "锡兰红茶",
 			"description": "来自斯里兰卡（锡兰）的优质红茶，以其明亮、清爽的风味和金黄茶汤享誉世界。这些散装茶叶冲泡出清新的茶汤，具有茶叶鉴赏家珍视的独特锡兰特色。",
 			"seoTitle": "锡兰红茶 200g散装 | A & S Distributors",
 			"seoDescription": "来自斯里兰卡的优质锡兰红茶 200g。明亮清爽的风味。提供批发价格。",
 			"seoKeywords": "锡兰茶, 斯里兰卡茶, 红茶, 优质散装茶",
-			"imageAlt": "锡兰红茶盒装"
-		},
-		"ceylon-black-tea-500gr": {
-			"name": "锡兰红茶",
-			"description": "适合真正茶叶爱好者的正宗锡兰红茶大包装。斯里兰卡茶因其品质和独特口味而闻名。这种大规格为日常饮茶者和餐饮服务提供极佳价值。",
-			"seoTitle": "锡兰红茶 500g批量装 | A & S Distributors",
-			"seoDescription": "锡兰红茶 500g批量装。正宗斯里兰卡品质。提供批发价格。",
-			"seoKeywords": "锡兰茶批量, 斯里兰卡茶大包装, 红茶批发, 散装茶",
 			"imageAlt": "锡兰红茶盒装"
 		},
 		"punjas-tea-masala": {
@@ -1582,14 +1597,6 @@
 			"seoKeywords": "辣味鸡肉香肠, 辣香肠, 辣椒香肠, 太平洋岛屿食品",
 			"imageAlt": "辣味鸡肉香肠包装"
 		},
-		"lamb-sausage-5lb": {
-			"name": "羊肉香肠",
-			"description": "用新西兰羊肉制成的优质羊肉香肠大包装。每一根都有浓郁独特的羊肉风味。这种大规格非常适合餐厅、餐饮和喜爱羊肉的家庭。",
-			"seoTitle": "羊肉香肠 5磅大包装 | A & S Distributors",
-			"seoDescription": "批量羊肉香肠 5磅装。优质新西兰羊肉。提供批发价格。",
-			"seoKeywords": "羊肉香肠批量, 新西兰羊肉香肠, 批发香肠",
-			"imageAlt": "羊肉香肠包装"
-		},
 		"lamb-sausage-2lb": {
 			"name": "羊肉香肠",
 			"description": "由优质新西兰羊肉制成的羊肉香肠便利零售包装。羊肉的独特风味在这些调味良好的香肠中得到体现。非常适合家庭烧烤和工作日晚餐。",
@@ -1613,6 +1620,14 @@
 			"seoDescription": "传统萨摩亚牛肉香肠。太平洋岛屿最爱。提供批发价格。",
 			"seoKeywords": "萨摩亚香肠, 牛肉香肠, 太平洋岛屿香肠, 萨摩亚食品",
 			"imageAlt": "萨摩亚牛肉香肠包装"
+		},
+		"samoan-pork-bangers": {
+			"name": "萨摩亚猪肉香肠",
+			"description": "带有太平洋岛屿调味的传统萨摩亚风格猪肉香肠。这些丰盛的香肠非常适合萨摩亚聚会和烧烤。多汁的猪肉香肠，带有正宗岛屿风味。",
+			"seoTitle": "萨摩亚猪肉香肠 | A & S Distributors",
+			"seoDescription": "传统萨摩亚猪肉香肠。太平洋岛屿最爱。提供批发价格。",
+			"seoKeywords": "萨摩亚香肠, 猪肉香肠, 太平洋岛屿香肠, 萨摩亚食品",
+			"imageAlt": "萨摩亚猪肉香肠包装"
 		},
 		"fish-kawa-kawa": {
 			"name": "卡瓦卡瓦鱼",
@@ -1757,14 +1772,6 @@
 			"seoDescription": "新鲜杜鲁卡，斐济芦笋美味。细腻甜美风味。提供批发价格。",
 			"seoKeywords": "杜鲁卡, 斐济芦笋, 斐济蔬菜, 太平洋美味",
 			"imageAlt": "新鲜杜鲁卡"
-		},
-		"breadfruit-1kg": {
-			"name": "面包果",
-			"description": "方便份量的冷冻面包果。这种淀粉质水果煮熟后具有类似面包的质地，可以烘烤、煮、炸或捣碎。几千年来支撑岛民的可持续太平洋岛屿主食。",
-			"seoTitle": "冷冻面包果 1kg | A & S Distributors",
-			"seoDescription": "冷冻面包果 1kg份量。类似面包的质地。提供批发价格。",
-			"seoKeywords": "面包果, ulu, 太平洋水果, 太平洋岛屿食品",
-			"imageAlt": "新鲜面包果"
 		},
 		"breadfruit-5lb": {
 			"name": "面包果",

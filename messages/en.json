@@ -158,7 +158,8 @@
 		"sausages": "Sausages",
 		"white-meats": "White Meats",
 		"root-vegetables": "Root Vegetables",
-		"misc-frozen-fresh": "Misc. Frozen & Fresh"
+		"misc-frozen-fresh": "Misc. Frozen & Fresh",
+		"drinks": "Drinks"
 	},
 	"categorySeo": {
 		"corned-beef": {
@@ -192,16 +193,16 @@
 			"keywords": "FMF breakfast crackers, Fiji crackers, SAO crackers, wholesale crackers, Pacific Island crackers"
 		},
 		"snacks": {
-			"title": "Snacks - Boja King & Pacific Island Mixes | A & S Distributors",
-			"description": "Popular snacks including Boja King cheese and chicken flavored snacks, traditional mixes like Fiji Mix, Punjabi Mix, and more.",
-			"pageDescription": "Discover the unique flavors of Pacific Island snacking. From Boja King flavored snacks to traditional spiced mixes and fried peas.",
-			"keywords": "Boja King snacks, Fiji mix, Punjabi mix, fried peas, Pacific snacks, wholesale snacks, cheese snacks"
+			"title": "Snacks - BONGOS, TWISTES, UFO's & Pacific Island Mixes | A & S Distributors",
+			"description": "Popular snacks including BONGOS, TWISTES, and UFO's cheese and chicken flavored snacks, Jasons Peanut Ruffs, traditional mixes like Fiji Mix, Punjabi Mix, and more.",
+			"pageDescription": "Discover the unique flavors of Pacific Island snacking. From BONGOS, TWISTES, and UFO's flavored snacks to Jasons Peanut Ruffs, traditional spiced mixes and fried peas.",
+			"keywords": "BONGOS snacks, TWISTES snacks, UFO's snacks, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, fried peas, Pacific snacks, wholesale snacks"
 		},
 		"candies": {
-			"title": "Candies - Cadbury & Jasons Peanut Ruffs | A & S Distributors",
-			"description": "Popular chocolate bars including Cadbury varieties and the beloved Jasons Peanut Ruffs from the Pacific Islands.",
-			"pageDescription": "Sweet treats from Australia and the Pacific. Cadbury chocolate bars and the iconic Jasons Peanut Ruffs candy.",
-			"keywords": "Cadbury chocolate, Jasons Peanut Ruffs, Pacific candy, Australian chocolate, wholesale candy"
+			"title": "Candies - Cadbury Chocolate Bars | A & S Distributors",
+			"description": "Popular Cadbury chocolate bars including Crunchie, Dream, Fruit & Nut, and Dairy Milk varieties.",
+			"pageDescription": "Sweet treats from Australia. Cadbury chocolate bars in your favorite varieties.",
+			"keywords": "Cadbury chocolate, Crunchie bars, Dairy Milk, Australian chocolate, wholesale candy"
 		},
 		"pickles-spices": {
 			"title": "Pickles & Spices - Curry Powder & Chutneys | A & S Distributors",
@@ -252,10 +253,16 @@
 			"keywords": "taro, cassava, breadfruit, Pacific vegetables, Fiji vegetables, frozen taro, wholesale root vegetables"
 		},
 		"misc-frozen-fresh": {
-			"title": "Misc. Frozen & Fresh - Ice Cream, Butter & Juices | A & S Distributors",
-			"description": "Various frozen and fresh products including Tuckers ice cream, Anchor butter, Sunquick juice concentrates, and more.",
-			"pageDescription": "A variety of frozen and fresh products from the Pacific. Ice cream, butter, juice concentrates, paranthas, and more.",
-			"keywords": "Tuckers ice cream, Anchor butter, Sunquick juice, Bula Noni, frozen products, wholesale frozen"
+			"title": "Misc. Frozen & Fresh - Ice Cream, Butter & More | A & S Distributors",
+			"description": "Various frozen and fresh products including Tuckers ice cream, Anchor butter, paranthas, and more.",
+			"pageDescription": "A variety of frozen and fresh products from the Pacific. Ice cream, butter, paranthas, and more.",
+			"keywords": "Tuckers ice cream, Anchor butter, frozen products, wholesale frozen, paranthas"
+		},
+		"drinks": {
+			"title": "Drinks - Juice Concentrates & Noni | A & S Distributors",
+			"description": "Refreshing beverages including Sunquick juice concentrates, Bula Noni from Fiji, and cordial drinks. Tropical flavors for every occasion.",
+			"pageDescription": "Tropical beverages from the Pacific. Sunquick juice concentrates in tropical, orange, and mango flavors, plus Bula Noni wellness juice and refreshing cordials.",
+			"keywords": "Sunquick juice, Bula Noni, cordial drinks, tropical beverages, juice concentrate, Pacific drinks, wholesale beverages"
 		}
 	},
 	"breadcrumb": {
@@ -374,14 +381,6 @@
 			"seoKeywords": "halal corned mutton, Globe mutton, halal meat, wholesale halal",
 			"imageAlt": "Can of Globe Corned Mutton (Halal)"
 		},
-		"globe-corned-mutton-regular": {
-			"name": "Globe Corned Mutton",
-			"description": "Globe corned mutton in regular preparation. Quality mutton with savory flavor, perfect for traditional Pacific Island cooking.",
-			"seoTitle": "Globe Corned Mutton Regular | A & S Distributors",
-			"seoDescription": "Globe corned mutton, quality preparation for traditional recipes. Wholesale pricing available.",
-			"seoKeywords": "corned mutton, Globe mutton, Pacific Island food, wholesale mutton",
-			"imageAlt": "Can of Globe Corned Mutton"
-		},
 		"angel-mackerel-natural-oil": {
 			"name": "Angel Mackerel in Natural Oil",
 			"description": "Quality canned mackerel packed in natural oil. Angel brand is known for its premium fish products. Perfect for salads, sandwiches, and traditional Pacific Island recipes.",
@@ -445,14 +444,6 @@
 			"seoDescription": "Skipper brand tuna in vegetable oil. Quality canned tuna. Wholesale pricing available.",
 			"seoKeywords": "Skipper tuna, canned tuna, tuna in oil, wholesale tuna",
 			"imageAlt": "Can of Skipper Tuna in Vegetable Oil"
-		},
-		"la-pana-tongol-chunk-tuna": {
-			"name": "L'a Pana Tongol Chunk Tuna",
-			"description": "L'a Pana brand Tongol chunk tuna. Premium quality tuna with firm texture and mild flavor. Perfect for tuna salads, sandwiches, and Pacific Island recipes.",
-			"seoTitle": "L'a Pana Tongol Chunk Tuna | A & S Distributors",
-			"seoDescription": "L'a Pana Tongol chunk tuna. Premium quality canned tuna. Wholesale pricing available.",
-			"seoKeywords": "Tongol tuna, chunk tuna, L'a Pana tuna, wholesale tuna",
-			"imageAlt": "Can of L'a Pana Tongol Chunk Tuna"
 		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Coconut Milk",
@@ -606,6 +597,14 @@
 			"seoKeywords": "Tim Tam mint, mint chocolate biscuits, Arnott's mint, Australian chocolate",
 			"imageAlt": "Package of Tim Tam Mint cookies"
 		},
+		"shortbread-cream": {
+			"name": "Shortbread Cream",
+			"description": "A delicious cream-filled shortbread biscuit combining buttery shortbread with a smooth cream center. These classic biscuits offer a perfect balance of rich butter flavor and sweet cream filling. A wonderful accompaniment to tea or coffee.",
+			"seoTitle": "Shortbread Cream Biscuits | A & S Distributors",
+			"seoDescription": "Shortbread Cream biscuits with smooth cream filling. Classic and delicious. Wholesale pricing available.",
+			"seoKeywords": "shortbread cream, cream biscuits, filled cookies, wholesale biscuits",
+			"imageAlt": "Package of Shortbread Cream cookies"
+		},
 		"shortbread-plain": {
 			"name": "Shortbread Plain",
 			"description": "Traditional Scottish-style shortbread made with simple, quality ingredients: butter, sugar, and flour. These golden, crumbly biscuits have a rich buttery flavor and melt-in-your-mouth texture that pairs perfectly with tea.",
@@ -646,13 +645,13 @@
 			"seoKeywords": "FMF crackers, Fiji crackers, breakfast crackers, Pacific Island food, wholesale crackers",
 			"imageAlt": "Package of FMF Breakfast Crackers"
 		},
-		"fmf-breakfast-crackers-8oz": {
-			"name": "FMF Breakfast Crackers",
+		"fmf-breakfast-crackers-fine": {
+			"name": "FMF Breakfast Crackers Fine",
 			"description": "The smaller pack of Fiji's most iconic cracker. Same great taste that has made FMF Breakfast Crackers a household name since 1973. Light, crunchy, and perfect for a quick snack or alongside your favorite spreads and dips.",
-			"seoTitle": "FMF Breakfast Crackers 8oz | A & S Distributors",
-			"seoDescription": "FMF Breakfast Crackers in convenient 8oz size. Fiji's iconic cracker. Wholesale pricing available.",
-			"seoKeywords": "FMF breakfast crackers, Fiji crackers, light crackers, Pacific snacks",
-			"imageAlt": "Package of FMF Breakfast Crackers"
+			"seoTitle": "FMF Breakfast Crackers Fine | A & S Distributors",
+			"seoDescription": "FMF Breakfast Crackers Fine, Fiji's iconic cracker in a convenient size. Wholesale pricing available.",
+			"seoKeywords": "FMF breakfast crackers, Fiji crackers, fine crackers, Pacific snacks",
+			"imageAlt": "Package of FMF Breakfast Crackers Fine"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Breakfast Crackers",
@@ -823,124 +822,140 @@
 			"imageAlt": "Package of Fix Mix Spicy"
 		},
 		"boja-king-cheese-snack-56gr": {
-			"name": "Boja King Cheese Snack",
-			"description": "Light and airy corn puffs bursting with real cheese flavor. Boja King has been a favorite across the Pacific for over 30 years. These baked (not fried) snacks are halal certified and perfect for on-the-go snacking.",
-			"seoTitle": "Boja King Cheese Puffs 56g | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs, baked with real cheese flavor. Pacific Island favorite. Wholesale pricing available.",
-			"seoKeywords": "Boja King cheese, cheese puffs, Fiji snacks, halal snacks",
-			"imageAlt": "Package of Boja King Cheese Snack"
+			"name": "BONGOS Cheese Snack",
+			"description": "Light and airy corn puffs bursting with real cheese flavor. BONGOS has been a favorite across the Pacific for over 30 years. These baked (not fried) snacks are halal certified and perfect for on-the-go snacking.",
+			"seoTitle": "BONGOS Cheese Puffs | A & S Distributors",
+			"seoDescription": "BONGOS Cheese puffs, baked with real cheese flavor. Pacific Island favorite. Wholesale pricing available.",
+			"seoKeywords": "BONGOS cheese, cheese puffs, Fiji snacks, halal snacks",
+			"imageAlt": "Package of BONGOS Cheese Snack"
 		},
 		"boja-king-cheese-snack-64gr": {
-			"name": "Boja King Cheese Snack",
-			"description": "Crunchy corn puffs coated in savory cheese seasoning. This mid-size pack of Boja King is perfect for individual snacking. Made from corn and rice, baked for a lighter crunch that has made it Fiji's favorite snack for decades.",
-			"seoTitle": "Boja King Cheese Puffs 64g | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs 64g, crunchy and cheesy. Fiji's favorite. Wholesale pricing available.",
-			"seoKeywords": "Boja King cheese, cheese snacks, Fiji puffs, baked snacks",
-			"imageAlt": "Package of Boja King Cheese Snack"
+			"name": "BONGOS Cheese Snack",
+			"description": "Crunchy corn puffs coated in savory cheese seasoning. This mid-size pack of BONGOS is perfect for individual snacking. Made from corn and rice, baked for a lighter crunch that has made it Fiji's favorite snack for decades.",
+			"seoTitle": "BONGOS Cheese Puffs 64g | A & S Distributors",
+			"seoDescription": "BONGOS Cheese puffs 64g, crunchy and cheesy. Fiji's favorite. Wholesale pricing available.",
+			"seoKeywords": "BONGOS cheese, cheese snacks, Fiji puffs, baked snacks",
+			"imageAlt": "Package of BONGOS Cheese Snack"
 		},
 		"boja-king-cheese-snack-28oz": {
-			"name": "Boja King Cheese Snack",
-			"description": "Family-size pack of Fiji's iconic cheese puffs. Boja King's signature cheese flavor in a generous portion perfect for sharing at parties, family gatherings, or stocking up for cheese puff enthusiasts.",
-			"seoTitle": "Boja King Cheese Puffs 28oz Family Size | A & S Distributors",
-			"seoDescription": "Family-size Boja King Cheese puffs, perfect for sharing. Wholesale pricing available.",
-			"seoKeywords": "Boja King family size, cheese puffs bulk, Fiji snacks, party snacks",
-			"imageAlt": "Package of Boja King Cheese Snack"
+			"name": "BONGOS Cheese Snack",
+			"description": "Family-size pack of Fiji's iconic cheese puffs. BONGOS signature cheese flavor in a generous portion perfect for sharing at parties, family gatherings, or stocking up for cheese puff enthusiasts.",
+			"seoTitle": "BONGOS Cheese Puffs Family Size | A & S Distributors",
+			"seoDescription": "Family-size BONGOS Cheese puffs, perfect for sharing. Wholesale pricing available.",
+			"seoKeywords": "BONGOS family size, cheese puffs bulk, Fiji snacks, party snacks",
+			"imageAlt": "Package of BONGOS Cheese Snack"
 		},
 		"boja-king-chicken-snack-156oz": {
-			"name": "Boja King Chicken Snack",
-			"description": "Extra-large bulk pack of Boja King's popular chicken-flavored puffs. Same light, crunchy texture with savory chicken seasoning. Ideal for retailers, events, or serious Boja King fans who never want to run out.",
-			"seoTitle": "Boja King Chicken Puffs 156oz Bulk | A & S Distributors",
-			"seoDescription": "Bulk Boja King Chicken puffs, savory chicken flavor. Perfect for retailers. Wholesale pricing available.",
-			"seoKeywords": "Boja King chicken bulk, chicken puffs, Fiji snacks wholesale",
-			"imageAlt": "Package of Boja King Chicken Snack"
+			"name": "BONGOS Chicken Snack",
+			"description": "Extra-large bulk pack of BONGOS popular chicken-flavored puffs. Same light, crunchy texture with savory chicken seasoning. Ideal for retailers, events, or serious fans who never want to run out.",
+			"seoTitle": "BONGOS Chicken Puffs Bulk | A & S Distributors",
+			"seoDescription": "Bulk BONGOS Chicken puffs, savory chicken flavor. Perfect for retailers. Wholesale pricing available.",
+			"seoKeywords": "BONGOS chicken bulk, chicken puffs, Fiji snacks wholesale",
+			"imageAlt": "Package of BONGOS Chicken Snack"
 		},
 		"boja-king-chicken-snack-64oz": {
-			"name": "Boja King Chicken Snack",
-			"description": "Large pack of chicken-flavored corn puffs from Fiji's beloved Boja King brand. Savory, crunchy, and satisfying with the same baked quality that has made Boja King a Pacific Island institution.",
-			"seoTitle": "Boja King Chicken Puffs 64oz | A & S Distributors",
-			"seoDescription": "Large Boja King Chicken puffs pack, savory and crunchy. Wholesale pricing available.",
-			"seoKeywords": "Boja King chicken, chicken snacks, Fiji puffs, Pacific Island food",
-			"imageAlt": "Package of Boja King Chicken Snack"
+			"name": "BONGOS Chicken Snack",
+			"description": "Large pack of chicken-flavored corn puffs from Fiji's beloved BONGOS brand. Savory, crunchy, and satisfying with the same baked quality that has made it a Pacific Island institution.",
+			"seoTitle": "BONGOS Chicken Puffs 64g | A & S Distributors",
+			"seoDescription": "Large BONGOS Chicken puffs pack, savory and crunchy. Wholesale pricing available.",
+			"seoKeywords": "BONGOS chicken, chicken snacks, Fiji puffs, Pacific Island food",
+			"imageAlt": "Package of BONGOS Chicken Snack"
 		},
 		"boja-king-chicken-snack-28oz": {
-			"name": "Boja King Chicken Snack",
-			"description": "Family-size bag of Boja King chicken puffs. These light, airy snacks are seasoned with savory chicken flavoring that appeals to all ages. A party essential in Pacific Island households.",
-			"seoTitle": "Boja King Chicken Puffs 28oz | A & S Distributors",
-			"seoDescription": "Family-size Boja King Chicken puffs. Party essential. Wholesale pricing available.",
-			"seoKeywords": "Boja King chicken, family snacks, Fiji puffs, party food",
-			"imageAlt": "Package of Boja King Chicken Snack"
+			"name": "BONGOS Chicken Snack",
+			"description": "Family-size bag of BONGOS chicken puffs. These light, airy snacks are seasoned with savory chicken flavoring that appeals to all ages. A party essential in Pacific Island households.",
+			"seoTitle": "BONGOS Chicken Puffs Family Size | A & S Distributors",
+			"seoDescription": "Family-size BONGOS Chicken puffs. Party essential. Wholesale pricing available.",
+			"seoKeywords": "BONGOS chicken, family snacks, Fiji puffs, party food",
+			"imageAlt": "Package of BONGOS Chicken Snack"
 		},
 		"boja-king-cheese-20gr": {
-			"name": "Boja King Cheese",
-			"description": "Single-serve pack of Fiji's favorite cheese puffs. Perfect for lunch boxes, convenience stores, or quick snacking. The same great Boja King taste in a portion-controlled size.",
-			"seoTitle": "Boja King Cheese Puffs 20g Single Serve | A & S Distributors",
-			"seoDescription": "Single-serve Boja King Cheese puffs. Perfect for lunch boxes. Wholesale pricing available.",
-			"seoKeywords": "Boja King single serve, cheese puffs small, Fiji snacks, lunch box snacks",
-			"imageAlt": "Package of Boja King Cheese snack"
+			"name": "TWISTES Cheese",
+			"description": "Single-serve pack of Fiji's favorite cheese puffs. Perfect for lunch boxes, convenience stores, or quick snacking. The same great TWISTES taste in a portion-controlled size.",
+			"seoTitle": "TWISTES Cheese Puffs 20g Single Serve | A & S Distributors",
+			"seoDescription": "Single-serve TWISTES Cheese puffs. Perfect for lunch boxes. Wholesale pricing available.",
+			"seoKeywords": "TWISTES single serve, cheese puffs small, Fiji snacks, lunch box snacks",
+			"imageAlt": "Package of TWISTES Cheese snack"
 		},
 		"boja-king-cheese-100gr": {
-			"name": "Boja King Cheese",
-			"description": "A satisfying portion of Boja King cheese puffs for personal snacking. Light, crunchy, and packed with cheesy goodness. This mid-size bag is the choice for everyday enjoyment.",
-			"seoTitle": "Boja King Cheese Puffs 100g | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs 100g, perfect personal size. Wholesale pricing available.",
-			"seoKeywords": "Boja King cheese, cheese snacks, Fiji puffs, personal size",
-			"imageAlt": "Package of Boja King Cheese snack"
+			"name": "TWISTES Cheese",
+			"description": "A satisfying portion of TWISTES cheese puffs for personal snacking. Light, crunchy, and packed with cheesy goodness. This mid-size bag is the choice for everyday enjoyment.",
+			"seoTitle": "TWISTES Cheese Puffs 100g | A & S Distributors",
+			"seoDescription": "TWISTES Cheese puffs 100g, perfect personal size. Wholesale pricing available.",
+			"seoKeywords": "TWISTES cheese, cheese snacks, Fiji puffs, personal size",
+			"imageAlt": "Package of TWISTES Cheese snack"
 		},
 		"boja-king-cheese-250gr": {
-			"name": "Boja King Cheese",
-			"description": "Sharing-size pack of Boja King's legendary cheese puffs. Enough for movie nights, small gatherings, or a week of snacking. The cheese flavor that Pacific Islanders have loved for over three decades.",
-			"seoTitle": "Boja King Cheese Puffs 250g Sharing Size | A & S Distributors",
-			"seoDescription": "Sharing-size Boja King Cheese puffs 250g. Perfect for gatherings. Wholesale pricing available.",
-			"seoKeywords": "Boja King sharing size, cheese puffs, Fiji snacks, party snacks",
-			"imageAlt": "Package of Boja King Cheese snack"
+			"name": "TWISTES Cheese",
+			"description": "Sharing-size pack of TWISTES legendary cheese puffs. Enough for movie nights, small gatherings, or a week of snacking. The cheese flavor that Pacific Islanders have loved for over three decades.",
+			"seoTitle": "TWISTES Cheese Puffs 250g Sharing Size | A & S Distributors",
+			"seoDescription": "Sharing-size TWISTES Cheese puffs 250g. Perfect for gatherings. Wholesale pricing available.",
+			"seoKeywords": "TWISTES sharing size, cheese puffs, Fiji snacks, party snacks",
+			"imageAlt": "Package of TWISTES Cheese snack"
+		},
+		"twistes-cheese-500gr": {
+			"name": "TWISTES Cheese",
+			"description": "Extra-large sharing bag of TWISTES cheese-flavored puffs. Made from quality corn and rice, baked to crunchy perfection with savory cheese seasoning. The biggest pack available for serious cheese puff fans and gatherings.",
+			"seoTitle": "TWISTES Cheese Puffs 500g | A & S Distributors",
+			"seoDescription": "TWISTES Cheese puffs 500g extra-large bag. Baked and cheesy. Wholesale pricing available.",
+			"seoKeywords": "TWISTES cheese, cheese puffs large, Fiji snacks, baked snacks",
+			"imageAlt": "Package of TWISTES Cheese snack"
 		},
 		"boja-king-chicken-20gr": {
-			"name": "Boja King Chicken",
-			"description": "Pocket-size pack of chicken-flavored Boja King puffs. Convenient for on-the-go snacking, school lunches, or vending. All the savory chicken taste in a perfectly portioned package.",
-			"seoTitle": "Boja King Chicken Puffs 20g | A & S Distributors",
-			"seoDescription": "Pocket-size Boja King Chicken puffs. On-the-go snacking. Wholesale pricing available.",
-			"seoKeywords": "Boja King small, chicken puffs, convenience snacks, Fiji food",
-			"imageAlt": "Package of Boja King Chicken snack"
+			"name": "TWISTES Chicken",
+			"description": "Pocket-size pack of chicken-flavored TWISTES puffs. Convenient for on-the-go snacking, school lunches, or vending. All the savory chicken taste in a perfectly portioned package.",
+			"seoTitle": "TWISTES Chicken Puffs 20g | A & S Distributors",
+			"seoDescription": "Pocket-size TWISTES Chicken puffs. On-the-go snacking. Wholesale pricing available.",
+			"seoKeywords": "TWISTES small, chicken puffs, convenience snacks, Fiji food",
+			"imageAlt": "Package of TWISTES Chicken snack"
 		},
 		"boja-king-chicken-28gr": {
-			"name": "Boja King Chicken",
-			"description": "Individual serving of Boja King's popular chicken puffs. Slightly larger than the 20g pack, this size offers more satisfaction while remaining perfectly portable. Baked, halal certified, and delicious.",
-			"seoTitle": "Boja King Chicken Puffs 28g | A & S Distributors",
-			"seoDescription": "Individual Boja King Chicken puffs 28g. Halal certified. Wholesale pricing available.",
-			"seoKeywords": "Boja King individual, chicken snacks, halal puffs, Fiji snacks",
-			"imageAlt": "Package of Boja King Chicken snack"
+			"name": "TWISTES Chicken",
+			"description": "Individual serving of TWISTES popular chicken puffs. Slightly larger than the 20g pack, this size offers more satisfaction while remaining perfectly portable. Baked, halal certified, and delicious.",
+			"seoTitle": "TWISTES Chicken Puffs 28g | A & S Distributors",
+			"seoDescription": "Individual TWISTES Chicken puffs 28g. Halal certified. Wholesale pricing available.",
+			"seoKeywords": "TWISTES individual, chicken snacks, halal puffs, Fiji snacks",
+			"imageAlt": "Package of TWISTES Chicken snack"
 		},
 		"boja-king-chicken-100gr": {
-			"name": "Boja King Chicken",
-			"description": "Personal-size bag of Boja King chicken puffs. Made from quality corn and rice, baked to crunchy perfection with savory chicken seasoning. The right size for everyday snacking enjoyment.",
-			"seoTitle": "Boja King Chicken Puffs 100g | A & S Distributors",
-			"seoDescription": "Personal-size Boja King Chicken puffs 100g. Crunchy and savory. Wholesale pricing available.",
-			"seoKeywords": "Boja King chicken, baked puffs, Fiji snacks, everyday snacks",
-			"imageAlt": "Package of Boja King Chicken snack"
+			"name": "TWISTES Chicken",
+			"description": "Personal-size bag of TWISTES chicken puffs. Made from quality corn and rice, baked to crunchy perfection with savory chicken seasoning. The right size for everyday snacking enjoyment.",
+			"seoTitle": "TWISTES Chicken Puffs 100g | A & S Distributors",
+			"seoDescription": "Personal-size TWISTES Chicken puffs 100g. Crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "TWISTES chicken, baked puffs, Fiji snacks, everyday snacks",
+			"imageAlt": "Package of TWISTES Chicken snack"
+		},
+		"twistes-chicken-500gr": {
+			"name": "TWISTES Chicken",
+			"description": "Extra-large sharing bag of TWISTES chicken-flavored puffs. Made from quality corn and rice, baked to crunchy perfection with savory chicken seasoning. The biggest pack available for chicken puff enthusiasts and gatherings.",
+			"seoTitle": "TWISTES Chicken Puffs 500g | A & S Distributors",
+			"seoDescription": "TWISTES Chicken puffs 500g extra-large bag. Baked with savory chicken flavor. Wholesale pricing available.",
+			"seoKeywords": "TWISTES chicken, chicken puffs large, Fiji snacks, baked snacks",
+			"imageAlt": "Package of TWISTES Chicken snack"
 		},
 		"boja-king-ufo-burger-20gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Burger",
 			"description": "Fun, flying saucer-shaped corn snacks with bold burger flavor. UFO's are a Fiji favorite, especially with kids who love the unique shape and savory taste. Single-serve size perfect for lunch boxes.",
-			"seoTitle": "Boja King UFO Burger Snacks 20g | A & S Distributors",
-			"seoDescription": "Boja King UFO burger-flavored snacks. Fun shape, great taste. Wholesale pricing available.",
-			"seoKeywords": "Boja King UFO, burger snacks, kids snacks, Fiji food",
-			"imageAlt": "Package of Boja King UFO's Burger snack"
+			"seoTitle": "UFO's Burger Snacks 20g | A & S Distributors",
+			"seoDescription": "UFO's burger-flavored snacks. Fun shape, great taste. Wholesale pricing available.",
+			"seoKeywords": "UFO's burger, burger snacks, kids snacks, Fiji food",
+			"imageAlt": "Package of UFO's Burger snack"
 		},
 		"boja-king-ufo-burger-100gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Burger",
 			"description": "Mid-size bag of UFO's burger-flavored corn snacks. The distinctive saucer shape and savory burger seasoning have made UFO's one of the most popular snacks in the South Pacific region.",
-			"seoTitle": "Boja King UFO Burger Snacks 100g | A & S Distributors",
-			"seoDescription": "Boja King UFO burger snacks 100g. South Pacific favorite. Wholesale pricing available.",
+			"seoTitle": "UFO's Burger Snacks 100g | A & S Distributors",
+			"seoDescription": "UFO's burger snacks 100g. South Pacific favorite. Wholesale pricing available.",
 			"seoKeywords": "UFO snacks, burger flavor, Fiji puffs, Pacific Island snacks",
-			"imageAlt": "Package of Boja King UFO's Burger snack"
+			"imageAlt": "Package of UFO's Burger snack"
 		},
 		"boja-king-ufo-burger-200gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Burger",
 			"description": "Family-size pack of Fiji's beloved UFO's burger-flavored snacks. These flying saucer-shaped treats deliver crunchy, savory satisfaction. Perfect for sharing or stocking up on this Pacific Island classic.",
-			"seoTitle": "Boja King UFO Burger Snacks 200g Family | A & S Distributors",
-			"seoDescription": "Family-size Boja King UFO burger snacks. Perfect for sharing. Wholesale pricing available.",
+			"seoTitle": "UFO's Burger Snacks 200g Family | A & S Distributors",
+			"seoDescription": "Family-size UFO's burger snacks. Perfect for sharing. Wholesale pricing available.",
 			"seoKeywords": "UFO snacks family, burger puffs, Fiji snacks, Pacific Island food",
-			"imageAlt": "Package of Boja King UFO's Burger snack"
+			"imageAlt": "Package of UFO's Burger snack"
 		},
 		"cadbury-crunchie-bars": {
 			"name": "Cadbury Crunchie Bars",
@@ -1230,14 +1245,6 @@
 			"seoKeywords": "Weetbix 20oz, whole grain cereal, Australian breakfast, healthy cereal",
 			"imageAlt": "Box of Weetbix Breakfast Cereal"
 		},
-		"weetbix-breakfast-cereal-26oz": {
-			"name": "Weetbix Breakfast Cereal",
-			"description": "Extra-large Weetbix pack for Weetbix enthusiasts and larger families. The same whole grain biscuits Australians have trusted for generations. Low GI energy that keeps you going until lunch.",
-			"seoTitle": "Weetbix Breakfast Cereal 26oz Extra Large | A & S Distributors",
-			"seoDescription": "Extra-large Weetbix 26oz pack. Whole grain, low GI energy. Wholesale pricing available.",
-			"seoKeywords": "Weetbix large, whole grain breakfast, Australian cereal, family cereal",
-			"imageAlt": "Box of Weetbix Breakfast Cereal"
-		},
 		"weetbix-breakfast-cereal-2lb": {
 			"name": "Weetbix Breakfast Cereal",
 			"description": "Bulk format Weetbix for maximum value. Stock up on the breakfast cereal that has fueled Australian athletes and families for decades. 97% whole grain wheat with vitamins and minerals for a strong start.",
@@ -1318,28 +1325,12 @@
 			"seoKeywords": "Bushells tea, Australian tea, loose leaf black tea, Blue Label",
 			"imageAlt": "Box of Bushells Black Tea"
 		},
-		"bushells-black-tea-500gr": {
-			"name": "Bushells Black Tea",
-			"description": "Larger pack of Bushells Blue Label loose leaf tea for households that appreciate quality black tea daily. Full-bodied flavor from carefully selected leaves. The tea that has accompanied Australian conversations for over a century.",
-			"seoTitle": "Bushells Black Tea 500g Loose Leaf | A & S Distributors",
-			"seoDescription": "Bushells Blue Label black tea 500g family size. Full-bodied flavor. Wholesale pricing available.",
-			"seoKeywords": "Bushells tea 500g, Australian black tea, loose leaf tea, wholesale tea",
-			"imageAlt": "Box of Bushells Black Tea"
-		},
 		"ceylon-black-tea-200gr": {
 			"name": "Ceylon Black Tea",
 			"description": "Premium black tea from Sri Lanka (Ceylon), renowned worldwide for its bright, brisk flavor and golden liquor. These loose tea leaves steep into a refreshing cup with the distinctive Ceylon character prized by tea connoisseurs.",
 			"seoTitle": "Ceylon Black Tea 200g Loose Leaf | A & S Distributors",
 			"seoDescription": "Premium Ceylon black tea 200g from Sri Lanka. Bright, brisk flavor. Wholesale pricing available.",
 			"seoKeywords": "Ceylon tea, Sri Lanka tea, black tea, premium loose leaf",
-			"imageAlt": "Box of Ceylon Black Tea"
-		},
-		"ceylon-black-tea-500gr": {
-			"name": "Ceylon Black Tea",
-			"description": "Bulk pack of authentic Ceylon black tea for true tea enthusiasts. Sri Lankan tea is celebrated for its quality and distinctive taste. This larger size provides excellent value for daily tea drinkers and foodservice.",
-			"seoTitle": "Ceylon Black Tea 500g Bulk | A & S Distributors",
-			"seoDescription": "Ceylon black tea 500g bulk size. Authentic Sri Lankan quality. Wholesale pricing available.",
-			"seoKeywords": "Ceylon tea bulk, Sri Lanka tea large, black tea wholesale, loose leaf",
 			"imageAlt": "Box of Ceylon Black Tea"
 		},
 		"punjas-tea-masala": {
@@ -1478,14 +1469,6 @@
 			"seoKeywords": "spicy chicken sausage, hot sausage, chili sausage, Pacific Island food",
 			"imageAlt": "Package of Chicken Sausage Hot"
 		},
-		"lamb-sausage-5lb": {
-			"name": "Lamb Sausage",
-			"description": "Bulk pack of premium lamb sausages made with New Zealand lamb. Rich, distinctive lamb flavor in every link. This larger format is ideal for restaurants, catering, and families who love lamb.",
-			"seoTitle": "Lamb Sausage 5lb Bulk Pack | A & S Distributors",
-			"seoDescription": "Bulk lamb sausage 5lb pack. Premium New Zealand lamb. Wholesale pricing available.",
-			"seoKeywords": "lamb sausage bulk, New Zealand lamb sausage, wholesale sausage",
-			"imageAlt": "Package of Lamb Sausage"
-		},
 		"lamb-sausage-2lb": {
 			"name": "Lamb Sausage",
 			"description": "Convenient retail pack of lamb sausages made from quality New Zealand lamb. The distinctive flavor of lamb shines through in these well-seasoned links. Perfect for family barbecues and weeknight dinners.",
@@ -1509,6 +1492,14 @@
 			"seoDescription": "Traditional Samoan beef sausages. Pacific Island favorite. Wholesale pricing available.",
 			"seoKeywords": "Samoan sausage, beef bangers, Pacific Island sausage, Samoan food",
 			"imageAlt": "Package of Samoan Beef Bangers"
+		},
+		"samoan-pork-bangers": {
+			"name": "Samoan Pork Bangers",
+			"description": "Traditional Samoan-style pork sausages with Pacific Island seasonings. These hearty bangers are perfect for Samoan gatherings and barbecues. Juicy pork links with authentic island flavor.",
+			"seoTitle": "Samoan Pork Bangers Sausages | A & S Distributors",
+			"seoDescription": "Traditional Samoan pork sausages. Pacific Island favorite. Wholesale pricing available.",
+			"seoKeywords": "Samoan sausage, pork bangers, Pacific Island sausage, Samoan food",
+			"imageAlt": "Package of Samoan Pork Bangers"
 		},
 		"fish-kawa-kawa": {
 			"name": "Fish Kawa Kawa",
@@ -1686,14 +1677,6 @@
 			"seoKeywords": "taro leaves, palusami leaves, lu, Pacific Island food",
 			"imageAlt": "Fresh Taro Leaves"
 		},
-		"breadfruit-1kg": {
-			"name": "Breadfruit",
-			"description": "Frozen breadfruit in convenient portion size. This starchy fruit has a bread-like texture when cooked and can be roasted, boiled, fried, or mashed. A sustainable Pacific Island staple that sustained islanders for millennia.",
-			"seoTitle": "Frozen Breadfruit 1kg | A & S Distributors",
-			"seoDescription": "Frozen breadfruit 1kg portion. Bread-like texture. Wholesale pricing available.",
-			"seoKeywords": "breadfruit, ulu, Pacific fruit, Pacific Island food",
-			"imageAlt": "Fresh Breadfruit"
-		},
 		"breadfruit-5lb": {
 			"name": "Breadfruit",
 			"description": "Larger pack of frozen breadfruit for families and restaurants. Ripe breadfruit is slightly sweet and perfect for desserts, while starchy breadfruit makes excellent fries, chips, and side dishes. A versatile Pacific Island ingredient.",
@@ -1789,6 +1772,30 @@
 			"seoDescription": "Sunquick Tropical fruit concentrate. Exotic fruit blend. Wholesale pricing available.",
 			"seoKeywords": "Sunquick tropical, fruit concentrate, tropical punch, Pacific beverage",
 			"imageAlt": "Bottle of Sunquick Tropical Juice Concentrate"
+		},
+		"cordial-raspberry": {
+			"name": "Cordial Raspberry",
+			"description": "Refreshing raspberry cordial concentrate for making delicious raspberry drinks. Simply mix with water for a sweet, fruity beverage. A popular choice for families and gatherings throughout the Pacific Islands.",
+			"seoTitle": "Cordial Raspberry Drink | A & S Distributors",
+			"seoDescription": "Raspberry cordial concentrate. Refreshing fruity beverage. Wholesale pricing available.",
+			"seoKeywords": "raspberry cordial, cordial drink, fruit beverage, Pacific drinks",
+			"imageAlt": "Bottle of Cordial Raspberry"
+		},
+		"cordial-kola": {
+			"name": "Cordial Kola",
+			"description": "Classic kola-flavored cordial concentrate for making refreshing cola-style drinks. Mix with water for a sweet, aromatic beverage with distinctive kola nut flavor. A nostalgic favorite across the Pacific Islands.",
+			"seoTitle": "Cordial Kola Drink | A & S Distributors",
+			"seoDescription": "Kola cordial concentrate. Classic cola-style flavor. Wholesale pricing available.",
+			"seoKeywords": "kola cordial, cola drink, cordial concentrate, Pacific beverages",
+			"imageAlt": "Bottle of Cordial Kola"
+		},
+		"cordial-lime": {
+			"name": "Cordial Lime",
+			"description": "Zesty lime cordial concentrate for making refreshing lime drinks. The tart, citrusy flavor is perfect for hot days and tropical gatherings. Simply mix with water for instant lime refreshment.",
+			"seoTitle": "Cordial Lime Drink | A & S Distributors",
+			"seoDescription": "Lime cordial concentrate. Zesty and refreshing. Wholesale pricing available.",
+			"seoKeywords": "lime cordial, lime drink, citrus beverage, Pacific drinks",
+			"imageAlt": "Bottle of Cordial Lime"
 		}
 	},
 	"contact": {

@@ -158,7 +158,8 @@
 		"sausages": "소시지",
 		"white-meats": "백색육",
 		"root-vegetables": "뿌리채소",
-		"misc-frozen-fresh": "기타 냉동 및 신선"
+		"misc-frozen-fresh": "기타 냉동 및 신선",
+		"drinks": "음료"
 	},
 	"categorySeo": {
 		"corned-beef": {
@@ -192,16 +193,16 @@
 			"keywords": "FMF 아침 크래커, 피지 크래커, SAO 크래커, 도매 크래커, 태평양 섬 크래커"
 		},
 		"snacks": {
-			"title": "스낵 - Boja King 및 태평양 섬 믹스 | A & S Distributors",
-			"description": "Boja King 치즈 및 치킨 맛 스낵, Fiji Mix, Punjabi Mix 등 전통 믹스를 포함한 인기 스낵.",
-			"pageDescription": "태평양 섬 스낵의 독특한 맛을 발견하세요. Boja King 맛 스낵부터 전통 양념 믹스와 튀긴 완두콩까지.",
-			"keywords": "Boja King 스낵, Fiji mix, Punjabi mix, 튀긴 완두콩, 태평양 스낵, 도매 스낵, 치즈 스낵"
+			"title": "스낵 - BONGOS, TWISTES, UFO's 및 태평양 섬 믹스 | A & S Distributors",
+			"description": "BONGOS, TWISTES, UFO's 치즈 및 치킨 맛 스낵, Jasons Peanut Ruffs, Fiji Mix, Punjabi Mix 등 전통 믹스를 포함한 인기 스낵.",
+			"pageDescription": "태평양 섬 스낵의 독특한 맛을 발견하세요. BONGOS, TWISTES, UFO's 맛 스낵부터 Jasons Peanut Ruffs, 전통 양념 믹스와 튀긴 완두콩까지.",
+			"keywords": "BONGOS 스낵, TWISTES 스낵, UFO's 스낵, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, 튀긴 완두콩, 태평양 스낵, 도매 스낵"
 		},
 		"candies": {
-			"title": "캔디 - Cadbury 및 Jasons Peanut Ruffs | A & S Distributors",
-			"description": "Cadbury 다양한 종류와 태평양 섬에서 사랑받는 Jasons Peanut Ruffs를 포함한 인기 초콜릿 바.",
-			"pageDescription": "호주와 태평양의 달콤한 간식. Cadbury 초콜릿 바와 상징적인 Jasons Peanut Ruffs 캔디.",
-			"keywords": "Cadbury 초콜릿, Jasons Peanut Ruffs, 태평양 캔디, 호주 초콜릿, 도매 캔디"
+			"title": "캔디 - Cadbury 초콜릿 바 | A & S Distributors",
+			"description": "Crunchie, Dream, Fruit & Nut, Dairy Milk 등 인기 Cadbury 초콜릿 바.",
+			"pageDescription": "호주의 달콤한 간식. 다양한 종류의 Cadbury 초콜릿 바.",
+			"keywords": "Cadbury 초콜릿, Crunchie 바, Dairy Milk, 호주 초콜릿, 도매 캔디"
 		},
 		"pickles-spices": {
 			"title": "피클 및 향신료 - 카레 파우더 및 처트니 | A & S Distributors",
@@ -252,10 +253,16 @@
 			"keywords": "타로, 카사바, 빵나무열매, 태평양 채소, 피지 채소, 냉동 타로, 도매 뿌리채소"
 		},
 		"misc-frozen-fresh": {
-			"title": "기타 냉동 및 신선 - 아이스크림, 버터 및 주스 | A & S Distributors",
-			"description": "Tuckers 아이스크림, Anchor 버터, Sunquick 주스 농축액 등 다양한 냉동 및 신선 제품.",
-			"pageDescription": "태평양의 다양한 냉동 및 신선 제품. 아이스크림, 버터, 주스 농축액, 파라타 등.",
-			"keywords": "Tuckers 아이스크림, Anchor 버터, Sunquick 주스, Bula Noni, 냉동 제품, 도매 냉동"
+			"title": "기타 냉동 및 신선 - 아이스크림, 버터 및 기타 | A & S Distributors",
+			"description": "Tuckers 아이스크림, Anchor 버터, 파라타 등 다양한 냉동 및 신선 제품.",
+			"pageDescription": "태평양의 다양한 냉동 및 신선 제품. 아이스크림, 버터, 파라타 등.",
+			"keywords": "Tuckers 아이스크림, Anchor 버터, 냉동 제품, 도매 냉동, 파라타"
+		},
+		"drinks": {
+			"title": "음료 - 주스 농축액 및 노니 | A & S Distributors",
+			"description": "Sunquick 주스 농축액, 피지산 Bula Noni, 코디얼 음료를 포함한 상쾌한 음료. 모든 상황에 맞는 열대 풍미.",
+			"pageDescription": "태평양의 열대 음료. 트로피칼, 오렌지, 망고 맛의 Sunquick 주스 농축액과 Bula Noni 웰니스 주스, 상쾌한 코디얼.",
+			"keywords": "Sunquick 주스, Bula Noni, 코디얼 음료, 열대 음료, 주스 농축액, 태평양 음료, 도매 음료"
 		}
 	},
 	"breadcrumb": {
@@ -374,14 +381,6 @@
 			"seoKeywords": "할랄 콘머튼, Globe 머튼, 할랄 고기, 도매 할랄",
 			"imageAlt": "Globe Corned Mutton (할랄) 캔"
 		},
-		"globe-corned-mutton-regular": {
-			"name": "Globe Corned Mutton",
-			"description": "일반 조리법의 Globe 콘머튼. 맛있고 고소한 맛의 품질 좋은 머튼. 전통적인 태평양 섬 요리에 완벽.",
-			"seoTitle": "Globe Corned Mutton 일반 | A & S Distributors",
-			"seoDescription": "Globe 콘머튼, 전통 레시피를 위한 품질 좋은 조리. 도매 가격 제공.",
-			"seoKeywords": "콘머튼, Globe 머튼, 태평양 섬 식품, 도매 머튼",
-			"imageAlt": "Globe Corned Mutton 캔"
-		},
 		"angel-mackerel-natural-oil": {
 			"name": "Angel Mackerel 천연 오일",
 			"description": "천연 오일에 담긴 품질 좋은 통조림 고등어. Angel 브랜드는 프리미엄 생선 제품으로 유명합니다. 샐러드, 샌드위치, 전통적인 태평양 섬 레시피에 완벽.",
@@ -445,14 +444,6 @@
 			"seoDescription": "식물성 오일에 담긴 Skipper 브랜드 참치. 품질 좋은 통조림 참치. 도매 가격 제공.",
 			"seoKeywords": "Skipper 참치, 통조림 참치, 오일에 담긴 참치, 도매 참치",
 			"imageAlt": "Skipper Tuna 식물성 오일 캔"
-		},
-		"la-pana-tongol-chunk-tuna": {
-			"name": "L'a Pana Tongol Chunk Tuna",
-			"description": "L'a Pana 브랜드 Tongol 청크 참치. 단단한 질감과 순한 맛의 프리미엄 품질 참치. 참치 샐러드, 샌드위치, 태평양 섬 레시피에 완벽.",
-			"seoTitle": "L'a Pana Tongol Chunk Tuna | A & S Distributors",
-			"seoDescription": "L'a Pana Tongol 청크 참치. 프리미엄 품질 통조림 참치. 도매 가격 제공.",
-			"seoKeywords": "Tongol 참치, 청크 참치, L'a Pana 참치, 도매 참치",
-			"imageAlt": "L'a Pana Tongol Chunk Tuna 캔"
 		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste 코코넛 밀크",
@@ -750,6 +741,14 @@
 			"seoKeywords": "스카치 핑거, 쇼트브레드 비스킷, 버터리 쿠키, 호주 비스킷",
 			"imageAlt": "스카치 핑거 쿠키 패키지"
 		},
+		"shortbread-cream": {
+			"name": "쇼트브레드 크림",
+			"description": "버터리한 쇼트브레드와 부드러운 크림 센터가 결합된 맛있는 크림 필링 쇼트브레드 비스킷. 이 클래식 비스킷은 풍부한 버터 풍미와 달콤한 크림 필링의 완벽한 균형을 제공합니다. 차나 커피와 함께 즐기기에 훌륭한 동반자.",
+			"seoTitle": "쇼트브레드 크림 비스킷 | A & S Distributors",
+			"seoDescription": "부드러운 크림 필링의 쇼트브레드 크림 비스킷. 클래식하고 맛있음. 도매 가격 제공.",
+			"seoKeywords": "쇼트브레드 크림, 크림 비스킷, 필드 쿠키, 도매 비스킷",
+			"imageAlt": "쇼트브레드 크림 쿠키 패키지"
+		},
 		"tim-tam-extra-chocolate": {
 			"name": "Tim Tam 엑스트라 초콜릿",
 			"description": "진정한 초콜릿 애호가를 위한 제품. Arnott's 더블 코트 Tim Tam은 바삭한 비스킷과 부드러운 초콜릿 크림의 클래식 조합을 감싸는 더 두꺼운 초콜릿 코팅이 특징입니다. 한 입에 더 많은 초콜릿.",
@@ -814,13 +813,13 @@
 			"seoKeywords": "FMF 크래커, 피지 크래커, 아침 크래커, 태평양 섬 식품, 도매 크래커",
 			"imageAlt": "FMF 아침 크래커 크래커 패키지"
 		},
-		"fmf-breakfast-crackers-8oz": {
-			"name": "FMF 아침 크래커",
+		"fmf-breakfast-crackers-fine": {
+			"name": "FMF 아침 크래커 파인",
 			"description": "피지의 가장 상징적인 크래커의 소형 팩. 1973년부터 FMF 아침 크래커를 가정의 이름으로 만든 동일한 훌륭한 맛. 가볍고 바삭하며 빠른 간식이나 좋아하는 스프레드, 딥과 함께 즐기기에 완벽.",
-			"seoTitle": "FMF 아침 크래커 8oz | A & S Distributors",
-			"seoDescription": "편리한 8oz 사이즈의 FMF 아침 크래커. 피지의 상징적인 크래커. 도매 가격 제공.",
-			"seoKeywords": "FMF 아침 크래커, 피지 크래커, 라이트 크래커, 태평양 스낵",
-			"imageAlt": "FMF 아침 크래커 크래커 패키지"
+			"seoTitle": "FMF 아침 크래커 파인 | A & S Distributors",
+			"seoDescription": "편리한 사이즈의 피지의 상징적인 크래커 FMF 아침 크래커 파인. 도매 가격 제공.",
+			"seoKeywords": "FMF 아침 크래커, 피지 크래커, 파인 크래커, 태평양 스낵",
+			"imageAlt": "FMF 아침 크래커 파인 크래커 패키지"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF 아침 크래커",
@@ -991,124 +990,140 @@
 			"imageAlt": "픽스 믹스 스파이시 스낵 패키지"
 		},
 		"boja-king-cheese-snack-56gr": {
-			"name": "Boja King 치즈 스낵",
-			"description": "진짜 치즈 맛이 가득한 가볍고 통통한 콘 퍼프. Boja King은 30년 이상 태평양 전역에서 인기를 끌어왔습니다. 이 구운(튀기지 않은) 스낵은 할랄 인증을 받았으며 이동 중 간식으로 완벽합니다.",
-			"seoTitle": "Boja King 치즈 퍼프 56g | A & S Distributors",
-			"seoDescription": "진짜 치즈 맛으로 구운 Boja King 치즈 퍼프. 태평양 섬 인기 제품. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치즈, 치즈 퍼프, 피지 스낵, 할랄 스낵",
-			"imageAlt": "Boja King 치즈 스낵 스낵 패키지"
+			"name": "BONGOS 치즈",
+			"description": "진짜 치즈 맛이 가득한 가볍고 통통한 콘 퍼프. BONGOS는 30년 이상 태평양 전역에서 인기를 끌어왔습니다. 이 구운(튀기지 않은) 스낵은 할랄 인증을 받았으며 이동 중 간식으로 완벽합니다.",
+			"seoTitle": "BONGOS 치즈 퍼프 56g | A & S Distributors",
+			"seoDescription": "진짜 치즈 맛으로 구운 BONGOS 치즈 퍼프. 태평양 섬 인기 제품. 도매 가격 제공.",
+			"seoKeywords": "BONGOS 치즈, 치즈 퍼프, 피지 스낵, 할랄 스낵",
+			"imageAlt": "BONGOS 치즈 스낵 패키지"
 		},
 		"boja-king-cheese-snack-64gr": {
-			"name": "Boja King 치즈 스낵",
-			"description": "맛있는 치즈 양념을 입힌 바삭한 콘 퍼프. 이 중간 사이즈 팩의 Boja King은 개인 간식으로 완벽합니다. 옥수수와 쌀로 만들어 수십 년간 피지에서 가장 인기 있는 스낵으로 만든 가벼운 바삭함을 위해 구워졌습니다.",
-			"seoTitle": "Boja King 치즈 퍼프 64g | A & S Distributors",
-			"seoDescription": "바삭하고 치즈 맛의 Boja King 치즈 퍼프 64g. 피지 인기 제품. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치즈, 치즈 스낵, 피지 퍼프, 구운 스낵",
-			"imageAlt": "Boja King 치즈 스낵 스낵 패키지"
+			"name": "BONGOS 치즈",
+			"description": "맛있는 치즈 양념을 입힌 바삭한 콘 퍼프. 이 중간 사이즈 팩의 BONGOS는 개인 간식으로 완벽합니다. 옥수수와 쌀로 만들어 수십 년간 피지에서 가장 인기 있는 스낵으로 만든 가벼운 바삭함을 위해 구워졌습니다.",
+			"seoTitle": "BONGOS 치즈 퍼프 64g | A & S Distributors",
+			"seoDescription": "바삭하고 치즈 맛의 BONGOS 치즈 퍼프 64g. 피지 인기 제품. 도매 가격 제공.",
+			"seoKeywords": "BONGOS 치즈, 치즈 스낵, 피지 퍼프, 구운 스낵",
+			"imageAlt": "BONGOS 치즈 스낵 패키지"
 		},
 		"boja-king-cheese-snack-28oz": {
-			"name": "Boja King 치즈 스낵",
-			"description": "피지의 상징적인 치즈 퍼프 패밀리 사이즈 팩. Boja King의 시그니처 치즈 맛을 넉넉한 양으로 파티, 가족 모임, 또는 치즈 퍼프 애호가를 위한 비축용으로 완벽합니다.",
-			"seoTitle": "Boja King 치즈 퍼프 28oz 패밀리 사이즈 | A & S Distributors",
-			"seoDescription": "나눠 먹기에 완벽한 패밀리 사이즈 Boja King 치즈 퍼프. 도매 가격 제공.",
-			"seoKeywords": "Boja King 패밀리 사이즈, 치즈 퍼프 벌크, 피지 스낵, 파티 스낵",
-			"imageAlt": "Boja King 치즈 스낵 스낵 패키지"
+			"name": "BONGOS 치즈",
+			"description": "피지의 상징적인 치즈 퍼프 패밀리 사이즈 팩. BONGOS의 시그니처 치즈 맛을 넉넉한 양으로 파티, 가족 모임, 또는 치즈 퍼프 애호가를 위한 비축용으로 완벽합니다.",
+			"seoTitle": "BONGOS 치즈 퍼프 패밀리 사이즈 | A & S Distributors",
+			"seoDescription": "나눠 먹기에 완벽한 패밀리 사이즈 BONGOS 치즈 퍼프. 도매 가격 제공.",
+			"seoKeywords": "BONGOS 패밀리 사이즈, 치즈 퍼프 벌크, 피지 스낵, 파티 스낵",
+			"imageAlt": "BONGOS 치즈 스낵 패키지"
 		},
 		"boja-king-chicken-snack-156oz": {
-			"name": "Boja King 치킨 스낵",
-			"description": "Boja King의 인기 있는 치킨 맛 퍼프 초대형 벌크 팩. 맛있는 치킨 양념과 동일한 가볍고 바삭한 질감. 소매업체, 이벤트, 또는 절대 부족함이 없길 원하는 진정한 Boja King 팬에게 이상적.",
-			"seoTitle": "Boja King 치킨 퍼프 156oz 벌크 | A & S Distributors",
-			"seoDescription": "맛있는 치킨 맛의 벌크 Boja King 치킨 퍼프. 소매업체에 완벽. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치킨 벌크, 치킨 퍼프, 피지 스낵 도매",
-			"imageAlt": "Boja King 치킨 스낵 스낵 패키지"
+			"name": "BONGOS 치킨",
+			"description": "BONGOS의 인기 있는 치킨 맛 퍼프 초대형 벌크 팩. 맛있는 치킨 양념과 동일한 가볍고 바삭한 질감. 소매업체, 이벤트, 또는 절대 부족함이 없길 원하는 진정한 BONGOS 팬에게 이상적.",
+			"seoTitle": "BONGOS 치킨 퍼프 벌크 | A & S Distributors",
+			"seoDescription": "맛있는 치킨 맛의 벌크 BONGOS 치킨 퍼프. 소매업체에 완벽. 도매 가격 제공.",
+			"seoKeywords": "BONGOS 치킨 벌크, 치킨 퍼프, 피지 스낵 도매",
+			"imageAlt": "BONGOS 치킨 스낵 패키지"
 		},
 		"boja-king-chicken-snack-64oz": {
-			"name": "Boja King 치킨 스낵",
-			"description": "피지의 사랑받는 Boja King 브랜드의 치킨 맛 콘 퍼프 대형 팩. Boja King을 태평양 섬의 기관으로 만든 동일한 구운 품질의 맛있고 바삭하며 만족스러운 스낵.",
-			"seoTitle": "Boja King 치킨 퍼프 64oz | A & S Distributors",
-			"seoDescription": "맛있고 바삭한 대형 Boja King 치킨 퍼프 팩. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치킨, 치킨 스낵, 피지 퍼프, 태평양 섬 식품",
-			"imageAlt": "Boja King 치킨 스낵 스낵 패키지"
+			"name": "BONGOS 치킨",
+			"description": "피지의 사랑받는 BONGOS 브랜드의 치킨 맛 콘 퍼프 대형 팩. BONGOS를 태평양 섬의 기관으로 만든 동일한 구운 품질의 맛있고 바삭하며 만족스러운 스낵.",
+			"seoTitle": "BONGOS 치킨 퍼프 64g | A & S Distributors",
+			"seoDescription": "맛있고 바삭한 대형 BONGOS 치킨 퍼프 팩. 도매 가격 제공.",
+			"seoKeywords": "BONGOS 치킨, 치킨 스낵, 피지 퍼프, 태평양 섬 식품",
+			"imageAlt": "BONGOS 치킨 스낵 패키지"
 		},
 		"boja-king-chicken-snack-28oz": {
-			"name": "Boja King 치킨 스낵",
-			"description": "Boja King 치킨 퍼프 패밀리 사이즈 백. 이 가볍고 통통한 스낵은 모든 연령층에게 어필하는 맛있는 치킨 양념이 되어 있습니다. 태평양 섬 가정의 파티 필수품.",
-			"seoTitle": "Boja King 치킨 퍼프 28oz | A & S Distributors",
-			"seoDescription": "패밀리 사이즈 Boja King 치킨 퍼프. 파티 필수품. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치킨, 패밀리 스낵, 피지 퍼프, 파티 푸드",
-			"imageAlt": "Boja King 치킨 스낵 스낵 패키지"
+			"name": "BONGOS 치킨",
+			"description": "BONGOS 치킨 퍼프 패밀리 사이즈 백. 이 가볍고 통통한 스낵은 모든 연령층에게 어필하는 맛있는 치킨 양념이 되어 있습니다. 태평양 섬 가정의 파티 필수품.",
+			"seoTitle": "BONGOS 치킨 퍼프 패밀리 사이즈 | A & S Distributors",
+			"seoDescription": "패밀리 사이즈 BONGOS 치킨 퍼프. 파티 필수품. 도매 가격 제공.",
+			"seoKeywords": "BONGOS 치킨, 패밀리 스낵, 피지 퍼프, 파티 푸드",
+			"imageAlt": "BONGOS 치킨 스낵 패키지"
 		},
 		"boja-king-cheese-20gr": {
-			"name": "Boja King 치즈",
-			"description": "피지에서 가장 인기 있는 치즈 퍼프 1인분 팩. 도시락, 편의점, 또는 빠른 간식으로 완벽합니다. 1인분 사이즈의 동일한 훌륭한 Boja King 맛.",
-			"seoTitle": "Boja King 치즈 퍼프 20g 1인분 | A & S Distributors",
-			"seoDescription": "도시락에 완벽한 1인분 Boja King 치즈 퍼프. 도매 가격 제공.",
-			"seoKeywords": "Boja King 1인분, 치즈 퍼프 소형, 피지 스낵, 도시락 스낵",
-			"imageAlt": "Boja King 치즈 스낵 패키지"
+			"name": "TWISTES 치즈",
+			"description": "피지에서 가장 인기 있는 치즈 퍼프 1인분 팩. 도시락, 편의점, 또는 빠른 간식으로 완벽합니다. 1인분 사이즈의 동일한 훌륭한 TWISTES 맛.",
+			"seoTitle": "TWISTES 치즈 퍼프 20g 1인분 | A & S Distributors",
+			"seoDescription": "도시락에 완벽한 1인분 TWISTES 치즈 퍼프. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 1인분, 치즈 퍼프 소형, 피지 스낵, 도시락 스낵",
+			"imageAlt": "TWISTES 치즈 스낵 패키지"
 		},
 		"boja-king-cheese-100gr": {
-			"name": "Boja King 치즈",
-			"description": "개인 간식을 위한 만족스러운 양의 Boja King 치즈 퍼프. 가볍고 바삭하며 치즈 맛이 가득합니다. 이 중간 사이즈 백은 일상적인 즐거움을 위한 선택입니다.",
-			"seoTitle": "Boja King 치즈 퍼프 100g | A & S Distributors",
-			"seoDescription": "완벽한 개인 사이즈 Boja King 치즈 퍼프 100g. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치즈, 치즈 스낵, 피지 퍼프, 개인 사이즈",
-			"imageAlt": "Boja King 치즈 스낵 패키지"
+			"name": "TWISTES 치즈",
+			"description": "개인 간식을 위한 만족스러운 양의 TWISTES 치즈 퍼프. 가볍고 바삭하며 치즈 맛이 가득합니다. 이 중간 사이즈 백은 일상적인 즐거움을 위한 선택입니다.",
+			"seoTitle": "TWISTES 치즈 퍼프 100g | A & S Distributors",
+			"seoDescription": "완벽한 개인 사이즈 TWISTES 치즈 퍼프 100g. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 치즈, 치즈 스낵, 피지 퍼프, 개인 사이즈",
+			"imageAlt": "TWISTES 치즈 스낵 패키지"
 		},
 		"boja-king-cheese-250gr": {
-			"name": "Boja King 치즈",
-			"description": "Boja King의 전설적인 치즈 퍼프 나눔 사이즈 팩. 영화의 밤, 소규모 모임, 또는 일주일 간의 간식으로 충분합니다. 태평양 섬 주민들이 30년 이상 사랑해온 치즈 맛.",
-			"seoTitle": "Boja King 치즈 퍼프 250g 나눔 사이즈 | A & S Distributors",
-			"seoDescription": "모임에 완벽한 나눔 사이즈 Boja King 치즈 퍼프 250g. 도매 가격 제공.",
-			"seoKeywords": "Boja King 나눔 사이즈, 치즈 퍼프, 피지 스낵, 파티 스낵",
-			"imageAlt": "Boja King 치즈 스낵 패키지"
+			"name": "TWISTES 치즈",
+			"description": "TWISTES의 전설적인 치즈 퍼프 나눔 사이즈 팩. 영화의 밤, 소규모 모임, 또는 일주일 간의 간식으로 충분합니다. 태평양 섬 주민들이 30년 이상 사랑해온 치즈 맛.",
+			"seoTitle": "TWISTES 치즈 퍼프 250g 나눔 사이즈 | A & S Distributors",
+			"seoDescription": "모임에 완벽한 나눔 사이즈 TWISTES 치즈 퍼프 250g. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 나눔 사이즈, 치즈 퍼프, 피지 스낵, 파티 스낵",
+			"imageAlt": "TWISTES 치즈 스낵 패키지"
+		},
+		"twistes-cheese-500gr": {
+			"name": "TWISTES 치즈",
+			"description": "TWISTES 치즈 맛 퍼프 초대형 나눔 백. 품질 좋은 옥수수와 쌀로 만들어 맛있는 치즈 양념과 함께 바삭하게 구워졌습니다. 진정한 치즈 퍼프 팬과 모임을 위한 가장 큰 사이즈.",
+			"seoTitle": "TWISTES 치즈 퍼프 500g | A & S Distributors",
+			"seoDescription": "TWISTES 치즈 퍼프 500g 초대형 백. 구운 치즈 맛. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 치즈, 치즈 퍼프 대형, 피지 스낵, 구운 스낵",
+			"imageAlt": "TWISTES 치즈 스낵 패키지"
 		},
 		"boja-king-chicken-20gr": {
-			"name": "Boja King 치킨",
-			"description": "포켓 사이즈 팩의 치킨 맛 Boja King 퍼프. 이동 중 간식, 학교 도시락, 또는 자판기에 편리합니다. 완벽하게 1인분으로 포장된 모든 맛있는 치킨 맛.",
-			"seoTitle": "Boja King 치킨 퍼프 20g | A & S Distributors",
-			"seoDescription": "이동 중 간식용 포켓 사이즈 Boja King 치킨 퍼프. 도매 가격 제공.",
-			"seoKeywords": "Boja King 소형, 치킨 퍼프, 편의 스낵, 피지 식품",
-			"imageAlt": "Boja King 치킨 스낵 패키지"
+			"name": "TWISTES 치킨",
+			"description": "포켓 사이즈 팩의 치킨 맛 TWISTES 퍼프. 이동 중 간식, 학교 도시락, 또는 자판기에 편리합니다. 완벽하게 1인분으로 포장된 모든 맛있는 치킨 맛.",
+			"seoTitle": "TWISTES 치킨 퍼프 20g | A & S Distributors",
+			"seoDescription": "이동 중 간식용 포켓 사이즈 TWISTES 치킨 퍼프. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 소형, 치킨 퍼프, 편의 스낵, 피지 식품",
+			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
 		"boja-king-chicken-28gr": {
-			"name": "Boja King 치킨",
-			"description": "Boja King의 인기 있는 치킨 퍼프 개인 1인분. 20g 팩보다 약간 크며 더 만족스러우면서도 완벽하게 휴대 가능합니다. 구운 제품, 할랄 인증, 맛있습니다.",
-			"seoTitle": "Boja King 치킨 퍼프 28g | A & S Distributors",
-			"seoDescription": "개인용 Boja King 치킨 퍼프 28g. 할랄 인증. 도매 가격 제공.",
-			"seoKeywords": "Boja King 개인용, 치킨 스낵, 할랄 퍼프, 피지 스낵",
-			"imageAlt": "Boja King 치킨 스낵 패키지"
+			"name": "TWISTES 치킨",
+			"description": "TWISTES의 인기 있는 치킨 퍼프 개인 1인분. 20g 팩보다 약간 크며 더 만족스러우면서도 완벽하게 휴대 가능합니다. 구운 제품, 할랄 인증, 맛있습니다.",
+			"seoTitle": "TWISTES 치킨 퍼프 28g | A & S Distributors",
+			"seoDescription": "개인용 TWISTES 치킨 퍼프 28g. 할랄 인증. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 개인용, 치킨 스낵, 할랄 퍼프, 피지 스낵",
+			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
 		"boja-king-chicken-100gr": {
-			"name": "Boja King 치킨",
-			"description": "Boja King 치킨 퍼프 개인 사이즈 백. 품질 좋은 옥수수와 쌀로 만들어 맛있는 치킨 양념과 함께 바삭하게 구워졌습니다. 일상적인 간식을 즐기기에 적당한 사이즈.",
-			"seoTitle": "Boja King 치킨 퍼프 100g | A & S Distributors",
-			"seoDescription": "바삭하고 맛있는 개인 사이즈 Boja King 치킨 퍼프 100g. 도매 가격 제공.",
-			"seoKeywords": "Boja King 치킨, 구운 퍼프, 피지 스낵, 일상 스낵",
-			"imageAlt": "Boja King 치킨 스낵 패키지"
+			"name": "TWISTES 치킨",
+			"description": "TWISTES 치킨 퍼프 개인 사이즈 백. 품질 좋은 옥수수와 쌀로 만들어 맛있는 치킨 양념과 함께 바삭하게 구워졌습니다. 일상적인 간식을 즐기기에 적당한 사이즈.",
+			"seoTitle": "TWISTES 치킨 퍼프 100g | A & S Distributors",
+			"seoDescription": "바삭하고 맛있는 개인 사이즈 TWISTES 치킨 퍼프 100g. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 치킨, 구운 퍼프, 피지 스낵, 일상 스낵",
+			"imageAlt": "TWISTES 치킨 스낵 패키지"
+		},
+		"twistes-chicken-500gr": {
+			"name": "TWISTES 치킨",
+			"description": "TWISTES 치킨 맛 퍼프 초대형 나눔 백. 품질 좋은 옥수수와 쌀로 만들어 맛있는 치킨 양념과 함께 바삭하게 구워졌습니다. 치킨 퍼프 애호가와 모임을 위한 가장 큰 사이즈.",
+			"seoTitle": "TWISTES 치킨 퍼프 500g | A & S Distributors",
+			"seoDescription": "TWISTES 치킨 퍼프 500g 초대형 백. 맛있는 치킨 맛으로 구워짐. 도매 가격 제공.",
+			"seoKeywords": "TWISTES 치킨, 치킨 퍼프 대형, 피지 스낵, 구운 스낵",
+			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
 		"boja-king-ufo-burger-20gr": {
-			"name": "Boja King UFO 버거",
+			"name": "UFO's 버거",
 			"description": "대담한 버거 맛의 재미있는 비행접시 모양 콘 스낵. UFO's는 특히 독특한 모양과 맛있는 맛을 좋아하는 어린이들에게 피지에서 인기입니다. 도시락에 완벽한 1인분 사이즈.",
-			"seoTitle": "Boja King UFO 버거 스낵 20g | A & S Distributors",
-			"seoDescription": "버거 맛의 Boja King UFO 스낵. 재미있는 모양, 훌륭한 맛. 도매 가격 제공.",
-			"seoKeywords": "Boja King UFO, 버거 스낵, 키즈 스낵, 피지 식품",
-			"imageAlt": "Boja King UFO 버거 스낵 패키지"
+			"seoTitle": "UFO's 버거 스낵 20g | A & S Distributors",
+			"seoDescription": "버거 맛의 UFO's 스낵. 재미있는 모양, 훌륭한 맛. 도매 가격 제공.",
+			"seoKeywords": "UFO's 버거, 버거 스낵, 키즈 스낵, 피지 식품",
+			"imageAlt": "UFO's 버거 스낵 패키지"
 		},
 		"boja-king-ufo-burger-100gr": {
-			"name": "Boja King UFO 버거",
+			"name": "UFO's 버거",
 			"description": "UFO's 버거 맛 콘 스낵 중간 사이즈 백. 독특한 접시 모양과 맛있는 버거 양념이 UFO's를 남태평양 지역에서 가장 인기 있는 스낵 중 하나로 만들었습니다.",
-			"seoTitle": "Boja King UFO 버거 스낵 100g | A & S Distributors",
-			"seoDescription": "Boja King UFO 버거 스낵 100g. 남태평양 인기 제품. 도매 가격 제공.",
-			"seoKeywords": "UFO 스낵, 버거 맛, 피지 퍼프, 태평양 섬 스낵",
-			"imageAlt": "Boja King UFO 버거 스낵 패키지"
+			"seoTitle": "UFO's 버거 스낵 100g | A & S Distributors",
+			"seoDescription": "UFO's 버거 스낵 100g. 남태평양 인기 제품. 도매 가격 제공.",
+			"seoKeywords": "UFO's 스낵, 버거 맛, 피지 퍼프, 태평양 섬 스낵",
+			"imageAlt": "UFO's 버거 스낵 패키지"
 		},
 		"boja-king-ufo-burger-200gr": {
-			"name": "Boja King UFO 버거",
+			"name": "UFO's 버거",
 			"description": "피지의 사랑받는 UFO's 버거 맛 스낵 패밀리 사이즈 팩. 이 비행접시 모양 과자는 바삭하고 맛있는 만족감을 제공합니다. 나눠 먹거나 이 태평양 섬 클래식을 비축하기에 완벽.",
-			"seoTitle": "Boja King UFO 버거 스낵 200g 패밀리 | A & S Distributors",
-			"seoDescription": "나눠 먹기에 완벽한 패밀리 사이즈 Boja King UFO 버거 스낵. 도매 가격 제공.",
-			"seoKeywords": "UFO 스낵 패밀리, 버거 퍼프, 피지 스낵, 태평양 섬 식품",
-			"imageAlt": "Boja King UFO 버거 스낵 패키지"
+			"seoTitle": "UFO's 버거 스낵 200g 패밀리 | A & S Distributors",
+			"seoDescription": "나눠 먹기에 완벽한 패밀리 사이즈 UFO's 버거 스낵. 도매 가격 제공.",
+			"seoKeywords": "UFO's 스낵 패밀리, 버거 퍼프, 피지 스낵, 태평양 섬 식품",
+			"imageAlt": "UFO's 버거 스낵 패키지"
 		},
 		"cadbury-crunchie-bars": {
 			"name": "Cadbury Crunchie 바",
@@ -1374,14 +1389,6 @@
 			"seoKeywords": "Weetbix 20oz, 통곡물 시리얼, 호주식 아침 식사, 건강한 시리얼",
 			"imageAlt": "Weetbix 아침 시리얼 상자"
 		},
-		"weetbix-breakfast-cereal-26oz": {
-			"name": "Weetbix 아침 시리얼",
-			"description": "Weetbix 열광자와 대가족을 위한 특대 Weetbix 팩. 호주인들이 세대에 걸쳐 신뢰해온 동일한 통곡물 비스킷. 점심까지 지속되는 저GI 에너지.",
-			"seoTitle": "Weetbix 아침 시리얼 26oz 특대 | A & S Distributors",
-			"seoDescription": "특대 Weetbix 26oz 팩. 통곡물, 저GI 에너지. 도매 가격 제공.",
-			"seoKeywords": "Weetbix 대형, 통곡물 아침 식사, 호주 시리얼, 패밀리 시리얼",
-			"imageAlt": "Weetbix 아침 시리얼 상자"
-		},
 		"weetbix-breakfast-cereal-2lb": {
 			"name": "Weetbix 아침 시리얼",
 			"description": "최대 가치를 위한 벌크 포맷 Weetbix. 수십 년간 호주 운동선수와 가족들에게 연료를 공급해온 아침 시리얼을 비축하세요. 강한 시작을 위한 비타민과 미네랄이 포함된 97% 통곡물 밀.",
@@ -1438,28 +1445,12 @@
 			"seoKeywords": "Bushells 차, 호주 차, 잎차 블랙 티, Blue Label",
 			"imageAlt": "Bushells 블랙 티 상자"
 		},
-		"bushells-black-tea-500gr": {
-			"name": "Bushells 블랙 티",
-			"description": "매일 품질 좋은 블랙 티를 즐기는 가정을 위한 대형 팩 Bushells Blue Label 잎차. 신중하게 선별된 잎에서 나오는 풍부한 맛. 한 세기 이상 호주인들의 대화와 함께한 차.",
-			"seoTitle": "Bushells 블랙 티 500g 잎차 | A & S Distributors",
-			"seoDescription": "풍부한 맛의 Bushells Blue Label 블랙 티 500g 패밀리 사이즈. 도매 가격 제공.",
-			"seoKeywords": "Bushells 차 500g, 호주 블랙 티, 잎차, 도매 차",
-			"imageAlt": "Bushells 블랙 티 상자"
-		},
 		"ceylon-black-tea-200gr": {
 			"name": "실론 블랙 티",
 			"description": "밝고 상쾌한 맛과 황금빛 액으로 전 세계적으로 유명한 스리랑카(실론)산 프리미엄 블랙 티. 이 잎차는 차 감정가들이 선호하는 독특한 실론 특성을 가진 상쾌한 한 잔으로 우려집니다.",
 			"seoTitle": "실론 블랙 티 200g 잎차 | A & S Distributors",
 			"seoDescription": "스리랑카산 프리미엄 실론 블랙 티 200g. 밝고 상쾌한 맛. 도매 가격 제공.",
 			"seoKeywords": "실론 차, 스리랑카 차, 블랙 티, 프리미엄 잎차",
-			"imageAlt": "실론 블랙 티 상자"
-		},
-		"ceylon-black-tea-500gr": {
-			"name": "실론 블랙 티",
-			"description": "진정한 차 애호가를 위한 정통 실론 블랙 티 벌크 팩. 스리랑카 차는 품질과 독특한 맛으로 유명합니다. 이 대형 사이즈는 매일 차를 마시는 분과 식품 서비스에 탁월한 가치를 제공합니다.",
-			"seoTitle": "실론 블랙 티 500g 벌크 | A & S Distributors",
-			"seoDescription": "정통 스리랑카 품질의 실론 블랙 티 500g 벌크 사이즈. 도매 가격 제공.",
-			"seoKeywords": "실론 차 벌크, 스리랑카 차 대형, 블랙 티 도매, 잎차",
 			"imageAlt": "실론 블랙 티 상자"
 		},
 		"punjas-tea-masala": {
@@ -1582,14 +1573,6 @@
 			"seoKeywords": "스파이시 치킨 소시지, 핫 소시지, 칠리 소시지, 태평양 섬 식품",
 			"imageAlt": "치킨 소시지 핫 패키지"
 		},
-		"lamb-sausage-5lb": {
-			"name": "양고기 소시지",
-			"description": "뉴질랜드 양고기로 만든 프리미엄 양고기 소시지 벌크 팩. 모든 링크에 풍부하고 독특한 양고기 맛. 이 대형 포맷은 양고기를 좋아하는 레스토랑, 케이터링, 가족에게 이상적.",
-			"seoTitle": "양고기 소시지 5lb 벌크 팩 | A & S Distributors",
-			"seoDescription": "벌크 양고기 소시지 5lb 팩. 프리미엄 뉴질랜드 양고기. 도매 가격 제공.",
-			"seoKeywords": "양고기 소시지 벌크, 뉴질랜드 양고기 소시지, 도매 소시지",
-			"imageAlt": "양고기 소시지 패키지"
-		},
 		"lamb-sausage-2lb": {
 			"name": "양고기 소시지",
 			"description": "품질 좋은 뉴질랜드 양고기로 만든 양고기 소시지의 편리한 소매 팩. 양고기의 독특한 맛이 잘 양념된 이 링크들에서 빛납니다. 가족 바베큐와 평일 저녁 식사에 완벽.",
@@ -1613,6 +1596,14 @@
 			"seoDescription": "전통적인 사모아 쇠고기 소시지. 태평양 섬 인기 제품. 도매 가격 제공.",
 			"seoKeywords": "사모아 소시지, 비프 뱅어스, 태평양 섬 소시지, 사모아 식품",
 			"imageAlt": "사모아 비프 뱅어스 패키지"
+		},
+		"samoan-pork-bangers": {
+			"name": "사모아 포크 뱅어스",
+			"description": "태평양 섬 양념이 가미된 전통적인 사모아 스타일 돼지고기 소시지. 이 풍성한 뱅어스는 사모아 모임과 바베큐에 완벽합니다. 정통 섬 맛의 육즙 가득한 돼지고기 링크.",
+			"seoTitle": "사모아 포크 뱅어스 소시지 | A & S Distributors",
+			"seoDescription": "전통적인 사모아 돼지고기 소시지. 태평양 섬 인기 제품. 도매 가격 제공.",
+			"seoKeywords": "사모아 소시지, 포크 뱅어스, 태평양 섬 소시지, 사모아 식품",
+			"imageAlt": "사모아 포크 뱅어스 패키지"
 		},
 		"fish-kawa-kawa": {
 			"name": "Kawa Kawa 생선",
@@ -1758,14 +1749,6 @@
 			"seoKeywords": "두루카, 피지 아스파라거스, 피지 채소, 태평양 별미",
 			"imageAlt": "신선한 두루카"
 		},
-		"breadfruit-1kg": {
-			"name": "빵나무 열매",
-			"description": "편리한 1인분 사이즈의 냉동 빵나무 열매. 이 녹말질 과일은 조리하면 빵 같은 질감을 가지며 로스팅, 삶기, 튀기기, 으깨기가 가능합니다. 수천 년간 섬 주민들을 지탱해온 지속 가능한 태평양 섬 필수품.",
-			"seoTitle": "냉동 빵나무 열매 1kg | A & S Distributors",
-			"seoDescription": "빵 같은 질감의 냉동 빵나무 열매 1kg 1인분. 도매 가격 제공.",
-			"seoKeywords": "빵나무 열매, 울루, 태평양 과일, 태평양 섬 식품",
-			"imageAlt": "신선한 빵나무 열매"
-		},
 		"breadfruit-5lb": {
 			"name": "빵나무 열매",
 			"description": "가족과 레스토랑을 위한 냉동 빵나무 열매 대형 팩. 익은 빵나무 열매는 약간 달콤하고 디저트에 완벽하며, 녹말질 빵나무 열매는 훌륭한 감자튀김, 칩, 반찬을 만듭니다. 다용도 태평양 섬 재료.",
@@ -1789,6 +1772,30 @@
 			"seoDescription": "조리 준비가 된 냉동 파라타 밸류 팩. 바삭하고 맛있음. 도매 가격 제공.",
 			"seoKeywords": "파라타, 냉동 납작빵, 인도 빵, 인도-피지 식품",
 			"imageAlt": "파라타 플레인 밸류 팩 패키지"
+		},
+		"cordial-raspberry": {
+			"name": "코디얼 라즈베리",
+			"description": "맛있는 라즈베리 음료를 만들기 위한 상쾌한 라즈베리 코디얼 농축액. 물과 섞기만 하면 달콤하고 과일 향이 가득한 음료가 됩니다. 태평양 섬 전역에서 가족과 모임에 인기 있는 선택.",
+			"seoTitle": "코디얼 라즈베리 음료 | A & S Distributors",
+			"seoDescription": "라즈베리 코디얼 농축액. 상쾌하고 과일 맛이 가득한 음료. 도매 가격 제공.",
+			"seoKeywords": "라즈베리 코디얼, 코디얼 음료, 과일 음료, 태평양 음료",
+			"imageAlt": "코디얼 라즈베리 병"
+		},
+		"cordial-kola": {
+			"name": "코디얼 콜라",
+			"description": "상쾌한 콜라 스타일 음료를 만들기 위한 클래식 콜라 맛 코디얼 농축액. 물과 섞으면 독특한 콜라너트 풍미의 달콤하고 향긋한 음료가 됩니다. 태평양 섬 전역에서 향수를 불러일으키는 인기 제품.",
+			"seoTitle": "코디얼 콜라 음료 | A & S Distributors",
+			"seoDescription": "콜라 코디얼 농축액. 클래식 콜라 스타일 맛. 도매 가격 제공.",
+			"seoKeywords": "콜라 코디얼, 콜라 음료, 코디얼 농축액, 태평양 음료",
+			"imageAlt": "코디얼 콜라 병"
+		},
+		"cordial-lime": {
+			"name": "코디얼 라임",
+			"description": "상쾌한 라임 음료를 만들기 위한 상큼한 라임 코디얼 농축액. 톡 쏘는 시트러스 맛이 더운 날과 열대 모임에 완벽합니다. 물과 섞기만 하면 즉석 라임 상쾌함.",
+			"seoTitle": "코디얼 라임 음료 | A & S Distributors",
+			"seoDescription": "라임 코디얼 농축액. 상큼하고 상쾌함. 도매 가격 제공.",
+			"seoKeywords": "라임 코디얼, 라임 음료, 시트러스 음료, 태평양 음료",
+			"imageAlt": "코디얼 라임 병"
 		}
 	},
 	"contact": {

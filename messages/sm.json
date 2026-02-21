@@ -158,7 +158,8 @@
 		"sausages": "Susiti",
 		"white-meats": "Aano Pa'epa'e",
 		"root-vegetables": "Fualaau A'a",
-		"misc-frozen-fresh": "Isi Fa'amalo ma Susu"
+		"misc-frozen-fresh": "Isi Fa'amalo ma Susu",
+		"drinks": "Meainu"
 	},
 	"categorySeo": {
 		"corned-beef": {
@@ -192,16 +193,16 @@
 			"keywords": "FMF masi taeao, masi Viti, masi SAO, masi fa'atau tele, masi Motu Pasefika"
 		},
 		"snacks": {
-			"title": "Mea'ai Mama - Boja King & Mea Fa'afefiloi Pasefika | A & S Distributors",
-			"description": "Mea'ai mama ta'uta'ua e aofia ai Boja King sisi ma moa tofo, mea fa'afefiloi masani e pei o Fiji Mix, Punjabi Mix, ma isi.",
-			"pageDescription": "Su'esu'e tofo tulaga ese o mea'ai mama a Motu o le Pasefika. Mai Boja King mea'ai tofo i mea fa'afefiloi fa'amasani ma pi falai.",
-			"keywords": "Boja King mea'ai mama, Fiji mix, Punjabi mix, pi falai, mea'ai mama Pasefika, mea'ai mama fa'atau tele, mea'ai mama sisi"
+			"title": "Mea'ai Mama - BONGOS, TWISTES, UFO's & Mea Fa'afefiloi Pasefika | A & S Distributors",
+			"description": "Mea'ai mama ta'uta'ua e aofia ai BONGOS, TWISTES, ma UFO's sisi ma moa tofo, Jasons Peanut Ruffs, mea fa'afefiloi masani e pei o Fiji Mix, Punjabi Mix, ma isi.",
+			"pageDescription": "Su'esu'e tofo tulaga ese o mea'ai mama a Motu o le Pasefika. Mai BONGOS, TWISTES, ma UFO's mea'ai tofo i Jasons Peanut Ruffs, mea fa'afefiloi fa'amasani ma pi falai.",
+			"keywords": "BONGOS mea'ai mama, TWISTES mea'ai mama, UFO's mea'ai mama, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, pi falai, mea'ai mama Pasefika, mea'ai mama fa'atau tele"
 		},
 		"candies": {
-			"title": "Lole Suamalie - Cadbury & Jasons Peanut Ruffs | A & S Distributors",
-			"description": "Pa sukalati ta'uta'ua e aofia ai ituaiga Cadbury ma Jasons Peanut Ruffs e fiafia i ai mai Motu o le Pasefika.",
-			"pageDescription": "Mea suamalie mai Ausetalia ma le Pasefika. Pa sukalati Cadbury ma le ta'uta'ua Jasons Peanut Ruffs lole.",
-			"keywords": "Cadbury sukalati, Jasons Peanut Ruffs, lole Pasefika, sukalati Ausetalia, lole fa'atau tele"
+			"title": "Lole Suamalie - Cadbury Pa Sukalati | A & S Distributors",
+			"description": "Pa sukalati ta'uta'ua Cadbury e aofia ai Crunchie, Dream, Fruit & Nut, ma Dairy Milk ituaiga.",
+			"pageDescription": "Mea suamalie mai Ausetalia. Pa sukalati Cadbury i ou ituaiga fiafia.",
+			"keywords": "Cadbury sukalati, Crunchie bars, Dairy Milk, sukalati Ausetalia, lole fa'atau tele"
 		},
 		"pickles-spices": {
 			"title": "Mea Fa'asuamalie & Mea Manogi - Kale Masima & Chutneys | A & S Distributors",
@@ -252,10 +253,16 @@
 			"keywords": "talo, manioka, 'ulu, fuala'au 'aina Pasefika, fuala'au 'aina Viti, talo aisa, fuala'au 'aina aa fa'atau tele"
 		},
 		"misc-frozen-fresh": {
-			"title": "Isi Aisa & Fou - Aisa Kulimi, Pata & Susu | A & S Distributors",
-			"description": "Mea aisa ma fou eseese e aofia ai aisa kulimi Tuckers, pata Anchor, susu fa'ato'a Sunquick, ma isi.",
-			"pageDescription": "Mea aisa ma fou eseese mai le Pasefika. Aisa kulimi, pata, susu fa'ato'a, paranthas, ma isi.",
-			"keywords": "aisa kulimi Tuckers, pata Anchor, susu Sunquick, Bula Noni, oloa aisa, aisa fa'atau tele"
+			"title": "Isi Aisa & Fou - Aisa Kulimi, Pata & Isi | A & S Distributors",
+			"description": "Mea aisa ma fou eseese e aofia ai aisa kulimi Tuckers, pata Anchor, paranthas, ma isi.",
+			"pageDescription": "Mea aisa ma fou eseese mai le Pasefika. Aisa kulimi, pata, paranthas, ma isi.",
+			"keywords": "aisa kulimi Tuckers, pata Anchor, oloa aisa, aisa fa'atau tele, paranthas"
+		},
+		"drinks": {
+			"title": "Meainu - Sua Fua Fa'afefiloi & Noni | A & S Distributors",
+			"description": "Meainu fa'afouina e aofia ai Sunquick sua fua fa'afefiloi, Bula Noni mai Fiti, ma meainu cordial. Manogi tropical mo so'o se taimi.",
+			"pageDescription": "Meainu tropical mai le Pasefika. Sunquick sua fua fa'afefiloi i manogi tropical, orange, ma mango, fa'aopoopo le Bula Noni sua soifua maloloina ma cordials fa'afouina.",
+			"keywords": "Sunquick sua, Bula Noni, meainu cordial, meainu tropical, sua fa'afefiloi, meainu Pasefika, meainu fa'atau tele"
 		}
 	},
 	"breadcrumb": {
@@ -374,14 +381,6 @@
 			"seoKeywords": "mamoe kone halal, Globe mamoe, aano halal, halal fa'atau tele",
 			"imageAlt": "Apa o Globe Mamoe Kone (Halal)"
 		},
-		"globe-corned-mutton-regular": {
-			"name": "Globe Mamoe Kone",
-			"description": "Globe mamoe kone i saunauga masani. Mamoe lelei ma le manogi suamalie, lelei mo kuka masani o le Pasefika.",
-			"seoTitle": "Globe Mamoe Kone Masani | A & S Distributors",
-			"seoDescription": "Globe mamoe kone, saunauga lelei mo fa'atonuga masani. Tau fa'atau tele e maua.",
-			"seoKeywords": "mamoe kone, Globe mamoe, mea'ai motu Pasefika, mamoe fa'atau tele",
-			"imageAlt": "Apa o Globe Mamoe Kone"
-		},
 		"angel-mackerel-natural-oil": {
 			"name": "Angel Mackerel i Suau'u Masani",
 			"description": "Mackerel tini lelei i suau'u masani. O le Angel brand e ta'uta'ua mo ana oloa i'a maualuga. Lelei mo salati, sanuisi, ma fa'atonuga masani o le Pasefika.",
@@ -445,14 +444,6 @@
 			"seoDescription": "Skipper brand tuna i vegetable oil. Tuna tini lelei. Tau fa'atau tele e maua.",
 			"seoKeywords": "Skipper tuna, tuna tini, tuna i suau'u, tuna fa'atau tele",
 			"imageAlt": "Apa o Skipper Tuna i Vegetable Oil"
-		},
-		"la-pana-tongol-chunk-tuna": {
-			"name": "L'a Pana Tongol Chunk Tuna",
-			"description": "L'a Pana brand Tongol chunk tuna. Tuna maualuga ma le aano malo ma le manogi vaivai. Lelei mo salati tuna, sanuisi, ma fa'atonuga Pasefika.",
-			"seoTitle": "L'a Pana Tongol Chunk Tuna | A & S Distributors",
-			"seoDescription": "L'a Pana Tongol chunk tuna. Tuna tini maualuga. Tau fa'atau tele e maua.",
-			"seoKeywords": "Tongol tuna, chunk tuna, L'a Pana tuna, tuna fa'atau tele",
-			"imageAlt": "Apa o L'a Pana Tongol Chunk Tuna"
 		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Susu Niu",
@@ -606,6 +597,14 @@
 			"seoKeywords": "Tim Tam mint, pisiketi sikaleti mint, Arnott's mint, sikaleti Ausetalia",
 			"imageAlt": "Afifi o kuki Tim Tam Mint"
 		},
+		"shortbread-cream": {
+			"name": "Shortbread Cream",
+			"description": "O se pisiketi shortbread kilimi manaia e tu'ufa'atasi ai le shortbread pata ma le kilimi lamolemole i totonu. O nei pisiketi masani e ofoina mai le paleni lelei o le manogi pata suamalie ma le kilimi suamalie. O se mea manaia fa'atasi ma ti pe kofe.",
+			"seoTitle": "Shortbread Cream Pisiketi | A & S Distributors",
+			"seoDescription": "Shortbread Cream pisiketi ma kilimi lamolemole. Masani ma manogi. Tau fa'atau tele e maua.",
+			"seoKeywords": "shortbread cream, pisiketi kilimi, kuki fa'atumu, pisiketi fa'atau tele",
+			"imageAlt": "Afifi o kuki Shortbread Cream"
+		},
 		"shortbread-plain": {
 			"name": "Shortbread Plain",
 			"description": "Shortbread masani fa'a-Sikotilani faia i mea faigofie, maualuga: pata, suka, ma falaoa. O nei pisiketi auro, fa'amomo e iai le manogi pata suamalie ma le aano liu i totonu o le gutu e fetaui lelei ma ti.",
@@ -646,13 +645,13 @@
 			"seoKeywords": "FMF masi, masi Fiti, masi taeao, mea'ai motu Pasefika, masi fa'atau tele",
 			"imageAlt": "Afifi o kalake FMF Masi Taeao"
 		},
-		"fmf-breakfast-crackers-8oz": {
-			"name": "FMF Masi Taeao",
+		"fmf-breakfast-crackers-fine": {
+			"name": "FMF Masi Taeao Fine",
 			"description": "O le pusa itiiti o le masi ta'uta'ua sili i Fiti. O le manogi lelei lava lea na faia ai FMF Masi Taeao o se igoa ta'uta'ua talu mai le 1973. Mama, malo, ma lelei mo se mea'ai itiiti vave pe fa'atasi ma au mea fufui ma tui fiafia.",
-			"seoTitle": "FMF Masi Taeao 8oz | A & S Distributors",
-			"seoDescription": "FMF Masi Taeao i le lapopo'a faigofie 8oz. Masi ta'uta'ua Fiti. Tau fa'atau tele e maua.",
-			"seoKeywords": "FMF masi taeao, masi Fiti, masi mama, mea'ai itiiti Pasefika",
-			"imageAlt": "Afifi o kalake FMF Masi Taeao"
+			"seoTitle": "FMF Masi Taeao Fine | A & S Distributors",
+			"seoDescription": "FMF Masi Taeao Fine, masi ta'uta'ua Fiti i le lapopo'a faigofie. Tau fa'atau tele e maua.",
+			"seoKeywords": "FMF masi taeao, masi Fiti, masi fine, mea'ai itiiti Pasefika",
+			"imageAlt": "Afifi o kalake FMF Masi Taeao Fine"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Masi Taeao",
@@ -799,36 +798,36 @@
 			"imageAlt": "Poloka o Anchor Pata Niu Sila"
 		},
 		"boja-king-cheese-snack-56gr": {
-			"name": "Boja King Mea'ai Sisi",
-			"description": "Mea'ai sikaleti malo ma le manogi sisi moni. Boja King ua fiafia i ai le Pasefika mo le sili atu i le 30 tausaga. O nei mea'ai tunu (e le falai) e halal fa'amaonia ma lelei mo mea'ai itiiti i so'o se taimi.",
-			"seoTitle": "Boja King Sisi Puffs 56g | A & S Distributors",
-			"seoDescription": "Boja King Sisi puffs, tunu ma le manogi sisi moni. Mea fiafia o le Pasefika. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King sisi, sisi puffs, mea'ai Fiti, mea'ai halal",
-			"imageAlt": "Afifi o Boja King Mea'ai Sisi"
+			"name": "BONGOS Sisi",
+			"description": "Mea'ai sikaleti malo ma le manogi sisi moni. BONGOS ua fiafia i ai le Pasefika mo le sili atu i le 30 tausaga. O nei mea'ai tunu (e le falai) e halal fa'amaonia ma lelei mo mea'ai itiiti i so'o se taimi.",
+			"seoTitle": "BONGOS Sisi Puffs 56g | A & S Distributors",
+			"seoDescription": "BONGOS Sisi puffs, tunu ma le manogi sisi moni. Mea fiafia o le Pasefika. Tau fa'atau tele e maua.",
+			"seoKeywords": "BONGOS sisi, sisi puffs, mea'ai Fiti, mea'ai halal",
+			"imageAlt": "Afifi o BONGOS Sisi"
 		},
 		"boja-king-cheese-snack-64gr": {
-			"name": "Boja King Mea'ai Sisi",
-			"description": "Mea'ai sikaleti malo ufiufi i mea manogi sisi suamalie. O lenei pusa feololo o le Boja King e lelei mo mea'ai itiiti. Faia mai sikaleti ma araisa, tunu mo le malo mama ua faia ai le mea'ai fiafia sili i Fiti mo tausaga.",
-			"seoTitle": "Boja King Sisi Puffs 64g | A & S Distributors",
-			"seoDescription": "Boja King Sisi puffs 64g, malo ma sisiga. Mea fiafia o Fiti. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King sisi, mea'ai sisi, puffs Fiti, mea'ai tunu",
-			"imageAlt": "Afifi o Boja King Mea'ai Sisi"
+			"name": "BONGOS Sisi",
+			"description": "Mea'ai sikaleti malo ufiufi i mea manogi sisi suamalie. O lenei pusa feololo o le BONGOS e lelei mo mea'ai itiiti. Faia mai sikaleti ma araisa, tunu mo le malo mama ua faia ai le mea'ai fiafia sili i Fiti mo tausaga.",
+			"seoTitle": "BONGOS Sisi Puffs 64g | A & S Distributors",
+			"seoDescription": "BONGOS Sisi puffs 64g, malo ma sisiga. Mea fiafia o Fiti. Tau fa'atau tele e maua.",
+			"seoKeywords": "BONGOS sisi, mea'ai sisi, puffs Fiti, mea'ai tunu",
+			"imageAlt": "Afifi o BONGOS Sisi"
 		},
 		"boja-king-cheese-snack-28oz": {
-			"name": "Boja King Mea'ai Sisi",
-			"description": "Pusa lapopo'a aiga o sisi puffs ta'uta'ua o Fiti. O le manogi sisi fa'apitoa a Boja King i se fasi tele lelei mo le fa'asoa i pati, fa'atasiga aiga, pe fa'atumu mo tagata fiafia i sisi puffs.",
-			"seoTitle": "Boja King Sisi Puffs 28oz Aiga | A & S Distributors",
-			"seoDescription": "Boja King Sisi puffs lapopo'a aiga, lelei mo le fa'asoa. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King aiga, sisi puffs tele, mea'ai Fiti, mea'ai pati",
-			"imageAlt": "Afifi o Boja King Mea'ai Sisi"
+			"name": "BONGOS Sisi",
+			"description": "Pusa lapopo'a aiga o sisi puffs ta'uta'ua o Fiti. O le manogi sisi fa'apitoa a BONGOS i se fasi tele lelei mo le fa'asoa i pati, fa'atasiga aiga, pe fa'atumu mo tagata fiafia i sisi puffs.",
+			"seoTitle": "BONGOS Sisi Puffs 28oz Aiga | A & S Distributors",
+			"seoDescription": "BONGOS Sisi puffs lapopo'a aiga, lelei mo le fa'asoa. Tau fa'atau tele e maua.",
+			"seoKeywords": "BONGOS aiga, sisi puffs tele, mea'ai Fiti, mea'ai pati",
+			"imageAlt": "Afifi o BONGOS Sisi"
 		},
 		"boja-king-chicken-snack-156oz": {
-			"name": "Boja King Mea'ai Moa",
-			"description": "Pusa fa'atau tele sili tele o puffs moa ta'uta'ua a Boja King. O le aano mama, malo lava lea ma le mea manogi moa suamalie. Sili mo tagata fa'atau oloa, mea fa'apitoa, pe tagata fiafia tele i Boja King e le fia uma.",
-			"seoTitle": "Boja King Moa Puffs 156oz Fa'atau Tele | A & S Distributors",
-			"seoDescription": "Fa'atau tele Boja King Moa puffs, manogi moa suamalie. Lelei mo tagata fa'atau oloa. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King moa fa'atau tele, moa puffs, mea'ai Fiti fa'atau tele",
-			"imageAlt": "Afifi o Boja King Mea'ai Moa"
+			"name": "BONGOS Moa",
+			"description": "Pusa fa'atau tele sili tele o puffs moa ta'uta'ua a BONGOS. O le aano mama, malo lava lea ma le mea manogi moa suamalie. Sili mo tagata fa'atau oloa, mea fa'apitoa, pe tagata fiafia tele i BONGOS e le fia uma.",
+			"seoTitle": "BONGOS Moa Puffs 156oz Fa'atau Tele | A & S Distributors",
+			"seoDescription": "Fa'atau tele BONGOS Moa puffs, manogi moa suamalie. Lelei mo tagata fa'atau oloa. Tau fa'atau tele e maua.",
+			"seoKeywords": "BONGOS moa fa'atau tele, moa puffs, mea'ai Fiti fa'atau tele",
+			"imageAlt": "Afifi o BONGOS Moa"
 		},
 		"cadbury-crunchie-bars": {
 			"name": "Cadbury Crunchie Bars",
@@ -966,14 +965,6 @@
 			"seoKeywords": "susiti moa, susiti manu, susiti soifua maloloina, susiti fa'atau tele",
 			"imageAlt": "Afifi o Susiti Moa"
 		},
-		"lamb-sausage-5lb": {
-			"name": "Susiti Mamoe",
-			"description": "Pusa fa'atau tele o susiti mamoe maualuga faia mai mamoe Niu Sila. Manogi mamoe suamalie, tu'uese i so'o se laina. O lenei lapopo'a tele e sili mo faleaiga, tu'uina atu mea'ai, ma aiga e fiafia i mamoe.",
-			"seoTitle": "Susiti Mamoe 5lb Fa'atau Tele | A & S Distributors",
-			"seoDescription": "Susiti mamoe fa'atau tele 5lb. Mamoe Niu Sila maualuga. Tau fa'atau tele e maua.",
-			"seoKeywords": "susiti mamoe fa'atau tele, susiti mamoe Niu Sila, susiti fa'atau tele",
-			"imageAlt": "Afifi o Susiti Mamoe"
-		},
 		"samoan-beef-bangers": {
 			"name": "Samoa Povi Bangers",
 			"description": "Susiti povi fa'a-Samoa masani ma mea manogi motu Pasefika. O nei bangers malosi o se mea taua i fa'atasiga Samoa ma barbecues. Laina povi susu ma le manogi motu moni e aumai ai tagata.",
@@ -981,6 +972,14 @@
 			"seoDescription": "Susiti povi Samoa masani. Mea fiafia motu Pasefika. Tau fa'atau tele e maua.",
 			"seoKeywords": "susiti Samoa, povi bangers, susiti motu Pasefika, mea'ai Samoa",
 			"imageAlt": "Afifi o Samoa Povi Bangers"
+		},
+		"samoan-pork-bangers": {
+			"name": "Samoa Pua'a Bangers",
+			"description": "Susiti pua'a fa'a-Samoa masani ma mea manogi motu Pasefika. O nei bangers malosi e lelei mo fa'atasiga Samoa ma barbecues. Laina pua'a susu ma le manogi motu moni.",
+			"seoTitle": "Samoa Pua'a Bangers Susiti | A & S Distributors",
+			"seoDescription": "Susiti pua'a Samoa masani. Mea fiafia motu Pasefika. Tau fa'atau tele e maua.",
+			"seoKeywords": "susiti Samoa, pua'a bangers, susiti motu Pasefika, mea'ai Samoa",
+			"imageAlt": "Afifi o Samoa Pua'a Bangers"
 		},
 		"fish-kawa-kawa": {
 			"name": "I'a Kawa Kawa",
@@ -1053,14 +1052,6 @@
 			"seoDescription": "Duruka susu, mea suamalie asparagus Fiti. Manogi vaivai suamalie. Tau fa'atau tele e maua.",
 			"seoKeywords": "Duruka, asparagus Fiti, fualaau Fiti, mea suamalie Pasefika",
 			"imageAlt": "Duruka fou"
-		},
-		"breadfruit-1kg": {
-			"name": "Falaoa-fua",
-			"description": "Falaoa-fua fa'amalo i fasi faigofie. O lenei fua starchy e iai le aano pei o falaoa pe'a kuka ma e mafai ona tunu, fa'avela, falai, pe fa'amomo. O se mea taua motu Pasefika e tausia ai tagata motu mo millennia.",
-			"seoTitle": "Falaoa-fua Fa'amalo 1kg | A & S Distributors",
-			"seoDescription": "Falaoa-fua fa'amalo 1kg fasi. Aano pei o falaoa. Tau fa'atau tele e maua.",
-			"seoKeywords": "falaoa-fua, ulu, fua Pasefika, mea'ai motu Pasefika",
-			"imageAlt": "Falaoa-fua fou"
 		},
 		"breadfruit-5lb": {
 			"name": "Falaoa-fua",
@@ -1247,92 +1238,108 @@
 			"imageAlt": "Afifi o Fix Mix Spicy"
 		},
 		"boja-king-chicken-snack-64oz": {
-			"name": "Boja King Mea'ai Moa",
-			"description": "Pusa tele o puffs moa mai le brand fiafia Boja King o Fiti. Suamalie, malo, ma fa'amalieina ma le tulaga tunu lava lea ua faia ai Boja King o se mea taua motu Pasefika.",
-			"seoTitle": "Boja King Moa Puffs 64oz | A & S Distributors",
-			"seoDescription": "Boja King Moa puffs pusa tele, suamalie ma malo. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King moa, mea'ai moa, puffs Fiti, mea'ai motu Pasefika",
-			"imageAlt": "Afifi o Boja King Mea'ai Moa"
+			"name": "BONGOS Moa",
+			"description": "Pusa tele o puffs moa mai le brand fiafia BONGOS o Fiti. Suamalie, malo, ma fa'amalieina ma le tulaga tunu lava lea ua faia ai BONGOS o se mea taua motu Pasefika.",
+			"seoTitle": "BONGOS Moa Puffs 64oz | A & S Distributors",
+			"seoDescription": "BONGOS Moa puffs pusa tele, suamalie ma malo. Tau fa'atau tele e maua.",
+			"seoKeywords": "BONGOS moa, mea'ai moa, puffs Fiti, mea'ai motu Pasefika",
+			"imageAlt": "Afifi o BONGOS Moa"
 		},
 		"boja-king-chicken-snack-28oz": {
-			"name": "Boja King Mea'ai Moa",
-			"description": "Pusa lapopo'a aiga o puffs moa Boja King. O nei mea'ai mama, ea e mea manogi ma manogi moa suamalie e fiafia ai tagata uma. O se mea taua mo pati i aiga motu Pasefika.",
-			"seoTitle": "Boja King Moa Puffs 28oz | A & S Distributors",
-			"seoDescription": "Boja King Moa puffs lapopo'a aiga. Mea taua mo pati. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King moa, mea'ai aiga, puffs Fiti, mea'ai pati",
-			"imageAlt": "Afifi o Boja King Mea'ai Moa"
+			"name": "BONGOS Moa",
+			"description": "Pusa lapopo'a aiga o puffs moa BONGOS. O nei mea'ai mama, ea e mea manogi ma manogi moa suamalie e fiafia ai tagata uma. O se mea taua mo pati i aiga motu Pasefika.",
+			"seoTitle": "BONGOS Moa Puffs 28oz | A & S Distributors",
+			"seoDescription": "BONGOS Moa puffs lapopo'a aiga. Mea taua mo pati. Tau fa'atau tele e maua.",
+			"seoKeywords": "BONGOS moa, mea'ai aiga, puffs Fiti, mea'ai pati",
+			"imageAlt": "Afifi o BONGOS Moa"
 		},
 		"boja-king-cheese-20gr": {
-			"name": "Boja King Sisi",
-			"description": "Pusa tasi o sisi puffs fiafia o Fiti. Lelei mo pusa mea'ai, fale oloa faigofie, pe mea'ai itiiti vave. O le manogi Boja King lelei lava lea i se lapopo'a fa'atonu.",
-			"seoTitle": "Boja King Sisi Puffs 20g Tasi | A & S Distributors",
-			"seoDescription": "Boja King Sisi puffs tasi. Lelei mo pusa mea'ai. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King tasi, sisi puffs itiiti, mea'ai Fiti, mea'ai pusa",
-			"imageAlt": "Afifi o Boja King Sisi"
+			"name": "TWISTES Sisi",
+			"description": "Pusa tasi o sisi puffs fiafia o Fiti. Lelei mo pusa mea'ai, fale oloa faigofie, pe mea'ai itiiti vave. O le manogi TWISTES lelei lava lea i se lapopo'a fa'atonu.",
+			"seoTitle": "TWISTES Sisi Puffs 20g Tasi | A & S Distributors",
+			"seoDescription": "TWISTES Sisi puffs tasi. Lelei mo pusa mea'ai. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES tasi, sisi puffs itiiti, mea'ai Fiti, mea'ai pusa",
+			"imageAlt": "Afifi o TWISTES Sisi"
 		},
 		"boja-king-cheese-100gr": {
-			"name": "Boja King Sisi",
-			"description": "O se fasi fa'amalieina o sisi puffs Boja King mo mea'ai itiiti patino. Mama, malo, ma tumu i sisi lelei. O lenei pusa feololo o le filifiliga mo le fiafia i aso uma.",
-			"seoTitle": "Boja King Sisi Puffs 100g | A & S Distributors",
-			"seoDescription": "Boja King Sisi puffs 100g, lapopo'a patino lelei. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King sisi, mea'ai sisi, puffs Fiti, lapopo'a patino",
-			"imageAlt": "Afifi o Boja King Sisi"
+			"name": "TWISTES Sisi",
+			"description": "O se fasi fa'amalieina o sisi puffs TWISTES mo mea'ai itiiti patino. Mama, malo, ma tumu i sisi lelei. O lenei pusa feololo o le filifiliga mo le fiafia i aso uma.",
+			"seoTitle": "TWISTES Sisi Puffs 100g | A & S Distributors",
+			"seoDescription": "TWISTES Sisi puffs 100g, lapopo'a patino lelei. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES sisi, mea'ai sisi, puffs Fiti, lapopo'a patino",
+			"imageAlt": "Afifi o TWISTES Sisi"
 		},
 		"boja-king-cheese-250gr": {
-			"name": "Boja King Sisi",
-			"description": "Pusa fa'asoa o sisi puffs ta'uta'ua a Boja King. Lava mo po tifaga, fa'atasiga itiiti, pe vaiaso o mea'ai itiiti. O le manogi sisi ua fiafia i ai tagata motu Pasefika mo le sili atu i le tolusefulu tausaga.",
-			"seoTitle": "Boja King Sisi Puffs 250g Fa'asoa | A & S Distributors",
-			"seoDescription": "Boja King Sisi puffs 250g fa'asoa. Lelei mo fa'atasiga. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King fa'asoa, sisi puffs, mea'ai Fiti, mea'ai pati",
-			"imageAlt": "Afifi o Boja King Sisi"
+			"name": "TWISTES Sisi",
+			"description": "Pusa fa'asoa o sisi puffs ta'uta'ua a TWISTES. Lava mo po tifaga, fa'atasiga itiiti, pe vaiaso o mea'ai itiiti. O le manogi sisi ua fiafia i ai tagata motu Pasefika mo le sili atu i le tolusefulu tausaga.",
+			"seoTitle": "TWISTES Sisi Puffs 250g Fa'asoa | A & S Distributors",
+			"seoDescription": "TWISTES Sisi puffs 250g fa'asoa. Lelei mo fa'atasiga. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES fa'asoa, sisi puffs, mea'ai Fiti, mea'ai pati",
+			"imageAlt": "Afifi o TWISTES Sisi"
+		},
+		"twistes-cheese-500gr": {
+			"name": "TWISTES Sisi",
+			"description": "Pusa sili tele o TWISTES sisi puffs. Faia mai sikalete ma araisa lelei, tunu i le malo lelei ma mea manogi sisi suamalie. O le pusa sili tele e maua mo tagata fiafia tele i sisi puffs ma fa'atasiga.",
+			"seoTitle": "TWISTES Sisi Puffs 500g | A & S Distributors",
+			"seoDescription": "TWISTES Sisi puffs 500g pusa sili tele. Tunu ma le manogi sisi. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES sisi, sisi puffs tele, mea'ai Fiti, mea'ai tunu",
+			"imageAlt": "Afifi o TWISTES Sisi"
 		},
 		"boja-king-chicken-20gr": {
-			"name": "Boja King Moa",
-			"description": "Pusa taga o puffs moa Boja King. Faigofie mo mea'ai itiiti i so'o se taimi, mea'ai a'oga, pe fa'atau. O le manogi moa suamalie uma i se pusa fa'atonu lelei.",
-			"seoTitle": "Boja King Moa Puffs 20g | A & S Distributors",
-			"seoDescription": "Boja King Moa puffs taga. Mea'ai itiiti i so'o se taimi. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King itiiti, moa puffs, mea'ai faigofie, mea'ai Fiti",
-			"imageAlt": "Afifi o Boja King Moa"
+			"name": "TWISTES Moa",
+			"description": "Pusa taga o puffs moa TWISTES. Faigofie mo mea'ai itiiti i so'o se taimi, mea'ai a'oga, pe fa'atau. O le manogi moa suamalie uma i se pusa fa'atonu lelei.",
+			"seoTitle": "TWISTES Moa Puffs 20g | A & S Distributors",
+			"seoDescription": "TWISTES Moa puffs taga. Mea'ai itiiti i so'o se taimi. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES itiiti, moa puffs, mea'ai faigofie, mea'ai Fiti",
+			"imageAlt": "Afifi o TWISTES Moa"
 		},
 		"boja-king-chicken-28gr": {
-			"name": "Boja King Moa",
-			"description": "Fasi tasi o puffs moa ta'uta'ua a Boja King. E sili atu itiiti nai lo le pusa 20g, o lenei lapopo'a e ofoina mai le fa'amalieina sili a'o tumau le faigofie. Tunu, halal fa'amaonia, ma manogi.",
-			"seoTitle": "Boja King Moa Puffs 28g | A & S Distributors",
-			"seoDescription": "Boja King Moa puffs tasi 28g. Halal fa'amaonia. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King tasi, mea'ai moa, puffs halal, mea'ai Fiti",
-			"imageAlt": "Afifi o Boja King Moa"
+			"name": "TWISTES Moa",
+			"description": "Fasi tasi o puffs moa ta'uta'ua a TWISTES. E sili atu itiiti nai lo le pusa 20g, o lenei lapopo'a e ofoina mai le fa'amalieina sili a'o tumau le faigofie. Tunu, halal fa'amaonia, ma manogi.",
+			"seoTitle": "TWISTES Moa Puffs 28g | A & S Distributors",
+			"seoDescription": "TWISTES Moa puffs tasi 28g. Halal fa'amaonia. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES tasi, mea'ai moa, puffs halal, mea'ai Fiti",
+			"imageAlt": "Afifi o TWISTES Moa"
 		},
 		"boja-king-chicken-100gr": {
-			"name": "Boja King Moa",
-			"description": "Pusa lapopo'a patino o puffs moa Boja King. Faia mai sikalete ma araisa lelei, tunu i le malo lelei ma mea manogi moa suamalie. O le lapopo'a sa'o mo le fiafia i aso uma.",
-			"seoTitle": "Boja King Moa Puffs 100g | A & S Distributors",
-			"seoDescription": "Boja King Moa puffs 100g lapopo'a patino. Malo ma suamalie. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King moa, puffs tunu, mea'ai Fiti, mea'ai i aso uma",
-			"imageAlt": "Afifi o Boja King Moa"
+			"name": "TWISTES Moa",
+			"description": "Pusa lapopo'a patino o puffs moa TWISTES. Faia mai sikalete ma araisa lelei, tunu i le malo lelei ma mea manogi moa suamalie. O le lapopo'a sa'o mo le fiafia i aso uma.",
+			"seoTitle": "TWISTES Moa Puffs 100g | A & S Distributors",
+			"seoDescription": "TWISTES Moa puffs 100g lapopo'a patino. Malo ma suamalie. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES moa, puffs tunu, mea'ai Fiti, mea'ai i aso uma",
+			"imageAlt": "Afifi o TWISTES Moa"
+		},
+		"twistes-chicken-500gr": {
+			"name": "TWISTES Moa",
+			"description": "Pusa sili tele o TWISTES moa puffs. Faia mai sikalete ma araisa lelei, tunu i le malo lelei ma mea manogi moa suamalie. O le pusa sili tele e maua mo tagata fiafia tele i moa puffs ma fa'atasiga.",
+			"seoTitle": "TWISTES Moa Puffs 500g | A & S Distributors",
+			"seoDescription": "TWISTES Moa puffs 500g pusa sili tele. Tunu ma le manogi moa. Tau fa'atau tele e maua.",
+			"seoKeywords": "TWISTES moa, moa puffs tele, mea'ai Fiti, mea'ai tunu",
+			"imageAlt": "Afifi o TWISTES Moa"
 		},
 		"boja-king-ufo-burger-20gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Burger",
 			"description": "Mea'ai sikalete fa'amalie, foliga-va'alele-saucer ma le manogi burger malosi. O le UFO's o se mea fiafia Fiti, aemaise i tamaiti e fiafia i le foliga tu'uese ma le manogi suamalie. Lapopo'a tasi lelei mo pusa mea'ai.",
-			"seoTitle": "Boja King UFO Burger Mea'ai 20g | A & S Distributors",
-			"seoDescription": "Boja King UFO mea'ai manogi burger. Foliga fa'amalie, manogi lelei. Tau fa'atau tele e maua.",
-			"seoKeywords": "Boja King UFO, mea'ai burger, mea'ai tamaiti, mea'ai Fiti",
-			"imageAlt": "Afifi o Boja King UFO's Burger"
+			"seoTitle": "UFO's Burger Mea'ai 20g | A & S Distributors",
+			"seoDescription": "UFO's mea'ai manogi burger. Foliga fa'amalie, manogi lelei. Tau fa'atau tele e maua.",
+			"seoKeywords": "UFO's burger, mea'ai burger, mea'ai tamaiti, mea'ai Fiti",
+			"imageAlt": "Afifi o UFO's Burger"
 		},
 		"boja-king-ufo-burger-100gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Burger",
 			"description": "Pusa feololo o mea'ai sikalete manogi burger UFO's. O le foliga saucer tu'uese ma le mea manogi burger suamalie ua faia ai le UFO's o se tasi o mea'ai ta'uta'ua sili i le itulagi Pasefika i Saute.",
-			"seoTitle": "Boja King UFO Burger Mea'ai 100g | A & S Distributors",
-			"seoDescription": "Boja King UFO mea'ai burger 100g. Mea fiafia Pasefika i Saute. Tau fa'atau tele e maua.",
-			"seoKeywords": "UFO mea'ai, manogi burger, puffs Fiti, mea'ai motu Pasefika",
-			"imageAlt": "Afifi o Boja King UFO's Burger"
+			"seoTitle": "UFO's Burger Mea'ai 100g | A & S Distributors",
+			"seoDescription": "UFO's mea'ai burger 100g. Mea fiafia Pasefika i Saute. Tau fa'atau tele e maua.",
+			"seoKeywords": "UFO's mea'ai, manogi burger, puffs Fiti, mea'ai motu Pasefika",
+			"imageAlt": "Afifi o UFO's Burger"
 		},
 		"boja-king-ufo-burger-200gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Burger",
 			"description": "Pusa lapopo'a aiga o mea'ai manogi burger UFO's fiafia o Fiti. O nei mea'ai foliga va'alele-saucer e tu'uina atu le fa'amalieina malo, suamalie. Lelei mo le fa'asoa pe fa'atumu i lenei mea masani motu Pasefika.",
-			"seoTitle": "Boja King UFO Burger Mea'ai 200g Aiga | A & S Distributors",
-			"seoDescription": "Boja King UFO mea'ai burger lapopo'a aiga. Lelei mo le fa'asoa. Tau fa'atau tele e maua.",
-			"seoKeywords": "UFO mea'ai aiga, puffs burger, mea'ai Fiti, mea'ai motu Pasefika",
-			"imageAlt": "Afifi o Boja King UFO's Burger"
+			"seoTitle": "UFO's Burger Mea'ai 200g Aiga | A & S Distributors",
+			"seoDescription": "UFO's mea'ai burger lapopo'a aiga. Lelei mo le fa'asoa. Tau fa'atau tele e maua.",
+			"seoKeywords": "UFO's mea'ai aiga, puffs burger, mea'ai Fiti, mea'ai motu Pasefika",
+			"imageAlt": "Afifi o UFO's Burger"
 		},
 		"cadbury-dream-bars": {
 			"name": "Cadbury Dream Bars",
@@ -1526,14 +1533,6 @@
 			"seoKeywords": "suau'u niu sandalwood, suau'u manogi, suau'u massage, lalelei Pasefika",
 			"imageAlt": "Fagu o Natural Coconut Oil Sandalwood"
 		},
-		"weetbix-breakfast-cereal-26oz": {
-			"name": "Weetbix Mea'ai Taeao",
-			"description": "Pusa sili tele Weetbix mo tagata fiafia i Weetbix ma aiga tetele. O pisiketi saito atoa lava lea ua fa'atuatua i ai tagata Ausetalia mo tupulaga. Malosi GI maualalo e tausia oe seia o'o i le aoauli.",
-			"seoTitle": "Weetbix Mea'ai Taeao 26oz Sili Tele | A & S Distributors",
-			"seoDescription": "Weetbix pusa sili tele 26oz. Saito atoa, malosi GI maualalo. Tau fa'atau tele e maua.",
-			"seoKeywords": "Weetbix tele, taeao saito atoa, mea'ai taeao Ausetalia, mea'ai taeao aiga",
-			"imageAlt": "Pusa o Weetbix Mea'ai Taeao"
-		},
 		"weetbix-breakfast-cereal-2lb": {
 			"name": "Weetbix Mea'ai Taeao",
 			"description": "Weetbix ituaiga fa'atau tele mo le tau sili. Fa'atumu i le mea'ai taeao ua fa'amalosia ai tagata ta'alo Ausetalia ma aiga mo tausaga. Saito atoa 97% ma vitamini ma mea taua mo se amataga malosi.",
@@ -1574,28 +1573,12 @@
 			"seoKeywords": "Milo fa'atau tele, tini Milo Singapore, sikalete malt tele, Nestle Milo",
 			"imageAlt": "Afifi o Milo Pauta Singapore"
 		},
-		"bushells-black-tea-500gr": {
-			"name": "Bushells Ti Uliuli",
-			"description": "Pusa tele o Bushells Blue Label ti lau'au mo aiga e talia le ti uliuli lelei i aso uma. Manogi atoa mai lau filifilia ma le fa'aeteete. O le ti ua galue fa'atasi ai talanoaga Ausetalia mo le sili atu i le seneturi.",
-			"seoTitle": "Bushells Ti Uliuli 500g Lau'au | A & S Distributors",
-			"seoDescription": "Bushells Blue Label ti uliuli 500g lapopo'a aiga. Manogi atoa. Tau fa'atau tele e maua.",
-			"seoKeywords": "Bushells ti 500g, ti uliuli Ausetalia, ti lau'au, ti fa'atau tele",
-			"imageAlt": "Pusa o Bushells Ti Uliuli"
-		},
 		"ceylon-black-tea-200gr": {
 			"name": "Ceylon Ti Uliuli",
 			"description": "Ti uliuli maualuga mai Sri Lanka (Ceylon), ta'uta'ua i le lalolagi atoa mo lona manogi malamalama, vave ma le sua auro. O nei lau ti lau'au e fa'asusu ai se ipu fa'afouina ma le uiga Ceylon tu'uese e talia e tagata poto i ti.",
 			"seoTitle": "Ceylon Ti Uliuli 200g Lau'au | A & S Distributors",
 			"seoDescription": "Ti uliuli Ceylon maualuga 200g mai Sri Lanka. Manogi malamalama, vave. Tau fa'atau tele e maua.",
 			"seoKeywords": "ti Ceylon, ti Sri Lanka, ti uliuli, lau'au maualuga",
-			"imageAlt": "Pusa o Ceylon Ti Uliuli"
-		},
-		"ceylon-black-tea-500gr": {
-			"name": "Ceylon Ti Uliuli",
-			"description": "Pusa fa'atau tele o ti uliuli Ceylon moni mo tagata fiafia moni i ti. O le ti Sri Lanka e fa'amanatu mo lona lelei ma le manogi tu'uese. O lenei lapopo'a tele e ofoina mai le tau lelei mo tagata inu ti i aso uma ma tu'uina atu mea'ai.",
-			"seoTitle": "Ceylon Ti Uliuli 500g Fa'atau Tele | A & S Distributors",
-			"seoDescription": "Ti uliuli Ceylon 500g lapopo'a fa'atau tele. Lelei moni Sri Lanka. Tau fa'atau tele e maua.",
-			"seoKeywords": "ti Ceylon fa'atau tele, ti Sri Lanka tele, ti uliuli fa'atau tele, lau'au",
 			"imageAlt": "Pusa o Ceylon Ti Uliuli"
 		},
 		"punjas-tea-masala": {
@@ -1789,6 +1772,30 @@
 			"seoDescription": "Bula Noni sua mai motu Fiti. Mea inu soifua maloloina masani. Tau fa'atau tele e maua.",
 			"seoKeywords": "Noni sua, Fiti Noni, Bula, soifua maloloina masani, mea inu motu Pasefika",
 			"imageAlt": "Fagu o Bula Noni Fiji Islands"
+		},
+		"cordial-raspberry": {
+			"name": "Cordial Raspberry",
+			"description": "Cordial raspberry fa'afefiloi mo le faia o meainu raspberry manogi. Na'o le fa'afefiloi ma vai mo se meainu suamalie, fua. O se filifiliga ta'uta'ua mo aiga ma fa'atasiga i le Pasefika atoa.",
+			"seoTitle": "Cordial Raspberry Meainu | A & S Distributors",
+			"seoDescription": "Cordial raspberry fa'afefiloi. Meainu fua fa'afouina. Tau fa'atau tele e maua.",
+			"seoKeywords": "cordial raspberry, meainu cordial, meainu fua, meainu Pasefika",
+			"imageAlt": "Fagu o Cordial Raspberry"
+		},
+		"cordial-kola": {
+			"name": "Cordial Kola",
+			"description": "Cordial kola masani fa'afefiloi mo le faia o meainu cola fa'afouina. Fa'afefiloi ma vai mo se meainu suamalie, manogi ma le manogi kola nut tu'uese. O se mea fiafia masani i le Pasefika atoa.",
+			"seoTitle": "Cordial Kola Meainu | A & S Distributors",
+			"seoDescription": "Cordial kola fa'afefiloi. Manogi cola masani. Tau fa'atau tele e maua.",
+			"seoKeywords": "cordial kola, meainu cola, cordial fa'afefiloi, meainu Pasefika",
+			"imageAlt": "Fagu o Cordial Kola"
+		},
+		"cordial-lime": {
+			"name": "Cordial Lime",
+			"description": "Cordial lime fa'afefiloi mo le faia o meainu lime fa'afouina. O le manogi kiki, sitrus e lelei mo aso vevela ma fa'atasiga tropical. Na'o le fa'afefiloi ma vai mo le fa'afouina lime vave.",
+			"seoTitle": "Cordial Lime Meainu | A & S Distributors",
+			"seoDescription": "Cordial lime fa'afefiloi. Kiki ma fa'afouina. Tau fa'atau tele e maua.",
+			"seoKeywords": "cordial lime, meainu lime, meainu sitrus, meainu Pasefika",
+			"imageAlt": "Fagu o Cordial Lime"
 		}
 	},
 	"contact": {

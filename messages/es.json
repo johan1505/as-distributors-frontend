@@ -158,7 +158,8 @@
 		"sausages": "Salchichas",
 		"white-meats": "Carnes Blancas",
 		"root-vegetables": "Vegetales de Raíz",
-		"misc-frozen-fresh": "Varios Congelados y Frescos"
+		"misc-frozen-fresh": "Varios Congelados y Frescos",
+		"drinks": "Bebidas"
 	},
 	"categorySeo": {
 		"corned-beef": {
@@ -192,16 +193,16 @@
 			"keywords": "FMF breakfast crackers, crackers de Fiji, SAO crackers, crackers al por mayor, crackers de las Islas del Pacífico"
 		},
 		"snacks": {
-			"title": "Bocadillos - Boja King y Mezclas de las Islas del Pacífico | A & S Distributors",
-			"description": "Bocadillos populares incluyendo Boja King sabor queso y pollo, mezclas tradicionales como Fiji Mix, Punjabi Mix y más.",
-			"pageDescription": "Descubra los sabores únicos de los bocadillos de las Islas del Pacífico. Desde los bocadillos Boja King hasta las mezclas especiadas tradicionales y guisantes fritos.",
-			"keywords": "bocadillos Boja King, Fiji mix, Punjabi mix, guisantes fritos, bocadillos del Pacífico, bocadillos al por mayor, bocadillos de queso"
+			"title": "Bocadillos - BONGOS, TWISTES, UFO's y Mezclas de las Islas del Pacífico | A & S Distributors",
+			"description": "Bocadillos populares incluyendo BONGOS, TWISTES y UFO's sabor queso y pollo, Jasons Peanut Ruffs, mezclas tradicionales como Fiji Mix, Punjabi Mix y más.",
+			"pageDescription": "Descubra los sabores únicos de los bocadillos de las Islas del Pacífico. Desde los bocadillos BONGOS, TWISTES y UFO's hasta Jasons Peanut Ruffs, las mezclas especiadas tradicionales y guisantes fritos.",
+			"keywords": "bocadillos BONGOS, bocadillos TWISTES, bocadillos UFO's, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, guisantes fritos, bocadillos del Pacífico, bocadillos al por mayor"
 		},
 		"candies": {
-			"title": "Dulces - Cadbury y Jasons Peanut Ruffs | A & S Distributors",
-			"description": "Barras de chocolate populares incluyendo variedades de Cadbury y los queridos Jasons Peanut Ruffs de las Islas del Pacífico.",
-			"pageDescription": "Dulces de Australia y el Pacífico. Barras de chocolate Cadbury y los icónicos dulces Jasons Peanut Ruffs.",
-			"keywords": "chocolate Cadbury, Jasons Peanut Ruffs, dulces del Pacífico, chocolate australiano, dulces al por mayor"
+			"title": "Dulces - Barras de Chocolate Cadbury | A & S Distributors",
+			"description": "Barras de chocolate populares incluyendo variedades de Cadbury como Crunchie, Dream, Fruit & Nut y Dairy Milk.",
+			"pageDescription": "Dulces de Australia. Barras de chocolate Cadbury en tus variedades favoritas.",
+			"keywords": "chocolate Cadbury, barras Crunchie, Dairy Milk, chocolate australiano, dulces al por mayor"
 		},
 		"pickles-spices": {
 			"title": "Encurtidos y Especias - Curry en Polvo y Chutneys | A & S Distributors",
@@ -252,10 +253,16 @@
 			"keywords": "taro, yuca, fruta de pan, vegetales del Pacífico, vegetales de Fiji, taro congelado, vegetales de raíz al por mayor"
 		},
 		"misc-frozen-fresh": {
-			"title": "Varios Congelados y Frescos - Helado, Mantequilla y Jugos | A & S Distributors",
-			"description": "Varios productos congelados y frescos incluyendo helado Tuckers, mantequilla Anchor, concentrados de jugo Sunquick y más.",
-			"pageDescription": "Una variedad de productos congelados y frescos del Pacífico. Helado, mantequilla, concentrados de jugo, paranthas y más.",
-			"keywords": "helado Tuckers, mantequilla Anchor, jugo Sunquick, Bula Noni, productos congelados, congelados al por mayor"
+			"title": "Varios Congelados y Frescos - Helado, Mantequilla y Más | A & S Distributors",
+			"description": "Varios productos congelados y frescos incluyendo helado Tuckers, mantequilla Anchor, paranthas y más.",
+			"pageDescription": "Una variedad de productos congelados y frescos del Pacífico. Helado, mantequilla, paranthas y más.",
+			"keywords": "helado Tuckers, mantequilla Anchor, productos congelados, congelados al por mayor, paranthas"
+		},
+		"drinks": {
+			"title": "Bebidas - Concentrados de Jugo y Noni | A & S Distributors",
+			"description": "Bebidas refrescantes incluyendo concentrados de jugo Sunquick, Bula Noni de Fiji y bebidas de cordial. Sabores tropicales para cada ocasión.",
+			"pageDescription": "Bebidas tropicales del Pacífico. Concentrados de jugo Sunquick en sabores tropical, naranja y mango, además del jugo de bienestar Bula Noni y refrescantes cordiales.",
+			"keywords": "jugo Sunquick, Bula Noni, bebidas de cordial, bebidas tropicales, concentrado de jugo, bebidas del Pacífico, bebidas al por mayor"
 		}
 	},
 	"breadcrumb": {
@@ -374,14 +381,6 @@
 			"seoKeywords": "cordero en conserva halal, Globe mutton, carne halal, halal al por mayor",
 			"imageAlt": "Lata de Globe Corned Mutton (Halal)"
 		},
-		"globe-corned-mutton-regular": {
-			"name": "Globe Corned Mutton",
-			"description": "Cordero en conserva Globe en preparación regular. Cordero de calidad con sabor sabroso, perfecto para cocina tradicional de las Islas del Pacífico.",
-			"seoTitle": "Globe Corned Mutton Regular | A & S Distributors",
-			"seoDescription": "Cordero en conserva Globe, preparación de calidad para recetas tradicionales. Precios al por mayor disponibles.",
-			"seoKeywords": "cordero en conserva, Globe mutton, comida de las Islas del Pacífico, cordero al por mayor",
-			"imageAlt": "Lata de Globe Corned Mutton"
-		},
 		"angel-mackerel-natural-oil": {
 			"name": "Angel Mackerel en Aceite Natural",
 			"description": "Caballa enlatada de calidad envasada en aceite natural. La marca Angel es conocida por sus productos de pescado premium. Perfecta para ensaladas, sándwiches y recetas tradicionales de las Islas del Pacífico.",
@@ -445,14 +444,6 @@
 			"seoDescription": "Atún marca Skipper en aceite vegetal. Atún enlatado de calidad. Precios al por mayor disponibles.",
 			"seoKeywords": "Skipper tuna, atún enlatado, atún en aceite, atún al por mayor",
 			"imageAlt": "Lata de Skipper Tuna en Aceite Vegetal"
-		},
-		"la-pana-tongol-chunk-tuna": {
-			"name": "L'a Pana Tongol Chunk Tuna",
-			"description": "Atún Tongol en trozos marca L'a Pana. Atún de calidad premium con textura firme y sabor suave. Perfecto para ensaladas de atún, sándwiches y recetas de las Islas del Pacífico.",
-			"seoTitle": "L'a Pana Tongol Chunk Tuna | A & S Distributors",
-			"seoDescription": "Atún Tongol en trozos L'a Pana. Atún enlatado de calidad premium. Precios al por mayor disponibles.",
-			"seoKeywords": "atún Tongol, atún en trozos, L'a Pana tuna, atún al por mayor",
-			"imageAlt": "Lata de L'a Pana Tongol Chunk Tuna"
 		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Leche de Coco",
@@ -566,6 +557,14 @@
 			"seoKeywords": "Scotch Finger, galletas shortbread, galletas de mantequilla, galletas australianas",
 			"imageAlt": "Paquete de Scotch Finger"
 		},
+		"shortbread-cream": {
+			"name": "Shortbread Cream",
+			"description": "Una deliciosa galleta shortbread rellena de crema que combina mantequilloso shortbread con un suave centro de crema. Estas galletas clásicas ofrecen un equilibrio perfecto de rico sabor a mantequilla y dulce relleno de crema. Un maravilloso acompañamiento para té o café.",
+			"seoTitle": "Galletas Shortbread Cream | A & S Distributors",
+			"seoDescription": "Galletas Shortbread Cream con suave relleno de crema. Clásicas y deliciosas. Precios al por mayor disponibles.",
+			"seoKeywords": "shortbread cream, galletas con crema, galletas rellenas, galletas al por mayor",
+			"imageAlt": "Paquete de Shortbread Cream"
+		},
 		"tim-tam-original": {
 			"name": "Tim Tam Original",
 			"description": "La icónica galleta de chocolate australiana. Dos galletas de malta con chocolate rellenas de crema de chocolate, cubiertas de chocolate. Perfecta para el famoso 'Tim Tam Slam'.",
@@ -646,13 +645,13 @@
 			"seoKeywords": "FMF crackers, crackers de Fiji, breakfast crackers, comida de las Islas del Pacífico, crackers al por mayor",
 			"imageAlt": "Paquete de FMF Breakfast Crackers"
 		},
-		"fmf-breakfast-crackers-8oz": {
-			"name": "FMF Breakfast Crackers",
+		"fmf-breakfast-crackers-fine": {
+			"name": "FMF Breakfast Crackers Fine",
 			"description": "El paquete más pequeño del cracker más icónico de Fiji. El mismo gran sabor que ha hecho de FMF Breakfast Crackers un nombre del hogar desde 1973. Ligeros, crujientes y perfectos para un snack rápido o junto a tus untables y dips favoritos.",
-			"seoTitle": "FMF Breakfast Crackers 8oz | A & S Distributors",
-			"seoDescription": "FMF Breakfast Crackers en conveniente tamaño de 8oz. El cracker icónico de Fiji. Precios al por mayor disponibles.",
-			"seoKeywords": "FMF breakfast crackers, crackers de Fiji, crackers ligeros, snacks del Pacífico",
-			"imageAlt": "Paquete de FMF Breakfast Crackers"
+			"seoTitle": "FMF Breakfast Crackers Fine | A & S Distributors",
+			"seoDescription": "FMF Breakfast Crackers Fine, el cracker icónico de Fiji en un tamaño conveniente. Precios al por mayor disponibles.",
+			"seoKeywords": "FMF breakfast crackers, crackers de Fiji, crackers finos, snacks del Pacífico",
+			"imageAlt": "Paquete de FMF Breakfast Crackers Fine"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Breakfast Crackers",
@@ -823,124 +822,140 @@
 			"imageAlt": "Paquete de Fix Mix Spicy"
 		},
 		"boja-king-cheese-snack-56gr": {
-			"name": "Boja King Cheese Snack",
-			"description": "Puffs de maíz ligeros y aireados con verdadero sabor a queso. Boja King ha sido favorito en todo el Pacífico por más de 30 años. Estos snacks horneados (no fritos) están certificados halal y son perfectos para snackear sobre la marcha.",
-			"seoTitle": "Boja King Cheese Puffs 56g | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs, horneados con verdadero sabor a queso. Favorito de las Islas del Pacífico. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King cheese, cheese puffs, snacks de Fiji, snacks halal",
-			"imageAlt": "Paquete de Boja King Cheese Snack"
+			"name": "BONGOS Queso",
+			"description": "Puffs de maíz ligeros y aireados con verdadero sabor a queso. BONGOS ha sido favorito en todo el Pacífico por más de 30 años. Estos snacks horneados (no fritos) están certificados halal y son perfectos para snackear sobre la marcha.",
+			"seoTitle": "BONGOS Cheese Puffs 56g | A & S Distributors",
+			"seoDescription": "BONGOS Cheese puffs, horneados con verdadero sabor a queso. Favorito de las Islas del Pacífico. Precios al por mayor disponibles.",
+			"seoKeywords": "BONGOS cheese, cheese puffs, snacks de Fiji, snacks halal",
+			"imageAlt": "Paquete de BONGOS Cheese Snack"
 		},
 		"boja-king-cheese-snack-64gr": {
-			"name": "Boja King Cheese Snack",
-			"description": "Puffs de maíz crujientes cubiertos de sabroso sazonado de queso. Este paquete de tamaño mediano de Boja King es perfecto para snackear individualmente. Hecho de maíz y arroz, horneado para un crujido más ligero que lo ha hecho el snack favorito de Fiji por décadas.",
-			"seoTitle": "Boja King Cheese Puffs 64g | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs 64g, crujientes y con queso. El favorito de Fiji. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King cheese, snacks de queso, puffs de Fiji, snacks horneados",
-			"imageAlt": "Paquete de Boja King Cheese Snack"
+			"name": "BONGOS Queso",
+			"description": "Puffs de maíz crujientes cubiertos de sabroso sazonado de queso. Este paquete de tamaño mediano de BONGOS es perfecto para snackear individualmente. Hecho de maíz y arroz, horneado para un crujido más ligero que lo ha hecho el snack favorito de Fiji por décadas.",
+			"seoTitle": "BONGOS Cheese Puffs 64g | A & S Distributors",
+			"seoDescription": "BONGOS Cheese puffs 64g, crujientes y con queso. El favorito de Fiji. Precios al por mayor disponibles.",
+			"seoKeywords": "BONGOS cheese, snacks de queso, puffs de Fiji, snacks horneados",
+			"imageAlt": "Paquete de BONGOS Cheese Snack"
 		},
 		"boja-king-cheese-snack-28oz": {
-			"name": "Boja King Cheese Snack",
-			"description": "Paquete tamaño familiar de los icónicos cheese puffs de Fiji. El característico sabor a queso de Boja King en una porción generosa perfecta para compartir en fiestas, reuniones familiares o para los entusiastas de los cheese puffs.",
-			"seoTitle": "Boja King Cheese Puffs 28oz Tamaño Familiar | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs tamaño familiar, perfectos para compartir. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King tamaño familiar, cheese puffs a granel, snacks de Fiji, snacks para fiestas",
-			"imageAlt": "Paquete de Boja King Cheese Snack"
+			"name": "BONGOS Queso",
+			"description": "Paquete tamaño familiar de los icónicos cheese puffs de Fiji. El característico sabor a queso de BONGOS en una porción generosa perfecta para compartir en fiestas, reuniones familiares o para los entusiastas de los cheese puffs.",
+			"seoTitle": "BONGOS Cheese Puffs Tamaño Familiar | A & S Distributors",
+			"seoDescription": "BONGOS Cheese puffs tamaño familiar, perfectos para compartir. Precios al por mayor disponibles.",
+			"seoKeywords": "BONGOS tamaño familiar, cheese puffs a granel, snacks de Fiji, snacks para fiestas",
+			"imageAlt": "Paquete de BONGOS Cheese Snack"
 		},
 		"boja-king-chicken-snack-156oz": {
-			"name": "Boja King Chicken Snack",
-			"description": "Paquete a granel extra grande de los populares puffs sabor pollo de Boja King. Misma textura ligera y crujiente con sabroso sazonado de pollo. Ideal para minoristas, eventos o verdaderos fans de Boja King que nunca quieren quedarse sin ellos.",
-			"seoTitle": "Boja King Chicken Puffs 156oz A Granel | A & S Distributors",
-			"seoDescription": "Boja King Chicken puffs a granel, sabroso sabor a pollo. Perfecto para minoristas. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King chicken a granel, chicken puffs, snacks de Fiji al por mayor",
-			"imageAlt": "Paquete de Boja King Chicken Snack"
+			"name": "BONGOS Pollo",
+			"description": "Paquete a granel extra grande de los populares puffs sabor pollo BONGOS. Misma textura ligera y crujiente con sabroso sazonado de pollo. Ideal para minoristas, eventos o verdaderos fans de BONGOS que nunca quieren quedarse sin ellos.",
+			"seoTitle": "BONGOS Chicken Puffs A Granel | A & S Distributors",
+			"seoDescription": "BONGOS Chicken puffs a granel, sabroso sabor a pollo. Perfecto para minoristas. Precios al por mayor disponibles.",
+			"seoKeywords": "BONGOS chicken a granel, chicken puffs, snacks de Fiji al por mayor",
+			"imageAlt": "Paquete de BONGOS Chicken Snack"
 		},
 		"boja-king-chicken-snack-64oz": {
-			"name": "Boja King Chicken Snack",
-			"description": "Paquete grande de puffs de maíz sabor pollo de la querida marca Boja King de Fiji. Sabrosos, crujientes y satisfactorios con la misma calidad horneada que ha hecho de Boja King una institución de las Islas del Pacífico.",
-			"seoTitle": "Boja King Chicken Puffs 64oz | A & S Distributors",
-			"seoDescription": "Paquete grande Boja King Chicken puffs, sabrosos y crujientes. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King chicken, snacks de pollo, puffs de Fiji, comida de las Islas del Pacífico",
-			"imageAlt": "Paquete de Boja King Chicken Snack"
+			"name": "BONGOS Pollo",
+			"description": "Paquete grande de puffs de maíz sabor pollo de la querida marca BONGOS de Fiji. Sabrosos, crujientes y satisfactorios con la misma calidad horneada que ha hecho de BONGOS una institución de las Islas del Pacífico.",
+			"seoTitle": "BONGOS Chicken Puffs 64g | A & S Distributors",
+			"seoDescription": "Paquete grande BONGOS Chicken puffs, sabrosos y crujientes. Precios al por mayor disponibles.",
+			"seoKeywords": "BONGOS chicken, snacks de pollo, puffs de Fiji, comida de las Islas del Pacífico",
+			"imageAlt": "Paquete de BONGOS Chicken Snack"
 		},
 		"boja-king-chicken-snack-28oz": {
-			"name": "Boja King Chicken Snack",
-			"description": "Bolsa tamaño familiar de puffs de pollo Boja King. Estos snacks ligeros y aireados están sazonados con sabroso sabor a pollo que atrae a todas las edades. Un esencial de fiestas en hogares de las Islas del Pacífico.",
-			"seoTitle": "Boja King Chicken Puffs 28oz | A & S Distributors",
-			"seoDescription": "Boja King Chicken puffs tamaño familiar. Esencial de fiestas. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King chicken, snacks familiares, puffs de Fiji, comida para fiestas",
-			"imageAlt": "Paquete de Boja King Chicken Snack"
+			"name": "BONGOS Pollo",
+			"description": "Bolsa tamaño familiar de puffs de pollo BONGOS. Estos snacks ligeros y aireados están sazonados con sabroso sabor a pollo que atrae a todas las edades. Un esencial de fiestas en hogares de las Islas del Pacífico.",
+			"seoTitle": "BONGOS Chicken Puffs Tamaño Familiar | A & S Distributors",
+			"seoDescription": "BONGOS Chicken puffs tamaño familiar. Esencial de fiestas. Precios al por mayor disponibles.",
+			"seoKeywords": "BONGOS chicken, snacks familiares, puffs de Fiji, comida para fiestas",
+			"imageAlt": "Paquete de BONGOS Chicken Snack"
 		},
 		"boja-king-cheese-20gr": {
-			"name": "Boja King Cheese",
-			"description": "Paquete individual de los cheese puffs favoritos de Fiji. Perfecto para loncheras, tiendas de conveniencia o snackear rápido. El mismo gran sabor Boja King en un tamaño de porción controlada.",
-			"seoTitle": "Boja King Cheese Puffs 20g Individual | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs individuales. Perfectos para loncheras. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King individual, cheese puffs pequeños, snacks de Fiji, snacks para loncheras",
-			"imageAlt": "Paquete de Boja King Cheese"
+			"name": "TWISTES Queso",
+			"description": "Paquete individual de los cheese puffs favoritos de Fiji. Perfecto para loncheras, tiendas de conveniencia o snackear rápido. El mismo gran sabor TWISTES en un tamaño de porción controlada.",
+			"seoTitle": "TWISTES Cheese Puffs 20g Individual | A & S Distributors",
+			"seoDescription": "TWISTES Cheese puffs individuales. Perfectos para loncheras. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES individual, cheese puffs pequeños, snacks de Fiji, snacks para loncheras",
+			"imageAlt": "Paquete de TWISTES Cheese"
 		},
 		"boja-king-cheese-100gr": {
-			"name": "Boja King Cheese",
-			"description": "Una porción satisfactoria de cheese puffs Boja King para snackear personal. Ligeros, crujientes y repletos de bondad de queso. Esta bolsa de tamaño mediano es la opción para disfrute diario.",
-			"seoTitle": "Boja King Cheese Puffs 100g | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs 100g, tamaño personal perfecto. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King cheese, snacks de queso, puffs de Fiji, tamaño personal",
-			"imageAlt": "Paquete de Boja King Cheese"
+			"name": "TWISTES Queso",
+			"description": "Una porción satisfactoria de cheese puffs TWISTES para snackear personal. Ligeros, crujientes y repletos de bondad de queso. Esta bolsa de tamaño mediano es la opción para disfrute diario.",
+			"seoTitle": "TWISTES Cheese Puffs 100g | A & S Distributors",
+			"seoDescription": "TWISTES Cheese puffs 100g, tamaño personal perfecto. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES cheese, snacks de queso, puffs de Fiji, tamaño personal",
+			"imageAlt": "Paquete de TWISTES Cheese"
 		},
 		"boja-king-cheese-250gr": {
-			"name": "Boja King Cheese",
-			"description": "Paquete para compartir de los legendarios cheese puffs de Boja King. Suficiente para noches de películas, pequeñas reuniones o una semana de snackear. El sabor a queso que los isleños del Pacífico han amado por más de tres décadas.",
-			"seoTitle": "Boja King Cheese Puffs 250g Para Compartir | A & S Distributors",
-			"seoDescription": "Boja King Cheese puffs 250g para compartir. Perfectos para reuniones. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King para compartir, cheese puffs, snacks de Fiji, snacks para fiestas",
-			"imageAlt": "Paquete de Boja King Cheese"
+			"name": "TWISTES Queso",
+			"description": "Paquete para compartir de los legendarios cheese puffs de TWISTES. Suficiente para noches de películas, pequeñas reuniones o una semana de snackear. El sabor a queso que los isleños del Pacífico han amado por más de tres décadas.",
+			"seoTitle": "TWISTES Cheese Puffs 250g Para Compartir | A & S Distributors",
+			"seoDescription": "TWISTES Cheese puffs 250g para compartir. Perfectos para reuniones. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES para compartir, cheese puffs, snacks de Fiji, snacks para fiestas",
+			"imageAlt": "Paquete de TWISTES Cheese"
+		},
+		"twistes-cheese-500gr": {
+			"name": "TWISTES Queso",
+			"description": "Bolsa extra grande para compartir de puffs sabor queso TWISTES. Hechos de maíz y arroz de calidad, horneados a la perfección crujiente con sabroso sazonado de queso. El paquete más grande disponible para verdaderos fans de los cheese puffs y reuniones.",
+			"seoTitle": "TWISTES Cheese Puffs 500g | A & S Distributors",
+			"seoDescription": "TWISTES Cheese puffs bolsa extra grande de 500g. Horneados y con queso. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES queso, cheese puffs grandes, snacks de Fiji, snacks horneados",
+			"imageAlt": "Paquete de TWISTES Cheese"
 		},
 		"boja-king-chicken-20gr": {
-			"name": "Boja King Chicken",
-			"description": "Paquete de bolsillo de puffs Boja King sabor pollo. Conveniente para snackear sobre la marcha, almuerzos escolares o máquinas expendedoras. Todo el sabroso sabor a pollo en un paquete perfectamente porcionado.",
-			"seoTitle": "Boja King Chicken Puffs 20g | A & S Distributors",
-			"seoDescription": "Boja King Chicken puffs tamaño bolsillo. Snackear sobre la marcha. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King pequeño, chicken puffs, snacks de conveniencia, comida de Fiji",
-			"imageAlt": "Paquete de Boja King Chicken"
+			"name": "TWISTES Pollo",
+			"description": "Paquete de bolsillo de puffs TWISTES sabor pollo. Conveniente para snackear sobre la marcha, almuerzos escolares o máquinas expendedoras. Todo el sabroso sabor a pollo en un paquete perfectamente porcionado.",
+			"seoTitle": "TWISTES Chicken Puffs 20g | A & S Distributors",
+			"seoDescription": "TWISTES Chicken puffs tamaño bolsillo. Snackear sobre la marcha. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES pequeño, chicken puffs, snacks de conveniencia, comida de Fiji",
+			"imageAlt": "Paquete de TWISTES Chicken"
 		},
 		"boja-king-chicken-28gr": {
-			"name": "Boja King Chicken",
-			"description": "Porción individual de los populares puffs de pollo de Boja King. Ligeramente más grande que el paquete de 20g, este tamaño ofrece más satisfacción mientras sigue siendo perfectamente portátil. Horneados, certificados halal y deliciosos.",
-			"seoTitle": "Boja King Chicken Puffs 28g | A & S Distributors",
-			"seoDescription": "Boja King Chicken puffs individual 28g. Certificados halal. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King individual, snacks de pollo, puffs halal, snacks de Fiji",
-			"imageAlt": "Paquete de Boja King Chicken"
+			"name": "TWISTES Pollo",
+			"description": "Porción individual de los populares puffs de pollo TWISTES. Ligeramente más grande que el paquete de 20g, este tamaño ofrece más satisfacción mientras sigue siendo perfectamente portátil. Horneados, certificados halal y deliciosos.",
+			"seoTitle": "TWISTES Chicken Puffs 28g | A & S Distributors",
+			"seoDescription": "TWISTES Chicken puffs individual 28g. Certificados halal. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES individual, snacks de pollo, puffs halal, snacks de Fiji",
+			"imageAlt": "Paquete de TWISTES Chicken"
 		},
 		"boja-king-chicken-100gr": {
-			"name": "Boja King Chicken",
-			"description": "Bolsa tamaño personal de puffs de pollo Boja King. Hechos de maíz y arroz de calidad, horneados a la perfección crujiente con sabroso sazonado de pollo. El tamaño correcto para disfrute de snackear diario.",
-			"seoTitle": "Boja King Chicken Puffs 100g | A & S Distributors",
-			"seoDescription": "Boja King Chicken puffs 100g tamaño personal. Crujientes y sabrosos. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King chicken, puffs horneados, snacks de Fiji, snacks diarios",
-			"imageAlt": "Paquete de Boja King Chicken"
+			"name": "TWISTES Pollo",
+			"description": "Bolsa tamaño personal de puffs de pollo TWISTES. Hechos de maíz y arroz de calidad, horneados a la perfección crujiente con sabroso sazonado de pollo. El tamaño correcto para disfrute de snackear diario.",
+			"seoTitle": "TWISTES Chicken Puffs 100g | A & S Distributors",
+			"seoDescription": "TWISTES Chicken puffs 100g tamaño personal. Crujientes y sabrosos. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES chicken, puffs horneados, snacks de Fiji, snacks diarios",
+			"imageAlt": "Paquete de TWISTES Chicken"
+		},
+		"twistes-chicken-500gr": {
+			"name": "TWISTES Pollo",
+			"description": "Bolsa extra grande para compartir de puffs sabor pollo TWISTES. Hechos de maíz y arroz de calidad, horneados a la perfección crujiente con sabroso sazonado de pollo. El paquete más grande disponible para entusiastas de los puffs de pollo y reuniones.",
+			"seoTitle": "TWISTES Chicken Puffs 500g | A & S Distributors",
+			"seoDescription": "TWISTES Chicken puffs bolsa extra grande de 500g. Horneados con sabroso sabor a pollo. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES pollo, chicken puffs grandes, snacks de Fiji, snacks horneados",
+			"imageAlt": "Paquete de TWISTES Chicken"
 		},
 		"boja-king-ufo-burger-20gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Hamburguesa",
 			"description": "Snacks de maíz divertidos en forma de platillo volador con audaz sabor a hamburguesa. Los UFO's son favoritos en Fiji, especialmente entre niños que aman la forma única y el sabroso sabor. Tamaño individual perfecto para loncheras.",
-			"seoTitle": "Boja King UFO Burger Snacks 20g | A & S Distributors",
-			"seoDescription": "Snacks Boja King UFO sabor hamburguesa. Forma divertida, gran sabor. Precios al por mayor disponibles.",
-			"seoKeywords": "Boja King UFO, snacks de hamburguesa, snacks para niños, comida de Fiji",
-			"imageAlt": "Paquete de Boja King UFO's Burger"
+			"seoTitle": "UFO's Burger Snacks 20g | A & S Distributors",
+			"seoDescription": "Snacks UFO's sabor hamburguesa. Forma divertida, gran sabor. Precios al por mayor disponibles.",
+			"seoKeywords": "UFO's burger, snacks de hamburguesa, snacks para niños, comida de Fiji",
+			"imageAlt": "Paquete de UFO's Burger"
 		},
 		"boja-king-ufo-burger-100gr": {
-			"name": "Boja King UFO's Burger",
+			"name": "UFO's Hamburguesa",
 			"description": "Bolsa mediana de snacks de maíz UFO's sabor hamburguesa. La distintiva forma de platillo y el sabroso sazonado de hamburguesa han hecho de UFO's uno de los snacks más populares en la región del Pacífico Sur.",
-			"seoTitle": "Boja King UFO Burger Snacks 100g | A & S Distributors",
-			"seoDescription": "Boja King UFO burger snacks 100g. Favorito del Pacífico Sur. Precios al por mayor disponibles.",
-			"seoKeywords": "UFO snacks, sabor hamburguesa, puffs de Fiji, snacks de las Islas del Pacífico",
-			"imageAlt": "Paquete de Boja King UFO's Burger"
+			"seoTitle": "UFO's Burger Snacks 100g | A & S Distributors",
+			"seoDescription": "UFO's burger snacks 100g. Favorito del Pacífico Sur. Precios al por mayor disponibles.",
+			"seoKeywords": "UFO's snacks, sabor hamburguesa, puffs de Fiji, snacks de las Islas del Pacífico",
+			"imageAlt": "Paquete de UFO's Burger"
 		},
 		"boja-king-ufo-burger-200gr": {
-			"name": "Boja King UFO's Burger",
-			"description": "Paquete tamaño familiar de los queridos snacks UFO's sabor hamburguesa de Fiji. Estos dulces en forma de platillo volador ofrecen satisfacción crujiente y sabrosa. Perfectos para compartir o para abastecerse de este clásico de las Islas del Pacífico.",
-			"seoTitle": "Boja King UFO Burger Snacks 200g Familiar | A & S Distributors",
-			"seoDescription": "Boja King UFO burger snacks tamaño familiar. Perfectos para compartir. Precios al por mayor disponibles.",
-			"seoKeywords": "UFO snacks familiar, burger puffs, snacks de Fiji, comida de las Islas del Pacífico",
-			"imageAlt": "Paquete de Boja King UFO's Burger"
+			"name": "UFO's Hamburguesa",
+			"description": "Paquete tamaño familiar de los queridos snacks UFO's sabor hamburguesa de Fiji. Estos snacks en forma de platillo volador ofrecen satisfacción crujiente y sabrosa. Perfectos para compartir o para abastecerse de este clásico de las Islas del Pacífico.",
+			"seoTitle": "UFO's Burger Snacks 200g Familiar | A & S Distributors",
+			"seoDescription": "UFO's burger snacks tamaño familiar. Perfectos para compartir. Precios al por mayor disponibles.",
+			"seoKeywords": "UFO's snacks familiar, burger puffs, snacks de Fiji, comida de las Islas del Pacífico",
+			"imageAlt": "Paquete de UFO's Burger"
 		},
 		"cadbury-crunchie-bars": {
 			"name": "Cadbury Crunchie Bars",
@@ -1230,14 +1245,6 @@
 			"seoKeywords": "Weetbix 20oz, cereal de grano entero, desayuno australiano, cereal saludable",
 			"imageAlt": "Caja de Weetbix Breakfast Cereal"
 		},
-		"weetbix-breakfast-cereal-26oz": {
-			"name": "Weetbix Breakfast Cereal",
-			"description": "Paquete extra grande de Weetbix para entusiastas de Weetbix y familias más grandes. Las mismas galletas de grano entero en las que los australianos han confiado por generaciones. Energía de bajo índice glucémico que te mantiene hasta el almuerzo.",
-			"seoTitle": "Weetbix Cereal de Desayuno 26oz Extra Grande | A & S Distributors",
-			"seoDescription": "Weetbix paquete extra grande 26oz. Grano entero, energía de bajo IG. Precios al por mayor disponibles.",
-			"seoKeywords": "Weetbix grande, desayuno de grano entero, cereal australiano, cereal familiar",
-			"imageAlt": "Caja de Weetbix Breakfast Cereal"
-		},
 		"weetbix-breakfast-cereal-2lb": {
 			"name": "Weetbix Breakfast Cereal",
 			"description": "Formato a granel de Weetbix para máximo valor. Abastécete del cereal de desayuno que ha alimentado a atletas y familias australianas por décadas. 97% trigo integral con vitaminas y minerales para un comienzo fuerte.",
@@ -1318,28 +1325,12 @@
 			"seoKeywords": "té Bushells, té australiano, té negro de hoja suelta, Blue Label",
 			"imageAlt": "Caja de Bushells Black Tea"
 		},
-		"bushells-black-tea-500gr": {
-			"name": "Bushells Black Tea",
-			"description": "Paquete más grande de té de hoja suelta Bushells Blue Label para hogares que aprecian té negro de calidad diariamente. Sabor completo de hojas cuidadosamente seleccionadas. El té que ha acompañado conversaciones australianas por más de un siglo.",
-			"seoTitle": "Bushells Té Negro 500g Hoja Suelta | A & S Distributors",
-			"seoDescription": "Té negro Bushells Blue Label 500g tamaño familiar. Sabor completo. Precios al por mayor disponibles.",
-			"seoKeywords": "té Bushells 500g, té negro australiano, té de hoja suelta, té al por mayor",
-			"imageAlt": "Caja de Bushells Black Tea"
-		},
 		"ceylon-black-tea-200gr": {
 			"name": "Ceylon Black Tea",
 			"description": "Té negro premium de Sri Lanka (Ceilán), renombrado mundialmente por su brillante y vigoroso sabor y licor dorado. Estas hojas de té sueltas preparan una taza refrescante con el distintivo carácter de Ceilán preciado por conocedores del té.",
 			"seoTitle": "Té Negro de Ceilán 200g Hoja Suelta | A & S Distributors",
 			"seoDescription": "Té negro premium de Ceilán 200g de Sri Lanka. Brillante, vigoroso sabor. Precios al por mayor disponibles.",
 			"seoKeywords": "té de Ceilán, té de Sri Lanka, té negro, hoja suelta premium",
-			"imageAlt": "Caja de Ceylon Black Tea"
-		},
-		"ceylon-black-tea-500gr": {
-			"name": "Ceylon Black Tea",
-			"description": "Paquete a granel de auténtico té negro de Ceilán para verdaderos entusiastas del té. El té de Sri Lanka es celebrado por su calidad y sabor distintivo. Este tamaño más grande proporciona excelente valor para bebedores de té diarios y servicio de alimentos.",
-			"seoTitle": "Té Negro de Ceilán 500g A Granel | A & S Distributors",
-			"seoDescription": "Té negro de Ceilán 500g tamaño a granel. Auténtica calidad de Sri Lanka. Precios al por mayor disponibles.",
-			"seoKeywords": "té de Ceilán a granel, té de Sri Lanka grande, té negro al por mayor, hoja suelta",
 			"imageAlt": "Caja de Ceylon Black Tea"
 		},
 		"punjas-tea-masala": {
@@ -1478,14 +1469,6 @@
 			"seoKeywords": "salchicha de pollo picante, salchicha picante, salchicha de chile, comida de las Islas del Pacífico",
 			"imageAlt": "Paquete de Chicken Sausage Hot"
 		},
-		"lamb-sausage-5lb": {
-			"name": "Lamb Sausage",
-			"description": "Paquete a granel de salchichas de cordero premium hechas con cordero de Nueva Zelanda. Rico y distintivo sabor a cordero en cada eslabón. Este formato más grande es ideal para restaurantes, catering y familias que aman el cordero.",
-			"seoTitle": "Salchicha de Cordero Paquete A Granel 5lb | A & S Distributors",
-			"seoDescription": "Salchicha de cordero a granel paquete de 5lb. Cordero premium de Nueva Zelanda. Precios al por mayor disponibles.",
-			"seoKeywords": "salchicha de cordero a granel, salchicha de cordero de Nueva Zelanda, salchicha al por mayor",
-			"imageAlt": "Paquete de Lamb Sausage"
-		},
 		"lamb-sausage-2lb": {
 			"name": "Lamb Sausage",
 			"description": "Paquete conveniente para minoristas de salchichas de cordero hechas de cordero de Nueva Zelanda de calidad. El distintivo sabor del cordero brilla en estos eslabones bien sazonados. Perfectas para barbacoas familiares y cenas entre semana.",
@@ -1509,6 +1492,14 @@
 			"seoDescription": "Salchichas de res samoanas tradicionales. Favorito de las Islas del Pacífico. Precios al por mayor disponibles.",
 			"seoKeywords": "salchicha samoana, beef bangers, salchicha de las Islas del Pacífico, comida samoana",
 			"imageAlt": "Paquete de Samoan Beef Bangers"
+		},
+		"samoan-pork-bangers": {
+			"name": "Samoan Pork Bangers",
+			"description": "Salchichas de cerdo tradicionales estilo samoano con sazonados de las Islas del Pacífico. Estos sustanciosos bangers son perfectos para reuniones y barbacoas samoanas. Eslabones de cerdo jugosos con auténtico sabor isleño.",
+			"seoTitle": "Samoan Pork Bangers Salchichas | A & S Distributors",
+			"seoDescription": "Salchichas de cerdo samoanas tradicionales. Favorito de las Islas del Pacífico. Precios al por mayor disponibles.",
+			"seoKeywords": "salchicha samoana, pork bangers, salchicha de las Islas del Pacífico, comida samoana",
+			"imageAlt": "Paquete de Samoan Pork Bangers"
 		},
 		"fish-kawa-kawa": {
 			"name": "Fish Kawa Kawa",
@@ -1686,14 +1677,6 @@
 			"seoKeywords": "hojas de taro, hojas de palusami, lu, comida de las Islas del Pacífico",
 			"imageAlt": "Taro Leaves fresco"
 		},
-		"breadfruit-1kg": {
-			"name": "Breadfruit",
-			"description": "Fruta de pan congelada en conveniente tamaño de porción. Esta fruta almidonada tiene una textura similar al pan cuando se cocina y puede asarse, hervirse, freírse o hacerse puré. Un básico sostenible de las Islas del Pacífico que ha sustentado a los isleños por milenios.",
-			"seoTitle": "Fruta de Pan Congelada 1kg | A & S Distributors",
-			"seoDescription": "Fruta de pan congelada porción de 1kg. Textura similar al pan. Precios al por mayor disponibles.",
-			"seoKeywords": "fruta de pan, ulu, fruta del Pacífico, comida de las Islas del Pacífico",
-			"imageAlt": "Breadfruit fresco"
-		},
 		"breadfruit-5lb": {
 			"name": "Breadfruit",
 			"description": "Paquete más grande de fruta de pan congelada para familias y restaurantes. La fruta de pan madura es ligeramente dulce y perfecta para postres, mientras que la fruta de pan almidonada hace excelentes papas fritas, chips y acompañamientos. Un ingrediente versátil de las Islas del Pacífico.",
@@ -1789,6 +1772,30 @@
 			"seoDescription": "Concentrado Sunquick de Frutas Tropicales. Mezcla de frutas exóticas. Precios al por mayor disponibles.",
 			"seoKeywords": "Sunquick tropical, concentrado de frutas, ponche tropical, bebida del Pacífico",
 			"imageAlt": "Botella de Sunquick Tropical Juice Concentrate"
+		},
+		"cordial-raspberry": {
+			"name": "Cordial Frambuesa",
+			"description": "Concentrado de cordial de frambuesa refrescante para preparar deliciosas bebidas de frambuesa. Simplemente mezcla con agua para una bebida dulce y afrutada. Una opción popular para familias y reuniones en todas las Islas del Pacífico.",
+			"seoTitle": "Cordial de Frambuesa | A & S Distributors",
+			"seoDescription": "Concentrado de cordial de frambuesa. Bebida afrutada refrescante. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial de frambuesa, bebida de cordial, bebida de frutas, bebidas del Pacífico",
+			"imageAlt": "Botella de Cordial Frambuesa"
+		},
+		"cordial-kola": {
+			"name": "Cordial Kola",
+			"description": "Concentrado de cordial clásico sabor kola para preparar refrescantes bebidas estilo cola. Mezcla con agua para una bebida dulce y aromática con distintivo sabor a nuez de kola. Un favorito nostálgico en todas las Islas del Pacífico.",
+			"seoTitle": "Cordial Kola | A & S Distributors",
+			"seoDescription": "Concentrado de cordial de kola. Sabor clásico estilo cola. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial de kola, bebida de cola, concentrado de cordial, bebidas del Pacífico",
+			"imageAlt": "Botella de Cordial Kola"
+		},
+		"cordial-lime": {
+			"name": "Cordial Lima",
+			"description": "Concentrado de cordial de lima vibrante para preparar refrescantes bebidas de lima. El sabor ácido y cítrico es perfecto para días calurosos y reuniones tropicales. Simplemente mezcla con agua para un refresco instantáneo de lima.",
+			"seoTitle": "Cordial de Lima | A & S Distributors",
+			"seoDescription": "Concentrado de cordial de lima. Vibrante y refrescante. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial de lima, bebida de lima, bebida cítrica, bebidas del Pacífico",
+			"imageAlt": "Botella de Cordial Lima"
 		}
 	},
 	"contact": {

@@ -12,6 +12,7 @@ import {
 	Bird,
 	Leaf,
 	Snowflake,
+	GlassWater,
 	type LucideIcon,
 } from 'lucide-react';
 import type { CategoryKey } from './products';
@@ -39,4 +40,5 @@ export const CATEGORY_ICONS: Record<CategoryKey, IconComponent> = {
 	'white-meats': Bird,
 	'root-vegetables': Leaf,
 	'misc-frozen-fresh': Snowflake,
+	drinks: GlassWater,
 };

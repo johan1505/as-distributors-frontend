@@ -37,6 +37,7 @@ import { isActivePath } from "@/lib/path-utils";
 import type { CategoryKey } from "@/lib/products";
 import type { Locale } from "@/i18n/config";
 import { ROUTES } from "@/lib/routes";
+import { localeFlagMap } from "@/components/icons/FlagIcons";
 
 interface AppSidebarProps {
   locale: Locale;
@@ -144,33 +145,40 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                   </SidebarMenuSub>
                 </CollapsibleContent>
               </Collapsible>
-
-              {/* Contact */}
-              <SidebarMenuItem>
-                <SidebarMenuButton
-                  onClick={() => {
-                    if (isMobile) {
-                      setOpenMobile(false);
-                    }
-                  }}
-                  render={<Link href={ROUTES.contact} />}
-                  isActive={isActivePath(pathname, ROUTES.contact)}
-                >
-                  <Phone className="size-4" />
-                  <span>{t("contact")}</span>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
 
-      <SidebarFooter className="border-t border-ocean/20 pt-4">
+      <SidebarFooter className="border-t border-ocean/20 pt-2 pb-2">
+        <div className="px-2">
+          <Link
+            href={ROUTES.contact}
+            onClick={() => {
+              if (isMobile) {
+                setOpenMobile(false);
+              }
+            }}
+            className={`flex w-full items-center gap-2 rounded-lg px-3 py-1.5 text-sm font-medium hover:bg-muted transition-colors ${isActivePath(pathname, ROUTES.contact) ? "bg-ocean/10 text-ocean" : ""}`}
+          >
+            <Phone className="size-4" />
+            <span>{t("contact")}</span>
+          </Link>
+        </div>
         {locales.length > 1 && (
-          <div className="px-2 pb-2">
+          <div className="px-2">
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium hover:bg-muted transition-colors">
-                <Globe className="size-4 text-ocean" />
+              <DropdownMenuTrigger className="flex w-full items-center gap-2 rounded-lg px-3 py-1.5 text-sm font-medium hover:bg-muted transition-colors">
+                {(() => {
+                  const ActiveFlag = localeFlagMap[locale];
+                  return ActiveFlag ? (
+                    <span className="flex size-4 items-center justify-center flex-shrink-0">
+                      <ActiveFlag className="h-3 w-4 rounded-sm overflow-hidden" />
+                    </span>
+                  ) : (
+                    <Globe className="size-4 text-ocean" />
+                  );
+                })()}
                 <span>{tNav("language")}</span>
                 <ChevronDown className="ml-auto size-4 text-muted-foreground" />
               </DropdownMenuTrigger>
@@ -184,6 +192,7 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                     zh: "中文",
                   };
                   const isActive = locale === loc;
+                  const FlagIcon = localeFlagMap[loc];
                   return (
                     <DropdownMenuItem
                       key={loc}
@@ -200,6 +209,9 @@ export function AppSidebar({ locale, locales, categories }: AppSidebarProps) {
                       }
                       className={isActive ? "bg-ocean/10 text-ocean" : ""}
                     >
+                      {FlagIcon && (
+                        <FlagIcon className="h-3 w-4 rounded-sm overflow-hidden" />
+                      )}
                       {languageNames[loc] || loc.toUpperCase()}
                       {isActive && <Check className="ml-auto size-4" />}
                     </DropdownMenuItem>

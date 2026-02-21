@@ -12,7 +12,7 @@ import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
 import { ProductSlug } from "@/lib/products";
 
-export type QuoteItem = { productName: string; quantity: number };
+export type QuoteItem = { productName: string; itemNumber: string; quantity: number };
 
 export interface QuoteRequestPayload {
   contactInfo: {
@@ -53,6 +53,7 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
 
     const quoteItems: QuoteItem[] = items.map((item) => ({
       productName: `${productSlugToNameMapInEnglish[item.product.slug]} (${item.product.overallSize})`,
+      itemNumber: item.product.itemNumber,
       quantity: item.quantity,
     }));
 

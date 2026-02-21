@@ -28,7 +28,6 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
   const tProducts = useTranslations("products");
 
   const name = tProducts(`${product.slug}.name`);
-  const description = tProducts(`${product.slug}.description`);
 
   const { items } = useQuote();
 
@@ -63,6 +62,9 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         </CardTitle>
       </CardHeader>
       <CardContent>
+        <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold mb-2">
+          {t("itemNumber")}: {product.itemNumber}
+        </span>
         <ProductBadges
           overallSize={product.overallSize}
           unitPerPack={product.unitPerPack}
@@ -70,7 +72,6 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
           unitPerPackLabel={t("unitPerPack")}
           variant="compact"
         />
-        <p className="line-clamp-3 mt-4 text-muted-foreground">{description}</p>
       </CardContent>
       <CardFooter>
         {hideQuoteCart ? null : (
