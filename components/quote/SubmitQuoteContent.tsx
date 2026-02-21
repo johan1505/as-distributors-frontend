@@ -1,7 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, ChevronDown, ChevronUp } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { useQuote } from "./QuoteProvider";
 import { QuoteItemsList } from "./QuoteItemsList";
@@ -18,7 +19,8 @@ type SubmitQuoteContentProps = {
 export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuoteContentProps) {
   const tQuote = useTranslations("quote");
   const tQuotePage = useTranslations("quote.submitPage");
-  const { items } = useQuote();
+  const { items, totalItems } = useQuote();
+  const [isItemsOpen, setIsItemsOpen] = useState(false);
 
   if (items.length === 0) {
     return (
@@ -48,9 +50,30 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-8">
-        <QuoteItemsList />
-        <Separator orientation="vertical" />
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
+        <div className="flex-1">
+          {/* Mobile collapsible trigger */}
+          <button
+            className="lg:hidden flex items-center justify-between w-full py-3 border-b border-ocean/10"
+            onClick={() => setIsItemsOpen(!isItemsOpen)}
+          >
+            <span className="text-xl font-semibold">
+              {tQuotePage("itemsInQuote")} ({totalItems}{" "}
+              {totalItems === 1 ? tQuotePage("item") : tQuotePage("items")})
+            </span>
+            {isItemsOpen ? (
+              <ChevronUp className="size-5 text-muted-foreground" />
+            ) : (
+              <ChevronDown className="size-5 text-muted-foreground" />
+            )}
+          </button>
+
+          {/* Items list: always visible on lg+, toggle on mobile */}
+          <div className={isItemsOpen ? "" : "hidden lg:block"}>
+            <QuoteItemsList />
+          </div>
+        </div>
+        <Separator orientation="vertical" className="hidden lg:block" />
         <QuoteRequestForm productSlugToNameMapInEnglish={productSlugToNameMapInEnglish} />
       </div>
     </div>

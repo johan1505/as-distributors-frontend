@@ -25,7 +25,7 @@ export function Header() {
     <header className="@container sticky top-0 z-30 w-full border-b border-ocean/10 bg-background/95 backdrop-blur-sm">
       <div className="flex flex-col @5xl:flex-row h-full justify-between p-4 gap-4">
         {/* Left Side: Sidebar Trigger & Breadcrumbs */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 min-w-0">
           <SidebarTrigger />
           <BreadcrumbWrapper />
         </div>

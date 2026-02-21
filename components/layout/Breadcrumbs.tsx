@@ -24,8 +24,8 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   }
 
   return (
-    <Breadcrumb>
-      <BreadcrumbList>
+    <Breadcrumb className="min-w-0">
+      <BreadcrumbList className="min-w-0">
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
 

@@ -34,7 +34,7 @@ export function QuoteItemsList() {
 
   return (
     <div className="flex-1">
-      <h2 className="text-xl font-semibold mb-4">
+      <h2 className="text-xl font-semibold mb-4 hidden lg:block">
         {tQuotePage("itemsInQuote")}
       </h2>
       <ul className="space-y-4">
@@ -90,13 +90,12 @@ export function QuoteItemsList() {
                 </Button>
                 <Button
                   variant="destructive"
-                  size="sm"
+                  size="icon-xs"
                   className="ml-auto"
                   onClick={() => removeItem(item.product.slug)}
                   aria-label="Remove item"
                 >
-                  <Trash2 className="size-4 mr-1" />
-                  {tQuote("remove")}
+                  <Trash2 className="size-4" />
                 </Button>
               </div>
             </div>
