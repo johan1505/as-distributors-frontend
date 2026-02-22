@@ -87,7 +87,8 @@
 		"addMoreToQuote": "添加更多包装到报价",
 		"addedToQuote": "已添加！",
 		"inQuote": "在报价中",
-		"backToCatalog": "返回目录"
+		"backToCatalog": "返回目录",
+		"viewLargerImage": "查看大图："
 	},
 	"quote": {
 		"packs": "包",

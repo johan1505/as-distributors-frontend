@@ -87,7 +87,8 @@
 		"addMoreToQuote": "Agregar más paquetes a cotización",
 		"addedToQuote": "¡Agregado!",
 		"inQuote": "En Cotización",
-		"backToCatalog": "Volver al Catálogo"
+		"backToCatalog": "Volver al Catálogo",
+		"viewLargerImage": "Ver imagen ampliada de"
 	},
 	"quote": {
 		"packs": "Paquetes",

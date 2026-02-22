@@ -10,8 +10,8 @@ import {
 } from '@/lib/products';
 import { locales } from '@/i18n/config';
 import { AddToQuoteButton } from '@/components/quote/AddToQuoteButton';
-import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
+import { ProductDetailImage } from '@/components/products/ProductDetailImage';
 import { ProductBadges } from '@/components/products/ProductBadges';
 import { hasLocale } from 'next-intl';
 import { getCanonicalUrl, BASE_URL, buildPageMetadata } from '@/lib/site-config';
@@ -176,16 +176,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
 				<div className="grid md:gap-8 gap-0 lg:grid-cols-2 md:p-8">
 					{/* Product Image */}
 					<div className="h-full flex items-center justify-center">
-						<div className="overflow-hidden md:rounded-2xl bg-white aspect-4/3 p-4">
-							<Image
-								width={800}
-								height={600}
-								src={getProductImageSource(slug)}
-								alt={tProducts(`${slug}.imageAlt`)}
-								className="w-full h-full object-contain"
-								loading="lazy"
-							/>
-						</div>
+						<ProductDetailImage
+							src={getProductImageSource(slug)}
+							alt={tProducts(`${slug}.imageAlt`)}
+							ariaLabel={`${t('viewLargerImage')} ${name}`}
+						/>
 					</div>
 
 					{/* Product Details */}

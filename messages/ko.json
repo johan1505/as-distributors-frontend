@@ -87,7 +87,8 @@
 		"addMoreToQuote": "더 많은 팩을 견적에 추가",
 		"addedToQuote": "추가됨!",
 		"inQuote": "견적에 포함",
-		"backToCatalog": "카탈로그로 돌아가기"
+		"backToCatalog": "카탈로그로 돌아가기",
+		"viewLargerImage": "더 큰 이미지 보기:"
 	},
 	"quote": {
 		"packs": "팩",

@@ -87,7 +87,8 @@
 		"addMoreToQuote": "Add more packs to quote",
 		"addedToQuote": "Added!",
 		"inQuote": "In Quote",
-		"backToCatalog": "Back to Catalog"
+		"backToCatalog": "Back to Catalog",
+		"viewLargerImage": "View larger image of"
 	},
 	"quote": {
 		"packs": "Packs",
