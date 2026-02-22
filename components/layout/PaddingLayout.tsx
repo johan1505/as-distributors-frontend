@@ -4,7 +4,7 @@ interface PaddingLayoutProps {
 
 export function PaddingLayout({ children }: PaddingLayoutProps) {
   return (
-    <div className="max-w-7xl m-auto px-8 h-full flex justify-center py-8">
+    <div className="max-w-7xl m-auto px-4 sm:px-8 h-full flex justify-center py-8">
       {children}
     </div>
   );

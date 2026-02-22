@@ -40,7 +40,7 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
   }
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="w-full max-w-4xl mx-auto">
       <div className="mb-8">
         <h1 className="text-2xl md:text-3xl font-semibold mb-2">
           {tQuotePage("title")}
