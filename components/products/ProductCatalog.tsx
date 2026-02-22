@@ -5,9 +5,7 @@ import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/products/ProductGrid";
 import { CategoryGrid } from "@/components/products/CategoryGrid";
-import { CategoryFilter } from "@/components/products/CategoryFilter";
 import type { CategoryKey, ProductBase } from "@/lib/products";
-import { useIsMobile } from "@/hooks/use-mobile";
 
 interface ProductCatalogProps {
   selectedCategory: CategoryKey | "all";
@@ -86,8 +84,6 @@ export function ProductCatalog({
       });
   }, [filteredProducts, categories, search, tProducts]);
 
-  const isMobile = useIsMobile();
-
   // If on main products page (not a category page) and no search query, show category grid
   if (selectedCategory === "all" && (!search || search.trim() === "")) {
     return <CategoryGrid categories={categories} />;
@@ -96,16 +92,6 @@ export function ProductCatalog({
   // If search query exists, show filtered products
   return (
     <div className="flex flex-col gap-8">
-      {/* Filters - only show on mobile when search exists */}
-      {isMobile && (
-        <CategoryFilter
-          selectedCategory={selectedCategory}
-          categories={categories}
-          allLabel={tCatalog("allProducts")}
-          filterLabel={tCatalog("filter.label")}
-        />
-      )}
-
       {/* Results */}
       {groupedProducts.length === 0 ? (
         <p className="text-muted-foreground">{tCatalog("search.noResults")}</p>
