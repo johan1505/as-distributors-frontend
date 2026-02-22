@@ -28,6 +28,7 @@ interface QuoteContextValue {
 const QuoteContext = createContext<QuoteContextValue | null>(null);
 
 const STORAGE_KEY = "pacific-foods-quote-cart";
+export const MAX_QUANTITY_PER_PRODUCT = 999;
 
 export function QuoteProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<QuoteItem[]>([]);
@@ -65,6 +66,7 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
     setItems((prev) => {
       const existing = prev.find((item) => item.product.slug === product.slug);
       if (existing) {
+        if (existing.quantity >= MAX_QUANTITY_PER_PRODUCT) return prev;
         return prev.map((item) =>
           item.product.slug === product.slug
             ? { ...item, quantity: item.quantity + 1 }
@@ -83,9 +85,10 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
     if (quantity <= 0) {
       setItems((prev) => prev.filter((item) => item.product.slug !== slug));
     } else {
+      const capped = Math.min(quantity, MAX_QUANTITY_PER_PRODUCT);
       setItems((prev) =>
         prev.map((item) =>
-          item.product.slug === slug ? { ...item, quantity } : item
+          item.product.slug === slug ? { ...item, quantity: capped } : item
         )
       );
     }

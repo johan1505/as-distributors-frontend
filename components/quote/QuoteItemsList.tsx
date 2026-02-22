@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useQuote } from "./QuoteProvider";
+import { useQuote, MAX_QUANTITY_PER_PRODUCT } from "./QuoteProvider";
 import { getProductImageSource } from "@/lib/products";
 import type { ProductSlug } from "@/lib/products";
 import Image from "next/image";
@@ -21,7 +21,7 @@ export function QuoteItemsList() {
   const tProduct = useTranslations("product");
 
 
-  const { items, removeItem, updateQuantity } = useQuote();
+  const { items, removeItem, updateQuantity, totalItems } = useQuote();
 
   // Helper to get product name from translations
   const getProductName = (slug: ProductSlug) => {
@@ -35,7 +35,8 @@ export function QuoteItemsList() {
   return (
     <div className="flex-1">
       <h2 className="text-xl font-semibold mb-4 hidden lg:block">
-        {tQuotePage("itemsInQuote")}
+        {tQuotePage("itemsInQuote")} ({totalItems}{" "}
+        {totalItems === 1 ? tQuotePage("item") : tQuotePage("items")})
       </h2>
       <ul className="space-y-4">
         {visibleItems.map((item) => (
@@ -84,6 +85,7 @@ export function QuoteItemsList() {
                   onClick={() =>
                     updateQuantity(item.product.slug, item.quantity + 1)
                   }
+                  disabled={item.quantity >= MAX_QUANTITY_PER_PRODUCT}
                   aria-label="Increase quantity"
                 >
                   <Plus className="size-3" />
@@ -91,7 +93,6 @@ export function QuoteItemsList() {
                 <Button
                   variant="destructive"
                   size="icon-xs"
-                  className="ml-auto"
                   onClick={() => removeItem(item.product.slug)}
                   aria-label="Remove item"
                 >

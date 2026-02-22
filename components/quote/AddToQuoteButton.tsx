@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useQuote } from "./QuoteProvider";
+import { useQuote, MAX_QUANTITY_PER_PRODUCT } from "./QuoteProvider";
 import type { ProductBase } from "@/lib/products";
 import { cn } from "@/lib/utils";
 
@@ -25,6 +25,7 @@ export function AddToQuoteButton({
 
   const quantity =
     items.find((item) => item.product.slug === product.slug)?.quantity ?? 0;
+  const isAtMax = quantity >= MAX_QUANTITY_PER_PRODUCT;
 
   const handleClick = () => {
     addItem(product);
@@ -35,6 +36,7 @@ export function AddToQuoteButton({
       variant={variant}
       size={size}
       onClick={handleClick}
+      disabled={isAtMax}
       className={cn(className, "cursor-pointer")}
     >
       <ShoppingCart data-icon="inline-start" className="size-4" />
