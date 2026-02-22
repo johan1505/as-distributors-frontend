@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname } from "@/i18n/navigation";
+import { usePathname, Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import {
@@ -9,10 +9,11 @@ import {
 } from "@/lib/products";
 import { useMemo } from "react";
 import type { BreadcrumbItemData } from "@/components/layout/Breadcrumbs";
+import { ArrowLeft } from "lucide-react";
 
 const PRODUCTS_PATH = "products";
 
-export function BreadcrumbWrapper() {
+export function BreadcrumbWrapper({ mobile = false }: { mobile?: boolean }) {
   const pathname = usePathname();
   const tBreadcrumb = useTranslations("breadcrumb");
   const tNav = useTranslations("nav");
@@ -47,6 +48,27 @@ export function BreadcrumbWrapper() {
     ];
     return items;
   }, [pathname, tBreadcrumb, tNav, tCategories, tProducts]);
+
+  if (mobile) {
+    if (breadcrumbItems.length > 1) {
+      const parentItem = breadcrumbItems[breadcrumbItems.length - 2];
+      return (
+        <Link
+          href={parentItem.href || "#"}
+          className="flex items-center gap-1 text-sm underline"
+        >
+          <ArrowLeft className="size-4 shrink-0" />
+          {tNav("back")}
+        </Link>
+      );
+    }
+    const currentItem = breadcrumbItems[breadcrumbItems.length - 1];
+    return (
+      <span className="text-sm font-medium truncate">
+        {currentItem?.label}
+      </span>
+    );
+  }
 
   return <Breadcrumbs items={breadcrumbItems} />;
 }

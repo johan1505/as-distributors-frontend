@@ -19,7 +19,8 @@
 		"products": "제품",
 		"quote": "견적 요청",
 		"contact": "문의하기",
-		"language": "언어"
+		"language": "언어",
+		"back": "뒤로"
 	},
 	"home": {
 		"hero": {

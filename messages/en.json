@@ -19,7 +19,8 @@
 		"products": "Products",
 		"quote": "Submit Quote Request",
 		"contact": "Contact Us",
-		"language": "Language"
+		"language": "Language",
+		"back": "Back"
 	},
 	"home": {
 		"hero": {
