@@ -10,7 +10,7 @@ export const JSON_LD_CONSTANTS = {
 
 export const CONTANCT = {
 	TELEPHONE: '209-406-7888',
-	EMAIL: 'sales@pacificislanderfoods.com',
+	EMAIL: 'aandsdistributors@att.net',
 	ADDRESS: {
 		street: '4710 Elm Street',
 		city: 'Salida',

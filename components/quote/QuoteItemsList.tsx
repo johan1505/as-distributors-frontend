@@ -21,7 +21,7 @@ export function QuoteItemsList() {
   const tProduct = useTranslations("product");
 
 
-  const { items, removeItem, updateQuantity, totalItems } = useQuote();
+  const { items, removeItem, updateQuantity, clearCart, totalItems } = useQuote();
 
   // Helper to get product name from translations
   const getProductName = (slug: ProductSlug) => {
@@ -34,10 +34,21 @@ export function QuoteItemsList() {
 
   return (
     <div className="flex-1">
-      <h2 className="text-xl font-semibold mb-4 hidden lg:block">
-        {tQuotePage("itemsInQuote")} ({totalItems}{" "}
-        {totalItems === 1 ? tQuotePage("item") : tQuotePage("items")})
-      </h2>
+      <div className="hidden lg:flex items-center justify-between mb-4">
+        <h2 className="text-xl font-semibold">
+          {tQuotePage("itemsInQuote")} ({totalItems}{" "}
+          {totalItems === 1 ? tQuotePage("item") : tQuotePage("items")})
+        </h2>
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={clearCart}
+          className="text-destructive hover:text-destructive hover:bg-destructive/10 shrink-0"
+        >
+          <Trash2 className="size-4 mr-1.5" />
+          {tQuote("clearAll")}
+        </Button>
+      </div>
       <ul className="space-y-4">
         {visibleItems.map((item) => (
           <li

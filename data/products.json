@@ -184,7 +184,7 @@
 		"featured": true
 	},
 	{
-		"slug": "fish-kawa-kawa-steak-slices",
+		"slug": "kawango",
 		"itemNumber": "121",
 		"unitPerPack": 1,
 		"overallSize": "N/A",
@@ -208,10 +208,10 @@
 		"featured": false
 	},
 	{
-		"slug": "kawango",
+		"slug": "fish-kawa-kawa-steak-slices",
 		"itemNumber": "124",
 		"unitPerPack": 1,
-		"overallSize": "10 pcs",
+		"overallSize": "N/A",
 		"categoryKey": "fish-tuna",
 		"featured": false
 	},
