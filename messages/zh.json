@@ -154,8 +154,7 @@
 		"corned-beef": "咸牛肉",
 		"fish-tuna": "鱼类和金枪鱼",
 		"canned-vegetables": "罐装蔬菜",
-		"cookies": "饼干",
-		"crackers": "薄脆饼干",
+		"cookies-crackers": "饼干与薄脆饼干",
 		"snacks": "零食",
 		"candies": "糖果",
 		"pickles-spices": "腌菜和香料",
@@ -188,17 +187,11 @@
 			"pageDescription": "浓郁可口的椰浆和椰子奶油，用于经典地区菜肴、汤、咖喱、酱汁、甜点和饮料。乳制品的绝佳替代品。",
 			"keywords": "椰浆, 椰子奶油, 芋头叶, palusami, duruka, 太平洋蔬菜, 斐济椰子"
 		},
-		"cookies": {
-			"title": "饼干 - Tim Tam及太平洋岛屿人气产品 | A & S Distributors",
-			"description": "热门饼干包括各种Tim Tam、FMF饼干、Monte Carlo和来自澳大利亚及斐济的传统Milk Arrowroot饼干。",
-			"pageDescription": "来自澳大利亚和太平洋岛屿的心爱饼干品种。从标志性的Tim Tam到传统的Milk Arrowroot饼干。",
-			"keywords": "Tim Tam, FMF饼干, Milk Arrowroot, Monte Carlo, 澳大利亚饼干, 斐济饼干, 批发饼干"
-		},
-		"crackers": {
-			"title": "饼干 - FMF早餐饼干及更多 | A & S Distributors",
-			"description": "斐济标志性的FMF早餐饼干和其他热门饼干。提供从零售到批量的多种规格。",
-			"pageDescription": "不仅是早餐饼干，更是随时享用的饼干零食。FMF早餐饼干是斐济最知名的产品之一，因其独特的口味深受所有人喜爱。",
-			"keywords": "FMF早餐饼干, 斐济饼干, SAO饼干, 批发饼干, 太平洋岛屿饼干"
+		"cookies-crackers": {
+			"title": "饼干与薄脆饼干 - Tim Tam、FMF及太平洋岛屿人气产品 | A & S Distributors",
+			"description": "热门饼干包括各种Tim Tam、FMF饼干、Monte Carlo、Milk Arrowroot饼干及斐济标志性的FMF早餐薄脆饼干。",
+			"pageDescription": "来自澳大利亚和太平洋岛屿的心爱饼干与薄脆饼干。从标志性的Tim Tam到FMF早餐薄脆饼干——斐济最知名的产品之一。",
+			"keywords": "Tim Tam, FMF饼干, Milk Arrowroot, Monte Carlo, 澳大利亚饼干, 斐济饼干, FMF早餐饼干, SAO饼干, 批发饼干"
 		},
 		"snacks": {
 			"title": "零食 - BONGOS、TWISTES、UFO's及太平洋岛屿混合零食 | A & S Distributors",

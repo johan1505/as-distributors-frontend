@@ -154,8 +154,7 @@
 		"corned-beef": "콘비프",
 		"fish-tuna": "생선 및 참치",
 		"canned-vegetables": "통조림 채소",
-		"cookies": "쿠키",
-		"crackers": "크래커",
+		"cookies-crackers": "쿠키 & 크래커",
 		"snacks": "스낵",
 		"candies": "사탕",
 		"pickles-spices": "피클 및 향신료",
@@ -188,17 +187,11 @@
 			"pageDescription": "클래식 지역 요리, 수프, 카레, 소스, 디저트, 음료를 위한 풍부하고 맛있는 코코넛 밀크와 크림. 유제품의 훌륭한 대안.",
 			"keywords": "코코넛 밀크, 코코넛 크림, 타로 잎, 팔루사미, 두루카, 태평양 채소, 피지 코코넛"
 		},
-		"cookies": {
-			"title": "쿠키 - Tim Tam 및 태평양 섬 인기 상품 | A & S Distributors",
-			"description": "Tim Tam 다양한 종류, FMF 쿠키, Monte Carlo, 호주와 피지의 전통 Milk Arrowroot 비스킷을 포함한 인기 쿠키.",
-			"pageDescription": "호주와 태평양 섬에서 사랑받는 쿠키 품종. 상징적인 Tim Tam부터 전통적인 Milk Arrowroot 비스킷까지.",
-			"keywords": "Tim Tam, FMF 쿠키, Milk Arrowroot, Monte Carlo, 호주 쿠키, 피지 비스킷, 도매 쿠키"
-		},
-		"crackers": {
-			"title": "크래커 - FMF 아침 크래커 및 기타 | A & S Distributors",
-			"description": "피지의 상징적인 FMF 아침 크래커와 기타 인기 크래커. 소매부터 대량까지 다양한 크기로 제공.",
-			"pageDescription": "아침 크래커가 아닌 언제든지 즐길 수 있는 크래커 스낵. FMF 아침 크래커는 피지에서 가장 잘 알려진 제품 중 하나로, 독특한 맛으로 모두에게 사랑받습니다.",
-			"keywords": "FMF 아침 크래커, 피지 크래커, SAO 크래커, 도매 크래커, 태평양 섬 크래커"
+		"cookies-crackers": {
+			"title": "쿠키 & 크래커 - Tim Tam, FMF 및 태평양 섬 인기 상품 | A & S Distributors",
+			"description": "Tim Tam 다양한 종류, FMF 쿠키, Monte Carlo, Milk Arrowroot 비스킷, 피지의 상징적인 FMF 아침 크래커를 포함한 인기 쿠키와 크래커.",
+			"pageDescription": "호주와 태평양 섬에서 사랑받는 쿠키와 크래커. 상징적인 Tim Tam부터 피지에서 가장 잘 알려진 FMF 아침 크래커까지.",
+			"keywords": "Tim Tam, FMF 쿠키, Milk Arrowroot, Monte Carlo, 호주 쿠키, 피지 비스킷, FMF 아침 크래커, SAO 크래커, 도매 쿠키 및 크래커"
 		},
 		"snacks": {
 			"title": "스낵 - BONGOS, TWISTES, UFO's 및 태평양 섬 믹스 | A & S Distributors",

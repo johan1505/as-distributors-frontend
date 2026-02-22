@@ -154,8 +154,7 @@
 		"corned-beef": "Carne en Conserva",
 		"fish-tuna": "Pescado y Atún",
 		"canned-vegetables": "Vegetales Enlatados",
-		"cookies": "Galletas",
-		"crackers": "Crackers",
+		"cookies-crackers": "Galletas y Crackers",
 		"snacks": "Bocadillos",
 		"candies": "Dulces",
 		"pickles-spices": "Encurtidos y Especias",
@@ -188,17 +187,11 @@
 			"pageDescription": "Leche y crema de coco rica y sabrosa para platos regionales clásicos, sopas, curries, salsas, postres y bebidas. Una gran alternativa a los lácteos.",
 			"keywords": "leche de coco, crema de coco, hojas de taro, palusami, duruka, vegetales del Pacífico, coco de Fiji"
 		},
-		"cookies": {
-			"title": "Galletas - Tim Tam y Favoritos de las Islas del Pacífico | A & S Distributors",
-			"description": "Galletas populares incluyendo variedades de Tim Tam, galletas FMF, Monte Carlo y galletas tradicionales Milk Arrowroot de Australia y Fiji.",
-			"pageDescription": "Variedades de galletas amadas de Australia y las Islas del Pacífico. Desde el icónico Tim Tam hasta las tradicionales galletas Milk Arrowroot.",
-			"keywords": "Tim Tam, galletas FMF, Milk Arrowroot, Monte Carlo, galletas australianas, galletas de Fiji, galletas al por mayor"
-		},
-		"crackers": {
-			"title": "Crackers - FMF Breakfast Crackers y Más | A & S Distributors",
-			"description": "Los icónicos FMF Breakfast Crackers de Fiji y otros crackers populares. Disponibles en múltiples tamaños desde minorista hasta granel.",
-			"pageDescription": "No solo un cracker de desayuno sino un snack para cualquier momento. Los FMF Breakfast Crackers son uno de los productos más reconocidos de Fiji, amados por todos por su sabor único.",
-			"keywords": "FMF breakfast crackers, crackers de Fiji, SAO crackers, crackers al por mayor, crackers de las Islas del Pacífico"
+		"cookies-crackers": {
+			"title": "Galletas y Crackers - Tim Tam, FMF y Favoritos del Pacífico | A & S Distributors",
+			"description": "Galletas y crackers populares incluyendo variedades de Tim Tam, galletas FMF, Monte Carlo, Milk Arrowroot y los icónicos FMF Breakfast Crackers de Australia y Fiji.",
+			"pageDescription": "Queridas galletas y crackers de Australia y las Islas del Pacífico. Desde el icónico Tim Tam hasta los FMF Breakfast Crackers, uno de los productos más reconocidos de Fiji.",
+			"keywords": "Tim Tam, galletas FMF, Milk Arrowroot, Monte Carlo, galletas australianas, galletas de Fiji, FMF breakfast crackers, SAO crackers, galletas y crackers al por mayor"
 		},
 		"snacks": {
 			"title": "Bocadillos - BONGOS, TWISTES, UFO's y Mezclas de las Islas del Pacífico | A & S Distributors",

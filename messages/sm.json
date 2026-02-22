@@ -154,8 +154,7 @@
 		"corned-beef": "Povi Kone",
 		"fish-tuna": "I'a ma Tuna",
 		"canned-vegetables": "Fualaau Fai Tini",
-		"cookies": "Pisiketi",
-		"crackers": "Masi",
+		"cookies-crackers": "Pisiketi & Masi",
 		"snacks": "Mea'ai Itiiti",
 		"candies": "Lole",
 		"pickles-spices": "Mea Kiki ma Mea Manogi",
@@ -188,17 +187,11 @@
 			"pageDescription": "Susu niu ma kilimi suamalie mo mea'ai masani, supo, kare, sosi, mea suamalie ma mea inu. O se sui lelei mo susu povi.",
 			"keywords": "susu niu, kilimi niu, lau talo, palusami, duruka, fualaau Pasefika, niu Fiti"
 		},
-		"cookies": {
-			"title": "Masi - Tim Tam & Masi Tau Motu Pasefika | A & S Distributors",
-			"description": "Masi ta'uta'ua e aofia ai ituaiga Tim Tam, masi FMF, Monte Carlo, ma masi Milk Arrowroot mai Ausetalia ma Viti.",
-			"pageDescription": "Ituaiga masi e fiafia i ai mai Ausetalia ma Motu o le Pasefika. Mai le Tim Tam ta'uta'ua i masi Milk Arrowroot masani.",
-			"keywords": "Tim Tam, masi FMF, Milk Arrowroot, Monte Carlo, masi Ausetalia, masi Viti, masi fa'atau tele"
-		},
-		"crackers": {
-			"title": "Masi Malala - FMF Masi Taeao & Isi | A & S Distributors",
-			"description": "FMF Masi Taeao ta'uta'ua mai Viti ma isi masi malala ta'uta'ua. O lo'o maua i tele o lapopo'a mai fa'atau i fale i le fa'atau tele.",
-			"pageDescription": "E le na'o se masi taeao ae o se masi 'ai i so'o se taimi. O le FMF Masi Taeao o se tasi o oloa sili ona lauiloa o Viti, e fiafia i ai tagata uma ona o lona tofo tulaga ese.",
-			"keywords": "FMF masi taeao, masi Viti, masi SAO, masi fa'atau tele, masi Motu Pasefika"
+		"cookies-crackers": {
+			"title": "Pisiketi & Masi - Tim Tam, FMF & Mea Tau Motu Pasefika | A & S Distributors",
+			"description": "Pisiketi ma masi ta'uta'ua e aofia ai ituaiga Tim Tam, masi FMF, Monte Carlo, Milk Arrowroot, ma FMF Masi Taeao mai Ausetalia ma Viti.",
+			"pageDescription": "Pisiketi ma masi e fiafia i ai mai Ausetalia ma Motu o le Pasefika. Mai le Tim Tam ta'uta'ua i FMF Masi Taeao, o se tasi o oloa sili ona lauiloa o Viti.",
+			"keywords": "Tim Tam, masi FMF, Milk Arrowroot, Monte Carlo, masi Ausetalia, masi Viti, FMF masi taeao, masi SAO, masi fa'atau tele"
 		},
 		"snacks": {
 			"title": "Mea'ai Mama - BONGOS, TWISTES, UFO's & Mea Fa'afefiloi Pasefika | A & S Distributors",

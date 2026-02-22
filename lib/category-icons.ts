@@ -16,7 +16,7 @@ import {
 	type LucideIcon,
 } from 'lucide-react';
 import type { CategoryKey } from './products';
-import { OilBottleIcon, JarIcon, CrackerIcon } from '@/components/icons/FoodIcons';
+import { OilBottleIcon, JarIcon } from '@/components/icons/FoodIcons';
 import type { ComponentType, SVGProps } from 'react';
 
 type IconComponent =
@@ -27,8 +27,7 @@ export const CATEGORY_ICONS: Record<CategoryKey, IconComponent> = {
 	'corned-beef': Beef,
 	'fish-tuna': Fish,
 	'canned-vegetables': Carrot,
-	cookies: Cookie,
-	crackers: CrackerIcon,
+	'cookies-crackers': Cookie,
 	snacks: Popcorn,
 	candies: Candy,
 	'pickles-spices': JarIcon,

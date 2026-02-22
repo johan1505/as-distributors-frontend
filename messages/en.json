@@ -154,8 +154,7 @@
 		"corned-beef": "Corned Beef",
 		"fish-tuna": "Fish & Tuna",
 		"canned-vegetables": "Canned Vegetables",
-		"cookies": "Cookies",
-		"crackers": "Crackers",
+		"cookies-crackers": "Cookies & Crackers",
 		"snacks": "Snacks",
 		"candies": "Candies",
 		"pickles-spices": "Pickles & Spices",
@@ -188,17 +187,11 @@
 			"pageDescription": "Rich and tasty coconut milk and cream for classic regional dishes, soups, curries, sauces, desserts and beverages. A great alternative to dairy.",
 			"keywords": "coconut milk, coconut cream, taro leaves, palusami, duruka, Pacific vegetables, Fiji coconut"
 		},
-		"cookies": {
-			"title": "Cookies - Tim Tam & Pacific Island Favorites | A & S Distributors",
-			"description": "Popular cookies including Tim Tam varieties, FMF cookies, Monte Carlo, and traditional Milk Arrowroot biscuits from Australia and Fiji.",
-			"pageDescription": "Beloved cookie varieties from Australia and the Pacific Islands. From the iconic Tim Tam to traditional Milk Arrowroot biscuits.",
-			"keywords": "Tim Tam, FMF cookies, Milk Arrowroot, Monte Carlo, Australian cookies, Fiji biscuits, wholesale cookies"
-		},
-		"crackers": {
-			"title": "Crackers - FMF Breakfast Crackers & More | A & S Distributors",
-			"description": "Iconic FMF Breakfast Crackers from Fiji and other popular crackers. Available in multiple sizes from retail to bulk.",
-			"pageDescription": "Not just a breakfast cracker but an anytime cracker snack. FMF Breakfast Crackers are one of Fiji's most well-recognized products, loved by all for their unique taste.",
-			"keywords": "FMF breakfast crackers, Fiji crackers, SAO crackers, wholesale crackers, Pacific Island crackers"
+		"cookies-crackers": {
+			"title": "Cookies & Crackers - Tim Tam, FMF & Pacific Island Favorites | A & S Distributors",
+			"description": "Popular cookies and crackers including Tim Tam varieties, FMF cookies, Monte Carlo, Milk Arrowroot biscuits, and iconic FMF Breakfast Crackers from Australia and Fiji.",
+			"pageDescription": "Beloved cookies and crackers from Australia and the Pacific Islands. From the iconic Tim Tam to FMF Breakfast Crackers, one of Fiji's most well-recognized products.",
+			"keywords": "Tim Tam, FMF cookies, Milk Arrowroot, Monte Carlo, Australian cookies, Fiji biscuits, FMF breakfast crackers, SAO crackers, wholesale cookies and crackers"
 		},
 		"snacks": {
 			"title": "Snacks - BONGOS, TWISTES, UFO's & Pacific Island Mixes | A & S Distributors",
