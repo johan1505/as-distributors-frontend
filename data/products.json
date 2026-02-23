@@ -592,7 +592,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-cheese-snack-56gr",
+		"slug": "bongo-cheese-snack-156gr",
 		"itemNumber": "520",
 		"unitPerPack": 12,
 		"overallSize": "156 gr",
@@ -600,7 +600,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-cheese-snack-64gr",
+		"slug": "bongo-cheese-snack-64gr",
 		"itemNumber": "522",
 		"unitPerPack": 36,
 		"overallSize": "64 gr",
@@ -608,7 +608,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-cheese-snack-28oz",
+		"slug": "bongo-cheese-snack-28gr",
 		"itemNumber": "524",
 		"unitPerPack": 48,
 		"overallSize": "28 gr",
@@ -616,7 +616,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-chicken-snack-156oz",
+		"slug": "bongo-chicken-snack-156gr",
 		"itemNumber": "530",
 		"unitPerPack": 12,
 		"overallSize": "156 gr",
@@ -624,7 +624,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-chicken-snack-64oz",
+		"slug": "bongo-chicken-snack-64gr",
 		"itemNumber": "532",
 		"unitPerPack": 12,
 		"overallSize": "64 gr",
@@ -632,7 +632,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-chicken-snack-28oz",
+		"slug": "bongo-chicken-snack-28gr",
 		"itemNumber": "534",
 		"unitPerPack": 48,
 		"overallSize": "28 gr",
@@ -640,7 +640,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-cheese-20gr",
+		"slug": "twistes-cheese-20gr",
 		"itemNumber": "540",
 		"unitPerPack": 60,
 		"overallSize": "20 gr",
@@ -648,7 +648,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-cheese-100gr",
+		"slug": "twistes-cheese-100gr",
 		"itemNumber": "542",
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
@@ -656,7 +656,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-cheese-250gr",
+		"slug": "twistes-cheese-250gr",
 		"itemNumber": "544",
 		"unitPerPack": 16,
 		"overallSize": "250 gr",
@@ -672,7 +672,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-chicken-20gr",
+		"slug": "twistes-chicken-20gr",
 		"itemNumber": "550",
 		"unitPerPack": 60,
 		"overallSize": "20 gr",
@@ -680,7 +680,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-chicken-28gr",
+		"slug": "twistes-chicken-100gr",
 		"itemNumber": "552",
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
@@ -688,7 +688,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-chicken-100gr",
+		"slug": "twistes-chicken-250gr",
 		"itemNumber": "554",
 		"unitPerPack": 16,
 		"overallSize": "250 gr",
@@ -704,7 +704,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-ufo-burger-20gr",
+		"slug": "ufo-burger-20gr",
 		"itemNumber": "560",
 		"unitPerPack": 60,
 		"overallSize": "20 gr",
@@ -712,7 +712,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-ufo-burger-100gr",
+		"slug": "ufo-burger-100gr",
 		"itemNumber": "561",
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
@@ -720,7 +720,7 @@
 		"featured": false
 	},
 	{
-		"slug": "boja-king-ufo-burger-200gr",
+		"slug": "ufo-burger-200gr",
 		"itemNumber": "562",
 		"unitPerPack": 16,
 		"overallSize": "200 gr",

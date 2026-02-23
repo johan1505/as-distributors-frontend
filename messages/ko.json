@@ -11,7 +11,7 @@
 		"title": "A & S Distributors - 태평양 섬 식품 유통업체",
 		"description": "피지, 뉴질랜드, 호주에서 온 정통 태평양 섬 식품의 신뢰할 수 있는 공급원입니다. 레스토랑, 소매업체, 식품 서비스 제공업체에 경쟁력 있는 가격으로 프리미엄 제품을 공급합니다.",
 		"tagline": "태평양을 당신의 식탁으로",
-		"keywords": "태평양 섬 음식, 피지 음식 유통업체, 뉴질랜드 양고기, 콘비프, 코코넛 제품, 도매 태평양 음식, 사모아 음식, 통가 음식",
+		"keywords": "태평양 섬 음식, 피지 음식 유통업체, 뉴질랜드 양고기, 콘비프, 코코넛 제품, 도매 태평양 음식, 사모아 음식, 통가 음식, A & S Distributors, A&S Distributors, A and S Distributors, AS Distributors, A & S Pacific distributors, A & S Northern California, A & S Distributor, A&S Distributor, A and S Distributor, AS Distributor, A & S Pacific distributor",
 		"pageNotFound": "페이지를 찾을 수 없습니다"
 	},
 	"nav": {
@@ -26,7 +26,7 @@
 		"hero": {
 			"title": "A & S Distributors",
 			"subtitle": "태평양 섬 식품 유통업체",
-			"description": "피지, 뉴질랜드, 호주에서 온 정통 태평양 섬 식품. 1995년부터 북캘리포니아 서비스.",
+			"description": "피지, 뉴질랜드, 호주에서 온 정통 태평양 섬 식품.",
 			"cta": "제품 둘러보기"
 		},
 		"intro": {
@@ -194,10 +194,10 @@
 			"keywords": "Tim Tam, FMF 쿠키, Milk Arrowroot, Monte Carlo, 호주 쿠키, 피지 비스킷, FMF 아침 크래커, SAO 크래커, 도매 쿠키 및 크래커"
 		},
 		"snacks": {
-			"title": "스낵 - BONGOS, TWISTES, UFO's 및 태평양 섬 믹스 | A & S Distributors",
-			"description": "BONGOS, TWISTES, UFO's 치즈 및 치킨 맛 스낵, Jasons Peanut Ruffs, Fiji Mix, Punjabi Mix 등 전통 믹스를 포함한 인기 스낵.",
-			"pageDescription": "태평양 섬 스낵의 독특한 맛을 발견하세요. BONGOS, TWISTES, UFO's 맛 스낵부터 Jasons Peanut Ruffs, 전통 양념 믹스와 튀긴 완두콩까지.",
-			"keywords": "BONGOS 스낵, TWISTES 스낵, UFO's 스낵, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, 튀긴 완두콩, 태평양 스낵, 도매 스낵"
+			"title": "스낵 - BONGO, TWISTES, UFO's 및 태평양 섬 믹스 | A & S Distributors",
+			"description": "BONGO, TWISTES, UFO's 치즈 및 치킨 맛 스낵, Jasons Peanut Ruffs, Fiji Mix, Punjabi Mix 등 전통 믹스를 포함한 인기 스낵.",
+			"pageDescription": "태평양 섬 스낵의 독특한 맛을 발견하세요. BONGO, TWISTES, UFO's 맛 스낵부터 Jasons Peanut Ruffs, 전통 양념 믹스와 튀긴 완두콩까지.",
+			"keywords": "BONGO 스낵, TWISTES 스낵, UFO's 스낵, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, 튀긴 완두콩, 태평양 스낵, 도매 스낵"
 		},
 		"candies": {
 			"title": "캔디 - Cadbury 초콜릿 바 | A & S Distributors",
@@ -990,55 +990,55 @@
 			"seoKeywords": "Bhooja King 픽스 믹스 스파이시, 핫 스낵 믹스, 스파이시 스낵, 태평양 섬 식품",
 			"imageAlt": "픽스 믹스 스파이시 스낵 패키지"
 		},
-		"boja-king-cheese-snack-56gr": {
-			"name": "BONGOS 치즈",
-			"description": "진짜 치즈 맛이 가득한 가볍고 통통한 콘 퍼프. BONGOS는 30년 이상 태평양 전역에서 인기를 끌어왔습니다. 이 구운(튀기지 않은) 스낵은 할랄 인증을 받았으며 이동 중 간식으로 완벽합니다.",
-			"seoTitle": "BONGOS 치즈 퍼프 56g | A & S Distributors",
-			"seoDescription": "진짜 치즈 맛으로 구운 BONGOS 치즈 퍼프. 태평양 섬 인기 제품. 도매 가격 제공.",
-			"seoKeywords": "BONGOS 치즈, 치즈 퍼프, 피지 스낵, 할랄 스낵",
-			"imageAlt": "BONGOS 치즈 스낵 패키지"
+		"bongo-cheese-snack-156gr": {
+			"name": "BONGO 치즈",
+			"description": "진짜 치즈 맛이 가득한 가볍고 통통한 콘 퍼프. BONGO는 30년 이상 태평양 전역에서 인기를 끌어왔습니다. 이 구운(튀기지 않은) 스낵은 할랄 인증을 받았으며 이동 중 간식으로 완벽합니다.",
+			"seoTitle": "BONGO 치즈 퍼프 56g | A & S Distributors",
+			"seoDescription": "진짜 치즈 맛으로 구운 BONGO 치즈 퍼프. 태평양 섬 인기 제품. 도매 가격 제공.",
+			"seoKeywords": "BONGO 치즈, 치즈 퍼프, 피지 스낵, 할랄 스낵",
+			"imageAlt": "BONGO 치즈 스낵 패키지"
 		},
-		"boja-king-cheese-snack-64gr": {
-			"name": "BONGOS 치즈",
-			"description": "맛있는 치즈 양념을 입힌 바삭한 콘 퍼프. 이 중간 사이즈 팩의 BONGOS는 개인 간식으로 완벽합니다. 옥수수와 쌀로 만들어 수십 년간 피지에서 가장 인기 있는 스낵으로 만든 가벼운 바삭함을 위해 구워졌습니다.",
-			"seoTitle": "BONGOS 치즈 퍼프 64g | A & S Distributors",
-			"seoDescription": "바삭하고 치즈 맛의 BONGOS 치즈 퍼프 64g. 피지 인기 제품. 도매 가격 제공.",
-			"seoKeywords": "BONGOS 치즈, 치즈 스낵, 피지 퍼프, 구운 스낵",
-			"imageAlt": "BONGOS 치즈 스낵 패키지"
+		"bongo-cheese-snack-64gr": {
+			"name": "BONGO 치즈",
+			"description": "맛있는 치즈 양념을 입힌 바삭한 콘 퍼프. 이 중간 사이즈 팩의 BONGO는 개인 간식으로 완벽합니다. 옥수수와 쌀로 만들어 수십 년간 피지에서 가장 인기 있는 스낵으로 만든 가벼운 바삭함을 위해 구워졌습니다.",
+			"seoTitle": "BONGO 치즈 퍼프 64g | A & S Distributors",
+			"seoDescription": "바삭하고 치즈 맛의 BONGO 치즈 퍼프 64g. 피지 인기 제품. 도매 가격 제공.",
+			"seoKeywords": "BONGO 치즈, 치즈 스낵, 피지 퍼프, 구운 스낵",
+			"imageAlt": "BONGO 치즈 스낵 패키지"
 		},
-		"boja-king-cheese-snack-28oz": {
-			"name": "BONGOS 치즈",
-			"description": "피지의 상징적인 치즈 퍼프 패밀리 사이즈 팩. BONGOS의 시그니처 치즈 맛을 넉넉한 양으로 파티, 가족 모임, 또는 치즈 퍼프 애호가를 위한 비축용으로 완벽합니다.",
-			"seoTitle": "BONGOS 치즈 퍼프 28g | A & S Distributors",
-			"seoDescription": "나눠 먹기에 완벽한 패밀리 사이즈 BONGOS 치즈 퍼프. 도매 가격 제공.",
-			"seoKeywords": "BONGOS 패밀리 사이즈, 치즈 퍼프 벌크, 피지 스낵, 파티 스낵",
-			"imageAlt": "BONGOS 치즈 스낵 패키지"
+		"bongo-cheese-snack-28gr": {
+			"name": "BONGO 치즈",
+			"description": "피지의 상징적인 치즈 퍼프 패밀리 사이즈 팩. BONGO의 시그니처 치즈 맛을 넉넉한 양으로 파티, 가족 모임, 또는 치즈 퍼프 애호가를 위한 비축용으로 완벽합니다.",
+			"seoTitle": "BONGO 치즈 퍼프 28g | A & S Distributors",
+			"seoDescription": "나눠 먹기에 완벽한 패밀리 사이즈 BONGO 치즈 퍼프. 도매 가격 제공.",
+			"seoKeywords": "BONGO 패밀리 사이즈, 치즈 퍼프 벌크, 피지 스낵, 파티 스낵",
+			"imageAlt": "BONGO 치즈 스낵 패키지"
 		},
-		"boja-king-chicken-snack-156oz": {
-			"name": "BONGOS 치킨",
-			"description": "BONGOS의 인기 있는 치킨 맛 퍼프 초대형 벌크 팩. 맛있는 치킨 양념과 동일한 가볍고 바삭한 질감. 소매업체, 이벤트, 또는 절대 부족함이 없길 원하는 진정한 BONGOS 팬에게 이상적.",
-			"seoTitle": "BONGOS 치킨 퍼프 156g | A & S Distributors",
-			"seoDescription": "맛있는 치킨 맛의 벌크 BONGOS 치킨 퍼프. 소매업체에 완벽. 도매 가격 제공.",
-			"seoKeywords": "BONGOS 치킨 벌크, 치킨 퍼프, 피지 스낵 도매",
-			"imageAlt": "BONGOS 치킨 스낵 패키지"
+		"bongo-chicken-snack-156gr": {
+			"name": "BONGO 치킨",
+			"description": "BONGO의 인기 있는 치킨 맛 퍼프 초대형 벌크 팩. 맛있는 치킨 양념과 동일한 가볍고 바삭한 질감. 소매업체, 이벤트, 또는 절대 부족함이 없길 원하는 진정한 BONGO 팬에게 이상적.",
+			"seoTitle": "BONGO 치킨 퍼프 156g | A & S Distributors",
+			"seoDescription": "맛있는 치킨 맛의 벌크 BONGO 치킨 퍼프. 소매업체에 완벽. 도매 가격 제공.",
+			"seoKeywords": "BONGO 치킨 벌크, 치킨 퍼프, 피지 스낵 도매",
+			"imageAlt": "BONGO 치킨 스낵 패키지"
 		},
-		"boja-king-chicken-snack-64oz": {
-			"name": "BONGOS 치킨",
-			"description": "피지의 사랑받는 BONGOS 브랜드의 치킨 맛 콘 퍼프 대형 팩. BONGOS를 태평양 섬의 기관으로 만든 동일한 구운 품질의 맛있고 바삭하며 만족스러운 스낵.",
-			"seoTitle": "BONGOS 치킨 퍼프 64g | A & S Distributors",
-			"seoDescription": "맛있고 바삭한 대형 BONGOS 치킨 퍼프 팩. 도매 가격 제공.",
-			"seoKeywords": "BONGOS 치킨, 치킨 스낵, 피지 퍼프, 태평양 섬 식품",
-			"imageAlt": "BONGOS 치킨 스낵 패키지"
+		"bongo-chicken-snack-64gr": {
+			"name": "BONGO 치킨",
+			"description": "피지의 사랑받는 BONGO 브랜드의 치킨 맛 콘 퍼프 대형 팩. BONGO를 태평양 섬의 기관으로 만든 동일한 구운 품질의 맛있고 바삭하며 만족스러운 스낵.",
+			"seoTitle": "BONGO 치킨 퍼프 64g | A & S Distributors",
+			"seoDescription": "맛있고 바삭한 대형 BONGO 치킨 퍼프 팩. 도매 가격 제공.",
+			"seoKeywords": "BONGO 치킨, 치킨 스낵, 피지 퍼프, 태평양 섬 식품",
+			"imageAlt": "BONGO 치킨 스낵 패키지"
 		},
-		"boja-king-chicken-snack-28oz": {
-			"name": "BONGOS 치킨",
-			"description": "BONGOS 치킨 퍼프 패밀리 사이즈 백. 이 가볍고 통통한 스낵은 모든 연령층에게 어필하는 맛있는 치킨 양념이 되어 있습니다. 태평양 섬 가정의 파티 필수품.",
-			"seoTitle": "BONGOS 치킨 퍼프 28g | A & S Distributors",
-			"seoDescription": "패밀리 사이즈 BONGOS 치킨 퍼프. 파티 필수품. 도매 가격 제공.",
-			"seoKeywords": "BONGOS 치킨, 패밀리 스낵, 피지 퍼프, 파티 푸드",
-			"imageAlt": "BONGOS 치킨 스낵 패키지"
+		"bongo-chicken-snack-28gr": {
+			"name": "BONGO 치킨",
+			"description": "BONGO 치킨 퍼프 패밀리 사이즈 백. 이 가볍고 통통한 스낵은 모든 연령층에게 어필하는 맛있는 치킨 양념이 되어 있습니다. 태평양 섬 가정의 파티 필수품.",
+			"seoTitle": "BONGO 치킨 퍼프 28g | A & S Distributors",
+			"seoDescription": "패밀리 사이즈 BONGO 치킨 퍼프. 파티 필수품. 도매 가격 제공.",
+			"seoKeywords": "BONGO 치킨, 패밀리 스낵, 피지 퍼프, 파티 푸드",
+			"imageAlt": "BONGO 치킨 스낵 패키지"
 		},
-		"boja-king-cheese-20gr": {
+		"twistes-cheese-20gr": {
 			"name": "TWISTES 치즈",
 			"description": "피지에서 가장 인기 있는 치즈 퍼프 1인분 팩. 도시락, 편의점, 또는 빠른 간식으로 완벽합니다. 1인분 사이즈의 동일한 훌륭한 TWISTES 맛.",
 			"seoTitle": "TWISTES 치즈 퍼프 20g | A & S Distributors",
@@ -1046,7 +1046,7 @@
 			"seoKeywords": "TWISTES 1인분, 치즈 퍼프 소형, 피지 스낵, 도시락 스낵",
 			"imageAlt": "TWISTES 치즈 스낵 패키지"
 		},
-		"boja-king-cheese-100gr": {
+		"twistes-cheese-100gr": {
 			"name": "TWISTES 치즈",
 			"description": "개인 간식을 위한 만족스러운 양의 TWISTES 치즈 퍼프. 가볍고 바삭하며 치즈 맛이 가득합니다. 이 중간 사이즈 백은 일상적인 즐거움을 위한 선택입니다.",
 			"seoTitle": "TWISTES 치즈 퍼프 100g | A & S Distributors",
@@ -1054,7 +1054,7 @@
 			"seoKeywords": "TWISTES 치즈, 치즈 스낵, 피지 퍼프, 개인 사이즈",
 			"imageAlt": "TWISTES 치즈 스낵 패키지"
 		},
-		"boja-king-cheese-250gr": {
+		"twistes-cheese-250gr": {
 			"name": "TWISTES 치즈",
 			"description": "TWISTES의 전설적인 치즈 퍼프 나눔 사이즈 팩. 영화의 밤, 소규모 모임, 또는 일주일 간의 간식으로 충분합니다. 태평양 섬 주민들이 30년 이상 사랑해온 치즈 맛.",
 			"seoTitle": "TWISTES 치즈 퍼프 250g | A & S Distributors",
@@ -1070,7 +1070,7 @@
 			"seoKeywords": "TWISTES 치즈, 치즈 퍼프 대형, 피지 스낵, 구운 스낵",
 			"imageAlt": "TWISTES 치즈 스낵 패키지"
 		},
-		"boja-king-chicken-20gr": {
+		"twistes-chicken-20gr": {
 			"name": "TWISTES 치킨",
 			"description": "포켓 사이즈 팩의 치킨 맛 TWISTES 퍼프. 이동 중 간식, 학교 도시락, 또는 자판기에 편리합니다. 완벽하게 1인분으로 포장된 모든 맛있는 치킨 맛.",
 			"seoTitle": "TWISTES 치킨 퍼프 20g | A & S Distributors",
@@ -1078,19 +1078,19 @@
 			"seoKeywords": "TWISTES 소형, 치킨 퍼프, 편의 스낵, 피지 식품",
 			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
-		"boja-king-chicken-28gr": {
+		"twistes-chicken-100gr": {
 			"name": "TWISTES 치킨",
 			"description": "TWISTES의 인기 있는 치킨 퍼프 개인 1인분. 20g 팩보다 약간 크며 더 만족스러우면서도 완벽하게 휴대 가능합니다. 구운 제품, 할랄 인증, 맛있습니다.",
-			"seoTitle": "TWISTES 치킨 퍼프 28g | A & S Distributors",
-			"seoDescription": "개인용 TWISTES 치킨 퍼프 28g. 할랄 인증. 도매 가격 제공.",
+			"seoTitle": "TWISTES 치킨 퍼프 100g | A & S Distributors",
+			"seoDescription": "개인용 TWISTES 치킨 퍼프 100g. 할랄 인증. 도매 가격 제공.",
 			"seoKeywords": "TWISTES 개인용, 치킨 스낵, 할랄 퍼프, 피지 스낵",
 			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
-		"boja-king-chicken-100gr": {
+		"twistes-chicken-250gr": {
 			"name": "TWISTES 치킨",
 			"description": "TWISTES 치킨 퍼프 개인 사이즈 백. 품질 좋은 옥수수와 쌀로 만들어 맛있는 치킨 양념과 함께 바삭하게 구워졌습니다. 일상적인 간식을 즐기기에 적당한 사이즈.",
-			"seoTitle": "TWISTES 치킨 퍼프 100g | A & S Distributors",
-			"seoDescription": "바삭하고 맛있는 개인 사이즈 TWISTES 치킨 퍼프 100g. 도매 가격 제공.",
+			"seoTitle": "TWISTES 치킨 퍼프 250g | A & S Distributors",
+			"seoDescription": "바삭하고 맛있는 개인 사이즈 TWISTES 치킨 퍼프 250g. 도매 가격 제공.",
 			"seoKeywords": "TWISTES 치킨, 구운 퍼프, 피지 스낵, 일상 스낵",
 			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
@@ -1102,7 +1102,7 @@
 			"seoKeywords": "TWISTES 치킨, 치킨 퍼프 대형, 피지 스낵, 구운 스낵",
 			"imageAlt": "TWISTES 치킨 스낵 패키지"
 		},
-		"boja-king-ufo-burger-20gr": {
+		"ufo-burger-20gr": {
 			"name": "UFO's 버거",
 			"description": "대담한 버거 맛의 재미있는 비행접시 모양 콘 스낵. UFO's는 특히 독특한 모양과 맛있는 맛을 좋아하는 어린이들에게 피지에서 인기입니다. 도시락에 완벽한 1인분 사이즈.",
 			"seoTitle": "UFO's 버거 스낵 20g | A & S Distributors",
@@ -1110,7 +1110,7 @@
 			"seoKeywords": "UFO's 버거, 버거 스낵, 키즈 스낵, 피지 식품",
 			"imageAlt": "UFO's 버거 스낵 패키지"
 		},
-		"boja-king-ufo-burger-100gr": {
+		"ufo-burger-100gr": {
 			"name": "UFO's 버거",
 			"description": "UFO's 버거 맛 콘 스낵 중간 사이즈 백. 독특한 접시 모양과 맛있는 버거 양념이 UFO's를 남태평양 지역에서 가장 인기 있는 스낵 중 하나로 만들었습니다.",
 			"seoTitle": "UFO's 버거 스낵 100g | A & S Distributors",
@@ -1118,7 +1118,7 @@
 			"seoKeywords": "UFO's 스낵, 버거 맛, 피지 퍼프, 태평양 섬 스낵",
 			"imageAlt": "UFO's 버거 스낵 패키지"
 		},
-		"boja-king-ufo-burger-200gr": {
+		"ufo-burger-200gr": {
 			"name": "UFO's 버거",
 			"description": "피지의 사랑받는 UFO's 버거 맛 스낵 패밀리 사이즈 팩. 이 비행접시 모양 과자는 바삭하고 맛있는 만족감을 제공합니다. 나눠 먹거나 이 태평양 섬 클래식을 비축하기에 완벽.",
 			"seoTitle": "UFO's 버거 스낵 200g | A & S Distributors",
