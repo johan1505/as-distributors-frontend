@@ -93,7 +93,7 @@ export const PRODUCT_SLUGS = [
 	'ufo-burger-20gr',
 	'ufo-burger-100gr',
 	'ufo-burger-200gr',
-	'jasons-peanut-ruffs-20gr',
+	'jasons-peanut-ruffs-28gr',
 	'jasons-peanut-ruffs-64gr',
 	'jasons-peanut-ruffs-156gr',
 	'cadbury-crunchie-bars',
