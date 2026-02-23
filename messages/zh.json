@@ -511,7 +511,7 @@
 			"imageAlt": "Pacific Crown Duruka茎 盐水罐头"
 		},
 		"milk-arrowroot": {
-			"name": "牛奶葛根饼干",
+			"name": "Arnott's 牛奶葛根饼干",
 			"description": "一个多世纪以来一直是家庭必备品的经典澳大利亚饼干。轻盈、酥脆、微甜，带有淡淡的奶香。传统上用于出牙的婴儿，各年龄段的人都喜欢蘸茶吃。",
 			"seoTitle": "牛奶葛根饼干 | A & S Distributors",
 			"seoDescription": "经典牛奶葛根饼干，澳大利亚家庭必备品。轻盈酥脆，完美搭配茶。提供批发价格。",
@@ -528,7 +528,7 @@
 		},
 		"tim-tam-original": {
 			"name": "Tim Tam原味",
-			"description": "标志性的澳大利亚巧克力饼干。两片巧克力麦芽饼干夹着巧克力奶油馅，外层裹着巧克力。非常适合著名的'Tim Tam Slam'。",
+			"description": "标志性的澳大利亚巧克力饼干。两片巧克力麦芽饼干夹着巧克力奶油馅，外层裹着巧克力。非常适合著名的'Arnott's Tim Tam Slam'。",
 			"seoTitle": "Tim Tam原味巧克力饼干 | A & S Distributors",
 			"seoDescription": "标志性的澳大利亚Tim Tam巧克力饼干。完美搭配Tim Tam Slam。提供批发价格。",
 			"seoKeywords": "Tim Tam, 澳大利亚饼干, 巧克力曲奇, Tim Tam Slam, 批发Tim Tam",
@@ -536,7 +536,7 @@
 		},
 		"tim-tam-dark-chocolate": {
 			"name": "Tim Tam黑巧克力",
-			"description": "澳大利亚经典的精致变体。两片酥脆饼干配以浓郁的黑巧克力中心，全部包裹在顺滑的黑巧克力涂层中。浓郁、强烈，让黑巧克力爱好者深感满足。",
+			"description": "Arnott's Tim Tam. 澳大利亚经典的精致变体。两片酥脆饼干配以浓郁的黑巧克力中心，全部包裹在顺滑的黑巧克力涂层中。浓郁、强烈，让黑巧克力爱好者深感满足。",
 			"seoTitle": "Tim Tam黑巧克力饼干 | A & S Distributors",
 			"seoDescription": "Tim Tam黑巧克力，配有浓郁的黑巧克力涂层和中心。提供批发价格。",
 			"seoKeywords": "Tim Tam黑巧克力, 黑巧克力饼干, Arnott's, 澳大利亚曲奇",
@@ -735,7 +735,7 @@
 			"imageAlt": "青柠利口糖浆瓶装"
 		},
 		"monte-carlo": {
-			"name": "蒙特卡洛饼干",
+			"name": "Arnott's 蒙特卡洛饼干",
 			"description": "标志性的澳大利亚奶油饼干，两片金黄色椰香饼干中间夹着一层甜果酱和香草奶油。自1926年由Arnott's首次制作，这款深受喜爱的点心完美平衡了酥脆和甜蜜。",
 			"seoTitle": "蒙特卡洛奶油饼干 | A & S Distributors",
 			"seoDescription": "标志性蒙特卡洛奶油饼干，果酱和香草夹心。1926年以来的澳大利亚经典。提供批发价格。",
@@ -751,7 +751,7 @@
 			"imageAlt": "FMF椰子曲奇饼干包装"
 		},
 		"delta-cream": {
-			"name": "Delta奶油饼干",
+			"name": "Arnott's Delta奶油饼干",
 			"description": "深受喜爱的澳大利亚奶油饼干，两片酥脆饼干中间夹着顺滑的香草奶油馅。以其令人满意的酥脆口感和甜蜜奶油中心著称，Delta奶油饼干几代人以来一直是下午茶的最爱。",
 			"seoTitle": "Delta奶油饼干 | A & S Distributors",
 			"seoDescription": "Delta奶油饼干，香草奶油夹心。澳大利亚下午茶最爱。提供批发价格。",
@@ -759,7 +759,7 @@
 			"imageAlt": "Delta奶油饼干饼干包装"
 		},
 		"scotch-finger": {
-			"name": "苏格兰手指饼干",
+			"name": "Arnott's 苏格兰手指饼干",
 			"description": "源自苏格兰、在澳大利亚完善的传统黄油酥饼风格饼干。口感丰富酥脆，略带甜味，苏格兰手指饼干是蘸茶或咖啡的经典饼干。",
 			"seoTitle": "苏格兰手指饼干 | A & S Distributors",
 			"seoDescription": "传统苏格兰手指酥饼。黄油风味，完美蘸食。提供批发价格。",
@@ -767,7 +767,7 @@
 			"imageAlt": "苏格兰手指饼干饼干包装"
 		},
 		"shortbread-cream": {
-			"name": "奶油酥饼",
+			"name": "Arnott's 奶油酥饼",
 			"description": "美味的奶油夹心酥饼，将黄油酥饼与顺滑奶油中心相结合。这些经典饼干在浓郁黄油风味和甜奶油馅料之间达到完美平衡。与茶或咖啡完美搭配。",
 			"seoTitle": "奶油酥饼 | A & S Distributors",
 			"seoDescription": "奶油酥饼，顺滑奶油夹心。经典美味。提供批发价格。",
@@ -784,7 +784,7 @@
 		},
 		"tim-tam-chewy-caramel": {
 			"name": "Tim Tam焦糖夹心",
-			"description": "酥脆饼干和软糯焦糖中心的绝妙组合，外层裹着顺滑牛奶巧克力。焦糖增添了令人无法抗拒的嚼劲，让这些Tim Tam一旦开始就停不下来。",
+			"description": "酥脆饼干和软糯焦糖中心的绝妙组合，外层裹着顺滑牛奶巧克力。焦糖增添了令人无法抗拒的嚼劲，让这些Arnott's Tim Tam一旦开始就停不下来。",
 			"seoTitle": "Tim Tam焦糖夹心 | A & S Distributors",
 			"seoDescription": "Tim Tam焦糖夹心，软糯焦糖中心和巧克力涂层。提供批发价格。",
 			"seoKeywords": "Tim Tam焦糖, 焦糖夹心饼干, Arnott's Tim Tam, 澳大利亚巧克力",
@@ -792,14 +792,14 @@
 		},
 		"tim-tam-mint": {
 			"name": "Tim Tam薄荷",
-			"description": "澳大利亚最爱饼干的清新变体。清凉薄荷奶油夹在两片巧克力饼干之间，外层裹着黑巧克力。薄荷清新和巧克力享受的完美平衡。",
+			"description": "Arnott's Tim Tam. 澳大利亚最爱饼干的清新变体。清凉薄荷奶油夹在两片巧克力饼干之间，外层裹着黑巧克力。薄荷清新和巧克力享受的完美平衡。",
 			"seoTitle": "Tim Tam薄荷巧克力 | A & S Distributors",
 			"seoDescription": "Tim Tam薄荷，清凉薄荷奶油和黑巧克力。清新美味。提供批发价格。",
 			"seoKeywords": "Tim Tam薄荷, 薄荷巧克力饼干, Arnott's薄荷, 澳大利亚巧克力",
 			"imageAlt": "Tim Tam薄荷饼干包装"
 		},
 		"shortbread-plain": {
-			"name": "原味酥饼",
+			"name": "Arnott's 原味酥饼",
 			"description": "采用简单优质原料制作的传统苏格兰风格酥饼：黄油、糖和面粉。这些金黄酥脆的饼干拥有浓郁的黄油风味和入口即化的口感，与茶完美搭配。",
 			"seoTitle": "原味酥饼 | A & S Distributors",
 			"seoDescription": "传统原味酥饼，黄油风味酥脆。与茶完美搭配。提供批发价格。",
@@ -863,7 +863,7 @@
 			"imageAlt": "FMF苏格兰手指饼干饼干包装"
 		},
 		"sao-shortbread-cream": {
-			"name": "SAO酥饼奶油夹心",
+			"name": "Arnott's SAO酥饼奶油夹心",
 			"description": "经典SAO饼干的美味奶油夹心版本。两片酥脆微咸的饼干夹着一层甜奶油，完美平衡甜咸口味。整个太平洋地区下午茶的热门选择。",
 			"seoTitle": "SAO酥饼奶油夹心饼干 | A & S Distributors",
 			"seoDescription": "SAO酥饼奶油夹心饼干。完美甜咸平衡。提供批发价格。",

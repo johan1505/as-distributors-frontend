@@ -511,7 +511,7 @@
 			"imageAlt": "Can of Pacific Crown Duruka Stalk in Brine"
 		},
 		"milk-arrowroot": {
-			"name": "Milk Arrowroot",
+			"name": "Arnott's Milk Arrowroot",
 			"description": "A classic Australian biscuit that has been a household staple for over a century. Light, crisp, and mildly sweet with a delicate milky flavor. Traditionally used for teething babies and beloved by all ages for dunking in tea.",
 			"seoTitle": "Milk Arrowroot Biscuits | A & S Distributors",
 			"seoDescription": "Classic Milk Arrowroot biscuits, an Australian household staple. Light and crisp, perfect for tea. Wholesale pricing available.",
@@ -527,7 +527,7 @@
 			"imageAlt": "Package of FMF Milk Arrowroot cookies"
 		},
 		"monte-carlo": {
-			"name": "Monte Carlo",
+			"name": "Arnott's Monte Carlo",
 			"description": "An iconic Australian cream biscuit featuring two golden coconut-flavored biscuits sandwiching a layer of sweet jam and vanilla cream. First made by Arnott's in 1926, this beloved treat delivers the perfect balance of crunch and sweetness.",
 			"seoTitle": "Monte Carlo Cream Biscuits | A & S Distributors",
 			"seoDescription": "Iconic Monte Carlo cream biscuits with jam and vanilla filling. Australian classic since 1926. Wholesale pricing available.",
@@ -543,7 +543,7 @@
 			"imageAlt": "Package of FMF Coconut Cookies"
 		},
 		"delta-cream": {
-			"name": "Delta Cream",
+			"name": "Arnott's Delta Cream",
 			"description": "A beloved Australian cream biscuit with two crunchy biscuits sandwiching a smooth vanilla cream filling. Known for its satisfying snap and sweet cream center, Delta Cream has been a tea-time favorite for generations.",
 			"seoTitle": "Delta Cream Biscuits | A & S Distributors",
 			"seoDescription": "Delta Cream biscuits with vanilla cream filling. Australian tea-time favorite. Wholesale pricing available.",
@@ -551,7 +551,7 @@
 			"imageAlt": "Package of Delta Cream cookies"
 		},
 		"scotch-finger": {
-			"name": "Scotch Finger",
+			"name": "Arnott's Scotch Finger",
 			"description": "A traditional buttery shortbread-style biscuit originating from Scotland and perfected in Australia. With a rich, crumbly texture and subtle sweetness, Scotch Fingers are the quintessential biscuit for dunking in tea or coffee.",
 			"seoTitle": "Scotch Finger Biscuits | A & S Distributors",
 			"seoDescription": "Traditional Scotch Finger shortbread biscuits. Buttery and perfect for dunking. Wholesale pricing available.",
@@ -560,7 +560,7 @@
 		},
 		"tim-tam-original": {
 			"name": "Tim Tam Original",
-			"description": "The iconic Australian chocolate biscuit. Two chocolate malted biscuits sandwiched with chocolate cream filling, coated in chocolate. Perfect for the famous 'Tim Tam Slam'.",
+			"description": "The iconic Australian chocolate biscuit. Two chocolate malted biscuits sandwiched with chocolate cream filling, coated in chocolate. Perfect for the famous 'Arnott's Tim Tam Slam'.",
 			"seoTitle": "Tim Tam Original Chocolate Biscuits | A & S Distributors",
 			"seoDescription": "Iconic Australian Tim Tam chocolate biscuits. Perfect for Tim Tam Slam. Wholesale pricing available.",
 			"seoKeywords": "Tim Tam, Australian biscuits, chocolate cookies, Tim Tam Slam, wholesale Tim Tam",
@@ -576,7 +576,7 @@
 		},
 		"tim-tam-dark-chocolate": {
 			"name": "Tim Tam Dark Chocolate",
-			"description": "A sophisticated twist on the Australian classic. Features two crunchy biscuits with a luscious dark chocolate center, all wrapped in a smooth dark chocolate coating. Rich, intense, and deeply satisfying for dark chocolate enthusiasts.",
+			"description": "Arnott's Tim Tam. A sophisticated twist on the Australian classic. Features two crunchy biscuits with a luscious dark chocolate center, all wrapped in a smooth dark chocolate coating. Rich, intense, and deeply satisfying for dark chocolate enthusiasts.",
 			"seoTitle": "Tim Tam Dark Chocolate Biscuits | A & S Distributors",
 			"seoDescription": "Tim Tam Dark Chocolate with rich dark chocolate coating and center. Wholesale pricing available.",
 			"seoKeywords": "Tim Tam dark chocolate, dark chocolate biscuits, Arnott's, Australian cookies",
@@ -584,7 +584,7 @@
 		},
 		"tim-tam-chewy-caramel": {
 			"name": "Tim Tam Chewy Caramel",
-			"description": "A decadent combination of crunchy biscuit and gooey chewy caramel center, all coated in smooth milk chocolate. The caramel adds an irresistible chewiness that makes these Tim Tams impossible to eat just one.",
+			"description": "A decadent combination of crunchy biscuit and gooey chewy caramel center, all coated in smooth milk chocolate. The caramel adds an irresistible chewiness that makes these Arnott's Tim Tams impossible to eat just one.",
 			"seoTitle": "Tim Tam Chewy Caramel | A & S Distributors",
 			"seoDescription": "Tim Tam Chewy Caramel with gooey caramel center and chocolate coating. Wholesale pricing available.",
 			"seoKeywords": "Tim Tam caramel, chewy caramel biscuits, Arnott's Tim Tam, Australian chocolate",
@@ -592,14 +592,14 @@
 		},
 		"tim-tam-mint": {
 			"name": "Tim Tam Mint",
-			"description": "A refreshing take on Australia's favorite biscuit. Cool peppermint cream sandwiched between two chocolate biscuits and coated in dark chocolate. The perfect balance of mint freshness and chocolate indulgence.",
+			"description": "Arnott's Tim Tam. A refreshing take on Australia's favorite biscuit. Cool peppermint cream sandwiched between two chocolate biscuits and coated in dark chocolate. The perfect balance of mint freshness and chocolate indulgence.",
 			"seoTitle": "Tim Tam Mint Chocolate | A & S Distributors",
 			"seoDescription": "Tim Tam Mint with cool peppermint cream and dark chocolate. Refreshing and indulgent. Wholesale pricing available.",
 			"seoKeywords": "Tim Tam mint, mint chocolate biscuits, Arnott's mint, Australian chocolate",
 			"imageAlt": "Package of Tim Tam Mint cookies"
 		},
 		"shortbread-cream": {
-			"name": "Shortbread Cream",
+			"name": "Arnott's Shortbread Cream",
 			"description": "A delicious cream-filled shortbread biscuit combining buttery shortbread with a smooth cream center. These classic biscuits offer a perfect balance of rich butter flavor and sweet cream filling. A wonderful accompaniment to tea or coffee.",
 			"seoTitle": "Shortbread Cream Biscuits | A & S Distributors",
 			"seoDescription": "Shortbread Cream biscuits with smooth cream filling. Classic and delicious. Wholesale pricing available.",
@@ -607,7 +607,7 @@
 			"imageAlt": "Package of Shortbread Cream cookies"
 		},
 		"shortbread-plain": {
-			"name": "Shortbread Plain",
+			"name": "Arnott's Shortbread Plain",
 			"description": "Traditional Scottish-style shortbread made with simple, quality ingredients: butter, sugar, and flour. These golden, crumbly biscuits have a rich buttery flavor and melt-in-your-mouth texture that pairs perfectly with tea.",
 			"seoTitle": "Plain Shortbread Biscuits | A & S Distributors",
 			"seoDescription": "Traditional plain shortbread, buttery and crumbly. Perfect with tea. Wholesale pricing available.",
@@ -671,7 +671,7 @@
 			"imageAlt": "Package of FMF Scotch Finger crackers"
 		},
 		"sao-shortbread-cream": {
-			"name": "SAO Shortbread Cream",
+			"name": "Arnott's SAO Shortbread Cream",
 			"description": "A delightful cream-filled version of the classic SAO cracker. Two crispy, lightly salted crackers sandwich a layer of sweet cream for the perfect sweet-savory balance. A popular choice for afternoon tea throughout the Pacific.",
 			"seoTitle": "SAO Shortbread Cream Crackers | A & S Distributors",
 			"seoDescription": "SAO Shortbread Cream crackers with sweet cream filling. Perfect sweet-savory balance. Wholesale pricing available.",
