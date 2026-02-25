@@ -139,7 +139,7 @@ export const PRODUCT_SLUGS = [
 	'kava-wake-powder',
 	'nestle-cocoa',
 	'bushells-black-tea-200gr',
-	'ceylon-black-tea-200gr',
+	'punjas-ceylon-black-tea-200gr',
 	'punjas-tea-masala',
 	'lamb-shoulder-whole',
 	'lamb-regular-diced',
