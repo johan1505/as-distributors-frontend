@@ -870,13 +870,13 @@
 			"seoKeywords": "tamarind chutney, mea fa'aopoopo Initia, mea fa'aopoopo Pasefika, chutney fa'atau tele",
 			"imageAlt": "Afifi o Tamarind Chutney"
 		},
-		"haldi-powder-turmeric": {
-			"name": "Haldi Pauta Turmeric",
+		"punjas-haldi-powder-turmeric": {
+			"name": "Punjas Haldi Pauta Turmeric",
 			"description": "Turmeric (haldi) pauta mama mo kare moni ma kuka masani. O lenei mea manogi auro e fa'aopoopo ai le lanu malamalama ma le mafanafana kele i mea'ai. E taua fo'i mo ona aoga masani soifua maloloina.",
-			"seoTitle": "Haldi Turmeric Pauta | A & S Distributors",
-			"seoDescription": "Haldi turmeric pauta mama mo kare ma kuka. Lanu malamalama. Tau fa'atau tele e maua.",
-			"seoKeywords": "haldi, turmeric pauta, mea manogi kare, mea manogi Initia, mea'ai Fiti",
-			"imageAlt": "Afifi o Haldi Pauta Turmeric"
+			"seoTitle": "Punjas Haldi Turmeric Pauta | A & S Distributors",
+			"seoDescription": "Punjas Haldi turmeric pauta mama mo kare ma kuka. Lanu malamalama. Tau fa'atau tele e maua.",
+			"seoKeywords": "Punjas haldi, turmeric pauta, mea manogi kare, mea manogi Initia, mea'ai Fiti",
+			"imageAlt": "Afifi o Punjas Haldi Pauta Turmeric"
 		},
 		"punjas-mustard-oil-750ml": {
 			"name": "Punjas Suau'u Mustard",
@@ -1430,21 +1430,21 @@
 			"seoKeywords": "mango pickle suamalie, mea kiki vaivai, mea fa'aopoopo mango, mea'ai Fiti",
 			"imageAlt": "Afifi o Sweet Mango Pickle"
 		},
-		"punjas-hot-masala-12pk": {
-			"name": "Punjas Hot Masala 12pk",
-			"description": "Punjas Garam (Vevela) Masala i se 12-pusa faigofie. O lenei fa'afefiloi mea manogi manogi e iai mea manogi mafanafana e pei o cardamom, cinnamon, cloves, ma pepa uliuli. Taua mo le fa'amae'a kare ma le manogi moni Fiti-Initia.",
-			"seoTitle": "Punjas Hot Garam Masala 12 Pusa | A & S Distributors",
-			"seoDescription": "Punjas Hot Masala 12-pusa, fa'afefiloi garam masala moni. Tau fa'atau tele e maua.",
+		"punjas-hot-masala-17-64oz": {
+			"name": "Punjas Hot Masala",
+			"description": "Punjas Garam (Vevela) Masala i le lapoa 17.64 oz. O lenei fa'afefiloi mea manogi manogi e iai mea manogi mafanafana e pei o cardamom, cinnamon, cloves, ma pepa uliuli. Taua mo le fa'amae'a kare ma le manogi moni Fiti-Initia.",
+			"seoTitle": "Punjas Hot Garam Masala 17.64 oz | A & S Distributors",
+			"seoDescription": "Punjas Hot Masala 17.64 oz, fa'afefiloi garam masala moni. Tau fa'atau tele e maua.",
 			"seoKeywords": "Punjas masala, garam masala, mea manogi vevela, fa'afefiloi mea manogi Fiti",
-			"imageAlt": "Afifi o Punjas Hot Masala 12pk"
+			"imageAlt": "Afifi o Punjas Hot Masala 17.64 oz"
 		},
-		"punjas-hot-masala-24pk": {
-			"name": "Punjas Hot Masala 24pk",
-			"description": "Fa'atau tele 24-pusa o Punjas Garam Masala mo faleaiga ma tagata kuka soo. O le fa'afefiloi moni lava lea o mea manogi mafanafana ua fa'alagolago i ai aiga Fiti mo tupulaga. Fa'atumu ma aua ne'i uma.",
-			"seoTitle": "Punjas Hot Garam Masala 24 Pusa | A & S Distributors",
-			"seoDescription": "Punjas Hot Masala fa'atau tele 24-pusa mo faleaiga. Fa'afefiloi moni. Tau fa'atau tele e maua.",
+		"punjas-hot-masala-2-20lbs": {
+			"name": "Punjas Hot Masala",
+			"description": "Punjas Garam Masala i le lapoa 2.20 lbs mo faleaiga ma tagata kuka soo. O le fa'afefiloi moni lava lea o mea manogi mafanafana ua fa'alagolago i ai aiga Fiti mo tupulaga. Fa'atumu ma aua ne'i uma.",
+			"seoTitle": "Punjas Hot Garam Masala 2.20 lbs | A & S Distributors",
+			"seoDescription": "Punjas Hot Masala 2.20 lbs mo faleaiga. Fa'afefiloi moni. Tau fa'atau tele e maua.",
 			"seoKeywords": "Punjas masala fa'atau tele, garam masala fa'atau tele, mea manogi Fiti, oloa faleaiga",
-			"imageAlt": "Afifi o Punjas Hot Masala 24pk"
+			"imageAlt": "Afifi o Punjas Hot Masala 2.20 lbs"
 		},
 		"punjas-meat-masala": {
 			"name": "Punjas Meat Masala",
