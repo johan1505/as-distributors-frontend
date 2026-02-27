@@ -1312,15 +1312,15 @@
 		"featured": true
 	},
 	{
-		"slug": "white-cassava-5lb",
+		"slug": "white-cassava-2lb",
 		"itemNumber": "201",
 		"unitPerPack": 10,
-		"overallSize": "1 kg",
+		"overallSize": "1 kg (2.20 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
 	{
-		"slug": "white-cassava-2lb",
+		"slug": "white-cassava-5lb",
 		"itemNumber": "202",
 		"unitPerPack": 6,
 		"overallSize": "5 lbs",
