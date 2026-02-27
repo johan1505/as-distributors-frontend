@@ -1,6 +1,6 @@
 "use client"
 
-import ExportedImage from "next-image-export-optimizer"
+import Image from "next/image"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 
 interface ProductImageLightboxProps {
@@ -17,7 +17,7 @@ export function ProductImageLightbox({ src, alt, open, onClose }: ProductImageLi
         showCloseButton={true}
         className="max-w-[90vw] sm:max-w-2xl p-0 gap-0 overflow-hidden"
       >
-        <ExportedImage
+        <Image
           src={src}
           alt={alt}
           width={900}

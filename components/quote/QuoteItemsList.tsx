@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { useQuote, MAX_QUANTITY_PER_PRODUCT } from "./QuoteProvider";
 import { getProductImageSource } from "@/lib/products";
 import type { ProductSlug } from "@/lib/products";
-import ExportedImage from "next-image-export-optimizer";
+import Image from "next/image";
 import { ROUTES } from "@/lib/routes";
 import { Badge } from "../ui/badge";
 
@@ -55,7 +55,7 @@ export function QuoteItemsList() {
             key={item.product.slug}
             className="flex items-center gap-4 p-4 rounded-xl bg-muted/50"
           >
-            <ExportedImage
+            <Image
               width={800}
               height={600}
               src={getProductImageSource(item.product.slug)}

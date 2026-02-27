@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import ExportedImage from "next-image-export-optimizer"
+import Image from "next/image"
 import { ZoomIn } from "lucide-react"
 import { ProductImageLightbox } from "./ProductImageLightbox"
 
@@ -22,7 +22,7 @@ export function ProductDetailImage({ src, alt, ariaLabel }: ProductDetailImagePr
         className="w-full cursor-zoom-in group/imgbtn overflow-hidden md:rounded-2xl bg-white aspect-4/3 p-4 relative"
         aria-label={ariaLabel}
       >
-        <ExportedImage
+        <Image
           width={800}
           height={600}
           src={src}
