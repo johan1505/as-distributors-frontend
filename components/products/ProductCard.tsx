@@ -46,6 +46,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             height={600}
             src={getProductImageSource(product.slug)}
             alt={tProducts(`${product.slug}.imageAlt`)}
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 300px"
             className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
           />

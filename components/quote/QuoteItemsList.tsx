@@ -60,6 +60,7 @@ export function QuoteItemsList() {
               height={600}
               src={getProductImageSource(item.product.slug)}
               alt={tProducts(`${item.product.slug}.imageAlt`)}
+              sizes="96px"
               className="size-20 md:size-24 object-contain bg-white rounded-lg shrink-0"
               loading="lazy"
             />

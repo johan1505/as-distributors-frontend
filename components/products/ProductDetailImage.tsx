@@ -27,6 +27,7 @@ export function ProductDetailImage({ src, alt, ariaLabel }: ProductDetailImagePr
           height={600}
           src={src}
           alt={alt}
+          sizes="(max-width: 768px) 100vw, 50vw"
           className="w-full h-full object-contain"
           loading="lazy"
         />

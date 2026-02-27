@@ -22,6 +22,7 @@ export function ProductImageLightbox({ src, alt, open, onClose }: ProductImageLi
           alt={alt}
           width={900}
           height={900}
+          sizes="(max-width: 640px) 90vw, 640px"
           className="w-full h-auto max-h-[80vh] object-contain"
           priority
         />
