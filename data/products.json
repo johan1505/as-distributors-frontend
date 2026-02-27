@@ -1120,7 +1120,7 @@
 		"featured": true
 	},
 	{
-		"slug": "lamb-shoulder-regular-diced",
+		"slug": "lamb-shoulder-diced",
 		"itemNumber": "101",
 		"unitPerPack": 1,
 		"overallSize": "18 lbs",
@@ -1128,7 +1128,7 @@
 		"featured": false
 	},
 	{
-		"slug": "lamb-shoulder-regular-diced-prepack",
+		"slug": "lamb-shoulder-diced-prepack",
 		"itemNumber": "102",
 		"unitPerPack": 1,
 		"overallSize": "40 lbs aprox",
