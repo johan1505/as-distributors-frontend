@@ -784,7 +784,7 @@
 		"featured": false
 	},
 	{
-		"slug": "amra-pickles",
+		"slug": "homemaid-amra-pickles",
 		"itemNumber": "350",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -792,7 +792,7 @@
 		"featured": false
 	},
 	{
-		"slug": "kamrak-star-pickle-apple",
+		"slug": "homemaid-kamrak-star-pickle-apple",
 		"itemNumber": "351",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -800,7 +800,7 @@
 		"featured": false
 	},
 	{
-		"slug": "kutchla-hot-mango-chutney",
+		"slug": "homemaid-kutchla-hot-mango-chutney",
 		"itemNumber": "352",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -808,7 +808,7 @@
 		"featured": false
 	},
 	{
-		"slug": "homemade-mango",
+		"slug": "homemaid-mango",
 		"itemNumber": "353",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -816,7 +816,7 @@
 		"featured": false
 	},
 	{
-		"slug": "tamarind-chutney",
+		"slug": "homemaid-tamarind-chutney",
 		"itemNumber": "354",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -824,7 +824,7 @@
 		"featured": true
 	},
 	{
-		"slug": "bongo-chili",
+		"slug": "homemaid-bongo-chili",
 		"itemNumber": "355",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
@@ -832,7 +832,7 @@
 		"featured": false
 	},
 	{
-		"slug": "sweet-mango-pickle",
+		"slug": "homemaid-sweet-mango-pickle",
 		"itemNumber": "356",
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
