@@ -13,7 +13,7 @@ import { AddToQuoteButton } from "@/components/quote/AddToQuoteButton";
 import type { ProductBase } from "@/lib/products";
 import { getProductImageSource } from "@/lib/products";
 import { ProductBadges } from "./ProductBadges";
-import ExportedImage from "next-image-export-optimizer";
+import { OptimizedImage } from "@/components/ui/optimized-image";
 import { ROUTES } from "@/lib/routes";
 import { useQuote } from "../quote/QuoteProvider";
 import { cn } from "@/lib/utils";
@@ -41,7 +41,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         className="block"
       >
         <div className="aspect-4/3 overflow-hidden bg-white p-4">
-          <ExportedImage
+          <OptimizedImage
             width={800}
             height={600}
             src={getProductImageSource(product.slug)}
