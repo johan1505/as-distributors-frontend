@@ -1,6 +1,6 @@
 "use client"
 
-import { useLayoutEffect, useRef, useState, useCallback } from "react"
+import { useLayoutEffect, useRef, useCallback } from "react"
 import ExportedImage from "next-image-export-optimizer"
 import type { ExportedImageProps } from "next-image-export-optimizer"
 
@@ -18,17 +18,20 @@ export function OptimizedImage({
 }: ExportedImageProps) {
   const srcKey = getSrcKey(src)
   const wrapperRef = useRef<HTMLDivElement>(null)
-  const alreadyLoaded = loadedImages.has(srcKey)
-  const [skipBlur, setSkipBlur] = useState(alreadyLoaded)
 
+  // For cached images on hard refresh: strip blur styles directly from the DOM
+  // before the browser paints. No React re-render, no prop change, no flash.
   useLayoutEffect(() => {
-    if (skipBlur) return
+    if (loadedImages.has(srcKey)) return
     const img = wrapperRef.current?.querySelector("img")
     if (img?.complete && img.naturalWidth > 0) {
+      img.style.backgroundImage = ""
+      img.style.backgroundSize = ""
+      img.style.backgroundPosition = ""
+      img.style.backgroundRepeat = ""
       loadedImages.add(srcKey)
-      setSkipBlur(true)
     }
-  }, [srcKey, skipBlur])
+  }, [srcKey])
 
   const handleLoad = useCallback(
     (e: React.SyntheticEvent<HTMLImageElement>) => {
@@ -38,7 +41,8 @@ export function OptimizedImage({
     [srcKey, onLoad],
   )
 
-  const resolvedPlaceholder = placeholder ?? (skipBlur ? "empty" : "blur")
+  const resolvedPlaceholder =
+    placeholder ?? (loadedImages.has(srcKey) ? "empty" : "blur")
 
   return (
     <div ref={wrapperRef} style={{ display: "contents" }}>
