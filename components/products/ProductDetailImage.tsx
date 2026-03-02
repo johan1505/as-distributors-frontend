@@ -29,6 +29,7 @@ export function ProductDetailImage({ src, alt, ariaLabel }: ProductDetailImagePr
           alt={alt}
           sizes="(max-width: 768px) 100vw, 50vw"
           className="w-full h-full object-contain"
+          placeholder="empty"
           loading="lazy"
         />
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover/imgbtn:opacity-100 transition-opacity duration-200 pointer-events-none">

@@ -62,6 +62,7 @@ export function QuoteItemsList() {
               alt={tProducts(`${item.product.slug}.imageAlt`)}
               sizes="96px"
               className="size-20 md:size-24 object-contain bg-white rounded-lg shrink-0"
+              placeholder="empty"
               loading="lazy"
             />
             <div className="flex flex-col gap-4">
