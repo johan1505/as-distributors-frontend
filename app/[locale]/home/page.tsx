@@ -172,7 +172,7 @@ export default async function HomePage({ params }: HomePageProps) {
 			</section>
 
 			{/* Featured Products Section */}
-			<section className="px-4 md:py-16">
+			<section className="px-10 md:py-16">
 				<div className="flex items-center justify-between mb-8">
 					<h2 className="text-2xl md:text-3xl font-semibold">{t('featured.title')}</h2>
 					<Link
