@@ -1,7 +1,7 @@
 import { ROUTES } from "@/lib/routes";
 import { BASE_URL } from "@/lib/site-config";
 import type { Organization, WebSite, WithContext } from "schema-dts";
-import { JSON_LD_CONSTANTS, CONTANCT } from "@/lib/constants";
+import { JSON_LD_CONSTANTS, CONTACT } from "@/lib/constants";
 interface OrganizationSchemaProps {
   name: string;
   description: string;
@@ -23,13 +23,21 @@ export function OrganizationSchema({
       // TODO: Add correct logo URL
       url: `${BASE_URL}/logo.png`,
     },
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: CONTANCT.TELEPHONE,
-      contactType: "sales",
-      email: CONTANCT.EMAIL,
-      availableLanguage: "English",
-    },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: CONTACT.TELEPHONE,
+        contactType: "sales",
+        email: CONTACT.EMAIL,
+        availableLanguage: "English",
+      },
+      {
+        "@type": "ContactPoint",
+        telephone: CONTACT.ALTERNATE_TELEPHONE,
+        contactType: "sales",
+        availableLanguage: "English",
+      }
+    ],
     address: {
       "@type": "PostalAddress",
       addressCountry: "US",

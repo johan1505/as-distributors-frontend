@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 import { getCanonicalUrl, buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 import type { WebPage, WithContext } from 'schema-dts';
-import { JSON_LD_CONSTANTS, CONTANCT } from '@/lib/constants';
+import { JSON_LD_CONSTANTS, CONTACT } from '@/lib/constants';
 
 interface ContactPageProps {
 	params: Promise<{ locale: Locale }>;
@@ -44,9 +44,9 @@ export default async function ContactPage({ params }: ContactPageProps) {
 
 	const t = await getTranslations('contact');
 	const contactUrl = getCanonicalUrl(locale, ROUTES.contact);
-	const address = CONTANCT.ADDRESS;
-	const phoneNumber = CONTANCT.TELEPHONE;
-	const emailAddress = CONTANCT.EMAIL;
+	const address = CONTACT.ADDRESS;
+	const phoneNumber = CONTACT.TELEPHONE;
+	const emailAddress = CONTACT.EMAIL;
 
 	// Create Google Maps URL
 	const fullAddress = `${address.street}, ${address.city}, ${address.state} ${address.zipCode}`;

@@ -11,7 +11,7 @@ import {
   CardDescription,
   CardContent,
 } from "@/components/ui/card";
-import { CONTANCT } from "@/lib/constants";
+import { CONTACT } from "@/lib/constants";
 
 const SESSION_KEY = "pacific-foods-sales-widget-shown";
 
@@ -43,7 +43,7 @@ export function SalesWidget() {
     <div className="fixed bottom-4 right-4 z-40">
       {isOpen ? (
         <Card className="w-80 shadow-2xl animate-in slide-in-from-bottom-4 fade-in duration-300">
-          <CardHeader className="pb-3">
+          <CardHeader>
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-2">
                 <div className="size-10 rounded-full bg-primary/10 flex items-center justify-center">
@@ -67,7 +67,7 @@ export function SalesWidget() {
           </CardHeader>
           <CardContent className="space-y-2">
             <a
-              href={`tel:${CONTANCT.TELEPHONE}`}
+              href={`tel:${CONTACT.TELEPHONE}`}
               className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
             >
               <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
@@ -76,12 +76,26 @@ export function SalesWidget() {
               <div>
                 <div className="text-sm font-medium">{t("phone")}</div>
                 <div className="text-xs text-muted-foreground">
-                  {CONTANCT.TELEPHONE}
+                  {CONTACT.TELEPHONE}
                 </div>
               </div>
             </a>
             <a
-              href={`mailto:${CONTANCT.EMAIL}`}
+              href={`tel:${CONTACT.ALTERNATE_TELEPHONE}`}
+              className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
+            >
+              <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
+                <Phone className="size-4 text-primary" />
+              </div>
+              <div>
+                <div className="text-sm font-medium">{t("phone")}</div>
+                <div className="text-xs text-muted-foreground">
+                  {CONTACT.ALTERNATE_TELEPHONE}
+                </div>
+              </div>
+            </a>
+            <a
+              href={`mailto:${CONTACT.EMAIL}`}
               className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
             >
               <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
@@ -90,7 +104,7 @@ export function SalesWidget() {
               <div>
                 <div className="text-sm font-medium">{t("email")}</div>
                 <div className="text-xs text-muted-foreground">
-                  {CONTANCT.EMAIL}
+                  {CONTACT.EMAIL}
                 </div>
               </div>
             </a>

@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ROUTES } from "@/lib/routes";
-import { CONTANCT } from "@/lib/constants";
+import { CONTACT } from "@/lib/constants";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -54,22 +54,31 @@ export function Footer() {
             <h2 className="font-semibold mb-4">{t("contact")}</h2>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <a
-                href={`tel:${CONTANCT.TELEPHONE}`}
+                href={`tel:${CONTACT.TELEPHONE}`}
                 className="hover:text-ocean transition-colors underline"
                 aria-label={tContact("phone.ariaLabel", {
-                  phone: CONTANCT.TELEPHONE,
+                  phone: CONTACT.TELEPHONE,
                 })}
               >
-                {CONTANCT.TELEPHONE}
+                {CONTACT.TELEPHONE}
               </a>
               <a
-                href={`mailto:${CONTANCT.EMAIL}`}
+                href={`tel:${CONTACT.ALTERNATE_TELEPHONE}`}
                 className="hover:text-ocean transition-colors underline"
-                aria-label={tContact("email.ariaLabel", {
-                  email: CONTANCT.EMAIL,
+                aria-label={tContact("phone.ariaLabel", {
+                  phone: CONTACT.TELEPHONE,
                 })}
               >
-                {CONTANCT.EMAIL}
+                {CONTACT.ALTERNATE_TELEPHONE}
+              </a>
+              <a
+                href={`mailto:${CONTACT.EMAIL}`}
+                className="hover:text-ocean transition-colors underline"
+                aria-label={tContact("email.ariaLabel", {
+                  email: CONTACT.EMAIL,
+                })}
+              >
+                {CONTACT.EMAIL}
               </a>
             </div>
           </address>

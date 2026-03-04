@@ -8,8 +8,9 @@ export const JSON_LD_CONSTANTS = {
 		`${BASE_URL}/products/${categoryKey}/${productSlug}`,
 } as const;
 
-export const CONTANCT = {
+export const CONTACT = {
 	TELEPHONE: '209-406-7888',
+	ALTERNATE_TELEPHONE: '323-308-9536',
 	EMAIL: 'aandsdistributors@att.net',
 	ADDRESS: {
 		street: '4710 Elm Street',
