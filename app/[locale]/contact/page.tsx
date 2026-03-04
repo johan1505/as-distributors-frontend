@@ -99,6 +99,21 @@ export default async function ContactPage({ params }: ContactPageProps) {
 							<p className="font-medium group-hover:text-ocean transition-colors">{phoneNumber}</p>
 						</div>
 					</a>
+					<a
+						href={`tel:${CONTACT.ALTERNATE_TELEPHONE}`}
+						className="group flex items-center gap-4 py-4 border-b border-border/50 hover:border-ocean/30 transition-colors"
+						aria-label={t('phone.ariaLabel', { phone: CONTACT.ALTERNATE_TELEPHONE })}
+					>
+						<div className="size-10 rounded-full bg-muted flex items-center justify-center group-hover:bg-ocean/10 transition-colors">
+							<Phone className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
+						</div>
+						<div>
+							<p className="text-xs text-muted-foreground uppercase tracking-wider mb-0.5">
+								{t('phone.label')}
+							</p>
+							<p className="font-medium group-hover:text-ocean transition-colors">{CONTACT.ALTERNATE_TELEPHONE}</p>
+						</div>
+					</a>
 
 					{/* Email */}
 					<a
