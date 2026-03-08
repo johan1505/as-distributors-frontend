@@ -138,8 +138,16 @@
 	"sales": {
 		"title": "Mana'omia Fesoasoani?",
 		"description": "O la matou 'au fa'atau o lo o iai e fesoasoani ia te oe i fa'atonuga ma fesili.",
-		"phone": "Vala'au Mai",
-		"email": "Imeli Mai",
+		"callSectionTitle": "Vala'au le matou 'au fa'atau",
+		"emailSectionTitle": "Imeli le matou 'au fa'atau",
+		"phoneMainLabel": "Laina autū",
+		"phoneAltLabel": "Laina fa'aopoopo",
+		"emailGeneralLabel": "Fesili lautele",
+		"emailJudyLabel": "Imeli fa'aopoopo",
+		"phoneMainAriaLabel": "Vala'au le laina autū o fa'atauga i le {phone}",
+		"phoneAltAriaLabel": "Vala'au le laina fa'aopoopo o fa'atauga i le {phone}",
+		"emailGeneralAriaLabel": "Imeli le matou 'au fa'atau i le {email}",
+		"emailJudyAriaLabel": "Imeli le matou tuatusi fa'atau fa'aopoopo i le {email}",
 		"close": "Tapuni",
 		"openSalesWidget": "Tatala Widget Fa'atau"
 	},

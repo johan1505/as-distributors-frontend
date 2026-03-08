@@ -20,3 +20,8 @@ export const CONTACT = {
 		country: 'US',
 	},
 };
+
+export const SALES_EMAIL = {
+	PRIMARY: 'aandsdistributors209@gmail.com',
+	ALTERNATE: 'judy.asdistributors@gmail.com',
+} as const;

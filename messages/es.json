@@ -138,8 +138,16 @@
 	"sales": {
 		"title": "¿Necesita Ayuda?",
 		"description": "Nuestro equipo de ventas está aquí para ayudarlo con pedidos y preguntas.",
-		"phone": "Llámenos",
-		"email": "Envíenos un Email",
+		"callSectionTitle": "Llame a nuestro equipo de ventas",
+		"emailSectionTitle": "Envíe un correo a nuestro equipo de ventas",
+		"phoneMainLabel": "Línea principal",
+		"phoneAltLabel": "Línea alternativa",
+		"emailGeneralLabel": "Consultas generales",
+		"emailJudyLabel": "Alternativa",
+		"phoneMainAriaLabel": "Llame a nuestra línea principal de ventas al {phone}",
+		"phoneAltAriaLabel": "Llame a nuestra línea alternativa de ventas al {phone}",
+		"emailGeneralAriaLabel": "Envíe un correo a nuestro equipo de ventas a {email}",
+		"emailJudyAriaLabel": "Envíe un correo a nuestra dirección de ventas alternativa a {email}",
 		"close": "Cerrar",
 		"openSalesWidget": "Abrir Widget de Ventas"
 	},

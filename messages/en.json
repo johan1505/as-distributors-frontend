@@ -138,8 +138,16 @@
 	"sales": {
 		"title": "Need Help?",
 		"description": "Our sales team is here to assist you with orders and questions.",
-		"phone": "Call Us",
-		"email": "Email Us",
+		"callSectionTitle": "Call our sales team",
+		"emailSectionTitle": "Email our sales team",
+		"phoneMainLabel": "Main",
+		"phoneAltLabel": "Alternate",
+		"emailGeneralLabel": "Main",
+		"emailJudyLabel": "Alternate",
+		"phoneMainAriaLabel": "Call our main sales line at {phone}",
+		"phoneAltAriaLabel": "Call our alternate sales line at {phone}",
+		"emailGeneralAriaLabel": "Email our sales team at {email}",
+		"emailJudyAriaLabel": "Email our alternate sales address at {email}",
 		"close": "Close",
 		"openSalesWidget": "Open Sales Widget"
 	},

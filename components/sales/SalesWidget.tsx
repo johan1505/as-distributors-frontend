@@ -11,7 +11,7 @@ import {
   CardDescription,
   CardContent,
 } from "@/components/ui/card";
-import { CONTACT } from "@/lib/constants";
+import { CONTACT, SALES_EMAIL } from "@/lib/constants";
 
 const SESSION_KEY = "pacific-foods-sales-widget-shown";
 
@@ -46,9 +46,6 @@ export function SalesWidget() {
           <CardHeader>
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-2">
-                <div className="size-10 rounded-full bg-primary/10 flex items-center justify-center">
-                  <MessageCircle className="size-5 text-primary" />
-                </div>
                 <div>
                   <CardTitle className="text-base">{t("title")}</CardTitle>
                   <CardDescription className="text-xs">
@@ -65,49 +62,102 @@ export function SalesWidget() {
               </Button>
             </div>
           </CardHeader>
-          <CardContent className="space-y-2">
-            <a
-              href={`tel:${CONTACT.TELEPHONE}`}
-              className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
-            >
-              <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
-                <Phone className="size-4 text-primary" />
+          <CardContent className="space-y-4">
+            <div className="space-y-2">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                {t("callSectionTitle")}
+              </p>
+              <div className="space-y-1.5">
+                <a
+                  href={`tel:${CONTACT.TELEPHONE}`}
+                  className="group flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors"
+                  aria-label={t("phoneMainAriaLabel", {
+                    phone: CONTACT.TELEPHONE,
+                  })}
+                >
+                  <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/15 transition-colors">
+                    <Phone className="size-4 text-primary" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-xs font-normal uppercase tracking-[0.12em] text-muted-foreground">
+                      {t("phoneMainLabel")}
+                    </span>
+                    <span className="text-xs font-normal leading-tight text-foreground group-hover:text-primary transition-colors">
+                      {CONTACT.TELEPHONE}
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href={`tel:${CONTACT.ALTERNATE_TELEPHONE}`}
+                  className="group flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors"
+                  aria-label={t("phoneAltAriaLabel", {
+                    phone: CONTACT.ALTERNATE_TELEPHONE,
+                  })}
+                >
+                  <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/15 transition-colors">
+                    <Phone className="size-4 text-primary" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-xs font-normal uppercase tracking-[0.12em] text-muted-foreground">
+                      {t("phoneAltLabel")}
+                    </span>
+                    <span className="text-xs font-normal leading-tight text-muted-foreground group-hover:text-foreground transition-colors">
+                      {CONTACT.ALTERNATE_TELEPHONE}
+                    </span>
+                  </div>
+                </a>
               </div>
-              <div>
-                <div className="text-sm font-medium">{t("phone")}</div>
-                <div className="text-xs text-muted-foreground">
-                  {CONTACT.TELEPHONE}
-                </div>
+            </div>
+
+            <div className="h-px bg-border/60" />
+
+            <div className="space-y-2">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                {t("emailSectionTitle")}
+              </p>
+              <div className="space-y-1.5">
+                <a
+                  href={`mailto:${SALES_EMAIL.PRIMARY}`}
+                  className="group flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors"
+                  aria-label={t("emailGeneralAriaLabel", {
+                    email: SALES_EMAIL.PRIMARY,
+                  })}
+                >
+                  <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/15 transition-colors">
+                    <Mail className="size-4 text-primary" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-xs font-normal uppercase tracking-[0.12em] text-muted-foreground">
+                      {t("emailGeneralLabel")}
+                    </span>
+                    <span className="text-xs font-normal leading-tight text-foreground group-hover:text-primary transition-colors">
+                      {SALES_EMAIL.PRIMARY}
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href={`mailto:${SALES_EMAIL.ALTERNATE}`}
+                  className="group flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors"
+                  aria-label={t("emailJudyAriaLabel", {
+                    email: SALES_EMAIL.ALTERNATE,
+                  })}
+                >
+                  <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/15 transition-colors">
+                    <Mail className="size-4 text-primary" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-xs font-normal uppercase tracking-[0.12em] text-muted-foreground">
+                      {t("emailJudyLabel")}
+                    </span>
+                    <span className="text-xs font-normal leading-tight text-muted-foreground group-hover:text-foreground transition-colors">
+                      {SALES_EMAIL.ALTERNATE}
+                    </span>
+                  </div>
+                </a>
               </div>
-            </a>
-            <a
-              href={`tel:${CONTACT.ALTERNATE_TELEPHONE}`}
-              className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
-            >
-              <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
-                <Phone className="size-4 text-primary" />
-              </div>
-              <div>
-                <div className="text-sm font-medium">{t("phone")}</div>
-                <div className="text-xs text-muted-foreground">
-                  {CONTACT.ALTERNATE_TELEPHONE}
-                </div>
-              </div>
-            </a>
-            <a
-              href={`mailto:${CONTACT.EMAIL}`}
-              className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted transition-colors"
-            >
-              <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
-                <Mail className="size-4 text-primary" />
-              </div>
-              <div>
-                <div className="text-sm font-medium">{t("email")}</div>
-                <div className="text-xs text-muted-foreground">
-                  {CONTACT.EMAIL}
-                </div>
-              </div>
-            </a>
+            </div>
           </CardContent>
         </Card>
       ) : (

@@ -138,8 +138,16 @@
 	"sales": {
 		"title": "需要帮助？",
 		"description": "我们的销售团队随时为您提供订单和问题方面的帮助。",
-		"phone": "致电我们",
-		"email": "发送邮件",
+		"callSectionTitle": "致电我们的销售团队",
+		"emailSectionTitle": "给我们的销售团队发送邮件",
+		"phoneMainLabel": "主要电话",
+		"phoneAltLabel": "备用电话",
+		"emailGeneralLabel": "一般咨询",
+		"emailJudyLabel": "备用邮箱",
+		"phoneMainAriaLabel": "拨打我们的主要销售电话 {phone}",
+		"phoneAltAriaLabel": "拨打我们的备用销售电话 {phone}",
+		"emailGeneralAriaLabel": "发送邮件到我们的销售团队 {email}",
+		"emailJudyAriaLabel": "发送邮件到我们的备用销售邮箱，地址为 {email}",
 		"close": "关闭",
 		"openSalesWidget": "打开销售小部件"
 	},
