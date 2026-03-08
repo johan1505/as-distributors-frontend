@@ -114,6 +114,8 @@
 			"namePlaceholder": "Tu'u lou igoa atoa",
 			"email": "Imeli",
 			"emailPlaceholder": "Tu'u lou imeli",
+			"zip": "Tuatusi",
+			"zipPlaceholder": "Tu'u lou tuatusi",
 			"phone": "Numera Telefoni",
 			"phonePlaceholder": "Tu'u lou numera telefoni",
 			"sendRequest": "Auina talosaga tau",

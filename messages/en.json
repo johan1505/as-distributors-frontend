@@ -114,6 +114,8 @@
 			"namePlaceholder": "Enter your full name",
 			"email": "Email Address",
 			"emailPlaceholder": "Enter your email",
+			"zip": "Zip Code",
+			"zipPlaceholder": "Enter your zip code",
 			"phone": "Phone Number",
 			"phonePlaceholder": "Enter your phone number",
 			"sendRequest": "Send quote request",

@@ -114,6 +114,8 @@
 			"namePlaceholder": "输入您的全名",
 			"email": "电子邮件地址",
 			"emailPlaceholder": "输入您的电子邮件",
+			"zip": "邮政编码",
+			"zipPlaceholder": "输入您的邮政编码",
 			"phone": "电话号码",
 			"phonePlaceholder": "输入您的电话号码",
 			"sendRequest": "发送报价请求",

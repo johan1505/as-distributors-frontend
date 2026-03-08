@@ -114,6 +114,8 @@
 			"namePlaceholder": "Ingrese su nombre completo",
 			"email": "Correo Electrónico",
 			"emailPlaceholder": "Ingrese su correo electrónico",
+			"zip": "Código Postal",
+			"zipPlaceholder": "Ingrese su código postal",
 			"phone": "Número de Teléfono",
 			"phonePlaceholder": "Ingrese su número de teléfono",
 			"sendRequest": "Enviar solicitud de cotización",

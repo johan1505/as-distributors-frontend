@@ -49,6 +49,7 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
       name: formData.get("name") as string,
       email: formData.get("email") as string,
       phone: formData.get("phone") as string,
+      zipCode: formData.get("zip") as string,
     };
 
     const quoteItems: QuoteItem[] = items.map((item) => ({
@@ -170,6 +171,22 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
               required
               autoComplete="tel"
               placeholder={tQuotePage("phonePlaceholder")}
+              disabled={isSubmitting}
+            />
+          </Field>
+
+          <Field>
+            <FieldLabel htmlFor="zip">
+              {tQuotePage("zip")}
+              <span className="text-destructive">*</span>
+            </FieldLabel>
+            <Input
+              id="zip"
+              name="zip"
+              type="text"
+              required
+              autoComplete="postal-code"
+              placeholder={tQuotePage("zipPlaceholder")}
               disabled={isSubmitting}
             />
           </Field>

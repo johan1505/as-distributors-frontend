@@ -114,6 +114,8 @@
 			"namePlaceholder": "성함을 입력하세요",
 			"email": "이메일 주소",
 			"emailPlaceholder": "이메일을 입력하세요",
+			"zip": "우편번호",
+			"zipPlaceholder": "우편번호를 입력하세요",
 			"phone": "전화번호",
 			"phonePlaceholder": "전화번호를 입력하세요",
 			"sendRequest": "견적 요청 보내기",
