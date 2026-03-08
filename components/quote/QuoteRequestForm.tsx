@@ -11,6 +11,7 @@ import { useQuote } from "./QuoteProvider";
 import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
 import { ProductSlug } from "@/lib/products";
+import { PhoneInput } from "@/components/ui/phone-input";
 
 export type QuoteItem = { productName: string; itemNumber: string; quantity: number };
 
@@ -164,7 +165,7 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
               {tQuotePage("phone")}
               <span className="text-destructive">*</span>
             </FieldLabel>
-            <Input
+            <PhoneInput
               id="phone"
               name="phone"
               type="tel"
@@ -172,9 +173,9 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
               autoComplete="tel"
               placeholder={tQuotePage("phonePlaceholder")}
               disabled={isSubmitting}
+              defaultCountry="US"
             />
           </Field>
-
           <Field>
             <FieldLabel htmlFor="zip">
               {tQuotePage("zip")}
