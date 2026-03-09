@@ -119,8 +119,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 		url: productUrl,
 		brand: {
 			'@type': 'Brand',
-			// TODO: This should be the brand of the product, not the site
-			name: tSite('name'),
+			name,
 		},
 		offers: {
 			'@type': 'Offer',

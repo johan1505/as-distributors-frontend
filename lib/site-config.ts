@@ -6,7 +6,6 @@
 import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
 
-// TODO: Placeholder base URL - replace with production URL when known
 export const BASE_URL = 'https://asdistributors.com';
 
 // Site metadata constants

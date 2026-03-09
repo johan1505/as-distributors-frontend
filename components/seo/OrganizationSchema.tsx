@@ -20,8 +20,7 @@ export function OrganizationSchema({
     url: BASE_URL,
     logo: {
       "@type": "ImageObject",
-      // TODO: Add correct logo URL
-      url: `${BASE_URL}/logo.png`,
+      url: `${BASE_URL}/favicon.ico`,
     },
     contactPoint: [
       {
@@ -42,11 +41,7 @@ export function OrganizationSchema({
       "@type": "PostalAddress",
       addressCountry: "US",
     },
-    sameAs: [
-      // TODO: Add social media URLs here when available
-      // "https://www.facebook.com/pacificislanderfoods",
-      // "https://www.instagram.com/pacificislanderfoods",
-    ],
+
   };
 
   // WebSite schema for search engine site links
