@@ -8,6 +8,7 @@ import type { Locale } from 'next-intl';
 import { FeaturedProductsCarousel } from '@/components/products/FeaturedProductsCarousel';
 import { buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
+import ExportedImage from 'next-image-export-optimizer';
 
 interface HomePageProps {
 	params: Promise<{ locale: Locale }>;
@@ -65,35 +66,28 @@ export default async function HomePage({ params }: HomePageProps) {
 		<>
 			{/* Hero Section */}
 			<section className="relative overflow-hidden">
-				{/* Ocean gradient background */}
-				<div className="absolute inset-0 bg-gradient-to-br from-ocean-muted via-background to-primary/5" />
-
-				{/* Decorative wave layers */}
-				<div className="absolute inset-0 pointer-events-none overflow-hidden">
-					{/* biome-ignore lint/a11y/noSvgWithoutTitle : decorative */}
-					<svg
-						className="absolute bottom-0 w-full h-32 md:h-48"
-						viewBox="0 0 1440 320"
-						preserveAspectRatio="none"
-					>
-						<path
-							className="fill-ocean/10"
-							d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,250.7C960,235,1056,181,1152,165.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L0,320Z"
-						/>
-						<path
-							className="fill-primary/5"
-							d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,213.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L0,320Z"
-						/>
-					</svg>
+				<div aria-hidden className="absolute inset-0">
+					<ExportedImage
+						src="/images/islands-background.png"
+						alt=""
+						fill
+						priority
+						sizes="100vw"
+						className="object-cover object-center"
+						placeholder="empty"
+					/>
 				</div>
-
-				<div className="container mx-auto px-4 py-20 md:py-32 relative">
+				<div className="container relative mx-auto px-4 py-20 md:py-32">
 					<div className="max-w-4xl mx-auto text-center">
-						<h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 text-foreground">
-							{t('hero.title')}
+						<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+							<span className="inline box-decoration-clone rounded-lg bg-background/55 px-3 py-1 backdrop-blur-sm ring-1 ring-border/30">
+								{t('hero.title')}
+							</span>
 						</h1>
-						<p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-							{t('hero.description')}
+						<p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed font-bold">
+							<span className="inline box-decoration-clone rounded-md bg-background/45 px-2 py-1 backdrop-blur-sm ring-1 ring-border/30">
+								{t('hero.description')}
+							</span>
 						</p>
 
 						<div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -109,25 +103,13 @@ export default async function HomePage({ params }: HomePageProps) {
 								className={buttonVariants({
 									variant: 'outline',
 									size: 'lg',
-									className: 'border-ocean/30 hover:bg-ocean-muted',
+									className: 'bg-ocean-muted hover:bg-ocean-muted',
 								})}
 							>
 								{tNav('contact')}
 							</Link>
 						</div>
 					</div>
-				</div>
-
-				{/* Bottom wave transition */}
-				<div className="absolute bottom-0 left-0 right-0 pointer-events-none">
-					{/* biome-ignore lint/a11y/noSvgWithoutTitle : decorative */}
-					<svg
-						viewBox="0 0 1440 80"
-						className="w-full h-auto fill-background"
-						preserveAspectRatio="none"
-					>
-						<path d="M0,40 C360,80 1080,0 1440,50 L1440,80 L0,80 Z" />
-					</svg>
 				</div>
 			</section>
 
@@ -138,8 +120,8 @@ export default async function HomePage({ params }: HomePageProps) {
 					<div className="md:col-span-2 flex justify-center">
 						<div className="relative">
 							{/* Main decorative circle */}
-							<div className="size-48 md:size-56 rounded-full bg-gradient-to-br from-ocean-muted to-primary/10 flex items-center justify-center">
-								<div className="size-32 md:size-40 rounded-full bg-gradient-to-br from-ocean/20 to-primary/20 flex items-center justify-center">
+							<div className="size-48 md:size-56 rounded-full bg-linear-to-br from-ocean-muted to-primary/10 flex items-center justify-center">
+								<div className="size-32 md:size-40 rounded-full bg-linear-to-br from-ocean/20 to-primary/20 flex items-center justify-center">
 									<Fish className="size-16 md:size-20 text-ocean" />
 								</div>
 							</div>
@@ -205,7 +187,7 @@ export default async function HomePage({ params }: HomePageProps) {
 			</div>
 
 			{/* Values Section - Alternating Styles */}
-			<section className="bg-gradient-to-b from-ocean-muted/40 via-ocean-muted/20 to-background py-16 md:py-24">
+			<section className="bg-linear-to-b from-ocean-muted/40 via-ocean-muted/20 to-background py-16 md:py-24">
 				<div className="container mx-auto px-4">
 					<h2 className="text-2xl md:text-3xl font-semibold text-center mb-4">
 						{t('values.title')}

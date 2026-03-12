@@ -93,7 +93,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
 	const t = await getTranslations('product');
 	const tProducts = await getTranslations('products');
 	const tCategories = await getTranslations('categories');
-	const tSite = await getTranslations('site');
 	const tBreadcrumb = await getTranslations('breadcrumb');
 
 	const name = tProducts(`${slug}.name`);

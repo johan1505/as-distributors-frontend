@@ -1784,29 +1784,174 @@
 			"seoKeywords": "Sunquick tropical, concentrado de frutas, ponche tropical, bebida del Pacífico",
 			"imageAlt": "Botella de Sunquick Tropical Juice Concentrate"
 		},
-		"cordial-raspberry": {
-			"name": "Cordial Frambuesa",
-			"description": "Concentrado de cordial de frambuesa refrescante para preparar deliciosas bebidas de frambuesa. Simplemente mezcla con agua para una bebida dulce y afrutada. Una opción popular para familias y reuniones en todas las Islas del Pacífico.",
-			"seoTitle": "Cordial de Frambuesa | A & S Distributors",
-			"seoDescription": "Concentrado de cordial de frambuesa. Bebida afrutada refrescante. Precios al por mayor disponibles.",
-			"seoKeywords": "cordial de frambuesa, bebida de cordial, bebida de frutas, bebidas del Pacífico",
-			"imageAlt": "Botella de Cordial Frambuesa"
+
+		"nestle-smarties-50g": {
+			"name": "Nestlé Smarties",
+			"description": "Chocolate con leche en una cáscara crujiente de colores. Un clásico fácil de compartir o vender al por menor.",
+			"seoTitle": "Nestlé Smarties 50g | A & S Distributors",
+			"seoDescription": "Nestlé Smarties 50g. Chocolate con leche con cobertura crujiente. Precios al por mayor disponibles.",
+			"seoKeywords": "Smarties, chocolate Nestlé, chocolate con cobertura, dulces al por mayor",
+			"imageAlt": "Paquete de Nestlé Smarties"
 		},
-		"cordial-kola": {
-			"name": "Cordial Kola",
-			"description": "Concentrado de cordial clásico sabor kola para preparar refrescantes bebidas estilo cola. Mezcla con agua para una bebida dulce y aromática con distintivo sabor a nuez de kola. Un favorito nostálgico en todas las Islas del Pacífico.",
-			"seoTitle": "Cordial Kola | A & S Distributors",
-			"seoDescription": "Concentrado de cordial de kola. Sabor clásico estilo cola. Precios al por mayor disponibles.",
-			"seoKeywords": "cordial de kola, bebida de cola, concentrado de cordial, bebidas del Pacífico",
-			"imageAlt": "Botella de Cordial Kola"
+		"nestle-milkybar-classic-50g": {
+			"name": "Nestlé Milkybar Classic",
+			"description": "Barra de chocolate blanco cremosa y suave. Ideal para antojos diarios y exhibiciones en caja.",
+			"seoTitle": "Nestlé Milkybar Classic 50g | A & S Distributors",
+			"seoDescription": "Nestlé Milkybar Classic 50g. Chocolate blanco cremoso. Precios al por mayor disponibles.",
+			"seoKeywords": "Milkybar, chocolate blanco, chocolate Nestlé, dulces al por mayor",
+			"imageAlt": "Paquete de Nestlé Milkybar Classic"
 		},
-		"cordial-lime": {
-			"name": "Cordial Lima",
-			"description": "Concentrado de cordial de lima vibrante para preparar refrescantes bebidas de lima. El sabor ácido y cítrico es perfecto para días calurosos y reuniones tropicales. Simplemente mezcla con agua para un refresco instantáneo de lima.",
-			"seoTitle": "Cordial de Lima | A & S Distributors",
-			"seoDescription": "Concentrado de cordial de lima. Vibrante y refrescante. Precios al por mayor disponibles.",
-			"seoKeywords": "cordial de lima, bebida de lima, bebida cítrica, bebidas del Pacífico",
-			"imageAlt": "Botella de Cordial Lima"
+		"nestle-kitkat-chunky-milo-44g": {
+			"name": "Nestlé KitKat Chunky Milo",
+			"description": "Barra KitKat Chunky con wafer y sabor a Milo para un crujido extra con toque maltoso.",
+			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 44g. Barra de wafer con sabor a Milo. Precios al por mayor disponibles.",
+			"seoKeywords": "KitKat Chunky, Milo, barra wafer, chocolate Nestlé, dulces al por mayor",
+			"imageAlt": "Barra de KitKat Chunky Milo"
+		},
+		"choki-choki-chocolate-paste-12g": {
+			"name": "Choki Choki Pasta de Chocolate",
+			"description": "Pasta de chocolate suave en un práctico tubito. Popular como snack dulce rápido o para loncheras.",
+			"seoTitle": "Choki Choki Pasta de Chocolate 12g | A & S Distributors",
+			"seoDescription": "Choki Choki pasta de chocolate en tubo de 12g. Precios al por mayor disponibles.",
+			"seoKeywords": "Choki Choki, pasta de chocolate, snack de chocolate, dulces al por mayor",
+			"imageAlt": "Tubito de Choki Choki"
+		},
+		"jasons-black-hacks-150g": {
+			"name": "Jasons Black Hacks",
+			"description": "Caramelo duro clásico con sabor tradicional e intenso. Una opción popular para estantes de dulces.",
+			"seoTitle": "Jasons Black Hacks 150g | A & S Distributors",
+			"seoDescription": "Jasons Black Hacks 150g. Caramelo duro clásico. Precios al por mayor disponibles.",
+			"seoKeywords": "Jasons Black Hacks, caramelo duro, mentas, dulces al por mayor",
+			"imageAlt": "Bolsa de Jasons Black Hacks"
+		},
+		"jasons-clear-mints-150g": {
+			"name": "Jasons Clear Mints",
+			"description": "Mentas claras refrescantes con sabor limpio y fresco. Perfectas para compartir o para mostradores.",
+			"seoTitle": "Jasons Clear Mints 150g | A & S Distributors",
+			"seoDescription": "Jasons Clear Mints 150g. Mentas refrescantes. Precios al por mayor disponibles.",
+			"seoKeywords": "mentas Jasons, mentas claras, caramelo duro, dulces al por mayor",
+			"imageAlt": "Bolsa de Jasons Clear Mints"
+		},
+		"pops-kola-2-5l": {
+			"name": "Pops Kola",
+			"description": "Refresco Pops Kola en botella de 2.5 litros. Grande y refrescante para reuniones y eventos.",
+			"seoTitle": "Pops Kola 2.5L | A & S Distributors",
+			"seoDescription": "Refresco Pops Kola en botella de 2.5L. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Kola, refresco, 2.5L, bebidas al por mayor",
+			"imageAlt": "Botella de Pops Kola 2.5L"
+		},
+		"pops-orange-2-5l": {
+			"name": "Pops Naranja",
+			"description": "Refresco Pops Naranja en botella de 2.5 litros. Sabor cítrico ideal para fiestas y refrescarse.",
+			"seoTitle": "Pops Naranja 2.5L | A & S Distributors",
+			"seoDescription": "Refresco Pops Naranja en botella de 2.5L. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Naranja, soda de naranja, 2.5L, bebidas al por mayor",
+			"imageAlt": "Botella de Pops Naranja 2.5L"
+		},
+		"pops-lime-2-5l": {
+			"name": "Pops Lima",
+			"description": "Refresco Pops Lima en botella de 2.5 litros. Sabor a lima vibrante para días calurosos.",
+			"seoTitle": "Pops Lima 2.5L | A & S Distributors",
+			"seoDescription": "Refresco Pops Lima en botella de 2.5L. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Lima, soda de lima, 2.5L, bebidas al por mayor",
+			"imageAlt": "Botella de Pops Lima 2.5L"
+		},
+		"pops-raspberry-2-5l": {
+			"name": "Pops Frambuesa",
+			"description": "Refresco Pops Frambuesa en botella de 2.5 litros. Sabor dulce a frutos rojos para compartir.",
+			"seoTitle": "Pops Frambuesa 2.5L | A & S Distributors",
+			"seoDescription": "Refresco Pops Frambuesa en botella de 2.5L. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Frambuesa, soda de frambuesa, 2.5L, bebidas al por mayor",
+			"imageAlt": "Botella de Pops Frambuesa 2.5L"
+		},
+		"pops-pineapple-2-5l": {
+			"name": "Pops Piña",
+			"description": "Refresco Pops Piña en botella de 2.5 litros. Sabor tropical de piña para comidas y eventos.",
+			"seoTitle": "Pops Piña 2.5L | A & S Distributors",
+			"seoDescription": "Refresco Pops Piña en botella de 2.5L. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Piña, soda de piña, 2.5L, bebidas al por mayor",
+			"imageAlt": "Botella de Pops Piña 2.5L"
+		},
+		"pops-cordial-kola-1l": {
+			"name": "Cordial Pops Kola",
+			"description": "Concentrado de cordial Pops sabor kola. Mezcla con agua para una bebida estilo cola en botella de 1 litro.",
+			"seoTitle": "Cordial Pops Kola 1L | A & S Distributors",
+			"seoDescription": "Concentrado de cordial Pops sabor kola, 1L. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial Pops, cordial kola, concentrado de cordial, 1L, bebidas al por mayor",
+			"imageAlt": "Botella de Cordial Pops Kola 1L"
+		},
+		"pops-cordial-raspberry-1l": {
+			"name": "Cordial Pops Frambuesa",
+			"description": "Concentrado de cordial Pops sabor frambuesa. Mezcla con agua para una bebida dulce y afrutada en botella de 1 litro.",
+			"seoTitle": "Cordial Pops Frambuesa 1L | A & S Distributors",
+			"seoDescription": "Concentrado de cordial Pops sabor frambuesa, 1L. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial Pops, cordial frambuesa, concentrado de cordial, 1L, bebidas al por mayor",
+			"imageAlt": "Botella de Cordial Pops Frambuesa 1L"
+		},
+		"pops-cordial-orange-1l": {
+			"name": "Cordial Pops Naranja",
+			"description": "Concentrado de cordial Pops sabor naranja. Mezcla con agua para una bebida cítrica brillante en botella de 1 litro.",
+			"seoTitle": "Cordial Pops Naranja 1L | A & S Distributors",
+			"seoDescription": "Concentrado de cordial Pops sabor naranja, 1L. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial Pops, cordial naranja, concentrado de cordial, 1L, bebidas al por mayor",
+			"imageAlt": "Botella de Cordial Pops Naranja 1L"
+		},
+		"pops-cordial-pineapple-1l": {
+			"name": "Cordial Pops Piña",
+			"description": "Concentrado de cordial Pops sabor piña. Mezcla con agua para una bebida tropical de piña en botella de 1 litro.",
+			"seoTitle": "Cordial Pops Piña 1L | A & S Distributors",
+			"seoDescription": "Concentrado de cordial Pops sabor piña, 1L. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial Pops, cordial piña, concentrado de cordial, 1L, bebidas al por mayor",
+			"imageAlt": "Botella de Cordial Pops Piña 1L"
+		},
+		"pops-cordial-lime-1l": {
+			"name": "Cordial Pops Lima",
+			"description": "Concentrado de cordial Pops sabor lima. Mezcla con agua para una bebida vibrante y refrescante en botella de 1 litro.",
+			"seoTitle": "Cordial Pops Lima 1L | A & S Distributors",
+			"seoDescription": "Concentrado de cordial Pops sabor lima, 1L. Precios al por mayor disponibles.",
+			"seoKeywords": "cordial Pops, cordial lima, concentrado de cordial, 1L, bebidas al por mayor",
+			"imageAlt": "Botella de Cordial Pops Lima 1L"
+		},
+		"pops-raspberry-can-355ml": {
+			"name": "Pops Frambuesa Lata",
+			"description": "Refresco Pops Frambuesa en lata de 355 ml. Frío, crujiente y fácil de llevar.",
+			"seoTitle": "Pops Frambuesa Lata 355ml | A & S Distributors",
+			"seoDescription": "Refresco Pops Frambuesa en lata 355ml. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Frambuesa, lata de refresco, 355ml, bebidas al por mayor",
+			"imageAlt": "Lata de Pops Frambuesa 355ml"
+		},
+		"pops-kola-can-355ml": {
+			"name": "Pops Kola Lata",
+			"description": "Refresco Pops Kola en lata de 355 ml. Sabor kola clásico en presentación individual.",
+			"seoTitle": "Pops Kola Lata 355ml | A & S Distributors",
+			"seoDescription": "Refresco Pops Kola en lata 355ml. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Kola, lata de refresco, 355ml, bebidas al por mayor",
+			"imageAlt": "Lata de Pops Kola 355ml"
+		},
+		"pops-orange-can-355ml": {
+			"name": "Pops Naranja Lata",
+			"description": "Refresco Pops Naranja en lata de 355 ml. Burbujeante sabor cítrico en una lata individual.",
+			"seoTitle": "Pops Naranja Lata 355ml | A & S Distributors",
+			"seoDescription": "Refresco Pops Naranja en lata 355ml. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Naranja, lata de refresco, 355ml, bebidas al por mayor",
+			"imageAlt": "Lata de Pops Naranja 355ml"
+		},
+		"pops-pineapple-can-355ml": {
+			"name": "Pops Piña Lata",
+			"description": "Refresco Pops Piña en lata de 355 ml. Sabor tropical de piña en una lata conveniente.",
+			"seoTitle": "Pops Piña Lata 355ml | A & S Distributors",
+			"seoDescription": "Refresco Pops Piña en lata 355ml. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Piña, lata de refresco, 355ml, bebidas al por mayor",
+			"imageAlt": "Lata de Pops Piña 355ml"
+		},
+		"pops-lime-can-355ml": {
+			"name": "Pops Lima Lata",
+			"description": "Refresco Pops Lima en lata de 355 ml. Refrescante sabor a lima en una lata conveniente.",
+			"seoTitle": "Pops Lima Lata 355ml | A & S Distributors",
+			"seoDescription": "Refresco Pops Lima en lata 355ml. Precios al por mayor disponibles.",
+			"seoKeywords": "Pops Lima, lata de refresco, 355ml, bebidas al por mayor",
+			"imageAlt": "Lata de Pops Lima 355ml"
 		}
 	},
 	"contact": {

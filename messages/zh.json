@@ -720,29 +720,173 @@
 			"seoKeywords": "Sunquick热带, 水果浓缩液, 热带潘趣酒, 太平洋饮料",
 			"imageAlt": "Sunquick热带果汁浓缩液瓶装"
 		},
-		"cordial-raspberry": {
-			"name": "覆盆子利口糖浆",
-			"description": "清爽的覆盆子利口糖浆浓缩液，用于制作美味的覆盆子饮料。只需与水混合即可制成甜美水果味饮品。在太平洋岛屿各地家庭和聚会中的热门选择。",
-			"seoTitle": "覆盆子利口糖浆 | A & S Distributors",
-			"seoDescription": "覆盆子利口糖浆浓缩液。清爽水果饮品。提供批发价格。",
-			"seoKeywords": "覆盆子利口糖浆, 利口饮料, 水果饮品, 太平洋饮料",
-			"imageAlt": "覆盆子利口糖浆瓶装"
+		"nestle-smarties-50g": {
+			"name": "Nestlé Smarties",
+			"description": "彩色脆壳包裹的牛奶巧克力。经典又好分享，适合零售备货。",
+			"seoTitle": "Nestlé Smarties 50g | A & S Distributors",
+			"seoDescription": "Nestlé Smarties 50g。彩壳牛奶巧克力。提供批发价格。",
+			"seoKeywords": "Smarties, Nestlé巧克力, 彩壳巧克力, 批发糖果",
+			"imageAlt": "Nestlé Smarties包装"
 		},
-		"cordial-kola": {
-			"name": "可乐利口糖浆",
-			"description": "经典可乐味利口糖浆浓缩液，用于制作清爽的可乐风格饮料。与水混合即可获得甜美芳香的可乐坚果风味饮品。太平洋岛屿各地令人怀念的最爱。",
-			"seoTitle": "可乐利口糖浆 | A & S Distributors",
-			"seoDescription": "可乐利口糖浆浓缩液。经典可乐风味。提供批发价格。",
-			"seoKeywords": "可乐利口糖浆, 可乐饮料, 利口浓缩液, 太平洋饮料",
-			"imageAlt": "可乐利口糖浆瓶装"
+		"nestle-milkybar-classic-50g": {
+			"name": "Nestlé Milkybar Classic",
+			"description": "口感顺滑的经典白巧克力棒。适合日常零食与收银台陈列。",
+			"seoTitle": "Nestlé Milkybar Classic 50g | A & S Distributors",
+			"seoDescription": "Nestlé Milkybar Classic 50g。顺滑白巧克力。提供批发价格。",
+			"seoKeywords": "Milkybar, 白巧克力, Nestlé巧克力, 批发糖果",
+			"imageAlt": "Nestlé Milkybar Classic包装"
 		},
-		"cordial-lime": {
-			"name": "青柠利口糖浆",
-			"description": "酸爽的青柠利口糖浆浓缩液，用于制作清爽的青柠饮料。酸涩的柑橘风味非常适合炎热天气和热带聚会。只需与水混合即可获得即时青柠清爽饮品。",
-			"seoTitle": "青柠利口糖浆 | A & S Distributors",
-			"seoDescription": "青柠利口糖浆浓缩液。酸爽柑橘味。提供批发价格。",
-			"seoKeywords": "青柠利口糖浆, 青柠饮料, 柑橘饮品, 太平洋饮料",
-			"imageAlt": "青柠利口糖浆瓶装"
+		"nestle-kitkat-chunky-milo-44g": {
+			"name": "Nestlé KitKat Chunky Milo",
+			"description": "KitKat Chunky威化巧克力棒，加入Milo风味，麦芽香更浓、口感更酥脆。",
+			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 44g。Milo风味威化巧克力棒。提供批发价格。",
+			"seoKeywords": "KitKat Chunky, Milo, 威化巧克力, Nestlé, 批发糖果",
+			"imageAlt": "KitKat Chunky Milo巧克力棒"
+		},
+		"choki-choki-chocolate-paste-12g": {
+			"name": "Choki Choki 巧克力酱",
+			"description": "条状包装的顺滑巧克力酱，方便即食。常见于快速甜点和午餐盒零食。",
+			"seoTitle": "Choki Choki 巧克力酱 12g | A & S Distributors",
+			"seoDescription": "Choki Choki 12g条装巧克力酱。提供批发价格。",
+			"seoKeywords": "Choki Choki, 巧克力酱, 巧克力零食, 批发糖果",
+			"imageAlt": "Choki Choki巧克力酱条"
+		},
+		"jasons-black-hacks-150g": {
+			"name": "Jasons Black Hacks",
+			"description": "经典硬糖，带有浓郁的传统风味。适合零售糖果货架与分享。",
+			"seoTitle": "Jasons Black Hacks 150g | A & S Distributors",
+			"seoDescription": "Jasons Black Hacks 150g。经典硬糖。提供批发价格。",
+			"seoKeywords": "Jasons Black Hacks, 硬糖, 薄荷糖, 批发糖果",
+			"imageAlt": "Jasons Black Hacks糖袋"
+		},
+		"jasons-clear-mints-150g": {
+			"name": "Jasons Clear Mints",
+			"description": "清爽透明薄荷硬糖，口感干净清凉。适合糖果碗与收银台。",
+			"seoTitle": "Jasons Clear Mints 150g | A & S Distributors",
+			"seoDescription": "Jasons Clear Mints 150g。清爽薄荷糖。提供批发价格。",
+			"seoKeywords": "Jasons薄荷糖, 透明薄荷糖, 硬糖, 批发糖果",
+			"imageAlt": "Jasons Clear Mints糖袋"
+		},
+		"pops-kola-2-5l": {
+			"name": "Pops 可乐",
+			"description": "2.5升大瓶Pops可乐汽水，适合家庭聚会与活动分享。",
+			"seoTitle": "Pops 可乐 2.5L | A & S Distributors",
+			"seoDescription": "Pops 可乐汽水 2.5L 瓶装。提供批发价格。",
+			"seoKeywords": "Pops可乐, 汽水, 2.5L, 批发饮料",
+			"imageAlt": "Pops 可乐 2.5L 瓶装"
+		},
+		"pops-orange-2-5l": {
+			"name": "Pops 橙味",
+			"description": "2.5升大瓶Pops橙味汽水，清爽柑橘风味，适合派对与日常饮用。",
+			"seoTitle": "Pops 橙味 2.5L | A & S Distributors",
+			"seoDescription": "Pops 橙味汽水 2.5L 瓶装。提供批发价格。",
+			"seoKeywords": "Pops橙味, 橙味汽水, 2.5L, 批发饮料",
+			"imageAlt": "Pops 橙味 2.5L 瓶装"
+		},
+		"pops-lime-2-5l": {
+			"name": "Pops 青柠",
+			"description": "2.5升大瓶Pops青柠汽水，酸爽清新，适合炎热天气与聚会。",
+			"seoTitle": "Pops 青柠 2.5L | A & S Distributors",
+			"seoDescription": "Pops 青柠汽水 2.5L 瓶装。提供批发价格。",
+			"seoKeywords": "Pops青柠, 青柠汽水, 2.5L, 批发饮料",
+			"imageAlt": "Pops 青柠 2.5L 瓶装"
+		},
+		"pops-raspberry-2-5l": {
+			"name": "Pops 覆盆子",
+			"description": "2.5升大瓶Pops覆盆子汽水，甜美莓果风味，适合多人分享。",
+			"seoTitle": "Pops 覆盆子 2.5L | A & S Distributors",
+			"seoDescription": "Pops 覆盆子汽水 2.5L 瓶装。提供批发价格。",
+			"seoKeywords": "Pops覆盆子, 覆盆子汽水, 2.5L, 批发饮料",
+			"imageAlt": "Pops 覆盆子 2.5L 瓶装"
+		},
+		"pops-pineapple-2-5l": {
+			"name": "Pops 菠萝",
+			"description": "2.5升大瓶Pops菠萝汽水，热带菠萝风味，适合家庭餐与活动。",
+			"seoTitle": "Pops 菠萝 2.5L | A & S Distributors",
+			"seoDescription": "Pops 菠萝汽水 2.5L 瓶装。提供批发价格。",
+			"seoKeywords": "Pops菠萝, 菠萝汽水, 2.5L, 批发饮料",
+			"imageAlt": "Pops 菠萝 2.5L 瓶装"
+		},
+		"pops-cordial-kola-1l": {
+			"name": "Pops 利口糖浆 可乐味",
+			"description": "Pops可乐味利口糖浆浓缩液，1升瓶装。与水混合即可调制经典可乐风味饮品。",
+			"seoTitle": "Pops 可乐味利口糖浆 1L | A & S Distributors",
+			"seoDescription": "Pops 可乐味利口糖浆浓缩液 1L。提供批发价格。",
+			"seoKeywords": "Pops利口糖浆, 可乐味利口糖浆, 浓缩液, 1L, 批发饮料",
+			"imageAlt": "Pops 可乐味利口糖浆 1L 瓶装"
+		},
+		"pops-cordial-raspberry-1l": {
+			"name": "Pops 利口糖浆 覆盆子味",
+			"description": "Pops覆盆子味利口糖浆浓缩液，1升瓶装。与水混合即可调制甜美果味饮品。",
+			"seoTitle": "Pops 覆盆子味利口糖浆 1L | A & S Distributors",
+			"seoDescription": "Pops 覆盆子味利口糖浆浓缩液 1L。提供批发价格。",
+			"seoKeywords": "Pops利口糖浆, 覆盆子味利口糖浆, 浓缩液, 1L, 批发饮料",
+			"imageAlt": "Pops 覆盆子味利口糖浆 1L 瓶装"
+		},
+		"pops-cordial-orange-1l": {
+			"name": "Pops 利口糖浆 橙味",
+			"description": "Pops橙味利口糖浆浓缩液，1升瓶装。与水混合即可调制清爽柑橘饮品。",
+			"seoTitle": "Pops 橙味利口糖浆 1L | A & S Distributors",
+			"seoDescription": "Pops 橙味利口糖浆浓缩液 1L。提供批发价格。",
+			"seoKeywords": "Pops利口糖浆, 橙味利口糖浆, 浓缩液, 1L, 批发饮料",
+			"imageAlt": "Pops 橙味利口糖浆 1L 瓶装"
+		},
+		"pops-cordial-pineapple-1l": {
+			"name": "Pops 利口糖浆 菠萝味",
+			"description": "Pops菠萝味利口糖浆浓缩液，1升瓶装。与水混合即可调制热带菠萝饮品。",
+			"seoTitle": "Pops 菠萝味利口糖浆 1L | A & S Distributors",
+			"seoDescription": "Pops 菠萝味利口糖浆浓缩液 1L。提供批发价格。",
+			"seoKeywords": "Pops利口糖浆, 菠萝味利口糖浆, 浓缩液, 1L, 批发饮料",
+			"imageAlt": "Pops 菠萝味利口糖浆 1L 瓶装"
+		},
+		"pops-cordial-lime-1l": {
+			"name": "Pops 利口糖浆 青柠味",
+			"description": "Pops青柠味利口糖浆浓缩液，1升瓶装。与水混合即可调制酸爽清新的饮品。",
+			"seoTitle": "Pops 青柠味利口糖浆 1L | A & S Distributors",
+			"seoDescription": "Pops 青柠味利口糖浆浓缩液 1L。提供批发价格。",
+			"seoKeywords": "Pops利口糖浆, 青柠味利口糖浆, 浓缩液, 1L, 批发饮料",
+			"imageAlt": "Pops 青柠味利口糖浆 1L 瓶装"
+		},
+		"pops-raspberry-can-355ml": {
+			"name": "Pops 覆盆子 汽水罐",
+			"description": "355毫升罐装Pops覆盆子汽水，冰爽易携带，适合随时随地饮用。",
+			"seoTitle": "Pops 覆盆子 罐装 355ml | A & S Distributors",
+			"seoDescription": "Pops 覆盆子汽水罐装 355ml。提供批发价格。",
+			"seoKeywords": "Pops覆盆子, 汽水罐, 355ml, 批发饮料",
+			"imageAlt": "Pops 覆盆子 355ml 罐装"
+		},
+		"pops-kola-can-355ml": {
+			"name": "Pops 可乐 汽水罐",
+			"description": "355毫升罐装Pops可乐汽水，经典可乐风味，单罐即饮更方便。",
+			"seoTitle": "Pops 可乐 罐装 355ml | A & S Distributors",
+			"seoDescription": "Pops 可乐汽水罐装 355ml。提供批发价格。",
+			"seoKeywords": "Pops可乐, 汽水罐, 355ml, 批发饮料",
+			"imageAlt": "Pops 可乐 355ml 罐装"
+		},
+		"pops-orange-can-355ml": {
+			"name": "Pops 橙味 汽水罐",
+			"description": "355毫升罐装Pops橙味汽水，清爽柑橘气泡，方便即饮。",
+			"seoTitle": "Pops 橙味 罐装 355ml | A & S Distributors",
+			"seoDescription": "Pops 橙味汽水罐装 355ml。提供批发价格。",
+			"seoKeywords": "Pops橙味, 汽水罐, 355ml, 批发饮料",
+			"imageAlt": "Pops 橙味 355ml 罐装"
+		},
+		"pops-pineapple-can-355ml": {
+			"name": "Pops 菠萝 汽水罐",
+			"description": "355毫升罐装Pops菠萝汽水，热带菠萝风味，随手即饮。",
+			"seoTitle": "Pops 菠萝 罐装 355ml | A & S Distributors",
+			"seoDescription": "Pops 菠萝汽水罐装 355ml。提供批发价格。",
+			"seoKeywords": "Pops菠萝, 汽水罐, 355ml, 批发饮料",
+			"imageAlt": "Pops 菠萝 355ml 罐装"
+		},
+		"pops-lime-can-355ml": {
+			"name": "Pops 青柠 汽水罐",
+			"description": "355毫升罐装Pops青柠汽水，酸爽清新，方便携带即饮。",
+			"seoTitle": "Pops 青柠 罐装 355ml | A & S Distributors",
+			"seoDescription": "Pops 青柠汽水罐装 355ml。提供批发价格。",
+			"seoKeywords": "Pops青柠, 汽水罐, 355ml, 批发饮料",
+			"imageAlt": "Pops 青柠 355ml 罐装"
 		},
 		"monte-carlo": {
 			"name": "Arnott's 蒙特卡洛饼干",

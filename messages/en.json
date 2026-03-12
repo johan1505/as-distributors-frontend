@@ -1784,29 +1784,173 @@
 			"seoKeywords": "Sunquick tropical, fruit concentrate, tropical punch, Pacific beverage",
 			"imageAlt": "Bottle of Sunquick Tropical Juice Concentrate"
 		},
-		"cordial-raspberry": {
-			"name": "Cordial Raspberry",
-			"description": "Refreshing raspberry cordial concentrate for making delicious raspberry drinks. Simply mix with water for a sweet, fruity beverage. A popular choice for families and gatherings throughout the Pacific Islands.",
-			"seoTitle": "Cordial Raspberry Drink | A & S Distributors",
-			"seoDescription": "Raspberry cordial concentrate. Refreshing fruity beverage. Wholesale pricing available.",
-			"seoKeywords": "raspberry cordial, cordial drink, fruit beverage, Pacific drinks",
-			"imageAlt": "Bottle of Cordial Raspberry"
+		"nestle-smarties-50g": {
+			"name": "Nestlé Smarties",
+			"description": "Milk chocolate in a crisp candy shell. A colorful classic that's easy to share or stock for retail.",
+			"seoTitle": "Nestlé Smarties 50g | A & S Distributors",
+			"seoDescription": "Nestlé Smarties 50g. Milk chocolate in a crisp shell. Wholesale pricing available.",
+			"seoKeywords": "Smarties, Nestlé chocolate, candy coated chocolate, wholesale candy",
+			"imageAlt": "Nestlé Smarties pack"
 		},
-		"cordial-kola": {
-			"name": "Cordial Kola",
-			"description": "Classic kola-flavored cordial concentrate for making refreshing cola-style drinks. Mix with water for a sweet, aromatic beverage with distinctive kola nut flavor. A nostalgic favorite across the Pacific Islands.",
-			"seoTitle": "Cordial Kola Drink | A & S Distributors",
-			"seoDescription": "Kola cordial concentrate. Classic cola-style flavor. Wholesale pricing available.",
-			"seoKeywords": "kola cordial, cola drink, cordial concentrate, Pacific beverages",
-			"imageAlt": "Bottle of Cordial Kola"
+		"nestle-milkybar-classic-50g": {
+			"name": "Nestlé Milkybar Classic",
+			"description": "Creamy white chocolate bar with a smooth, classic taste. Great for everyday treats and checkout displays.",
+			"seoTitle": "Nestlé Milkybar Classic 50g | A & S Distributors",
+			"seoDescription": "Nestlé Milkybar Classic 50g. Creamy white chocolate. Wholesale pricing available.",
+			"seoKeywords": "Milkybar, white chocolate, Nestlé chocolate, wholesale candy",
+			"imageAlt": "Nestlé Milkybar Classic pack"
 		},
-		"cordial-lime": {
-			"name": "Cordial Lime",
-			"description": "Zesty lime cordial concentrate for making refreshing lime drinks. The tart, citrusy flavor is perfect for hot days and tropical gatherings. Simply mix with water for instant lime refreshment.",
-			"seoTitle": "Cordial Lime Drink | A & S Distributors",
-			"seoDescription": "Lime cordial concentrate. Zesty and refreshing. Wholesale pricing available.",
-			"seoKeywords": "lime cordial, lime drink, citrus beverage, Pacific drinks",
-			"imageAlt": "Bottle of Cordial Lime"
+		"nestle-kitkat-chunky-milo-44g": {
+			"name": "Nestlé KitKat Chunky Milo",
+			"description": "A chunky KitKat wafer bar with Milo flavor for an extra malty chocolate crunch.",
+			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 44g. Wafer bar with Milo flavor. Wholesale pricing available.",
+			"seoKeywords": "KitKat Chunky, Milo, wafer bar, Nestlé chocolate, wholesale candy",
+			"imageAlt": "KitKat Chunky Milo bar"
+		},
+		"choki-choki-chocolate-paste-12g": {
+			"name": "Choki Choki Chocolate Paste",
+			"description": "Smooth chocolate paste in a convenient stick—popular as a quick sweet snack or lunchbox treat.",
+			"seoTitle": "Choki Choki Chocolate Paste 12g | A & S Distributors",
+			"seoDescription": "Choki Choki chocolate paste 12g stick. Wholesale pricing available.",
+			"seoKeywords": "Choki Choki, chocolate paste, chocolate snack, wholesale candy",
+			"imageAlt": "Choki Choki chocolate paste stick"
+		},
+		"jasons-black-hacks-150g": {
+			"name": "Jasons Black Hacks",
+			"description": "Classic hard candy with a bold, traditional flavor. A popular pick for retail candy shelves.",
+			"seoTitle": "Jasons Black Hacks 150g | A & S Distributors",
+			"seoDescription": "Jasons Black Hacks 150g. Classic hard candy. Wholesale pricing available.",
+			"seoKeywords": "Jasons Black Hacks, hard candy, mints, wholesale candy",
+			"imageAlt": "Bag of Jasons Black Hacks"
+		},
+		"jasons-clear-mints-150g": {
+			"name": "Jasons Clear Mints",
+			"description": "Refreshing clear mints with a clean, cool taste—great for sharing, bowls, and checkout counters.",
+			"seoTitle": "Jasons Clear Mints 150g | A & S Distributors",
+			"seoDescription": "Jasons Clear Mints 150g. Refreshing mints. Wholesale pricing available.",
+			"seoKeywords": "Jasons mints, clear mints, hard candy, wholesale candy",
+			"imageAlt": "Bag of Jasons Clear Mints"
+		},
+		"pops-kola-2-5l": {
+			"name": "Pops Kola",
+			"description": "Pops Kola soft drink in a 2.5 litre bottle—big, refreshing, and perfect for family gatherings and events.",
+			"seoTitle": "Pops Kola 2.5L | A & S Distributors",
+			"seoDescription": "Pops Kola soft drink 2.5L bottle. Wholesale pricing available.",
+			"seoKeywords": "Pops Kola, soft drink, 2.5L, wholesale beverages",
+			"imageAlt": "Pops Kola 2.5L bottle"
+		},
+		"pops-orange-2-5l": {
+			"name": "Pops Orange",
+			"description": "Pops Orange soft drink in a 2.5 litre bottle—bright citrus flavor for parties and everyday refreshment.",
+			"seoTitle": "Pops Orange 2.5L | A & S Distributors",
+			"seoDescription": "Pops Orange soft drink 2.5L bottle. Wholesale pricing available.",
+			"seoKeywords": "Pops Orange, orange soda, 2.5L, wholesale beverages",
+			"imageAlt": "Pops Orange 2.5L bottle"
+		},
+		"pops-lime-2-5l": {
+			"name": "Pops Lime",
+			"description": "Pops Lime soft drink in a 2.5 litre bottle—zesty lime flavor for hot days and get-togethers.",
+			"seoTitle": "Pops Lime 2.5L | A & S Distributors",
+			"seoDescription": "Pops Lime soft drink 2.5L bottle. Wholesale pricing available.",
+			"seoKeywords": "Pops Lime, lime soda, 2.5L, wholesale beverages",
+			"imageAlt": "Pops Lime 2.5L bottle"
+		},
+		"pops-raspberry-2-5l": {
+			"name": "Pops Raspberry",
+			"description": "Pops Raspberry soft drink in a 2.5 litre bottle—sweet berry flavor made for sharing.",
+			"seoTitle": "Pops Raspberry 2.5L | A & S Distributors",
+			"seoDescription": "Pops Raspberry soft drink 2.5L bottle. Wholesale pricing available.",
+			"seoKeywords": "Pops Raspberry, raspberry soda, 2.5L, wholesale beverages",
+			"imageAlt": "Pops Raspberry 2.5L bottle"
+		},
+		"pops-pineapple-2-5l": {
+			"name": "Pops Pineapple",
+			"description": "Pops Pineapple soft drink in a 2.5 litre bottle—tropical pineapple flavor for family meals and events.",
+			"seoTitle": "Pops Pineapple 2.5L | A & S Distributors",
+			"seoDescription": "Pops Pineapple soft drink 2.5L bottle. Wholesale pricing available.",
+			"seoKeywords": "Pops Pineapple, pineapple soda, 2.5L, wholesale beverages",
+			"imageAlt": "Pops Pineapple 2.5L bottle"
+		},
+		"pops-cordial-kola-1l": {
+			"name": "Pops Cordial Kola",
+			"description": "Pops cordial concentrate, kola flavor. Mix with water for a classic cola-style drink in a convenient 1 litre bottle.",
+			"seoTitle": "Pops Cordial Kola 1L | A & S Distributors",
+			"seoDescription": "Pops cordial concentrate, kola flavor, 1L. Wholesale pricing available.",
+			"seoKeywords": "Pops cordial, kola cordial, cordial concentrate, 1L, wholesale drinks",
+			"imageAlt": "Pops Cordial Kola 1L bottle"
+		},
+		"pops-cordial-raspberry-1l": {
+			"name": "Pops Cordial Raspberry",
+			"description": "Pops cordial concentrate, raspberry flavor. Mix with water for a sweet, fruity drink in a 1 litre bottle.",
+			"seoTitle": "Pops Cordial Raspberry 1L | A & S Distributors",
+			"seoDescription": "Pops cordial concentrate, raspberry flavor, 1L. Wholesale pricing available.",
+			"seoKeywords": "Pops cordial, raspberry cordial, cordial concentrate, 1L, wholesale drinks",
+			"imageAlt": "Pops Cordial Raspberry 1L bottle"
+		},
+		"pops-cordial-orange-1l": {
+			"name": "Pops Cordial Orange",
+			"description": "Pops cordial concentrate, orange flavor. Mix with water for a bright citrus drink in a convenient 1 litre bottle.",
+			"seoTitle": "Pops Cordial Orange 1L | A & S Distributors",
+			"seoDescription": "Pops cordial concentrate, orange flavor, 1L. Wholesale pricing available.",
+			"seoKeywords": "Pops cordial, orange cordial, cordial concentrate, 1L, wholesale drinks",
+			"imageAlt": "Pops Cordial Orange 1L bottle"
+		},
+		"pops-cordial-pineapple-1l": {
+			"name": "Pops Cordial Pineapple",
+			"description": "Pops cordial concentrate, pineapple flavor. Mix with water for a tropical pineapple drink in a 1 litre bottle.",
+			"seoTitle": "Pops Cordial Pineapple 1L | A & S Distributors",
+			"seoDescription": "Pops cordial concentrate, pineapple flavor, 1L. Wholesale pricing available.",
+			"seoKeywords": "Pops cordial, pineapple cordial, cordial concentrate, 1L, wholesale drinks",
+			"imageAlt": "Pops Cordial Pineapple 1L bottle"
+		},
+		"pops-cordial-lime-1l": {
+			"name": "Pops Cordial Lime",
+			"description": "Pops cordial concentrate, lime flavor. Mix with water for a zesty, refreshing drink in a 1 litre bottle.",
+			"seoTitle": "Pops Cordial Lime 1L | A & S Distributors",
+			"seoDescription": "Pops cordial concentrate, lime flavor, 1L. Wholesale pricing available.",
+			"seoKeywords": "Pops cordial, lime cordial, cordial concentrate, 1L, wholesale drinks",
+			"imageAlt": "Pops Cordial Lime 1L bottle"
+		},
+		"pops-raspberry-can-355ml": {
+			"name": "Pops Raspberry Can",
+			"description": "Pops Raspberry soft drink in a 355 ml can—cold, crisp, and easy to grab on the go.",
+			"seoTitle": "Pops Raspberry Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Raspberry soft drink can 355ml. Wholesale pricing available.",
+			"seoKeywords": "Pops Raspberry, soda can, 355ml, wholesale beverages",
+			"imageAlt": "Pops Raspberry 355ml can"
+		},
+		"pops-kola-can-355ml": {
+			"name": "Pops Kola Can",
+			"description": "Pops Kola soft drink in a 355 ml can—classic kola taste in a convenient single-serve can.",
+			"seoTitle": "Pops Kola Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Kola soft drink can 355ml. Wholesale pricing available.",
+			"seoKeywords": "Pops Kola, soda can, 355ml, wholesale beverages",
+			"imageAlt": "Pops Kola 355ml can"
+		},
+		"pops-orange-can-355ml": {
+			"name": "Pops Orange Can",
+			"description": "Pops Orange soft drink in a 355 ml can—bright citrus fizz in a single-serve can.",
+			"seoTitle": "Pops Orange Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Orange soft drink can 355ml. Wholesale pricing available.",
+			"seoKeywords": "Pops Orange, soda can, 355ml, wholesale beverages",
+			"imageAlt": "Pops Orange 355ml can"
+		},
+		"pops-pineapple-can-355ml": {
+			"name": "Pops Pineapple Can",
+			"description": "Pops Pineapple soft drink in a 355 ml can—tropical pineapple flavor in a convenient can.",
+			"seoTitle": "Pops Pineapple Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Pineapple soft drink can 355ml. Wholesale pricing available.",
+			"seoKeywords": "Pops Pineapple, soda can, 355ml, wholesale beverages",
+			"imageAlt": "Pops Pineapple 355ml can"
+		},
+		"pops-lime-can-355ml": {
+			"name": "Pops Lime Can",
+			"description": "Pops Lime soft drink in a 355 ml can—zesty lime refreshment in a convenient can.",
+			"seoTitle": "Pops Lime Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Lime soft drink can 355ml. Wholesale pricing available.",
+			"seoKeywords": "Pops Lime, soda can, 355ml, wholesale beverages",
+			"imageAlt": "Pops Lime 355ml can"
 		}
 	},
 	"contact": {

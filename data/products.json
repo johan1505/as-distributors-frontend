@@ -1504,26 +1504,170 @@
 		"featured": false
 	},
 	{
-		"slug": "cordial-raspberry",
-		"itemNumber": "606",
-		"unitPerPack": 12,
-		"overallSize": "1 ltr",
+		"slug": "nestle-smarties-50g",
+		"itemNumber": "CH018",
+		"unitPerPack": 24,
+		"overallSize": "50 g",
+		"categoryKey": "candies",
+		"featured": false
+	},
+	{
+		"slug": "nestle-milkybar-classic-50g",
+		"itemNumber": "CH020",
+		"unitPerPack": 36,
+		"overallSize": "50 g",
+		"categoryKey": "candies",
+		"featured": false
+	},
+	{
+		"slug": "nestle-kitkat-chunky-milo-44g",
+		"itemNumber": "CH024",
+		"unitPerPack": 36,
+		"overallSize": "44 g",
+		"categoryKey": "candies",
+		"featured": false
+	},
+	{
+		"slug": "choki-choki-chocolate-paste-12g",
+		"itemNumber": "CH043",
+		"unitPerPack": 100,
+		"overallSize": "12 g",
+		"categoryKey": "candies",
+		"featured": false
+	},
+	{
+		"slug": "jasons-black-hacks-150g",
+		"itemNumber": "SN018",
+		"unitPerPack": 25,
+		"overallSize": "150 g",
+		"categoryKey": "candies",
+		"featured": false
+	},
+	{
+		"slug": "jasons-clear-mints-150g",
+		"itemNumber": "SN019",
+		"unitPerPack": 25,
+		"overallSize": "150 g",
+		"categoryKey": "candies",
+		"featured": false
+	},
+	{
+		"slug": "pops-kola-2-5l",
+		"itemNumber": "JU002",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
 		"categoryKey": "drinks",
 		"featured": false
 	},
 	{
-		"slug": "cordial-kola",
-		"itemNumber": "608",
-		"unitPerPack": 12,
-		"overallSize": "1 ltr",
+		"slug": "pops-orange-2-5l",
+		"itemNumber": "JU003",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
 		"categoryKey": "drinks",
 		"featured": false
 	},
 	{
-		"slug": "cordial-lime",
-		"itemNumber": "609",
+		"slug": "pops-lime-2-5l",
+		"itemNumber": "JU004",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-raspberry-2-5l",
+		"itemNumber": "JU005",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-pineapple-2-5l",
+		"itemNumber": "JU016",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-kola-1l",
+		"itemNumber": "JU011",
 		"unitPerPack": 12,
-		"overallSize": "1 ltr",
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-raspberry-1l",
+		"itemNumber": "JU012",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-orange-1l",
+		"itemNumber": "JU013",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-pineapple-1l",
+		"itemNumber": "JU014",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-lime-1l",
+		"itemNumber": "JU015",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-raspberry-can-355ml",
+		"itemNumber": "JU006",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-kola-can-355ml",
+		"itemNumber": "JU007",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-orange-can-355ml",
+		"itemNumber": "JU008",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-pineapple-can-355ml",
+		"itemNumber": "JU009",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-lime-can-355ml",
+		"itemNumber": "JU010",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
 		"categoryKey": "drinks",
 		"featured": false
 	}

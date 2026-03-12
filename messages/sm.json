@@ -1784,29 +1784,173 @@
 			"seoKeywords": "Noni sua, Fiti Noni, Bula, soifua maloloina masani, mea inu motu Pasefika",
 			"imageAlt": "Fagu o Bula Noni Fiji Islands"
 		},
-		"cordial-raspberry": {
-			"name": "Cordial Raspberry",
-			"description": "Cordial raspberry fa'afefiloi mo le faia o meainu raspberry manogi. Na'o le fa'afefiloi ma vai mo se meainu suamalie, fua. O se filifiliga ta'uta'ua mo aiga ma fa'atasiga i le Pasefika atoa.",
-			"seoTitle": "Cordial Raspberry Meainu | A & S Distributors",
-			"seoDescription": "Cordial raspberry fa'afefiloi. Meainu fua fa'afouina. Tau fa'atau tele e maua.",
-			"seoKeywords": "cordial raspberry, meainu cordial, meainu fua, meainu Pasefika",
-			"imageAlt": "Fagu o Cordial Raspberry"
+		"nestle-smarties-50g": {
+			"name": "Nestlé Smarties",
+			"description": "Sukalati susu i totonu o se atigi lole mālōlō. O se lole lanu felanulanua'i e lelei mo le fa'asoa ma fa'atau atu.",
+			"seoTitle": "Nestlé Smarties 50g | A & S Distributors",
+			"seoDescription": "Nestlé Smarties 50g. Sukalati susu ma atigi mālōlō. Tau fa'atau tele e maua.",
+			"seoKeywords": "Smarties, sukalati Nestlé, lole sukalati, lole fa'atau tele",
+			"imageAlt": "Afifi o Nestlé Smarties"
 		},
-		"cordial-kola": {
-			"name": "Cordial Kola",
-			"description": "Cordial kola masani fa'afefiloi mo le faia o meainu cola fa'afouina. Fa'afefiloi ma vai mo se meainu suamalie, manogi ma le manogi kola nut tu'uese. O se mea fiafia masani i le Pasefika atoa.",
-			"seoTitle": "Cordial Kola Meainu | A & S Distributors",
-			"seoDescription": "Cordial kola fa'afefiloi. Manogi cola masani. Tau fa'atau tele e maua.",
-			"seoKeywords": "cordial kola, meainu cola, cordial fa'afefiloi, meainu Pasefika",
-			"imageAlt": "Fagu o Cordial Kola"
+		"nestle-milkybar-classic-50g": {
+			"name": "Nestlé Milkybar Classic",
+			"description": "Pa sukalati pa'epa'e kilimi ma le tofo malu. Lelei mo mea suamalie i aso uma ma fa'aaliga i faleoloa.",
+			"seoTitle": "Nestlé Milkybar Classic 50g | A & S Distributors",
+			"seoDescription": "Nestlé Milkybar Classic 50g. Sukalati pa'epa'e kilimi. Tau fa'atau tele e maua.",
+			"seoKeywords": "Milkybar, sukalati pa'epa'e, Nestlé, lole fa'atau tele",
+			"imageAlt": "Afifi o Nestlé Milkybar Classic"
 		},
-		"cordial-lime": {
-			"name": "Cordial Lime",
-			"description": "Cordial lime fa'afefiloi mo le faia o meainu lime fa'afouina. O le manogi kiki, sitrus e lelei mo aso vevela ma fa'atasiga tropical. Na'o le fa'afefiloi ma vai mo le fa'afouina lime vave.",
-			"seoTitle": "Cordial Lime Meainu | A & S Distributors",
-			"seoDescription": "Cordial lime fa'afefiloi. Kiki ma fa'afouina. Tau fa'atau tele e maua.",
-			"seoKeywords": "cordial lime, meainu lime, meainu sitrus, meainu Pasefika",
-			"imageAlt": "Fagu o Cordial Lime"
+		"nestle-kitkat-chunky-milo-44g": {
+			"name": "Nestlé KitKat Chunky Milo",
+			"description": "KitKat Chunky wafer bar ma le manogi Milo mo se mālōlō sukalati ma le tofo malt.",
+			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 44g. Wafer bar ma le manogi Milo. Tau fa'atau tele e maua.",
+			"seoKeywords": "KitKat Chunky, Milo, wafer bar, sukalati Nestlé, lole fa'atau tele",
+			"imageAlt": "KitKat Chunky Milo pa"
+		},
+		"choki-choki-chocolate-paste-12g": {
+			"name": "Choki Choki Chocolate Paste",
+			"description": "Sukalati paste malu i totonu o se stick faigofie. Ta'uta'ua mo se mea suamalie vave po'o se mea mo pusa a'oga.",
+			"seoTitle": "Choki Choki Chocolate Paste 12g | A & S Distributors",
+			"seoDescription": "Choki Choki sukalati paste stick 12g. Tau fa'atau tele e maua.",
+			"seoKeywords": "Choki Choki, sukalati paste, mea suamalie, lole fa'atau tele",
+			"imageAlt": "Choki Choki sukalati paste stick"
+		},
+		"jasons-black-hacks-150g": {
+			"name": "Jasons Black Hacks",
+			"description": "Lole mālōlō masani ma le tofo malosi tuai. O se filifiliga ta'uta'ua mo fata lole i faleoloa.",
+			"seoTitle": "Jasons Black Hacks 150g | A & S Distributors",
+			"seoDescription": "Jasons Black Hacks 150g. Lole mālōlō masani. Tau fa'atau tele e maua.",
+			"seoKeywords": "Jasons Black Hacks, lole mālōlō, mints, lole fa'atau tele",
+			"imageAlt": "Pusa o Jasons Black Hacks"
+		},
+		"jasons-clear-mints-150g": {
+			"name": "Jasons Clear Mints",
+			"description": "Clear mints fa'afouina ma le tofo mālūlū. Lelei mo le fa'asoa ma fata i le 'checkout'.",
+			"seoTitle": "Jasons Clear Mints 150g | A & S Distributors",
+			"seoDescription": "Jasons Clear Mints 150g. Mints fa'afouina. Tau fa'atau tele e maua.",
+			"seoKeywords": "Jasons mints, clear mints, lole mālōlō, lole fa'atau tele",
+			"imageAlt": "Pusa o Jasons Clear Mints"
+		},
+		"pops-kola-2-5l": {
+			"name": "Pops Kola",
+			"description": "Pops Kola meainu mālōlō i se fagu 2.5 litre—tele ma fa'afouina mo aiga ma fa'atasiga.",
+			"seoTitle": "Pops Kola 2.5L | A & S Distributors",
+			"seoDescription": "Pops Kola meainu mālōlō fagu 2.5L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Kola, meainu mālōlō, 2.5L, meainu fa'atau tele",
+			"imageAlt": "Pops Kola 2.5L fagu"
+		},
+		"pops-orange-2-5l": {
+			"name": "Pops Orange",
+			"description": "Pops Orange meainu mālōlō i se fagu 2.5 litre—manogi sitrus mo pati ma fa'afouga i aso uma.",
+			"seoTitle": "Pops Orange 2.5L | A & S Distributors",
+			"seoDescription": "Pops Orange meainu mālōlō fagu 2.5L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Orange, orange soda, 2.5L, meainu fa'atau tele",
+			"imageAlt": "Pops Orange 2.5L fagu"
+		},
+		"pops-lime-2-5l": {
+			"name": "Pops Lime",
+			"description": "Pops Lime meainu mālōlō i se fagu 2.5 litre—kiki lime lelei mo aso vevela ma fa'atasiga.",
+			"seoTitle": "Pops Lime 2.5L | A & S Distributors",
+			"seoDescription": "Pops Lime meainu mālōlō fagu 2.5L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Lime, lime soda, 2.5L, meainu fa'atau tele",
+			"imageAlt": "Pops Lime 2.5L fagu"
+		},
+		"pops-raspberry-2-5l": {
+			"name": "Pops Raspberry",
+			"description": "Pops Raspberry meainu mālōlō i se fagu 2.5 litre—manogi fua suamalie mo le fa'asoa.",
+			"seoTitle": "Pops Raspberry 2.5L | A & S Distributors",
+			"seoDescription": "Pops Raspberry meainu mālōlō fagu 2.5L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Raspberry, raspberry soda, 2.5L, meainu fa'atau tele",
+			"imageAlt": "Pops Raspberry 2.5L fagu"
+		},
+		"pops-pineapple-2-5l": {
+			"name": "Pops Pineapple",
+			"description": "Pops Pineapple meainu mālōlō i se fagu 2.5 litre—manogi pineapple tropical mo aiga ma fa'amoemoe.",
+			"seoTitle": "Pops Pineapple 2.5L | A & S Distributors",
+			"seoDescription": "Pops Pineapple meainu mālōlō fagu 2.5L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Pineapple, pineapple soda, 2.5L, meainu fa'atau tele",
+			"imageAlt": "Pops Pineapple 2.5L fagu"
+		},
+		"pops-cordial-kola-1l": {
+			"name": "Pops Cordial Kola",
+			"description": "Pops cordial fa'afefiloi, manogi kola. Fa'afefiloi ma vai mo se meainu cola-style i se fagu 1 litre.",
+			"seoTitle": "Pops Cordial Kola 1L | A & S Distributors",
+			"seoDescription": "Pops cordial fa'afefiloi, kola, 1L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops cordial, cordial kola, fa'afefiloi cordial, 1L, meainu fa'atau tele",
+			"imageAlt": "Pops Cordial Kola 1L fagu"
+		},
+		"pops-cordial-raspberry-1l": {
+			"name": "Pops Cordial Raspberry",
+			"description": "Pops cordial fa'afefiloi, manogi raspberry. Fa'afefiloi ma vai mo se meainu fua suamalie i se fagu 1 litre.",
+			"seoTitle": "Pops Cordial Raspberry 1L | A & S Distributors",
+			"seoDescription": "Pops cordial fa'afefiloi, raspberry, 1L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops cordial, cordial raspberry, fa'afefiloi cordial, 1L, meainu fa'atau tele",
+			"imageAlt": "Pops Cordial Raspberry 1L fagu"
+		},
+		"pops-cordial-orange-1l": {
+			"name": "Pops Cordial Orange",
+			"description": "Pops cordial fa'afefiloi, manogi orange. Fa'afefiloi ma vai mo se meainu sitrus i se fagu 1 litre.",
+			"seoTitle": "Pops Cordial Orange 1L | A & S Distributors",
+			"seoDescription": "Pops cordial fa'afefiloi, orange, 1L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops cordial, cordial orange, fa'afefiloi cordial, 1L, meainu fa'atau tele",
+			"imageAlt": "Pops Cordial Orange 1L fagu"
+		},
+		"pops-cordial-pineapple-1l": {
+			"name": "Pops Cordial Pineapple",
+			"description": "Pops cordial fa'afefiloi, manogi pineapple. Fa'afefiloi ma vai mo se meainu pineapple tropical i se fagu 1 litre.",
+			"seoTitle": "Pops Cordial Pineapple 1L | A & S Distributors",
+			"seoDescription": "Pops cordial fa'afefiloi, pineapple, 1L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops cordial, cordial pineapple, fa'afefiloi cordial, 1L, meainu fa'atau tele",
+			"imageAlt": "Pops Cordial Pineapple 1L fagu"
+		},
+		"pops-cordial-lime-1l": {
+			"name": "Pops Cordial Lime",
+			"description": "Pops cordial fa'afefiloi, manogi lime. Fa'afefiloi ma vai mo se meainu lime kiki i se fagu 1 litre.",
+			"seoTitle": "Pops Cordial Lime 1L | A & S Distributors",
+			"seoDescription": "Pops cordial fa'afefiloi, lime, 1L. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops cordial, cordial lime, fa'afefiloi cordial, 1L, meainu fa'atau tele",
+			"imageAlt": "Pops Cordial Lime 1L fagu"
+		},
+		"pops-raspberry-can-355ml": {
+			"name": "Pops Raspberry Can",
+			"description": "Pops Raspberry meainu mālōlō i se apa 355 ml—faigofie ona ave i fafo ma inu mālūlū.",
+			"seoTitle": "Pops Raspberry Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Raspberry apa 355ml. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Raspberry, apa soda, 355ml, meainu fa'atau tele",
+			"imageAlt": "Pops Raspberry 355ml apa"
+		},
+		"pops-kola-can-355ml": {
+			"name": "Pops Kola Can",
+			"description": "Pops Kola meainu mālōlō i se apa 355 ml—kola masani i se apa tasi-serve.",
+			"seoTitle": "Pops Kola Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Kola apa 355ml. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Kola, apa soda, 355ml, meainu fa'atau tele",
+			"imageAlt": "Pops Kola 355ml apa"
+		},
+		"pops-orange-can-355ml": {
+			"name": "Pops Orange Can",
+			"description": "Pops Orange meainu mālōlō i se apa 355 ml—sitrus mālōlō i se apa faigofie.",
+			"seoTitle": "Pops Orange Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Orange apa 355ml. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Orange, apa soda, 355ml, meainu fa'atau tele",
+			"imageAlt": "Pops Orange 355ml apa"
+		},
+		"pops-pineapple-can-355ml": {
+			"name": "Pops Pineapple Can",
+			"description": "Pops Pineapple meainu mālōlō i se apa 355 ml—manogi pineapple tropical i se apa faigofie.",
+			"seoTitle": "Pops Pineapple Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Pineapple apa 355ml. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Pineapple, apa soda, 355ml, meainu fa'atau tele",
+			"imageAlt": "Pops Pineapple 355ml apa"
+		},
+		"pops-lime-can-355ml": {
+			"name": "Pops Lime Can",
+			"description": "Pops Lime meainu mālōlō i se apa 355 ml—lime kiki fa'afouina i se apa faigofie.",
+			"seoTitle": "Pops Lime Can 355ml | A & S Distributors",
+			"seoDescription": "Pops Lime apa 355ml. Tau fa'atau tele e maua.",
+			"seoKeywords": "Pops Lime, apa soda, 355ml, meainu fa'atau tele",
+			"imageAlt": "Pops Lime 355ml apa"
 		}
 	},
 	"contact": {
