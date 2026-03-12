@@ -22,6 +22,6 @@ export const CONTACT = {
 };
 
 export const SALES_EMAIL = {
-	PRIMARY: 'aandsdistributors209@gmail.com',
+	PRIMARY: 'asdistributors209@gmail.com',
 	ALTERNATE: 'judy.asdistributors@gmail.com',
 } as const;
