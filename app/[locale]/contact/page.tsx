@@ -100,7 +100,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 								<div className="space-y-1">
 									<a
 										href={`tel:${phoneNumber}`}
-										className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-ocean transition-colors"
+										className="group flex items-center gap-2 text-sm text-foreground hover:text-ocean transition-colors"
 										aria-label={t('phone.ariaLabel', { phone: phoneNumber })}
 									>
 										<span className="text-xs uppercase tracking-[0.12em] text-muted-foreground">
@@ -110,7 +110,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 									</a>
 									<a
 										href={`tel:${CONTACT.ALTERNATE_TELEPHONE}`}
-										className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-ocean transition-colors"
+										className="group flex items-center gap-2 text-sm text-foreground hover:text-ocean transition-colors"
 										aria-label={t('phone.ariaLabel', { phone: CONTACT.ALTERNATE_TELEPHONE })}
 									>
 										<span className="text-xs uppercase tracking-[0.12em] text-muted-foreground">
@@ -136,7 +136,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 								<div className="space-y-1">
 									<a
 										href={`mailto:${primaryEmail}`}
-										className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-ocean transition-colors"
+										className="group flex items-center gap-2 text-sm text-foreground hover:text-ocean transition-colors"
 										aria-label={t('email.ariaLabel', { email: primaryEmail })}
 									>
 										<span className="text-xs uppercase tracking-[0.12em] text-muted-foreground">
@@ -146,7 +146,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 									</a>
 									<a
 										href={`mailto:${alternateEmail}`}
-										className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-ocean transition-colors"
+										className="group flex items-center gap-2 text-sm text-foreground hover:text-ocean transition-colors"
 										aria-label={t('email.ariaLabel', { email: alternateEmail })}
 									>
 										<span className="text-xs uppercase tracking-[0.12em] text-muted-foreground">
