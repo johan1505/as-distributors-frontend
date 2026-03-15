@@ -161,35 +161,51 @@
 	},
 	"categories": {
 		"categoryFilter": "Su'e i se vaega ese",
+		"fresh-produce": "Fresh Produce",
 		"corned-beef": "Povi Kone",
-		"fish-tuna": "I'a ma Tuna",
+		"canned-fish-tuna": "Canned fish & tuna",
+		"frozen-fish": "Frozen fish",
 		"canned-vegetables": "Fualaau Fai Tini",
 		"cookies-crackers": "Pisiketi & Masi",
-		"snacks": "Mea'ai Itiiti",
+		"snacks": "Snacks (Bhooja)",
+		"chips": "Chips",
+		"noodles": "Noodles",
 		"candies": "Lole",
 		"pickles-spices": "Mea Kiki ma Mea Manogi",
-		"oils": "Suau'u",
+		"oils": "Oils & Dairy",
 		"breakfast-cereal": "Mea'ai Taeao",
-		"powders-teas": "Pauta ma Ti",
+		"powders-teas": "Powders, Teas & Flours",
 		"lamb-goat": "Mamoe ma 'Oti",
 		"sausages": "Susiti",
-		"white-meats": "Aano Pa'epa'e",
-		"root-vegetables": "Fualaau A'a",
+		"white-meats": "Specialty Meats",
+		"root-vegetables": "Roots & Vegetables",
 		"misc-frozen-fresh": "Isi Fa'amalo ma Susu",
 		"drinks": "Meainu"
 	},
 	"categorySeo": {
+		"fresh-produce": {
+			"title": "Fresh Produce - Taro & Island Staples | A & S Distributors",
+			"description": "Fresh produce including taro and other island staples, selected for quality and freshness.",
+			"pageDescription": "Fresh taro and seasonal island produce for traditional Pacific dishes.",
+			"keywords": "fresh taro, fresh produce, Pacific produce, taro root, island vegetables"
+		},
 		"corned-beef": {
 			"title": "Povi Kone - Aano Tini Maualuga | A & S Distributors",
 			"description": "Povi kone ma mamoe maualuga mai Ausetalia. O Ox & Palm, Pacific, Colonial, Globe ma Crown e maua i lapopo'a eseese.",
 			"pageDescription": "Povi kone maualuga faia mai povi Angus Ausetalia maualuga. HACCP & USDA fa'amaonia e aunoa ma ni hormones po'o ni antibiotic.",
 			"keywords": "povi kone, Ox & Palm, Pacific povi kone, mamoe kone, povi kone halal, povi kone fa'atau tele"
 		},
-		"fish-tuna": {
-			"title": "I'a ma Tuna - Susu, Fa'amalo & Tini | A & S Distributors",
-			"description": "I'a ma tuna lelei e aofia ai i'a susu Fiti (Kawa Kawa, Ulavi, I'a Polo), mackerel tini, tuna, ma sardines.",
-			"pageDescription": "Oloa i'a maualuga e aofia ai i'a susu Fiti ma ituaiga tini. Kawa Kawa, I'a Polo, mackerel i suau'u masani po'o tomato sauce, tuna, ma sardines.",
-			"keywords": "i'a Fiti, Kawa Kawa, mackerel tini, tuna tini, sardines, i'a Pasefika, i'a fa'atau tele, I'a Polo"
+		"canned-fish-tuna": {
+			"title": "Canned Fish & Tuna - Mackerel, Sardines & Tuna | A & S Distributors",
+			"description": "Canned mackerel, sardines, and tuna from trusted brands including Angel, Pacific Ocean, 777, Brunswick, and Skipper.",
+			"pageDescription": "Shelf-stable canned fish staples with rich flavor and convenient portions.",
+			"keywords": "canned fish, canned tuna, canned mackerel, sardines, Angel mackerel, 777 mackerel"
+		},
+		"frozen-fish": {
+			"title": "Frozen Fish - Fiji Favorites | A & S Distributors",
+			"description": "Frozen Fiji fish selections including Kawa Kawa and Parrot Fish, packed for freshness.",
+			"pageDescription": "Frozen fish staples for Pacific Island cooking, portioned for kitchens of all sizes.",
+			"keywords": "frozen fish, Fiji fish, Kawa Kawa, Parrot Fish, Pacific fish"
 		},
 		"canned-vegetables": {
 			"title": "Fualaau Tini - Susu Niu & Oloa Pasefika | A & S Distributors",
@@ -204,10 +220,22 @@
 			"keywords": "Tim Tam, masi FMF, Milk Arrowroot, Monte Carlo, masi Ausetalia, masi Viti, FMF masi taeao, masi SAO, masi fa'atau tele"
 		},
 		"snacks": {
-			"title": "Mea'ai Mama - BONGO, TWISTES, UFO's & Mea Fa'afefiloi Pasefika | A & S Distributors",
-			"description": "Mea'ai mama ta'uta'ua e aofia ai BONGO, TWISTES, ma UFO's sisi ma moa tofo, Jasons Peanut Ruffs, mea fa'afefiloi masani e pei o Fiji Mix, Punjabi Mix, ma isi.",
-			"pageDescription": "Su'esu'e tofo tulaga ese o mea'ai mama a Motu o le Pasefika. Mai BONGO, TWISTES, ma UFO's mea'ai tofo i Jasons Peanut Ruffs, mea fa'afefiloi fa'amasani ma pi falai.",
-			"keywords": "BONGO mea'ai mama, TWISTES mea'ai mama, UFO's mea'ai mama, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, pi falai, mea'ai mama Pasefika, mea'ai mama fa'atau tele"
+			"title": "Snacks (Bhooja) - Traditional Mixes & Savories | A & S Distributors",
+			"description": "Popular Bhooja snacks and mixes including Fiji Mix, Punjabi Mix, fried peas, and savory traditional blends.",
+			"pageDescription": "Discover the unique flavors of Pacific Island snacking. Traditional spiced mixes, fried peas, and crunchy savory favorites.",
+			"keywords": "Bhooja snacks, Fiji mix, Punjabi mix, fried peas, Pacific snacks, wholesale snacks"
+		},
+		"chips": {
+			"title": "Chips - BONGO, TWISTES & UFO's | A & S Distributors",
+			"description": "Crunchy chips and savory snacks including BONGO, TWISTES, UFO's, and Jasons Peanut Ruffs.",
+			"pageDescription": "Popular Pacific Island chips and crunchy snacks in a range of sizes and flavors.",
+			"keywords": "chips, BONGO, TWISTES, UFO's, peanut ruffs, Pacific snacks"
+		},
+		"noodles": {
+			"title": "Noodles - Chow Flavours | A & S Distributors",
+			"description": "Chow noodles in tomato, chicken, and curry flavors. Great for quick meals.",
+			"pageDescription": "Flavor-packed Chow noodles in three classic varieties.",
+			"keywords": "chow noodles, tomato flavour noodles, chicken flavour noodles, curry flavour noodles"
 		},
 		"candies": {
 			"title": "Lole Suamalie - Cadbury Pa Sukalati | A & S Distributors",
@@ -222,10 +250,10 @@
 			"keywords": "pa'u kale, masala, mango fa'asuamalie, tamarind chutney, mea manogi Punjas, mea manogi Viti, mea manogi fa'atau tele"
 		},
 		"oils": {
-			"title": "Suau'u - Suau'u Popo & Pata Kau | A & S Distributors",
-			"description": "Suau'u kuka lelei e aofia ai suau'u popo, suau'u kasitati, pata kau, ma suau'u popo fa'anatura manogi mo le tausiga o le tino.",
-			"pageDescription": "Suau'u kuka lelei ma pata kau masani. Fa'aopoopo i a matou suau'u popo fa'anatura manogi ta'uta'ua i Tiara, Rosa, Pua Moso'oi, ma Sandalwood.",
-			"keywords": "suau'u popo, pata kau, suau'u kasitati, suau'u popo fa'anatura, suau'u Punjas, suau'u popo manogi, suau'u fa'atau tele"
+			"title": "Oils & Dairy - Coconut Oil, Ghee & Milk Powder | A & S Distributors",
+			"description": "Premium cooking oils including coconut oil, mustard oil, ghee butter, plus dairy staples like milk powder.",
+			"pageDescription": "Quality cooking oils and traditional ghee butter, plus dairy essentials for everyday cooking.",
+			"keywords": "coconut oil, ghee butter, mustard oil, milk powder, wholesale oils"
 		},
 		"breakfast-cereal": {
 			"title": "Mea'ai Taeao - Weetbix | A & S Distributors",
@@ -234,10 +262,10 @@
 			"keywords": "Weetbix, mea'ai taeao, mea'ai taeao Ausetalia, mea'ai taeao fa'atau tele, taeao maloloina"
 		},
 		"powders-teas": {
-			"title": "Pa'u & Lauti - Milo, 'Ava & Isi | A & S Distributors",
-			"description": "Mea inu ta'uta'ua e aofia ai pa'u Milo, 'Ava (Lawena ma Wake), pa'u susu, koakoa, ma lauti uliuli lelei.",
-			"pageDescription": "Pa'u ma lauti taua e aofia ai le Milo e fiafia i ai, 'Ava masani mai Viti, pa'u susu, koakoa, ma lauti uliuli lelei.",
-			"keywords": "pa'u Milo, pa'u 'Ava, 'Ava Viti, pa'u susu, lauti uliuli, lauti Bushells, pa'u fa'atau tele"
+			"title": "Powders, Teas & Flours - Milo, Kava & More | A & S Distributors",
+			"description": "Popular beverages including Milo powder, Kava (Lawena and Wake), cocoa, quality black teas, and baking flours.",
+			"pageDescription": "Essential powders, teas, and flour staples including Milo, traditional Kava from Fiji, cocoa, and premium black teas.",
+			"keywords": "Milo powder, Kava powder, Fiji Kava, flour, black tea, wholesale powders"
 		},
 		"lamb-goat": {
 			"title": "Mamoe & 'Oti Niu Sila - USDA Fa'amaonia | A & S Distributors",
@@ -252,22 +280,22 @@
 			"keywords": "so'ose mamoe, so'ose moa, so'ose povi Samoa, so'ose fa'atau tele, so'ose Pasefika"
 		},
 		"white-meats": {
-			"title": "Aano Pa'epa'e - Pato, Povi Tiki & Moa | A & S Distributors",
-			"description": "Aano pa'epa'e fou ma aisa e aofia ai pato Muscovy, si'usi'u povi tiki, toa, ma isi. O lo'o maua ituaiga Halal.",
-			"pageDescription": "Aano pa'epa'e ma moa lelei. Pato Muscovy, Si'usi'u Povi Tiki, Toa, ma isi. O lo'o maua ituaiga Halal.",
-			"keywords": "si'usi'u povi tiki, pato Muscovy, moa halal, Povi Masima, toa, aano fa'atau tele"
+			"title": "Specialty Meats - Duck, Turkey & Poultry | A & S Distributors",
+			"description": "Specialty meats including Muscovy duck, turkey tails, roosters, and more. Halal options available.",
+			"pageDescription": "Quality specialty meats and poultry. Muscovy Duck, Turkey Tails, Roosters, and more. Halal options available.",
+			"keywords": "turkey tails, Muscovy duck, halal poultry, Povi Masima, roosters, wholesale meats"
 		},
 		"root-vegetables": {
-			"title": "Fuala'au 'Aina Aa - Talo, Manioka & 'Ulu | A & S Distributors",
-			"description": "Fuala'au 'aina aa fou ma aisa a Motu o le Pasefika e aofia ai talo, manioka, 'ulu, ma isi. Taua mo mea'ai masani.",
-			"pageDescription": "Fuala'au 'aina aa masani a Motu o le Pasefika. Talo i ituaiga tele, manioka, 'ulu, ma isi mea taua mo kukaina o le atunu'u moni.",
-			"keywords": "talo, manioka, 'ulu, fuala'au 'aina Pasefika, fuala'au 'aina Viti, talo aisa, fuala'au 'aina aa fa'atau tele"
+			"title": "Roots & Vegetables - Taro, Cassava & Breadfruit | A & S Distributors",
+			"description": "Fresh and frozen Pacific Island roots and vegetables including taro, cassava, breadfruit, and more. Essential for traditional recipes.",
+			"pageDescription": "Traditional Pacific Island roots and vegetables. Taro in multiple varieties, cassava, breadfruit, and other staples for authentic island cooking.",
+			"keywords": "taro, cassava, breadfruit, Pacific vegetables, Fiji vegetables, frozen taro, wholesale root vegetables"
 		},
 		"misc-frozen-fresh": {
-			"title": "Isi Aisa & Fou - Aisa Kulimi, Pata & Isi | A & S Distributors",
-			"description": "Mea aisa ma fou eseese e aofia ai aisa kulimi Tuckers, pata Anchor, paranthas, ma isi.",
+			"title": "Misc. Frozen & Fresh - Ice Cream, Butter & More | A & S Distributors",
+			"description": "Various frozen and fresh products including Tuckers ice cream, Kool Pop, Bula Pop, Pacific Split, Anchor butter, paranthas, and more.",
 			"pageDescription": "Mea aisa ma fou eseese mai le Pasefika. Aisa kulimi, pata, paranthas, ma isi.",
-			"keywords": "aisa kulimi Tuckers, pata Anchor, oloa aisa, aisa fa'atau tele, paranthas"
+			"keywords": "Tuckers ice cream, Kool Pop, Bula Pop, Pacific Split, Anchor butter, frozen products, wholesale frozen, paranthas"
 		},
 		"drinks": {
 			"title": "Meainu - Sua Fua Fa'afefiloi & Noni | A & S Distributors",
@@ -729,12 +757,12 @@
 			"imageAlt": "Tipi o Mamoe Tau'au Atoa"
 		},
 		"lamb-flap-whole": {
-			"name": "Mamoe Flap Atoa",
+			"name": "N. Z. Lamb Flat Whole (SilverFern)",
 			"description": "Mamoe flap (manava) Niu Sila, o se tipi manogi ta'uta'ua i atunu'u Pasefika. O le tele o le ga'o e lelei ai mo sulu ma barbecue, e avea ma malo i fafo ae susu i totonu. O se mea taua mo fa'amatagā Pasefika.",
 			"seoTitle": "Mamoe Flap Tipi Manava | A & S Distributors",
 			"seoDescription": "Mamoe flap Niu Sila mo sulu. Mea fiafia o le Pasefika. Tau fa'atau tele e maua.",
 			"seoKeywords": "mamoe flap, mamoe manava, mamoe BBQ, aano motu Pasefika",
-			"imageAlt": "Tipi o Mamoe Flap Atoa"
+			"imageAlt": "N. Z. Lamb Flat Whole (SilverFern)"
 		},
 		"turkey-tails": {
 			"name": "Si'usi'u Peleue",
@@ -743,6 +771,14 @@
 			"seoDescription": "Si'usi'u peleue mo sulu ma tunu. Mea taua mo BBQ Pasefika. Tau fa'atau tele e maua.",
 			"seoKeywords": "si'usi'u peleue, mea'ai motu Pasefika, aano BBQ, mea'ai Samoa",
 			"imageAlt": "Afifi o Si'usi'u Peleue"
+		},
+		"fresh-taro": {
+			"name": "Fresh Taro",
+			"description": "Fresh taro root with a creamy, nutty flavor when cooked. A Pacific Island staple for boiling, steaming, or roasting, and perfect for dishes like palusami, soups, and taro mash.",
+			"seoTitle": "Fresh Taro Root | A & S Distributors",
+			"seoDescription": "Fresh taro root for traditional Pacific Island cooking. Wholesale pricing available.",
+			"seoKeywords": "fresh taro, taro root, Pacific produce, island vegetables",
+			"imageAlt": "Fresh Taro Root"
 		},
 		"povi-masima": {
 			"name": "Povi Masima",
@@ -920,21 +956,13 @@
 			"seoKeywords": "Nestle cocoa, cocoa pauta, areto cocoa, sikaleti vevela",
 			"imageAlt": "Afifi o Nestle Cocoa"
 		},
-		"bushells-black-tea-200gr": {
-			"name": "Bushells Ti Uliuli",
-			"description": "O le brand ti muamua i Ausetalia, fa'atu i le 1883. O le Bushells Blue Label ti lau'au e ofoina mai se ipu fa'atumutumu, manogi atoa faia fa'apitoa mo manogi Ausetalia. E sili atu i le 130 tausaga o le tomai ti i pusa uma.",
-			"seoTitle": "Bushells Ti Uliuli 200g Lau'au | A & S Distributors",
-			"seoDescription": "Bushells Blue Label ti uliuli 200g. O le brand ti muamua i Ausetalia. Tau fa'atau tele e maua.",
-			"seoKeywords": "Bushells ti, ti Ausetalia, ti lau'au uliuli, Blue Label",
-			"imageAlt": "Pusa o Bushells Ti Uliuli"
-		},
 		"lamb-shoulder-diced": {
-			"name": "Mamoe Tipi Masani",
+			"name": "Lamb Shoulder Chops",
 			"description": "Mamoe Niu Sila tipi i fasi tutusa mo kare, stews, ma kebabs. Fafaga mutia ma galueaina i lo matou fale USDA fa'amaonia mo le tulaga tutusa. Ua saunia e kuka mo le saunauga mea'ai vave.",
 			"seoTitle": "Mamoe Tipi Niu Sila | A & S Distributors",
 			"seoDescription": "Mamoe tipi Niu Sila mo kare ma stews. USDA fa'amaonia. Tau fa'atau tele e maua.",
 			"seoKeywords": "mamoe tipi, fasi mamoe, mamoe Niu Sila, aano kare",
-			"imageAlt": "Tipi o Mamoe Tipi Masani"
+			"imageAlt": "Lamb Shoulder Chops"
 		},
 		"lamb-neck-whole": {
 			"name": "Mamoe Ua Atoa",
@@ -961,12 +989,12 @@
 			"imageAlt": "Tipi o Mamoe Shank Atoa"
 		},
 		"australian-goat-whole": {
-			"name": "'Oti Ausetalia Atoa",
+			"name": "Australia Goat Whole 6-Way",
 			"description": "'Oti Ausetalia atoa, o se porotini mama ta'uta'ua i kuka Caribbean, Aferika, Asia i Saute, ma Pasefika. O a matou 'oti e galueaina i lo matou fale USDA fa'amaonia. Sili mo kare masani, stews, ma tunu.",
 			"seoTitle": "'Oti Ausetalia Atoa | A & S Distributors",
 			"seoDescription": "'Oti Ausetalia atoa. USDA fa'amaonia galueaina. Tau fa'atau tele e maua.",
 			"seoKeywords": "'oti atoa, 'oti Ausetalia, aano 'oti, kare 'oti",
-			"imageAlt": "Tipi o 'Oti Ausetalia Atoa"
+			"imageAlt": "Australia Goat Whole 6-Way"
 		},
 		"chicken-sausage": {
 			"name": "Susiti Moa",
@@ -1376,6 +1404,30 @@
 			"seoKeywords": "Peanut Ruffs tele, Jasons Fiti, mea'ai peanut butter, mea'ai motu Pasefika",
 			"imageAlt": "Afifi o Jasons Peanut Ruffs"
 		},
+		"chow-tomato-flavour": {
+			"name": "Chow Tomato Flavour",
+			"description": "Hearty chow noodles in a rich tomato seasoning with a savory, tangy finish. A quick and satisfying meal or side dish that is easy to customize with vegetables or protein.",
+			"seoTitle": "Chow Tomato Flavour Noodles | A & S Distributors",
+			"seoDescription": "Chow noodles with tomato flavour. Quick, savory meal. Wholesale pricing available.",
+			"seoKeywords": "chow noodles, tomato flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "Chow Tomato Flavour noodles pack"
+		},
+		"chow-chicken-flavour": {
+			"name": "Chow Chicken Flavour",
+			"description": "Classic chow noodles with a savory chicken-style seasoning. Comforting flavor and easy prep make this a dependable pantry favorite for quick lunches or dinners.",
+			"seoTitle": "Chow Chicken Flavour Noodles | A & S Distributors",
+			"seoDescription": "Chow noodles with chicken flavour. Easy, satisfying meal. Wholesale pricing available.",
+			"seoKeywords": "chow noodles, chicken flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "Chow Chicken Flavour noodles pack"
+		},
+		"chow-curry-flavour": {
+			"name": "Chow Curry Flavour",
+			"description": "Warm curry-spiced chow noodles with aromatic notes and a gentle heat. Perfect for a flavorful, fast meal on busy days.",
+			"seoTitle": "Chow Curry Flavour Noodles | A & S Distributors",
+			"seoDescription": "Chow noodles with curry flavour. Aromatic and convenient. Wholesale pricing available.",
+			"seoKeywords": "chow noodles, curry flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "Chow Curry Flavour noodles pack"
+		},
 		"homemaid-amra-pickles": {
 			"name": "Homemaid Amra Pickles",
 			"description": "Mea kiki masani Fiti faia mai le fua amra (Indian hog plum). O lenei mea fa'aopoopo kiki, mea manogi e fa'aopoopo ai le pa manogi suamalie-kiki i mea'ai. O se mea fiafia fa'atasi ma kare ma araisa i aiga Indo-Fiti.",
@@ -1601,12 +1653,12 @@
 			"imageAlt": "Pusa o Punjas Tea Masala"
 		},
 		"lamb-shoulder-diced-prepack": {
-			"name": "Mamoe Tipi Masani Prepack",
+			"name": "Lamb Shoulder Chops Prepack",
 			"description": "Fasi fa'apusa faigofie o mamoe tipi Niu Sila. E iai i pusa uma aano tipi lelei ua saunia mo au fa'atonuga. Sili mo tagata fa'atau oloa ma aiga e mana'o i lapopo'a fasi tutusa.",
 			"seoTitle": "Mamoe Tipi Prepack Fasi | A & S Distributors",
 			"seoDescription": "Mamoe tipi fa'apusa. Faigofie mo fa'atau oloa. Tau fa'atau tele e maua.",
 			"seoKeywords": "mamoe prepack, fasi mamoe tipi, mamoe fa'atau oloa, aano faigofie",
-			"imageAlt": "Tipi o Mamoe Tipi Masani Prepack"
+			"imageAlt": "Lamb Shoulder Chops Prepack"
 		},
 		"lamb-neck-sliced": {
 			"name": "Mamoe Ua Tipi",
@@ -1631,14 +1683,6 @@
 			"seoDescription": "Mamoe vae steaks fa'apusa. Mama ma fa'aaoga tele. Tau fa'atau tele e maua.",
 			"seoKeywords": "mamoe vae steaks, mamoe tipi, mamoe prepack, aano sulu",
 			"imageAlt": "Tipi o Mamoe Vae Tipi Prepack"
-		},
-		"lamb-flap-sliced-prepack": {
-			"name": "Mamoe Flap Tipi Prepack",
-			"description": "Mamoe flap tipi ma fa'apusa mo sulu ma kuka faigofie. O fasi uma e saunia mo le barbecue pe pan. O le tipi ua avea ma tutusa ma fa'amanatuga motu Pasefika, i pusa faigofie fa'atau oloa.",
-			"seoTitle": "Mamoe Flap Tipi Prepack | A & S Distributors",
-			"seoDescription": "Mamoe flap tipi fa'apusa. Saunia mo BBQ. Tau fa'atau tele e maua.",
-			"seoKeywords": "mamoe flap prepack, mamoe manava tipi, aano BBQ, mea'ai motu Pasefika",
-			"imageAlt": "Tipi o Mamoe Flap Tipi Prepack"
 		},
 		"lamb-shank-sliced-prepack": {
 			"name": "Mamoe Shank Tipi Prepack",
@@ -1776,6 +1820,30 @@
 			"seoKeywords": "Triple Ripple aisa kimi, Tuckers, tele-manogi, aisa kimi Fiti",
 			"imageAlt": "Afifi o aisa Tuckers Triple Ripple"
 		},
+		"kool-pop": {
+			"name": "Kool Pop",
+			"description": "A classic Tuckers ice block on a stick with bright, fruity flavor and a refreshing finish. A fun, grab-and-go frozen treat for warm days.",
+			"seoTitle": "Kool Pop Ice Blocks | A & S Distributors",
+			"seoDescription": "Kool Pop ice blocks from Tuckers. Refreshing frozen treat. Wholesale pricing available.",
+			"seoKeywords": "Kool Pop, ice block, frozen treat, Tuckers ice cream",
+			"imageAlt": "Kool Pop ice block"
+		},
+		"bula-pop": {
+			"name": "Bula Pop",
+			"description": "Refreshing Tuckers ice block on a stick with a bold, tropical taste. Perfect for quick cooling and everyday treats.",
+			"seoTitle": "Bula Pop Ice Blocks | A & S Distributors",
+			"seoDescription": "Bula Pop ice blocks from Tuckers. Tropical frozen treat. Wholesale pricing available.",
+			"seoKeywords": "Bula Pop, ice block, frozen treat, Tuckers ice cream",
+			"imageAlt": "Bula Pop ice block"
+		},
+		"pacific-split": {
+			"name": "Pacific Split",
+			"description": "A vibrant Tuckers ice block on a stick with layered, fruity refreshment. A colorful favorite for parties and everyday enjoyment.",
+			"seoTitle": "Pacific Split Ice Blocks | A & S Distributors",
+			"seoDescription": "Pacific Split ice blocks from Tuckers. Bright and refreshing. Wholesale pricing available.",
+			"seoKeywords": "Pacific Split, ice block, frozen treat, Tuckers ice cream",
+			"imageAlt": "Pacific Split ice block"
+		},
 		"bula-noni-fiji-islands": {
 			"name": "Bula Noni Fiji Islands",
 			"description": "Sua fua Noni mai Fiti, faia mai le fua Morinda citrifolia sa fa'aaogaina masani i Polenisia mo mea soifua maloloina. O lenei sua malosi e iai le manogi malosi tu'uese ma e inu mo ona so'otaga soifua maloloina masani.",
@@ -1807,14 +1875,6 @@
 			"seoDescription": "KitKat Chunky Milo 44g. Wafer bar ma le manogi Milo. Tau fa'atau tele e maua.",
 			"seoKeywords": "KitKat Chunky, Milo, wafer bar, sukalati Nestlé, lole fa'atau tele",
 			"imageAlt": "KitKat Chunky Milo pa"
-		},
-		"choki-choki-chocolate-paste-12g": {
-			"name": "Choki Choki Chocolate Paste",
-			"description": "Sukalati paste malu i totonu o se stick faigofie. Ta'uta'ua mo se mea suamalie vave po'o se mea mo pusa a'oga.",
-			"seoTitle": "Choki Choki Chocolate Paste 12g | A & S Distributors",
-			"seoDescription": "Choki Choki sukalati paste stick 12g. Tau fa'atau tele e maua.",
-			"seoKeywords": "Choki Choki, sukalati paste, mea suamalie, lole fa'atau tele",
-			"imageAlt": "Choki Choki sukalati paste stick"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",

@@ -161,35 +161,51 @@
 	},
 	"categories": {
 		"categoryFilter": "Buscar en una categoría diferente",
+		"fresh-produce": "Productos Frescos",
 		"corned-beef": "Carne en Conserva",
-		"fish-tuna": "Pescado y Atún",
+		"canned-fish-tuna": "Pescado y Atún Enlatados",
+		"frozen-fish": "Pescado Congelado",
 		"canned-vegetables": "Vegetales Enlatados",
 		"cookies-crackers": "Galletas y Crackers",
-		"snacks": "Bocadillos",
+		"snacks": "Bocadillos (Bhooja)",
+		"chips": "Chips",
+		"noodles": "Fideos",
 		"candies": "Dulces",
 		"pickles-spices": "Encurtidos y Especias",
-		"oils": "Aceites",
+		"oils": "Aceites y Lácteos",
 		"breakfast-cereal": "Cereal de Desayuno",
-		"powders-teas": "Polvos y Tés",
+		"powders-teas": "Polvos, Tés y Harinas",
 		"lamb-goat": "Cordero y Cabra",
 		"sausages": "Salchichas",
-		"white-meats": "Carnes Blancas",
-		"root-vegetables": "Vegetales de Raíz",
+		"white-meats": "Carnes Especiales",
+		"root-vegetables": "Raíces y Vegetales",
 		"misc-frozen-fresh": "Varios Congelados y Frescos",
 		"drinks": "Bebidas"
 	},
 	"categorySeo": {
+		"fresh-produce": {
+			"title": "Productos Frescos - Taro y básicos isleños | A & S Distributors",
+			"description": "Productos frescos incluyendo taro y otros básicos isleños, seleccionados por calidad y frescura.",
+			"pageDescription": "Taro fresco y productos isleños de temporada para platos tradicionales del Pacífico.",
+			"keywords": "taro fresco, productos frescos, productos del Pacífico, raíz de taro, vegetales isleños"
+		},
 		"corned-beef": {
 			"title": "Carne en Conserva - Carnes Enlatadas Premium | A & S Distributors",
 			"description": "Carne en conserva y cordero de alta calidad de Australia. Marcas Ox & Palm, Pacific, Colonial, Globe y Crown disponibles en varios tamaños.",
 			"pageDescription": "Carne en conserva premium hecha de carne de res Angus australiana de alta calidad alimentada con pasto. Certificada HACCP y USDA sin hormonas ni antibióticos añadidos.",
 			"keywords": "carne en conserva, Ox & Palm, Pacific carne en conserva, cordero en conserva, carne en conserva halal, carne en conserva al por mayor"
 		},
-		"fish-tuna": {
-			"title": "Pescado y Atún - Fresco, Congelado y Enlatado | A & S Distributors",
-			"description": "Pescado y atún de calidad incluyendo pescado fresco de Fiji (Kawa Kawa, Ulavi, Pez Loro), caballa enlatada, atún y sardinas.",
-			"pageDescription": "Productos de pescado premium incluyendo pescado fresco de Fiji y variedades enlatadas. Kawa Kawa, Pez Loro, caballa en aceite natural o salsa de tomate, atún en trozos y sardinas.",
-			"keywords": "pescado de Fiji, Kawa Kawa, caballa enlatada, atún enlatado, sardinas, pescado del Pacífico, pescado al por mayor, Pez Loro"
+		"canned-fish-tuna": {
+			"title": "Pescado y Atún Enlatados - Caballa, Sardinas y Atún | A & S Distributors",
+			"description": "Caballa, sardinas y atún enlatados de marcas confiables como Angel, Pacific Ocean, 777, Brunswick y Skipper.",
+			"pageDescription": "Básicos de pescado enlatado con sabor intenso y porciones convenientes.",
+			"keywords": "pescado enlatado, atún enlatado, caballa enlatada, sardinas, Angel, 777"
+		},
+		"frozen-fish": {
+			"title": "Pescado Congelado - Favoritos de Fiji | A & S Distributors",
+			"description": "Selección de pescado de Fiji congelado incluyendo Kawa Kawa y Pez Loro, empacado para frescura.",
+			"pageDescription": "Pescado congelado para cocina del Pacífico, porcionado para cocinas de todos los tamaños.",
+			"keywords": "pescado congelado, pescado de Fiji, Kawa Kawa, Pez Loro, pescado del Pacífico"
 		},
 		"canned-vegetables": {
 			"title": "Vegetales Enlatados - Leche de Coco y Productos del Pacífico | A & S Distributors",
@@ -204,10 +220,22 @@
 			"keywords": "Tim Tam, galletas FMF, Milk Arrowroot, Monte Carlo, galletas australianas, galletas de Fiji, FMF breakfast crackers, SAO crackers, galletas y crackers al por mayor"
 		},
 		"snacks": {
-			"title": "Bocadillos - BONGO, TWISTES, UFO's y Mezclas de las Islas del Pacífico | A & S Distributors",
-			"description": "Bocadillos populares incluyendo BONGO, TWISTES y UFO's sabor queso y pollo, Jasons Peanut Ruffs, mezclas tradicionales como Fiji Mix, Punjabi Mix y más.",
-			"pageDescription": "Descubra los sabores únicos de los bocadillos de las Islas del Pacífico. Desde los bocadillos BONGO, TWISTES y UFO's hasta Jasons Peanut Ruffs, las mezclas especiadas tradicionales y guisantes fritos.",
-			"keywords": "bocadillos BONGO, bocadillos TWISTES, bocadillos UFO's, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, guisantes fritos, bocadillos del Pacífico, bocadillos al por mayor"
+			"title": "Bocadillos (Bhooja) - Mezclas y Salados Tradicionales | A & S Distributors",
+			"description": "Bocadillos y mezclas Bhooja populares incluyendo Fiji Mix, Punjabi Mix, guisantes fritos y mezclas tradicionales saladas.",
+			"pageDescription": "Descubra sabores únicos del Pacífico. Mezclas especiadas, guisantes fritos y favoritos crujientes.",
+			"keywords": "Bhooja, Fiji mix, Punjabi mix, guisantes fritos, bocadillos del Pacífico"
+		},
+		"chips": {
+			"title": "Chips - BONGO, TWISTES y UFO's | A & S Distributors",
+			"description": "Chips crujientes y bocadillos salados incluyendo BONGO, TWISTES, UFO's y Jasons Peanut Ruffs.",
+			"pageDescription": "Chips populares del Pacífico en varios tamaños y sabores.",
+			"keywords": "chips, BONGO, TWISTES, UFO's, peanut ruffs, bocadillos del Pacífico"
+		},
+		"noodles": {
+			"title": "Fideos - Sabores Chow | A & S Distributors",
+			"description": "Fideos Chow en sabores tomate, pollo y curry. Ideales para comidas rápidas.",
+			"pageDescription": "Fideos Chow con sabor en tres variedades clásicas.",
+			"keywords": "fideos chow, fideos sabor tomate, fideos sabor pollo, fideos sabor curry"
 		},
 		"candies": {
 			"title": "Dulces - Barras de Chocolate Cadbury | A & S Distributors",
@@ -222,10 +250,10 @@
 			"keywords": "curry en polvo, masala, encurtido de mango, chutney de tamarindo, especias Punjas, especias de Fiji, especias al por mayor"
 		},
 		"oils": {
-			"title": "Aceites - Aceite de Coco y Mantequilla Ghee | A & S Distributors",
-			"description": "Aceites de cocina premium incluyendo aceite de coco, aceite de mostaza, mantequilla ghee y aceites de coco naturales perfumados para el cuidado corporal.",
-			"pageDescription": "Aceites de cocina de calidad y mantequilla ghee tradicional. Además de nuestros populares aceites de coco naturales perfumados en Tiara, Rosa, Frangipani y Sándalo.",
-			"keywords": "aceite de coco, mantequilla ghee, aceite de mostaza, aceite de coco natural, aceite Punjas, aceite de coco perfumado, aceites al por mayor"
+			"title": "Aceites y Lácteos - Aceite de Coco, Ghee y Leche en Polvo | A & S Distributors",
+			"description": "Aceites de cocina premium incluyendo aceite de coco, aceite de mostaza, mantequilla ghee y básicos lácteos como leche en polvo.",
+			"pageDescription": "Aceites de cocina de calidad y mantequilla ghee tradicional, además de esenciales lácteos.",
+			"keywords": "aceite de coco, mantequilla ghee, aceite de mostaza, leche en polvo, aceites al por mayor"
 		},
 		"breakfast-cereal": {
 			"title": "Cereal de Desayuno - Weetbix | A & S Distributors",
@@ -234,10 +262,10 @@
 			"keywords": "Weetbix, cereal de desayuno, cereal australiano, cereal al por mayor, desayuno saludable"
 		},
 		"powders-teas": {
-			"title": "Polvos y Tés - Milo, Kava y Más | A & S Distributors",
-			"description": "Bebidas populares incluyendo Milo en polvo, Kava (Lawena y Wake), leche en polvo, cacao y tés negros de calidad.",
-			"pageDescription": "Polvos y tés esenciales incluyendo el querido Milo, Kava tradicional de Fiji, leche en polvo, cacao y tés negros premium.",
-			"keywords": "Milo en polvo, Kava en polvo, Kava de Fiji, leche en polvo, té negro, té Bushells, polvos al por mayor"
+			"title": "Polvos, Tés y Harinas - Milo, Kava y Más | A & S Distributors",
+			"description": "Bebidas populares incluyendo Milo en polvo, Kava (Lawena y Wake), cacao, tés negros de calidad y harinas.",
+			"pageDescription": "Polvos, tés y harinas esenciales incluyendo Milo, Kava tradicional de Fiji, cacao y tés negros premium.",
+			"keywords": "Milo en polvo, Kava, harina, té negro, polvos al por mayor"
 		},
 		"lamb-goat": {
 			"title": "Cordero y Cabra de Nueva Zelanda - Certificado USDA | A & S Distributors",
@@ -252,22 +280,22 @@
 			"keywords": "salchicha de cordero, salchicha de pollo, Samoan beef bangers, salchichas al por mayor, salchichas del Pacífico"
 		},
 		"white-meats": {
-			"title": "Carnes Blancas - Pato, Pavo y Aves | A & S Distributors",
-			"description": "Carnes blancas frescas y congeladas incluyendo pato Muscovy, colas de pavo, gallos y más. Opciones halal disponibles.",
-			"pageDescription": "Carnes blancas y aves de calidad. Pato Muscovy, Colas de Pavo, Gallos y más. Opciones halal disponibles.",
+			"title": "Carnes Especiales - Pato, Pavo y Aves | A & S Distributors",
+			"description": "Carnes especiales incluyendo pato Muscovy, colas de pavo, gallos y más. Opciones halal disponibles.",
+			"pageDescription": "Carnes especiales y aves. Pato Muscovy, Colas de Pavo, Gallos y más.",
 			"keywords": "colas de pavo, pato Muscovy, aves halal, Povi Masima, gallos, carnes al por mayor"
 		},
 		"root-vegetables": {
-			"title": "Vegetales de Raíz - Taro, Yuca y Fruta de Pan | A & S Distributors",
-			"description": "Vegetales de raíz frescos y congelados de las Islas del Pacífico incluyendo taro, yuca, fruta de pan y más. Esenciales para recetas tradicionales.",
-			"pageDescription": "Vegetales de raíz tradicionales de las Islas del Pacífico. Taro en múltiples variedades, yuca, fruta de pan y otros alimentos básicos para cocina isleña auténtica.",
-			"keywords": "taro, yuca, fruta de pan, vegetales del Pacífico, vegetales de Fiji, taro congelado, vegetales de raíz al por mayor"
+			"title": "Raíces y Vegetales - Taro, Yuca y Fruta de Pan | A & S Distributors",
+			"description": "Raíces y vegetales del Pacífico frescos y congelados incluyendo taro, yuca, fruta de pan y más.",
+			"pageDescription": "Raíces y vegetales tradicionales del Pacífico. Taro en múltiples variedades, yuca, fruta de pan y otros básicos para la cocina isleña auténtica.",
+			"keywords": "taro, yuca, fruta de pan, vegetales del Pacífico, vegetales de Fiji, taro congelado, raíces al por mayor"
 		},
 		"misc-frozen-fresh": {
-			"title": "Varios Congelados y Frescos - Helado, Mantequilla y Más | A & S Distributors",
-			"description": "Varios productos congelados y frescos incluyendo helado Tuckers, mantequilla Anchor, paranthas y más.",
+			"title": "Varios Congelados y Frescos - Helados, Mantequilla y Más | A & S Distributors",
+			"description": "Productos congelados y frescos variados incluyendo helados Tuckers, Kool Pop, Bula Pop, Pacific Split, mantequilla Anchor, paranthas y más.",
 			"pageDescription": "Una variedad de productos congelados y frescos del Pacífico. Helado, mantequilla, paranthas y más.",
-			"keywords": "helado Tuckers, mantequilla Anchor, productos congelados, congelados al por mayor, paranthas"
+			"keywords": "helado Tuckers, Kool Pop, Bula Pop, Pacific Split, mantequilla Anchor, productos congelados, paranthas"
 		},
 		"drinks": {
 			"title": "Bebidas - Concentrados de Jugo y Noni | A & S Distributors",
@@ -1024,6 +1052,30 @@
 			"seoKeywords": "Peanut Ruffs grande, Jasons Fiji, snacks de mantequilla de maní, comida de las Islas del Pacífico",
 			"imageAlt": "Paquete de Jasons Peanut Ruffs"
 		},
+		"chow-tomato-flavour": {
+			"name": "Chow Tomato Flavour",
+			"description": "Fideos chow con un sazonado de tomate rico y sabroso. Una comida rápida y satisfactoria que puedes personalizar con verduras o proteína.",
+			"seoTitle": "Fideos Chow Sabor Tomate | A & S Distributors",
+			"seoDescription": "Fideos chow con sabor tomate. Comida rápida y sabrosa. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos chow, fideos sabor tomate, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos Chow sabor tomate"
+		},
+		"chow-chicken-flavour": {
+			"name": "Chow Chicken Flavour",
+			"description": "Fideos chow con un sazonado clásico sabor pollo. Sabor reconfortante y preparación fácil para almuerzos o cenas rápidas.",
+			"seoTitle": "Fideos Chow Sabor Pollo | A & S Distributors",
+			"seoDescription": "Fideos chow con sabor pollo. Comida fácil y satisfactoria. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos chow, fideos sabor pollo, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos Chow sabor pollo"
+		},
+		"chow-curry-flavour": {
+			"name": "Chow Curry Flavour",
+			"description": "Fideos chow con especias de curry cálidas y aromáticas. Perfecto para una comida rápida con mucho sabor.",
+			"seoTitle": "Fideos Chow Sabor Curry | A & S Distributors",
+			"seoDescription": "Fideos chow con sabor curry. Aromáticos y convenientes. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos chow, fideos sabor curry, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos Chow sabor curry"
+		},
 		"homemaid-amra-pickles": {
 			"name": "Homemaid Amra Pickles",
 			"description": "Encurtido tradicional fiyiano hecho de fruta amra (ciruela de cerdo india). Este condimento ácido y especiado añade un estallido de sabor agridulce a las comidas. Un querido acompañamiento para curries y platos de arroz en hogares indo-fiyianos.",
@@ -1313,12 +1365,12 @@
 			"imageAlt": "Bolsa de Kava Lawena Powder"
 		},
 		"kava-wake-powder": {
-			"name": "Kava Wake Powder",
+			"name": "Kava Waka Powder",
 			"description": "Hecho de la raíz principal (waka) de la planta de kava, esta variedad ofrece efectos más fuertes y potentes que lawena. El kava waka tiene mayor contenido de kavalactonas para una experiencia calmante más pronunciada. Para bebedores de kava experimentados que prefieren una taza más fuerte.",
 			"seoTitle": "Kava Waka en Polvo Fuerte | A & S Distributors",
 			"seoDescription": "Kava Waka en polvo fuerte de raíz principal. Variedad más potente. Precios al por mayor disponibles.",
 			"seoKeywords": "Kava Waka, kava fuerte, polvo de kava de Fiji, kava premium",
-			"imageAlt": "Bolsa de Kava Wake Powder"
+			"imageAlt": "Bolsa de Kava Waka Powder"
 		},
 		"nestle-cocoa": {
 			"name": "Nestle Cocoa",
@@ -1327,14 +1379,6 @@
 			"seoDescription": "Cacao en polvo Nestlé para hornear y bebidas. Cacao puro sin azúcar. Precios al por mayor disponibles.",
 			"seoKeywords": "Nestlé cacao, cacao en polvo, cacao para hornear, chocolate caliente",
 			"imageAlt": "Paquete de Nestle Cocoa"
-		},
-		"bushells-black-tea-200gr": {
-			"name": "Bushells Black Tea",
-			"description": "La primera marca de té de Australia, establecida en 1883. El té de hoja suelta Bushells Blue Label ofrece una taza completa y bien equilibrada elaborada especialmente para gustos australianos. Más de 130 años de experiencia en té en cada bolsa.",
-			"seoTitle": "Bushells Té Negro 200g Hoja Suelta | A & S Distributors",
-			"seoDescription": "Té negro Bushells Blue Label 200g. La primera marca de té de Australia. Precios al por mayor disponibles.",
-			"seoKeywords": "té Bushells, té australiano, té negro de hoja suelta, Blue Label",
-			"imageAlt": "Caja de Bushells Black Tea"
 		},
 		"punjas-ceylon-black-tea-200gr": {
 			"name": "Punjas Ceylon Black Tea",
@@ -1361,20 +1405,20 @@
 			"imageAlt": "Corte de Lamb Shoulder Whole"
 		},
 		"lamb-shoulder-diced": {
-			"name": "Lamb Shoulder Diced",
+			"name": "Lamb Shoulder Chops",
 			"description": "Cordero de Nueva Zelanda cortado en cubos uniformes para curries, estofados y kebabs. Alimentado con pasto y procesado en nuestra instalación certificada USDA para calidad consistente. Listo para cocinar para preparación rápida de comidas.",
 			"seoTitle": "Cordero de Nueva Zelanda en Cubos | A & S Distributors",
 			"seoDescription": "Cordero de Nueva Zelanda en cubos para curries y estofados. Certificado USDA. Precios al por mayor disponibles.",
 			"seoKeywords": "cordero en cubos, cubos de cordero, cordero de Nueva Zelanda, carne para curry",
-			"imageAlt": "Corte de Lamb Shoulder Diced"
+			"imageAlt": "Corte de Lamb Shoulder Chops"
 		},
 		"lamb-shoulder-diced-prepack": {
-			"name": "Lamb Shoulder Diced Prepack",
+			"name": "Lamb Shoulder Chops Prepack",
 			"description": "Porciones pre-empacadas convenientes de cordero en cubos de Nueva Zelanda. Cada paquete contiene carne perfectamente cortada lista para tus recetas. Ideal para minoristas y hogares que quieren tamaños de porción consistentes.",
 			"seoTitle": "Cordero en Cubos Prepack Porciones | A & S Distributors",
 			"seoDescription": "Porciones pre-empacadas de cordero en cubos. Conveniente para minoristas. Precios al por mayor disponibles.",
 			"seoKeywords": "cordero prepack, porciones de cordero en cubos, cordero para minoristas, carne conveniente",
-			"imageAlt": "Corte de Lamb Shoulder Diced Prepack"
+			"imageAlt": "Corte de Lamb Shoulder Chops Prepack"
 		},
 		"lamb-neck-whole": {
 			"name": "Lamb Neck Whole",
@@ -1417,20 +1461,12 @@
 			"imageAlt": "Corte de Lamb Leg Sliced Prepack"
 		},
 		"lamb-flap-whole": {
-			"name": "Lamb Flap Whole",
+			"name": "N. Z. Lamb Flat Whole (SilverFern)",
 			"description": "Falda de cordero de Nueva Zelanda (panza), un corte sabroso popular en todas las Islas del Pacífico. El mayor contenido de grasa lo hace ideal para parrilla y barbacoa, quedando crujiente por fuera mientras permanece jugoso por dentro. Un esencial de fiestas de las Islas del Pacífico.",
 			"seoTitle": "Falda de Cordero Corte Panza | A & S Distributors",
 			"seoDescription": "Falda de cordero de Nueva Zelanda para parrilla. Favorito de las Islas del Pacífico. Precios al por mayor disponibles.",
 			"seoKeywords": "falda de cordero, panza de cordero, cordero BBQ, carne de las Islas del Pacífico",
-			"imageAlt": "Corte de Lamb Flap Whole"
-		},
-		"lamb-flap-sliced-prepack": {
-			"name": "Lamb Flap Sliced Prepack",
-			"description": "Falda de cordero en rebanadas y pre-empacada para fácil parrilla y cocina. Cada porción está lista para la barbacoa o sartén. El corte que se ha vuelto sinónimo de celebraciones de las Islas del Pacífico, en convenientes paquetes para minoristas.",
-			"seoTitle": "Falda de Cordero en Rebanadas Prepack | A & S Distributors",
-			"seoDescription": "Falda de cordero en rebanadas pre-empacada. Lista para BBQ. Precios al por mayor disponibles.",
-			"seoKeywords": "falda de cordero prepack, panza de cordero en rebanadas, carne para BBQ, comida de las Islas del Pacífico",
-			"imageAlt": "Corte de Lamb Flap Sliced Prepack"
+			"imageAlt": "Corte de N. Z. Lamb Flat Whole (SilverFern)"
 		},
 		"lamb-shank-whole": {
 			"name": "Lamb Shank Whole",
@@ -1449,12 +1485,12 @@
 			"imageAlt": "Corte de Lamb Shank Sliced Prepack"
 		},
 		"australian-goat-whole": {
-			"name": "Australian Goat Whole",
+			"name": "Australia Goat Whole 6-Way",
 			"description": "Canal de cabra australiana entera, una proteína magra popular en cocinas caribeñas, africanas, del sur de Asia y de las Islas del Pacífico. Nuestras cabras son procesadas en nuestra instalación certificada USDA. Ideal para curries, estofados y asados tradicionales.",
 			"seoTitle": "Cabra Australiana Entera | A & S Distributors",
 			"seoDescription": "Canal de cabra australiana entera. Procesamiento certificado USDA. Precios al por mayor disponibles.",
 			"seoKeywords": "cabra entera, cabra australiana, carne de cabra, curry de cabra",
-			"imageAlt": "Corte de Australian Goat Whole"
+			"imageAlt": "Corte de Australia Goat Whole 6-Way"
 		},
 		"australian-goat-diced-prepack": {
 			"name": "Australian Goat Diced Prepack",
@@ -1583,6 +1619,14 @@
 			"seoDescription": "Colas de pavo para parrilla y asar. Básico de BBQ de las Islas del Pacífico. Precios al por mayor disponibles.",
 			"seoKeywords": "colas de pavo, comida de las Islas del Pacífico, carne para BBQ, comida samoana",
 			"imageAlt": "Paquete de Turkey Tails"
+		},
+		"fresh-taro": {
+			"name": "Fresh Taro",
+			"description": "Taro fresco con sabor cremoso y a nuez al cocinarse. Un básico de las Islas del Pacífico para hervir, cocinar al vapor o asar, ideal para palusami, sopas y puré de taro.",
+			"seoTitle": "Taro Fresco | A & S Distributors",
+			"seoDescription": "Taro fresco para cocina tradicional de las Islas del Pacífico. Precios al por mayor disponibles.",
+			"seoKeywords": "taro fresco, raíz de taro, productos del Pacífico, vegetales isleños",
+			"imageAlt": "Raíz de Taro Fresco"
 		},
 		"yellow-cassava-2lb": {
 			"name": "Yellow Cassava",
@@ -1752,6 +1796,30 @@
 			"seoKeywords": "helado Triple Ripple, Tuckers, multi-sabor, helado de Fiji",
 			"imageAlt": "Paquete de helado Tuckers Triple Ripple"
 		},
+		"kool-pop": {
+			"name": "Kool Pop",
+			"description": "Clásico ice block Tuckers en palito con sabor frutal brillante y un final refrescante. Un helado divertido y fácil de llevar para días calurosos.",
+			"seoTitle": "Kool Pop Ice Blocks | A & S Distributors",
+			"seoDescription": "Kool Pop ice blocks de Tuckers. Helado refrescante. Precios al por mayor disponibles.",
+			"seoKeywords": "Kool Pop, ice block, helado, Tuckers ice cream",
+			"imageAlt": "Kool Pop ice block"
+		},
+		"bula-pop": {
+			"name": "Bula Pop",
+			"description": "Ice block Tuckers en palito con un sabor tropical intenso. Perfecto para refrescarse rápido y para disfrute diario.",
+			"seoTitle": "Bula Pop Ice Blocks | A & S Distributors",
+			"seoDescription": "Bula Pop ice blocks de Tuckers. Helado tropical. Precios al por mayor disponibles.",
+			"seoKeywords": "Bula Pop, ice block, helado, Tuckers ice cream",
+			"imageAlt": "Bula Pop ice block"
+		},
+		"pacific-split": {
+			"name": "Pacific Split",
+			"description": "Ice block Tuckers en palito con refresco frutal en capas. Un favorito colorido para fiestas y disfrute diario.",
+			"seoTitle": "Pacific Split Ice Blocks | A & S Distributors",
+			"seoDescription": "Pacific Split ice blocks de Tuckers. Brillante y refrescante. Precios al por mayor disponibles.",
+			"seoKeywords": "Pacific Split, ice block, helado, Tuckers ice cream",
+			"imageAlt": "Pacific Split ice block"
+		},
 		"sunquick-mango-juice-concentrate": {
 			"name": "Sunquick Mango Juice Concentrate",
 			"description": "Concentrado de jugo de mango Sunquick para hacer refrescantes bebidas de mango en casa. Simplemente mezcla con agua para jugo de mango instantáneo. El formato concentrado es económico y captura el dulce sabor tropical de mangos maduros.",
@@ -1808,14 +1876,6 @@
 			"seoDescription": "KitKat Chunky Milo 44g. Barra de wafer con sabor a Milo. Precios al por mayor disponibles.",
 			"seoKeywords": "KitKat Chunky, Milo, barra wafer, chocolate Nestlé, dulces al por mayor",
 			"imageAlt": "Barra de KitKat Chunky Milo"
-		},
-		"choki-choki-chocolate-paste-12g": {
-			"name": "Choki Choki Pasta de Chocolate",
-			"description": "Pasta de chocolate suave en un práctico tubito. Popular como snack dulce rápido o para loncheras.",
-			"seoTitle": "Choki Choki Pasta de Chocolate 12g | A & S Distributors",
-			"seoDescription": "Choki Choki pasta de chocolate en tubo de 12g. Precios al por mayor disponibles.",
-			"seoKeywords": "Choki Choki, pasta de chocolate, snack de chocolate, dulces al por mayor",
-			"imageAlt": "Tubito de Choki Choki"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",

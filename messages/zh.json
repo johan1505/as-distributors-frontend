@@ -161,35 +161,51 @@
 	},
 	"categories": {
 		"categoryFilter": "在其他类别中搜索",
+		"fresh-produce": "新鲜农产品",
 		"corned-beef": "咸牛肉",
-		"fish-tuna": "鱼类和金枪鱼",
+		"canned-fish-tuna": "罐装鱼和金枪鱼",
+		"frozen-fish": "冷冻鱼",
 		"canned-vegetables": "罐装蔬菜",
 		"cookies-crackers": "饼干与薄脆饼干",
-		"snacks": "零食",
+		"snacks": "零食（Bhooja）",
+		"chips": "薯片",
+		"noodles": "面条",
 		"candies": "糖果",
 		"pickles-spices": "腌菜和香料",
-		"oils": "油类",
+		"oils": "油类与乳制品",
 		"breakfast-cereal": "早餐谷物",
-		"powders-teas": "粉类和茶",
+		"powders-teas": "粉类、茶与面粉",
 		"lamb-goat": "羊肉和山羊肉",
 		"sausages": "香肠",
-		"white-meats": "白肉",
-		"root-vegetables": "根茎类蔬菜",
+		"white-meats": "特色肉类",
+		"root-vegetables": "根茎与蔬菜",
 		"misc-frozen-fresh": "其他冷冻和新鲜",
 		"drinks": "饮料"
 	},
 	"categorySeo": {
+		"fresh-produce": {
+			"title": "新鲜农产品 - 芋头及岛屿主食 | A & S Distributors",
+			"description": "新鲜农产品，包括芋头等岛屿主食，精选品质与新鲜度。",
+			"pageDescription": "用于传统太平洋岛菜肴的新鲜芋头与时令农产品。",
+			"keywords": "新鲜芋头, 新鲜农产品, 太平洋农产品, 芋头根, 岛屿蔬菜"
+		},
 		"corned-beef": {
 			"title": "咸牛肉 - 优质罐装肉类 | A & S Distributors",
 			"description": "来自澳大利亚的高品质咸牛肉和羊肉。Ox & Palm、Pacific、Colonial、Globe和Crown品牌提供多种规格。",
 			"pageDescription": "优质咸牛肉，由高品质草饲澳大利亚安格斯牛肉制成。HACCP和USDA认证，不添加激素或抗生素。",
 			"keywords": "咸牛肉, Ox & Palm, Pacific咸牛肉, 咸羊肉, 清真咸牛肉, 批发咸牛肉"
 		},
-		"fish-tuna": {
-			"title": "鱼类和金枪鱼 - 新鲜、冷冻和罐装 | A & S Distributors",
-			"description": "优质鱼类和金枪鱼，包括新鲜斐济鱼（Kawa Kawa、Ulavi、鹦鹉鱼）、罐装鲭鱼、金枪鱼和沙丁鱼。",
-			"pageDescription": "优质鱼类产品，包括新鲜斐济鱼和罐装品种。Kawa Kawa、鹦鹉鱼、天然油或番茄酱鲭鱼、块状金枪鱼和沙丁鱼。",
-			"keywords": "斐济鱼, Kawa Kawa, 罐装鲭鱼, 罐装金枪鱼, 沙丁鱼, 太平洋鱼, 批发鱼, 鹦鹉鱼"
+		"canned-fish-tuna": {
+			"title": "罐装鱼和金枪鱼 - 鲭鱼、沙丁鱼与金枪鱼 | A & S Distributors",
+			"description": "Angel、Pacific Ocean、777、Brunswick、Skipper等品牌的罐装鲭鱼、沙丁鱼和金枪鱼。",
+			"pageDescription": "风味浓郁、方便储存的罐装鱼类基础食材。",
+			"keywords": "罐装鱼, 罐装金枪鱼, 罐装鲭鱼, 沙丁鱼, Angel, 777"
+		},
+		"frozen-fish": {
+			"title": "冷冻鱼 - 斐济人气选择 | A & S Distributors",
+			"description": "斐济冷冻鱼精选，包括Kawa Kawa与鹦鹉鱼。",
+			"pageDescription": "用于太平洋岛料理的冷冻鱼基础品。",
+			"keywords": "冷冻鱼, 斐济鱼, Kawa Kawa, 鹦鹉鱼, 太平洋鱼"
 		},
 		"canned-vegetables": {
 			"title": "罐装蔬菜 - 椰浆和太平洋产品 | A & S Distributors",
@@ -204,10 +220,22 @@
 			"keywords": "Tim Tam, FMF饼干, Milk Arrowroot, Monte Carlo, 澳大利亚饼干, 斐济饼干, FMF早餐饼干, SAO饼干, 批发饼干"
 		},
 		"snacks": {
-			"title": "零食 - BONGO、TWISTES、UFO's及太平洋岛屿混合零食 | A & S Distributors",
-			"description": "热门零食包括BONGO、TWISTES和UFO's芝士和鸡肉味零食、Jasons Peanut Ruffs、Fiji Mix、Punjabi Mix等传统混合零食。",
-			"pageDescription": "发现太平洋岛屿零食的独特风味。从BONGO、TWISTES和UFO's风味零食到Jasons Peanut Ruffs、传统香料混合和炸豌豆。",
-			"keywords": "BONGO零食, TWISTES零食, UFO's零食, Jasons Peanut Ruffs, Fiji mix, Punjabi mix, 炸豌豆, 太平洋零食, 批发零食"
+			"title": "零食（Bhooja）- 传统混合零食 | A & S Distributors",
+			"description": "Bhooja零食与混合装，包括Fiji Mix、Punjabi Mix、炸豌豆等。",
+			"pageDescription": "太平洋岛屿风味零食：香料混合、炸豌豆与酥脆小食。",
+			"keywords": "Bhooja零食, Fiji mix, Punjabi mix, 炸豌豆, 太平洋零食"
+		},
+		"chips": {
+			"title": "薯片 - BONGO、TWISTES与UFO's | A & S Distributors",
+			"description": "BONGO、TWISTES、UFO's与Jasons Peanut Ruffs等酥脆薯片与零食。",
+			"pageDescription": "多种规格与口味的太平洋人气薯片。",
+			"keywords": "薯片, BONGO, TWISTES, UFO's, Peanut Ruffs, 太平洋零食"
+		},
+		"noodles": {
+			"title": "面条 - Chow口味 | A & S Distributors",
+			"description": "Chow面条，番茄、鸡肉、咖喱三种口味，方便快捷。",
+			"pageDescription": "三种经典口味的Chow面条。",
+			"keywords": "Chow面条, 番茄口味面条, 鸡肉口味面条, 咖喱口味面条"
 		},
 		"candies": {
 			"title": "糖果 - Cadbury巧克力棒 | A & S Distributors",
@@ -222,10 +250,10 @@
 			"keywords": "咖喱粉, 玛萨拉, 芒果腌菜, 罗望子酸辣酱, Punjas香料, 斐济香料, 批发香料"
 		},
 		"oils": {
-			"title": "食用油 - 椰子油和酥油 | A & S Distributors",
-			"description": "优质食用油包括椰子油、芥末油、酥油和用于身体护理的香味天然椰子油。",
-			"pageDescription": "优质食用油和传统酥油。还有我们受欢迎的香味天然椰子油，有Tiara、Rose、Frangipani和Sandalwood香型。",
-			"keywords": "椰子油, 酥油, 芥末油, 天然椰子油, Punjas油, 香味椰子油, 批发食用油"
+			"title": "油类与乳制品 - 椰子油、酥油与奶粉 | A & S Distributors",
+			"description": "优质食用油，包括椰子油、芥子油、酥油，以及奶粉等乳制品主食。",
+			"pageDescription": "优质食用油与传统酥油，同时提供乳制品必需品。",
+			"keywords": "椰子油, 酥油, 芥子油, 奶粉, 批发油类"
 		},
 		"breakfast-cereal": {
 			"title": "早餐麦片 - Weetbix | A & S Distributors",
@@ -234,10 +262,10 @@
 			"keywords": "Weetbix, 早餐麦片, 澳大利亚麦片, 批发麦片, 健康早餐"
 		},
 		"powders-teas": {
-			"title": "粉类和茶 - Milo、卡瓦及更多 | A & S Distributors",
-			"description": "热门饮品包括Milo粉、卡瓦（Lawena和Wake）、奶粉、可可粉和优质红茶。",
-			"pageDescription": "必备粉类和茶，包括深受喜爱的Milo、斐济传统卡瓦、奶粉、可可粉和优质红茶。",
-			"keywords": "Milo粉, 卡瓦粉, 斐济卡瓦, 奶粉, 红茶, Bushells茶, 批发粉类"
+			"title": "粉类、茶与面粉 - Milo、卡瓦及更多 | A & S Distributors",
+			"description": "热门饮品包括Milo粉、卡瓦（Lawena和Wake）、可可、优质红茶与烘焙面粉。",
+			"pageDescription": "必备粉类和茶，包括Milo、斐济传统卡瓦、可可、优质红茶与面粉。",
+			"keywords": "Milo粉, 卡瓦粉, 面粉, 红茶, 批发粉类"
 		},
 		"lamb-goat": {
 			"title": "新西兰羊肉和山羊肉 - USDA认证 | A & S Distributors",
@@ -252,22 +280,22 @@
 			"keywords": "羊肉香肠, 鸡肉香肠, 萨摩亚牛肉香肠, 批发香肠, 太平洋香肠"
 		},
 		"white-meats": {
-			"title": "白肉 - 鸭肉、火鸡和家禽 | A & S Distributors",
-			"description": "新鲜和冷冻白肉包括番鸭、火鸡尾、公鸡等。提供清真选项。",
-			"pageDescription": "优质白肉和家禽。番鸭、火鸡尾、公鸡等。提供清真选项。",
+			"title": "特色肉类 - 鸭肉、火鸡和家禽 | A & S Distributors",
+			"description": "特色肉类，包括番鸭、火鸡尾、公鸡等。提供清真选项。",
+			"pageDescription": "优质特色肉类与家禽。番鸭、火鸡尾、公鸡等。",
 			"keywords": "火鸡尾, 番鸭, 清真家禽, Povi Masima, 公鸡, 批发肉类"
 		},
 		"root-vegetables": {
-			"title": "根茎蔬菜 - 芋头、木薯和面包果 | A & S Distributors",
-			"description": "新鲜和冷冻太平洋岛屿根茎蔬菜，包括芋头、木薯、面包果等。传统食谱必备。",
-			"pageDescription": "传统太平洋岛屿根茎蔬菜。多种品种的芋头、木薯、面包果和其他正宗岛屿烹饪主食。",
-			"keywords": "芋头, 木薯, 面包果, 太平洋蔬菜, 斐济蔬菜, 冷冻芋头, 批发根茎蔬菜"
+			"title": "根茎与蔬菜 - 芋头、木薯和面包果 | A & S Distributors",
+			"description": "新鲜与冷冻的太平洋岛根茎与蔬菜，包括芋头、木薯、面包果等。",
+			"pageDescription": "传统太平洋岛根茎与蔬菜。多种芋头、木薯、面包果等主食。",
+			"keywords": "芋头, 木薯, 面包果, 太平洋蔬菜, 斐济蔬菜, 冷冻芋头, 批发根茎"
 		},
 		"misc-frozen-fresh": {
 			"title": "其他冷冻和新鲜产品 - 冰淇淋、黄油及更多 | A & S Distributors",
-			"description": "各种冷冻和新鲜产品包括Tuckers冰淇淋、Anchor黄油、印度薄饼等。",
+			"description": "多种冷冻与新鲜产品，包括Tuckers冰淇淋、Kool Pop、Bula Pop、Pacific Split、Anchor黄油、印度薄饼等。",
 			"pageDescription": "来自太平洋的各种冷冻和新鲜产品。冰淇淋、黄油、印度薄饼等。",
-			"keywords": "Tuckers冰淇淋, Anchor黄油, 冷冻产品, 批发冷冻, 印度薄饼"
+			"keywords": "Tuckers冰淇淋, Kool Pop, Bula Pop, Pacific Split, Anchor黄油, 冷冻产品, 印度薄饼"
 		},
 		"drinks": {
 			"title": "饮料 - 浓缩果汁和诺丽果汁 | A & S Distributors",
@@ -577,12 +605,12 @@
 			"imageAlt": "整羊肩切块"
 		},
 		"lamb-flap-whole": {
-			"name": "整羊腩",
+			"name": "N. Z. Lamb Flat Whole (SilverFern)",
 			"description": "新西兰羊腩（腹部），在太平洋岛屿各地很受欢迎的美味部位。较高的脂肪含量使其非常适合烧烤和烤肉，外酥内嫩多汁。太平洋岛屿盛宴必备。",
 			"seoTitle": "羊腩腹部切块 | A & S Distributors",
 			"seoDescription": "烧烤用新西兰羊腩。太平洋岛屿美食。提供批发价格。",
 			"seoKeywords": "羊腩, 羊腹, 烧烤羊肉, 太平洋岛屿肉类",
-			"imageAlt": "整羊腩切块"
+			"imageAlt": "N. Z. Lamb Flat Whole (SilverFern)"
 		},
 		"turkey-tails": {
 			"name": "火鸡尾",
@@ -591,6 +619,14 @@
 			"seoDescription": "烧烤和烘烤用火鸡尾。太平洋岛屿BBQ必备品。提供批发价格。",
 			"seoKeywords": "火鸡尾, 太平洋岛屿食品, BBQ肉, 萨摩亚食品",
 			"imageAlt": "火鸡尾包装"
+		},
+		"fresh-taro": {
+			"name": "新鲜芋头",
+			"description": "新鲜芋头根，煮熟后口感细腻带有坚果香。适合煮、蒸或烤，可用于palusami、汤和芋头泥等菜式。",
+			"seoTitle": "新鲜芋头根 | A & S Distributors",
+			"seoDescription": "用于太平洋岛传统料理的新鲜芋头。提供批发价格。",
+			"seoKeywords": "新鲜芋头, 芋头根, 太平洋农产品, 岛屿蔬菜",
+			"imageAlt": "新鲜芋头根"
 		},
 		"povi-masima": {
 			"name": "咸牛肉（Povi Masima）",
@@ -688,6 +724,30 @@
 			"seoKeywords": "三重涟漪冰淇淋, Tuckers, 多口味, 斐济冰淇淋",
 			"imageAlt": "Tuckers三重涟漪冰淇淋包装"
 		},
+		"kool-pop": {
+			"name": "Kool Pop",
+			"description": "Tuckers经典冰棒，明亮果味、清爽解暑。适合炎热天气的随手冷冻小食。",
+			"seoTitle": "Kool Pop 冰棒 | A & S Distributors",
+			"seoDescription": "Tuckers Kool Pop 冰棒。清爽冷冻小食。提供批发价格。",
+			"seoKeywords": "Kool Pop, 冰棒, 冷冻小食, Tuckers冰淇淋",
+			"imageAlt": "Kool Pop 冰棒"
+		},
+		"bula-pop": {
+			"name": "Bula Pop",
+			"description": "热带风味的Tuckers冰棒，清爽可口，适合快速解暑。",
+			"seoTitle": "Bula Pop 冰棒 | A & S Distributors",
+			"seoDescription": "Tuckers Bula Pop 冰棒。热带清爽。提供批发价格。",
+			"seoKeywords": "Bula Pop, 冰棒, 冷冻小食, Tuckers冰淇淋",
+			"imageAlt": "Bula Pop 冰棒"
+		},
+		"pacific-split": {
+			"name": "Pacific Split",
+			"description": "多层果味的Tuckers冰棒，色彩明亮、清爽怡人，适合派对与日常享用。",
+			"seoTitle": "Pacific Split 冰棒 | A & S Distributors",
+			"seoDescription": "Tuckers Pacific Split 冰棒。亮眼清爽。提供批发价格。",
+			"seoKeywords": "Pacific Split, 冰棒, 冷冻小食, Tuckers冰淇淋",
+			"imageAlt": "Pacific Split 冰棒"
+		},
 		"sunquick-mango-juice-concentrate": {
 			"name": "Sunquick芒果汁浓缩液",
 			"description": "Sunquick芒果汁浓缩液，用于在家制作清爽的芒果饮料。只需与水混合即可制成即时芒果汁。浓缩形式经济实惠，捕捉了成熟芒果的甜美热带风味。",
@@ -743,14 +803,6 @@
 			"seoDescription": "KitKat Chunky Milo 44g。Milo风味威化巧克力棒。提供批发价格。",
 			"seoKeywords": "KitKat Chunky, Milo, 威化巧克力, Nestlé, 批发糖果",
 			"imageAlt": "KitKat Chunky Milo巧克力棒"
-		},
-		"choki-choki-chocolate-paste-12g": {
-			"name": "Choki Choki 巧克力酱",
-			"description": "条状包装的顺滑巧克力酱，方便即食。常见于快速甜点和午餐盒零食。",
-			"seoTitle": "Choki Choki 巧克力酱 12g | A & S Distributors",
-			"seoDescription": "Choki Choki 12g条装巧克力酱。提供批发价格。",
-			"seoKeywords": "Choki Choki, 巧克力酱, 巧克力零食, 批发糖果",
-			"imageAlt": "Choki Choki巧克力酱条"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",
@@ -1360,6 +1412,30 @@
 			"seoKeywords": "花生泡芙大包装, Jasons斐济, 花生酱零食, 太平洋岛屿食品",
 			"imageAlt": "Jasons花生泡芙包装"
 		},
+		"chow-tomato-flavour": {
+			"name": "Chow 番茄口味",
+			"description": "浓郁番茄调味的Chow面条。快捷又饱足，可搭配蔬菜或蛋白质进行升级。",
+			"seoTitle": "Chow 番茄口味面条 | A & S Distributors",
+			"seoDescription": "Chow番茄口味面条。快捷美味。提供批发价格。",
+			"seoKeywords": "Chow面条, 番茄口味面条, 即食面, 方便面",
+			"imageAlt": "Chow 番茄口味面条"
+		},
+		"chow-chicken-flavour": {
+			"name": "Chow 鸡肉口味",
+			"description": "经典鸡肉风味的Chow面条，简单方便，适合快速午餐或晚餐。",
+			"seoTitle": "Chow 鸡肉口味面条 | A & S Distributors",
+			"seoDescription": "Chow鸡肉口味面条。便捷又满足。提供批发价格。",
+			"seoKeywords": "Chow面条, 鸡肉口味面条, 即食面, 方便面",
+			"imageAlt": "Chow 鸡肉口味面条"
+		},
+		"chow-curry-flavour": {
+			"name": "Chow 咖喱口味",
+			"description": "带有温暖香料的咖喱风味Chow面条。忙碌日子里也能迅速享用的浓郁口味。",
+			"seoTitle": "Chow 咖喱口味面条 | A & S Distributors",
+			"seoDescription": "Chow咖喱口味面条。香气十足，快速方便。提供批发价格。",
+			"seoKeywords": "Chow面条, 咖喱口味面条, 即食面, 方便面",
+			"imageAlt": "Chow 咖喱口味面条"
+		},
 		"homemaid-amra-pickles": {
 			"name": "Homemaid 阿姆拉腌菜",
 			"description": "由阿姆拉果（印度酸枣）制成的传统斐济腌菜。这种酸辣调味品为餐食增添一抹酸甜风味。印度-斐济家庭咖喱和米饭菜肴的深受喜爱的配菜。",
@@ -1616,14 +1692,6 @@
 			"seoKeywords": "雀巢可可, 可可粉, 烘焙可可, 热巧克力",
 			"imageAlt": "雀巢可可粉包装"
 		},
-		"bushells-black-tea-200gr": {
-			"name": "Bushells红茶",
-			"description": "成立于1883年的澳大利亚第一个茶叶品牌。Bushells蓝标散装茶提供圆润、醇厚的茶味，专为澳大利亚口味精心调制。每包都凝聚了130多年的制茶专业知识。",
-			"seoTitle": "Bushells红茶 200g散装 | A & S Distributors",
-			"seoDescription": "Bushells蓝标红茶 200g。澳大利亚第一个茶叶品牌。提供批发价格。",
-			"seoKeywords": "Bushells茶, 澳大利亚茶, 散装红茶, 蓝标",
-			"imageAlt": "Bushells红茶盒装"
-		},
 		"punjas-ceylon-black-tea-200gr": {
 			"name": "Punjas锡兰红茶",
 			"description": "来自斯里兰卡（锡兰）的优质红茶，以其明亮、清爽的风味和金黄茶汤享誉世界。这些散装茶叶冲泡出清新的茶汤，具有茶叶鉴赏家珍视的独特锡兰特色。",
@@ -1641,20 +1709,20 @@
 			"imageAlt": "Punjas茶马沙拉盒装"
 		},
 		"lamb-shoulder-diced": {
-			"name": "羊肉丁",
+			"name": "羊肩排",
 			"description": "新西兰羊肉切成均匀的小块，适合咖喱、炖菜和烤串。草饲羊肉在我们的USDA认证设施中加工，品质始终如一。即可烹饪，快速准备餐食。",
 			"seoTitle": "新西兰羊肉丁 | A & S Distributors",
 			"seoDescription": "适合咖喱和炖菜的新西兰羊肉丁。USDA认证。提供批发价格。",
 			"seoKeywords": "羊肉丁, 羊肉块, 新西兰羊肉, 咖喱肉",
-			"imageAlt": "羊肉丁切块"
+			"imageAlt": "羊肩排"
 		},
 		"lamb-shoulder-diced-prepack": {
-			"name": "羊肉丁预包装",
+			"name": "羊肩排预包装",
 			"description": "方便的新西兰羊肉丁预包装份量。每包含有完美切块的肉，随时可用于您的食谱。非常适合需要一致份量规格的零售商和家庭。",
 			"seoTitle": "羊肉丁预包装份量 | A & S Distributors",
 			"seoDescription": "预包装羊肉丁份量。零售方便。提供批发价格。",
 			"seoKeywords": "羊肉预包装, 羊肉丁份量, 零售羊肉, 便利肉类",
-			"imageAlt": "羊肉丁预包装切块"
+			"imageAlt": "羊肩排预包装"
 		},
 		"lamb-neck-whole": {
 			"name": "整羊颈",
@@ -1696,14 +1764,6 @@
 			"seoKeywords": "羊腿牛排, 羊肉切片, 羊肉预包装, 烧烤肉",
 			"imageAlt": "羊腿切片预包装切块"
 		},
-		"lamb-flap-sliced-prepack": {
-			"name": "羊腩切片预包装",
-			"description": "羊腩切片并预包装以便于烧烤和烹饪。每份都可以直接放上烧烤架或煎锅。这种已成为太平洋岛屿庆典代名词的切块，以方便的零售包装呈现。",
-			"seoTitle": "羊腩切片预包装 | A & S Distributors",
-			"seoDescription": "预包装羊腩切片。烧烤就绪。提供批发价格。",
-			"seoKeywords": "羊腩预包装, 羊腹切片, 烧烤肉, 太平洋岛屿食品",
-			"imageAlt": "羊腩切片预包装切块"
-		},
 		"lamb-shank-whole": {
 			"name": "整羊小腿",
 			"description": "整只羊小腿，慢炖的终极部位。富含胶原蛋白，在低温慢炖时转化为丝滑明胶。结果是骨肉分离的嫩肉配上浓郁美味的酱汁。",
@@ -1721,12 +1781,12 @@
 			"imageAlt": "羊小腿切片预包装切块"
 		},
 		"australian-goat-whole": {
-			"name": "整只澳大利亚山羊",
+			"name": "Australia Goat Whole 6-Way",
 			"description": "整只澳大利亚山羊胴体，在加勒比、非洲、南亚和太平洋岛屿美食中流行的瘦肉蛋白质。我们的山羊在我们的USDA认证设施中加工。非常适合传统咖喱、炖菜和烤肉。",
 			"seoTitle": "整只澳大利亚山羊 | A & S Distributors",
 			"seoDescription": "整只澳大利亚山羊胴体。USDA认证加工。提供批发价格。",
 			"seoKeywords": "整只山羊, 澳大利亚山羊, 山羊肉, 咖喱山羊",
-			"imageAlt": "整只澳大利亚山羊切块"
+			"imageAlt": "Australia Goat Whole 6-Way"
 		},
 		"australian-goat-diced-prepack": {
 			"name": "澳大利亚山羊肉丁预包装",

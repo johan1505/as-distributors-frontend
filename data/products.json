@@ -116,7 +116,7 @@
 		"itemNumber": "400",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": true
 	},
 	{
@@ -124,7 +124,7 @@
 		"itemNumber": "402",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -132,7 +132,7 @@
 		"itemNumber": "404",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -140,7 +140,7 @@
 		"itemNumber": "406",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -148,7 +148,7 @@
 		"itemNumber": "408",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -156,7 +156,7 @@
 		"itemNumber": "409",
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -164,7 +164,7 @@
 		"itemNumber": "410",
 		"unitPerPack": 100,
 		"overallSize": "3.75 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -172,7 +172,7 @@
 		"itemNumber": "412",
 		"unitPerPack": 24,
 		"overallSize": "7.05 oz",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
@@ -180,7 +180,7 @@
 		"itemNumber": "120",
 		"unitPerPack": 1,
 		"overallSize": "35 lbs aprox",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "frozen-fish",
 		"featured": true
 	},
 	{
@@ -188,7 +188,7 @@
 		"itemNumber": "121",
 		"unitPerPack": 1,
 		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "frozen-fish",
 		"featured": false
 	},
 	{
@@ -196,7 +196,7 @@
 		"itemNumber": "122",
 		"unitPerPack": 1,
 		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "frozen-fish",
 		"featured": false
 	},
 	{
@@ -204,7 +204,7 @@
 		"itemNumber": "123",
 		"unitPerPack": 1,
 		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "frozen-fish",
 		"featured": false
 	},
 	{
@@ -212,7 +212,7 @@
 		"itemNumber": "124",
 		"unitPerPack": 1,
 		"overallSize": "N/A",
-		"categoryKey": "fish-tuna",
+		"categoryKey": "frozen-fish",
 		"featured": false
 	},
 	{
@@ -412,7 +412,7 @@
 		"itemNumber": "380",
 		"unitPerPack": 1,
 		"overallSize": "10 kg",
-		"categoryKey": "cookies-crackers",
+		"categoryKey": "powders-teas",
 		"featured": false
 	},
 	{
@@ -596,7 +596,7 @@
 		"itemNumber": "520",
 		"unitPerPack": 12,
 		"overallSize": "156 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -604,7 +604,7 @@
 		"itemNumber": "522",
 		"unitPerPack": 36,
 		"overallSize": "64 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -612,7 +612,7 @@
 		"itemNumber": "524",
 		"unitPerPack": 48,
 		"overallSize": "28 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -620,7 +620,7 @@
 		"itemNumber": "530",
 		"unitPerPack": 12,
 		"overallSize": "156 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -628,7 +628,7 @@
 		"itemNumber": "532",
 		"unitPerPack": 12,
 		"overallSize": "64 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -636,7 +636,7 @@
 		"itemNumber": "534",
 		"unitPerPack": 48,
 		"overallSize": "28 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -644,7 +644,7 @@
 		"itemNumber": "540",
 		"unitPerPack": 60,
 		"overallSize": "20 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -652,7 +652,7 @@
 		"itemNumber": "542",
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -660,7 +660,7 @@
 		"itemNumber": "544",
 		"unitPerPack": 16,
 		"overallSize": "250 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -668,7 +668,7 @@
 		"itemNumber": "546",
 		"unitPerPack": 8,
 		"overallSize": "500 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -676,7 +676,7 @@
 		"itemNumber": "550",
 		"unitPerPack": 60,
 		"overallSize": "20 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -684,7 +684,7 @@
 		"itemNumber": "552",
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -692,7 +692,7 @@
 		"itemNumber": "554",
 		"unitPerPack": 16,
 		"overallSize": "250 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -700,7 +700,7 @@
 		"itemNumber": "556",
 		"unitPerPack": 8,
 		"overallSize": "500 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -708,7 +708,7 @@
 		"itemNumber": "560",
 		"unitPerPack": 60,
 		"overallSize": "20 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -716,7 +716,7 @@
 		"itemNumber": "561",
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -724,7 +724,7 @@
 		"itemNumber": "562",
 		"unitPerPack": 16,
 		"overallSize": "200 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -732,7 +732,7 @@
 		"itemNumber": "570",
 		"unitPerPack": 48,
 		"overallSize": "28 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -740,7 +740,7 @@
 		"itemNumber": "571",
 		"unitPerPack": 36,
 		"overallSize": "64 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
 		"featured": false
 	},
 	{
@@ -748,7 +748,31 @@
 		"itemNumber": "572",
 		"unitPerPack": 12,
 		"overallSize": "156 gr",
-		"categoryKey": "snacks",
+		"categoryKey": "chips",
+		"featured": false
+	},
+	{
+		"slug": "chow-tomato-flavour",
+		"itemNumber": "800",
+		"unitPerPack": 5,
+		"overallSize": "425 g",
+		"categoryKey": "noodles",
+		"featured": false
+	},
+	{
+		"slug": "chow-chicken-flavour",
+		"itemNumber": "801",
+		"unitPerPack": 5,
+		"overallSize": "425 g",
+		"categoryKey": "noodles",
+		"featured": false
+	},
+	{
+		"slug": "chow-curry-flavour",
+		"itemNumber": "802",
+		"unitPerPack": 5,
+		"overallSize": "425 g",
+		"categoryKey": "noodles",
 		"featured": false
 	},
 	{
@@ -1044,7 +1068,7 @@
 		"itemNumber": "394",
 		"unitPerPack": 24,
 		"overallSize": "15.87 oz",
-		"categoryKey": "powders-teas",
+		"categoryKey": "oils",
 		"featured": true
 	},
 	{
@@ -1084,14 +1108,6 @@
 		"itemNumber": "399",
 		"unitPerPack": 12,
 		"overallSize": "11.5 oz",
-		"categoryKey": "powders-teas",
-		"featured": false
-	},
-	{
-		"slug": "bushells-black-tea-200gr",
-		"itemNumber": "600",
-		"unitPerPack": 1,
-		"overallSize": "200 gr",
 		"categoryKey": "powders-teas",
 		"featured": false
 	},
@@ -1178,14 +1194,6 @@
 	{
 		"slug": "lamb-flap-whole",
 		"itemNumber": "108",
-		"unitPerPack": 1,
-		"overallSize": "22 lbs",
-		"categoryKey": "lamb-goat",
-		"featured": false
-	},
-	{
-		"slug": "lamb-flap-sliced-prepack",
-		"itemNumber": "109",
 		"unitPerPack": 1,
 		"overallSize": "22 lbs",
 		"categoryKey": "lamb-goat",
@@ -1304,6 +1312,14 @@
 		"featured": false
 	},
 	{
+		"slug": "fresh-taro",
+		"itemNumber": "213",
+		"unitPerPack": 10,
+		"overallSize": "1 kg (2.20 lbs)",
+		"categoryKey": "fresh-produce",
+		"featured": true
+	},
+	{
 		"slug": "yellow-cassava-2lb",
 		"itemNumber": "200",
 		"unitPerPack": 10,
@@ -1323,7 +1339,7 @@
 		"slug": "white-cassava-5lb",
 		"itemNumber": "202",
 		"unitPerPack": 6,
-		"overallSize": "5 lbs",
+		"overallSize": "2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1331,7 +1347,7 @@
 		"slug": "pink-taro",
 		"itemNumber": "203",
 		"unitPerPack": 6,
-		"overallSize": "5 lbs or 1kg",
+		"overallSize": "2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": true
 	},
@@ -1339,7 +1355,7 @@
 		"slug": "purple-taro-2lb",
 		"itemNumber": "204",
 		"unitPerPack": 10,
-		"overallSize": "2.20 lbs",
+		"overallSize": "1 kg (2.20 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1347,7 +1363,7 @@
 		"slug": "purple-taro-5lb",
 		"itemNumber": "205",
 		"unitPerPack": 6,
-		"overallSize": "5 lbs",
+		"overallSize": "2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1355,7 +1371,7 @@
 		"slug": "white-taro",
 		"itemNumber": "206",
 		"unitPerPack": 6,
-		"overallSize": "5 lbs",
+		"overallSize": "2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1363,7 +1379,7 @@
 		"slug": "yellow-taro-2lb",
 		"itemNumber": "207",
 		"unitPerPack": 10,
-		"overallSize": "2.20 lbs",
+		"overallSize": "1 kg (2.20 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1371,7 +1387,7 @@
 		"slug": "yellow-taro-5lb",
 		"itemNumber": "208",
 		"unitPerPack": 6,
-		"overallSize": "5 lbs",
+		"overallSize": "2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1472,6 +1488,30 @@
 		"featured": false
 	},
 	{
+		"slug": "kool-pop",
+		"itemNumber": "234",
+		"unitPerPack": 24,
+		"overallSize": "80 ml",
+		"categoryKey": "misc-frozen-fresh",
+		"featured": false
+	},
+	{
+		"slug": "bula-pop",
+		"itemNumber": "235",
+		"unitPerPack": 24,
+		"overallSize": "80 ml",
+		"categoryKey": "misc-frozen-fresh",
+		"featured": false
+	},
+	{
+		"slug": "pacific-split",
+		"itemNumber": "236",
+		"unitPerPack": 24,
+		"overallSize": "80 ml",
+		"categoryKey": "misc-frozen-fresh",
+		"featured": false
+	},
+	{
 		"slug": "sunquick-tropical-juice-concentrate",
 		"itemNumber": "630",
 		"unitPerPack": 6,
@@ -1524,14 +1564,6 @@
 		"itemNumber": "CH024",
 		"unitPerPack": 36,
 		"overallSize": "44 g",
-		"categoryKey": "candies",
-		"featured": false
-	},
-	{
-		"slug": "choki-choki-chocolate-paste-12g",
-		"itemNumber": "CH043",
-		"unitPerPack": 100,
-		"overallSize": "12 g",
 		"categoryKey": "candies",
 		"featured": false
 	},

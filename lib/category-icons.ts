@@ -24,11 +24,15 @@ type IconComponent =
 	| ComponentType<SVGProps<SVGSVGElement> & { size?: number | string }>;
 
 export const CATEGORY_ICONS: Record<CategoryKey, IconComponent> = {
+	'fresh-produce': Leaf,
 	'corned-beef': Beef,
-	'fish-tuna': Fish,
+	'canned-fish-tuna': Fish,
+	'frozen-fish': Snowflake,
 	'canned-vegetables': Carrot,
 	'cookies-crackers': Cookie,
 	snacks: Popcorn,
+	chips: Popcorn,
+	noodles: Utensils,
 	candies: Candy,
 	'pickles-spices': JarIcon,
 	oils: OilBottleIcon,

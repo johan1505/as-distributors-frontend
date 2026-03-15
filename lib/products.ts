@@ -96,6 +96,9 @@ export const PRODUCT_SLUGS = [
 	'jasons-peanut-ruffs-28gr',
 	'jasons-peanut-ruffs-64gr',
 	'jasons-peanut-ruffs-156gr',
+	'chow-tomato-flavour',
+	'chow-chicken-flavour',
+	'chow-curry-flavour',
 	'cadbury-crunchie-bars',
 	'cadbury-dream-bars',
 	'cadbury-fruit-nut',
@@ -138,7 +141,6 @@ export const PRODUCT_SLUGS = [
 	'kava-lawena-powder',
 	'kava-wake-powder',
 	'nestle-cocoa',
-	'bushells-black-tea-200gr',
 	'punjas-ceylon-black-tea-200gr',
 	'punjas-tea-masala',
 	'lamb-shoulder-whole',
@@ -150,7 +152,6 @@ export const PRODUCT_SLUGS = [
 	'lamb-leg-whole',
 	'lamb-leg-sliced-prepack',
 	'lamb-flap-whole',
-	'lamb-flap-sliced-prepack',
 	'lamb-shank-whole',
 	'lamb-shank-sliced-prepack',
 	'australian-goat-whole',
@@ -165,6 +166,7 @@ export const PRODUCT_SLUGS = [
 	'roosters-halal',
 	'povi-masima',
 	'turkey-tails',
+	'fresh-taro',
 	'yellow-cassava-2lb',
 	'white-cassava-5lb',
 	'white-cassava-2lb',
@@ -186,6 +188,9 @@ export const PRODUCT_SLUGS = [
 	'tucker-blitz-bars',
 	'tuckers-passion-fruit',
 	'tuckers-triple-ripple',
+	'kool-pop',
+	'bula-pop',
+	'pacific-split',
 	'sunquick-tropical-juice-concentrate',
 	'sunquick-orange-juice-concentrate',
 	'sunquick-mango-juice-concentrate',
@@ -193,7 +198,6 @@ export const PRODUCT_SLUGS = [
 	'nestle-smarties-50g',
 	'nestle-milkybar-classic-50g',
 	'nestle-kitkat-chunky-milo-44g',
-	'choki-choki-chocolate-paste-12g',
 	'jasons-black-hacks-150g',
 	'jasons-clear-mints-150g',
 	'pops-kola-2-5l',
@@ -218,11 +222,15 @@ export type ProductSlug = (typeof PRODUCT_SLUGS)[number];
 
 // Define category keys as const array to preserve literal types and derive union type
 const CATEGORY_KEYS = [
+	'fresh-produce',
 	'corned-beef',
-	'fish-tuna',
+	'canned-fish-tuna',
+	'frozen-fish',
 	'canned-vegetables',
 	'cookies-crackers',
 	'snacks',
+	'chips',
+	'noodles',
 	'candies',
 	'pickles-spices',
 	'oils',
@@ -304,11 +312,8 @@ export function getFeaturedProducts(): ProductBase[] {
 }
 
 export function getCategories(): CategoryKey[] {
-	const categories = new Set<CategoryKey>();
-	getAllProductsBase().forEach((p) => {
-		categories.add(p.categoryKey);
-	});
-	return Array.from(categories);
+	const categories = new Set<CategoryKey>(getAllProductsBase().map((p) => p.categoryKey));
+	return CATEGORY_KEYS.filter((key) => categories.has(key));
 }
 
 export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
