@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { AddToQuoteButton } from "@/components/quote/AddToQuoteButton";
 import type { ProductBase } from "@/lib/products";
-import { getProductImageSource } from "@/lib/products";
+import { getProductImage } from "@/lib/products";
 import { ProductBadges } from "./ProductBadges";
 import ExportedImage from "next-image-export-optimizer";
 import { ROUTES } from "@/lib/routes";
@@ -44,7 +44,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
           <ExportedImage
             width={800}
             height={600}
-            src={getProductImageSource(product.slug)}
+            src={getProductImage(product.slug)}
             alt={tProducts(`${product.slug}.imageAlt`)}
             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 300px"
             className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"

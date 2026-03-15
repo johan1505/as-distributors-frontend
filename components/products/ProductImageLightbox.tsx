@@ -1,10 +1,11 @@
 "use client"
 
+import type { StaticImageData } from "next/image"
 import ExportedImage from "next-image-export-optimizer"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 
 interface ProductImageLightboxProps {
-  src: string
+  src: StaticImageData | string
   alt: string
   open: boolean
   onClose: () => void

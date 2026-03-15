@@ -1,4 +1,6 @@
+import type { StaticImageData } from 'next/image';
 import productsData from '@/data/products.json';
+import { PRODUCT_IMAGE_BY_SLUG, PRODUCT_IMAGE_PATH_BY_SLUG } from '@/lib/product-images.generated';
 
 // Define slugs as const array to preserve literal types and derive union type
 export const PRODUCT_SLUGS = [
@@ -279,7 +281,11 @@ export interface ProductBase {
 }
 
 export function getProductImageSource(slug: ProductSlug): string {
-	return `/images/${slug}.webp`;
+	return PRODUCT_IMAGE_PATH_BY_SLUG[slug] ?? `/images/${slug}.webp`;
+}
+
+export function getProductImage(slug: ProductSlug): StaticImageData | string {
+	return PRODUCT_IMAGE_BY_SLUG[slug] ?? getProductImageSource(slug);
 }
 
 // Type guard for ProductBase

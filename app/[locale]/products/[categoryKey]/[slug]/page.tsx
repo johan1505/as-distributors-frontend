@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
 	getAllProductsBase,
+	getProductImage,
 	getProductBySlug,
 	getProductImageSource,
 	isProductSlug,
@@ -175,7 +176,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 					{/* Product Image */}
 					<div className="h-full flex items-center justify-center">
 						<ProductDetailImage
-							src={getProductImageSource(slug)}
+							src={getProductImage(slug)}
 							alt={tProducts(`${slug}.imageAlt`)}
 							ariaLabel={`${t('viewLargerImage')} ${name}`}
 						/>

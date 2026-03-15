@@ -1,12 +1,13 @@
 "use client"
 
+import type { StaticImageData } from "next/image"
 import { useState } from "react"
 import ExportedImage from "next-image-export-optimizer"
 import { ZoomIn } from "lucide-react"
 import { ProductImageLightbox } from "./ProductImageLightbox"
 
 interface ProductDetailImageProps {
-  src: string
+  src: StaticImageData | string
   alt: string
   ariaLabel: string
 }

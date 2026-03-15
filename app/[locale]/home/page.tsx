@@ -9,6 +9,7 @@ import { FeaturedProductsCarousel } from '@/components/products/FeaturedProducts
 import { buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 import ExportedImage from 'next-image-export-optimizer';
+import islandsBackground from '@/public/images/islands-background.png';
 
 interface HomePageProps {
 	params: Promise<{ locale: Locale }>;
@@ -68,10 +69,10 @@ export default async function HomePage({ params }: HomePageProps) {
 			<section className="relative overflow-hidden">
 				<div aria-hidden className="absolute inset-0">
 					<ExportedImage
-						src="/images/islands-background.png"
+						src={islandsBackground}
 						alt=""
 						fill
-						priority
+						preload
 						sizes="100vw"
 						className="object-cover object-center"
 						placeholder="empty"

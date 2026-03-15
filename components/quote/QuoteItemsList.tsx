@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { Minus, Plus, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useQuote, MAX_QUANTITY_PER_PRODUCT } from "./QuoteProvider";
-import { getProductImageSource } from "@/lib/products";
+import { getProductImage } from "@/lib/products";
 import type { ProductSlug } from "@/lib/products";
 import ExportedImage from "next-image-export-optimizer";
 import { ROUTES } from "@/lib/routes";
@@ -58,7 +58,7 @@ export function QuoteItemsList() {
             <ExportedImage
               width={800}
               height={600}
-              src={getProductImageSource(item.product.slug)}
+              src={getProductImage(item.product.slug)}
               alt={tProducts(`${item.product.slug}.imageAlt`)}
               sizes="96px"
               className="size-20 md:size-24 object-contain bg-white rounded-lg shrink-0"

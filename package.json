@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next-image-export-optimizer",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "deploy": "npm install && npm run test && npm run build",
     "dev:fix": "biome lint --write . && biome format --write .",
     "test:format": "biome format .",
