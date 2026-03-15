@@ -685,12 +685,12 @@
 			"imageAlt": "Paquete de FMF Breakfast Crackers"
 		},
 		"fmf-breakfast-crackers-fine": {
-			"name": "FMF Breakfast Crackers Fine",
+			"name": "FMF Fine Fare Breakfast Crackers",
 			"description": "El paquete más pequeño del cracker más icónico de Fiji. El mismo gran sabor que ha hecho de FMF Breakfast Crackers un nombre del hogar desde 1973. Ligeros, crujientes y perfectos para un snack rápido o junto a tus untables y dips favoritos.",
 			"seoTitle": "FMF Breakfast Crackers Fine | A & S Distributors",
 			"seoDescription": "FMF Breakfast Crackers Fine, el cracker icónico de Fiji en un tamaño conveniente. Precios al por mayor disponibles.",
 			"seoKeywords": "FMF breakfast crackers, crackers de Fiji, crackers finos, snacks del Pacífico",
-			"imageAlt": "Paquete de FMF Breakfast Crackers Fine"
+			"imageAlt": "Paquete de FMF Fine Fare Breakfast Crackers"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Breakfast Crackers",
@@ -1404,7 +1404,7 @@
 			"seoKeywords": "paleta de cordero, cordero de Nueva Zelanda, cordero entero, cordero USDA, cordero al por mayor",
 			"imageAlt": "Corte de Lamb Shoulder Whole"
 		},
-		"lamb-shoulder-diced": {
+		"lamb-shoulder-chops": {
 			"name": "Lamb Shoulder Chops",
 			"description": "Cordero de Nueva Zelanda cortado en cubos uniformes para curries, estofados y kebabs. Alimentado con pasto y procesado en nuestra instalación certificada USDA para calidad consistente. Listo para cocinar para preparación rápida de comidas.",
 			"seoTitle": "Cordero de Nueva Zelanda en Cubos | A & S Distributors",
@@ -1412,7 +1412,7 @@
 			"seoKeywords": "cordero en cubos, cubos de cordero, cordero de Nueva Zelanda, carne para curry",
 			"imageAlt": "Corte de Lamb Shoulder Chops"
 		},
-		"lamb-shoulder-diced-prepack": {
+		"lamb-shoulder-chops-prepack": {
 			"name": "Lamb Shoulder Chops Prepack",
 			"description": "Porciones pre-empacadas convenientes de cordero en cubos de Nueva Zelanda. Cada paquete contiene carne perfectamente cortada lista para tus recetas. Ideal para minoristas y hogares que quieren tamaños de porción consistentes.",
 			"seoTitle": "Cordero en Cubos Prepack Porciones | A & S Distributors",
@@ -1485,12 +1485,12 @@
 			"imageAlt": "Corte de Lamb Shank Sliced Prepack"
 		},
 		"australian-goat-whole": {
-			"name": "Australia Goat Whole 6-Way",
+			"name": "Australian Goat Whole 6-Way",
 			"description": "Canal de cabra australiana entera, una proteína magra popular en cocinas caribeñas, africanas, del sur de Asia y de las Islas del Pacífico. Nuestras cabras son procesadas en nuestra instalación certificada USDA. Ideal para curries, estofados y asados tradicionales.",
 			"seoTitle": "Cabra Australiana Entera | A & S Distributors",
 			"seoDescription": "Canal de cabra australiana entera. Procesamiento certificado USDA. Precios al por mayor disponibles.",
 			"seoKeywords": "cabra entera, cabra australiana, carne de cabra, curry de cabra",
-			"imageAlt": "Corte de Australia Goat Whole 6-Way"
+			"imageAlt": "Corte de Australian Goat Whole 6-Way"
 		},
 		"australian-goat-diced-prepack": {
 			"name": "Australian Goat Diced Prepack",
@@ -2033,13 +2033,21 @@
 			"ariaLabel": "Envíenos un correo a {email}"
 		},
 		"address": {
-			"label": "Dirección",
+			"label": "Dirección del almacén",
 			"street": "4710 Elm Street",
 			"city": "Salida",
 			"state": "CA",
 			"zipCode": "95368",
 			"description": "Visítenos en nuestra ubicación de Salida",
 			"ariaLabel": "Abrir {address} en Google Maps"
+		},
+		"mailingAddress": {
+			"label": "Dirección postal",
+			"value": "4921 Salida Avenue, Salida, CA, 95368",
+			"ariaLabel": "Copiar {address}",
+			"copyLabel": "Copiar",
+			"copySuccess": "Copiado",
+			"copyAria": "Copiar {address} al portapapeles"
 		},
 		"hours": {
 			"label": "Horario Comercial",

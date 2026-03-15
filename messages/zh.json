@@ -1045,12 +1045,12 @@
 			"imageAlt": "FMF早餐饼干饼干包装"
 		},
 		"fmf-breakfast-crackers-fine": {
-			"name": "FMF早餐饼干 精制",
+			"name": "FMF Fine Fare Breakfast Crackers",
 			"description": "斐济最具标志性饼干的小包装。自1973年以来，FMF早餐饼干就以其出色的口味成为家喻户晓的名字。轻盈酥脆，非常适合快速零食或搭配您喜爱的涂抹酱和蘸酱。",
 			"seoTitle": "FMF早餐饼干 精制 | A & S Distributors",
 			"seoDescription": "FMF早餐饼干精制，斐济标志性饼干方便规格。提供批发价格。",
 			"seoKeywords": "FMF早餐饼干, 斐济饼干, 精制饼干, 太平洋零食",
-			"imageAlt": "FMF早餐饼干精制包装"
+			"imageAlt": "FMF Fine Fare Breakfast Crackers包装"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF早餐饼干",
@@ -1708,7 +1708,7 @@
 			"seoKeywords": "Punjas茶马沙拉, 奶茶香料, 马沙拉奶茶混合, 印度茶香料",
 			"imageAlt": "Punjas茶马沙拉盒装"
 		},
-		"lamb-shoulder-diced": {
+		"lamb-shoulder-chops": {
 			"name": "羊肩排",
 			"description": "新西兰羊肉切成均匀的小块，适合咖喱、炖菜和烤串。草饲羊肉在我们的USDA认证设施中加工，品质始终如一。即可烹饪，快速准备餐食。",
 			"seoTitle": "新西兰羊肉丁 | A & S Distributors",
@@ -1716,7 +1716,7 @@
 			"seoKeywords": "羊肉丁, 羊肉块, 新西兰羊肉, 咖喱肉",
 			"imageAlt": "羊肩排"
 		},
-		"lamb-shoulder-diced-prepack": {
+		"lamb-shoulder-chops-prepack": {
 			"name": "羊肩排预包装",
 			"description": "方便的新西兰羊肉丁预包装份量。每包含有完美切块的肉，随时可用于您的食谱。非常适合需要一致份量规格的零售商和家庭。",
 			"seoTitle": "羊肉丁预包装份量 | A & S Distributors",
@@ -1781,12 +1781,12 @@
 			"imageAlt": "羊小腿切片预包装切块"
 		},
 		"australian-goat-whole": {
-			"name": "Australia Goat Whole 6-Way",
+			"name": "Australian Goat Whole 6-Way",
 			"description": "整只澳大利亚山羊胴体，在加勒比、非洲、南亚和太平洋岛屿美食中流行的瘦肉蛋白质。我们的山羊在我们的USDA认证设施中加工。非常适合传统咖喱、炖菜和烤肉。",
 			"seoTitle": "整只澳大利亚山羊 | A & S Distributors",
 			"seoDescription": "整只澳大利亚山羊胴体。USDA认证加工。提供批发价格。",
 			"seoKeywords": "整只山羊, 澳大利亚山羊, 山羊肉, 咖喱山羊",
-			"imageAlt": "Australia Goat Whole 6-Way"
+			"imageAlt": "Australian Goat Whole 6-Way"
 		},
 		"australian-goat-diced-prepack": {
 			"name": "澳大利亚山羊肉丁预包装",
@@ -2032,13 +2032,21 @@
 			"ariaLabel": "发送邮件至{email}"
 		},
 		"address": {
-			"label": "地址",
+			"label": "仓库地址",
 			"street": "4710 Elm Street",
 			"city": "Salida",
 			"state": "CA",
 			"zipCode": "95368",
 			"description": "访问我们的Salida位置",
 			"ariaLabel": "在Google地图中打开{address}"
+		},
+		"mailingAddress": {
+			"label": "邮寄地址",
+			"value": "4921 Salida Avenue, Salida, CA, 95368",
+			"ariaLabel": "复制{address}",
+			"copyLabel": "复制",
+			"copySuccess": "已复制",
+			"copyAria": "复制{address}到剪贴板"
 		},
 		"hours": {
 			"label": "营业时间",

@@ -755,7 +755,7 @@
 		"slug": "chow-tomato-flavour",
 		"itemNumber": "800",
 		"unitPerPack": 5,
-		"overallSize": "425 g",
+		"overallSize": "400 g",
 		"categoryKey": "noodles",
 		"featured": false
 	},
@@ -763,7 +763,7 @@
 		"slug": "chow-chicken-flavour",
 		"itemNumber": "801",
 		"unitPerPack": 5,
-		"overallSize": "425 g",
+		"overallSize": "400 g",
 		"categoryKey": "noodles",
 		"featured": false
 	},
@@ -771,7 +771,7 @@
 		"slug": "chow-curry-flavour",
 		"itemNumber": "802",
 		"unitPerPack": 5,
-		"overallSize": "425 g",
+		"overallSize": "400 g",
 		"categoryKey": "noodles",
 		"featured": false
 	},
@@ -1136,7 +1136,7 @@
 		"featured": true
 	},
 	{
-		"slug": "lamb-shoulder-diced",
+		"slug": "lamb-shoulder-chops",
 		"itemNumber": "101",
 		"unitPerPack": 1,
 		"overallSize": "18 lbs",
@@ -1144,7 +1144,7 @@
 		"featured": false
 	},
 	{
-		"slug": "lamb-shoulder-diced-prepack",
+		"slug": "lamb-shoulder-chops-prepack",
 		"itemNumber": "102",
 		"unitPerPack": 1,
 		"overallSize": "40 lbs aprox",
@@ -1499,7 +1499,7 @@
 		"slug": "bula-pop",
 		"itemNumber": "235",
 		"unitPerPack": 24,
-		"overallSize": "80 ml",
+		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
 		"featured": false
 	},
@@ -1507,7 +1507,7 @@
 		"slug": "pacific-split",
 		"itemNumber": "236",
 		"unitPerPack": 24,
-		"overallSize": "80 ml",
+		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
 		"featured": false
 	},

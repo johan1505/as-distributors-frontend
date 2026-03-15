@@ -885,12 +885,12 @@
 			"imageAlt": "FMF 아침 크래커 크래커 패키지"
 		},
 		"fmf-breakfast-crackers-fine": {
-			"name": "FMF 아침 크래커 파인",
+			"name": "FMF Fine Fare Breakfast Crackers",
 			"description": "피지의 가장 상징적인 크래커의 소형 팩. 1973년부터 FMF 아침 크래커를 가정의 이름으로 만든 동일한 훌륭한 맛. 가볍고 바삭하며 빠른 간식이나 좋아하는 스프레드, 딥과 함께 즐기기에 완벽.",
 			"seoTitle": "FMF 아침 크래커 파인 | A & S Distributors",
 			"seoDescription": "편리한 사이즈의 피지의 상징적인 크래커 FMF 아침 크래커 파인. 도매 가격 제공.",
 			"seoKeywords": "FMF 아침 크래커, 피지 크래커, 파인 크래커, 태평양 스낵",
-			"imageAlt": "FMF 아침 크래커 파인 크래커 패키지"
+			"imageAlt": "FMF Fine Fare Breakfast Crackers 패키지"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF 아침 크래커",
@@ -1548,7 +1548,7 @@
 			"seoKeywords": "Punjas 티 마살라, 차이 향신료, 마살라 차이 블렌드, 인도 차 향신료",
 			"imageAlt": "Punjas 티 마살라 상자"
 		},
-		"lamb-shoulder-diced": {
+		"lamb-shoulder-chops": {
 			"name": "양 어깨살 찹",
 			"description": "카레, 스튜, 케밥용으로 균일한 큐브로 자른 뉴질랜드 양고기. 초식으로 키우고 일관된 품질을 위해 USDA 인증 시설에서 가공됩니다. 빠른 식사 준비를 위해 바로 조리 가능.",
 			"seoTitle": "뉴질랜드 양고기 깍둑썰기 | A & S Distributors",
@@ -1556,7 +1556,7 @@
 			"seoKeywords": "깍둑썰기 양고기, 양고기 큐브, 뉴질랜드 양고기, 카레 고기",
 			"imageAlt": "양 어깨살 찹 부위"
 		},
-		"lamb-shoulder-diced-prepack": {
+		"lamb-shoulder-chops-prepack": {
 			"name": "양 어깨살 찹 프리팩",
 			"description": "깍둑썰기한 뉴질랜드 양고기의 편리한 사전 포장 1인분. 각 팩에는 레시피에 바로 사용할 수 있는 완벽하게 큐브 자른 고기가 들어 있습니다. 일관된 1인분 사이즈를 원하는 소매업체와 가정에 이상적.",
 			"seoTitle": "양고기 깍둑썰기 프리팩 1인분 | A & S Distributors",
@@ -1621,12 +1621,12 @@
 			"imageAlt": "양 정강이 슬라이스 프리팩 부위"
 		},
 		"australian-goat-whole": {
-			"name": "Australia Goat Whole 6-Way",
+			"name": "Australian Goat Whole 6-Way",
 			"description": "카리브해, 아프리카, 남아시아, 태평양 섬 요리에서 인기 있는 살코기 단백질인 호주 염소 통째 도체. 저희 염소는 USDA 인증 시설에서 가공됩니다. 전통적인 카레, 스튜, 로스트에 이상적.",
 			"seoTitle": "호주 염소 통째 | A & S Distributors",
 			"seoDescription": "호주 염소 통째 도체. USDA 인증 가공. 도매 가격 제공.",
 			"seoKeywords": "통 염소, 호주 염소, 염소 고기, 카레 염소",
-			"imageAlt": "Australia Goat Whole 6-Way"
+			"imageAlt": "Australian Goat Whole 6-Way"
 		},
 		"australian-goat-diced-prepack": {
 			"name": "호주 염소 깍둑썰기 프리팩",
@@ -2033,13 +2033,21 @@
 			"ariaLabel": "{email}로 이메일 보내기"
 		},
 		"address": {
-			"label": "주소",
+			"label": "창고 주소",
 			"street": "4710 Elm Street",
 			"city": "Salida",
 			"state": "CA",
 			"zipCode": "95368",
 			"description": "Salida 위치 방문",
 			"ariaLabel": "Google Maps에서 {address} 열기"
+		},
+		"mailingAddress": {
+			"label": "우편 주소",
+			"value": "4921 Salida Avenue, Salida, CA, 95368",
+			"ariaLabel": "{address} 복사",
+			"copyLabel": "복사",
+			"copySuccess": "복사됨",
+			"copyAria": "{address}를 클립보드에 복사"
 		},
 		"hours": {
 			"label": "영업 시간",

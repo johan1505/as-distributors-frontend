@@ -685,12 +685,12 @@
 			"imageAlt": "Afifi o kalake FMF Masi Taeao"
 		},
 		"fmf-breakfast-crackers-fine": {
-			"name": "FMF Masi Taeao Fine",
+			"name": "FMF Fine Fare Breakfast Crackers",
 			"description": "O le pusa itiiti o le masi ta'uta'ua sili i Fiti. O le manogi lelei lava lea na faia ai FMF Masi Taeao o se igoa ta'uta'ua talu mai le 1973. Mama, malo, ma lelei mo se mea'ai itiiti vave pe fa'atasi ma au mea fufui ma tui fiafia.",
 			"seoTitle": "FMF Masi Taeao Fine | A & S Distributors",
 			"seoDescription": "FMF Masi Taeao Fine, masi ta'uta'ua Fiti i le lapopo'a faigofie. Tau fa'atau tele e maua.",
 			"seoKeywords": "FMF masi taeao, masi Fiti, masi fine, mea'ai itiiti Pasefika",
-			"imageAlt": "Afifi o kalake FMF Masi Taeao Fine"
+			"imageAlt": "Afifi o FMF Fine Fare Breakfast Crackers"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Masi Taeao",
@@ -956,7 +956,7 @@
 			"seoKeywords": "Nestle cocoa, cocoa pauta, areto cocoa, sikaleti vevela",
 			"imageAlt": "Afifi o Nestle Cocoa"
 		},
-		"lamb-shoulder-diced": {
+		"lamb-shoulder-chops": {
 			"name": "Lamb Shoulder Chops",
 			"description": "Mamoe Niu Sila tipi i fasi tutusa mo kare, stews, ma kebabs. Fafaga mutia ma galueaina i lo matou fale USDA fa'amaonia mo le tulaga tutusa. Ua saunia e kuka mo le saunauga mea'ai vave.",
 			"seoTitle": "Mamoe Tipi Niu Sila | A & S Distributors",
@@ -989,12 +989,12 @@
 			"imageAlt": "Tipi o Mamoe Shank Atoa"
 		},
 		"australian-goat-whole": {
-			"name": "Australia Goat Whole 6-Way",
+			"name": "Australian Goat Whole 6-Way",
 			"description": "'Oti Ausetalia atoa, o se porotini mama ta'uta'ua i kuka Caribbean, Aferika, Asia i Saute, ma Pasefika. O a matou 'oti e galueaina i lo matou fale USDA fa'amaonia. Sili mo kare masani, stews, ma tunu.",
 			"seoTitle": "'Oti Ausetalia Atoa | A & S Distributors",
 			"seoDescription": "'Oti Ausetalia atoa. USDA fa'amaonia galueaina. Tau fa'atau tele e maua.",
 			"seoKeywords": "'oti atoa, 'oti Ausetalia, aano 'oti, kare 'oti",
-			"imageAlt": "Australia Goat Whole 6-Way"
+			"imageAlt": "Australian Goat Whole 6-Way"
 		},
 		"chicken-sausage": {
 			"name": "Susiti Moa",
@@ -1652,7 +1652,7 @@
 			"seoKeywords": "Punjas tea masala, mea manogi chai, fa'afefiloi masala chai, mea manogi ti Initia",
 			"imageAlt": "Pusa o Punjas Tea Masala"
 		},
-		"lamb-shoulder-diced-prepack": {
+		"lamb-shoulder-chops-prepack": {
 			"name": "Lamb Shoulder Chops Prepack",
 			"description": "Fasi fa'apusa faigofie o mamoe tipi Niu Sila. E iai i pusa uma aano tipi lelei ua saunia mo au fa'atonuga. Sili mo tagata fa'atau oloa ma aiga e mana'o i lapopo'a fasi tutusa.",
 			"seoTitle": "Mamoe Tipi Prepack Fasi | A & S Distributors",
@@ -2032,13 +2032,21 @@
 			"ariaLabel": "Imeli mai i le {email}"
 		},
 		"address": {
-			"label": "Tuatusi",
+			"label": "Warehouse address",
 			"street": "4710 Elm Street",
 			"city": "Salida",
 			"state": "CA",
 			"zipCode": "95368",
 			"description": "Asiasi mai i lo matou nofoaga Salida",
 			"ariaLabel": "Tatala {address} i Google Maps"
+		},
+		"mailingAddress": {
+			"label": "Mailing address",
+			"value": "4921 Salida Avenue, Salida, CA, 95368",
+			"ariaLabel": "Copy {address}",
+			"copyLabel": "Copy",
+			"copySuccess": "Copied",
+			"copyAria": "Copy {address} to clipboard"
 		},
 		"hours": {
 			"label": "Taimi Pisinisi",

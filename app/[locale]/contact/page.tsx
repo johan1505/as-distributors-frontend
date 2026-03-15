@@ -4,7 +4,8 @@ import { PaddingLayout } from '@/components/layout/PaddingLayout';
 import { locales } from '@/i18n/config';
 import { hasLocale, type Locale } from 'next-intl';
 import { notFound } from 'next/navigation';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, Building2, ArrowUpRight } from 'lucide-react';
+import { MailingAddressCard } from '@/components/contact/MailingAddressCard';
 import { getCanonicalUrl, buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
 import type { WebPage, WithContext } from 'schema-dts';
@@ -49,6 +50,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 	const phoneNumber = CONTACT.TELEPHONE;
 	const primaryEmail = SALES_EMAIL.PRIMARY;
 	const alternateEmail = SALES_EMAIL.ALTERNATE;
+	const mailingAddress = t('mailingAddress.value');
 
 	// Create Google Maps URL
 	const fullAddress = `${address.street}, ${address.city}, ${address.state} ${address.zipCode}`;
@@ -157,7 +159,9 @@ export default async function ContactPage({ params }: ContactPageProps) {
 						</div>
 					</div>
 
-					{/* Address */}
+					{/* Mailing Address */}
+					<MailingAddressCard address={mailingAddress} />
+					{/* Warehouse Address */}
 					<a
 						href={googleMapsUrl}
 						target="_blank"
@@ -166,7 +170,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 						aria-label={t('address.ariaLabel', { address: fullAddress })}
 					>
 						<div className="size-10 rounded-full bg-muted flex items-center justify-center group-hover:bg-ocean/10 transition-colors">
-							<MapPin className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
+							<Building2 className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
 						</div>
 						<div>
 							<p className="text-xs text-muted-foreground uppercase tracking-wider mb-0.5">
@@ -176,6 +180,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 								{address.street}, {address.city}, {address.state} {address.zipCode}
 							</address>
 						</div>
+						<ArrowUpRight className="size-4 text-muted-foreground group-hover:text-ocean transition-colors" />
 					</a>
 				</div>
 			</div>

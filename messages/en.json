@@ -685,12 +685,12 @@
 			"imageAlt": "Package of FMF Breakfast Crackers"
 		},
 		"fmf-breakfast-crackers-fine": {
-			"name": "FMF Breakfast Crackers Fine",
+			"name": "FMF Fine Fare Breakfast Crackers",
 			"description": "The smaller pack of Fiji's most iconic cracker. Same great taste that has made FMF Breakfast Crackers a household name since 1973. Light, crunchy, and perfect for a quick snack or alongside your favorite spreads and dips.",
 			"seoTitle": "FMF Breakfast Crackers Fine | A & S Distributors",
 			"seoDescription": "FMF Breakfast Crackers Fine, Fiji's iconic cracker in a convenient size. Wholesale pricing available.",
 			"seoKeywords": "FMF breakfast crackers, Fiji crackers, fine crackers, Pacific snacks",
-			"imageAlt": "Package of FMF Breakfast Crackers Fine"
+			"imageAlt": "Package of FMF Fine Fare Breakfast Crackers"
 		},
 		"fmf-breakfast-crackers-4lb": {
 			"name": "FMF Breakfast Crackers",
@@ -1404,7 +1404,7 @@
 			"seoKeywords": "lamb shoulder, New Zealand lamb, whole lamb, USDA lamb, wholesale lamb",
 			"imageAlt": "Cut of Lamb Shoulder Whole"
 		},
-		"lamb-shoulder-diced": {
+		"lamb-shoulder-chops": {
 			"name": "Lamb Shoulder Chops",
 			"description": "New Zealand lamb cut into uniform cubes for curries, stews, and kebabs. Grass-fed and processed in our USDA certified facility for consistent quality. Ready to cook for quick meal preparation.",
 			"seoTitle": "New Zealand Lamb Diced | A & S Distributors",
@@ -1412,7 +1412,7 @@
 			"seoKeywords": "diced lamb, lamb cubes, New Zealand lamb, curry meat",
 			"imageAlt": "Cut of Lamb Shoulder Chops"
 		},
-		"lamb-shoulder-diced-prepack": {
+		"lamb-shoulder-chops-prepack": {
 			"name": "Lamb Shoulder Chops Prepack",
 			"description": "Convenient pre-packaged portions of diced New Zealand lamb. Each pack contains perfectly cubed meat ready for your recipes. Ideal for retailers and households who want consistent portion sizes.",
 			"seoTitle": "Lamb Diced Prepack Portions | A & S Distributors",
@@ -1485,12 +1485,12 @@
 			"imageAlt": "Cut of Lamb Shank Sliced Prepack"
 		},
 		"australian-goat-whole": {
-			"name": "Australia Goat Whole 6-Way",
+			"name": "Australian Goat Whole 6-Way",
 			"description": "Whole Australian goat carcass, a lean protein popular in Caribbean, African, South Asian, and Pacific Island cuisines. Our goats are processed in our USDA certified facility. Ideal for traditional curries, stews, and roasts.",
 			"seoTitle": "Whole Australian Goat | A & S Distributors",
 			"seoDescription": "Whole Australian goat carcass. USDA certified processing. Wholesale pricing available.",
 			"seoKeywords": "whole goat, Australian goat, goat meat, curry goat",
-			"imageAlt": "Cut of Australia Goat Whole 6-Way"
+			"imageAlt": "Cut of Australian Goat Whole 6-Way"
 		},
 		"australian-goat-diced-prepack": {
 			"name": "Australian Goat Diced Prepack",
@@ -2032,13 +2032,21 @@
 			"ariaLabel": "Email us at {email}"
 		},
 		"address": {
-			"label": "Address",
+			"label": "Warehouse address",
 			"street": "4710 Elm Street",
 			"city": "Salida",
 			"state": "CA",
 			"zipCode": "95368",
 			"description": "Visit us at our Salida location",
 			"ariaLabel": "Open {address} in Google Maps"
+		},
+		"mailingAddress": {
+			"label": "Mailing address",
+			"value": "4921 Salida Avenue, Salida, CA, 95368",
+			"ariaLabel": "Copy {address}",
+			"copyLabel": "Copy",
+			"copySuccess": "Copied",
+			"copyAria": "Copy {address} to clipboard"
 		},
 		"hours": {
 			"label": "Business Hours",
