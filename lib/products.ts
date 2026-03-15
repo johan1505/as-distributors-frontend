@@ -1,6 +1,6 @@
 import type { StaticImageData } from 'next/image';
 import productsData from '@/data/products.json';
-import { PRODUCT_IMAGE_BY_SLUG, PRODUCT_IMAGE_PATH_BY_SLUG } from '@/lib/product-images.generated';
+import { PRODUCT_IMAGE_BY_SLUG, PRODUCT_IMAGE_PATH_BY_SLUG } from '@/lib/product-images';
 
 // Define slugs as const array to preserve literal types and derive union type
 export const PRODUCT_SLUGS = [
