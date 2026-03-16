@@ -1451,14 +1451,6 @@
 			"seoKeywords": "Kava powder, Fiji Kava, Lawena Kava, traditional Kava, wholesale Kava",
 			"imageAlt": "Bag of Kava Lawena Powder"
 		},
-		"kava-wake-powder": {
-			"name": "Kava Waka Powder",
-			"description": "Made from the main root (waka) of the kava plant, this variety offers stronger, more potent effects than lawena. Waka kava has higher kavalactone content for a more pronounced calming experience. For experienced kava drinkers who prefer a stronger cup.",
-			"seoTitle": "Kava Waka Powder Strong | A & S Distributors",
-			"seoDescription": "Strong Kava Waka powder from main root. More potent variety. Wholesale pricing available.",
-			"seoKeywords": "Kava Waka, strong kava, Fiji kava powder, premium kava",
-			"imageAlt": "Bag of Kava Waka Powder"
-		},
 		"nestle-cocoa": {
 			"name": "Nestle Cocoa",
 			"description": "Pure unsweetened cocoa powder from Nestle for baking and hot chocolate. This versatile cocoa can be used in cakes, brownies, cookies, and beverages. A pantry staple for chocolate lovers and bakers alike.",
@@ -2106,6 +2098,14 @@
 			"seoDescription": "Pops Lime soft drink can 355ml. Wholesale pricing available.",
 			"seoKeywords": "Pops Lime, soda can, 355ml, wholesale beverages",
 			"imageAlt": "Pops Lime 355ml can"
+		},
+		"kava-waka-powder": {
+			"name": "Kava Waka Powder",
+			"description": "Made from the main root (waka) of the kava plant, this variety offers stronger, more potent effects than lawena. Waka kava has higher kavalactone content for a more pronounced calming experience. For experienced kava drinkers who prefer a stronger cup.",
+			"seoTitle": "Kava Waka Powder Strong | A & S Distributors",
+			"seoDescription": "Strong Kava Waka powder from main root. More potent variety. Wholesale pricing available.",
+			"seoKeywords": "Kava Waka, strong kava, Fiji kava powder, premium kava",
+			"imageAlt": "Bag of Kava Waka Powder"
 		}
 	},
 	"contact": {

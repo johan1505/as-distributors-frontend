@@ -1451,14 +1451,6 @@
 			"seoKeywords": "Kava en polvo, Kava de Fiji, Kava Lawena, Kava tradicional, Kava al por mayor",
 			"imageAlt": "Bolsa de Kava Lawena Powder"
 		},
-		"kava-wake-powder": {
-			"name": "Kava Waka Powder",
-			"description": "Hecho de la raíz principal (waka) de la planta de kava, esta variedad ofrece efectos más fuertes y potentes que lawena. El kava waka tiene mayor contenido de kavalactonas para una experiencia calmante más pronunciada. Para bebedores de kava experimentados que prefieren una taza más fuerte.",
-			"seoTitle": "Kava Waka en Polvo Fuerte | A & S Distributors",
-			"seoDescription": "Kava Waka en polvo fuerte de raíz principal. Variedad más potente. Precios al por mayor disponibles.",
-			"seoKeywords": "Kava Waka, kava fuerte, polvo de kava de Fiji, kava premium",
-			"imageAlt": "Bolsa de Kava Waka Powder"
-		},
 		"nestle-cocoa": {
 			"name": "Nestle Cocoa",
 			"description": "Cacao en polvo puro sin azúcar de Nestlé para hornear y chocolate caliente. Este cacao versátil puede usarse en pasteles, brownies, galletas y bebidas. Un básico de despensa para amantes del chocolate y panaderos por igual.",
@@ -1947,7 +1939,6 @@
 			"seoKeywords": "Sunquick tropical, concentrado de frutas, ponche tropical, bebida del Pacífico",
 			"imageAlt": "Botella de Sunquick Tropical Juice Concentrate"
 		},
-
 		"nestle-smarties-50g": {
 			"name": "Nestlé Smarties",
 			"description": "Chocolate con leche en una cáscara crujiente de colores. Un clásico fácil de compartir o vender al por menor.",
@@ -2107,6 +2098,14 @@
 			"seoDescription": "Refresco Pops Lima en lata 355ml. Precios al por mayor disponibles.",
 			"seoKeywords": "Pops Lima, lata de refresco, 355ml, bebidas al por mayor",
 			"imageAlt": "Lata de Pops Lima 355ml"
+		},
+		"kava-waka-powder": {
+			"name": "Kava Waka Powder",
+			"description": "Hecho de la raíz principal (waka) de la planta de kava, esta variedad ofrece efectos más fuertes y potentes que lawena. El kava waka tiene mayor contenido de kavalactonas para una experiencia calmante más pronunciada. Para bebedores de kava experimentados que prefieren una taza más fuerte.",
+			"seoTitle": "Kava Waka en Polvo Fuerte | A & S Distributors",
+			"seoDescription": "Kava Waka en polvo fuerte de raíz principal. Variedad más potente. Precios al por mayor disponibles.",
+			"seoKeywords": "Kava Waka, kava fuerte, polvo de kava de Fiji, kava premium",
+			"imageAlt": "Bolsa de Kava Waka Powder"
 		}
 	},
 	"contact": {

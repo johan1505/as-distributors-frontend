@@ -153,7 +153,7 @@ export const PRODUCT_SLUGS = [
 	'milo-powder-singapore-14oz',
 	'milo-powder-singapore-3lb',
 	'kava-lawena-powder',
-	'kava-wake-powder',
+	'kava-waka-powder',
 	'nestle-cocoa',
 	'punjas-ceylon-black-tea-200gr',
 	'punjas-tea-masala',

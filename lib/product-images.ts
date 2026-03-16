@@ -84,7 +84,7 @@ import imgBongoChickenSnack28gr from '@/public/images/bongo-chicken-snack-28gr.p
 import imgTwistesCheese20gr from '@/public/images/twistes-cheese-20gr.png';
 import imgTwistesCheese100gr from '@/public/images/twistes-cheese-100gr.png';
 import imgTwistesCheese250gr from '@/public/images/twistes-cheese-250gr.png';
-import imgTwistesCheese500gr from '@/public/images/twistes-cheese-500gr.webp';
+import imgTwistesCheese500gr from '@/public/images/twistes-cheese-500gr.png';
 import imgTwistesChicken20gr from '@/public/images/twistes-chicken-20gr.webp';
 import imgTwistesChicken100gr from '@/public/images/twistes-chicken-100gr.webp';
 import imgTwistesChicken250gr from '@/public/images/twistes-chicken-250gr.webp';
@@ -137,8 +137,8 @@ import imgFufuMixCocoyamFlour from '@/public/images/fufu-mix-cocoyam-flour.webp'
 import imgRewaFullCreamMilkPowder from '@/public/images/rewa-full-cream-milk-powder.webp';
 import imgMiloPowderSingapore14oz from '@/public/images/milo-powder-singapore-14oz.webp';
 import imgMiloPowderSingapore3lb from '@/public/images/milo-powder-singapore-3lb.webp';
-import imgKavaLawenaPowder from '@/public/images/kava-lawena-powder.webp';
-import imgKavaWakePowder from '@/public/images/kava-wake-powder.webp';
+import imgKavaLawenaPowder from '@/public/images/kava-lawena-powder.png';
+import imgKavaWakePowder from '@/public/images/kava-waka-powder.png';
 import imgNestleCocoa from '@/public/images/nestle-cocoa.webp';
 import imgPunjasCeylonBlackTea200gr from '@/public/images/punjas-ceylon-black-tea-200gr.webp';
 import imgPunjasTeaMasala from '@/public/images/punjas-tea-masala.webp';
@@ -212,6 +212,10 @@ import imgPopsKolaCan355ml from '@/public/images/pops-kola-can-355ml.png';
 import imgPopsOrangeCan355ml from '@/public/images/pops-orange-can-355ml.png';
 import imgPopsPineappleCan355ml from '@/public/images/pops-pineapple-can-355ml.png';
 import imgPopsLimeCan355ml from '@/public/images/pops-lime-can-355ml.png';
+import imgLapanaTongolChunkTuna from '@/public/images/lapana-tongol-chunk-tuna.png';
+import imgOldCapitalSpecialTuna from '@/public/images/old-capital-special-tuna.png';
+import imgSunBellTuna from '@/public/images/sun-bell-tuna.png';
+import imgOvalauBlueTuna from '@/public/images/ovalau-blue-tuna.png';
 
 export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>> = {
 	'ox-palm-corned-beef-7oz': imgOxPalmCornedBeef7oz,
@@ -351,7 +355,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'milo-powder-singapore-14oz': imgMiloPowderSingapore14oz,
 	'milo-powder-singapore-3lb': imgMiloPowderSingapore3lb,
 	'kava-lawena-powder': imgKavaLawenaPowder,
-	'kava-wake-powder': imgKavaWakePowder,
+	'kava-waka-powder': imgKavaWakePowder,
 	'nestle-cocoa': imgNestleCocoa,
 	'punjas-ceylon-black-tea-200gr': imgPunjasCeylonBlackTea200gr,
 	'punjas-tea-masala': imgPunjasTeaMasala,
@@ -425,6 +429,10 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'pops-orange-can-355ml': imgPopsOrangeCan355ml,
 	'pops-pineapple-can-355ml': imgPopsPineappleCan355ml,
 	'pops-lime-can-355ml': imgPopsLimeCan355ml,
+	'lapana-tongol-chunk-tuna': imgLapanaTongolChunkTuna,
+	'old-capital-special-tuna': imgOldCapitalSpecialTuna,
+	'sun-bell-tuna': imgSunBellTuna,
+	'ovalau-blue-tuna': imgOvalauBlueTuna,
 };
 
 export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = {
@@ -511,7 +519,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'twistes-cheese-20gr': '/images/twistes-cheese-20gr.png',
 	'twistes-cheese-100gr': '/images/twistes-cheese-100gr.png',
 	'twistes-cheese-250gr': '/images/twistes-cheese-250gr.png',
-	'twistes-cheese-500gr': '/images/twistes-cheese-500gr.webp',
+	'twistes-cheese-500gr': '/images/twistes-cheese-500gr.png',
 	'twistes-chicken-20gr': '/images/twistes-chicken-20gr.webp',
 	'twistes-chicken-100gr': '/images/twistes-chicken-100gr.webp',
 	'twistes-chicken-250gr': '/images/twistes-chicken-250gr.webp',
@@ -564,8 +572,8 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'rewa-full-cream-milk-powder': '/images/rewa-full-cream-milk-powder.webp',
 	'milo-powder-singapore-14oz': '/images/milo-powder-singapore-14oz.webp',
 	'milo-powder-singapore-3lb': '/images/milo-powder-singapore-3lb.webp',
-	'kava-lawena-powder': '/images/kava-lawena-powder.webp',
-	'kava-wake-powder': '/images/kava-wake-powder.webp',
+	'kava-lawena-powder': '/images/kava-lawena-powder.png',
+	'kava-waka-powder': '/images/kava-waka-powder.png',
 	'nestle-cocoa': '/images/nestle-cocoa.webp',
 	'punjas-ceylon-black-tea-200gr': '/images/punjas-ceylon-black-tea-200gr.webp',
 	'punjas-tea-masala': '/images/punjas-tea-masala.webp',
@@ -639,6 +647,10 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'pops-orange-can-355ml': '/images/pops-orange-can-355ml.png',
 	'pops-pineapple-can-355ml': '/images/pops-pineapple-can-355ml.png',
 	'pops-lime-can-355ml': '/images/pops-lime-can-355ml.png',
+	'lapana-tongol-chunk-tuna': '/images/lapana-tongol-chunk-tuna.png',
+	'old-capital-special-tuna': '/images/old-capital-special-tuna.png',
+	'sun-bell-tuna': '/images/sun-bell-tuna.png',
+	'ovalau-blue-tuna': '/images/ovalau-blue-tuna.png',
 };
 
 export const MISSING_PRODUCT_IMAGE_SLUGS = ['lamb-neck-sliced-prepack', 'roosters-halal'] as const;
