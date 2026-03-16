@@ -5,7 +5,7 @@
 		"unitPerPack": 24,
 		"overallSize": "7 oz",
 		"categoryKey": "corned-beef",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "ox-palm-corned-beef-11-5oz",
@@ -13,7 +13,7 @@
 		"unitPerPack": 24,
 		"overallSize": "11.5 oz",
 		"categoryKey": "corned-beef",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "ox-palm-corned-beef-tapered",
@@ -29,7 +29,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "corned-beef",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "ox-palm-corned-beef-3lb",
@@ -117,7 +117,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "canned-fish-tuna",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "angel-mackerel-tomato-sauce",
@@ -133,7 +133,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "canned-fish-tuna",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "pacific-ocean-mackerel-tomato-sauce",
@@ -157,7 +157,7 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "canned-fish-tuna",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "brunswick-sardines-soybean-oil",
@@ -176,12 +176,44 @@
 		"featured": false
 	},
 	{
+		"slug": "lapana-tongol-chunk-tuna",
+		"itemNumber": "TBD",
+		"unitPerPack": 24,
+		"overallSize": "7.05 oz",
+		"categoryKey": "canned-fish-tuna",
+		"featured": false
+	},
+	{
+		"slug": "old-capital-special-tuna",
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
+		"overallSize": "TBD",
+		"categoryKey": "canned-fish-tuna",
+		"featured": false
+	},
+	{
+		"slug": "sun-bell-tuna",
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
+		"overallSize": "TBD",
+		"categoryKey": "canned-fish-tuna",
+		"featured": false
+	},
+	{
+		"slug": "ovalau-blue-tuna",
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
+		"overallSize": "6 oz",
+		"categoryKey": "canned-fish-tuna",
+		"featured": false
+	},
+	{
 		"slug": "fish-kawa-kawa",
 		"itemNumber": "120",
 		"unitPerPack": 1,
 		"overallSize": "35 lbs aprox",
 		"categoryKey": "frozen-fish",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "kawango",
@@ -221,7 +253,7 @@
 		"unitPerPack": 24,
 		"overallSize": "13.53 oz",
 		"categoryKey": "canned-vegetables",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "pacific-taste-coconut-milk-98oz",
@@ -248,6 +280,30 @@
 		"featured": false
 	},
 	{
+		"slug": "palusami-taro-leaves",
+		"itemNumber": "420",
+		"unitPerPack": 24,
+		"overallSize": "14.11 oz",
+		"categoryKey": "canned-vegetables",
+		"featured": true
+	},
+	{
+		"slug": "pacific-crown-duruka-stalk-brine",
+		"itemNumber": "426",
+		"unitPerPack": 24,
+		"overallSize": "14.11 oz",
+		"categoryKey": "canned-vegetables",
+		"featured": false
+	},
+	{
+		"slug": "pacific-crown-breadfruit",
+		"itemNumber": "TBD",
+		"unitPerPack": 24,
+		"overallSize": "14 oz",
+		"categoryKey": "canned-vegetables",
+		"featured": false
+	},
+	{
 		"slug": "watties-spaghetti-tomato-sauce",
 		"itemNumber": "428",
 		"unitPerPack": 12,
@@ -261,38 +317,6 @@
 		"unitPerPack": 24,
 		"overallSize": "15 oz",
 		"categoryKey": "canned-vegetables",
-		"featured": false
-	},
-	{
-		"slug": "palusami-taro-leaves",
-		"itemNumber": "420",
-		"unitPerPack": 24,
-		"overallSize": "14.11 oz",
-		"categoryKey": "canned-vegetables",
-		"featured": false
-	},
-	{
-		"slug": "pacific-crown-duruka-stalk-brine",
-		"itemNumber": "426",
-		"unitPerPack": 24,
-		"overallSize": "14.11 oz",
-		"categoryKey": "canned-vegetables",
-		"featured": false
-	},
-	{
-		"slug": "milk-arrowroot",
-		"itemNumber": "300",
-		"unitPerPack": 20,
-		"overallSize": "8.8 oz",
-		"categoryKey": "cookies-crackers",
-		"featured": true
-	},
-	{
-		"slug": "monte-carlo",
-		"itemNumber": "301",
-		"unitPerPack": 20,
-		"overallSize": "8.8 oz",
-		"categoryKey": "cookies-crackers",
 		"featured": false
 	},
 	{
@@ -334,6 +358,22 @@
 		"overallSize": "7.05 oz",
 		"categoryKey": "cookies-crackers",
 		"featured": true
+	},
+	{
+		"slug": "milk-arrowroot",
+		"itemNumber": "300",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
+		"slug": "monte-carlo",
+		"itemNumber": "301",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies-crackers",
+		"featured": false
 	},
 	{
 		"slug": "delta-cream",
@@ -437,7 +477,7 @@
 		"unitPerPack": 20,
 		"overallSize": "13.23 oz",
 		"categoryKey": "cookies-crackers",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "fmf-breakfast-crackers-fine",
@@ -581,7 +621,7 @@
 		"unitPerPack": 36,
 		"overallSize": "8 oz",
 		"categoryKey": "snacks",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "fix-mix-spicy",
@@ -621,7 +661,7 @@
 		"unitPerPack": 12,
 		"overallSize": "156 gr",
 		"categoryKey": "chips",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "bongo-chicken-snack-64gr",
@@ -653,7 +693,7 @@
 		"unitPerPack": 12,
 		"overallSize": "100 gr",
 		"categoryKey": "chips",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "twistes-cheese-250gr",
@@ -668,6 +708,22 @@
 		"itemNumber": "546",
 		"unitPerPack": 8,
 		"overallSize": "500 gr",
+		"categoryKey": "chips",
+		"featured": false
+	},
+	{
+		"slug": "twistes-sour-cream-100gr",
+		"itemNumber": "541",
+		"unitPerPack": 12,
+		"overallSize": "100 gr",
+		"categoryKey": "chips",
+		"featured": false
+	},
+	{
+		"slug": "twistes-sour-cream-250gr",
+		"itemNumber": "543",
+		"unitPerPack": 16,
+		"overallSize": "250 gr",
 		"categoryKey": "chips",
 		"featured": false
 	},
@@ -752,26 +808,42 @@
 		"featured": false
 	},
 	{
-		"slug": "chow-tomato-flavour",
-		"itemNumber": "800",
-		"unitPerPack": 5,
-		"overallSize": "400 g",
+		"slug": "fmf-chow-tomato-flavour",
+		"itemNumber": "383",
+		"unitPerPack": "60 (12x5)",
+		"overallSize": "85 gr",
 		"categoryKey": "noodles",
 		"featured": false
 	},
 	{
-		"slug": "chow-chicken-flavour",
-		"itemNumber": "801",
-		"unitPerPack": 5,
-		"overallSize": "400 g",
+		"slug": "fmf-chow-chicken-flavour",
+		"itemNumber": "384",
+		"unitPerPack": "60 (12x5)",
+		"overallSize": "85 gr",
 		"categoryKey": "noodles",
 		"featured": false
 	},
 	{
-		"slug": "chow-curry-flavour",
-		"itemNumber": "802",
-		"unitPerPack": 5,
-		"overallSize": "400 g",
+		"slug": "fmf-chow-curry-flavour",
+		"itemNumber": "385",
+		"unitPerPack": "60 (12x5)",
+		"overallSize": "85 gr",
+		"categoryKey": "noodles",
+		"featured": false
+	},
+	{
+		"slug": "maggi-noodles-chicken-flavour",
+		"itemNumber": "386",
+		"unitPerPack": "60 (12x5)",
+		"overallSize": "80 gr",
+		"categoryKey": "noodles",
+		"featured": false
+	},
+	{
+		"slug": "maggi-noodles-curry-flavour",
+		"itemNumber": "387",
+		"unitPerPack": "60 (12x5)",
+		"overallSize": "80 gr",
 		"categoryKey": "noodles",
 		"featured": false
 	},
@@ -781,7 +853,7 @@
 		"unitPerPack": 42,
 		"overallSize": "1.76 oz",
 		"categoryKey": "candies",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "cadbury-dream-bars",
@@ -845,7 +917,7 @@
 		"unitPerPack": 12,
 		"overallSize": "1 kg",
 		"categoryKey": "pickles-spices",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "homemaid-bongo-chili",
@@ -925,7 +997,7 @@
 		"unitPerPack": 20,
 		"overallSize": "750 ml",
 		"categoryKey": "oils",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "punjas-mustard-oil-750ml",
@@ -989,7 +1061,7 @@
 		"unitPerPack": 20,
 		"overallSize": "300 ml",
 		"categoryKey": "oils",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "natural-coconut-oil-frangipani",
@@ -1024,12 +1096,36 @@
 		"featured": false
 	},
 	{
+		"slug": "anchor-butter-new-zealand",
+		"itemNumber": "226",
+		"unitPerPack": 20,
+		"overallSize": "16 oz",
+		"categoryKey": "dairy",
+		"featured": false
+	},
+	{
+		"slug": "kraft-cheddar-cheese",
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
+		"overallSize": "500 g",
+		"categoryKey": "dairy",
+		"featured": false
+	},
+	{
+		"slug": "rewa-full-cream-milk-powder",
+		"itemNumber": "394",
+		"unitPerPack": 24,
+		"overallSize": "15.87 oz",
+		"categoryKey": "dairy",
+		"featured": false
+	},
+	{
 		"slug": "weetbix-breakfast-cereal-13oz",
 		"itemNumber": "390",
 		"unitPerPack": 24,
 		"overallSize": "13.22 oz",
 		"categoryKey": "breakfast-cereal",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "weetbix-breakfast-cereal-20oz",
@@ -1064,12 +1160,12 @@
 		"featured": false
 	},
 	{
-		"slug": "rewa-full-cream-milk-powder",
-		"itemNumber": "394",
+		"slug": "edmonds-custard-powder",
+		"itemNumber": "388",
 		"unitPerPack": 24,
-		"overallSize": "15.87 oz",
-		"categoryKey": "oils",
-		"featured": true
+		"overallSize": "450 g",
+		"categoryKey": "powders-teas",
+		"featured": false
 	},
 	{
 		"slug": "milo-powder-singapore-14oz",
@@ -1093,7 +1189,7 @@
 		"unitPerPack": 50,
 		"overallSize": "1 lb",
 		"categoryKey": "powders-teas",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "kava-wake-powder",
@@ -1133,7 +1229,7 @@
 		"unitPerPack": 1,
 		"overallSize": "40 lbs",
 		"categoryKey": "lamb-goat",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "lamb-shoulder-chops",
@@ -1197,7 +1293,7 @@
 		"unitPerPack": 1,
 		"overallSize": "22 lbs",
 		"categoryKey": "lamb-goat",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "lamb-shank-whole",
@@ -1237,7 +1333,7 @@
 		"unitPerPack": 12,
 		"overallSize": "2 lbs",
 		"categoryKey": "sausages",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "chicken-sausage-hot",
@@ -1285,7 +1381,7 @@
 		"unitPerPack": 8,
 		"overallSize": "65 lbs",
 		"categoryKey": "white-meats",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "roosters-halal",
@@ -1313,11 +1409,11 @@
 	},
 	{
 		"slug": "fresh-taro",
-		"itemNumber": "213",
-		"unitPerPack": 10,
-		"overallSize": "1 kg (2.20 lbs)",
+		"itemNumber": "TBD",
+		"unitPerPack": 1,
+		"overallSize": "40 lbs",
 		"categoryKey": "fresh-produce",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "yellow-cassava-2lb",
@@ -1325,7 +1421,7 @@
 		"unitPerPack": 10,
 		"overallSize": "1 kg (2.20 lbs)",
 		"categoryKey": "root-vegetables",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "white-cassava-2lb",
@@ -1346,10 +1442,10 @@
 	{
 		"slug": "pink-taro",
 		"itemNumber": "203",
-		"unitPerPack": 6,
-		"overallSize": "2.27 kg (5 lbs)",
+		"unitPerPack": "10 or 6",
+		"overallSize": "1 kg (2.20 lbs) or 2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
-		"featured": true
+		"featured": false
 	},
 	{
 		"slug": "purple-taro-2lb",
@@ -1389,7 +1485,7 @@
 		"unitPerPack": 6,
 		"overallSize": "2.27 kg (5 lbs)",
 		"categoryKey": "root-vegetables",
-		"featured": false
+		"featured": true
 	},
 	{
 		"slug": "bele",
@@ -1448,14 +1544,6 @@
 		"featured": false
 	},
 	{
-		"slug": "anchor-butter-new-zealand",
-		"itemNumber": "226",
-		"unitPerPack": 20,
-		"overallSize": "16 oz",
-		"categoryKey": "misc-frozen-fresh",
-		"featured": true
-	},
-	{
 		"slug": "tuckers-blitz",
 		"itemNumber": "230",
 		"unitPerPack": 12,
@@ -1489,26 +1577,154 @@
 	},
 	{
 		"slug": "kool-pop",
-		"itemNumber": "234",
-		"unitPerPack": 24,
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
 		"overallSize": "80 ml",
 		"categoryKey": "misc-frozen-fresh",
 		"featured": false
 	},
 	{
 		"slug": "bula-pop",
-		"itemNumber": "235",
-		"unitPerPack": 24,
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
 		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
 		"featured": false
 	},
 	{
 		"slug": "pacific-split",
-		"itemNumber": "236",
-		"unitPerPack": 24,
+		"itemNumber": "TBD",
+		"unitPerPack": "TBD",
 		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
+		"featured": false
+	},
+	{
+		"slug": "bula-noni-fiji-islands",
+		"itemNumber": "605",
+		"unitPerPack": 12,
+		"overallSize": "1 ltr",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-pineapple-2-5l",
+		"itemNumber": "620",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-kola-2-5l",
+		"itemNumber": "621",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-orange-2-5l",
+		"itemNumber": "622",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-lime-2-5l",
+		"itemNumber": "623",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-raspberry-2-5l",
+		"itemNumber": "624",
+		"unitPerPack": 6,
+		"overallSize": "2.5 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-raspberry-1l",
+		"itemNumber": "606",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-pineapple-1l",
+		"itemNumber": "607",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-kola-1l",
+		"itemNumber": "608",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-lime-1l",
+		"itemNumber": "609",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-cordial-orange-1l",
+		"itemNumber": "610",
+		"unitPerPack": 12,
+		"overallSize": "1 litre",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-raspberry-can-355ml",
+		"itemNumber": "625",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-pineapple-can-355ml",
+		"itemNumber": "626",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-lime-can-355ml",
+		"itemNumber": "627",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-kola-can-355ml",
+		"itemNumber": "628",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
+		"featured": false
+	},
+	{
+		"slug": "pops-orange-can-355ml",
+		"itemNumber": "629",
+		"unitPerPack": 24,
+		"overallSize": "355 ml",
+		"categoryKey": "drinks",
 		"featured": false
 	},
 	{
@@ -1532,14 +1748,6 @@
 		"itemNumber": "632",
 		"unitPerPack": 6,
 		"overallSize": "840 ml",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "bula-noni-fiji-islands",
-		"itemNumber": "605",
-		"unitPerPack": 12,
-		"overallSize": "1 ltr",
 		"categoryKey": "drinks",
 		"featured": false
 	},
@@ -1581,126 +1789,6 @@
 		"unitPerPack": 25,
 		"overallSize": "150 g",
 		"categoryKey": "candies",
-		"featured": false
-	},
-	{
-		"slug": "pops-kola-2-5l",
-		"itemNumber": "JU002",
-		"unitPerPack": 6,
-		"overallSize": "2.5 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-orange-2-5l",
-		"itemNumber": "JU003",
-		"unitPerPack": 6,
-		"overallSize": "2.5 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-lime-2-5l",
-		"itemNumber": "JU004",
-		"unitPerPack": 6,
-		"overallSize": "2.5 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-raspberry-2-5l",
-		"itemNumber": "JU005",
-		"unitPerPack": 6,
-		"overallSize": "2.5 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-pineapple-2-5l",
-		"itemNumber": "JU016",
-		"unitPerPack": 6,
-		"overallSize": "2.5 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-cordial-kola-1l",
-		"itemNumber": "JU011",
-		"unitPerPack": 12,
-		"overallSize": "1 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-cordial-raspberry-1l",
-		"itemNumber": "JU012",
-		"unitPerPack": 12,
-		"overallSize": "1 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-cordial-orange-1l",
-		"itemNumber": "JU013",
-		"unitPerPack": 12,
-		"overallSize": "1 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-cordial-pineapple-1l",
-		"itemNumber": "JU014",
-		"unitPerPack": 12,
-		"overallSize": "1 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-cordial-lime-1l",
-		"itemNumber": "JU015",
-		"unitPerPack": 12,
-		"overallSize": "1 litre",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-raspberry-can-355ml",
-		"itemNumber": "JU006",
-		"unitPerPack": 24,
-		"overallSize": "355 ml",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-kola-can-355ml",
-		"itemNumber": "JU007",
-		"unitPerPack": 24,
-		"overallSize": "355 ml",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-orange-can-355ml",
-		"itemNumber": "JU008",
-		"unitPerPack": 24,
-		"overallSize": "355 ml",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-pineapple-can-355ml",
-		"itemNumber": "JU009",
-		"unitPerPack": 24,
-		"overallSize": "355 ml",
-		"categoryKey": "drinks",
-		"featured": false
-	},
-	{
-		"slug": "pops-lime-can-355ml",
-		"itemNumber": "JU010",
-		"unitPerPack": 24,
-		"overallSize": "355 ml",
-		"categoryKey": "drinks",
 		"featured": false
 	}
 ]

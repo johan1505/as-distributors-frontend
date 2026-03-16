@@ -172,7 +172,8 @@
 		"noodles": "Fideos",
 		"candies": "Dulces",
 		"pickles-spices": "Encurtidos y Especias",
-		"oils": "Aceites y Lácteos",
+		"oils": "Aceites",
+		"dairy": "Lácteos",
 		"breakfast-cereal": "Cereal de Desayuno",
 		"powders-teas": "Polvos, Tés y Harinas",
 		"lamb-goat": "Cordero y Cabra",
@@ -250,10 +251,16 @@
 			"keywords": "curry en polvo, masala, encurtido de mango, chutney de tamarindo, especias Punjas, especias de Fiji, especias al por mayor"
 		},
 		"oils": {
-			"title": "Aceites y Lácteos - Aceite de Coco, Ghee y Leche en Polvo | A & S Distributors",
-			"description": "Aceites de cocina premium incluyendo aceite de coco, aceite de mostaza, mantequilla ghee y básicos lácteos como leche en polvo.",
-			"pageDescription": "Aceites de cocina de calidad y mantequilla ghee tradicional, además de esenciales lácteos.",
-			"keywords": "aceite de coco, mantequilla ghee, aceite de mostaza, leche en polvo, aceites al por mayor"
+			"title": "Aceites - Aceite de Coco, Mostaza y Ghee | A & S Distributors",
+			"description": "Aceites de cocina premium incluyendo aceite de coco, aceite de mostaza y mantequilla ghee.",
+			"pageDescription": "Aceites de cocina de calidad y mantequilla ghee tradicional para el uso diario.",
+			"keywords": "aceite de coco, mantequilla ghee, aceite de mostaza, aceites al por mayor"
+		},
+		"dairy": {
+			"title": "Lácteos - Leche en Polvo, Mantequilla y Queso | A & S Distributors",
+			"description": "Productos lácteos esenciales que incluyen leche en polvo, mantequilla y queso para cocinar y hornear.",
+			"pageDescription": "Leche en polvo, mantequilla y queso para retail y foodservice.",
+			"keywords": "lácteos, leche en polvo, mantequilla, queso cheddar, lácteos al por mayor"
 		},
 		"breakfast-cereal": {
 			"title": "Cereal de Desayuno - Weetbix | A & S Distributors",
@@ -484,6 +491,38 @@
 			"seoKeywords": "Skipper tuna, atún enlatado, atún en aceite, atún al por mayor",
 			"imageAlt": "Lata de Skipper Tuna en Aceite Vegetal"
 		},
+		"lapana-tongol-chunk-tuna": {
+			"name": "L'aPana Atún Tongol en Trozos",
+			"description": "Atún tongol en trozos en una lata de 7.05 oz. Piezas firmes y sabrosas para ensaladas, sándwiches y platos de arroz.",
+			"seoTitle": "L'aPana Atún Tongol en Trozos 7.05 oz | A & S Distributors",
+			"seoDescription": "Atún tongol en trozos L'aPana, firme y versátil. Precios al por mayor disponibles.",
+			"seoKeywords": "atún L'aPana, atún tongol, atún en trozos, atún enlatado, atún al por mayor",
+			"imageAlt": "Lata de atún L'aPana Tongol en trozos"
+		},
+		"old-capital-special-tuna": {
+			"name": "Old Capital Atún Especial",
+			"description": "Atún enlatado Old Capital con sabor suave y textura desmenuzable. Básico de despensa para ensaladas, sándwiches y platos calientes.",
+			"seoTitle": "Old Capital Atún Especial | A & S Distributors",
+			"seoDescription": "Old Capital Atún Especial, básico de despensa. Precios al por mayor disponibles.",
+			"seoKeywords": "Old Capital atún, atún especial, atún enlatado, atún al por mayor",
+			"imageAlt": "Lata de Old Capital Atún Especial"
+		},
+		"sun-bell-tuna": {
+			"name": "Sun Bell Atún",
+			"description": "Atún enlatado Sun Bell de sabor limpio y suave, con textura desmenuzable. Ideal para comidas rápidas, ensaladas y sándwiches.",
+			"seoTitle": "Sun Bell Atún | A & S Distributors",
+			"seoDescription": "Sun Bell atún, suave y versátil. Precios al por mayor disponibles.",
+			"seoKeywords": "Sun Bell atún, atún enlatado, atún al por mayor, atún de despensa",
+			"imageAlt": "Lata de Sun Bell Atún"
+		},
+		"ovalau-blue-tuna": {
+			"name": "Ovalau Blue Atún",
+			"description": "Atún Ovalau Blue en lata de 6 oz. Atún firme y desmenuzable para almuerzos, ensaladas y recetas isleñas.",
+			"seoTitle": "Ovalau Blue Atún 6 oz | A & S Distributors",
+			"seoDescription": "Ovalau Blue atún 6 oz, firme y desmenuzable. Precios al por mayor disponibles.",
+			"seoKeywords": "Ovalau Blue atún, atún enlatado 6 oz, atún al por mayor",
+			"imageAlt": "Lata de Ovalau Blue Atún"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Leche de Coco",
 			"description": "Rica y sabrosa bondad de leche de coco. Perfecta para platos regionales clásicos, sopas, curries, salsas, postres y bebidas. La leche de coco también es una excelente alternativa a los lácteos.",
@@ -547,6 +586,14 @@
 			"seoDescription": "Duruka enlatada (espárrago de Fiji) en salmuera. Vegetal tradicional fiyiano. Precios al por mayor disponibles.",
 			"seoKeywords": "Duruka, espárrago de Fiji, vegetal del Pacífico, comida fiyiana, comida del Pacífico al por mayor",
 			"imageAlt": "Lata de Pacific Crown Duruka en Salmuera"
+		},
+		"pacific-crown-breadfruit": {
+			"name": "Pacific Crown Fruta de Pan",
+			"description": "Fruta de pan en salmuera, lista para calentar y servir. Un básico de las Islas del Pacífico para curries, guisos de coco y guarniciones.",
+			"seoTitle": "Pacific Crown Fruta de Pan 14 oz | A & S Distributors",
+			"seoDescription": "Fruta de pan enlatada Pacific Crown, básico isleño. Precios al por mayor disponibles.",
+			"seoKeywords": "fruta de pan enlatada, Pacific Crown fruta de pan, vegetales isleños, fruta de pan al por mayor",
+			"imageAlt": "Lata de Pacific Crown Fruta de Pan"
 		},
 		"milk-arrowroot": {
 			"name": "Arnott's Milk Arrowroot",
@@ -940,6 +987,22 @@
 			"seoKeywords": "TWISTES queso, cheese puffs grandes, snacks de Fiji, snacks horneados",
 			"imageAlt": "Paquete de TWISTES Cheese"
 		},
+		"twistes-sour-cream-100gr": {
+			"name": "TWISTES Crema Agria",
+			"description": "Crujientes puffs de maíz TWISTES con sazonado de crema agria. Un tamaño mediano ideal para el snack diario.",
+			"seoTitle": "TWISTES Crema Agria 100g | A & S Distributors",
+			"seoDescription": "TWISTES crema agria 100g, crujientes y sabrosos. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES crema agria, puffs de maíz, snacks de Fiji, snacks sabor crema agria",
+			"imageAlt": "Paquete de TWISTES Crema Agria"
+		},
+		"twistes-sour-cream-250gr": {
+			"name": "TWISTES Crema Agria",
+			"description": "Bolsa para compartir de TWISTES sabor crema agria con un toque cremoso y ácido. Perfecta para reuniones y fiestas.",
+			"seoTitle": "TWISTES Crema Agria 250g | A & S Distributors",
+			"seoDescription": "TWISTES crema agria 250g tamaño para compartir. Precios al por mayor disponibles.",
+			"seoKeywords": "TWISTES crema agria, snacks para compartir, puffs de Fiji, snacks para fiestas",
+			"imageAlt": "Paquete de TWISTES Crema Agria"
+		},
 		"twistes-chicken-20gr": {
 			"name": "TWISTES Pollo",
 			"description": "Paquete de bolsillo de puffs TWISTES sabor pollo. Conveniente para snackear sobre la marcha, almuerzos escolares o máquinas expendedoras. Todo el sabroso sabor a pollo en un paquete perfectamente porcionado.",
@@ -1052,29 +1115,45 @@
 			"seoKeywords": "Peanut Ruffs grande, Jasons Fiji, snacks de mantequilla de maní, comida de las Islas del Pacífico",
 			"imageAlt": "Paquete de Jasons Peanut Ruffs"
 		},
-		"chow-tomato-flavour": {
-			"name": "Chow Tomato Flavour",
-			"description": "Fideos chow con un sazonado de tomate rico y sabroso. Una comida rápida y satisfactoria que puedes personalizar con verduras o proteína.",
-			"seoTitle": "Fideos Chow Sabor Tomate | A & S Distributors",
-			"seoDescription": "Fideos chow con sabor tomate. Comida rápida y sabrosa. Precios al por mayor disponibles.",
-			"seoKeywords": "fideos chow, fideos sabor tomate, fideos instantáneos, fideos de despensa",
-			"imageAlt": "Paquete de fideos Chow sabor tomate"
+		"fmf-chow-tomato-flavour": {
+			"name": "FMF Chow Sabor Tomate",
+			"description": "Fideos FMF Chow con un sazonado de tomate rico y sabroso. Una comida rápida y satisfactoria que puedes personalizar con verduras o proteína.",
+			"seoTitle": "Fideos FMF Chow Sabor Tomate | A & S Distributors",
+			"seoDescription": "Fideos FMF Chow sabor tomate. Comida rápida y sabrosa. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos FMF Chow, fideos sabor tomate, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos FMF Chow sabor tomate"
 		},
-		"chow-chicken-flavour": {
-			"name": "Chow Chicken Flavour",
-			"description": "Fideos chow con un sazonado clásico sabor pollo. Sabor reconfortante y preparación fácil para almuerzos o cenas rápidas.",
-			"seoTitle": "Fideos Chow Sabor Pollo | A & S Distributors",
-			"seoDescription": "Fideos chow con sabor pollo. Comida fácil y satisfactoria. Precios al por mayor disponibles.",
-			"seoKeywords": "fideos chow, fideos sabor pollo, fideos instantáneos, fideos de despensa",
-			"imageAlt": "Paquete de fideos Chow sabor pollo"
+		"fmf-chow-chicken-flavour": {
+			"name": "FMF Chow Sabor Pollo",
+			"description": "Fideos FMF Chow con un sazonado clásico sabor pollo. Sabor reconfortante y preparación fácil para almuerzos o cenas rápidas.",
+			"seoTitle": "Fideos FMF Chow Sabor Pollo | A & S Distributors",
+			"seoDescription": "Fideos FMF Chow sabor pollo. Comida fácil y satisfactoria. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos FMF Chow, fideos sabor pollo, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos FMF Chow sabor pollo"
 		},
-		"chow-curry-flavour": {
-			"name": "Chow Curry Flavour",
-			"description": "Fideos chow con especias de curry cálidas y aromáticas. Perfecto para una comida rápida con mucho sabor.",
-			"seoTitle": "Fideos Chow Sabor Curry | A & S Distributors",
-			"seoDescription": "Fideos chow con sabor curry. Aromáticos y convenientes. Precios al por mayor disponibles.",
-			"seoKeywords": "fideos chow, fideos sabor curry, fideos instantáneos, fideos de despensa",
-			"imageAlt": "Paquete de fideos Chow sabor curry"
+		"fmf-chow-curry-flavour": {
+			"name": "FMF Chow Sabor Curry",
+			"description": "Fideos FMF Chow con especias de curry cálidas y aromáticas. Perfecto para una comida rápida con mucho sabor.",
+			"seoTitle": "Fideos FMF Chow Sabor Curry | A & S Distributors",
+			"seoDescription": "Fideos FMF Chow sabor curry. Aromáticos y convenientes. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos FMF Chow, fideos sabor curry, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos FMF Chow sabor curry"
+		},
+		"maggi-noodles-chicken-flavour": {
+			"name": "Fideos Maggi Sabor Pollo",
+			"description": "Fideos Maggi de cocción rápida con sazonado de pollo. Un favorito de la despensa para comidas rápidas, sopas o salteados.",
+			"seoTitle": "Fideos Maggi Sabor Pollo | A & S Distributors",
+			"seoDescription": "Fideos Maggi sabor pollo, rápidos y satisfactorios. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos Maggi, fideos sabor pollo, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos Maggi sabor pollo"
+		},
+		"maggi-noodles-curry-flavour": {
+			"name": "Fideos Maggi Sabor Curry",
+			"description": "Fideos Maggi con sazonado aromático de curry y un toque suave de picante. Ideales para almuerzos rápidos o como acompañamiento.",
+			"seoTitle": "Fideos Maggi Sabor Curry | A & S Distributors",
+			"seoDescription": "Fideos Maggi sabor curry, aromáticos y convenientes. Precios al por mayor disponibles.",
+			"seoKeywords": "fideos Maggi, fideos sabor curry, fideos instantáneos, fideos de despensa",
+			"imageAlt": "Paquete de fideos Maggi sabor curry"
 		},
 		"homemaid-amra-pickles": {
 			"name": "Homemaid Amra Pickles",
@@ -1331,6 +1410,14 @@
 			"seoDescription": "Mezcla de harina de cocoyam para fufu. Básico africano tradicional. Precios al por mayor disponibles.",
 			"seoKeywords": "fufu de cocoyam, harina para fufu, comida africana, cocina tradicional",
 			"imageAlt": "Paquete de Fufu Mix Cocoyam Flour"
+		},
+		"edmonds-custard-powder": {
+			"name": "Edmonds Polvo para Natillas",
+			"description": "Clásico polvo para natillas Edmonds para una crema suave y cremosa. Perfecto para postres, trifles, frutas y repostería.",
+			"seoTitle": "Edmonds Polvo para Natillas 450 g | A & S Distributors",
+			"seoDescription": "Polvo para natillas Edmonds 450 g. Natillas cremosas fácilmente. Precios al por mayor disponibles.",
+			"seoKeywords": "Edmonds polvo para natillas, mezcla de natillas, ingredientes de postre, insumos de repostería",
+			"imageAlt": "Lata de Edmonds Polvo para Natillas"
 		},
 		"rewa-full-cream-milk-powder": {
 			"name": "Rewa Full Cream Milk Powder",
@@ -1763,6 +1850,14 @@
 			"seoDescription": "Mantequilla Anchor premium de Nueva Zelanda. Alimentada con pasto, rica y cremosa. Precios al por mayor disponibles.",
 			"seoKeywords": "mantequilla Anchor, mantequilla de Nueva Zelanda, mantequilla premium, mantequilla de pasto, mantequilla al por mayor",
 			"imageAlt": "Bloque de Anchor Butter New Zealand"
+		},
+		"kraft-cheddar-cheese": {
+			"name": "Queso Cheddar Kraft",
+			"description": "Queso cheddar Kraft en bloque de 500 g. Cheddar rico y cremoso para rebanar, derretir y cocinar.",
+			"seoTitle": "Queso Cheddar Kraft 500 g | A & S Distributors",
+			"seoDescription": "Queso cheddar Kraft 500 g. Ideal para cocinar y sándwiches. Precios al por mayor disponibles.",
+			"seoKeywords": "cheddar Kraft, queso cheddar en bloque, lácteos al por mayor, queso",
+			"imageAlt": "Bloque de Queso Cheddar Kraft"
 		},
 		"tuckers-blitz": {
 			"name": "Tuckers Blitz",

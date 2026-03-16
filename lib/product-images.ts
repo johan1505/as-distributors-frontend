@@ -23,7 +23,7 @@ import img777MackerelNaturalOil from '@/public/images/777-mackerel-natural-oil.w
 import img777MackerelTomatoSauce from '@/public/images/777-mackerel-tomato-sauce.webp';
 import imgBrunswickSardinesSoybeanOil from '@/public/images/brunswick-sardines-soybean-oil.webp';
 import imgSkipperTunaVegetableOil from '@/public/images/skipper-tuna-vegetable-oil.webp';
-import imgFishKawaKawa from '@/public/images/fish-kawa-kawa.webp';
+import imgFishKawaKawa from '@/public/images/fish-kawa-kawa.png';
 import imgFishKawaKawaSteakSlices from '@/public/images/fish-kawa-kawa-steak-slices.webp';
 import imgUlaviParrotFish from '@/public/images/ulavi-parrot-fish.webp';
 import imgUnicornTa from '@/public/images/unicorn-ta.webp';
@@ -308,9 +308,9 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'jasons-peanut-ruffs-28gr': imgJasonsPeanutRuffs28gr,
 	'jasons-peanut-ruffs-64gr': imgJasonsPeanutRuffs64gr,
 	'jasons-peanut-ruffs-156gr': imgJasonsPeanutRuffs156gr,
-	'chow-tomato-flavour': imgChowTomatoFlavour,
-	'chow-chicken-flavour': imgChowChickenFlavour,
-	'chow-curry-flavour': imgChowCurryFlavour,
+	'fmf-chow-tomato-flavour': imgChowTomatoFlavour,
+	'fmf-chow-chicken-flavour': imgChowChickenFlavour,
+	'fmf-chow-curry-flavour': imgChowCurryFlavour,
 	'cadbury-crunchie-bars': imgCadburyCrunchieBars,
 	'cadbury-dream-bars': imgCadburyDreamBars,
 	'cadbury-fruit-nut': imgCadburyFruitNut,
@@ -450,7 +450,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'777-mackerel-tomato-sauce': '/images/777-mackerel-tomato-sauce.webp',
 	'brunswick-sardines-soybean-oil': '/images/brunswick-sardines-soybean-oil.webp',
 	'skipper-tuna-vegetable-oil': '/images/skipper-tuna-vegetable-oil.webp',
-	'fish-kawa-kawa': '/images/fish-kawa-kawa.webp',
+	'fish-kawa-kawa': '/images/fish-kawa-kawa.png',
 	'fish-kawa-kawa-steak-slices': '/images/fish-kawa-kawa-steak-slices.webp',
 	'ulavi-parrot-fish': '/images/ulavi-parrot-fish.webp',
 	'unicorn-ta': '/images/unicorn-ta.webp',
@@ -522,9 +522,9 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'jasons-peanut-ruffs-28gr': '/images/jasons-peanut-ruffs-28gr.webp',
 	'jasons-peanut-ruffs-64gr': '/images/jasons-peanut-ruffs-64gr.webp',
 	'jasons-peanut-ruffs-156gr': '/images/jasons-peanut-ruffs-156gr.webp',
-	'chow-tomato-flavour': '/images/chow-tomato-flavour.png',
-	'chow-chicken-flavour': '/images/chow-chicken-flavour.png',
-	'chow-curry-flavour': '/images/chow-curry-flavour.png',
+	'fmf-chow-tomato-flavour': '/images/chow-tomato-flavour.png',
+	'fmf-chow-chicken-flavour': '/images/chow-chicken-flavour.png',
+	'fmf-chow-curry-flavour': '/images/chow-curry-flavour.png',
 	'cadbury-crunchie-bars': '/images/cadbury-crunchie-bars.webp',
 	'cadbury-dream-bars': '/images/cadbury-dream-bars.webp',
 	'cadbury-fruit-nut': '/images/cadbury-fruit-nut.webp',

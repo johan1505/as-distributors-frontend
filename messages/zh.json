@@ -172,7 +172,8 @@
 		"noodles": "面条",
 		"candies": "糖果",
 		"pickles-spices": "腌菜和香料",
-		"oils": "油类与乳制品",
+		"oils": "食用油",
+		"dairy": "乳制品",
 		"breakfast-cereal": "早餐谷物",
 		"powders-teas": "粉类、茶与面粉",
 		"lamb-goat": "羊肉和山羊肉",
@@ -250,10 +251,16 @@
 			"keywords": "咖喱粉, 玛萨拉, 芒果腌菜, 罗望子酸辣酱, Punjas香料, 斐济香料, 批发香料"
 		},
 		"oils": {
-			"title": "油类与乳制品 - 椰子油、酥油与奶粉 | A & S Distributors",
-			"description": "优质食用油，包括椰子油、芥子油、酥油，以及奶粉等乳制品主食。",
-			"pageDescription": "优质食用油与传统酥油，同时提供乳制品必需品。",
-			"keywords": "椰子油, 酥油, 芥子油, 奶粉, 批发油类"
+			"title": "食用油 - 椰子油、芥子油与酥油 | A & S Distributors",
+			"description": "优质食用油，包括椰子油、芥子油和酥油。",
+			"pageDescription": "优质食用油与传统酥油，适合日常烹饪。",
+			"keywords": "椰子油, 酥油, 芥子油, Punjas油, 批发油类"
+		},
+		"dairy": {
+			"title": "乳制品 - 奶粉、黄油与奶酪 | A & S Distributors",
+			"description": "包含奶粉、黄油与奶酪的日常乳制品。",
+			"pageDescription": "提供奶粉、黄油、奶酪等零售与餐饮渠道产品。",
+			"keywords": "乳制品, 奶粉, 黄油, 切达奶酪, 批发乳制品"
 		},
 		"breakfast-cereal": {
 			"title": "早餐麦片 - Weetbix | A & S Distributors",

@@ -26,6 +26,10 @@ export const PRODUCT_SLUGS = [
 	'777-mackerel-tomato-sauce',
 	'brunswick-sardines-soybean-oil',
 	'skipper-tuna-vegetable-oil',
+	'lapana-tongol-chunk-tuna',
+	'old-capital-special-tuna',
+	'sun-bell-tuna',
+	'ovalau-blue-tuna',
 	'fish-kawa-kawa',
 	'fish-kawa-kawa-steak-slices',
 	'ulavi-parrot-fish',
@@ -35,17 +39,18 @@ export const PRODUCT_SLUGS = [
 	'pacific-taste-coconut-milk-98oz',
 	'pacific-crown-fiji-coconut-cream',
 	'pacific-crown-tahitian-chestnut',
-	'watties-spaghetti-tomato-sauce',
-	'watties-baked-beans-tomato-sauce',
 	'palusami-taro-leaves',
 	'pacific-crown-duruka-stalk-brine',
-	'milk-arrowroot',
-	'monte-carlo',
+	'pacific-crown-breadfruit',
+	'watties-spaghetti-tomato-sauce',
+	'watties-baked-beans-tomato-sauce',
 	'tim-tam-extra-chocolate',
 	'tim-tam-chewy-caramel',
 	'tim-tam-dark-chocolate',
 	'tim-tam-mint',
 	'tim-tam-original',
+	'milk-arrowroot',
+	'monte-carlo',
 	'delta-cream',
 	'scotch-finger',
 	'shortbread-cream',
@@ -88,6 +93,8 @@ export const PRODUCT_SLUGS = [
 	'twistes-cheese-100gr',
 	'twistes-cheese-250gr',
 	'twistes-cheese-500gr',
+	'twistes-sour-cream-100gr',
+	'twistes-sour-cream-250gr',
 	'twistes-chicken-20gr',
 	'twistes-chicken-100gr',
 	'twistes-chicken-250gr',
@@ -98,9 +105,11 @@ export const PRODUCT_SLUGS = [
 	'jasons-peanut-ruffs-28gr',
 	'jasons-peanut-ruffs-64gr',
 	'jasons-peanut-ruffs-156gr',
-	'chow-tomato-flavour',
-	'chow-chicken-flavour',
-	'chow-curry-flavour',
+	'fmf-chow-tomato-flavour',
+	'fmf-chow-chicken-flavour',
+	'fmf-chow-curry-flavour',
+	'maggi-noodles-chicken-flavour',
+	'maggi-noodles-curry-flavour',
 	'cadbury-crunchie-bars',
 	'cadbury-dream-bars',
 	'cadbury-fruit-nut',
@@ -132,12 +141,15 @@ export const PRODUCT_SLUGS = [
 	'natural-coconut-oil-rose',
 	'natural-coconut-oil-infusion',
 	'natural-coconut-oil-sandalwood',
+	'anchor-butter-new-zealand',
+	'kraft-cheddar-cheese',
+	'rewa-full-cream-milk-powder',
 	'weetbix-breakfast-cereal-13oz',
 	'weetbix-breakfast-cereal-20oz',
 	'weetbix-breakfast-cereal-2lb',
 	'fufu-mix-plantain-flour',
 	'fufu-mix-cocoyam-flour',
-	'rewa-full-cream-milk-powder',
+	'edmonds-custard-powder',
 	'milo-powder-singapore-14oz',
 	'milo-powder-singapore-3lb',
 	'kava-lawena-powder',
@@ -185,7 +197,6 @@ export const PRODUCT_SLUGS = [
 	'breadfruit-5lb',
 	'tahitian-chestnut-ivi',
 	'paranthas-plain-value-pack',
-	'anchor-butter-new-zealand',
 	'tuckers-blitz',
 	'tucker-blitz-bars',
 	'tuckers-passion-fruit',
@@ -193,30 +204,30 @@ export const PRODUCT_SLUGS = [
 	'kool-pop',
 	'bula-pop',
 	'pacific-split',
+	'bula-noni-fiji-islands',
+	'pops-pineapple-2-5l',
+	'pops-kola-2-5l',
+	'pops-orange-2-5l',
+	'pops-lime-2-5l',
+	'pops-raspberry-2-5l',
+	'pops-cordial-raspberry-1l',
+	'pops-cordial-pineapple-1l',
+	'pops-cordial-kola-1l',
+	'pops-cordial-lime-1l',
+	'pops-cordial-orange-1l',
+	'pops-raspberry-can-355ml',
+	'pops-pineapple-can-355ml',
+	'pops-lime-can-355ml',
+	'pops-kola-can-355ml',
+	'pops-orange-can-355ml',
 	'sunquick-tropical-juice-concentrate',
 	'sunquick-orange-juice-concentrate',
 	'sunquick-mango-juice-concentrate',
-	'bula-noni-fiji-islands',
 	'nestle-smarties-50g',
 	'nestle-milkybar-classic-50g',
 	'nestle-kitkat-chunky-milo-44g',
 	'jasons-black-hacks-150g',
 	'jasons-clear-mints-150g',
-	'pops-kola-2-5l',
-	'pops-orange-2-5l',
-	'pops-lime-2-5l',
-	'pops-raspberry-2-5l',
-	'pops-pineapple-2-5l',
-	'pops-cordial-kola-1l',
-	'pops-cordial-raspberry-1l',
-	'pops-cordial-orange-1l',
-	'pops-cordial-pineapple-1l',
-	'pops-cordial-lime-1l',
-	'pops-raspberry-can-355ml',
-	'pops-kola-can-355ml',
-	'pops-orange-can-355ml',
-	'pops-pineapple-can-355ml',
-	'pops-lime-can-355ml',
 ] as const;
 
 // Derive ProductSlug union type from the const array
@@ -236,6 +247,7 @@ const CATEGORY_KEYS = [
 	'candies',
 	'pickles-spices',
 	'oils',
+	'dairy',
 	'breakfast-cereal',
 	'powders-teas',
 	'lamb-goat',
@@ -274,7 +286,7 @@ export function isCategoryKey(key: string): key is CategoryKey {
 export interface ProductBase {
 	slug: ProductSlug;
 	itemNumber: string;
-	unitPerPack: number;
+	unitPerPack: number | string;
 	overallSize: string;
 	categoryKey: CategoryKey;
 	featured: boolean;
@@ -292,7 +304,7 @@ export function getProductImage(slug: ProductSlug): StaticImageData | string {
 function isValidProductBase(p: {
 	slug: string;
 	itemNumber: string;
-	unitPerPack: number;
+	unitPerPack: number | string;
 	overallSize: string;
 	categoryKey: string;
 	featured: boolean;
@@ -302,7 +314,7 @@ function isValidProductBase(p: {
 
 export function getAllProductsBase(): ProductBase[] {
 	// Validate that all products have valid slugs (type-safe without casts)
-	return productsData.filter(isValidProductBase);
+	return productsData.filter(isValidProductBase) as ProductBase[];
 }
 
 export function getProductBySlug(slug: ProductSlug): ProductBase | undefined {

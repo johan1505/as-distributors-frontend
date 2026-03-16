@@ -172,7 +172,8 @@
 		"noodles": "Noodles",
 		"candies": "Candies",
 		"pickles-spices": "Pickles & Spices",
-		"oils": "Oils & Dairy",
+		"oils": "Oils",
+		"dairy": "Dairy",
 		"breakfast-cereal": "Breakfast Cereal",
 		"powders-teas": "Powders, Teas & Flours",
 		"lamb-goat": "Lamb & Goat",
@@ -250,10 +251,16 @@
 			"keywords": "curry powder, masala, mango pickle, tamarind chutney, Punjas spices, Fiji spices, wholesale spices"
 		},
 		"oils": {
-			"title": "Oils & Dairy - Coconut Oil, Ghee & Milk Powder | A & S Distributors",
-			"description": "Premium cooking oils including coconut oil, mustard oil, ghee butter, plus dairy staples like milk powder.",
-			"pageDescription": "Quality cooking oils and traditional ghee butter, plus dairy essentials for everyday cooking.",
-			"keywords": "coconut oil, ghee butter, mustard oil, milk powder, Punjas oil, wholesale oils"
+			"title": "Oils - Coconut Oil, Mustard Oil & Ghee | A & S Distributors",
+			"description": "Premium cooking oils including coconut oil, mustard oil, and ghee butter.",
+			"pageDescription": "Quality cooking oils and traditional ghee butter for everyday cooking.",
+			"keywords": "coconut oil, ghee butter, mustard oil, Punjas oil, wholesale oils"
+		},
+		"dairy": {
+			"title": "Dairy - Milk Powder, Butter & Cheese | A & S Distributors",
+			"description": "Dairy staples including milk powder, butter, and cheese for cooking and baking.",
+			"pageDescription": "Milk powder, butter, and cheese for retail and foodservice needs.",
+			"keywords": "dairy, milk powder, butter, cheddar cheese, wholesale dairy"
 		},
 		"breakfast-cereal": {
 			"title": "Breakfast Cereal - Weetbix | A & S Distributors",
@@ -484,6 +491,38 @@
 			"seoKeywords": "Skipper tuna, canned tuna, tuna in oil, wholesale tuna",
 			"imageAlt": "Can of Skipper Tuna in Vegetable Oil"
 		},
+		"lapana-tongol-chunk-tuna": {
+			"name": "L'aPana Tongol Chunk Tuna",
+			"description": "Chunk-style tongol tuna in a convenient 7.05 oz can. Firm, meaty pieces with a mild flavor that works well in salads, sandwiches, and rice bowls.",
+			"seoTitle": "L'aPana Tongol Chunk Tuna 7.05 oz | A & S Distributors",
+			"seoDescription": "L'aPana Tongol chunk tuna, firm and versatile. Wholesale pricing available.",
+			"seoKeywords": "L'aPana tuna, tongol tuna, chunk tuna, canned tuna, wholesale tuna",
+			"imageAlt": "Can of L'aPana Tongol Chunk Tuna"
+		},
+		"old-capital-special-tuna": {
+			"name": "Old Capital Special Tuna",
+			"description": "Old Capital canned tuna with a mild flavor and flaky texture. A dependable pantry staple for salads, sandwiches, and hot dishes.",
+			"seoTitle": "Old Capital Special Tuna | A & S Distributors",
+			"seoDescription": "Old Capital Special Tuna, pantry staple. Wholesale pricing available.",
+			"seoKeywords": "Old Capital tuna, special tuna, canned tuna, wholesale tuna",
+			"imageAlt": "Can of Old Capital Special Tuna"
+		},
+		"sun-bell-tuna": {
+			"name": "Sun Bell Tuna",
+			"description": "Sun Bell canned tuna with clean, mild flavor and a flaky bite. Great for quick meals, salads, and sandwiches.",
+			"seoTitle": "Sun Bell Tuna | A & S Distributors",
+			"seoDescription": "Sun Bell Tuna, mild and versatile. Wholesale pricing available.",
+			"seoKeywords": "Sun Bell tuna, canned tuna, tuna wholesale, pantry tuna",
+			"imageAlt": "Can of Sun Bell Tuna"
+		},
+		"ovalau-blue-tuna": {
+			"name": "Ovalau Blue Tuna",
+			"description": "Ovalau Blue Tuna in a 6 oz can. Firm, flaky tuna ideal for lunches, salads, and island-style recipes.",
+			"seoTitle": "Ovalau Blue Tuna 6 oz | A & S Distributors",
+			"seoDescription": "Ovalau Blue Tuna 6 oz, firm and flaky. Wholesale pricing available.",
+			"seoKeywords": "Ovalau Blue tuna, canned tuna 6 oz, tuna wholesale, pantry tuna",
+			"imageAlt": "Can of Ovalau Blue Tuna"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Coconut Milk",
 			"description": "Rich and tasty coconut milk goodness. Perfect for classic regional dishes, soups, curries, sauces, desserts and beverages. Coconut milk is also a great alternative to dairy.",
@@ -547,6 +586,14 @@
 			"seoDescription": "Canned Duruka (Fiji asparagus) in brine. Traditional Fijian vegetable. Wholesale pricing available.",
 			"seoKeywords": "Duruka, Fiji asparagus, Pacific vegetable, Fijian food, wholesale Pacific food",
 			"imageAlt": "Can of Pacific Crown Duruka Stalk in Brine"
+		},
+		"pacific-crown-breadfruit": {
+			"name": "Pacific Crown Breadfruit",
+			"description": "Tender breadfruit in brine, ready to heat and serve. A Pacific Island staple for curries, coconut stews, and flavorful side dishes.",
+			"seoTitle": "Pacific Crown Breadfruit 14 oz | A & S Distributors",
+			"seoDescription": "Pacific Crown canned breadfruit, island staple. Wholesale pricing available.",
+			"seoKeywords": "canned breadfruit, Pacific Crown breadfruit, island vegetables, wholesale breadfruit",
+			"imageAlt": "Can of Pacific Crown Breadfruit"
 		},
 		"milk-arrowroot": {
 			"name": "Arnott's Milk Arrowroot",
@@ -940,6 +987,22 @@
 			"seoKeywords": "TWISTES cheese, cheese puffs large, Fiji snacks, baked snacks",
 			"imageAlt": "Package of TWISTES Cheese snack"
 		},
+		"twistes-sour-cream-100gr": {
+			"name": "TWISTES Sour Cream",
+			"description": "Crunchy TWISTES corn puffs with a tangy sour cream seasoning. A satisfying mid-size bag for everyday snacking.",
+			"seoTitle": "TWISTES Sour Cream Puffs 100g | A & S Distributors",
+			"seoDescription": "TWISTES Sour Cream puffs 100g, tangy and crunchy. Wholesale pricing available.",
+			"seoKeywords": "TWISTES sour cream, corn puffs, Fiji snacks, sour cream chips",
+			"imageAlt": "Package of TWISTES Sour Cream snack"
+		},
+		"twistes-sour-cream-250gr": {
+			"name": "TWISTES Sour Cream",
+			"description": "Sharing-size TWISTES sour cream puffs with a creamy, tangy flavor. Perfect for parties and gatherings.",
+			"seoTitle": "TWISTES Sour Cream Puffs 250g | A & S Distributors",
+			"seoDescription": "TWISTES Sour Cream puffs 250g, shareable size. Wholesale pricing available.",
+			"seoKeywords": "TWISTES sour cream, sharing size snacks, Fiji puffs, party snacks",
+			"imageAlt": "Package of TWISTES Sour Cream snack"
+		},
 		"twistes-chicken-20gr": {
 			"name": "TWISTES Chicken",
 			"description": "Pocket-size pack of chicken-flavored TWISTES puffs. Convenient for on-the-go snacking, school lunches, or vending. All the savory chicken taste in a perfectly portioned package.",
@@ -1052,29 +1115,45 @@
 			"seoKeywords": "Peanut Ruffs large, Jasons Fiji, peanut butter snacks, Pacific Island food",
 			"imageAlt": "Package of Jasons Peanut Ruffs"
 		},
-		"chow-tomato-flavour": {
-			"name": "Chow Tomato Flavour",
-			"description": "Hearty chow noodles in a rich tomato seasoning with a savory, tangy finish. A quick and satisfying meal or side dish that is easy to customize with vegetables or protein.",
-			"seoTitle": "Chow Tomato Flavour Noodles | A & S Distributors",
-			"seoDescription": "Chow noodles with tomato flavour. Quick, savory meal. Wholesale pricing available.",
-			"seoKeywords": "chow noodles, tomato flavour noodles, instant noodles, pantry noodles",
-			"imageAlt": "Chow Tomato Flavour noodles pack"
+		"fmf-chow-tomato-flavour": {
+			"name": "FMF Chow Tomato Flavour",
+			"description": "Hearty FMF Chow noodles in a rich tomato seasoning with a savory, tangy finish. A quick and satisfying meal or side dish that is easy to customize with vegetables or protein.",
+			"seoTitle": "FMF Chow Tomato Flavour Noodles | A & S Distributors",
+			"seoDescription": "FMF Chow noodles with tomato flavour. Quick, savory meal. Wholesale pricing available.",
+			"seoKeywords": "FMF Chow noodles, tomato flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "FMF Chow Tomato Flavour noodles pack"
 		},
-		"chow-chicken-flavour": {
-			"name": "Chow Chicken Flavour",
-			"description": "Classic chow noodles with a savory chicken-style seasoning. Comforting flavor and easy prep make this a dependable pantry favorite for quick lunches or dinners.",
-			"seoTitle": "Chow Chicken Flavour Noodles | A & S Distributors",
-			"seoDescription": "Chow noodles with chicken flavour. Easy, satisfying meal. Wholesale pricing available.",
-			"seoKeywords": "chow noodles, chicken flavour noodles, instant noodles, pantry noodles",
-			"imageAlt": "Chow Chicken Flavour noodles pack"
+		"fmf-chow-chicken-flavour": {
+			"name": "FMF Chow Chicken Flavour",
+			"description": "Classic FMF Chow noodles with a savory chicken-style seasoning. Comforting flavor and easy prep make this a dependable pantry favorite for quick lunches or dinners.",
+			"seoTitle": "FMF Chow Chicken Flavour Noodles | A & S Distributors",
+			"seoDescription": "FMF Chow noodles with chicken flavour. Easy, satisfying meal. Wholesale pricing available.",
+			"seoKeywords": "FMF Chow noodles, chicken flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "FMF Chow Chicken Flavour noodles pack"
 		},
-		"chow-curry-flavour": {
-			"name": "Chow Curry Flavour",
-			"description": "Warm curry-spiced chow noodles with aromatic notes and a gentle heat. Perfect for a flavorful, fast meal on busy days.",
-			"seoTitle": "Chow Curry Flavour Noodles | A & S Distributors",
-			"seoDescription": "Chow noodles with curry flavour. Aromatic and convenient. Wholesale pricing available.",
-			"seoKeywords": "chow noodles, curry flavour noodles, instant noodles, pantry noodles",
-			"imageAlt": "Chow Curry Flavour noodles pack"
+		"fmf-chow-curry-flavour": {
+			"name": "FMF Chow Curry Flavour",
+			"description": "Warm curry-spiced FMF Chow noodles with aromatic notes and a gentle heat. Perfect for a flavorful, fast meal on busy days.",
+			"seoTitle": "FMF Chow Curry Flavour Noodles | A & S Distributors",
+			"seoDescription": "FMF Chow noodles with curry flavour. Aromatic and convenient. Wholesale pricing available.",
+			"seoKeywords": "FMF Chow noodles, curry flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "FMF Chow Curry Flavour noodles pack"
+		},
+		"maggi-noodles-chicken-flavour": {
+			"name": "Maggi Noodles Chicken Flavour",
+			"description": "Quick-cook Maggi noodles with savory chicken seasoning. A pantry favorite for fast meals, soups, or stir-fries.",
+			"seoTitle": "Maggi Chicken Flavour Noodles | A & S Distributors",
+			"seoDescription": "Maggi chicken flavour noodles, quick and satisfying. Wholesale pricing available.",
+			"seoKeywords": "Maggi noodles, chicken flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "Maggi Chicken Flavour noodles pack"
+		},
+		"maggi-noodles-curry-flavour": {
+			"name": "Maggi Noodles Curry Flavour",
+			"description": "Maggi noodles with aromatic curry seasoning and gentle heat. Great for quick lunches or a flavorful side.",
+			"seoTitle": "Maggi Curry Flavour Noodles | A & S Distributors",
+			"seoDescription": "Maggi curry flavour noodles, aromatic and convenient. Wholesale pricing available.",
+			"seoKeywords": "Maggi noodles, curry flavour noodles, instant noodles, pantry noodles",
+			"imageAlt": "Maggi Curry Flavour noodles pack"
 		},
 		"homemaid-amra-pickles": {
 			"name": "Homemaid Amra Pickles",
@@ -1331,6 +1410,14 @@
 			"seoDescription": "Cocoyam flour fufu mix. Traditional African staple. Wholesale pricing available.",
 			"seoKeywords": "cocoyam fufu, fufu flour, African food, traditional cooking",
 			"imageAlt": "Package of Fufu Mix Cocoyam Flour"
+		},
+		"edmonds-custard-powder": {
+			"name": "Edmonds Custard Powder",
+			"description": "Classic Edmonds custard powder for smooth, creamy custard. Perfect for desserts, trifles, fruit, and baking.",
+			"seoTitle": "Edmonds Custard Powder 450 g | A & S Distributors",
+			"seoDescription": "Edmonds custard powder 450 g. Creamy custard made easy. Wholesale pricing available.",
+			"seoKeywords": "Edmonds custard powder, custard mix, dessert ingredients, baking supplies",
+			"imageAlt": "Edmonds Custard Powder tin"
 		},
 		"rewa-full-cream-milk-powder": {
 			"name": "Rewa Full Cream Milk Powder",
@@ -1763,6 +1850,14 @@
 			"seoDescription": "Premium New Zealand Anchor butter. Grass-fed, rich and creamy. Wholesale pricing available.",
 			"seoKeywords": "Anchor butter, New Zealand butter, premium butter, grass-fed butter, wholesale butter",
 			"imageAlt": "Block of Anchor Butter New Zealand"
+		},
+		"kraft-cheddar-cheese": {
+			"name": "Kraft Cheddar Cheese",
+			"description": "Kraft cheddar cheese in a 500 g block. Rich, creamy cheddar for slicing, melting, and cooking.",
+			"seoTitle": "Kraft Cheddar Cheese 500 g | A & S Distributors",
+			"seoDescription": "Kraft cheddar cheese 500 g block. Great for cooking and sandwiches. Wholesale pricing available.",
+			"seoKeywords": "Kraft cheddar, cheddar cheese block, dairy wholesale, cheese",
+			"imageAlt": "Block of Kraft Cheddar Cheese"
 		},
 		"tuckers-blitz": {
 			"name": "Tuckers Blitz",
