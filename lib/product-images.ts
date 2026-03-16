@@ -153,7 +153,7 @@ import imgLambNeckWhole from '@/public/images/lamb-neck-whole.webp';
 import imgLambNeckSliced from '@/public/images/lamb-neck-sliced.webp';
 import imgLambLegWhole from '@/public/images/lamb-leg-whole.webp';
 import imgLambLegSlicedPrepack from '@/public/images/lamb-leg-sliced-prepack.webp';
-import imgLambFlapWhole from '@/public/images/lamb-flap-whole.webp';
+import imgLambFlapWhole from '@/public/images/lamb-flap-whole.png';
 import imgLambShankWhole from '@/public/images/lamb-shank-whole.webp';
 import imgLambShankSlicedPrepack from '@/public/images/lamb-shank-sliced-prepack.png';
 import imgAustralianGoatWhole from '@/public/images/australian-goat-whole.png';
@@ -598,7 +598,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'lamb-neck-sliced': '/images/lamb-neck-sliced.webp',
 	'lamb-leg-whole': '/images/lamb-leg-whole.webp',
 	'lamb-leg-sliced-prepack': '/images/lamb-leg-sliced-prepack.webp',
-	'lamb-flap-whole': '/images/lamb-flap-whole.webp',
+	'lamb-flap-whole': '/images/lamb-flap-whole.png',
 	'lamb-shank-whole': '/images/lamb-shank-whole.webp',
 	'lamb-shank-sliced-prepack': '/images/lamb-shank-sliced-prepack.png',
 	'australian-goat-whole': '/images/australian-goat-whole.png',
