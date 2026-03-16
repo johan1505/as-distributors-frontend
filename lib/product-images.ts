@@ -27,10 +27,11 @@ import imgFishKawaKawa from '@/public/images/fish-kawa-kawa.png';
 import imgFishKawaKawaSteakSlices from '@/public/images/fish-kawa-kawa-steak-slices.webp';
 import imgUlaviParrotFish from '@/public/images/ulavi-parrot-fish.webp';
 import imgUnicornTa from '@/public/images/unicorn-ta.webp';
-import imgKawango from '@/public/images/kawango.webp';
+import imgKawango from '@/public/images/kawango.png';
 import imgPacificTasteCoconutMilk13oz from '@/public/images/pacific-taste-coconut-milk-13oz.webp';
 import imgPacificTasteCoconutMilk98oz from '@/public/images/pacific-taste-coconut-milk-98oz.webp';
 import imgPacificCrownFijiCoconutCream from '@/public/images/pacific-crown-fiji-coconut-cream.webp';
+import imgPacificCrownBreadfruit from '@/public/images/pacific-crown-breadfruit.png';
 import imgPacificCrownTahitianChestnut from '@/public/images/pacific-crown-tahitian-chestnut.webp';
 import imgWattiesSpaghettiTomatoSauce from '@/public/images/watties-spaghetti-tomato-sauce.webp';
 import imgWattiesBakedBeansTomatoSauce from '@/public/images/watties-baked-beans-tomato-sauce.webp';
@@ -85,16 +86,18 @@ import imgTwistesCheese20gr from '@/public/images/twistes-cheese-20gr.png';
 import imgTwistesCheese100gr from '@/public/images/twistes-cheese-100gr.png';
 import imgTwistesCheese250gr from '@/public/images/twistes-cheese-250gr.png';
 import imgTwistesCheese500gr from '@/public/images/twistes-cheese-500gr.png';
-import imgTwistesChicken20gr from '@/public/images/twistes-chicken-20gr.webp';
-import imgTwistesChicken100gr from '@/public/images/twistes-chicken-100gr.webp';
-import imgTwistesChicken250gr from '@/public/images/twistes-chicken-250gr.webp';
-import imgTwistesChicken500gr from '@/public/images/twistes-chicken-500gr.webp';
-import imgUfoBurger20gr from '@/public/images/ufo-burger-20gr.webp';
-import imgUfoBurger100gr from '@/public/images/ufo-burger-100gr.webp';
-import imgUfoBurger200gr from '@/public/images/ufo-burger-200gr.webp';
-import imgJasonsPeanutRuffs28gr from '@/public/images/jasons-peanut-ruffs-28gr.webp';
-import imgJasonsPeanutRuffs64gr from '@/public/images/jasons-peanut-ruffs-64gr.webp';
-import imgJasonsPeanutRuffs156gr from '@/public/images/jasons-peanut-ruffs-156gr.webp';
+import imgTwistesSourCream100gr from '@/public/images/twistes-sour-cream-100gr.png';
+import imgTwistesSourCream250gr from '@/public/images/twistes-sour-cream-250gr.png';
+import imgTwistesChicken20gr from '@/public/images/twistes-chicken-20gr.png';
+import imgTwistesChicken100gr from '@/public/images/twistes-chicken-100gr.png';
+import imgTwistesChicken250gr from '@/public/images/twistes-chicken-250gr.png';
+import imgTwistesChicken500gr from '@/public/images/twistes-chicken-500gr.png';
+import imgUfoBurger20gr from '@/public/images/ufo-burger-20gr.png';
+import imgUfoBurger100gr from '@/public/images/ufo-burger-100gr.png';
+import imgUfoBurger200gr from '@/public/images/ufo-burger-200gr.png';
+import imgJasonsPeanutRuffs28gr from '@/public/images/jasons-peanut-ruffs-28gr.png';
+import imgJasonsPeanutRuffs64gr from '@/public/images/jasons-peanut-ruffs-64gr.png';
+import imgJasonsPeanutRuffs156gr from '@/public/images/jasons-peanut-ruffs-156gr.png';
 import imgChowTomatoFlavour from '@/public/images/chow-tomato-flavour.png';
 import imgChowChickenFlavour from '@/public/images/chow-chicken-flavour.png';
 import imgChowCurryFlavour from '@/public/images/chow-curry-flavour.png';
@@ -134,6 +137,7 @@ import imgWeetbixBreakfastCereal20oz from '@/public/images/weetbix-breakfast-cer
 import imgWeetbixBreakfastCereal2lb from '@/public/images/weetbix-breakfast-cereal-2lb.webp';
 import imgFufuMixPlantainFlour from '@/public/images/fufu-mix-plantain-flour.webp';
 import imgFufuMixCocoyamFlour from '@/public/images/fufu-mix-cocoyam-flour.webp';
+import imgEdmondsCustardPowder from '@/public/images/edmonds-custard-powder.png';
 import imgRewaFullCreamMilkPowder from '@/public/images/rewa-full-cream-milk-powder.webp';
 import imgMiloPowderSingapore14oz from '@/public/images/milo-powder-singapore-14oz.webp';
 import imgMiloPowderSingapore3lb from '@/public/images/milo-powder-singapore-3lb.webp';
@@ -181,6 +185,7 @@ import imgBreadfruit5lb from '@/public/images/breadfruit-5lb.webp';
 import imgTahitianChestnutIvi from '@/public/images/tahitian-chestnut-ivi.webp';
 import imgParanthasPlainValuePack from '@/public/images/paranthas-plain-value-pack.webp';
 import imgAnchorButterNewZealand from '@/public/images/anchor-butter-new-zealand.webp';
+import imgKraftCheddarCheese from '@/public/images/kraft-cheddar-cheese.png';
 import imgTuckersBlitz from '@/public/images/tuckers-blitz.webp';
 import imgTuckerBlitzBars from '@/public/images/tucker-blitz-bars.webp';
 import imgTuckersPassionFruit from '@/public/images/tuckers-passion-fruit.webp';
@@ -248,6 +253,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'pacific-taste-coconut-milk-13oz': imgPacificTasteCoconutMilk13oz,
 	'pacific-taste-coconut-milk-98oz': imgPacificTasteCoconutMilk98oz,
 	'pacific-crown-fiji-coconut-cream': imgPacificCrownFijiCoconutCream,
+	'pacific-crown-breadfruit': imgPacificCrownBreadfruit,
 	'pacific-crown-tahitian-chestnut': imgPacificCrownTahitianChestnut,
 	'watties-spaghetti-tomato-sauce': imgWattiesSpaghettiTomatoSauce,
 	'watties-baked-beans-tomato-sauce': imgWattiesBakedBeansTomatoSauce,
@@ -302,6 +308,8 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'twistes-cheese-100gr': imgTwistesCheese100gr,
 	'twistes-cheese-250gr': imgTwistesCheese250gr,
 	'twistes-cheese-500gr': imgTwistesCheese500gr,
+	'twistes-sour-cream-100gr': imgTwistesSourCream100gr,
+	'twistes-sour-cream-250gr': imgTwistesSourCream250gr,
 	'twistes-chicken-20gr': imgTwistesChicken20gr,
 	'twistes-chicken-100gr': imgTwistesChicken100gr,
 	'twistes-chicken-250gr': imgTwistesChicken250gr,
@@ -351,6 +359,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'weetbix-breakfast-cereal-2lb': imgWeetbixBreakfastCereal2lb,
 	'fufu-mix-plantain-flour': imgFufuMixPlantainFlour,
 	'fufu-mix-cocoyam-flour': imgFufuMixCocoyamFlour,
+	'edmonds-custard-powder': imgEdmondsCustardPowder,
 	'rewa-full-cream-milk-powder': imgRewaFullCreamMilkPowder,
 	'milo-powder-singapore-14oz': imgMiloPowderSingapore14oz,
 	'milo-powder-singapore-3lb': imgMiloPowderSingapore3lb,
@@ -398,6 +407,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'tahitian-chestnut-ivi': imgTahitianChestnutIvi,
 	'paranthas-plain-value-pack': imgParanthasPlainValuePack,
 	'anchor-butter-new-zealand': imgAnchorButterNewZealand,
+	'kraft-cheddar-cheese': imgKraftCheddarCheese,
 	'tuckers-blitz': imgTuckersBlitz,
 	'tucker-blitz-bars': imgTuckerBlitzBars,
 	'tuckers-passion-fruit': imgTuckersPassionFruit,
@@ -462,10 +472,11 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fish-kawa-kawa-steak-slices': '/images/fish-kawa-kawa-steak-slices.webp',
 	'ulavi-parrot-fish': '/images/ulavi-parrot-fish.webp',
 	'unicorn-ta': '/images/unicorn-ta.webp',
-	kawango: '/images/kawango.webp',
+	kawango: '/images/kawango.png',
 	'pacific-taste-coconut-milk-13oz': '/images/pacific-taste-coconut-milk-13oz.webp',
 	'pacific-taste-coconut-milk-98oz': '/images/pacific-taste-coconut-milk-98oz.webp',
 	'pacific-crown-fiji-coconut-cream': '/images/pacific-crown-fiji-coconut-cream.webp',
+	'pacific-crown-breadfruit': '/images/pacific-crown-breadfruit.png',
 	'pacific-crown-tahitian-chestnut': '/images/pacific-crown-tahitian-chestnut.webp',
 	'watties-spaghetti-tomato-sauce': '/images/watties-spaghetti-tomato-sauce.webp',
 	'watties-baked-beans-tomato-sauce': '/images/watties-baked-beans-tomato-sauce.webp',
@@ -520,16 +531,18 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'twistes-cheese-100gr': '/images/twistes-cheese-100gr.png',
 	'twistes-cheese-250gr': '/images/twistes-cheese-250gr.png',
 	'twistes-cheese-500gr': '/images/twistes-cheese-500gr.png',
-	'twistes-chicken-20gr': '/images/twistes-chicken-20gr.webp',
-	'twistes-chicken-100gr': '/images/twistes-chicken-100gr.webp',
-	'twistes-chicken-250gr': '/images/twistes-chicken-250gr.webp',
-	'twistes-chicken-500gr': '/images/twistes-chicken-500gr.webp',
-	'ufo-burger-20gr': '/images/ufo-burger-20gr.webp',
-	'ufo-burger-100gr': '/images/ufo-burger-100gr.webp',
-	'ufo-burger-200gr': '/images/ufo-burger-200gr.webp',
-	'jasons-peanut-ruffs-28gr': '/images/jasons-peanut-ruffs-28gr.webp',
-	'jasons-peanut-ruffs-64gr': '/images/jasons-peanut-ruffs-64gr.webp',
-	'jasons-peanut-ruffs-156gr': '/images/jasons-peanut-ruffs-156gr.webp',
+	'twistes-sour-cream-100gr': '/images/twistes-sour-cream-100gr.png',
+	'twistes-sour-cream-250gr': '/images/twistes-sour-cream-250gr.png',
+	'twistes-chicken-20gr': '/images/twistes-chicken-20gr.png',
+	'twistes-chicken-100gr': '/images/twistes-chicken-100gr.png',
+	'twistes-chicken-250gr': '/images/twistes-chicken-250gr.png',
+	'twistes-chicken-500gr': '/images/twistes-chicken-500gr.png',
+	'ufo-burger-20gr': '/images/ufo-burger-20gr.png',
+	'ufo-burger-100gr': '/images/ufo-burger-100gr.png',
+	'ufo-burger-200gr': '/images/ufo-burger-200gr.png',
+	'jasons-peanut-ruffs-28gr': '/images/jasons-peanut-ruffs-28gr.png',
+	'jasons-peanut-ruffs-64gr': '/images/jasons-peanut-ruffs-64gr.png',
+	'jasons-peanut-ruffs-156gr': '/images/jasons-peanut-ruffs-156gr.png',
 	'fmf-chow-tomato-flavour': '/images/chow-tomato-flavour.png',
 	'fmf-chow-chicken-flavour': '/images/chow-chicken-flavour.png',
 	'fmf-chow-curry-flavour': '/images/chow-curry-flavour.png',
@@ -569,6 +582,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'weetbix-breakfast-cereal-2lb': '/images/weetbix-breakfast-cereal-2lb.webp',
 	'fufu-mix-plantain-flour': '/images/fufu-mix-plantain-flour.webp',
 	'fufu-mix-cocoyam-flour': '/images/fufu-mix-cocoyam-flour.webp',
+	'edmonds-custard-powder': '/images/edmonds-custard-powder.png',
 	'rewa-full-cream-milk-powder': '/images/rewa-full-cream-milk-powder.webp',
 	'milo-powder-singapore-14oz': '/images/milo-powder-singapore-14oz.webp',
 	'milo-powder-singapore-3lb': '/images/milo-powder-singapore-3lb.webp',
@@ -616,6 +630,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'tahitian-chestnut-ivi': '/images/tahitian-chestnut-ivi.webp',
 	'paranthas-plain-value-pack': '/images/paranthas-plain-value-pack.webp',
 	'anchor-butter-new-zealand': '/images/anchor-butter-new-zealand.webp',
+	'kraft-cheddar-cheese': '/images/kraft-cheddar-cheese.png',
 	'tuckers-blitz': '/images/tuckers-blitz.webp',
 	'tucker-blitz-bars': '/images/tucker-blitz-bars.webp',
 	'tuckers-passion-fruit': '/images/tuckers-passion-fruit.webp',
