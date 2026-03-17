@@ -29,7 +29,7 @@ export function ProductBadges({
           isLarge && "text-sm p-5"
         )}
       >
-        <span className="text-muted-foreground">{overallSizeLabel}</span>:{" "}
+        <span className="text-foreground/80">{overallSizeLabel}</span>:{" "}
         <span className={isLarge ? "font-medium" : undefined}>{overallSize}</span>
       </Badge>
       <Badge
@@ -39,7 +39,7 @@ export function ProductBadges({
           isLarge && "text-sm p-5"
         )}
       >
-        <span className="text-muted-foreground">{unitPerPackLabel}</span>:{" "}
+        <span className="text-foreground/80">{unitPerPackLabel}</span>:{" "}
         <span className={isLarge ? "font-medium" : undefined}>{unitPerPack}</span>
       </Badge>
     </div>

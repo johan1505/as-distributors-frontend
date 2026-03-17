@@ -73,7 +73,7 @@ export function QuoteItemsList() {
                 {getProductName(item.product.slug)}
               </Link>
               <Badge variant="secondary" className="bg-ocean-muted/50 border-ocean/10">
-                <span className="text-muted-foreground">{tProduct("overallSize")}</span>:{" "}
+                <span className="text-foreground/10">{tProduct("overallSize")}</span>:{" "}
                 <span>{item.product.overallSize}</span>
               </Badge>
               <div className="flex items-center gap-2 flex-wrap">
