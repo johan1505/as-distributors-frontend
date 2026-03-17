@@ -1419,7 +1419,7 @@
 		"slug": "yellow-cassava-2lb",
 		"itemNumber": "200",
 		"unitPerPack": 10,
-		"overallSize": "1 kg (2.20 lbs)",
+		"overallSize": "1 kg (2.20 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1427,7 +1427,7 @@
 		"slug": "white-cassava-2lb",
 		"itemNumber": "201",
 		"unitPerPack": 10,
-		"overallSize": "1 kg (2.20 lbs)",
+		"overallSize": "1 kg (2.20 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1435,7 +1435,7 @@
 		"slug": "white-cassava-5lb",
 		"itemNumber": "202",
 		"unitPerPack": 6,
-		"overallSize": "2.27 kg (5 lbs)",
+		"overallSize": "2.27 kg (5 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1443,7 +1443,7 @@
 		"slug": "pink-taro",
 		"itemNumber": "203",
 		"unitPerPack": "10 or 6",
-		"overallSize": "1 kg (2.20 lbs) or 2.27 kg (5 lbs)",
+		"overallSize": "1 kg (2.20 lb) or 2.27 kg (5 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1451,7 +1451,7 @@
 		"slug": "purple-taro-2lb",
 		"itemNumber": "204",
 		"unitPerPack": 10,
-		"overallSize": "1 kg (2.20 lbs)",
+		"overallSize": "1 kg (2.20 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1459,7 +1459,7 @@
 		"slug": "purple-taro-5lb",
 		"itemNumber": "205",
 		"unitPerPack": 6,
-		"overallSize": "2.27 kg (5 lbs)",
+		"overallSize": "2.27 kg (5 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1467,7 +1467,7 @@
 		"slug": "white-taro",
 		"itemNumber": "206",
 		"unitPerPack": 6,
-		"overallSize": "2.27 kg (5 lbs)",
+		"overallSize": "2.27 kg (5 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1475,7 +1475,7 @@
 		"slug": "yellow-taro-2lb",
 		"itemNumber": "207",
 		"unitPerPack": 10,
-		"overallSize": "1 kg (2.20 lbs)",
+		"overallSize": "1 kg (2.20 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
@@ -1483,7 +1483,7 @@
 		"slug": "yellow-taro-5lb",
 		"itemNumber": "208",
 		"unitPerPack": 6,
-		"overallSize": "2.27 kg (5 lbs)",
+		"overallSize": "2.27 kg (5 lb)",
 		"categoryKey": "root-vegetables",
 		"featured": true
 	},
@@ -1523,7 +1523,7 @@
 		"slug": "breadfruit-5lb",
 		"itemNumber": "214",
 		"unitPerPack": 6,
-		"overallSize": "5 lbs",
+		"overallSize": "5 lb",
 		"categoryKey": "root-vegetables",
 		"featured": false
 	},
