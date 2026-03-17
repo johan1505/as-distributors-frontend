@@ -101,6 +101,8 @@ import imgJasonsPeanutRuffs156gr from '@/public/images/jasons-peanut-ruffs-156gr
 import imgChowTomatoFlavour from '@/public/images/chow-tomato-flavour.png';
 import imgChowChickenFlavour from '@/public/images/chow-chicken-flavour.png';
 import imgChowCurryFlavour from '@/public/images/chow-curry-flavour.png';
+import imgMaggiNoodlesChickenFlavour from '@/public/images/maggi-noodles-chicken-flavour.png';
+import imgMaggiNoodlesCurryFlavour from '@/public/images/maggi-noodles-curry-flavour.png';
 import imgCadburyCrunchieBars from '@/public/images/cadbury-crunchie-bars.webp';
 import imgCadburyDreamBars from '@/public/images/cadbury-dream-bars.webp';
 import imgCadburyFruitNut from '@/public/images/cadbury-fruit-nut.webp';
@@ -323,6 +325,8 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'fmf-chow-tomato-flavour': imgChowTomatoFlavour,
 	'fmf-chow-chicken-flavour': imgChowChickenFlavour,
 	'fmf-chow-curry-flavour': imgChowCurryFlavour,
+	'maggi-noodles-chicken-flavour': imgMaggiNoodlesChickenFlavour,
+	'maggi-noodles-curry-flavour': imgMaggiNoodlesCurryFlavour,
 	'cadbury-crunchie-bars': imgCadburyCrunchieBars,
 	'cadbury-dream-bars': imgCadburyDreamBars,
 	'cadbury-fruit-nut': imgCadburyFruitNut,
@@ -546,6 +550,8 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fmf-chow-tomato-flavour': '/images/chow-tomato-flavour.png',
 	'fmf-chow-chicken-flavour': '/images/chow-chicken-flavour.png',
 	'fmf-chow-curry-flavour': '/images/chow-curry-flavour.png',
+	'maggi-noodles-chicken-flavour': '/images/maggi-noodles-chicken-flavour.png',
+	'maggi-noodles-curry-flavour': '/images/maggi-noodles-curry-flavour.png',
 	'cadbury-crunchie-bars': '/images/cadbury-crunchie-bars.webp',
 	'cadbury-dream-bars': '/images/cadbury-dream-bars.webp',
 	'cadbury-fruit-nut': '/images/cadbury-fruit-nut.webp',
