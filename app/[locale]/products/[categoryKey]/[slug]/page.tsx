@@ -195,9 +195,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 								<span className="text-muted-foreground">{t('itemNumber')}:</span>
 								<span className="font-medium">{productBase.itemNumber}</span>
 							</Badge>
-							{productBase.comingSoon ? (
-								<ProductStatusPill label={t('comingSoon')} />
-							) : null}
+							{productBase.comingSoon ? <ProductStatusPill label={t('comingSoon')} /> : null}
 
 							<ProductBadges
 								overallSize={productBase.overallSize}
