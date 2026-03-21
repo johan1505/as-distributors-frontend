@@ -99,6 +99,8 @@
 		"emptyDescription": "Agregue productos de nuestro catálogo para solicitar una cotización.",
 		"browseCatalog": "Ver Catálogo",
 		"quantity": "Cant.",
+		"increaseQuantity": "Aumentar cantidad",
+		"decreaseQuantity": "Disminuir cantidad",
 		"clearAll": "Limpiar Todo",
 		"subtotal": "Artículos en Cotización",
 		"submit": "Enviar Solicitud de Cotización",

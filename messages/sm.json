@@ -99,6 +99,8 @@
 		"emptyDescription": "Fa'aopoopo oloa mai la matou lisi e talosaga ai se tau.",
 		"browseCatalog": "Su'e Lisi",
 		"quantity": "Aof.",
+		"increaseQuantity": "Fa'aopoopo aofa'i",
+		"decreaseQuantity": "Fa'aitiiti aofa'i",
 		"clearAll": "Fa'amama Uma",
 		"subtotal": "Oloa i le Tau",
 		"submit": "Auina Talosaga Tau",

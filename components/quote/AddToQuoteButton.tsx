@@ -1,8 +1,16 @@
 "use client";
 
+import {
+  useEffect,
+  useRef,
+  useState,
+  type ChangeEvent,
+  type PointerEvent,
+} from "react";
 import { useTranslations } from "next-intl";
-import { ShoppingCart } from "lucide-react";
+import { Minus, Plus, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { useQuote, MAX_QUANTITY_PER_PRODUCT } from "./QuoteProvider";
 import type { ProductBase } from "@/lib/products";
 import { cn } from "@/lib/utils";
@@ -21,26 +29,186 @@ export function AddToQuoteButton({
   className,
 }: AddToQuoteButtonProps) {
   const t = useTranslations("product");
-  const { addItem, items } = useQuote();
+  const tQuote = useTranslations("quote");
+  const { updateQuantity, items } = useQuote();
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [isFocused, setIsFocused] = useState(false);
+  const [isStaged, setIsStaged] = useState(false);
 
   const quantity =
     items.find((item) => item.product.slug === product.slug)?.quantity ?? 0;
-  const isAtMax = quantity >= MAX_QUANTITY_PER_PRODUCT;
+  const [draftQuantity, setDraftQuantity] = useState(
+    quantity > 0 ? String(quantity) : ""
+  );
 
-  const handleClick = () => {
-    addItem(product);
+  const showInput = quantity > 0 || isStaged;
+
+  const clampQuantity = (value: number) =>
+    Math.min(Math.max(0, value), MAX_QUANTITY_PER_PRODUCT);
+
+  const parseDraft = (value: string) => {
+    if (!value) return 0;
+    const parsed = Number.parseInt(value, 10);
+    return Number.isNaN(parsed) ? 0 : parsed;
   };
 
+  const currentValue =
+    draftQuantity === "" && quantity > 0
+      ? clampQuantity(quantity)
+      : clampQuantity(parseDraft(draftQuantity));
+
+  const isAtMax = currentValue >= MAX_QUANTITY_PER_PRODUCT;
+
+  useEffect(() => {
+    if (isFocused) return;
+    if (quantity > 0) {
+      setDraftQuantity(String(quantity));
+      setIsStaged(false);
+      return;
+    }
+    if (!isStaged) {
+      setDraftQuantity("");
+    }
+  }, [quantity, isFocused, isStaged]);
+
+  const sizeStyles = {
+    default: {
+      container: "h-9 text-sm",
+      button: "size-8",
+      icon: "size-4",
+      input: "text-sm",
+    },
+    sm: {
+      container: "h-8 text-sm",
+      button: "size-7",
+      icon: "size-3",
+      input: "text-sm",
+    },
+    lg: {
+      container: "h-10 text-base",
+      button: "size-9",
+      icon: "size-4",
+      input: "text-base",
+    },
+  } as const;
+
+  const containerTone = "bg-primary border-primary/60";
+
+  const stepperButtonTone =
+    "bg-primary text-white hover:bg-primary/90 active:bg-primary/80";
+
+  const focusInput = () => {
+    requestAnimationFrame(() => inputRef.current?.focus());
+  };
+
+  const startEditing = () => {
+    setIsStaged(true);
+    setDraftQuantity("1");
+    focusInput();
+  };
+
+  const commitQuantity = (value: number) => {
+    const next = clampQuantity(value);
+    updateQuantity(product, next);
+    setIsStaged(next > 0);
+  };
+
+  const handleBlur = () => {
+    setIsFocused(false);
+    commitQuantity(parseDraft(draftQuantity));
+  };
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const nextValue = event.target.value;
+    if (!/^\d*$/.test(nextValue)) return;
+    setDraftQuantity(nextValue);
+  };
+
+  const handleStep = (delta: number) => {
+    const next = clampQuantity(currentValue + delta);
+    setDraftQuantity(String(next));
+    updateQuantity(product, next);
+    if (next <= 0) {
+      setIsStaged(false);
+    }
+  };
+
+  const preventFocusShift = (event: PointerEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+  };
+
+  if (!showInput) {
+    return (
+      <Button
+        variant={variant}
+        size={size}
+        onClick={startEditing}
+        className={cn(className, "cursor-pointer")}
+      >
+        <ShoppingCart data-icon="inline-start" className="size-4" />
+        {t("addToQuote")}
+      </Button>
+    );
+  }
+
   return (
-    <Button
-      variant={variant}
-      size={size}
-      onClick={handleClick}
-      disabled={isAtMax}
-      className={cn(className, "cursor-pointer")}
+    <div
+      className={cn(
+        "inline-flex items-center gap-1 rounded-4xl border px-1.5 transition-colors focus-within:border-ring focus-within:ring-[3px] focus-within:ring-ring/50",
+        sizeStyles[size].container,
+        containerTone,
+        className
+      )}
     >
-      <ShoppingCart data-icon="inline-start" className="size-4" />
-      {quantity > 0 ? `${t("addMoreToQuote")} (${quantity})` : t("addToQuote")}
-    </Button>
+      <button
+        type="button"
+        onPointerDown={preventFocusShift}
+        onClick={() => handleStep(-1)}
+        disabled={currentValue <= 0}
+        aria-label={tQuote("decreaseQuantity")}
+        className={cn(
+          "inline-flex items-center justify-center rounded-full transition-colors disabled:pointer-events-none disabled:opacity-50",
+          sizeStyles[size].button,
+          stepperButtonTone
+        )}
+      >
+        <Minus className={sizeStyles[size].icon} />
+      </button>
+      <Input
+        ref={inputRef}
+        type="text"
+        inputMode="numeric"
+        pattern="[0-9]*"
+        value={draftQuantity}
+        onChange={handleChange}
+        onFocus={() => setIsFocused(true)}
+        onBlur={handleBlur}
+        onKeyDown={(event) => {
+          if (event.key === "Enter") {
+            event.currentTarget.blur();
+          }
+        }}
+        aria-label={tQuote("quantity")}
+        placeholder={tQuote("quantity")}
+        className={cn(
+          "h-full flex-1 rounded-3xl border border-input/80 bg-background px-2 py-0 text-center shadow-inner focus-visible:ring-0 focus-visible:ring-offset-0",
+          sizeStyles[size].input
+        )}
+      />
+      <button
+        type="button"
+        onPointerDown={preventFocusShift}
+        onClick={() => handleStep(1)}
+        disabled={isAtMax}
+        aria-label={tQuote("increaseQuantity")}
+        className={cn(
+          "inline-flex items-center justify-center rounded-full transition-colors disabled:pointer-events-none disabled:opacity-50",
+          sizeStyles[size].button,
+          stepperButtonTone
+        )}
+      >
+        <Plus className={sizeStyles[size].icon} />
+      </button>
+    </div>
   );
 }

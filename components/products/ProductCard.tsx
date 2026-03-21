@@ -16,8 +16,6 @@ import { ProductBadges } from "./ProductBadges";
 import { ProductStatusPill } from "./ProductStatusPill";
 import ExportedImage from "next-image-export-optimizer";
 import { ROUTES } from "@/lib/routes";
-import { useQuote } from "../quote/QuoteProvider";
-import { cn } from "@/lib/utils";
 
 interface ProductCardProps {
   product: ProductBase;
@@ -34,11 +32,6 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
     typeof tProducts.has === "function" && tProducts.has(subtitleKey)
       ? tProducts(subtitleKey)
       : "";
-
-  const { items } = useQuote();
-
-  const quantity =
-    items.find((item) => item.product.slug === product.slug)?.quantity ?? 0;
 
   return (
     <Card className="group overflow-hidden hover:shadow-lg hover:border-ocean/30 transition-all duration-300">
@@ -95,7 +88,7 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             product={product}
             variant="secondary"
             size="sm"
-            className={cn("w-full hover:bg-primary hover:text-white", quantity > 0 ? 'bg-primary/15' : '')}
+            className="w-full"
           />
         )}
       </CardFooter>

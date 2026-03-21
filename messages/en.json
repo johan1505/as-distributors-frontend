@@ -99,6 +99,8 @@
 		"emptyDescription": "Add products from our catalog to request a quote.",
 		"browseCatalog": "Browse Catalog",
 		"quantity": "Qty",
+		"increaseQuantity": "Increase quantity",
+		"decreaseQuantity": "Decrease quantity",
 		"clearAll": "Clear All",
 		"subtotal": "Items in Quote",
 		"submit": "Submit Quote Request",
