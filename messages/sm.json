@@ -88,7 +88,8 @@
 		"addedToQuote": "Ua Fa'aopoopo!",
 		"inQuote": "I le Tau",
 		"backToCatalog": "Toe Fo'i i le Lisi",
-		"viewLargerImage": "Va'ai ata tele o"
+		"viewLargerImage": "Va'ai ata tele o",
+		"comingSoon": "O le a lata mai"
 	},
 	"quote": {
 		"packs": "Pusa",
@@ -168,6 +169,7 @@
 		"canned-vegetables": "Fualaau Fai Tini",
 		"cookies-crackers": "Pisiketi & Masi",
 		"snacks": "Snacks (Bhooja)",
+		"snacks-guru-lucky": "Snacks (Guru Lucky)",
 		"chips": "Chips",
 		"noodles": "Noodles",
 		"candies": "Lole",
@@ -175,12 +177,12 @@
 		"oils": "Oils & Dairy",
 		"dairy": "Dairy",
 		"breakfast-cereal": "Mea'ai Taeao",
-		"powders-teas": "Powders, Teas & Flours",
+		"powders-teas": "Flours, Powders & Teas",
 		"lamb-goat": "Mamoe ma 'Oti",
 		"sausages": "Susiti",
 		"white-meats": "Specialty Meats",
 		"root-vegetables": "Roots & Vegetables",
-		"misc-frozen-fresh": "Isi Fa'amalo ma Susu",
+		"misc-frozen-fresh": "Ice cream & Aman",
 		"drinks": "Meainu"
 	},
 	"categorySeo": {
@@ -225,6 +227,12 @@
 			"description": "Popular Bhooja snacks and mixes including Fiji Mix, Punjabi Mix, fried peas, and savory traditional blends.",
 			"pageDescription": "Discover the unique flavors of Pacific Island snacking. Traditional spiced mixes, fried peas, and crunchy savory favorites.",
 			"keywords": "Bhooja snacks, Fiji mix, Punjabi mix, fried peas, Pacific snacks, wholesale snacks"
+		},
+		"snacks-guru-lucky": {
+			"title": "Snacks (Guru Lucky) - Mixes & Savories | A & S Distributors",
+			"description": "Guru Lucky snack favorites including sev, mixes, peanuts, and crunchy savory blends.",
+			"pageDescription": "Guru Lucky snack mixes and savory favorites for bold, crunchy snacking.",
+			"keywords": "Guru Lucky snacks, sev, snack mixes, peanuts, savory snacks, wholesale snacks"
 		},
 		"chips": {
 			"title": "Chips - BONGO, TWISTES & UFO's | A & S Distributors",
@@ -611,6 +619,22 @@
 			"seoKeywords": "FMF milk arrowroot, pisiketi Fiti, kuki Fiti, pisiketi fa'atau tele",
 			"imageAlt": "Afifi o kuki FMF Milk Arrowroot"
 		},
+		"fmf-peanut-cookies": {
+			"name": "FMF Peanut Cookies",
+			"description": "Crunchy FMF cookies with a rich peanut flavor, made in Fiji. A classic tea-time favorite with a nutty bite.",
+			"seoTitle": "FMF Peanut Cookies | A & S Distributors",
+			"seoDescription": "FMF Peanut Cookies from Fiji. Crunchy and nutty. Wholesale pricing available.",
+			"seoKeywords": "FMF peanut cookies, Fiji cookies, peanut biscuits, Pacific Island food",
+			"imageAlt": "Package of FMF Peanut Cookies"
+		},
+		"fmf-choc-chip-cookies": {
+			"name": "FMF Choc Chip Cookies",
+			"description": "FMF chocolate chip cookies made in Fiji. Crisp, golden cookies studded with chocolate chips for a sweet, satisfying snack.",
+			"seoTitle": "FMF Choc Chip Cookies | A & S Distributors",
+			"seoDescription": "FMF Choc Chip Cookies from Fiji. Crisp and chocolatey. Wholesale pricing available.",
+			"seoKeywords": "FMF choc chip cookies, Fiji cookies, chocolate chip biscuits, Pacific Island food",
+			"imageAlt": "Package of FMF Choc Chip Cookies"
+		},
 		"monte-carlo": {
 			"name": "Arnott's Monte Carlo",
 			"description": "O se pisiketi kilimi ta'uta'ua Ausetalia e fa'aaoga ai pisiketi niu auro e lua e fa'apipi'i ai le jam ma le kilimi vanilla. Muamua faia e Arnott's i le 1926, o lenei mea'ai fiafia e tu'uina atu le paleni lelei o le malo ma le suamalie.",
@@ -706,6 +730,30 @@
 			"seoDescription": "Punjas Milk Arrowroot pisiketi mai Fiti. Mama ma lelei ma ti. Tau fa'atau tele e maua.",
 			"seoKeywords": "Punjas milk arrowroot, pisiketi Fiti, kuki Punjas, mea'ai motu Pasefika",
 			"imageAlt": "Afifi o kuki Punjas Milk Arrowroot"
+		},
+		"punjas-scotch-finger": {
+			"name": "Punjas Scotch Finger",
+			"description": "Punjas Scotch Finger biscuits from Fiji. Buttery shortbread-style fingers with a light crunch, perfect for tea time.",
+			"seoTitle": "Punjas Scotch Finger Biscuits | A & S Distributors",
+			"seoDescription": "Punjas Scotch Finger biscuits from Fiji. Buttery shortbread style. Wholesale pricing available.",
+			"seoKeywords": "Punjas scotch finger, Fiji biscuits, shortbread cookies, Pacific Island food",
+			"imageAlt": "Package of Punjas Scotch Finger cookies"
+		},
+		"punjas-breakfast-crackers-375g": {
+			"name": "Punjas Breakfast Crackers 375 g",
+			"description": "Punjas Breakfast Crackers from Fiji in a convenient 375 g pack. Light, crisp crackers that pair well with tea, coffee, or savory spreads.",
+			"seoTitle": "Punjas Breakfast Crackers 375 g | A & S Distributors",
+			"seoDescription": "Punjas Breakfast Crackers 375 g from Fiji. Light and crisp. Wholesale pricing available.",
+			"seoKeywords": "Punjas breakfast crackers, Fiji crackers, breakfast crackers, Pacific Island food",
+			"imageAlt": "Package of Punjas Breakfast Crackers 375 g"
+		},
+		"punjas-breakfast-crackers-2kg": {
+			"name": "Punjas Breakfast Crackers 4.40 lb (2 kg)",
+			"description": "Bulk 2 kg pack of Punjas Breakfast Crackers from Fiji. Ideal for food service and large households.",
+			"seoTitle": "Punjas Breakfast Crackers 2 kg | A & S Distributors",
+			"seoDescription": "Punjas Breakfast Crackers 2 kg bulk pack from Fiji. Wholesale pricing available.",
+			"seoKeywords": "Punjas breakfast crackers bulk, Fiji crackers, wholesale crackers, Pacific Island food",
+			"imageAlt": "Package of Punjas Breakfast Crackers 2 kg"
 		},
 		"big-sister-light-fruit-cake": {
 			"name": "Big Sister Falaoamata Fuala'au Mama",
@@ -906,6 +954,86 @@
 			"seoDescription": "Bhooja King Fix Mix Spicy fa'afefiloi vevela mo tagata fiafia i le vevela. Manogi malosi. Tau fa'atau tele e maua.",
 			"seoKeywords": "Bhooja King Fix Mix spicy, mea'ai fa'afefiloi vevela, mea'ai mea manogi, mea'ai motu Pasefika",
 			"imageAlt": "Afifi o Fix Mix Spicy"
+		},
+		"guru-lucky-thin-sev": {
+			"name": "Thin Sev",
+			"description": "Crisp, thin sev snack from Guru Lucky. Lightly seasoned and perfect for snacking or topping.",
+			"seoTitle": "Guru Lucky Thin Sev Snacks | A & S Distributors",
+			"seoDescription": "Guru Lucky Thin Sev, crisp and lightly seasoned. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky thin sev, sev snacks, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Thin Sev"
+		},
+		"guru-lucky-muruku": {
+			"name": "Muruku",
+			"description": "Crunchy spiral-style muruku from Guru Lucky with a classic savory spice blend.",
+			"seoTitle": "Guru Lucky Muruku Snacks | A & S Distributors",
+			"seoDescription": "Guru Lucky Muruku, crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky muruku, muruku snacks, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Muruku"
+		},
+		"guru-lucky-chili-peanuts": {
+			"name": "Chili Peanuts",
+			"description": "Crunchy peanuts with a chili kick from Guru Lucky. Bold flavor and satisfying crunch.",
+			"seoTitle": "Guru Lucky Chili Peanuts | A & S Distributors",
+			"seoDescription": "Guru Lucky Chili Peanuts with a spicy chili kick. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky chili peanuts, spicy peanuts, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Chili Peanuts"
+		},
+		"guru-lucky-hot-mix": {
+			"name": "Hot Mix",
+			"description": "A spicy snack mix from Guru Lucky with a bold, savory heat.",
+			"seoTitle": "Guru Lucky Hot Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Hot Mix, bold and spicy snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky hot mix, spicy snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Hot Mix"
+		},
+		"guru-lucky-mix-bhuja": {
+			"name": "Mix Bhuja",
+			"description": "Classic Guru Lucky mix bhuja with a crunchy, savory blend of snack pieces.",
+			"seoTitle": "Guru Lucky Mix Bhuja | A & S Distributors",
+			"seoDescription": "Guru Lucky Mix Bhuja, crunchy savory mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky mix bhuja, snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Mix Bhuja"
+		},
+		"guru-lucky-hot-fiji-mix": {
+			"name": "Hot Fiji Mix",
+			"description": "Guru Lucky Hot Fiji Mix with a spicy, savory crunch inspired by island flavors.",
+			"seoTitle": "Guru Lucky Hot Fiji Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Hot Fiji Mix, spicy island-style snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky hot fiji mix, spicy snack mix, island snacks, wholesale snacks",
+			"imageAlt": "Package of Hot Fiji Mix"
+		},
+		"guru-lucky-fiji-mix": {
+			"name": "Fiji Mix",
+			"description": "Guru Lucky Fiji Mix with a savory, crunchy blend for everyday snacking.",
+			"seoTitle": "Guru Lucky Fiji Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Fiji Mix, savory crunchy snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky fiji mix, snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Fiji Mix"
+		},
+		"guru-lucky-spicy-garlic-peas": {
+			"name": "Spicy Garlic Peas",
+			"description": "Crunchy peas with a spicy garlic seasoning from Guru Lucky.",
+			"seoTitle": "Guru Lucky Spicy Garlic Peas | A & S Distributors",
+			"seoDescription": "Guru Lucky Spicy Garlic Peas, bold and crunchy. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky spicy garlic peas, crunchy peas, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Spicy Garlic Peas"
+		},
+		"guru-lucky-peas-peanuts": {
+			"name": "Peas & Peanuts",
+			"description": "A crunchy Guru Lucky blend of peas and peanuts seasoned for savory snacking.",
+			"seoTitle": "Guru Lucky Peas & Peanuts | A & S Distributors",
+			"seoDescription": "Guru Lucky Peas & Peanuts, crunchy savory blend. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky peas and peanuts, savory snacks, snack mix, wholesale snacks",
+			"imageAlt": "Package of Peas & Peanuts"
+		},
+		"guru-lucky-cornflakes-chewra": {
+			"name": "Cornflakes Chewra",
+			"description": "Crunchy cornflake chewra from Guru Lucky with a savory seasoning blend.",
+			"seoTitle": "Guru Lucky Cornflakes Chewra | A & S Distributors",
+			"seoDescription": "Guru Lucky Cornflakes Chewra, crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Cornflakes Chewra"
 		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO Sisi",
@@ -1467,6 +1595,14 @@
 			"seoKeywords": "ti Ceylon, ti Sri Lanka, ti uliuli, lau'au maualuga",
 			"imageAlt": "Pusa o Ceylon Ti Uliuli"
 		},
+		"punjas-ceylon-black-tea-500g": {
+			"name": "Punjas Ceylon Ti Uliuli",
+			"description": "Punjas Ceylon ti uliuli 500 g. Manogi malamalama, vave ma le uiga Ceylon masani.",
+			"seoTitle": "Ceylon Ti Uliuli 500g Lau'au | A & S Distributors",
+			"seoDescription": "Ti uliuli Ceylon maualuga 500g mai Sri Lanka. Manogi malamalama, vave. Tau fa'atau tele e maua.",
+			"seoKeywords": "ti Ceylon, ti Sri Lanka, ti uliuli, lau'au maualuga",
+			"imageAlt": "Pusa o Ceylon Ti Uliuli"
+		},
 		"punjas-tea-masala": {
 			"name": "Punjas Tea Masala",
 			"description": "O se fa'afefiloi manogi o mea manogi mafanafana faia fa'apitoa mo le faia o chai. O le Punjas Tea Masala e iai cardamom, cinnamon, ginger, cloves, ma isi mea manogi e liliu ai ti masani i le chai masala manogi fa'a-Initia.",
@@ -1493,6 +1629,7 @@
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "Lamb Shoulder Chops Prepack",
+			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "Fasi fa'apusa faigofie o mamoe tipi Niu Sila. E iai i pusa uma aano tipi lelei ua saunia mo au fa'atonuga. Sili mo tagata fa'atau oloa ma aiga e mana'o i lapopo'a fasi tutusa.",
 			"seoTitle": "Mamoe Tipi Prepack Fasi | A & S Distributors",
 			"seoDescription": "Mamoe tipi fa'apusa. Faigofie mo fa'atau oloa. Tau fa'atau tele e maua.",
@@ -1845,11 +1982,19 @@
 		},
 		"kraft-cheddar-cheese": {
 			"name": "Kraft Cheddar Cheese",
-			"description": "Kraft cheddar cheese in a 500 g block. Rich, creamy cheddar for slicing, melting, and cooking.",
-			"seoTitle": "Kraft Cheddar Cheese 500 g | A & S Distributors",
-			"seoDescription": "Kraft cheddar cheese 500 g block. Great for cooking and sandwiches. Wholesale pricing available.",
+			"description": "Kraft cheddar cheese in a 250 g block. Rich, creamy cheddar for slicing, melting, and cooking.",
+			"seoTitle": "Kraft Cheddar Cheese 250 g | A & S Distributors",
+			"seoDescription": "Kraft cheddar cheese 250 g block. Great for cooking and sandwiches. Wholesale pricing available.",
 			"seoKeywords": "Kraft cheddar, cheddar cheese block, dairy wholesale, cheese",
 			"imageAlt": "Block of Kraft Cheddar Cheese"
+		},
+		"punja-red-cow-milk-powder": {
+			"name": "Punja Red Cow Milk Powder",
+			"description": "Punja Red Cow Milk Powder in a 450 g pack. Smooth, creamy milk powder for everyday use.",
+			"seoTitle": "Punja Red Cow Milk Powder 450 g | A & S Distributors",
+			"seoDescription": "Punja Red Cow Milk Powder 450 g. Wholesale pricing available.",
+			"seoKeywords": "Punja Red Cow milk powder, milk powder, dairy, wholesale dairy",
+			"imageAlt": "Package of Punja Red Cow Milk Powder"
 		},
 		"tuckers-blitz": {
 			"name": "Tuckers Blitz",
@@ -1972,12 +2117,12 @@
 			"imageAlt": "Pusa o Jasons Black Hacks"
 		},
 		"jasons-clear-mints-150g": {
-			"name": "Jasons Clear Mints",
-			"description": "Clear mints fa'afouina ma le tofo mālūlū. Lelei mo le fa'asoa ma fata i le 'checkout'.",
-			"seoTitle": "Jasons Clear Mints 150g | A & S Distributors",
-			"seoDescription": "Jasons Clear Mints 150g. Mints fa'afouina. Tau fa'atau tele e maua.",
-			"seoKeywords": "Jasons mints, clear mints, lole mālōlō, lole fa'atau tele",
-			"imageAlt": "Pusa o Jasons Clear Mints"
+			"name": "Jasons Clear Mints (White)",
+			"description": "White mints fa'afouina ma le tofo mālūlū. Lelei mo le fa'asoa ma fata i le 'checkout'.",
+			"seoTitle": "Jasons Clear Mints (White) 150g | A & S Distributors",
+			"seoDescription": "Jasons Clear Mints (White) 150g. Mints fa'afouina. Tau fa'atau tele e maua.",
+			"seoKeywords": "Jasons mints, white mints, lole mālōlō, lole fa'atau tele",
+			"imageAlt": "Pusa o Jasons Clear Mints (White)"
 		},
 		"pops-kola-2-5l": {
 			"name": "Pops Kola",

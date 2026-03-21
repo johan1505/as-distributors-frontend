@@ -88,7 +88,8 @@
 		"addedToQuote": "추가됨!",
 		"inQuote": "견적에 포함",
 		"backToCatalog": "카탈로그로 돌아가기",
-		"viewLargerImage": "더 큰 이미지 보기:"
+		"viewLargerImage": "더 큰 이미지 보기:",
+		"comingSoon": "출시 예정"
 	},
 	"quote": {
 		"packs": "팩",
@@ -168,6 +169,7 @@
 		"canned-vegetables": "통조림 채소",
 		"cookies-crackers": "쿠키 & 크래커",
 		"snacks": "스낵 (Bhooja)",
+		"snacks-guru-lucky": "스낵 (Guru Lucky)",
 		"chips": "칩",
 		"noodles": "국수",
 		"candies": "사탕",
@@ -175,12 +177,12 @@
 		"oils": "오일",
 		"dairy": "유제품",
 		"breakfast-cereal": "아침 시리얼",
-		"powders-teas": "분말, 차, 밀가루",
+		"powders-teas": "밀가루, 분말, 차",
 		"lamb-goat": "양고기 및 염소고기",
 		"sausages": "소시지",
 		"white-meats": "특수 육류",
 		"root-vegetables": "뿌리 및 채소",
-		"misc-frozen-fresh": "기타 냉동 및 신선",
+		"misc-frozen-fresh": "Ice cream & Aman",
 		"drinks": "음료"
 	},
 	"categorySeo": {
@@ -225,6 +227,12 @@
 			"description": "Fiji Mix, Punjabi Mix, 튀긴 완두콩 등 Bhooja 스낵과 전통 믹스.",
 			"pageDescription": "태평양 섬 스낵의 독특한 맛을 발견하세요. 전통 양념 믹스와 바삭한 스낵.",
 			"keywords": "Bhooja 스낵, Fiji mix, Punjabi mix, 튀긴 완두콩, 태평양 스낵"
+		},
+		"snacks-guru-lucky": {
+			"title": "스낵 (Guru Lucky) - 믹스와 스낵 | A & S Distributors",
+			"description": "sev, 믹스, 땅콩 등 Guru Lucky 스낵과 바삭한 짭짤한 간식.",
+			"pageDescription": "Guru Lucky 스낵 믹스와 바삭한 짭짤 간식.",
+			"keywords": "Guru Lucky 스낵, sev, 스낵 믹스, 땅콩, 짭짤한 스낵"
 		},
 		"chips": {
 			"title": "칩 - BONGO, TWISTES 및 UFO's | A & S Distributors",
@@ -611,6 +619,22 @@
 			"seoKeywords": "FMF 밀크 애로루트, 피지 비스킷, 피지 쿠키, 도매 비스킷",
 			"imageAlt": "FMF 밀크 애로루트 쿠키 패키지"
 		},
+		"fmf-peanut-cookies": {
+			"name": "FMF Peanut Cookies",
+			"description": "Crunchy FMF cookies with a rich peanut flavor, made in Fiji. A classic tea-time favorite with a nutty bite.",
+			"seoTitle": "FMF Peanut Cookies | A & S Distributors",
+			"seoDescription": "FMF Peanut Cookies from Fiji. Crunchy and nutty. Wholesale pricing available.",
+			"seoKeywords": "FMF peanut cookies, Fiji cookies, peanut biscuits, Pacific Island food",
+			"imageAlt": "Package of FMF Peanut Cookies"
+		},
+		"fmf-choc-chip-cookies": {
+			"name": "FMF Choc Chip Cookies",
+			"description": "FMF chocolate chip cookies made in Fiji. Crisp, golden cookies studded with chocolate chips for a sweet, satisfying snack.",
+			"seoTitle": "FMF Choc Chip Cookies | A & S Distributors",
+			"seoDescription": "FMF Choc Chip Cookies from Fiji. Crisp and chocolatey. Wholesale pricing available.",
+			"seoKeywords": "FMF choc chip cookies, Fiji cookies, chocolate chip biscuits, Pacific Island food",
+			"imageAlt": "Package of FMF Choc Chip Cookies"
+		},
 		"tim-tam-original": {
 			"name": "Tim Tam 오리지널",
 			"description": "상징적인 호주 초콜릿 비스킷. 초콜릿 크림 필링을 샌드위치한 두 개의 초콜릿 몰트 비스킷, 초콜릿으로 코팅. 유명한 'Arnott's Tim Tam Slam'에 완벽.",
@@ -733,11 +757,19 @@
 		},
 		"kraft-cheddar-cheese": {
 			"name": "Kraft 체다 치즈",
-			"description": "500 g 블록 Kraft 체다 치즈. 슬라이스, 녹이기, 요리에 좋은 진하고 크리미한 체다.",
-			"seoTitle": "Kraft 체다 치즈 500 g | A & S Distributors",
-			"seoDescription": "Kraft 체다 치즈 500 g 블록. 요리와 샌드위치에 적합. 도매 가격 제공.",
+			"description": "250 g 블록 Kraft 체다 치즈. 슬라이스, 녹이기, 요리에 좋은 진하고 크리미한 체다.",
+			"seoTitle": "Kraft 체다 치즈 250 g | A & S Distributors",
+			"seoDescription": "Kraft 체다 치즈 250 g 블록. 요리와 샌드위치에 적합. 도매 가격 제공.",
 			"seoKeywords": "Kraft 체다, 체다 치즈 블록, 도매 유제품, 치즈",
 			"imageAlt": "Kraft 체다 치즈 블록"
+		},
+		"punja-red-cow-milk-powder": {
+			"name": "Punja Red Cow Milk Powder",
+			"description": "Punja Red Cow Milk Powder in a 450 g pack. Smooth, creamy milk powder for everyday use.",
+			"seoTitle": "Punja Red Cow Milk Powder 450 g | A & S Distributors",
+			"seoDescription": "Punja Red Cow Milk Powder 450 g. Wholesale pricing available.",
+			"seoKeywords": "Punja Red Cow milk powder, milk powder, dairy, wholesale dairy",
+			"imageAlt": "Package of Punja Red Cow Milk Powder"
 		},
 		"tuckers-blitz": {
 			"name": "Tuckers Blitz",
@@ -906,6 +938,30 @@
 			"seoDescription": "피지산 Punjas 밀크 애로루트 비스킷. 가볍고 차와 완벽. 도매 가격 제공.",
 			"seoKeywords": "Punjas 밀크 애로루트, 피지 비스킷, Punjas 쿠키, 태평양 섬 식품",
 			"imageAlt": "Punjas 밀크 애로루트 쿠키 패키지"
+		},
+		"punjas-scotch-finger": {
+			"name": "Punjas Scotch Finger",
+			"description": "Punjas Scotch Finger biscuits from Fiji. Buttery shortbread-style fingers with a light crunch, perfect for tea time.",
+			"seoTitle": "Punjas Scotch Finger Biscuits | A & S Distributors",
+			"seoDescription": "Punjas Scotch Finger biscuits from Fiji. Buttery shortbread style. Wholesale pricing available.",
+			"seoKeywords": "Punjas scotch finger, Fiji biscuits, shortbread cookies, Pacific Island food",
+			"imageAlt": "Package of Punjas Scotch Finger cookies"
+		},
+		"punjas-breakfast-crackers-375g": {
+			"name": "Punjas Breakfast Crackers 375 g",
+			"description": "Punjas Breakfast Crackers from Fiji in a convenient 375 g pack. Light, crisp crackers that pair well with tea, coffee, or savory spreads.",
+			"seoTitle": "Punjas Breakfast Crackers 375 g | A & S Distributors",
+			"seoDescription": "Punjas Breakfast Crackers 375 g from Fiji. Light and crisp. Wholesale pricing available.",
+			"seoKeywords": "Punjas breakfast crackers, Fiji crackers, breakfast crackers, Pacific Island food",
+			"imageAlt": "Package of Punjas Breakfast Crackers 375 g"
+		},
+		"punjas-breakfast-crackers-2kg": {
+			"name": "Punjas Breakfast Crackers 4.40 lb (2 kg)",
+			"description": "Bulk 2 kg pack of Punjas Breakfast Crackers from Fiji. Ideal for food service and large households.",
+			"seoTitle": "Punjas Breakfast Crackers 2 kg | A & S Distributors",
+			"seoDescription": "Punjas Breakfast Crackers 2 kg bulk pack from Fiji. Wholesale pricing available.",
+			"seoKeywords": "Punjas breakfast crackers bulk, Fiji crackers, wholesale crackers, Pacific Island food",
+			"imageAlt": "Package of Punjas Breakfast Crackers 2 kg"
 		},
 		"big-sister-light-fruit-cake": {
 			"name": "Big Sister 라이트 프루트 케이크",
@@ -1106,6 +1162,86 @@
 			"seoDescription": "Bhooja King 매운맛 애호가를 위한 매콤한 픽스 믹스 스파이시 블렌드. 대담한 맛. 도매 가격 제공.",
 			"seoKeywords": "Bhooja King 픽스 믹스 스파이시, 핫 스낵 믹스, 스파이시 스낵, 태평양 섬 식품",
 			"imageAlt": "픽스 믹스 스파이시 스낵 패키지"
+		},
+		"guru-lucky-thin-sev": {
+			"name": "Thin Sev",
+			"description": "Crisp, thin sev snack from Guru Lucky. Lightly seasoned and perfect for snacking or topping.",
+			"seoTitle": "Guru Lucky Thin Sev Snacks | A & S Distributors",
+			"seoDescription": "Guru Lucky Thin Sev, crisp and lightly seasoned. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky thin sev, sev snacks, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Thin Sev"
+		},
+		"guru-lucky-muruku": {
+			"name": "Muruku",
+			"description": "Crunchy spiral-style muruku from Guru Lucky with a classic savory spice blend.",
+			"seoTitle": "Guru Lucky Muruku Snacks | A & S Distributors",
+			"seoDescription": "Guru Lucky Muruku, crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky muruku, muruku snacks, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Muruku"
+		},
+		"guru-lucky-chili-peanuts": {
+			"name": "Chili Peanuts",
+			"description": "Crunchy peanuts with a chili kick from Guru Lucky. Bold flavor and satisfying crunch.",
+			"seoTitle": "Guru Lucky Chili Peanuts | A & S Distributors",
+			"seoDescription": "Guru Lucky Chili Peanuts with a spicy chili kick. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky chili peanuts, spicy peanuts, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Chili Peanuts"
+		},
+		"guru-lucky-hot-mix": {
+			"name": "Hot Mix",
+			"description": "A spicy snack mix from Guru Lucky with a bold, savory heat.",
+			"seoTitle": "Guru Lucky Hot Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Hot Mix, bold and spicy snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky hot mix, spicy snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Hot Mix"
+		},
+		"guru-lucky-mix-bhuja": {
+			"name": "Mix Bhuja",
+			"description": "Classic Guru Lucky mix bhuja with a crunchy, savory blend of snack pieces.",
+			"seoTitle": "Guru Lucky Mix Bhuja | A & S Distributors",
+			"seoDescription": "Guru Lucky Mix Bhuja, crunchy savory mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky mix bhuja, snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Mix Bhuja"
+		},
+		"guru-lucky-hot-fiji-mix": {
+			"name": "Hot Fiji Mix",
+			"description": "Guru Lucky Hot Fiji Mix with a spicy, savory crunch inspired by island flavors.",
+			"seoTitle": "Guru Lucky Hot Fiji Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Hot Fiji Mix, spicy island-style snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky hot fiji mix, spicy snack mix, island snacks, wholesale snacks",
+			"imageAlt": "Package of Hot Fiji Mix"
+		},
+		"guru-lucky-fiji-mix": {
+			"name": "Fiji Mix",
+			"description": "Guru Lucky Fiji Mix with a savory, crunchy blend for everyday snacking.",
+			"seoTitle": "Guru Lucky Fiji Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Fiji Mix, savory crunchy snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky fiji mix, snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Fiji Mix"
+		},
+		"guru-lucky-spicy-garlic-peas": {
+			"name": "Spicy Garlic Peas",
+			"description": "Crunchy peas with a spicy garlic seasoning from Guru Lucky.",
+			"seoTitle": "Guru Lucky Spicy Garlic Peas | A & S Distributors",
+			"seoDescription": "Guru Lucky Spicy Garlic Peas, bold and crunchy. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky spicy garlic peas, crunchy peas, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Spicy Garlic Peas"
+		},
+		"guru-lucky-peas-peanuts": {
+			"name": "Peas & Peanuts",
+			"description": "A crunchy Guru Lucky blend of peas and peanuts seasoned for savory snacking.",
+			"seoTitle": "Guru Lucky Peas & Peanuts | A & S Distributors",
+			"seoDescription": "Guru Lucky Peas & Peanuts, crunchy savory blend. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky peas and peanuts, savory snacks, snack mix, wholesale snacks",
+			"imageAlt": "Package of Peas & Peanuts"
+		},
+		"guru-lucky-cornflakes-chewra": {
+			"name": "Cornflakes Chewra",
+			"description": "Crunchy cornflake chewra from Guru Lucky with a savory seasoning blend.",
+			"seoTitle": "Guru Lucky Cornflakes Chewra | A & S Distributors",
+			"seoDescription": "Guru Lucky Cornflakes Chewra, crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Cornflakes Chewra"
 		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO 치즈",
@@ -1627,6 +1763,14 @@
 			"seoKeywords": "실론 차, 스리랑카 차, 블랙 티, 프리미엄 잎차",
 			"imageAlt": "실론 블랙 티 상자"
 		},
+		"punjas-ceylon-black-tea-500g": {
+			"name": "Punjas 실론 블랙 티",
+			"description": "500 g 팩의 스리랑카(실론)산 프리미엄 블랙 티. 밝고 상쾌한 맛과 클래식한 실론 특성.",
+			"seoTitle": "실론 블랙 티 500g 잎차 | A & S Distributors",
+			"seoDescription": "스리랑카산 프리미엄 실론 블랙 티 500g. 밝고 상쾌한 맛. 도매 가격 제공.",
+			"seoKeywords": "실론 차, 스리랑카 차, 블랙 티, 프리미엄 잎차",
+			"imageAlt": "실론 블랙 티 상자"
+		},
 		"punjas-tea-masala": {
 			"name": "Punjas 티 마살라",
 			"description": "차이 만들기를 위해 특별히 설계된 따뜻한 향신료의 향긋한 블렌드. Punjas 티 마살라는 카다멈, 시나몬, 생강, 정향 및 기타 향신료를 포함하여 평범한 차를 향긋한 인도 스타일 마살라 차이로 변신시킵니다.",
@@ -1645,6 +1789,7 @@
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "양 어깨살 찹 프리팩",
+			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "깍둑썰기한 뉴질랜드 양고기의 편리한 사전 포장 1인분. 각 팩에는 레시피에 바로 사용할 수 있는 완벽하게 큐브 자른 고기가 들어 있습니다. 일관된 1인분 사이즈를 원하는 소매업체와 가정에 이상적.",
 			"seoTitle": "양고기 깍둑썰기 프리팩 1인분 | A & S Distributors",
 			"seoDescription": "사전 포장된 깍둑썰기 양고기 1인분. 소매에 편리함. 도매 가격 제공.",
@@ -1972,12 +2117,12 @@
 			"imageAlt": "제이슨스 블랙 핵스 봉지"
 		},
 		"jasons-clear-mints-150g": {
-			"name": "제이슨스 클리어 민트",
-			"description": "깔끔하고 시원한 맛의 클리어 민트 하드 캔디. 나눠 먹기나 계산대 비치용으로 좋습니다.",
-			"seoTitle": "제이슨스 클리어 민트 150g | A & S Distributors",
-			"seoDescription": "제이슨스 클리어 민트 150g. 상쾌한 민트 캔디. 도매 가격 제공.",
-			"seoKeywords": "제이슨스 민트, 클리어 민트, 하드 캔디, 도매 캔디",
-			"imageAlt": "제이슨스 클리어 민트 봉지"
+			"name": "제이슨스 클리어 민트 (화이트)",
+			"description": "깔끔하고 시원한 맛의 화이트 민트 하드 캔디. 나눠 먹기나 계산대 비치용으로 좋습니다.",
+			"seoTitle": "제이슨스 클리어 민트 (화이트) 150g | A & S Distributors",
+			"seoDescription": "제이슨스 클리어 민트 (화이트) 150g. 상쾌한 민트 캔디. 도매 가격 제공.",
+			"seoKeywords": "제이슨스 민트, 화이트 민트, 하드 캔디, 도매 캔디",
+			"imageAlt": "제이슨스 클리어 민트 (화이트) 봉지"
 		},
 		"pops-kola-2-5l": {
 			"name": "팝스 콜라",

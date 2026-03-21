@@ -13,6 +13,7 @@ import { AddToQuoteButton } from "@/components/quote/AddToQuoteButton";
 import type { ProductBase } from "@/lib/products";
 import { getProductImage } from "@/lib/products";
 import { ProductBadges } from "./ProductBadges";
+import { ProductStatusPill } from "./ProductStatusPill";
 import ExportedImage from "next-image-export-optimizer";
 import { ROUTES } from "@/lib/routes";
 import { useQuote } from "../quote/QuoteProvider";
@@ -28,6 +29,11 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
   const tProducts = useTranslations("products");
 
   const name = tProducts(`${product.slug}.name`);
+  const subtitleKey = `${product.slug}.subtitle`;
+  const subtitle =
+    typeof tProducts.has === "function" && tProducts.has(subtitleKey)
+      ? tProducts(subtitleKey)
+      : "";
 
   const { items } = useQuote();
 
@@ -62,11 +68,19 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
             {name}
           </Link>
         </CardTitle>
+        {subtitle ? (
+          <span className="text-sm text-muted-foreground">{subtitle}</span>
+        ) : null}
       </CardHeader>
       <CardContent>
         <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold mb-2">
           {t("itemNumber")}: {product.itemNumber}
         </span>
+        {product.comingSoon ? (
+          <div className="mb-2">
+            <ProductStatusPill label={t("comingSoon")} />
+          </div>
+        ) : null}
         <ProductBadges
           overallSize={product.overallSize}
           unitPerPack={product.unitPerPack}

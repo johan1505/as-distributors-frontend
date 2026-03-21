@@ -14,6 +14,7 @@ import { AddToQuoteButton } from '@/components/quote/AddToQuoteButton';
 import { Badge } from '@/components/ui/badge';
 import { ProductDetailImage } from '@/components/products/ProductDetailImage';
 import { ProductBadges } from '@/components/products/ProductBadges';
+import { ProductStatusPill } from '@/components/products/ProductStatusPill';
 import { hasLocale } from 'next-intl';
 import { getCanonicalUrl, BASE_URL, buildPageMetadata } from '@/lib/site-config';
 import { ROUTES } from '@/lib/routes';
@@ -194,6 +195,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
 								<span className="text-muted-foreground">{t('itemNumber')}:</span>
 								<span className="font-medium">{productBase.itemNumber}</span>
 							</Badge>
+							{productBase.comingSoon ? (
+								<ProductStatusPill label={t('comingSoon')} />
+							) : null}
 
 							<ProductBadges
 								overallSize={productBase.overallSize}

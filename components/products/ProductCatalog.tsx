@@ -84,6 +84,38 @@ export function ProductCatalog({
       });
   }, [filteredProducts, categories, search, tProducts]);
 
+  const renderNoodlesRows = (groupProducts: ProductBase[]) => {
+    const fmfNoodles = groupProducts.filter((product) =>
+      product.slug.startsWith("fmf-")
+    );
+    const maggiNoodles = groupProducts.filter((product) =>
+      product.slug.startsWith("maggi-")
+    );
+    const otherNoodles = groupProducts.filter(
+      (product) =>
+        !product.slug.startsWith("fmf-") &&
+        !product.slug.startsWith("maggi-")
+    );
+
+    return (
+      <div className="flex flex-col gap-8">
+        {fmfNoodles.length > 0 ? (
+          <ProductGrid
+            products={fmfNoodles}
+            className="sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+          />
+        ) : null}
+        {maggiNoodles.length > 0 ? (
+          <ProductGrid
+            products={maggiNoodles}
+            className="sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3"
+          />
+        ) : null}
+        {otherNoodles.length > 0 ? <ProductGrid products={otherNoodles} /> : null}
+      </div>
+    );
+  };
+
   // If on main products page (not a category page) and no search query, show category grid
   if (selectedCategory === "all" && (!search || search.trim() === "")) {
     return <CategoryGrid categories={categories} />;
@@ -103,7 +135,9 @@ export function ProductCatalog({
                 {group.categoryLabel}
               </h2>
             ) : null}
-            <ProductGrid products={group.products} />
+            {group.category === "noodles"
+              ? renderNoodlesRows(group.products)
+              : <ProductGrid products={group.products} />}
           </section>
         ))
       )}

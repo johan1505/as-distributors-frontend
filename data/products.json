@@ -177,7 +177,7 @@
 	},
 	{
 		"slug": "lapana-tongol-chunk-tuna",
-		"itemNumber": "TBD",
+		"itemNumber": "414",
 		"unitPerPack": 24,
 		"overallSize": "7.05 oz",
 		"categoryKey": "canned-fish-tuna",
@@ -185,23 +185,23 @@
 	},
 	{
 		"slug": "old-capital-special-tuna",
-		"itemNumber": "TBD",
+		"itemNumber": "411",
 		"unitPerPack": "TBD",
-		"overallSize": "TBD",
+		"overallSize": "6 oz",
 		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
 		"slug": "sun-bell-tuna",
-		"itemNumber": "TBD",
+		"itemNumber": "413",
 		"unitPerPack": "TBD",
-		"overallSize": "TBD",
+		"overallSize": "6 oz",
 		"categoryKey": "canned-fish-tuna",
 		"featured": false
 	},
 	{
 		"slug": "ovalau-blue-tuna",
-		"itemNumber": "TBD",
+		"itemNumber": "415",
 		"unitPerPack": "TBD",
 		"overallSize": "6 oz",
 		"categoryKey": "canned-fish-tuna",
@@ -416,8 +416,48 @@
 		"featured": false
 	},
 	{
+		"slug": "punjas-scotch-finger",
+		"itemNumber": "311",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
+		"slug": "punjas-breakfast-crackers-375g",
+		"itemNumber": "313",
+		"unitPerPack": 20,
+		"overallSize": "375 g",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
+		"slug": "punjas-breakfast-crackers-2kg",
+		"itemNumber": "314",
+		"unitPerPack": 6,
+		"overallSize": "4.40 lb (2 kg)",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
 		"slug": "fmf-milk-arrowroot",
 		"itemNumber": "320",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
+		"slug": "fmf-peanut-cookies",
+		"itemNumber": "318",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
+		"slug": "fmf-choc-chip-cookies",
+		"itemNumber": "319",
 		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies-crackers",
@@ -491,7 +531,7 @@
 		"slug": "fmf-breakfast-crackers-4lb",
 		"itemNumber": "332",
 		"unitPerPack": 6,
-		"overallSize": "4.4 lb",
+		"overallSize": "4 lb (2 kg)",
 		"categoryKey": "cookies-crackers",
 		"featured": false
 	},
@@ -499,7 +539,7 @@
 		"slug": "fmf-breakfast-crackers-11lb",
 		"itemNumber": "335",
 		"unitPerPack": 1,
-		"overallSize": "11 lb",
+		"overallSize": "11 lb (5 kg)",
 		"categoryKey": "cookies-crackers",
 		"featured": false
 	},
@@ -629,6 +669,86 @@
 		"unitPerPack": 40,
 		"overallSize": "16 oz",
 		"categoryKey": "snacks",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-thin-sev",
+		"itemNumber": "573",
+		"unitPerPack": 15,
+		"overallSize": "11.32 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-muruku",
+		"itemNumber": "574",
+		"unitPerPack": 15,
+		"overallSize": "10.58 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-chili-peanuts",
+		"itemNumber": "575",
+		"unitPerPack": 15,
+		"overallSize": "11.32 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-hot-mix",
+		"itemNumber": "576",
+		"unitPerPack": 15,
+		"overallSize": "12.03 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-mix-bhuja",
+		"itemNumber": "577",
+		"unitPerPack": 15,
+		"overallSize": "12.03 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-hot-fiji-mix",
+		"itemNumber": "578",
+		"unitPerPack": 15,
+		"overallSize": "12.03 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-fiji-mix",
+		"itemNumber": "579",
+		"unitPerPack": 15,
+		"overallSize": "12.03 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-spicy-garlic-peas",
+		"itemNumber": "580",
+		"unitPerPack": 15,
+		"overallSize": "10.58 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-peas-peanuts",
+		"itemNumber": "581",
+		"unitPerPack": 15,
+		"overallSize": "12.03 oz",
+		"categoryKey": "snacks-guru-lucky",
+		"featured": false
+	},
+	{
+		"slug": "guru-lucky-cornflakes-chewra",
+		"itemNumber": "582",
+		"unitPerPack": 15,
+		"overallSize": "11.32 oz",
+		"categoryKey": "snacks-guru-lucky",
 		"featured": false
 	},
 	{
@@ -992,6 +1112,14 @@
 		"featured": false
 	},
 	{
+		"slug": "punjas-tea-masala",
+		"itemNumber": "604",
+		"unitPerPack": 20,
+		"overallSize": "70 g",
+		"categoryKey": "pickles-spices",
+		"featured": false
+	},
+	{
 		"slug": "punjas-coconut-oil",
 		"itemNumber": "370",
 		"unitPerPack": 20,
@@ -1105,9 +1233,17 @@
 	},
 	{
 		"slug": "kraft-cheddar-cheese",
-		"itemNumber": "TBD",
+		"itemNumber": "440",
+		"unitPerPack": 24,
+		"overallSize": "250 g",
+		"categoryKey": "dairy",
+		"featured": false
+	},
+	{
+		"slug": "punja-red-cow-milk-powder",
+		"itemNumber": "393",
 		"unitPerPack": "TBD",
-		"overallSize": "500 g",
+		"overallSize": "450 g",
 		"categoryKey": "dairy",
 		"featured": false
 	},
@@ -1123,7 +1259,7 @@
 		"slug": "weetbix-breakfast-cereal-13oz",
 		"itemNumber": "390",
 		"unitPerPack": 24,
-		"overallSize": "13.22 oz",
+		"overallSize": "13.22 oz (375 g)",
 		"categoryKey": "breakfast-cereal",
 		"featured": false
 	},
@@ -1131,15 +1267,15 @@
 		"slug": "weetbix-breakfast-cereal-20oz",
 		"itemNumber": "391",
 		"unitPerPack": 12,
-		"overallSize": "20.28 oz",
+		"overallSize": "20.28 oz (575 g)",
 		"categoryKey": "breakfast-cereal",
 		"featured": false
 	},
 	{
 		"slug": "weetbix-breakfast-cereal-2lb",
-		"itemNumber": "393",
+		"itemNumber": "392",
 		"unitPerPack": 12,
-		"overallSize": "2.46 lb",
+		"overallSize": "2.46 lb (1.2 kg)",
 		"categoryKey": "breakfast-cereal",
 		"featured": false
 	},
@@ -1210,16 +1346,16 @@
 	{
 		"slug": "punjas-ceylon-black-tea-200gr",
 		"itemNumber": "602",
-		"unitPerPack": 1,
+		"unitPerPack": 50,
 		"overallSize": "200 g",
 		"categoryKey": "powders-teas",
 		"featured": false
 	},
 	{
-		"slug": "punjas-tea-masala",
-		"itemNumber": "604",
-		"unitPerPack": 20,
-		"overallSize": "70 g",
+		"slug": "punjas-ceylon-black-tea-500g",
+		"itemNumber": "603",
+		"unitPerPack": 24,
+		"overallSize": "500 g",
 		"categoryKey": "powders-teas",
 		"featured": false
 	},
@@ -1536,14 +1672,6 @@
 		"featured": false
 	},
 	{
-		"slug": "paranthas-plain-value-pack",
-		"itemNumber": "220",
-		"unitPerPack": 8,
-		"overallSize": "30 pcs",
-		"categoryKey": "misc-frozen-fresh",
-		"featured": false
-	},
-	{
 		"slug": "tuckers-blitz",
 		"itemNumber": "230",
 		"unitPerPack": 12,
@@ -1581,7 +1709,8 @@
 		"unitPerPack": "TBD",
 		"overallSize": "80 ml",
 		"categoryKey": "misc-frozen-fresh",
-		"featured": false
+		"featured": false,
+		"comingSoon": true
 	},
 	{
 		"slug": "bula-pop",
@@ -1589,13 +1718,23 @@
 		"unitPerPack": "TBD",
 		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
-		"featured": false
+		"featured": false,
+		"comingSoon": true
 	},
 	{
 		"slug": "pacific-split",
 		"itemNumber": "TBD",
 		"unitPerPack": "TBD",
 		"overallSize": "74 ml",
+		"categoryKey": "misc-frozen-fresh",
+		"featured": false,
+		"comingSoon": true
+	},
+	{
+		"slug": "paranthas-plain-value-pack",
+		"itemNumber": "220",
+		"unitPerPack": 8,
+		"overallSize": "30 pcs",
 		"categoryKey": "misc-frozen-fresh",
 		"featured": false
 	},
@@ -1753,7 +1892,7 @@
 	},
 	{
 		"slug": "nestle-smarties-50g",
-		"itemNumber": "TBD",
+		"itemNumber": "586",
 		"unitPerPack": "TBD",
 		"overallSize": "50 g",
 		"categoryKey": "candies",
@@ -1761,7 +1900,7 @@
 	},
 	{
 		"slug": "nestle-milkybar-classic-50g",
-		"itemNumber": "TBD",
+		"itemNumber": "587",
 		"unitPerPack": "TBD",
 		"overallSize": "50 g",
 		"categoryKey": "candies",
@@ -1769,7 +1908,7 @@
 	},
 	{
 		"slug": "nestle-kitkat-chunky-milo-44g",
-		"itemNumber": "TBD",
+		"itemNumber": "588",
 		"unitPerPack": "TBD",
 		"overallSize": "44 g",
 		"categoryKey": "candies",
@@ -1777,16 +1916,16 @@
 	},
 	{
 		"slug": "jasons-black-hacks-150g",
-		"itemNumber": "TBD",
-		"unitPerPack": "TBD",
+		"itemNumber": "436",
+		"unitPerPack": 25,
 		"overallSize": "150 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
 	{
 		"slug": "jasons-clear-mints-150g",
-		"itemNumber": "TBD",
-		"unitPerPack": "TBD",
+		"itemNumber": "437",
+		"unitPerPack": 25,
 		"overallSize": "150 g",
 		"categoryKey": "candies",
 		"featured": false

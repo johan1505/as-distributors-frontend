@@ -88,7 +88,8 @@
 		"addedToQuote": "已添加！",
 		"inQuote": "在报价中",
 		"backToCatalog": "返回目录",
-		"viewLargerImage": "查看大图："
+		"viewLargerImage": "查看大图：",
+		"comingSoon": "即将推出"
 	},
 	"quote": {
 		"packs": "包",
@@ -168,6 +169,7 @@
 		"canned-vegetables": "罐装蔬菜",
 		"cookies-crackers": "饼干与薄脆饼干",
 		"snacks": "零食（Bhooja）",
+		"snacks-guru-lucky": "零食（Guru Lucky）",
 		"chips": "薯片",
 		"noodles": "面条",
 		"candies": "糖果",
@@ -175,12 +177,12 @@
 		"oils": "食用油",
 		"dairy": "乳制品",
 		"breakfast-cereal": "早餐谷物",
-		"powders-teas": "粉类、茶与面粉",
+		"powders-teas": "面粉、粉类与茶",
 		"lamb-goat": "羊肉和山羊肉",
 		"sausages": "香肠",
 		"white-meats": "特色肉类",
 		"root-vegetables": "根茎与蔬菜",
-		"misc-frozen-fresh": "其他冷冻和新鲜",
+		"misc-frozen-fresh": "Ice cream & Aman",
 		"drinks": "饮料"
 	},
 	"categorySeo": {
@@ -225,6 +227,12 @@
 			"description": "Bhooja零食与混合装，包括Fiji Mix、Punjabi Mix、炸豌豆等。",
 			"pageDescription": "太平洋岛屿风味零食：香料混合、炸豌豆与酥脆小食。",
 			"keywords": "Bhooja零食, Fiji mix, Punjabi mix, 炸豌豆, 太平洋零食"
+		},
+		"snacks-guru-lucky": {
+			"title": "零食（Guru Lucky）- 混合零食与经典口味 | A & S Distributors",
+			"description": "Guru Lucky 的 sev、混合零食、花生与酥脆咸味小食。",
+			"pageDescription": "Guru Lucky 混合零食与咸味酥脆小食。",
+			"keywords": "Guru Lucky 零食, sev, 混合零食, 花生, 咸味零食"
 		},
 		"chips": {
 			"title": "薯片 - BONGO、TWISTES与UFO's | A & S Distributors",
@@ -611,6 +619,22 @@
 			"seoKeywords": "FMF牛奶葛根, 斐济饼干, 斐济曲奇, 批发饼干",
 			"imageAlt": "FMF牛奶葛根饼干包装"
 		},
+		"fmf-peanut-cookies": {
+			"name": "FMF Peanut Cookies",
+			"description": "Crunchy FMF cookies with a rich peanut flavor, made in Fiji. A classic tea-time favorite with a nutty bite.",
+			"seoTitle": "FMF Peanut Cookies | A & S Distributors",
+			"seoDescription": "FMF Peanut Cookies from Fiji. Crunchy and nutty. Wholesale pricing available.",
+			"seoKeywords": "FMF peanut cookies, Fiji cookies, peanut biscuits, Pacific Island food",
+			"imageAlt": "Package of FMF Peanut Cookies"
+		},
+		"fmf-choc-chip-cookies": {
+			"name": "FMF Choc Chip Cookies",
+			"description": "FMF chocolate chip cookies made in Fiji. Crisp, golden cookies studded with chocolate chips for a sweet, satisfying snack.",
+			"seoTitle": "FMF Choc Chip Cookies | A & S Distributors",
+			"seoDescription": "FMF Choc Chip Cookies from Fiji. Crisp and chocolatey. Wholesale pricing available.",
+			"seoKeywords": "FMF choc chip cookies, Fiji cookies, chocolate chip biscuits, Pacific Island food",
+			"imageAlt": "Package of FMF Choc Chip Cookies"
+		},
 		"monte-carlo": {
 			"name": "Arnott's 蒙特卡洛饼干",
 			"description": "标志性的澳大利亚奶油饼干，两片金黄色椰香饼干中间夹着一层甜果酱和香草奶油。自1926年由Arnott's首次制作，这款深受喜爱的点心完美平衡了酥脆和甜蜜。",
@@ -706,6 +730,30 @@
 			"seoDescription": "来自斐济的Punjas牛奶葛根饼干。轻盈，完美搭配茶。提供批发价格。",
 			"seoKeywords": "Punjas牛奶葛根, 斐济饼干, Punjas曲奇, 太平洋岛屿食品",
 			"imageAlt": "Punjas牛奶葛根饼干饼干包装"
+		},
+		"punjas-scotch-finger": {
+			"name": "Punjas Scotch Finger",
+			"description": "Punjas Scotch Finger biscuits from Fiji. Buttery shortbread-style fingers with a light crunch, perfect for tea time.",
+			"seoTitle": "Punjas Scotch Finger Biscuits | A & S Distributors",
+			"seoDescription": "Punjas Scotch Finger biscuits from Fiji. Buttery shortbread style. Wholesale pricing available.",
+			"seoKeywords": "Punjas scotch finger, Fiji biscuits, shortbread cookies, Pacific Island food",
+			"imageAlt": "Package of Punjas Scotch Finger cookies"
+		},
+		"punjas-breakfast-crackers-375g": {
+			"name": "Punjas Breakfast Crackers 375 g",
+			"description": "Punjas Breakfast Crackers from Fiji in a convenient 375 g pack. Light, crisp crackers that pair well with tea, coffee, or savory spreads.",
+			"seoTitle": "Punjas Breakfast Crackers 375 g | A & S Distributors",
+			"seoDescription": "Punjas Breakfast Crackers 375 g from Fiji. Light and crisp. Wholesale pricing available.",
+			"seoKeywords": "Punjas breakfast crackers, Fiji crackers, breakfast crackers, Pacific Island food",
+			"imageAlt": "Package of Punjas Breakfast Crackers 375 g"
+		},
+		"punjas-breakfast-crackers-2kg": {
+			"name": "Punjas Breakfast Crackers 4.40 lb (2 kg)",
+			"description": "Bulk 2 kg pack of Punjas Breakfast Crackers from Fiji. Ideal for food service and large households.",
+			"seoTitle": "Punjas Breakfast Crackers 2 kg | A & S Distributors",
+			"seoDescription": "Punjas Breakfast Crackers 2 kg bulk pack from Fiji. Wholesale pricing available.",
+			"seoKeywords": "Punjas breakfast crackers bulk, Fiji crackers, wholesale crackers, Pacific Island food",
+			"imageAlt": "Package of Punjas Breakfast Crackers 2 kg"
 		},
 		"big-sister-light-fruit-cake": {
 			"name": "Big Sister淡色水果蛋糕",
@@ -906,6 +954,86 @@
 			"seoDescription": "Bhooja King 火辣辣味混合，适合热辣爱好者。大胆风味。提供批发价格。",
 			"seoKeywords": "Bhooja King 辣味混合, 辣零食混合, 辣味零食, 太平洋岛屿食品",
 			"imageAlt": "辣味混合零食包装"
+		},
+		"guru-lucky-thin-sev": {
+			"name": "Thin Sev",
+			"description": "Crisp, thin sev snack from Guru Lucky. Lightly seasoned and perfect for snacking or topping.",
+			"seoTitle": "Guru Lucky Thin Sev Snacks | A & S Distributors",
+			"seoDescription": "Guru Lucky Thin Sev, crisp and lightly seasoned. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky thin sev, sev snacks, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Thin Sev"
+		},
+		"guru-lucky-muruku": {
+			"name": "Muruku",
+			"description": "Crunchy spiral-style muruku from Guru Lucky with a classic savory spice blend.",
+			"seoTitle": "Guru Lucky Muruku Snacks | A & S Distributors",
+			"seoDescription": "Guru Lucky Muruku, crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky muruku, muruku snacks, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Muruku"
+		},
+		"guru-lucky-chili-peanuts": {
+			"name": "Chili Peanuts",
+			"description": "Crunchy peanuts with a chili kick from Guru Lucky. Bold flavor and satisfying crunch.",
+			"seoTitle": "Guru Lucky Chili Peanuts | A & S Distributors",
+			"seoDescription": "Guru Lucky Chili Peanuts with a spicy chili kick. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky chili peanuts, spicy peanuts, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Chili Peanuts"
+		},
+		"guru-lucky-hot-mix": {
+			"name": "Hot Mix",
+			"description": "A spicy snack mix from Guru Lucky with a bold, savory heat.",
+			"seoTitle": "Guru Lucky Hot Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Hot Mix, bold and spicy snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky hot mix, spicy snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Hot Mix"
+		},
+		"guru-lucky-mix-bhuja": {
+			"name": "Mix Bhuja",
+			"description": "Classic Guru Lucky mix bhuja with a crunchy, savory blend of snack pieces.",
+			"seoTitle": "Guru Lucky Mix Bhuja | A & S Distributors",
+			"seoDescription": "Guru Lucky Mix Bhuja, crunchy savory mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky mix bhuja, snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Mix Bhuja"
+		},
+		"guru-lucky-hot-fiji-mix": {
+			"name": "Hot Fiji Mix",
+			"description": "Guru Lucky Hot Fiji Mix with a spicy, savory crunch inspired by island flavors.",
+			"seoTitle": "Guru Lucky Hot Fiji Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Hot Fiji Mix, spicy island-style snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky hot fiji mix, spicy snack mix, island snacks, wholesale snacks",
+			"imageAlt": "Package of Hot Fiji Mix"
+		},
+		"guru-lucky-fiji-mix": {
+			"name": "Fiji Mix",
+			"description": "Guru Lucky Fiji Mix with a savory, crunchy blend for everyday snacking.",
+			"seoTitle": "Guru Lucky Fiji Mix | A & S Distributors",
+			"seoDescription": "Guru Lucky Fiji Mix, savory crunchy snack mix. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky fiji mix, snack mix, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Fiji Mix"
+		},
+		"guru-lucky-spicy-garlic-peas": {
+			"name": "Spicy Garlic Peas",
+			"description": "Crunchy peas with a spicy garlic seasoning from Guru Lucky.",
+			"seoTitle": "Guru Lucky Spicy Garlic Peas | A & S Distributors",
+			"seoDescription": "Guru Lucky Spicy Garlic Peas, bold and crunchy. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky spicy garlic peas, crunchy peas, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Spicy Garlic Peas"
+		},
+		"guru-lucky-peas-peanuts": {
+			"name": "Peas & Peanuts",
+			"description": "A crunchy Guru Lucky blend of peas and peanuts seasoned for savory snacking.",
+			"seoTitle": "Guru Lucky Peas & Peanuts | A & S Distributors",
+			"seoDescription": "Guru Lucky Peas & Peanuts, crunchy savory blend. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky peas and peanuts, savory snacks, snack mix, wholesale snacks",
+			"imageAlt": "Package of Peas & Peanuts"
+		},
+		"guru-lucky-cornflakes-chewra": {
+			"name": "Cornflakes Chewra",
+			"description": "Crunchy cornflake chewra from Guru Lucky with a savory seasoning blend.",
+			"seoTitle": "Guru Lucky Cornflakes Chewra | A & S Distributors",
+			"seoDescription": "Guru Lucky Cornflakes Chewra, crunchy and savory. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
+			"imageAlt": "Package of Cornflakes Chewra"
 		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO 芝士",
@@ -1467,6 +1595,14 @@
 			"seoKeywords": "锡兰茶, 斯里兰卡茶, 红茶, 优质散装茶",
 			"imageAlt": "锡兰红茶盒装"
 		},
+		"punjas-ceylon-black-tea-500g": {
+			"name": "Punjas锡兰红茶",
+			"description": "500 g装锡兰红茶，来自斯里兰卡。明亮清爽的风味，经典锡兰特色。",
+			"seoTitle": "锡兰红茶 500g散装 | A & S Distributors",
+			"seoDescription": "来自斯里兰卡的优质锡兰红茶 500g。明亮清爽的风味。提供批发价格。",
+			"seoKeywords": "锡兰茶, 斯里兰卡茶, 红茶, 优质散装茶",
+			"imageAlt": "锡兰红茶盒装"
+		},
 		"punjas-tea-masala": {
 			"name": "Punjas茶马沙拉",
 			"description": "专为制作印度奶茶设计的芳香温暖香料混合。Punjas茶马沙拉含有豆蔻、肉桂、姜、丁香和其他香料，将普通茶变成芳香的印度风味马沙拉奶茶。",
@@ -1493,6 +1629,7 @@
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "羊肩排预包装",
+			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "方便的新西兰羊肉丁预包装份量。每包含有完美切块的肉，随时可用于您的食谱。非常适合需要一致份量规格的零售商和家庭。",
 			"seoTitle": "羊肉丁预包装份量 | A & S Distributors",
 			"seoDescription": "预包装羊肉丁份量。零售方便。提供批发价格。",
@@ -1845,11 +1982,19 @@
 		},
 		"kraft-cheddar-cheese": {
 			"name": "Kraft Cheddar Cheese",
-			"description": "Kraft cheddar cheese in a 500 g block. Rich, creamy cheddar for slicing, melting, and cooking.",
-			"seoTitle": "Kraft Cheddar Cheese 500 g | A & S Distributors",
-			"seoDescription": "Kraft cheddar cheese 500 g block. Great for cooking and sandwiches. Wholesale pricing available.",
+			"description": "Kraft cheddar cheese in a 250 g block. Rich, creamy cheddar for slicing, melting, and cooking.",
+			"seoTitle": "Kraft Cheddar Cheese 250 g | A & S Distributors",
+			"seoDescription": "Kraft cheddar cheese 250 g block. Great for cooking and sandwiches. Wholesale pricing available.",
 			"seoKeywords": "Kraft cheddar, cheddar cheese block, dairy wholesale, cheese",
 			"imageAlt": "Block of Kraft Cheddar Cheese"
+		},
+		"punja-red-cow-milk-powder": {
+			"name": "Punja Red Cow Milk Powder",
+			"description": "Punja Red Cow Milk Powder in a 450 g pack. Smooth, creamy milk powder for everyday use.",
+			"seoTitle": "Punja Red Cow Milk Powder 450 g | A & S Distributors",
+			"seoDescription": "Punja Red Cow Milk Powder 450 g. Wholesale pricing available.",
+			"seoKeywords": "Punja Red Cow milk powder, milk powder, dairy, wholesale dairy",
+			"imageAlt": "Package of Punja Red Cow Milk Powder"
 		},
 		"tuckers-blitz": {
 			"name": "Tuckers Blitz",
@@ -1972,12 +2117,12 @@
 			"imageAlt": "Jasons Black Hacks糖袋"
 		},
 		"jasons-clear-mints-150g": {
-			"name": "Jasons Clear Mints",
-			"description": "清爽透明薄荷硬糖，口感干净清凉。适合糖果碗与收银台。",
-			"seoTitle": "Jasons Clear Mints 150g | A & S Distributors",
-			"seoDescription": "Jasons Clear Mints 150g。清爽薄荷糖。提供批发价格。",
-			"seoKeywords": "Jasons薄荷糖, 透明薄荷糖, 硬糖, 批发糖果",
-			"imageAlt": "Jasons Clear Mints糖袋"
+			"name": "Jasons Clear Mints (White)",
+			"description": "清爽白色薄荷硬糖，口感干净清凉。适合糖果碗与收银台。",
+			"seoTitle": "Jasons Clear Mints (White) 150g | A & S Distributors",
+			"seoDescription": "Jasons Clear Mints (White) 150g。清爽薄荷糖。提供批发价格。",
+			"seoKeywords": "Jasons薄荷糖, 白色薄荷糖, 硬糖, 批发糖果",
+			"imageAlt": "Jasons Clear Mints (White)糖袋"
 		},
 		"pops-kola-2-5l": {
 			"name": "Pops 可乐",

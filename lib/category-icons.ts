@@ -32,6 +32,7 @@ export const CATEGORY_ICONS: Record<CategoryKey, IconComponent> = {
 	'cookies-crackers': Cookie,
 	dairy: GlassWater,
 	snacks: Popcorn,
+	'snacks-guru-lucky': Popcorn,
 	chips: Popcorn,
 	noodles: Utensils,
 	candies: Candy,

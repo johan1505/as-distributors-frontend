@@ -56,7 +56,12 @@ export const PRODUCT_SLUGS = [
 	'shortbread-cream',
 	'shortbread-plain',
 	'punjas-milk-arrowroot',
+	'punjas-scotch-finger',
+	'punjas-breakfast-crackers-375g',
+	'punjas-breakfast-crackers-2kg',
 	'fmf-milk-arrowroot',
+	'fmf-peanut-cookies',
+	'fmf-choc-chip-cookies',
 	'fmf-coconut-cookies',
 	'big-sister-light-fruit-cake',
 	'big-sister-dark-fruit-cake',
@@ -83,6 +88,16 @@ export const PRODUCT_SLUGS = [
 	'fried-peas-hot',
 	'fiji-mix',
 	'fix-mix-spicy',
+	'guru-lucky-thin-sev',
+	'guru-lucky-muruku',
+	'guru-lucky-chili-peanuts',
+	'guru-lucky-hot-mix',
+	'guru-lucky-mix-bhuja',
+	'guru-lucky-hot-fiji-mix',
+	'guru-lucky-fiji-mix',
+	'guru-lucky-spicy-garlic-peas',
+	'guru-lucky-peas-peanuts',
+	'guru-lucky-cornflakes-chewra',
 	'bongo-cheese-snack-156gr',
 	'bongo-cheese-snack-64gr',
 	'bongo-cheese-snack-28gr',
@@ -143,6 +158,7 @@ export const PRODUCT_SLUGS = [
 	'natural-coconut-oil-sandalwood',
 	'anchor-butter-new-zealand',
 	'kraft-cheddar-cheese',
+	'punja-red-cow-milk-powder',
 	'rewa-full-cream-milk-powder',
 	'weetbix-breakfast-cereal-13oz',
 	'weetbix-breakfast-cereal-20oz',
@@ -156,6 +172,7 @@ export const PRODUCT_SLUGS = [
 	'kava-waka-powder',
 	'nestle-cocoa',
 	'punjas-ceylon-black-tea-200gr',
+	'punjas-ceylon-black-tea-500g',
 	'punjas-tea-masala',
 	'lamb-shoulder-whole',
 	'lamb-shoulder-chops',
@@ -242,6 +259,7 @@ const CATEGORY_KEYS = [
 	'canned-vegetables',
 	'cookies-crackers',
 	'snacks',
+	'snacks-guru-lucky',
 	'chips',
 	'noodles',
 	'candies',
@@ -290,6 +308,7 @@ export interface ProductBase {
 	overallSize: string;
 	categoryKey: CategoryKey;
 	featured: boolean;
+	comingSoon?: boolean;
 }
 
 export function getProductImageSource(slug: ProductSlug): string {
@@ -308,6 +327,7 @@ function isValidProductBase(p: {
 	overallSize: string;
 	categoryKey: string;
 	featured: boolean;
+	comingSoon?: boolean;
 }): p is ProductBase {
 	return isProductSlug(p.slug) && isCategoryKey(p.categoryKey);
 }
@@ -335,5 +355,53 @@ export function getCategories(): CategoryKey[] {
 }
 
 export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
-	return getAllProductsBase().filter((p) => p.categoryKey === categoryKey);
+	const products = getAllProductsBase().filter((p) => p.categoryKey === categoryKey);
+
+	if (categoryKey === 'canned-fish-tuna') {
+		return products.slice().sort((a, b) => {
+			const aNumber = Number.parseInt(a.itemNumber, 10);
+			const bNumber = Number.parseInt(b.itemNumber, 10);
+
+			if (Number.isNaN(aNumber) && Number.isNaN(bNumber)) return 0;
+			if (Number.isNaN(aNumber)) return 1;
+			if (Number.isNaN(bNumber)) return -1;
+			return aNumber - bNumber;
+		});
+	}
+
+	if (categoryKey === 'cookies-crackers') {
+		const arnottsSlugs = new Set([
+			'milk-arrowroot',
+			'monte-carlo',
+			'delta-cream',
+			'scotch-finger',
+			'shortbread-cream',
+			'shortbread-plain',
+			'sao-shortbread-cream',
+		]);
+
+		return products.slice().sort((a, b) => {
+			const rank = (product: ProductBase): number => {
+				if (product.slug.startsWith('tim-tam-')) return 0;
+				if (arnottsSlugs.has(product.slug)) return 1;
+				if (product.slug.startsWith('fmf-')) return 2;
+				if (product.slug.startsWith('punjas-')) return 3;
+				if (product.slug.startsWith('big-sister-')) return 4;
+				return 5;
+			};
+
+			const aRank = rank(a);
+			const bRank = rank(b);
+			if (aRank !== bRank) return aRank - bRank;
+
+			const aNumber = Number.parseInt(a.itemNumber, 10);
+			const bNumber = Number.parseInt(b.itemNumber, 10);
+			if (Number.isNaN(aNumber) && Number.isNaN(bNumber)) return 0;
+			if (Number.isNaN(aNumber)) return 1;
+			if (Number.isNaN(bNumber)) return -1;
+			return aNumber - bNumber;
+		});
+	}
+
+	return products;
 }

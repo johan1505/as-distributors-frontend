@@ -19,7 +19,7 @@ interface QuoteContextValue {
   items: QuoteItem[];
   addItem: (product: ProductBase) => void;
   removeItem: (slug: string) => void;
-  updateQuantity: (slug: string, quantity: number) => void;
+  updateQuantity: (productOrSlug: ProductBase | string, quantity: number) => void;
   clearCart: () => void;
   isInCart: (slug: string) => boolean;
   totalItems: number;
@@ -81,18 +81,33 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
     setItems((prev) => prev.filter((item) => item.product.slug !== slug));
   }, []);
 
-  const updateQuantity = useCallback((slug: string, quantity: number) => {
-    if (quantity <= 0) {
-      setItems((prev) => prev.filter((item) => item.product.slug !== slug));
-    } else {
-      const capped = Math.min(quantity, MAX_QUANTITY_PER_PRODUCT);
-      setItems((prev) =>
-        prev.map((item) =>
-          item.product.slug === slug ? { ...item, quantity: capped } : item
-        )
-      );
-    }
-  }, []);
+  const updateQuantity = useCallback(
+    (productOrSlug: ProductBase | string, quantity: number) => {
+      const slug =
+        typeof productOrSlug === "string"
+          ? productOrSlug
+          : productOrSlug.slug;
+      const product =
+        typeof productOrSlug === "string" ? null : productOrSlug;
+
+      if (quantity <= 0) {
+        setItems((prev) => prev.filter((item) => item.product.slug !== slug));
+      } else {
+        const capped = Math.min(quantity, MAX_QUANTITY_PER_PRODUCT);
+        setItems((prev) => {
+          const existing = prev.find((item) => item.product.slug === slug);
+          if (!existing) {
+            if (!product) return prev;
+            return [...prev, { product, quantity: capped }];
+          }
+          return prev.map((item) =>
+            item.product.slug === slug ? { ...item, quantity: capped } : item
+          );
+        });
+      }
+    },
+    []
+  );
 
   const clearCart = useCallback(() => {
     setItems([]);

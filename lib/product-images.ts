@@ -15,12 +15,12 @@ import imgCrownCornedMutton from '@/public/images/crown-corned-mutton.webp';
 import imgColonialCornedMuttonHalal from '@/public/images/colonial-corned-mutton-halal.webp';
 import imgColonialCornedMuttonRegular from '@/public/images/colonial-corned-mutton-regular.webp';
 import imgGlobeCornedMuttonHalal from '@/public/images/globe-corned-mutton-halal.webp';
-import imgAngelMackerelNaturalOil from '@/public/images/angel-mackerel-natural-oil.webp';
+import imgAngelMackerelNaturalOil from '@/public/images/angel-mackerel-natural-oil.png';
 import imgAngelMackerelTomatoSauce from '@/public/images/angel-mackerel-tomato-sauce.webp';
 import imgPacificOceanMackerelNaturalOil from '@/public/images/pacific-ocean-mackerel-natural-oil.webp';
 import imgPacificOceanMackerelTomatoSauce from '@/public/images/pacific-ocean-mackerel-tomato-sauce.webp';
-import img777MackerelNaturalOil from '@/public/images/777-mackerel-natural-oil.webp';
-import img777MackerelTomatoSauce from '@/public/images/777-mackerel-tomato-sauce.webp';
+import img777MackerelNaturalOil from '@/public/images/777-mackerel-natural-oil.png';
+import img777MackerelTomatoSauce from '@/public/images/777-mackerel-tomato-sauce.png';
 import imgBrunswickSardinesSoybeanOil from '@/public/images/brunswick-sardines-soybean-oil.webp';
 import imgSkipperTunaVegetableOil from '@/public/images/skipper-tuna-vegetable-oil.webp';
 import imgFishKawaKawa from '@/public/images/fish-kawa-kawa.png';
@@ -30,32 +30,32 @@ import imgUnicornTa from '@/public/images/unicorn-ta.webp';
 import imgKawango from '@/public/images/kawango.png';
 import imgPacificTasteCoconutMilk13oz from '@/public/images/pacific-taste-coconut-milk-13oz.webp';
 import imgPacificTasteCoconutMilk98oz from '@/public/images/pacific-taste-coconut-milk-98oz.webp';
-import imgPacificCrownFijiCoconutCream from '@/public/images/pacific-crown-fiji-coconut-cream.webp';
+import imgPacificCrownFijiCoconutCream from '@/public/images/pacific-crown-fiji-coconut-cream.png';
 import imgPacificCrownBreadfruit from '@/public/images/pacific-crown-breadfruit.png';
 import imgPacificCrownTahitianChestnut from '@/public/images/pacific-crown-tahitian-chestnut.webp';
 import imgWattiesSpaghettiTomatoSauce from '@/public/images/watties-spaghetti-tomato-sauce.webp';
 import imgWattiesBakedBeansTomatoSauce from '@/public/images/watties-baked-beans-tomato-sauce.webp';
-import imgPalusamiTaroLeaves from '@/public/images/palusami-taro-leaves.webp';
+import imgPalusamiTaroLeaves from '@/public/images/palusami-taro-leaves.png';
 import imgPacificCrownDurukaStalkBrine from '@/public/images/pacific-crown-duruka-stalk-brine.webp';
-import imgMilkArrowroot from '@/public/images/milk-arrowroot.webp';
-import imgMonteCarlo from '@/public/images/monte-carlo.webp';
+import imgMilkArrowroot from '@/public/images/milk-arrowroot.png';
+import imgMonteCarlo from '@/public/images/monte-carlo.png';
 import imgTimTamExtraChocolate from '@/public/images/tim-tam-extra-chocolate.png';
-import imgTimTamChewyCaramel from '@/public/images/tim-tam-chewy-caramel.webp';
-import imgTimTamDarkChocolate from '@/public/images/tim-tam-dark-chocolate.webp';
-import imgTimTamMint from '@/public/images/tim-tam-mint.webp';
-import imgTimTamOriginal from '@/public/images/tim-tam-original.webp';
-import imgDeltaCream from '@/public/images/delta-cream.webp';
+import imgTimTamChewyCaramel from '@/public/images/tim-tam-chewy-caramel.png';
+import imgTimTamDarkChocolate from '@/public/images/tim-tam-dark-chocolate.png';
+import imgTimTamMint from '@/public/images/tim-tam-mint.png';
+import imgTimTamOriginal from '@/public/images/tim-tam-original.png';
+import imgDeltaCream from '@/public/images/delta-cream.png';
 import imgScotchFinger from '@/public/images/scotch-finger.webp';
-import imgShortbreadCream from '@/public/images/shortbread-cream.webp';
-import imgShortbreadPlain from '@/public/images/shortbread-plain.webp';
+import imgShortbreadCream from '@/public/images/shortbread-cream.png';
+import imgShortbreadPlain from '@/public/images/shortbread-plain.png';
 import imgPunjasMilkArrowroot from '@/public/images/punjas-milk-arrowroot.webp';
 import imgFmfMilkArrowroot from '@/public/images/fmf-milk-arrowroot.webp';
 import imgFmfCoconutCookies from '@/public/images/fmf-coconut-cookies.webp';
 import imgBigSisterLightFruitCake from '@/public/images/big-sister-light-fruit-cake.webp';
 import imgBigSisterDarkFruitCake from '@/public/images/big-sister-dark-fruit-cake.webp';
 import imgFmfFlour from '@/public/images/fmf-flour.webp';
-import imgSaoShortbreadCream from '@/public/images/sao-shortbread-cream.webp';
-import imgFmfScotchFinger from '@/public/images/fmf-scotch-finger.webp';
+import imgSaoShortbreadCream from '@/public/images/sao-shortbread-cream.png';
+import imgFmfScotchFinger from '@/public/images/fmf-scotch-finger.png';
 import imgFmfBreakfastCrackers13oz from '@/public/images/fmf-breakfast-crackers-13oz.webp';
 import imgFmfBreakfastCrackersFine from '@/public/images/fmf-breakfast-crackers-fine.png';
 import imgFmfBreakfastCrackers4lb from '@/public/images/fmf-breakfast-crackers-4lb.webp';
@@ -103,10 +103,10 @@ import imgChowChickenFlavour from '@/public/images/chow-chicken-flavour.png';
 import imgChowCurryFlavour from '@/public/images/chow-curry-flavour.png';
 import imgMaggiNoodlesChickenFlavour from '@/public/images/maggi-noodles-chicken-flavour.png';
 import imgMaggiNoodlesCurryFlavour from '@/public/images/maggi-noodles-curry-flavour.png';
-import imgCadburyCrunchieBars from '@/public/images/cadbury-crunchie-bars.webp';
-import imgCadburyDreamBars from '@/public/images/cadbury-dream-bars.webp';
+import imgCadburyCrunchieBars from '@/public/images/cadbury-crunchie-bars.png';
+import imgCadburyDreamBars from '@/public/images/cadbury-dream-bars.png';
 import imgCadburyFruitNut from '@/public/images/cadbury-fruit-nut.webp';
-import imgCadburyDairyMilkBar from '@/public/images/cadbury-dairy-milk-bar.webp';
+import imgCadburyDairyMilkBar from '@/public/images/cadbury-dairy-milk-bar.png';
 import imgHomemaidAmraPickles from '@/public/images/homemaid-amra-pickles.webp';
 import imgHomemaidKamrakStarPickleApple from '@/public/images/homemaid-kamrak-star-pickle-apple.webp';
 import imgHomemaidKutchlaHotMangoChutney from '@/public/images/homemaid-kutchla-hot-mango-chutney.webp';
@@ -148,11 +148,12 @@ import imgKavaWakePowder from '@/public/images/kava-waka-powder.png';
 import imgNestleCocoa from '@/public/images/nestle-cocoa.webp';
 import imgPunjasCeylonBlackTea200gr from '@/public/images/punjas-ceylon-black-tea-200gr.webp';
 import imgPunjasTeaMasala from '@/public/images/punjas-tea-masala.webp';
-import imgLambShoulderWhole from '@/public/images/lamb-shoulder-whole.webp';
+import imgLambShoulderWhole from '@/public/images/lamb-shoulder-whole.png';
 import imgLambShoulderChops from '@/public/images/lamb-shoulder-chops.png';
 import imgLambShoulderChopsPrepack from '@/public/images/lamb-shoulder-chops-prepack.png';
 import imgLambNeckWhole from '@/public/images/lamb-neck-whole.webp';
 import imgLambNeckSliced from '@/public/images/lamb-neck-sliced.webp';
+import imgLambNeckSlicedPrepack from '@/public/images/lamb-neck-sliced-prepack.png';
 import imgLambLegWhole from '@/public/images/lamb-leg-whole.webp';
 import imgLambLegSlicedPrepack from '@/public/images/lamb-leg-sliced-prepack.webp';
 import imgLambFlapWhole from '@/public/images/lamb-flap-whole.png';
@@ -377,6 +378,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'lamb-shoulder-chops-prepack': imgLambShoulderChopsPrepack,
 	'lamb-neck-whole': imgLambNeckWhole,
 	'lamb-neck-sliced': imgLambNeckSliced,
+	'lamb-neck-sliced-prepack': imgLambNeckSlicedPrepack,
 	'lamb-leg-whole': imgLambLegWhole,
 	'lamb-leg-sliced-prepack': imgLambLegSlicedPrepack,
 	'lamb-flap-whole': imgLambFlapWhole,
@@ -464,12 +466,12 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'colonial-corned-mutton-halal': '/images/colonial-corned-mutton-halal.webp',
 	'colonial-corned-mutton-regular': '/images/colonial-corned-mutton-regular.webp',
 	'globe-corned-mutton-halal': '/images/globe-corned-mutton-halal.webp',
-	'angel-mackerel-natural-oil': '/images/angel-mackerel-natural-oil.webp',
+	'angel-mackerel-natural-oil': '/images/angel-mackerel-natural-oil.png',
 	'angel-mackerel-tomato-sauce': '/images/angel-mackerel-tomato-sauce.webp',
 	'pacific-ocean-mackerel-natural-oil': '/images/pacific-ocean-mackerel-natural-oil.webp',
 	'pacific-ocean-mackerel-tomato-sauce': '/images/pacific-ocean-mackerel-tomato-sauce.webp',
-	'777-mackerel-natural-oil': '/images/777-mackerel-natural-oil.webp',
-	'777-mackerel-tomato-sauce': '/images/777-mackerel-tomato-sauce.webp',
+	'777-mackerel-natural-oil': '/images/777-mackerel-natural-oil.png',
+	'777-mackerel-tomato-sauce': '/images/777-mackerel-tomato-sauce.png',
 	'brunswick-sardines-soybean-oil': '/images/brunswick-sardines-soybean-oil.webp',
 	'skipper-tuna-vegetable-oil': '/images/skipper-tuna-vegetable-oil.webp',
 	'fish-kawa-kawa': '/images/fish-kawa-kawa.png',
@@ -479,32 +481,32 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	kawango: '/images/kawango.png',
 	'pacific-taste-coconut-milk-13oz': '/images/pacific-taste-coconut-milk-13oz.webp',
 	'pacific-taste-coconut-milk-98oz': '/images/pacific-taste-coconut-milk-98oz.webp',
-	'pacific-crown-fiji-coconut-cream': '/images/pacific-crown-fiji-coconut-cream.webp',
+	'pacific-crown-fiji-coconut-cream': '/images/pacific-crown-fiji-coconut-cream.png',
 	'pacific-crown-breadfruit': '/images/pacific-crown-breadfruit.png',
 	'pacific-crown-tahitian-chestnut': '/images/pacific-crown-tahitian-chestnut.webp',
 	'watties-spaghetti-tomato-sauce': '/images/watties-spaghetti-tomato-sauce.webp',
 	'watties-baked-beans-tomato-sauce': '/images/watties-baked-beans-tomato-sauce.webp',
-	'palusami-taro-leaves': '/images/palusami-taro-leaves.webp',
+	'palusami-taro-leaves': '/images/palusami-taro-leaves.png',
 	'pacific-crown-duruka-stalk-brine': '/images/pacific-crown-duruka-stalk-brine.webp',
-	'milk-arrowroot': '/images/milk-arrowroot.webp',
-	'monte-carlo': '/images/monte-carlo.webp',
+	'milk-arrowroot': '/images/milk-arrowroot.png',
+	'monte-carlo': '/images/monte-carlo.png',
 	'tim-tam-extra-chocolate': '/images/tim-tam-extra-chocolate.png',
-	'tim-tam-chewy-caramel': '/images/tim-tam-chewy-caramel.webp',
-	'tim-tam-dark-chocolate': '/images/tim-tam-dark-chocolate.webp',
-	'tim-tam-mint': '/images/tim-tam-mint.webp',
-	'tim-tam-original': '/images/tim-tam-original.webp',
-	'delta-cream': '/images/delta-cream.webp',
+	'tim-tam-chewy-caramel': '/images/tim-tam-chewy-caramel.png',
+	'tim-tam-dark-chocolate': '/images/tim-tam-dark-chocolate.png',
+	'tim-tam-mint': '/images/tim-tam-mint.png',
+	'tim-tam-original': '/images/tim-tam-original.png',
+	'delta-cream': '/images/delta-cream.png',
 	'scotch-finger': '/images/scotch-finger.webp',
-	'shortbread-cream': '/images/shortbread-cream.webp',
-	'shortbread-plain': '/images/shortbread-plain.webp',
+	'shortbread-cream': '/images/shortbread-cream.png',
+	'shortbread-plain': '/images/shortbread-plain.png',
 	'punjas-milk-arrowroot': '/images/punjas-milk-arrowroot.webp',
 	'fmf-milk-arrowroot': '/images/fmf-milk-arrowroot.webp',
 	'fmf-coconut-cookies': '/images/fmf-coconut-cookies.webp',
 	'big-sister-light-fruit-cake': '/images/big-sister-light-fruit-cake.webp',
 	'big-sister-dark-fruit-cake': '/images/big-sister-dark-fruit-cake.webp',
 	'fmf-flour': '/images/fmf-flour.webp',
-	'sao-shortbread-cream': '/images/sao-shortbread-cream.webp',
-	'fmf-scotch-finger': '/images/fmf-scotch-finger.webp',
+	'sao-shortbread-cream': '/images/sao-shortbread-cream.png',
+	'fmf-scotch-finger': '/images/fmf-scotch-finger.png',
 	'fmf-breakfast-crackers-13oz': '/images/fmf-breakfast-crackers-13oz.webp',
 	'fmf-breakfast-crackers-fine': '/images/fmf-breakfast-crackers-fine.png',
 	'fmf-breakfast-crackers-4lb': '/images/fmf-breakfast-crackers-4lb.webp',
@@ -552,10 +554,10 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fmf-chow-curry-flavour': '/images/chow-curry-flavour.png',
 	'maggi-noodles-chicken-flavour': '/images/maggi-noodles-chicken-flavour.png',
 	'maggi-noodles-curry-flavour': '/images/maggi-noodles-curry-flavour.png',
-	'cadbury-crunchie-bars': '/images/cadbury-crunchie-bars.webp',
-	'cadbury-dream-bars': '/images/cadbury-dream-bars.webp',
+	'cadbury-crunchie-bars': '/images/cadbury-crunchie-bars.png',
+	'cadbury-dream-bars': '/images/cadbury-dream-bars.png',
 	'cadbury-fruit-nut': '/images/cadbury-fruit-nut.webp',
-	'cadbury-dairy-milk-bar': '/images/cadbury-dairy-milk-bar.webp',
+	'cadbury-dairy-milk-bar': '/images/cadbury-dairy-milk-bar.png',
 	'homemaid-amra-pickles': '/images/homemaid-amra-pickles.webp',
 	'homemaid-kamrak-star-pickle-apple': '/images/homemaid-kamrak-star-pickle-apple.webp',
 	'homemaid-kutchla-hot-mango-chutney': '/images/homemaid-kutchla-hot-mango-chutney.webp',
@@ -597,11 +599,12 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'nestle-cocoa': '/images/nestle-cocoa.webp',
 	'punjas-ceylon-black-tea-200gr': '/images/punjas-ceylon-black-tea-200gr.webp',
 	'punjas-tea-masala': '/images/punjas-tea-masala.webp',
-	'lamb-shoulder-whole': '/images/lamb-shoulder-whole.webp',
+	'lamb-shoulder-whole': '/images/lamb-shoulder-whole.png',
 	'lamb-shoulder-chops': '/images/lamb-shoulder-chops.png',
 	'lamb-shoulder-chops-prepack': '/images/lamb-shoulder-chops-prepack.png',
 	'lamb-neck-whole': '/images/lamb-neck-whole.webp',
 	'lamb-neck-sliced': '/images/lamb-neck-sliced.webp',
+	'lamb-neck-sliced-prepack': '/images/lamb-neck-sliced-prepack.png',
 	'lamb-leg-whole': '/images/lamb-leg-whole.webp',
 	'lamb-leg-sliced-prepack': '/images/lamb-leg-sliced-prepack.webp',
 	'lamb-flap-whole': '/images/lamb-flap-whole.png',
@@ -674,4 +677,4 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'ovalau-blue-tuna': '/images/ovalau-blue-tuna.png',
 };
 
-export const MISSING_PRODUCT_IMAGE_SLUGS = ['lamb-neck-sliced-prepack', 'roosters-halal'] as const;
+export const MISSING_PRODUCT_IMAGE_SLUGS = ['roosters-halal'] as const;
