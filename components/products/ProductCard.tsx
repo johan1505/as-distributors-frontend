@@ -27,7 +27,9 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
   const tProducts = useTranslations("products");
 
   const name = tProducts(`${product.slug}.name`);
-  const subtitleKey = `${product.slug}.subtitle`;
+  const subtitleKey = `${product.slug}.subtitle` as Parameters<
+    typeof tProducts
+  >[0];
   const subtitle =
     typeof tProducts.has === "function" && tProducts.has(subtitleKey)
       ? tProducts(subtitleKey)
