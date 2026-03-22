@@ -54,7 +54,7 @@ export function Header() {
               >
                 <ShoppingCart className="size-4" />
                 {totalItems > 0 && (
-                  <span className="ml-1 size-6 rounded-full bg-white text-primary font-semibold flex items-center justify-center">
+                  <span className="ml-2 h-7 min-w-7 px-2 rounded-full bg-white text-primary text-sm font-semibold flex items-center justify-center">
                     {totalItems > 99 ? "99+" : totalItems}
                   </span>
                 )}
@@ -102,7 +102,7 @@ export function Header() {
                 <ShoppingCart className="size-4" />
                 <span className="hidden sm:inline">{t("requestQuote")}</span>
                 {totalItems > 0 && (
-                  <span className="ml-1 size-6 rounded-full bg-white text-primary font-semibold flex items-center justify-center">
+                  <span className="ml-2 h-7 min-w-7 px-2 rounded-full bg-white text-primary text-sm font-semibold flex items-center justify-center">
                     {totalItems > 99 ? "99+" : totalItems}
                   </span>
                 )}
