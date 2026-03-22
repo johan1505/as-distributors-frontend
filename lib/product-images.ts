@@ -49,7 +49,12 @@ import imgScotchFinger from '@/public/images/scotch-finger.webp';
 import imgShortbreadCream from '@/public/images/shortbread-cream.png';
 import imgShortbreadPlain from '@/public/images/shortbread-plain.png';
 import imgPunjasMilkArrowroot from '@/public/images/punjas-milk-arrowroot.webp';
+import imgPunjasScotchFinger from '@/public/images/punjas-scotch-finger.png';
+import imgPunjasBreakfastCrackers375g from '@/public/images/punjas-breakfast-crackers-375g.png';
+import imgPunjasBreakfastCrackers2kg from '@/public/images/punjas-breakfast-crackers-2kg.jpeg';
 import imgFmfMilkArrowroot from '@/public/images/fmf-milk-arrowroot.webp';
+import imgFmfPeanutCookies from '@/public/images/fmf-peanut-cookies.png';
+import imgFmfChocChipCookies from '@/public/images/fmf-choc-chip-cookies.png';
 import imgFmfCoconutCookies from '@/public/images/fmf-coconut-cookies.webp';
 import imgBigSisterLightFruitCake from '@/public/images/big-sister-light-fruit-cake.webp';
 import imgBigSisterDarkFruitCake from '@/public/images/big-sister-dark-fruit-cake.webp';
@@ -60,22 +65,32 @@ import imgFmfBreakfastCrackers13oz from '@/public/images/fmf-breakfast-crackers-
 import imgFmfBreakfastCrackersFine from '@/public/images/fmf-breakfast-crackers-fine.png';
 import imgFmfBreakfastCrackers4lb from '@/public/images/fmf-breakfast-crackers-4lb.webp';
 import imgFmfBreakfastCrackers11lb from '@/public/images/fmf-breakfast-crackers-11lb.webp';
-import imgCornPuffMix from '@/public/images/corn-puff-mix.webp';
+import imgCornPuffMix from '@/public/images/corn-puff-mix.png';
 import imgLakdhiMethai from '@/public/images/lakdhi-methai.webp';
 import imgMurkoo from '@/public/images/murkoo.webp';
 import imgRiceMurkoo from '@/public/images/rice-murkoo.webp';
 import imgDesiMix from '@/public/images/desi-mix.webp';
 import imgMadrasMix from '@/public/images/madras-mix.webp';
-import imgPunjabiMix from '@/public/images/punjabi-mix.webp';
+import imgPunjabiMix from '@/public/images/punjabi-mix.png';
 import imgSaoPlain from '@/public/images/sao-plain.webp';
 import imgSaoFine from '@/public/images/sao-fine.webp';
 import imgSaoMix from '@/public/images/sao-mix.webp';
-import imgPeanutPeasMix from '@/public/images/peanut-peas-mix.webp';
+import imgPeanutPeasMix from '@/public/images/peanut-peas-mix.png';
 import imgFriedPeanuts from '@/public/images/fried-peanuts.webp';
 import imgFriedPeas from '@/public/images/fried-peas.webp';
 import imgFriedPeasHot from '@/public/images/fried-peas-hot.webp';
-import imgFijiMix from '@/public/images/fiji-mix.webp';
+import imgFijiMix from '@/public/images/fiji-mix.png';
 import imgFixMixSpicy from '@/public/images/fix-mix-spicy.webp';
+import imgGuruLuckyThinSev from '@/public/images/guru-lucky-thin-sev.jpeg';
+import imgGuruLuckyMuruku from '@/public/images/guru-lucky-muruku.jpeg';
+import imgGuruLuckyChiliPeanuts from '@/public/images/guru-lucky-chili-peanuts.jpeg';
+import imgGuruLuckyHotMix from '@/public/images/guru-lucky-hot-mix.jpeg';
+import imgGuruLuckyMixBhuja from '@/public/images/guru-lucky-mix-bhuja.jpeg';
+import imgGuruLuckyHotFijiMix from '@/public/images/guru-lucky-hot-fiji-mix.jpeg';
+import imgGuruLuckyFijiMix from '@/public/images/guru-lucky-fiji-mix.jpeg';
+import imgGuruLuckySpicyGarlicPeas from '@/public/images/guru-lucky-spicy-garlic-peas.jpeg';
+import imgGuruLuckyPeasPeanuts from '@/public/images/guru-lucky-peas-peanuts.jpeg';
+import imgGuruLuckyCornflakesChewra from '@/public/images/guru-lucky-cornflakes-chewra.jpeg';
 import imgBongoCheeseSnack156gr from '@/public/images/bongo-cheese-snack-156gr.png';
 import imgBongoCheeseSnack64gr from '@/public/images/bongo-cheese-snack-64gr.png';
 import imgBongoCheeseSnack28gr from '@/public/images/bongo-cheese-snack-28gr.png';
@@ -140,6 +155,7 @@ import imgWeetbixBreakfastCereal2lb from '@/public/images/weetbix-breakfast-cere
 import imgFufuMixPlantainFlour from '@/public/images/fufu-mix-plantain-flour.webp';
 import imgFufuMixCocoyamFlour from '@/public/images/fufu-mix-cocoyam-flour.webp';
 import imgEdmondsCustardPowder from '@/public/images/edmonds-custard-powder.png';
+import imgPunjaRedCowMilkPowder from '@/public/images/punja-red-cow-milk-powder.png';
 import imgRewaFullCreamMilkPowder from '@/public/images/rewa-full-cream-milk-powder.webp';
 import imgMiloPowderSingapore14oz from '@/public/images/milo-powder-singapore-14oz.webp';
 import imgMiloPowderSingapore3lb from '@/public/images/milo-powder-singapore-3lb.webp';
@@ -147,6 +163,7 @@ import imgKavaLawenaPowder from '@/public/images/kava-lawena-powder.png';
 import imgKavaWakePowder from '@/public/images/kava-waka-powder.png';
 import imgNestleCocoa from '@/public/images/nestle-cocoa.webp';
 import imgPunjasCeylonBlackTea200gr from '@/public/images/punjas-ceylon-black-tea-200gr.webp';
+import imgPunjasCeylonBlackTea500g from '@/public/images/punjas-ceylon-black-tea-500g.png';
 import imgPunjasTeaMasala from '@/public/images/punjas-tea-masala.webp';
 import imgLambShoulderWhole from '@/public/images/lamb-shoulder-whole.png';
 import imgLambShoulderChops from '@/public/images/lamb-shoulder-chops.png';
@@ -172,7 +189,7 @@ import imgPoviMasima from '@/public/images/povi-masima.png';
 import imgTurkeyTails from '@/public/images/turkey-tails.png';
 import imgFreshTaro from '@/public/images/fresh-taro.png';
 import imgYellowCassava2lb from '@/public/images/yellow-cassava-2lb.webp';
-import imgWhiteCassava5lb from '@/public/images/white-cassava-5lb.webp';
+import imgWhiteCassava5lb from '@/public/images/white-cassava-5lb.png';
 import imgWhiteCassava2lb from '@/public/images/white-cassava-2lb.webp';
 import imgPinkTaro from '@/public/images/pink-taro.webp';
 import imgPurpleTaro2lb from '@/public/images/purple-taro-2lb.webp';
@@ -181,11 +198,11 @@ import imgWhiteTaro from '@/public/images/white-taro.webp';
 import imgYellowTaro2lb from '@/public/images/yellow-taro-2lb.webp';
 import imgYellowTaro5lb from '@/public/images/yellow-taro-5lb.webp';
 import imgBele from '@/public/images/bele.webp';
-import imgDuruka from '@/public/images/duruka.webp';
-import imgJackfruit from '@/public/images/jackfruit.webp';
-import imgTaroLeaves from '@/public/images/taro-leaves.webp';
+import imgDuruka from '@/public/images/duruka.png';
+import imgJackfruit from '@/public/images/jackfruit.png';
+import imgTaroLeaves from '@/public/images/taro-leaves.png';
 import imgBreadfruit5lb from '@/public/images/breadfruit-5lb.webp';
-import imgTahitianChestnutIvi from '@/public/images/tahitian-chestnut-ivi.webp';
+import imgTahitianChestnutIvi from '@/public/images/tahitian-chestnut-ivi.png';
 import imgParanthasPlainValuePack from '@/public/images/paranthas-plain-value-pack.webp';
 import imgAnchorButterNewZealand from '@/public/images/anchor-butter-new-zealand.webp';
 import imgKraftCheddarCheese from '@/public/images/kraft-cheddar-cheese.png';
@@ -274,7 +291,12 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'shortbread-cream': imgShortbreadCream,
 	'shortbread-plain': imgShortbreadPlain,
 	'punjas-milk-arrowroot': imgPunjasMilkArrowroot,
+	'punjas-scotch-finger': imgPunjasScotchFinger,
+	'punjas-breakfast-crackers-375g': imgPunjasBreakfastCrackers375g,
+	'punjas-breakfast-crackers-2kg': imgPunjasBreakfastCrackers2kg,
 	'fmf-milk-arrowroot': imgFmfMilkArrowroot,
+	'fmf-peanut-cookies': imgFmfPeanutCookies,
+	'fmf-choc-chip-cookies': imgFmfChocChipCookies,
 	'fmf-coconut-cookies': imgFmfCoconutCookies,
 	'big-sister-light-fruit-cake': imgBigSisterLightFruitCake,
 	'big-sister-dark-fruit-cake': imgBigSisterDarkFruitCake,
@@ -301,6 +323,16 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'fried-peas-hot': imgFriedPeasHot,
 	'fiji-mix': imgFijiMix,
 	'fix-mix-spicy': imgFixMixSpicy,
+	'guru-lucky-thin-sev': imgGuruLuckyThinSev,
+	'guru-lucky-muruku': imgGuruLuckyMuruku,
+	'guru-lucky-chili-peanuts': imgGuruLuckyChiliPeanuts,
+	'guru-lucky-hot-mix': imgGuruLuckyHotMix,
+	'guru-lucky-mix-bhuja': imgGuruLuckyMixBhuja,
+	'guru-lucky-hot-fiji-mix': imgGuruLuckyHotFijiMix,
+	'guru-lucky-fiji-mix': imgGuruLuckyFijiMix,
+	'guru-lucky-spicy-garlic-peas': imgGuruLuckySpicyGarlicPeas,
+	'guru-lucky-peas-peanuts': imgGuruLuckyPeasPeanuts,
+	'guru-lucky-cornflakes-chewra': imgGuruLuckyCornflakesChewra,
 	'bongo-cheese-snack-156gr': imgBongoCheeseSnack156gr,
 	'bongo-cheese-snack-64gr': imgBongoCheeseSnack64gr,
 	'bongo-cheese-snack-28gr': imgBongoCheeseSnack28gr,
@@ -365,6 +397,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'fufu-mix-plantain-flour': imgFufuMixPlantainFlour,
 	'fufu-mix-cocoyam-flour': imgFufuMixCocoyamFlour,
 	'edmonds-custard-powder': imgEdmondsCustardPowder,
+	'punja-red-cow-milk-powder': imgPunjaRedCowMilkPowder,
 	'rewa-full-cream-milk-powder': imgRewaFullCreamMilkPowder,
 	'milo-powder-singapore-14oz': imgMiloPowderSingapore14oz,
 	'milo-powder-singapore-3lb': imgMiloPowderSingapore3lb,
@@ -372,6 +405,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'kava-waka-powder': imgKavaWakePowder,
 	'nestle-cocoa': imgNestleCocoa,
 	'punjas-ceylon-black-tea-200gr': imgPunjasCeylonBlackTea200gr,
+	'punjas-ceylon-black-tea-500g': imgPunjasCeylonBlackTea500g,
 	'punjas-tea-masala': imgPunjasTeaMasala,
 	'lamb-shoulder-whole': imgLambShoulderWhole,
 	'lamb-shoulder-chops': imgLambShoulderChops,
@@ -500,7 +534,12 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'shortbread-cream': '/images/shortbread-cream.png',
 	'shortbread-plain': '/images/shortbread-plain.png',
 	'punjas-milk-arrowroot': '/images/punjas-milk-arrowroot.webp',
+	'punjas-scotch-finger': '/images/punjas-scotch-finger.png',
+	'punjas-breakfast-crackers-375g': '/images/punjas-breakfast-crackers-375g.png',
+	'punjas-breakfast-crackers-2kg': '/images/punjas-breakfast-crackers-2kg.jpeg',
 	'fmf-milk-arrowroot': '/images/fmf-milk-arrowroot.webp',
+	'fmf-peanut-cookies': '/images/fmf-peanut-cookies.png',
+	'fmf-choc-chip-cookies': '/images/fmf-choc-chip-cookies.png',
 	'fmf-coconut-cookies': '/images/fmf-coconut-cookies.webp',
 	'big-sister-light-fruit-cake': '/images/big-sister-light-fruit-cake.webp',
 	'big-sister-dark-fruit-cake': '/images/big-sister-dark-fruit-cake.webp',
@@ -511,22 +550,32 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fmf-breakfast-crackers-fine': '/images/fmf-breakfast-crackers-fine.png',
 	'fmf-breakfast-crackers-4lb': '/images/fmf-breakfast-crackers-4lb.webp',
 	'fmf-breakfast-crackers-11lb': '/images/fmf-breakfast-crackers-11lb.webp',
-	'corn-puff-mix': '/images/corn-puff-mix.webp',
+	'corn-puff-mix': '/images/corn-puff-mix.png',
 	'lakdhi-methai': '/images/lakdhi-methai.webp',
 	murkoo: '/images/murkoo.webp',
 	'rice-murkoo': '/images/rice-murkoo.webp',
 	'desi-mix': '/images/desi-mix.webp',
 	'madras-mix': '/images/madras-mix.webp',
-	'punjabi-mix': '/images/punjabi-mix.webp',
+	'punjabi-mix': '/images/punjabi-mix.png',
 	'sao-plain': '/images/sao-plain.webp',
 	'sao-fine': '/images/sao-fine.webp',
 	'sao-mix': '/images/sao-mix.webp',
-	'peanut-peas-mix': '/images/peanut-peas-mix.webp',
+	'peanut-peas-mix': '/images/peanut-peas-mix.png',
 	'fried-peanuts': '/images/fried-peanuts.webp',
 	'fried-peas': '/images/fried-peas.webp',
 	'fried-peas-hot': '/images/fried-peas-hot.webp',
-	'fiji-mix': '/images/fiji-mix.webp',
+	'fiji-mix': '/images/fiji-mix.png',
 	'fix-mix-spicy': '/images/fix-mix-spicy.webp',
+	'guru-lucky-thin-sev': '/images/guru-lucky-thin-sev.jpeg',
+	'guru-lucky-muruku': '/images/guru-lucky-muruku.jpeg',
+	'guru-lucky-chili-peanuts': '/images/guru-lucky-chili-peanuts.jpeg',
+	'guru-lucky-hot-mix': '/images/guru-lucky-hot-mix.jpeg',
+	'guru-lucky-mix-bhuja': '/images/guru-lucky-mix-bhuja.jpeg',
+	'guru-lucky-hot-fiji-mix': '/images/guru-lucky-hot-fiji-mix.jpeg',
+	'guru-lucky-fiji-mix': '/images/guru-lucky-fiji-mix.jpeg',
+	'guru-lucky-spicy-garlic-peas': '/images/guru-lucky-spicy-garlic-peas.jpeg',
+	'guru-lucky-peas-peanuts': '/images/guru-lucky-peas-peanuts.jpeg',
+	'guru-lucky-cornflakes-chewra': '/images/guru-lucky-cornflakes-chewra.jpeg',
 	'bongo-cheese-snack-156gr': '/images/bongo-cheese-snack-156gr.png',
 	'bongo-cheese-snack-64gr': '/images/bongo-cheese-snack-64gr.png',
 	'bongo-cheese-snack-28gr': '/images/bongo-cheese-snack-28gr.png',
@@ -591,6 +640,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fufu-mix-plantain-flour': '/images/fufu-mix-plantain-flour.webp',
 	'fufu-mix-cocoyam-flour': '/images/fufu-mix-cocoyam-flour.webp',
 	'edmonds-custard-powder': '/images/edmonds-custard-powder.png',
+	'punja-red-cow-milk-powder': '/images/punja-red-cow-milk-powder.png',
 	'rewa-full-cream-milk-powder': '/images/rewa-full-cream-milk-powder.webp',
 	'milo-powder-singapore-14oz': '/images/milo-powder-singapore-14oz.webp',
 	'milo-powder-singapore-3lb': '/images/milo-powder-singapore-3lb.webp',
@@ -598,6 +648,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'kava-waka-powder': '/images/kava-waka-powder.png',
 	'nestle-cocoa': '/images/nestle-cocoa.webp',
 	'punjas-ceylon-black-tea-200gr': '/images/punjas-ceylon-black-tea-200gr.webp',
+	'punjas-ceylon-black-tea-500g': '/images/punjas-ceylon-black-tea-500g.png',
 	'punjas-tea-masala': '/images/punjas-tea-masala.webp',
 	'lamb-shoulder-whole': '/images/lamb-shoulder-whole.png',
 	'lamb-shoulder-chops': '/images/lamb-shoulder-chops.png',
@@ -623,7 +674,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'turkey-tails': '/images/turkey-tails.png',
 	'fresh-taro': '/images/fresh-taro.png',
 	'yellow-cassava-2lb': '/images/yellow-cassava-2lb.webp',
-	'white-cassava-5lb': '/images/white-cassava-5lb.webp',
+	'white-cassava-5lb': '/images/white-cassava-5lb.png',
 	'white-cassava-2lb': '/images/white-cassava-2lb.webp',
 	'pink-taro': '/images/pink-taro.webp',
 	'purple-taro-2lb': '/images/purple-taro-2lb.webp',
@@ -632,11 +683,11 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'yellow-taro-2lb': '/images/yellow-taro-2lb.webp',
 	'yellow-taro-5lb': '/images/yellow-taro-5lb.webp',
 	bele: '/images/bele.webp',
-	duruka: '/images/duruka.webp',
-	jackfruit: '/images/jackfruit.webp',
-	'taro-leaves': '/images/taro-leaves.webp',
+	duruka: '/images/duruka.png',
+	jackfruit: '/images/jackfruit.png',
+	'taro-leaves': '/images/taro-leaves.png',
 	'breadfruit-5lb': '/images/breadfruit-5lb.webp',
-	'tahitian-chestnut-ivi': '/images/tahitian-chestnut-ivi.webp',
+	'tahitian-chestnut-ivi': '/images/tahitian-chestnut-ivi.png',
 	'paranthas-plain-value-pack': '/images/paranthas-plain-value-pack.webp',
 	'anchor-butter-new-zealand': '/images/anchor-butter-new-zealand.webp',
 	'kraft-cheddar-cheese': '/images/kraft-cheddar-cheese.png',
