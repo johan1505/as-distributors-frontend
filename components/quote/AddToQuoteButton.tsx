@@ -6,6 +6,7 @@ import {
   useState,
   type ChangeEvent,
   type PointerEvent,
+  type Ref,
 } from "react";
 import { useTranslations } from "next-intl";
 import { Minus, Plus, ShoppingCart } from "lucide-react";
@@ -20,6 +21,8 @@ interface AddToQuoteButtonProps {
   variant?: "default" | "outline" | "secondary";
   size?: "default" | "sm" | "lg";
   className?: string;
+  inputRef?: Ref<HTMLInputElement>;
+  hasError?: boolean;
 }
 
 export function AddToQuoteButton({
@@ -27,6 +30,8 @@ export function AddToQuoteButton({
   variant = "default",
   size = "default",
   className,
+  inputRef: externalInputRef,
+  hasError = false,
 }: AddToQuoteButtonProps) {
   const t = useTranslations("product");
   const tQuote = useTranslations("quote");
@@ -97,6 +102,16 @@ export function AddToQuoteButton({
   const stepperButtonTone =
     "bg-primary text-white hover:bg-primary/90 active:bg-primary/80";
 
+  const setInputRef = (node: HTMLInputElement | null) => {
+    inputRef.current = node;
+    if (!externalInputRef) return;
+    if (typeof externalInputRef === "function") {
+      externalInputRef(node);
+    } else {
+      externalInputRef.current = node;
+    }
+  };
+
   const focusInput = () => {
     requestAnimationFrame(() => inputRef.current?.focus());
   };
@@ -157,6 +172,7 @@ export function AddToQuoteButton({
         "inline-flex items-center gap-1 rounded-4xl border px-1.5 transition-colors focus-within:border-ring focus-within:ring-[3px] focus-within:ring-ring/50",
         sizeStyles[size].container,
         containerTone,
+        hasError && "border-destructive/60 focus-within:border-destructive",
         className
       )}
     >
@@ -175,7 +191,7 @@ export function AddToQuoteButton({
         <Minus className={sizeStyles[size].icon} />
       </button>
       <Input
-        ref={inputRef}
+        ref={setInputRef}
         type="text"
         inputMode="numeric"
         pattern="[0-9]*"
@@ -189,9 +205,11 @@ export function AddToQuoteButton({
           }
         }}
         aria-label={tQuote("quantity")}
+        aria-invalid={hasError || undefined}
         placeholder={tQuote("quantity")}
         className={cn(
           "h-full flex-1 rounded-3xl border border-input/80 bg-background px-2 py-0 text-center shadow-inner focus-visible:ring-0 focus-visible:ring-offset-0",
+          hasError && "border-destructive/60",
           sizeStyles[size].input
         )}
       />

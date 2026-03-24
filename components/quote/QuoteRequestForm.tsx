@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Field, FieldLabel, FieldGroup, FieldError } from "@/components/ui/field";
 import { Checkbox } from "@/components/ui/checkbox";
-import { useQuote } from "./QuoteProvider";
+import { useQuote, MAX_PACKS_PER_QUOTE_ITEM } from "./QuoteProvider";
 import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
 import { ProductSlug } from "@/lib/products";
@@ -34,9 +34,13 @@ const QUOTE_API_URL = `${process.env.NEXT_PUBLIC_QUOTE_API_URL}/quote`;
 
 type QuoteRequestFormProps = {
   productSlugToNameMapInEnglish: Record<ProductSlug, string>;
+  onQuantityValidationFailed?: (invalidSlugs: ProductSlug[]) => void;
 }
 
-export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequestFormProps) {
+export function QuoteRequestForm({
+  productSlugToNameMapInEnglish,
+  onQuantityValidationFailed,
+}: QuoteRequestFormProps) {
   const tQuotePage = useTranslations("quote.submitPage");
   const router = useRouter();
   const { items, totalItems, clearCart } = useQuote();
@@ -89,6 +93,16 @@ export function QuoteRequestForm({ productSlugToNameMapInEnglish }: QuoteRequest
     setIsSubmitting(true);
 
     try {
+      const invalidSlugs = items
+        .filter((item) => item.quantity > MAX_PACKS_PER_QUOTE_ITEM)
+        .map((item) => item.product.slug);
+
+      if (invalidSlugs.length > 0) {
+        onQuantityValidationFailed?.(invalidSlugs);
+        setIsSubmitting(false);
+        return;
+      }
+
       const formData = new FormData(e.currentTarget);
       const payload = formatQuoteData(formData);
 

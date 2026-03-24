@@ -128,6 +128,7 @@
 			"requiredFields": "Please fill in all fields to submit your quote request. Our sales team will contact you shortly.",
 			"showAllItems": "Show {count} more items",
 			"showLess": "Show less",
+			"maxPacksPerItem": "Please enter {max} packs or fewer.",
 			"validation": {
 				"nameRequired": "Name is required",
 				"emailRequired": "Email is required",

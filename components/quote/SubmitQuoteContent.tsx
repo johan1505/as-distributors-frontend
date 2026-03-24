@@ -21,6 +21,15 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
   const tQuotePage = useTranslations("quote.submitPage");
   const { items, totalItems, clearCart } = useQuote();
   const [isItemsOpen, setIsItemsOpen] = useState(false);
+  const [showQuantityErrors, setShowQuantityErrors] = useState(false);
+  const [focusSlug, setFocusSlug] = useState<ProductSlug | null>(null);
+
+  const handleQuantityValidationFailed = (invalidSlugs: ProductSlug[]) => {
+    if (invalidSlugs.length === 0) return;
+    setShowQuantityErrors(true);
+    setFocusSlug(invalidSlugs[0]);
+    setIsItemsOpen(true);
+  };
 
   if (items.length === 0) {
     return (
@@ -81,11 +90,18 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
 
           {/* Items list: always visible on lg+, toggle on mobile */}
           <div className={isItemsOpen ? "" : "hidden lg:block"}>
-            <QuoteItemsList />
+            <QuoteItemsList
+              showQuantityErrors={showQuantityErrors}
+              focusSlug={focusSlug}
+              onFocusHandled={() => setFocusSlug(null)}
+            />
           </div>
         </div>
         <Separator orientation="vertical" className="hidden lg:block" />
-        <QuoteRequestForm productSlugToNameMapInEnglish={productSlugToNameMapInEnglish} />
+        <QuoteRequestForm
+          productSlugToNameMapInEnglish={productSlugToNameMapInEnglish}
+          onQuantityValidationFailed={handleQuantityValidationFailed}
+        />
       </div>
     </div>
   );

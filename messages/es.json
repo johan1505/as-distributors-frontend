@@ -128,6 +128,7 @@
 			"requiredFields": "Por favor complete todos los campos para enviar su solicitud de cotización. Nuestro equipo de ventas se pondrá en contacto con usted pronto.",
 			"showAllItems": "Mostrar {count} artículos más",
 			"showLess": "Mostrar menos",
+			"maxPacksPerItem": "Ingrese {max} paquetes o menos.",
 			"validation": {
 				"nameRequired": "El nombre es requerido",
 				"emailRequired": "El correo electrónico es requerido",

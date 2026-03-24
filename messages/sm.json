@@ -128,6 +128,7 @@
 			"requiredFields": "Fa'amolemole fa'atumu uma vaega e auina lou talosaga tau. O la matou 'au fa'atau o le a fa'afeso'ota'i oe vave.",
 			"showAllItems": "Fa'aali {count} isi oloa",
 			"showLess": "Fa'aali itiiti",
+			"maxPacksPerItem": "Fa'amolemole tu'u {max} pusa pe itiiti ifo.",
 			"validation": {
 				"nameRequired": "E mana'omia le igoa",
 				"emailRequired": "E mana'omia le imeli",

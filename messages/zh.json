@@ -128,6 +128,7 @@
 			"requiredFields": "请填写所有字段以提交您的报价请求。我们的销售团队将很快与您联系。",
 			"showAllItems": "显示更多{count}个项目",
 			"showLess": "显示更少",
+			"maxPacksPerItem": "请输入不超过 {max} 包。",
 			"validation": {
 				"nameRequired": "姓名是必填项",
 				"emailRequired": "电子邮件是必填项",

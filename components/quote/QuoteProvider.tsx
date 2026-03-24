@@ -29,6 +29,7 @@ const QuoteContext = createContext<QuoteContextValue | null>(null);
 
 const STORAGE_KEY = "pacific-foods-quote-cart";
 export const MAX_QUANTITY_PER_PRODUCT = 999;
+export const MAX_PACKS_PER_QUOTE_ITEM = 100;
 
 export function QuoteProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<QuoteItem[]>([]);
