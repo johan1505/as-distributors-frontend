@@ -34,6 +34,9 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
     typeof tProducts.has === "function" && tProducts.has(subtitleKey)
       ? tProducts(subtitleKey)
       : "";
+  const itemNumber = product.itemNumber.trim();
+  const hasItemNumber =
+    itemNumber.length > 0 && itemNumber.toLowerCase() !== "tbd";
 
   return (
     <Card className="group overflow-hidden hover:shadow-lg hover:border-ocean/30 transition-all duration-300">
@@ -68,9 +71,11 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         ) : null}
       </CardHeader>
       <CardContent>
-        <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold mb-2">
-          {t("itemNumber")}: {product.itemNumber}
-        </span>
+        {hasItemNumber ? (
+          <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold mb-2">
+            {t("itemNumber")}: {itemNumber}
+          </span>
+        ) : null}
         {product.comingSoon ? (
           <div className="mb-2">
             <ProductStatusPill label={t("comingSoon")} />

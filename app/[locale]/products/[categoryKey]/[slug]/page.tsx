@@ -100,6 +100,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
 	const name = tProducts(`${slug}.name`);
 	const description = tProducts(`${slug}.description`);
 	const category = tCategories(productBase.categoryKey);
+	const itemNumber = productBase.itemNumber.trim();
+	const hasItemNumber = itemNumber.length > 0 && itemNumber.toLowerCase() !== 'tbd';
 
 	const productUrl = getCanonicalUrl(locale, `${ROUTES.products}/${categoryKey}/${slug}`);
 	// JSON-LD structured data for SEO with absolute URLs
@@ -191,10 +193,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
 						{/* Product specs */}
 						<div className="flex flex-wrap gap-2 mb-8">
-							<Badge variant={'secondary'} className="text-sm p-5">
-								<span className="text-muted-foreground">{t('itemNumber')}:</span>
-								<span className="font-medium">{productBase.itemNumber}</span>
-							</Badge>
+							{hasItemNumber ? (
+								<Badge variant={'secondary'} className="text-sm p-5">
+									<span className="text-muted-foreground">{t('itemNumber')}:</span>
+									<span className="font-medium">{itemNumber}</span>
+								</Badge>
+							) : null}
 							{productBase.comingSoon ? <ProductStatusPill label={t('comingSoon')} /> : null}
 
 							<ProductBadges
