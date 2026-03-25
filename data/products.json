@@ -186,7 +186,7 @@
 	{
 		"slug": "old-capital-special-tuna",
 		"itemNumber": "411",
-		"unitPerPack": "TBD",
+		"unitPerPack": 48,
 		"overallSize": "6 oz",
 		"categoryKey": "canned-fish-tuna",
 		"featured": false
@@ -194,7 +194,7 @@
 	{
 		"slug": "sun-bell-tuna",
 		"itemNumber": "413",
-		"unitPerPack": "TBD",
+		"unitPerPack": 48,
 		"overallSize": "6 oz",
 		"categoryKey": "canned-fish-tuna",
 		"featured": false
@@ -202,7 +202,7 @@
 	{
 		"slug": "ovalau-blue-tuna",
 		"itemNumber": "415",
-		"unitPerPack": "TBD",
+		"unitPerPack": 48,
 		"overallSize": "6 oz",
 		"categoryKey": "canned-fish-tuna",
 		"featured": false
@@ -1168,18 +1168,18 @@
 		"featured": false
 	},
 	{
-		"slug": "punjas-vanaspati",
-		"itemNumber": "376",
-		"unitPerPack": 20,
-		"overallSize": "750 ml",
-		"categoryKey": "oils",
-		"featured": false
-	},
-	{
 		"slug": "punjas-ghee-butter-4lt",
 		"itemNumber": "377",
 		"unitPerPack": 12,
 		"overallSize": "4 L",
+		"categoryKey": "oils",
+		"featured": false
+	},
+	{
+		"slug": "punjas-vanaspati",
+		"itemNumber": "376",
+		"unitPerPack": 20,
+		"overallSize": "750 ml",
 		"categoryKey": "oils",
 		"featured": false
 	},

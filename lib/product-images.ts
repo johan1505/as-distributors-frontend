@@ -66,17 +66,17 @@ import imgFmfBreakfastCrackersFine from '@/public/images/fmf-breakfast-crackers-
 import imgFmfBreakfastCrackers4lb from '@/public/images/fmf-breakfast-crackers-4lb.webp';
 import imgFmfBreakfastCrackers11lb from '@/public/images/fmf-breakfast-crackers-11lb.webp';
 import imgCornPuffMix from '@/public/images/corn-puff-mix.png';
-import imgLakdhiMethai from '@/public/images/lakdhi-methai.webp';
-import imgMurkoo from '@/public/images/murkoo.webp';
+import imgLakdhiMethai from '@/public/images/lakdhi-methai.png';
+import imgMurkoo from '@/public/images/murkoo.png';
 import imgRiceMurkoo from '@/public/images/rice-murkoo.webp';
 import imgDesiMix from '@/public/images/desi-mix.webp';
 import imgMadrasMix from '@/public/images/madras-mix.webp';
 import imgPunjabiMix from '@/public/images/punjabi-mix.png';
 import imgSaoPlain from '@/public/images/sao-plain.webp';
-import imgSaoFine from '@/public/images/sao-fine.webp';
+import imgSaoFine from '@/public/images/sao-fine.png';
 import imgSaoMix from '@/public/images/sao-mix.webp';
 import imgPeanutPeasMix from '@/public/images/peanut-peas-mix.png';
-import imgFriedPeanuts from '@/public/images/fried-peanuts.webp';
+import imgFriedPeanuts from '@/public/images/fried-peanuts.png';
 import imgFriedPeas from '@/public/images/fried-peas.webp';
 import imgFriedPeasHot from '@/public/images/fried-peas-hot.webp';
 import imgFijiMix from '@/public/images/fiji-mix.png';
@@ -190,12 +190,12 @@ import imgTurkeyTails from '@/public/images/turkey-tails.png';
 import imgFreshTaro from '@/public/images/fresh-taro.png';
 import imgYellowCassava2lb from '@/public/images/yellow-cassava-2lb.webp';
 import imgWhiteCassava5lb from '@/public/images/white-cassava-5lb.png';
-import imgWhiteCassava2lb from '@/public/images/white-cassava-2lb.webp';
+import imgWhiteCassava2lb from '@/public/images/white-cassava-2lb.png';
 import imgPinkTaro from '@/public/images/pink-taro.webp';
 import imgPurpleTaro2lb from '@/public/images/purple-taro-2lb.webp';
 import imgPurpleTaro5lb from '@/public/images/purple-taro-5lb.webp';
 import imgWhiteTaro from '@/public/images/white-taro.webp';
-import imgYellowTaro2lb from '@/public/images/yellow-taro-2lb.webp';
+import imgYellowTaro2lb from '@/public/images/yellow-taro-2lb.png';
 import imgYellowTaro5lb from '@/public/images/yellow-taro-5lb.webp';
 import imgBele from '@/public/images/bele.webp';
 import imgDuruka from '@/public/images/duruka.png';
@@ -542,7 +542,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fmf-choc-chip-cookies': '/images/fmf-choc-chip-cookies.png',
 	'fmf-coconut-cookies': '/images/fmf-coconut-cookies.webp',
 	'big-sister-light-fruit-cake': '/images/big-sister-light-fruit-cake.webp',
-	'big-sister-dark-fruit-cake': '/images/big-sister-dark-fruit-cake.webp',
+	'big-sister-dark-fruit-cake': '/images/big-spister-dark-fruit-cake.webp',
 	'fmf-flour': '/images/fmf-flour.webp',
 	'sao-shortbread-cream': '/images/sao-shortbread-cream.png',
 	'fmf-scotch-finger': '/images/fmf-scotch-finger.png',
@@ -551,17 +551,17 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fmf-breakfast-crackers-4lb': '/images/fmf-breakfast-crackers-4lb.webp',
 	'fmf-breakfast-crackers-11lb': '/images/fmf-breakfast-crackers-11lb.webp',
 	'corn-puff-mix': '/images/corn-puff-mix.png',
-	'lakdhi-methai': '/images/lakdhi-methai.webp',
-	murkoo: '/images/murkoo.webp',
+	'lakdhi-methai': '/images/lakdhi-methai.png',
+	murkoo: '/images/murkoo.png',
 	'rice-murkoo': '/images/rice-murkoo.webp',
 	'desi-mix': '/images/desi-mix.webp',
 	'madras-mix': '/images/madras-mix.webp',
 	'punjabi-mix': '/images/punjabi-mix.png',
 	'sao-plain': '/images/sao-plain.webp',
-	'sao-fine': '/images/sao-fine.webp',
+	'sao-fine': '/images/sao-fine.png',
 	'sao-mix': '/images/sao-mix.webp',
 	'peanut-peas-mix': '/images/peanut-peas-mix.png',
-	'fried-peanuts': '/images/fried-peanuts.webp',
+	'fried-peanuts': '/images/fried-peanuts.png',
 	'fried-peas': '/images/fried-peas.webp',
 	'fried-peas-hot': '/images/fried-peas-hot.webp',
 	'fiji-mix': '/images/fiji-mix.png',
@@ -675,12 +675,12 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = 
 	'fresh-taro': '/images/fresh-taro.png',
 	'yellow-cassava-2lb': '/images/yellow-cassava-2lb.webp',
 	'white-cassava-5lb': '/images/white-cassava-5lb.png',
-	'white-cassava-2lb': '/images/white-cassava-2lb.webp',
+	'white-cassava-2lb': '/images/white-cassava-2lb.png',
 	'pink-taro': '/images/pink-taro.webp',
 	'purple-taro-2lb': '/images/purple-taro-2lb.webp',
 	'purple-taro-5lb': '/images/purple-taro-5lb.webp',
 	'white-taro': '/images/white-taro.webp',
-	'yellow-taro-2lb': '/images/yellow-taro-2lb.webp',
+	'yellow-taro-2lb': '/images/yellow-taro-2lb.png',
 	'yellow-taro-5lb': '/images/yellow-taro-5lb.webp',
 	bele: '/images/bele.webp',
 	duruka: '/images/duruka.png',
