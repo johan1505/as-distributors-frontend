@@ -9,7 +9,6 @@ import { AppSidebar, SidebarProvider, SidebarInset } from '@/components/layout/S
 import { SalesWidget } from '@/components/sales/SalesWidget';
 import { getCategories } from '@/lib/products';
 import { OrganizationSchema } from '@/components/seo/OrganizationSchema';
-import { AccessGate } from '@/components/AccessGate';
 
 export function generateStaticParams() {
 	return locales.map((locale) => ({ locale }));
@@ -34,25 +33,23 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
 	return (
 		<NextIntlClientProvider messages={messages}>
-			<AccessGate>
-				<QuoteProvider>
-					<SidebarProvider>
-						<AppSidebar locale={locale} locales={locales} categories={categories} />
-						<SidebarInset>
-							<Header />
-							<main className="flex-1">
-								<OrganizationSchema
-									name={messages.site.name}
-									description={messages.site.description}
-								/>
-								{children}
-							</main>
-							<Footer />
-						</SidebarInset>
-					</SidebarProvider>
-					<SalesWidget />
-				</QuoteProvider>
-			</AccessGate>
+			<QuoteProvider>
+				<SidebarProvider>
+					<AppSidebar locale={locale} locales={locales} categories={categories} />
+					<SidebarInset>
+						<Header />
+						<main className="flex-1">
+							<OrganizationSchema
+								name={messages.site.name}
+								description={messages.site.description}
+							/>
+							{children}
+						</main>
+						<Footer />
+					</SidebarInset>
+				</SidebarProvider>
+				<SalesWidget />
+			</QuoteProvider>
 		</NextIntlClientProvider>
 	);
 }
