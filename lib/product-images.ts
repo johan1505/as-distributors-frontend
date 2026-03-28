@@ -241,8 +241,9 @@ import imgLapanaTongolChunkTuna from '@/public/images/lapana-tongol-chunk-tuna.p
 import imgOldCapitalSpecialTuna from '@/public/images/old-capital-special-tuna.png';
 import imgSunBellTuna from '@/public/images/sun-bell-tuna.png';
 import imgOvalauBlueTuna from '@/public/images/ovalau-blue-tuna.png';
+import imgRoostersHalal from '@/public/images/roosters-halal.png';
 
-export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>> = {
+export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'ox-palm-corned-beef-7oz': imgOxPalmCornedBeef7oz,
 	'ox-palm-corned-beef-11-5oz': imgOxPalmCornedBeef115oz,
 	'ox-palm-corned-beef-tapered': imgOxPalmCornedBeefTapered,
@@ -483,9 +484,11 @@ export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>
 	'old-capital-special-tuna': imgOldCapitalSpecialTuna,
 	'sun-bell-tuna': imgSunBellTuna,
 	'ovalau-blue-tuna': imgOvalauBlueTuna,
+	'roosters-halal': imgRoostersHalal,
 };
 
-export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = {
+export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
+	'roosters-halal': '/images/roosters-halal.png',
 	'ox-palm-corned-beef-7oz': '/images/ox-palm-corned-beef-7oz.webp',
 	'ox-palm-corned-beef-11-5oz': '/images/ox-palm-corned-beef-11-5oz.webp',
 	'ox-palm-corned-beef-tapered': '/images/ox-palm-corned-beef-tapered.webp',
