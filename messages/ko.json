@@ -127,7 +127,9 @@
 				"emailRequired": "이메일이 필요합니다",
 				"emailInvalid": "유효한 이메일 주소를 입력해 주세요",
 				"phoneRequired": "전화번호가 필요합니다",
-				"phoneInvalid": "유효한 전화번호를 입력해 주세요"
+				"phoneInvalid": "유효한 전화번호를 입력해 주세요",
+				"zipInvalid": "유효한 우편번호를 입력해 주세요",
+				"agreedToContactRequired": "이 요청을 제출하려면 연락 동의가 필요합니다"
 			},
 			"item": "항목",
 			"items": "항목",

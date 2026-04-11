@@ -127,7 +127,9 @@
 				"emailRequired": "E mana'omia le imeli",
 				"emailInvalid": "Fa'amolemole tu'u se imeli sa'o",
 				"phoneRequired": "E mana'omia le numera telefoni",
-				"phoneInvalid": "Fa'amolemole tu'u se numera telefoni sa'o"
+				"phoneInvalid": "Fa'amolemole tu'u se numera telefoni sa'o",
+				"zipInvalid": "Fa'amolemole tu'u se zip code sa'o",
+				"agreedToContactRequired": "E tatau ona e ioe e fa'afeso'ota'i oe ina ia mafai ona auina atu lenei talosaga"
 			},
 			"item": "oloa",
 			"items": "oloa",

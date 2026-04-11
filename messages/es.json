@@ -127,7 +127,9 @@
 				"emailRequired": "El correo electrónico es requerido",
 				"emailInvalid": "Por favor ingrese una dirección de correo electrónico válida",
 				"phoneRequired": "El número de teléfono es requerido",
-				"phoneInvalid": "Por favor ingrese un número de teléfono válido"
+				"phoneInvalid": "Por favor ingrese un número de teléfono válido",
+				"zipInvalid": "Por favor ingrese un código postal válido",
+				"agreedToContactRequired": "Debe aceptar ser contactado para enviar esta solicitud"
 			},
 			"item": "artículo",
 			"items": "artículos",

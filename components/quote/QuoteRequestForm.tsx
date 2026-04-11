@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { isPossiblePhoneNumber } from "react-phone-number-input";
 import { useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -20,6 +21,7 @@ export interface QuoteRequestPayload {
     name: string;
     email: string;
     phone: string;
+    zipCode: string;
   };
   quoteItems: QuoteItem[];
   metadata: {
@@ -30,7 +32,42 @@ export interface QuoteRequestPayload {
   agreedToContact: boolean;
 }
 
-const QUOTE_API_URL = `${process.env.NEXT_PUBLIC_QUOTE_API_URL}/quote`;
+type QuoteApiResponse = {
+  success: boolean;
+  error?: string;
+  message?: string;
+  details?: string[];
+};
+
+type SubmissionStage = "prepare" | "submit";
+
+type FormValues = {
+  name: string;
+  email: string;
+  phone: string;
+  zip: string;
+};
+
+type FieldName = keyof FormValues | "agreedToContact";
+
+type FieldErrors = Partial<Record<FieldName, string>>;
+
+const QUOTE_API_BASE_URL = process.env.NEXT_PUBLIC_QUOTE_API_URL?.trim();
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const ZIP_CODE_REGEX = /^[0-9]{5}(?:-?[0-9]{4})?$/;
+
+const QUOTE_API_URL = (() => {
+  if (!QUOTE_API_BASE_URL) {
+    return null;
+  }
+
+  try {
+    return new URL("/quote", QUOTE_API_BASE_URL).toString();
+  } catch (error) {
+    console.error("Invalid quote API URL:", error);
+    return null;
+  }
+})();
 
 type QuoteRequestFormProps = {
   productSlugToNameMapInEnglish: Record<ProductSlug, string>;
@@ -45,16 +82,124 @@ export function QuoteRequestForm({
   const router = useRouter();
   const { items, totalItems, clearCart } = useQuote();
 
+  const [formValues, setFormValues] = useState<FormValues>({
+    name: "",
+    email: "",
+    phone: "",
+    zip: "",
+  });
+  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [submissionErrors, setSubmissionErrors] = useState<string[]>([]);
   const [agreedToContact, setAgreedToContact] = useState(false);
 
-  const formatQuoteData = (formData: FormData): QuoteRequestPayload => {
+  const getSafeClientErrorMessages = (
+    stage: SubmissionStage,
+  ): string[] => {
+    if (stage === "prepare") {
+      return [
+        "We couldn't prepare your quote request on this device. Please refresh and try again.",
+        "If it keeps happening, try a different browser or device.",
+      ];
+    }
+
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      return [
+        "Your device appears to be offline. Please check your connection and try again.",
+      ];
+    }
+
+    return [
+      tQuotePage("errorMessage"),
+      "If it keeps happening, try a different browser or device.",
+    ];
+  };
+
+  const validateField = (
+    field: FieldName,
+    value: string | boolean,
+  ): string | undefined => {
+    switch (field) {
+      case "name":
+        return String(value).trim() === ""
+          ? tQuotePage("validation.nameRequired")
+          : undefined;
+      case "email": {
+        const email = String(value).trim();
+        if (email === "") {
+          return tQuotePage("validation.emailRequired");
+        }
+
+        return EMAIL_REGEX.test(email)
+          ? undefined
+          : tQuotePage("validation.emailInvalid");
+      }
+      case "phone": {
+        const phone = String(value).trim();
+        if (phone === "") {
+          return tQuotePage("validation.phoneRequired");
+        }
+
+        return isPossiblePhoneNumber(phone)
+          ? undefined
+          : tQuotePage("validation.phoneInvalid");
+      }
+      case "zip": {
+        const zip = String(value).trim();
+        if (zip === "" || !ZIP_CODE_REGEX.test(zip)) {
+          return tQuotePage("validation.zipInvalid");
+        }
+
+        return undefined;
+      }
+      case "agreedToContact":
+        return value === true
+          ? undefined
+          : tQuotePage("validation.agreedToContactRequired");
+      default:
+        return undefined;
+    }
+  };
+
+  const validateForm = (): FieldErrors => {
+    return {
+      name: validateField("name", formValues.name),
+      email: validateField("email", formValues.email),
+      phone: validateField("phone", formValues.phone),
+      zip: validateField("zip", formValues.zip),
+      agreedToContact: validateField("agreedToContact", agreedToContact),
+    };
+  };
+
+  const handleFieldChange = (field: keyof FormValues, value: string) => {
+    setFormValues((currentValues) => ({
+      ...currentValues,
+      [field]: value,
+    }));
+
+    setFieldErrors((currentErrors) => {
+      if (!currentErrors[field]) {
+        return currentErrors;
+      }
+
+      const nextError = validateField(field, value);
+      if (nextError) {
+        return currentErrors;
+      }
+
+      return {
+        ...currentErrors,
+        [field]: undefined,
+      };
+    });
+  };
+
+  const formatQuoteData = (): QuoteRequestPayload => {
     const contactInfo = {
-      name: formData.get("name") as string,
-      email: formData.get("email") as string,
-      phone: formData.get("phone") as string,
-      zipCode: formData.get("zip") as string,
+      name: formValues.name.trim(),
+      email: formValues.email.trim(),
+      phone: formValues.phone.trim(),
+      zipCode: formValues.zip.trim(),
     };
 
     const quoteItems: QuoteItem[] = items.map((item) => ({
@@ -89,8 +234,17 @@ export function QuoteRequestForm({
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setError(null);
+    setSubmissionErrors([]);
+
+    const validationErrors = validateForm();
+    setFieldErrors(validationErrors);
+
+    if (Object.values(validationErrors).some(Boolean)) {
+      return;
+    }
+
     setIsSubmitting(true);
+    let submissionStage: SubmissionStage = "prepare";
 
     try {
       const invalidSlugs = items
@@ -103,13 +257,13 @@ export function QuoteRequestForm({
         return;
       }
 
-      const formData = new FormData(e.currentTarget);
-      const payload = formatQuoteData(formData);
+      const payload = formatQuoteData();
 
       if (!QUOTE_API_URL) {
         throw new Error("Quote API URL is not configured");
       }
 
+      submissionStage = "submit";
       const response = await fetch(QUOTE_API_URL, {
         method: "POST",
         headers: {
@@ -118,18 +272,52 @@ export function QuoteRequestForm({
         body: JSON.stringify(payload),
       });
 
-      const data = await response.json();
+      const contentType = response.headers.get("content-type") ?? "";
+      const data: QuoteApiResponse | string =
+        contentType.includes("application/json")
+          ? await response.json()
+          : await response.text();
 
-      if (!response.ok || !data.success) {
-        throw new Error(data.error || "Failed to submit quote request");
+      if (
+        !response.ok ||
+        typeof data === "string" ||
+        !data.success
+      ) {
+        const backendDetails =
+          typeof data === "object" && Array.isArray(data.details)
+            ? data.details.filter(
+              (detail): detail is string =>
+                typeof detail === "string" && detail.trim().length > 0,
+            )
+            : [];
+
+        if (backendDetails.length > 0) {
+          console.error("Quote request rejected by API:", {
+            status: response.status,
+            details: backendDetails,
+          });
+          setSubmissionErrors(backendDetails);
+        } else {
+          console.error("Quote request failed without structured details:", {
+            status: response.status,
+            statusText: response.statusText,
+            body: data,
+          });
+          setSubmissionErrors([tQuotePage("errorMessage")]);
+        }
+
+        return;
       }
 
       // Success: clear cart and redirect to products page with success indicator
       clearCart();
       router.push(`${ROUTES.products}?quoteSuccess=true`);
     } catch (err) {
-      console.error("Error submitting quote:", err);
-      setError(tQuotePage("errorMessage"));
+      console.error("Error submitting quote:", {
+        stage: submissionStage,
+        error: err,
+      });
+      setSubmissionErrors(getSafeClientErrorMessages(submissionStage));
     } finally {
       setIsSubmitting(false);
     }
@@ -137,12 +325,12 @@ export function QuoteRequestForm({
 
   return (
     <div className="lg:w-96 shrink-0">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} noValidate>
         <h2 className="text-xl font-semibold mb-4">
           {tQuotePage("contactInfo")}
         </h2>
         <FieldGroup>
-          <Field>
+          <Field data-invalid={Boolean(fieldErrors.name)}>
             <FieldLabel htmlFor="name">
               {tQuotePage("name")}
               <span className="text-destructive">*</span>
@@ -151,14 +339,17 @@ export function QuoteRequestForm({
               id="name"
               name="name"
               type="text"
-              required
               autoComplete="name"
               placeholder={tQuotePage("namePlaceholder")}
               disabled={isSubmitting}
+              value={formValues.name}
+              onChange={(e) => handleFieldChange("name", e.target.value)}
+              aria-invalid={Boolean(fieldErrors.name)}
             />
+            <FieldError errors={fieldErrors.name ? [{ message: fieldErrors.name }] : undefined} />
           </Field>
 
-          <Field>
+          <Field data-invalid={Boolean(fieldErrors.email)}>
             <FieldLabel htmlFor="email">
               {tQuotePage("email")}
               <span className="text-destructive">*</span>
@@ -167,14 +358,17 @@ export function QuoteRequestForm({
               id="email"
               name="email"
               type="email"
-              required
               autoComplete="email"
               placeholder={tQuotePage("emailPlaceholder")}
               disabled={isSubmitting}
+              value={formValues.email}
+              onChange={(e) => handleFieldChange("email", e.target.value)}
+              aria-invalid={Boolean(fieldErrors.email)}
             />
+            <FieldError errors={fieldErrors.email ? [{ message: fieldErrors.email }] : undefined} />
           </Field>
 
-          <Field>
+          <Field data-invalid={Boolean(fieldErrors.phone)}>
             <FieldLabel htmlFor="phone">
               {tQuotePage("phone")}
               <span className="text-destructive">*</span>
@@ -183,14 +377,17 @@ export function QuoteRequestForm({
               id="phone"
               name="phone"
               type="tel"
-              required
               autoComplete="tel"
               placeholder={tQuotePage("phonePlaceholder")}
               disabled={isSubmitting}
               defaultCountry="US"
+              value={formValues.phone}
+              onChange={(value) => handleFieldChange("phone", value ?? "")}
+              aria-invalid={Boolean(fieldErrors.phone)}
             />
+            <FieldError errors={fieldErrors.phone ? [{ message: fieldErrors.phone }] : undefined} />
           </Field>
-          <Field>
+          <Field data-invalid={Boolean(fieldErrors.zip)}>
             <FieldLabel htmlFor="zip">
               {tQuotePage("zip")}
               <span className="text-destructive">*</span>
@@ -199,35 +396,70 @@ export function QuoteRequestForm({
               id="zip"
               name="zip"
               type="text"
-              required
               autoComplete="postal-code"
+              inputMode="numeric"
+              maxLength={10}
               placeholder={tQuotePage("zipPlaceholder")}
               disabled={isSubmitting}
+              value={formValues.zip}
+              onChange={(e) => handleFieldChange("zip", e.target.value)}
+              aria-invalid={Boolean(fieldErrors.zip)}
             />
+            <FieldError errors={fieldErrors.zip ? [{ message: fieldErrors.zip }] : undefined} />
           </Field>
 
-          <Field orientation="horizontal">
+          <Field
+            orientation="horizontal"
+            data-invalid={Boolean(fieldErrors.agreedToContact)}
+          >
             <Checkbox
               id="agreedToContact"
               name="agreedToContact"
-              required
               checked={agreedToContact}
-              onCheckedChange={(checked) =>
-                setAgreedToContact(checked === true)
-              }
+              onCheckedChange={(checked) => {
+                const nextValue = checked === true;
+                setAgreedToContact(nextValue);
+                setFieldErrors((currentErrors) => {
+                  if (!currentErrors.agreedToContact) {
+                    return currentErrors;
+                  }
+
+                  const nextError = validateField("agreedToContact", nextValue);
+                  if (nextError) {
+                    return currentErrors;
+                  }
+
+                  return {
+                    ...currentErrors,
+                    agreedToContact: undefined,
+                  };
+                });
+              }}
               disabled={isSubmitting}
+              aria-invalid={Boolean(fieldErrors.agreedToContact)}
             />
             <FieldLabel htmlFor="agreedToContact">
               {tQuotePage("agreeToContact")}
             </FieldLabel>
           </Field>
+          <FieldError
+            errors={
+              fieldErrors.agreedToContact
+                ? [{ message: fieldErrors.agreedToContact }]
+                : undefined
+            }
+          />
 
-          {error ? <FieldError> {tQuotePage("errorMessage")}</FieldError> : null}
+          {submissionErrors.length > 0 ? (
+            <FieldError
+              errors={submissionErrors.map((message) => ({ message }))}
+            />
+          ) : null}
           <Button
             type="submit"
             className="w-full"
             size="lg"
-            disabled={isSubmitting || !agreedToContact}
+            disabled={isSubmitting}
           >
             {isSubmitting ? (
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />

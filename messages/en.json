@@ -127,7 +127,9 @@
 				"emailRequired": "Email is required",
 				"emailInvalid": "Please enter a valid email address",
 				"phoneRequired": "Phone number is required",
-				"phoneInvalid": "Please enter a valid phone number"
+				"phoneInvalid": "Please enter a valid phone number",
+				"zipInvalid": "Please enter a valid zip code",
+				"agreedToContactRequired": "You must agree to be contacted to submit this request"
 			},
 			"item": "item",
 			"items": "items",
