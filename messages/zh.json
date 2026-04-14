@@ -118,6 +118,7 @@
 			"submitting": "正在提交...",
 			"agreeToContact": "我同意销售代表就此报价请求与我联系。",
 			"errorMessage": "出了点问题。请稍后再试。",
+			"errorDetails": "技术详情：{error}",
 			"requiredFields": "请填写所有字段以提交您的报价请求。我们的销售团队将很快与您联系。",
 			"showAllItems": "显示更多{count}个项目",
 			"showLess": "显示更少",

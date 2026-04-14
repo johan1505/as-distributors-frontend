@@ -69,6 +69,53 @@ const QUOTE_API_URL = (() => {
   }
 })();
 
+const getCaughtErrorMessage = (error: unknown): string => {
+  const normalize = (value: string): string => {
+    const normalized = value.replace(/\s+/g, " ").trim();
+    return normalized.length > 0 ? normalized.slice(0, 180) : "Unknown error";
+  };
+
+  if (error instanceof Error) {
+    return normalize(error.message || error.name || "Unknown error");
+  }
+
+  if (typeof error === "string") {
+    return normalize(error);
+  }
+
+  if (
+    typeof error === "number" ||
+    typeof error === "boolean" ||
+    typeof error === "bigint" ||
+    typeof error === "symbol"
+  ) {
+    return normalize(String(error));
+  }
+
+  if (error === null || error === undefined) {
+    return "Unknown error";
+  }
+
+  if (typeof error === "object") {
+    const objectWithMessage = error as { message?: unknown; name?: unknown };
+    if (typeof objectWithMessage.message === "string") {
+      return normalize(objectWithMessage.message);
+    }
+
+    if (typeof objectWithMessage.name === "string") {
+      return normalize(objectWithMessage.name);
+    }
+
+    try {
+      return normalize(JSON.stringify(error));
+    } catch {
+      return "Unserializable thrown value";
+    }
+  }
+
+  return "Unknown error";
+};
+
 type QuoteRequestFormProps = {
   productSlugToNameMapInEnglish: Record<ProductSlug, string>;
   onQuantityValidationFailed?: (invalidSlugs: ProductSlug[]) => void;
@@ -317,7 +364,13 @@ export function QuoteRequestForm({
         stage: submissionStage,
         error: err,
       });
-      setSubmissionErrors(getSafeClientErrorMessages(submissionStage));
+      const safeMessages = getSafeClientErrorMessages(submissionStage);
+      const caughtErrorMessage = getCaughtErrorMessage(err);
+
+      setSubmissionErrors([
+        ...safeMessages,
+        tQuotePage("errorDetails", { error: caughtErrorMessage }),
+      ]);
     } finally {
       setIsSubmitting(false);
     }

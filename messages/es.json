@@ -118,6 +118,7 @@
 			"submitting": "Enviando...",
 			"agreeToContact": "Acepto ser contactado por un representante de ventas respecto a esta solicitud de cotización.",
 			"errorMessage": "Algo salió mal. Por favor intente de nuevo más tarde.",
+			"errorDetails": "Detalles técnicos: {error}",
 			"requiredFields": "Por favor complete todos los campos para enviar su solicitud de cotización. Nuestro equipo de ventas se pondrá en contacto con usted pronto.",
 			"showAllItems": "Mostrar {count} artículos más",
 			"showLess": "Mostrar menos",

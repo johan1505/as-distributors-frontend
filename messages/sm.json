@@ -118,6 +118,7 @@
 			"submitting": "O loo auina...",
 			"agreeToContact": "Ou te ioe e fa'afeso'ota'i a'u e se sui fa'atau e uiga i lenei talosaga tau.",
 			"errorMessage": "Na iai se mea na tupu. Fa'amolemole toe taumafai mulimuli ane.",
+			"errorDetails": "Fa'amatalaga fa'atekinisi: {error}",
 			"requiredFields": "Fa'amolemole fa'atumu uma vaega e auina lou talosaga tau. O la matou 'au fa'atau o le a fa'afeso'ota'i oe vave.",
 			"showAllItems": "Fa'aali {count} isi oloa",
 			"showLess": "Fa'aali itiiti",

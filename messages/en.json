@@ -118,6 +118,7 @@
 			"submitting": "Submitting...",
 			"agreeToContact": "I agree to be contacted by a sales representative regarding this quote request.",
 			"errorMessage": "Something went wrong. Please try again later.",
+			"errorDetails": "Technical details: {error}",
 			"requiredFields": "Please fill in all fields to submit your quote request. Our sales team will contact you shortly.",
 			"showAllItems": "Show {count} more items",
 			"showLess": "Show less",
