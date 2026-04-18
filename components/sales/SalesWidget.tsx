@@ -13,7 +13,24 @@ import {
 } from "@/components/ui/card";
 import { CONTACT, SALES_EMAIL } from "@/lib/constants";
 
-const SESSION_KEY = "pacific-foods-sales-widget-shown";
+const SESSION_AUTO_OPEN_KEY = "pacific-foods-sales-widget-shown";
+const LOCAL_DISMISS_KEY = "asdistributors-sales-widget-dismissed";
+
+function readLocalDismissed(): boolean {
+  try {
+    return localStorage.getItem(LOCAL_DISMISS_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function persistDismissed(): void {
+  try {
+    localStorage.setItem(LOCAL_DISMISS_KEY, "1");
+  } catch {
+    // private mode / storage disabled — session behavior still applies
+  }
+}
 
 export function SalesWidget() {
   const t = useTranslations("sales");
@@ -21,20 +38,32 @@ export function SalesWidget() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Check if widget was already shown this session
-    const wasShown = sessionStorage.getItem(SESSION_KEY);
-    if (!wasShown) {
-      // Show widget after a short delay
+    if (readLocalDismissed()) {
+      // User closed the popover before — show FAB only, never auto-open again
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setIsVisible(true);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setIsOpen(false);
+      return;
+    }
+
+    const wasAutoOpenedThisSession =
+      sessionStorage.getItem(SESSION_AUTO_OPEN_KEY);
+    if (!wasAutoOpenedThisSession) {
       const timer = setTimeout(() => {
         setIsVisible(true);
         setIsOpen(true);
-        sessionStorage.setItem(SESSION_KEY, "true");
+        try {
+          sessionStorage.setItem(SESSION_AUTO_OPEN_KEY, "true");
+        } catch {
+          // ignore
+        }
       }, 3000);
       return () => clearTimeout(timer);
-    } else {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setIsVisible(true);
     }
+
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsVisible(true);
   }, []);
 
   if (!isVisible) return null;
@@ -56,7 +85,10 @@ export function SalesWidget() {
               <Button
                 variant="ghost"
                 size="icon-xs"
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  setIsOpen(false);
+                  persistDismissed();
+                }}
               >
                 <X className="size-4" />
               </Button>
