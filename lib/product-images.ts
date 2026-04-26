@@ -201,7 +201,7 @@ import imgBele from '@/public/images/bele.webp';
 import imgDuruka from '@/public/images/duruka.png';
 import imgJackfruit from '@/public/images/jackfruit.png';
 import imgTaroLeaves from '@/public/images/taro-leaves.png';
-import imgBreadfruit5lb from '@/public/images/breadfruit-5lb.webp';
+import imgBreadfruit5lb from '@/public/images/breadfruit-5lb.png';
 import imgTahitianChestnutIvi from '@/public/images/tahitian-chestnut-ivi.png';
 import imgParanthasPlainValuePack from '@/public/images/paranthas-plain-value-pack.webp';
 import imgAnchorButterNewZealand from '@/public/images/anchor-butter-new-zealand.webp';
@@ -461,7 +461,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'sunquick-mango-juice-concentrate': imgSunquickMangoJuiceConcentrate,
 	'bula-noni-fiji-islands': imgBulaNoniFijiIslands,
 	'nestle-smarties-50g': imgNestleSmarties50g,
-	'nestle-milkybar-classic-50g': imgNestleMilkybarClassic50g,
+	'nestle-milkybar-classic': imgNestleMilkybarClassic50g,
 	'nestle-kitkat-chunky-milo-44g': imgNestleKitkatChunkyMilo44g,
 	'jasons-black-hacks-150g': imgJasonsBlackHacks150g,
 	'jasons-clear-mints-150g': imgJasonsClearMints150g,
@@ -706,7 +706,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'sunquick-mango-juice-concentrate': '/images/sunquick-mango-juice-concentrate.webp',
 	'bula-noni-fiji-islands': '/images/bula-noni-fiji-islands.webp',
 	'nestle-smarties-50g': '/images/nestle-smarties-50g.png',
-	'nestle-milkybar-classic-50g': '/images/nestle-milkybar-classic-50g.png',
+	'nestle-milkybar-classic': '/images/nestle-milkybar-classic-50g.png',
 	'nestle-kitkat-chunky-milo-44g': '/images/nestle-kitkat-chunky-milo-44g.png',
 	'jasons-black-hacks-150g': '/images/jasons-black-hacks-150g.png',
 	'jasons-clear-mints-150g': '/images/jasons-clear-mints-150g.png',

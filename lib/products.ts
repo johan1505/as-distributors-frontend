@@ -241,7 +241,7 @@ export const PRODUCT_SLUGS = [
 	'sunquick-orange-juice-concentrate',
 	'sunquick-mango-juice-concentrate',
 	'nestle-smarties-50g',
-	'nestle-milkybar-classic-50g',
+	'nestle-milkybar-classic',
 	'nestle-kitkat-chunky-milo-44g',
 	'jasons-black-hacks-150g',
 	'jasons-clear-mints-150g',
