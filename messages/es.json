@@ -73,20 +73,24 @@
 	},
 	"product": {
 		"itemNumber": "Artículo #",
-		"unitPerPack": "Unidades por Paquete",
+		"unitPerPack": "Unidades por Caja",
 		"overallSize": "Tamaño",
 		"category": "Categoría",
-		"addToQuote": "Agregar paquete a cotización",
-		"addMoreToQuote": "Agregar más paquetes",
+		"addToQuote": "Agregar caja a cotización",
+		"addMoreToQuote": "Agregar más cajas",
 		"addedToQuote": "¡Agregado!",
 		"inQuote": "En Cotización",
 		"backToCatalog": "Volver al Catálogo",
 		"viewLargerImage": "Ver imagen ampliada de",
-		"comingSoon": "Próximamente"
+		"comingSoon": "Próximamente",
+		"criteria": {
+			"size": "Tamaño",
+			"cut": "Corte"
+		}
 	},
 	"quote": {
-		"packs": "Paquetes",
-		"pack": "Paquete",
+		"packs": "Cajas",
+		"pack": "Caja",
 		"title": "Solicitar Cotización",
 		"empty": "Su carrito de cotización está vacío",
 		"emptyDescription": "Agregue productos de nuestro catálogo para solicitar una cotización.",
@@ -108,12 +112,22 @@
 			"contactInfo": "Información de Contacto",
 			"name": "Nombre Completo",
 			"namePlaceholder": "Ingrese su nombre completo",
+			"companyName": "Nombre de la Empresa",
+			"companyNamePlaceholder": "Ingrese el nombre de su empresa",
 			"email": "Correo Electrónico",
 			"emailPlaceholder": "Ingrese su correo electrónico",
 			"zip": "Código Postal",
 			"zipPlaceholder": "Ingrese su código postal",
 			"phone": "Número de Teléfono",
 			"phonePlaceholder": "Ingrese su número de teléfono",
+			"salesRep": "Representante de Ventas",
+			"salesRepPlaceholder": "Seleccione un representante",
+			"salesRepOptions": {
+				"Judith": "Judith",
+				"Sanjay": "Sanjay",
+				"Ajay": "Ajay",
+				"New customer": "Cliente nuevo"
+			},
 			"sendRequest": "Enviar solicitud de cotización",
 			"submitting": "Enviando...",
 			"agreeToContact": "Acepto ser contactado por un representante de ventas respecto a esta solicitud de cotización.",
@@ -122,14 +136,17 @@
 			"requiredFields": "Por favor complete todos los campos para enviar su solicitud de cotización. Nuestro equipo de ventas se pondrá en contacto con usted pronto.",
 			"showAllItems": "Mostrar {count} artículos más",
 			"showLess": "Mostrar menos",
-			"maxPacksPerItem": "Ingrese {max} paquetes o menos.",
+			"maxPacksPerItem": "Ingrese {max} cajas o menos.",
 			"validation": {
 				"nameRequired": "El nombre es requerido",
+				"companyNameRequired": "El nombre de la empresa es requerido",
+				"companyNameTooLong": "El nombre de la empresa debe tener 200 caracteres o menos",
 				"emailRequired": "El correo electrónico es requerido",
 				"emailInvalid": "Por favor ingrese una dirección de correo electrónico válida",
 				"phoneRequired": "El número de teléfono es requerido",
 				"phoneInvalid": "Por favor ingrese un número de teléfono válido",
 				"zipInvalid": "Por favor ingrese un código postal válido",
+				"salesRepRequired": "Por favor seleccione un representante de ventas",
 				"agreedToContactRequired": "Debe aceptar ser contactado para enviar esta solicitud"
 			},
 			"item": "artículo",
@@ -1620,11 +1637,13 @@
 		},
 		"lamb-shoulder-chops": {
 			"name": "Lamb Shoulder Chops",
+			"subtitle": "(BBQ, Reg)",
 			"description": "Cordero de Nueva Zelanda cortado en cubos uniformes para curries, estofados y kebabs. Alimentado con pasto y procesado en nuestra instalación certificada USDA para calidad consistente. Listo para cocinar para preparación rápida de comidas.",
 			"seoTitle": "Cordero de Nueva Zelanda en Cubos | A & S Distributors",
 			"seoDescription": "Cordero de Nueva Zelanda en cubos para curries y estofados. Certificado USDA. Precios al por mayor disponibles.",
 			"seoKeywords": "cordero en cubos, cubos de cordero, cordero de Nueva Zelanda, carne para curry",
-			"imageAlt": "Corte de Lamb Shoulder Chops"
+			"imageAlt": "Corte de Lamb Shoulder Chops",
+			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "Lamb Shoulder Chops Prepack",

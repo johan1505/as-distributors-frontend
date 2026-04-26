@@ -311,12 +311,182 @@ export interface ProductBase {
 	comingSoon?: boolean;
 }
 
+export type ProductCriterionKey = 'size' | 'cut';
+
+export interface ProductSubtypeOption {
+	value: string;
+	label: string;
+	overallSize?: string;
+	unitPerPack?: number | string;
+	showUnitPerPack?: boolean;
+}
+
+export interface ProductSubtypeConfig {
+	criterionKey: ProductCriterionKey;
+	defaultOptionValue: string;
+	options: ProductSubtypeOption[];
+}
+
+const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig> = {
+	'101': {
+		criterionKey: 'cut',
+		defaultOptionValue: 'BBQ',
+		options: [
+			{ value: 'BBQ', label: 'BBQ' },
+			{ value: 'Regular', label: 'Regular' },
+		],
+	},
+	'102': {
+		criterionKey: 'cut',
+		defaultOptionValue: 'BBQ',
+		options: [
+			{ value: 'BBQ', label: 'BBQ' },
+			{ value: 'Regular', label: 'Regular' },
+			{ value: 'Curry', label: 'Curry' },
+		],
+	},
+	'203': {
+		criterionKey: 'size',
+		defaultOptionValue: '1kg',
+		options: [
+			{
+				value: '1kg',
+				label: '1kg',
+				overallSize: '1 kg (2.20 lb)',
+				unitPerPack: 10,
+			},
+			{
+				value: '2.27kg',
+				label: '2.27 kg',
+				overallSize: '2.27 kg (5 lb)',
+				unitPerPack: 6,
+			},
+		],
+	},
+	'517': {
+		criterionKey: 'size',
+		defaultOptionValue: '50g',
+		options: [
+			{
+				value: '50g',
+				label: '50 g',
+				overallSize: '50 g',
+				unitPerPack: 42,
+			},
+			{
+				value: '180g',
+				label: '180 g',
+				overallSize: '180 g',
+				unitPerPack: 16,
+			},
+		],
+	},
+	'518': {
+		criterionKey: 'size',
+		defaultOptionValue: '50g',
+		options: [
+			{
+				value: '50g',
+				label: '50 g',
+				overallSize: '50 g',
+				unitPerPack: 42,
+			},
+			{
+				value: '180g',
+				label: '180 g',
+				overallSize: '180 g',
+				unitPerPack: 16,
+			},
+		],
+	},
+	'519': {
+		criterionKey: 'size',
+		defaultOptionValue: '50g',
+		options: [
+			{
+				value: '50g',
+				label: '50 g',
+				overallSize: '50 g',
+				unitPerPack: 42,
+			},
+			{
+				value: '180g',
+				label: '180 g',
+				overallSize: '180 g',
+				unitPerPack: 16,
+			},
+		],
+	},
+};
+
+interface ProductDisplayOverrides {
+	showUnitPerPack?: boolean;
+}
+
+const PRODUCT_DISPLAY_OVERRIDES_BY_ITEM_NUMBER: Record<string, ProductDisplayOverrides> = {
+	'120': {
+		showUnitPerPack: false,
+	},
+	'121': {
+		showUnitPerPack: false,
+	},
+	'122': {
+		showUnitPerPack: false,
+	},
+	'123': {
+		showUnitPerPack: false,
+	},
+};
+
 export function getProductImageSource(slug: ProductSlug): string {
 	return PRODUCT_IMAGE_PATH_BY_SLUG[slug] ?? `/images/${slug}.webp`;
 }
 
 export function getProductImage(slug: ProductSlug): StaticImageData | string {
 	return PRODUCT_IMAGE_BY_SLUG[slug] ?? getProductImageSource(slug);
+}
+
+export function getProductSubtypeConfig(
+	product: Pick<ProductBase, 'itemNumber'>
+): ProductSubtypeConfig | undefined {
+	return PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER[product.itemNumber];
+}
+
+export function getProductSubtypeOption(
+	product: Pick<ProductBase, 'itemNumber'>,
+	value?: string
+): ProductSubtypeOption | undefined {
+	const config = getProductSubtypeConfig(product);
+	if (!config) {
+		return undefined;
+	}
+
+	if (!value) {
+		return (
+			config.options.find((option) => option.value === config.defaultOptionValue) ??
+			config.options[0]
+		);
+	}
+
+	return (
+		config.options.find((option) => option.value === value) ??
+		config.options.find((option) => option.value === config.defaultOptionValue) ??
+		config.options[0]
+	);
+}
+
+export function getProductDisplaySpecs(
+	product: Pick<ProductBase, 'itemNumber' | 'overallSize' | 'unitPerPack'>,
+	subtypeValue?: string
+): { overallSize: string; unitPerPack: number | string; showUnitPerPack: boolean } {
+	const subtypeOption = getProductSubtypeOption(product, subtypeValue);
+	const displayOverrides = PRODUCT_DISPLAY_OVERRIDES_BY_ITEM_NUMBER[product.itemNumber];
+
+	return {
+		overallSize: subtypeOption?.overallSize ?? product.overallSize,
+		unitPerPack: subtypeOption?.unitPerPack ?? product.unitPerPack,
+		showUnitPerPack: subtypeOption?.showUnitPerPack ?? displayOverrides?.showUnitPerPack ?? true,
+	};
 }
 
 // Type guard for ProductBase

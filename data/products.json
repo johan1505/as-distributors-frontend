@@ -211,7 +211,7 @@
 		"slug": "fish-kawa-kawa",
 		"itemNumber": "120",
 		"unitPerPack": 1,
-		"overallSize": "35 lb aprox",
+		"overallSize": "30 - 35 lb",
 		"categoryKey": "frozen-fish",
 		"featured": false
 	},
@@ -219,7 +219,7 @@
 		"slug": "kawango",
 		"itemNumber": "121",
 		"unitPerPack": 1,
-		"overallSize": "N/A",
+		"overallSize": "30 - 35 lb",
 		"categoryKey": "frozen-fish",
 		"featured": false
 	},
@@ -227,7 +227,7 @@
 		"slug": "ulavi-parrot-fish",
 		"itemNumber": "122",
 		"unitPerPack": 1,
-		"overallSize": "N/A",
+		"overallSize": "30 - 35 lb",
 		"categoryKey": "frozen-fish",
 		"featured": false
 	},
@@ -235,7 +235,7 @@
 		"slug": "unicorn-ta",
 		"itemNumber": "123",
 		"unitPerPack": 1,
-		"overallSize": "N/A",
+		"overallSize": "30 - 35 lb",
 		"categoryKey": "frozen-fish",
 		"featured": false
 	},
@@ -243,7 +243,7 @@
 		"slug": "fish-kawa-kawa-steak-slices",
 		"itemNumber": "124",
 		"unitPerPack": 1,
-		"overallSize": "N/A",
+		"overallSize": "30 - 35 lb",
 		"categoryKey": "frozen-fish",
 		"featured": false
 	},
@@ -971,7 +971,7 @@
 		"slug": "cadbury-crunchie-bars",
 		"itemNumber": "516",
 		"unitPerPack": 42,
-		"overallSize": "1.76 oz",
+		"overallSize": "50 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
@@ -979,7 +979,7 @@
 		"slug": "cadbury-dream-bars",
 		"itemNumber": "517",
 		"unitPerPack": 42,
-		"overallSize": "1.76 oz",
+		"overallSize": "50 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
@@ -987,7 +987,7 @@
 		"slug": "cadbury-fruit-nut",
 		"itemNumber": "518",
 		"unitPerPack": 42,
-		"overallSize": "1.76 oz",
+		"overallSize": "50 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
@@ -995,7 +995,7 @@
 		"slug": "cadbury-dairy-milk-bar",
 		"itemNumber": "519",
 		"unitPerPack": 42,
-		"overallSize": "1.76 oz",
+		"overallSize": "50 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
@@ -1893,7 +1893,7 @@
 	{
 		"slug": "nestle-smarties-50g",
 		"itemNumber": "586",
-		"unitPerPack": "TBD",
+		"unitPerPack": 24,
 		"overallSize": "50 g",
 		"categoryKey": "candies",
 		"featured": false
@@ -1901,16 +1901,16 @@
 	{
 		"slug": "nestle-milkybar-classic-50g",
 		"itemNumber": "587",
-		"unitPerPack": "TBD",
-		"overallSize": "50 g",
+		"unitPerPack": 12,
+		"overallSize": "170 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
 	{
 		"slug": "nestle-kitkat-chunky-milo-44g",
 		"itemNumber": "588",
-		"unitPerPack": "TBD",
-		"overallSize": "44 g",
+		"unitPerPack": 36,
+		"overallSize": "45 g",
 		"categoryKey": "candies",
 		"featured": false
 	},

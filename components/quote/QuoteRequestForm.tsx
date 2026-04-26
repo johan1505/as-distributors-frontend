@@ -11,17 +11,51 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useQuote, MAX_PACKS_PER_QUOTE_ITEM } from "./QuoteProvider";
 import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
-import { ProductSlug } from "@/lib/products";
+import {
+  getProductDisplaySpecs,
+  getProductSubtypeConfig,
+  ProductSlug,
+} from "@/lib/products";
 import { PhoneInput } from "@/components/ui/phone-input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
-export type QuoteItem = { productName: string; itemNumber: string; quantity: number };
+const SALES_REP_OPTIONS = [
+  "Judith",
+  "Sanjay",
+  "Ajay",
+  "New customer",
+] as const;
+
+type SalesRepOption = (typeof SALES_REP_OPTIONS)[number];
+
+export type QuoteItem = {
+  productName: string;
+  itemNumber: string;
+  overallSize: string;
+  quantity: number;
+  variantLabel?: string;
+  variantValue?: string;
+};
+
+export type InvalidQuoteTarget = {
+  slug: ProductSlug;
+  subtypeValue?: string;
+};
 
 export interface QuoteRequestPayload {
   contactInfo: {
     name: string;
+    companyName: string;
     email: string;
     phone: string;
     zipCode: string;
+    salesRep: SalesRepOption;
   };
   quoteItems: QuoteItem[];
   metadata: {
@@ -43,9 +77,11 @@ type SubmissionStage = "prepare" | "submit";
 
 type FormValues = {
   name: string;
+  companyName: string;
   email: string;
   phone: string;
   zip: string;
+  salesRep: SalesRepOption | "";
 };
 
 type FieldName = keyof FormValues | "agreedToContact";
@@ -118,7 +154,7 @@ const getCaughtErrorMessage = (error: unknown): string => {
 
 type QuoteRequestFormProps = {
   productSlugToNameMapInEnglish: Record<ProductSlug, string>;
-  onQuantityValidationFailed?: (invalidSlugs: ProductSlug[]) => void;
+  onQuantityValidationFailed?: (invalidTargets: InvalidQuoteTarget[]) => void;
 }
 
 export function QuoteRequestForm({
@@ -131,9 +167,11 @@ export function QuoteRequestForm({
 
   const [formValues, setFormValues] = useState<FormValues>({
     name: "",
+    companyName: "",
     email: "",
     phone: "",
     zip: "",
+    salesRep: "",
   });
   const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -171,6 +209,16 @@ export function QuoteRequestForm({
         return String(value).trim() === ""
           ? tQuotePage("validation.nameRequired")
           : undefined;
+      case "companyName": {
+        const companyName = String(value).trim();
+        if (companyName === "") {
+          return tQuotePage("validation.companyNameRequired");
+        }
+
+        return companyName.length <= 200
+          ? undefined
+          : tQuotePage("validation.companyNameTooLong");
+      }
       case "email": {
         const email = String(value).trim();
         if (email === "") {
@@ -199,6 +247,10 @@ export function QuoteRequestForm({
 
         return undefined;
       }
+      case "salesRep":
+        return SALES_REP_OPTIONS.includes(value as SalesRepOption)
+          ? undefined
+          : tQuotePage("validation.salesRepRequired");
       case "agreedToContact":
         return value === true
           ? undefined
@@ -211,9 +263,11 @@ export function QuoteRequestForm({
   const validateForm = (): FieldErrors => {
     return {
       name: validateField("name", formValues.name),
+      companyName: validateField("companyName", formValues.companyName),
       email: validateField("email", formValues.email),
       phone: validateField("phone", formValues.phone),
       zip: validateField("zip", formValues.zip),
+      salesRep: validateField("salesRep", formValues.salesRep),
       agreedToContact: validateField("agreedToContact", agreedToContact),
     };
   };
@@ -244,16 +298,52 @@ export function QuoteRequestForm({
   const formatQuoteData = (): QuoteRequestPayload => {
     const contactInfo = {
       name: formValues.name.trim(),
+      companyName: formValues.companyName.trim(),
       email: formValues.email.trim(),
       phone: formValues.phone.trim(),
       zipCode: formValues.zip.trim(),
+      salesRep: formValues.salesRep as SalesRepOption,
     };
 
-    const quoteItems: QuoteItem[] = items.map((item) => ({
-      productName: `${productSlugToNameMapInEnglish[item.product.slug]} (${item.product.overallSize})`,
-      itemNumber: item.product.itemNumber,
-      quantity: item.quantity,
-    }));
+    const quoteItems: QuoteItem[] = items.flatMap((item) => {
+      const productName = productSlugToNameMapInEnglish[item.product.slug];
+      const subtypeConfig = getProductSubtypeConfig(item.product);
+
+      if (subtypeConfig && item.subtypeQuantities) {
+        return subtypeConfig.options.flatMap((option) => {
+          const quantity = item.subtypeQuantities?.[option.value] ?? 0;
+          if (quantity <= 0) {
+            return [];
+          }
+
+          const displaySpecs = getProductDisplaySpecs(item.product, option.value);
+
+          return [
+            {
+              productName,
+              itemNumber: item.product.itemNumber,
+              overallSize: displaySpecs.overallSize,
+              quantity,
+              variantLabel: subtypeConfig.criterionKey,
+              variantValue: option.label,
+            },
+          ];
+        });
+      }
+
+      if (!item.quantity) {
+        return [];
+      }
+
+      return [
+        {
+          productName,
+          itemNumber: item.product.itemNumber,
+          overallSize: item.product.overallSize,
+          quantity: item.quantity,
+        },
+      ];
+    });
 
     const date = new Date();
     const submittedAt = date.toLocaleString("en-US", {
@@ -267,7 +357,7 @@ export function QuoteRequestForm({
 
     const metadata = {
       totalItems,
-      totalUniqueProducts: items.length,
+      totalUniqueProducts: quoteItems.length,
       submittedAt,
     };
 
@@ -294,12 +384,25 @@ export function QuoteRequestForm({
     let submissionStage: SubmissionStage = "prepare";
 
     try {
-      const invalidSlugs = items
-        .filter((item) => item.quantity > MAX_PACKS_PER_QUOTE_ITEM)
-        .map((item) => item.product.slug);
+      const invalidTargets = items.flatMap((item) => {
+        const subtypeConfig = getProductSubtypeConfig(item.product);
 
-      if (invalidSlugs.length > 0) {
-        onQuantityValidationFailed?.(invalidSlugs);
+        if (subtypeConfig && item.subtypeQuantities) {
+          return Object.entries(item.subtypeQuantities)
+            .filter(([, quantity]) => quantity > MAX_PACKS_PER_QUOTE_ITEM)
+            .map(([subtypeValue]) => ({
+              slug: item.product.slug,
+              subtypeValue,
+            }));
+        }
+
+        return item.quantity && item.quantity > MAX_PACKS_PER_QUOTE_ITEM
+          ? [{ slug: item.product.slug }]
+          : [];
+      });
+
+      if (invalidTargets.length > 0) {
+        onQuantityValidationFailed?.(invalidTargets);
         setIsSubmitting(false);
         return;
       }
@@ -402,6 +505,28 @@ export function QuoteRequestForm({
             <FieldError errors={fieldErrors.name ? [{ message: fieldErrors.name }] : undefined} />
           </Field>
 
+          <Field data-invalid={Boolean(fieldErrors.companyName)}>
+            <FieldLabel htmlFor="companyName">
+              {tQuotePage("companyName")}
+              <span className="text-destructive">*</span>
+            </FieldLabel>
+            <Input
+              id="companyName"
+              name="companyName"
+              type="text"
+              autoComplete="organization"
+              maxLength={200}
+              placeholder={tQuotePage("companyNamePlaceholder")}
+              disabled={isSubmitting}
+              value={formValues.companyName}
+              onChange={(e) => handleFieldChange("companyName", e.target.value)}
+              aria-invalid={Boolean(fieldErrors.companyName)}
+            />
+            <FieldError
+              errors={fieldErrors.companyName ? [{ message: fieldErrors.companyName }] : undefined}
+            />
+          </Field>
+
           <Field data-invalid={Boolean(fieldErrors.email)}>
             <FieldLabel htmlFor="email">
               {tQuotePage("email")}
@@ -459,6 +584,40 @@ export function QuoteRequestForm({
               aria-invalid={Boolean(fieldErrors.zip)}
             />
             <FieldError errors={fieldErrors.zip ? [{ message: fieldErrors.zip }] : undefined} />
+          </Field>
+
+          <Field data-invalid={Boolean(fieldErrors.salesRep)}>
+            <FieldLabel htmlFor="salesRep">
+              {tQuotePage("salesRep")}
+              <span className="text-destructive">*</span>
+            </FieldLabel>
+            <Select
+              value={formValues.salesRep}
+              onValueChange={(value) =>
+                handleFieldChange("salesRep", value as SalesRepOption)
+              }
+              disabled={isSubmitting}
+            >
+            <SelectTrigger
+                id="salesRep"
+                className="w-full rounded-xl bg-background"
+                aria-invalid={Boolean(fieldErrors.salesRep)}
+              >
+                <SelectValue>
+                  {formValues.salesRep
+                    ? tQuotePage(`salesRepOptions.${formValues.salesRep}`)
+                    : tQuotePage("salesRepPlaceholder")}
+                </SelectValue>
+              </SelectTrigger>
+              <SelectContent>
+                {SALES_REP_OPTIONS.map((option) => (
+                  <SelectItem key={option} value={option}>
+                    {tQuotePage(`salesRepOptions.${option}`)}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <FieldError errors={fieldErrors.salesRep ? [{ message: fieldErrors.salesRep }] : undefined} />
           </Field>
 
           <Field

@@ -6,24 +6,41 @@ import { Link } from "@/i18n/navigation";
 import { Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useQuote, MAX_PACKS_PER_QUOTE_ITEM } from "./QuoteProvider";
-import { getProductImage } from "@/lib/products";
+import {
+  getProductDisplaySpecs,
+  getProductImage,
+  getProductSubtypeConfig,
+} from "@/lib/products";
 import type { ProductSlug } from "@/lib/products";
 import ExportedImage from "next-image-export-optimizer";
 import { ROUTES } from "@/lib/routes";
 import { Badge } from "../ui/badge";
 import { AddToQuoteButton } from "@/components/quote/AddToQuoteButton";
+import type { InvalidQuoteTarget } from "./QuoteRequestForm";
 
 const MAX_VISIBLE_ITEMS = 3;
 
 type QuoteItemsListProps = {
   showQuantityErrors?: boolean;
-  focusSlug?: ProductSlug | null;
+  focusTarget?: InvalidQuoteTarget | null;
   onFocusHandled?: () => void;
+};
+
+type FlattenedQuoteListItem = {
+  key: string;
+  product: ReturnType<typeof useQuote>["items"][number]["product"];
+  quantity: number;
+  overallSize: string;
+  unitPerPack: string | number;
+  showUnitPerPack: boolean;
+  subtypeValue?: string;
+  subtitle?: string;
+  showSubtitle?: boolean;
 };
 
 export function QuoteItemsList({
   showQuantityErrors = false,
-  focusSlug = null,
+  focusTarget = null,
   onFocusHandled,
 }: QuoteItemsListProps) {
   const tQuote = useTranslations("quote");
@@ -31,8 +48,14 @@ export function QuoteItemsList({
   const tProducts = useTranslations("products");
   const tProduct = useTranslations("product");
 
-
-  const { items, removeItem, clearCart, totalItems } = useQuote();
+  const {
+    items,
+    clearCart,
+    getQuantity,
+    setSelectedSubtypeValue,
+    updateQuantity,
+    totalItems,
+  } = useQuote();
 
   // Helper to get product name from translations
   const getProductName = (slug: ProductSlug) => {
@@ -40,13 +63,55 @@ export function QuoteItemsList({
   };
   const [showAllItems, setShowAllItems] = useState(false);
   const inputRefs = useRef<Record<string, HTMLInputElement | null>>({});
+  const flattenedItems = items.reduce<FlattenedQuoteListItem[]>((acc, item) => {
+    const subtypeConfig = getProductSubtypeConfig(item.product);
 
-  const hasMoreItems = items.length > MAX_VISIBLE_ITEMS;
-  const visibleItems = showAllItems ? items : items.slice(0, MAX_VISIBLE_ITEMS);
+    if (subtypeConfig) {
+      subtypeConfig.options.forEach((option) => {
+        const quantity = getQuantity(item.product, option.value);
+        if (quantity <= 0) {
+          return;
+        }
+
+        const displaySpecs = getProductDisplaySpecs(item.product, option.value);
+
+        acc.push({
+          key: `${item.product.slug}:${option.value}`,
+          product: item.product,
+          quantity,
+          subtypeValue: option.value,
+          subtitle: option.label,
+          showSubtitle: subtypeConfig.criterionKey !== "size",
+          overallSize: displaySpecs.overallSize,
+          unitPerPack: displaySpecs.unitPerPack,
+          showUnitPerPack: displaySpecs.showUnitPerPack,
+        });
+      });
+      return acc;
+    }
+
+    acc.push({
+      key: item.product.slug,
+      product: item.product,
+      quantity: item.quantity ?? 0,
+      overallSize: item.product.overallSize,
+      unitPerPack: item.product.unitPerPack,
+      showUnitPerPack: getProductDisplaySpecs(item.product).showUnitPerPack,
+    });
+    return acc;
+  }, []);
+
+  const hasMoreItems = flattenedItems.length > MAX_VISIBLE_ITEMS;
+  const visibleItems = showAllItems
+    ? flattenedItems
+    : flattenedItems.slice(0, MAX_VISIBLE_ITEMS);
+
   const hasHiddenQuantityError =
     showQuantityErrors &&
     !showAllItems &&
-    items.slice(MAX_VISIBLE_ITEMS).some((item) => item.quantity > MAX_PACKS_PER_QUOTE_ITEM);
+    flattenedItems
+      .slice(MAX_VISIBLE_ITEMS)
+      .some((item) => item.quantity > MAX_PACKS_PER_QUOTE_ITEM);
 
   useEffect(() => {
     if (hasHiddenQuantityError) {
@@ -55,24 +120,37 @@ export function QuoteItemsList({
   }, [hasHiddenQuantityError]);
 
   useEffect(() => {
-    if (!focusSlug) return;
+    if (!focusTarget) return;
 
     const isFocusHidden =
       !showAllItems &&
-      items.slice(0, MAX_VISIBLE_ITEMS).every((item) => item.product.slug !== focusSlug);
+      flattenedItems
+        .slice(0, MAX_VISIBLE_ITEMS)
+        .every(
+          (item) =>
+            item.key !==
+            `${focusTarget.slug}${focusTarget.subtypeValue ? `:${focusTarget.subtypeValue}` : ""}`
+        );
 
     if (isFocusHidden) {
       setShowAllItems(true);
       return;
     }
 
-    const node = inputRefs.current[focusSlug];
+    if (focusTarget.subtypeValue) {
+      setSelectedSubtypeValue(focusTarget.slug, focusTarget.subtypeValue);
+    }
+
+    const focusKey = `${focusTarget.slug}${
+      focusTarget.subtypeValue ? `:${focusTarget.subtypeValue}` : ""
+    }`;
+    const node = inputRefs.current[focusKey];
     if (node) {
       node.focus();
       node.scrollIntoView({ block: "center", behavior: "smooth" });
       onFocusHandled?.();
     }
-  }, [focusSlug, items, onFocusHandled, showAllItems]);
+  }, [focusTarget, flattenedItems, onFocusHandled, setSelectedSubtypeValue, showAllItems]);
 
   return (
     <div className="flex-1">
@@ -92,9 +170,10 @@ export function QuoteItemsList({
         </Button>
       </div>
       <ul className="space-y-4">
-        {visibleItems.map((item) => (
+        {visibleItems.map((item) => {
+          return (
           <li
-            key={item.product.slug}
+            key={item.key}
             className="flex items-center gap-4 p-4 rounded-xl bg-muted/50"
           >
             <ExportedImage
@@ -114,25 +193,41 @@ export function QuoteItemsList({
               >
                 {getProductName(item.product.slug)}
               </Link>
+              {item.subtitle && item.showSubtitle ? (
+                <span className="text-sm text-muted-foreground">{item.subtitle}</span>
+              ) : null}
               <Badge variant="secondary" className="bg-ocean-muted/50 border-ocean/10">
                 <span className="text-foreground/70">{tProduct("overallSize")}</span>:{" "}
-                <span>{item.product.overallSize}</span>
+                <span>{item.overallSize}</span>
               </Badge>
+              {item.showUnitPerPack ? (
+                <Badge variant="secondary" className="bg-primary/10 border-primary/10">
+                  <span className="text-foreground/70">{tProduct("unitPerPack")}</span>:{" "}
+                  <span>{item.unitPerPack}</span>
+                </Badge>
+              ) : null}
               <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-2 flex-wrap">
                   <AddToQuoteButton
                     product={item.product}
+                    lockedSubtypeValue={item.subtypeValue}
                     variant="secondary"
                     size="sm"
                     hasError={showQuantityErrors && item.quantity > MAX_PACKS_PER_QUOTE_ITEM}
                     inputRef={(node) => {
-                      inputRefs.current[item.product.slug] = node;
+                      inputRefs.current[item.key] = node;
                     }}
                   />
                   <Button
                     variant="destructive"
                     size="icon-sm"
-                    onClick={() => removeItem(item.product.slug)}
+                    onClick={() => {
+                      if (item.subtypeValue) {
+                        updateQuantity(item.product, 0, item.subtypeValue);
+                        return;
+                      }
+                      updateQuantity(item.product, 0);
+                    }}
                     aria-label="Remove item"
                     className="rounded-full"
                   >
@@ -147,7 +242,8 @@ export function QuoteItemsList({
               </div>
             </div>
           </li>
-        ))}
+          );
+        })}
       </ul>
 
       {hasMoreItems && (
@@ -165,7 +261,7 @@ export function QuoteItemsList({
             <>
               <ChevronDown className="size-4 mr-2" />
               {tQuotePage("showAllItems", {
-                count: items.length - MAX_VISIBLE_ITEMS,
+                count: flattenedItems.length - MAX_VISIBLE_ITEMS,
               })}
             </>
           )}

@@ -73,20 +73,24 @@
 	},
 	"product": {
 		"itemNumber": "Oloa #",
-		"unitPerPack": "Fasi i le Pusa",
+		"unitPerPack": "Fasi i le Kesi",
 		"overallSize": "Lapopo'a",
 		"category": "Vaega",
-		"addToQuote": "Fa'aopoopo pusa i tau",
-		"addMoreToQuote": "Fa'aopoopo isi pusa i tau",
+		"addToQuote": "Fa'aopoopo kesi i tau",
+		"addMoreToQuote": "Fa'aopoopo isi kesi i tau",
 		"addedToQuote": "Ua Fa'aopoopo!",
 		"inQuote": "I le Tau",
 		"backToCatalog": "Toe Fo'i i le Lisi",
 		"viewLargerImage": "Va'ai ata tele o",
-		"comingSoon": "O le a lata mai"
+		"comingSoon": "O le a lata mai",
+		"criteria": {
+			"size": "Lapopo'a",
+			"cut": "Tipi"
+		}
 	},
 	"quote": {
-		"packs": "Pusa",
-		"pack": "Pusa",
+		"packs": "Kesi",
+		"pack": "Kesi",
 		"title": "Talosaga Tau",
 		"empty": "E gaogao lau ato tau",
 		"emptyDescription": "Fa'aopoopo oloa mai la matou lisi e talosaga ai se tau.",
@@ -108,12 +112,22 @@
 			"contactInfo": "Fa'amatalaga Fa'afeso'ota'i",
 			"name": "Igoa Atoa",
 			"namePlaceholder": "Tu'u lou igoa atoa",
+			"companyName": "Igoa o le Kamupani",
+			"companyNamePlaceholder": "Tu'u le igoa o lau kamupani",
 			"email": "Imeli",
 			"emailPlaceholder": "Tu'u lou imeli",
 			"zip": "Tuatusi",
 			"zipPlaceholder": "Tu'u lou tuatusi",
 			"phone": "Numera Telefoni",
 			"phonePlaceholder": "Tu'u lou numera telefoni",
+			"salesRep": "Sui Fa'atau",
+			"salesRepPlaceholder": "Filifili se sui fa'atau",
+			"salesRepOptions": {
+				"Judith": "Judith",
+				"Sanjay": "Sanjay",
+				"Ajay": "Ajay",
+				"New customer": "Tagata fou"
+			},
 			"sendRequest": "Auina talosaga tau",
 			"submitting": "O loo auina...",
 			"agreeToContact": "Ou te ioe e fa'afeso'ota'i a'u e se sui fa'atau e uiga i lenei talosaga tau.",
@@ -122,14 +136,17 @@
 			"requiredFields": "Fa'amolemole fa'atumu uma vaega e auina lou talosaga tau. O la matou 'au fa'atau o le a fa'afeso'ota'i oe vave.",
 			"showAllItems": "Fa'aali {count} isi oloa",
 			"showLess": "Fa'aali itiiti",
-			"maxPacksPerItem": "Fa'amolemole tu'u {max} pusa pe itiiti ifo.",
+			"maxPacksPerItem": "Fa'amolemole tu'u {max} kesi pe itiiti ifo.",
 			"validation": {
 				"nameRequired": "E mana'omia le igoa",
+				"companyNameRequired": "E mana'omia le igoa o le kamupani",
+				"companyNameTooLong": "E tatau ona 200 mataitusi pe itiiti ifo le igoa o le kamupani",
 				"emailRequired": "E mana'omia le imeli",
 				"emailInvalid": "Fa'amolemole tu'u se imeli sa'o",
 				"phoneRequired": "E mana'omia le numera telefoni",
 				"phoneInvalid": "Fa'amolemole tu'u se numera telefoni sa'o",
 				"zipInvalid": "Fa'amolemole tu'u se zip code sa'o",
+				"salesRepRequired": "Fa'amolemole filifili se sui fa'atau",
 				"agreedToContactRequired": "E tatau ona e ioe e fa'afeso'ota'i oe ina ia mafai ona auina atu lenei talosaga"
 			},
 			"item": "oloa",
@@ -1624,7 +1641,8 @@
 			"seoTitle": "Mamoe Tipi Niu Sila | A & S Distributors",
 			"seoDescription": "Mamoe tipi Niu Sila mo kare ma stews. USDA fa'amaonia. Tau fa'atau tele e maua.",
 			"seoKeywords": "mamoe tipi, fasi mamoe, mamoe Niu Sila, aano kare",
-			"imageAlt": "Lamb Shoulder Chops"
+			"imageAlt": "Lamb Shoulder Chops",
+			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "Lamb Shoulder Chops Prepack",

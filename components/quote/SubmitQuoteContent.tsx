@@ -6,11 +6,14 @@ import { ShoppingCart, ChevronDown, ChevronUp, Trash2 } from "lucide-react";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { useQuote } from "./QuoteProvider";
 import { QuoteItemsList } from "./QuoteItemsList";
-import { QuoteRequestForm } from "./QuoteRequestForm";
+import {
+  QuoteRequestForm,
+  type InvalidQuoteTarget,
+} from "./QuoteRequestForm";
 import { Link } from "@/i18n/navigation";
 import { Separator } from "@/components/ui/separator";
 import { ROUTES } from "@/lib/routes";
-import { ProductSlug } from "@/lib/products";
+import type { ProductSlug } from "@/lib/products";
 
 type SubmitQuoteContentProps = {
   productSlugToNameMapInEnglish: Record<ProductSlug, string>;
@@ -22,12 +25,12 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
   const { items, totalItems, clearCart } = useQuote();
   const [isItemsOpen, setIsItemsOpen] = useState(false);
   const [showQuantityErrors, setShowQuantityErrors] = useState(false);
-  const [focusSlug, setFocusSlug] = useState<ProductSlug | null>(null);
+  const [focusTarget, setFocusTarget] = useState<InvalidQuoteTarget | null>(null);
 
-  const handleQuantityValidationFailed = (invalidSlugs: ProductSlug[]) => {
-    if (invalidSlugs.length === 0) return;
+  const handleQuantityValidationFailed = (invalidTargets: InvalidQuoteTarget[]) => {
+    if (invalidTargets.length === 0) return;
     setShowQuantityErrors(true);
-    setFocusSlug(invalidSlugs[0]);
+    setFocusTarget(invalidTargets[0]);
     setIsItemsOpen(true);
   };
 
@@ -92,8 +95,8 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
           <div className={isItemsOpen ? "" : "hidden lg:block"}>
             <QuoteItemsList
               showQuantityErrors={showQuantityErrors}
-              focusSlug={focusSlug}
-              onFocusHandled={() => setFocusSlug(null)}
+              focusTarget={focusTarget}
+              onFocusHandled={() => setFocusTarget(null)}
             />
           </div>
         </div>

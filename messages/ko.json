@@ -73,20 +73,24 @@
 	},
 	"product": {
 		"itemNumber": "품목 #",
-		"unitPerPack": "팩당 단위",
+		"unitPerPack": "케이스당 수량",
 		"overallSize": "크기",
 		"category": "카테고리",
-		"addToQuote": "팩을 견적에 추가",
-		"addMoreToQuote": "더 많은 팩을 견적에 추가",
+		"addToQuote": "케이스를 견적에 추가",
+		"addMoreToQuote": "더 많은 케이스를 견적에 추가",
 		"addedToQuote": "추가됨!",
 		"inQuote": "견적에 포함",
 		"backToCatalog": "카탈로그로 돌아가기",
 		"viewLargerImage": "더 큰 이미지 보기:",
-		"comingSoon": "출시 예정"
+		"comingSoon": "출시 예정",
+		"criteria": {
+			"size": "크기",
+			"cut": "절단"
+		}
 	},
 	"quote": {
-		"packs": "팩",
-		"pack": "팩",
+		"packs": "케이스",
+		"pack": "케이스",
 		"title": "견적 요청",
 		"empty": "견적 카트가 비어 있습니다",
 		"emptyDescription": "카탈로그에서 제품을 추가하여 견적을 요청하세요.",
@@ -108,12 +112,22 @@
 			"contactInfo": "연락처 정보",
 			"name": "성함",
 			"namePlaceholder": "성함을 입력하세요",
+			"companyName": "회사명",
+			"companyNamePlaceholder": "회사명을 입력하세요",
 			"email": "이메일 주소",
 			"emailPlaceholder": "이메일을 입력하세요",
 			"zip": "우편번호",
 			"zipPlaceholder": "우편번호를 입력하세요",
 			"phone": "전화번호",
 			"phonePlaceholder": "전화번호를 입력하세요",
+			"salesRep": "영업 담당자",
+			"salesRepPlaceholder": "영업 담당자를 선택하세요",
+			"salesRepOptions": {
+				"Judith": "Judith",
+				"Sanjay": "Sanjay",
+				"Ajay": "Ajay",
+				"New customer": "신규 고객"
+			},
 			"sendRequest": "견적 요청 보내기",
 			"submitting": "제출 중...",
 			"agreeToContact": "이 견적 요청과 관련하여 영업 담당자가 연락하는 것에 동의합니다.",
@@ -122,14 +136,17 @@
 			"requiredFields": "견적 요청을 제출하려면 모든 필드를 작성해 주세요. 영업팀이 곧 연락드리겠습니다.",
 			"showAllItems": "{count}개 항목 더 보기",
 			"showLess": "간략히 보기",
-			"maxPacksPerItem": "{max}개 이하로 입력해 주세요.",
+			"maxPacksPerItem": "{max}케이스 이하로 입력해 주세요.",
 			"validation": {
 				"nameRequired": "이름이 필요합니다",
+				"companyNameRequired": "회사명이 필요합니다",
+				"companyNameTooLong": "회사명은 200자 이하여야 합니다",
 				"emailRequired": "이메일이 필요합니다",
 				"emailInvalid": "유효한 이메일 주소를 입력해 주세요",
 				"phoneRequired": "전화번호가 필요합니다",
 				"phoneInvalid": "유효한 전화번호를 입력해 주세요",
 				"zipInvalid": "유효한 우편번호를 입력해 주세요",
+				"salesRepRequired": "영업 담당자를 선택해 주세요",
 				"agreedToContactRequired": "이 요청을 제출하려면 연락 동의가 필요합니다"
 			},
 			"item": "항목",
@@ -1784,7 +1801,8 @@
 			"seoTitle": "뉴질랜드 양고기 깍둑썰기 | A & S Distributors",
 			"seoDescription": "카레와 스튜용 깍둑썰기 뉴질랜드 양고기. USDA 인증. 도매 가격 제공.",
 			"seoKeywords": "깍둑썰기 양고기, 양고기 큐브, 뉴질랜드 양고기, 카레 고기",
-			"imageAlt": "양 어깨살 찹 부위"
+			"imageAlt": "양 어깨살 찹 부위",
+			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "양 어깨살 찹 프리팩",

@@ -73,20 +73,24 @@
 	},
 	"product": {
 		"itemNumber": "商品 #",
-		"unitPerPack": "每包数量",
+		"unitPerPack": "每箱数量",
 		"overallSize": "规格",
 		"category": "类别",
-		"addToQuote": "添加包装到报价",
-		"addMoreToQuote": "添加更多包装到报价",
+		"addToQuote": "添加箱到报价",
+		"addMoreToQuote": "添加更多箱到报价",
 		"addedToQuote": "已添加！",
 		"inQuote": "在报价中",
 		"backToCatalog": "返回目录",
 		"viewLargerImage": "查看大图：",
-		"comingSoon": "即将推出"
+		"comingSoon": "即将推出",
+		"criteria": {
+			"size": "规格",
+			"cut": "切法"
+		}
 	},
 	"quote": {
-		"packs": "包",
-		"pack": "包",
+		"packs": "箱",
+		"pack": "箱",
 		"title": "提交报价请求",
 		"empty": "您的报价车为空",
 		"emptyDescription": "从我们的目录中添加产品以请求报价。",
@@ -108,12 +112,22 @@
 			"contactInfo": "联系信息",
 			"name": "全名",
 			"namePlaceholder": "输入您的全名",
+			"companyName": "公司名称",
+			"companyNamePlaceholder": "输入您的公司名称",
 			"email": "电子邮件地址",
 			"emailPlaceholder": "输入您的电子邮件",
 			"zip": "邮政编码",
 			"zipPlaceholder": "输入您的邮政编码",
 			"phone": "电话号码",
 			"phonePlaceholder": "输入您的电话号码",
+			"salesRep": "销售代表",
+			"salesRepPlaceholder": "选择销售代表",
+			"salesRepOptions": {
+				"Judith": "Judith",
+				"Sanjay": "Sanjay",
+				"Ajay": "Ajay",
+				"New customer": "新客户"
+			},
 			"sendRequest": "发送报价请求",
 			"submitting": "正在提交...",
 			"agreeToContact": "我同意销售代表就此报价请求与我联系。",
@@ -122,14 +136,17 @@
 			"requiredFields": "请填写所有字段以提交您的报价请求。我们的销售团队将很快与您联系。",
 			"showAllItems": "显示更多{count}个项目",
 			"showLess": "显示更少",
-			"maxPacksPerItem": "请输入不超过 {max} 包。",
+			"maxPacksPerItem": "请输入不超过 {max} 箱。",
 			"validation": {
 				"nameRequired": "姓名是必填项",
+				"companyNameRequired": "公司名称为必填项",
+				"companyNameTooLong": "公司名称必须不超过200个字符",
 				"emailRequired": "电子邮件是必填项",
 				"emailInvalid": "请输入有效的电子邮件地址",
 				"phoneRequired": "电话号码是必填项",
 				"phoneInvalid": "请输入有效的电话号码",
 				"zipInvalid": "请输入有效的邮政编码",
+				"salesRepRequired": "请选择销售代表",
 				"agreedToContactRequired": "您必须同意被联系后才能提交此请求"
 			},
 			"item": "项目",
@@ -1624,7 +1641,8 @@
 			"seoTitle": "新西兰羊肉丁 | A & S Distributors",
 			"seoDescription": "适合咖喱和炖菜的新西兰羊肉丁。USDA认证。提供批发价格。",
 			"seoKeywords": "羊肉丁, 羊肉块, 新西兰羊肉, 咖喱肉",
-			"imageAlt": "羊肩排"
+			"imageAlt": "羊肩排",
+			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
 			"name": "羊肩排预包装",

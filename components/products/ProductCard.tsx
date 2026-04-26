@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import {
@@ -11,7 +12,11 @@ import {
 } from "@/components/ui/card";
 import { AddToQuoteButton } from "@/components/quote/AddToQuoteButton";
 import type { ProductBase } from "@/lib/products";
-import { getProductImage } from "@/lib/products";
+import {
+  getProductDisplaySpecs,
+  getProductImage,
+  getProductSubtypeConfig,
+} from "@/lib/products";
 import { ProductBadges } from "./ProductBadges";
 import { ProductStatusPill } from "./ProductStatusPill";
 import ExportedImage from "next-image-export-optimizer";
@@ -34,6 +39,11 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
     typeof tProducts.has === "function" && tProducts.has(subtitleKey)
       ? tProducts(subtitleKey)
       : "";
+  const subtypeConfig = getProductSubtypeConfig(product);
+  const [selectedSubtypeValue, setSelectedSubtypeValue] = useState(
+    subtypeConfig?.defaultOptionValue
+  );
+  const displaySpecs = getProductDisplaySpecs(product, selectedSubtypeValue);
   const itemNumber = product.itemNumber.trim();
   const hasItemNumber =
     itemNumber.length > 0 && itemNumber.toLowerCase() !== "tbd";
@@ -82,8 +92,9 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
           </div>
         ) : null}
         <ProductBadges
-          overallSize={product.overallSize}
-          unitPerPack={product.unitPerPack}
+          overallSize={displaySpecs.overallSize}
+          unitPerPack={displaySpecs.unitPerPack}
+          showUnitPerPack={displaySpecs.showUnitPerPack}
           overallSizeLabel={t("overallSize")}
           unitPerPackLabel={t("unitPerPack")}
           variant="compact"
@@ -93,6 +104,8 @@ export function ProductCard({ product, hideQuoteCart }: ProductCardProps) {
         {hideQuoteCart ? null : (
           <AddToQuoteButton
             product={product}
+            selectedSubtypeValue={selectedSubtypeValue}
+            onSelectedSubtypeValueChange={setSelectedSubtypeValue}
             variant="secondary"
             size="sm"
             className="w-full"

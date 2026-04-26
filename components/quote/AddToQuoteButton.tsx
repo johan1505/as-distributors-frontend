@@ -13,11 +13,24 @@ import { Minus, Plus, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useQuote, MAX_QUANTITY_PER_PRODUCT } from "./QuoteProvider";
-import type { ProductBase } from "@/lib/products";
+import {
+  getProductSubtypeConfig,
+  type ProductBase,
+} from "@/lib/products";
 import { cn } from "@/lib/utils";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface AddToQuoteButtonProps {
   product: ProductBase;
+  selectedSubtypeValue?: string;
+  onSelectedSubtypeValueChange?: (value: string) => void;
+  lockedSubtypeValue?: string;
   variant?: "default" | "outline" | "secondary";
   size?: "default" | "sm" | "lg";
   className?: string;
@@ -27,6 +40,9 @@ interface AddToQuoteButtonProps {
 
 export function AddToQuoteButton({
   product,
+  selectedSubtypeValue: selectedSubtypeValueProp,
+  onSelectedSubtypeValueChange,
+  lockedSubtypeValue,
   variant = "default",
   size = "default",
   className,
@@ -35,18 +51,31 @@ export function AddToQuoteButton({
 }: AddToQuoteButtonProps) {
   const t = useTranslations("product");
   const tQuote = useTranslations("quote");
-  const { updateQuantity, items } = useQuote();
+  const {
+    getQuantity,
+    getSelectedSubtypeValue,
+    getTotalQuantityForProduct,
+    setSelectedSubtypeValue,
+    updateQuantity,
+  } = useQuote();
   const inputRef = useRef<HTMLInputElement>(null);
   const [isFocused, setIsFocused] = useState(false);
   const [isStaged, setIsStaged] = useState(false);
+  const subtypeConfig = getProductSubtypeConfig(product);
+  const selectedSubtypeValue =
+    lockedSubtypeValue ??
+    selectedSubtypeValueProp ??
+    getSelectedSubtypeValue(product.slug) ??
+    subtypeConfig?.defaultOptionValue ??
+    undefined;
 
-  const quantity =
-    items.find((item) => item.product.slug === product.slug)?.quantity ?? 0;
+  const quantity = getQuantity(product, selectedSubtypeValue);
+  const totalQuantity = getTotalQuantityForProduct(product.slug);
   const [draftQuantity, setDraftQuantity] = useState(
     quantity > 0 ? String(quantity) : ""
   );
 
-  const showInput = quantity > 0 || isStaged;
+  const showInput = totalQuantity > 0 || isStaged;
 
   const clampQuantity = (value: number) =>
     Math.min(Math.max(0, value), MAX_QUANTITY_PER_PRODUCT);
@@ -75,6 +104,25 @@ export function AddToQuoteButton({
       setDraftQuantity("");
     }
   }, [quantity, isFocused, isStaged]);
+
+  useEffect(() => {
+    if (lockedSubtypeValue || !subtypeConfig || selectedSubtypeValue) {
+      return;
+    }
+
+    if (onSelectedSubtypeValueChange) {
+      onSelectedSubtypeValueChange(subtypeConfig.defaultOptionValue);
+    } else {
+      setSelectedSubtypeValue(product, subtypeConfig.defaultOptionValue);
+    }
+  }, [
+    lockedSubtypeValue,
+    onSelectedSubtypeValueChange,
+    product,
+    selectedSubtypeValue,
+    setSelectedSubtypeValue,
+    subtypeConfig,
+  ]);
 
   const sizeStyles = {
     default: {
@@ -117,6 +165,24 @@ export function AddToQuoteButton({
   };
 
   const startEditing = () => {
+    if (subtypeConfig) {
+      const defaultSubtypeValue =
+        lockedSubtypeValue ??
+        selectedSubtypeValue ??
+        subtypeConfig.defaultOptionValue;
+      if (!lockedSubtypeValue) {
+        if (onSelectedSubtypeValueChange) {
+          onSelectedSubtypeValueChange(defaultSubtypeValue);
+        } else {
+          setSelectedSubtypeValue(product, defaultSubtypeValue);
+        }
+      }
+      updateQuantity(
+        product,
+        Math.max(getQuantity(product, defaultSubtypeValue), 1),
+        defaultSubtypeValue
+      );
+    }
     setIsStaged(true);
     setDraftQuantity("1");
     focusInput();
@@ -124,7 +190,7 @@ export function AddToQuoteButton({
 
   const commitQuantity = (value: number) => {
     const next = clampQuantity(value);
-    updateQuantity(product, next);
+    updateQuantity(product, next, selectedSubtypeValue);
     setIsStaged(next > 0);
   };
 
@@ -142,8 +208,8 @@ export function AddToQuoteButton({
   const handleStep = (delta: number) => {
     const next = clampQuantity(currentValue + delta);
     setDraftQuantity(String(next));
-    updateQuantity(product, next);
-    if (next <= 0) {
+    updateQuantity(product, next, selectedSubtypeValue);
+    if (next <= 0 && totalQuantity - currentValue <= 0) {
       setIsStaged(false);
     }
   };
@@ -167,66 +233,104 @@ export function AddToQuoteButton({
   }
 
   return (
-    <div
-      className={cn(
-        "inline-flex items-center gap-1 rounded-4xl border px-1.5 transition-colors focus-within:border-ring focus-within:ring-[3px] focus-within:ring-ring/50",
-        sizeStyles[size].container,
-        containerTone,
-        hasError && "border-destructive/60 focus-within:border-destructive",
-        className
-      )}
-    >
-      <button
-        type="button"
-        onPointerDown={preventFocusShift}
-        onClick={() => handleStep(-1)}
-        disabled={currentValue <= 0}
-        aria-label={tQuote("decreaseQuantity")}
+    <div className={cn("flex flex-col gap-2", className)}>
+      {subtypeConfig && !lockedSubtypeValue ? (
+        <div className="space-y-2">
+          <label className="text-xs font-medium text-muted-foreground">
+            {t(`criteria.${subtypeConfig.criterionKey}`)}
+          </label>
+          <Select
+            value={selectedSubtypeValue}
+            onValueChange={(value) => {
+              if (!value) {
+                return;
+              }
+              if (onSelectedSubtypeValueChange) {
+                onSelectedSubtypeValueChange(value);
+              } else {
+                setSelectedSubtypeValue(product, value);
+              }
+              setDraftQuantity(
+                getQuantity(product, value) > 0
+                  ? String(getQuantity(product, value))
+                  : ""
+              );
+            }}
+          >
+            <SelectTrigger className="w-full rounded-xl bg-background" size="sm">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              {subtypeConfig.options.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      ) : null}
+
+      <div
         className={cn(
-          "inline-flex items-center justify-center rounded-full transition-colors disabled:pointer-events-none disabled:opacity-50",
-          sizeStyles[size].button,
-          stepperButtonTone
+          "inline-flex items-center gap-1 rounded-4xl border px-1.5 transition-colors focus-within:border-ring focus-within:ring-[3px] focus-within:ring-ring/50",
+          sizeStyles[size].container,
+          containerTone,
+          hasError && "border-destructive/60 focus-within:border-destructive"
         )}
       >
-        <Minus className={sizeStyles[size].icon} />
-      </button>
-      <Input
-        ref={setInputRef}
-        type="text"
-        inputMode="numeric"
-        pattern="[0-9]*"
-        value={draftQuantity}
-        onChange={handleChange}
-        onFocus={() => setIsFocused(true)}
-        onBlur={handleBlur}
-        onKeyDown={(event) => {
-          if (event.key === "Enter") {
-            event.currentTarget.blur();
-          }
-        }}
-        aria-label={tQuote("quantity")}
-        aria-invalid={hasError || undefined}
-        placeholder={tQuote("quantity")}
-        className={cn(
-          "h-full flex-1 rounded-3xl border border-input/80 bg-background px-2 py-0 text-center shadow-inner focus-visible:ring-0 focus-visible:ring-offset-0",
-          hasError && "border-destructive/60",
-          sizeStyles[size].input
-        )}
-      />
-      <button
-        type="button"
-        onPointerDown={preventFocusShift}
-        onClick={() => handleStep(1)}
-        disabled={isAtMax}
-        aria-label={tQuote("increaseQuantity")}
-        className={cn(
-          "inline-flex items-center justify-center rounded-full transition-colors disabled:pointer-events-none disabled:opacity-50",
-          sizeStyles[size].button,
-          stepperButtonTone
-        )}
-      >
-        <Plus className={sizeStyles[size].icon} />
-      </button>
+        <button
+          type="button"
+          onPointerDown={preventFocusShift}
+          onClick={() => handleStep(-1)}
+          disabled={currentValue <= 0}
+          aria-label={tQuote("decreaseQuantity")}
+          className={cn(
+            "inline-flex items-center justify-center rounded-full transition-colors disabled:pointer-events-none disabled:opacity-50",
+            sizeStyles[size].button,
+            stepperButtonTone
+          )}
+        >
+          <Minus className={sizeStyles[size].icon} />
+        </button>
+        <Input
+          ref={setInputRef}
+          type="text"
+          inputMode="numeric"
+          pattern="[0-9]*"
+          value={draftQuantity}
+          onChange={handleChange}
+          onFocus={() => setIsFocused(true)}
+          onBlur={handleBlur}
+          onKeyDown={(event) => {
+            if (event.key === "Enter") {
+              event.currentTarget.blur();
+            }
+          }}
+          aria-label={tQuote("quantity")}
+          aria-invalid={hasError || undefined}
+          placeholder={tQuote("quantity")}
+          className={cn(
+            "h-full flex-1 rounded-3xl border border-input/80 bg-background px-2 py-0 text-center shadow-inner focus-visible:ring-0 focus-visible:ring-offset-0",
+            hasError && "border-destructive/60",
+            sizeStyles[size].input
+          )}
+        />
+        <button
+          type="button"
+          onPointerDown={preventFocusShift}
+          onClick={() => handleStep(1)}
+          disabled={isAtMax}
+          aria-label={tQuote("increaseQuantity")}
+          className={cn(
+            "inline-flex items-center justify-center rounded-full transition-colors disabled:pointer-events-none disabled:opacity-50",
+            sizeStyles[size].button,
+            stepperButtonTone
+          )}
+        >
+          <Plus className={sizeStyles[size].icon} />
+        </button>
+      </div>
     </div>
   );
 }

@@ -10,10 +10,9 @@ import {
 	isCategoryKey,
 } from '@/lib/products';
 import { locales } from '@/i18n/config';
-import { AddToQuoteButton } from '@/components/quote/AddToQuoteButton';
 import { Badge } from '@/components/ui/badge';
 import { ProductDetailImage } from '@/components/products/ProductDetailImage';
-import { ProductBadges } from '@/components/products/ProductBadges';
+import { ProductPurchasePanel } from '@/components/products/ProductPurchasePanel';
 import { ProductStatusPill } from '@/components/products/ProductStatusPill';
 import { hasLocale } from 'next-intl';
 import { getCanonicalUrl, BASE_URL, buildPageMetadata } from '@/lib/site-config';
@@ -200,17 +199,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
 								</Badge>
 							) : null}
 							{productBase.comingSoon ? <ProductStatusPill label={t('comingSoon')} /> : null}
-
-							<ProductBadges
-								overallSize={productBase.overallSize}
-								unitPerPack={productBase.unitPerPack}
-								overallSizeLabel={t('overallSize')}
-								unitPerPackLabel={t('unitPerPack')}
-								variant="large"
-							/>
 						</div>
-						{/* Add to Quote */}
-						<AddToQuoteButton product={productBase} size="lg" className="w-full sm:w-auto" />
+						<ProductPurchasePanel
+							product={productBase}
+							overallSizeLabel={t('overallSize')}
+							unitPerPackLabel={t('unitPerPack')}
+						/>
 					</div>
 				</div>
 			</article>
