@@ -12,7 +12,6 @@ import { useQuote, MAX_PACKS_PER_QUOTE_ITEM } from "./QuoteProvider";
 import { ROUTES } from "@/lib/routes";
 import { Loader2 } from "lucide-react";
 import {
-  getProductDisplaySpecs,
   getProductSubtypeConfig,
   ProductSlug,
 } from "@/lib/products";
@@ -37,7 +36,6 @@ type SalesRepOption = (typeof SALES_REP_OPTIONS)[number];
 export type QuoteItem = {
   productName: string;
   itemNumber: string;
-  overallSize: string;
   quantity: number;
   variantLabel?: string;
   variantValue?: string;
@@ -316,13 +314,10 @@ export function QuoteRequestForm({
             return [];
           }
 
-          const displaySpecs = getProductDisplaySpecs(item.product, option.value);
-
           return [
             {
               productName,
               itemNumber: item.product.itemNumber,
-              overallSize: displaySpecs.overallSize,
               quantity,
               variantLabel: subtypeConfig.criterionKey,
               variantValue: option.label,
@@ -339,7 +334,6 @@ export function QuoteRequestForm({
         {
           productName,
           itemNumber: item.product.itemNumber,
-          overallSize: item.product.overallSize,
           quantity: item.quantity,
         },
       ];
