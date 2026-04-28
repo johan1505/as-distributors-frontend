@@ -535,19 +535,25 @@ export function getCategories(): CategoryKey[] {
 	return CATEGORY_KEYS.filter((key) => categories.has(key));
 }
 
+const ITEM_NUMBER_SORTED_CATEGORIES = new Set<CategoryKey>([
+	'canned-fish-tuna',
+	'lamb-goat',
+]);
+
 export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
 	const products = getAllProductsBase().filter((p) => p.categoryKey === categoryKey);
+	const sortByItemNumber = (a: ProductBase, b: ProductBase): number => {
+		const aNumber = Number.parseInt(a.itemNumber, 10);
+		const bNumber = Number.parseInt(b.itemNumber, 10);
 
-	if (categoryKey === 'canned-fish-tuna') {
-		return products.slice().sort((a, b) => {
-			const aNumber = Number.parseInt(a.itemNumber, 10);
-			const bNumber = Number.parseInt(b.itemNumber, 10);
+		if (Number.isNaN(aNumber) && Number.isNaN(bNumber)) return 0;
+		if (Number.isNaN(aNumber)) return 1;
+		if (Number.isNaN(bNumber)) return -1;
+		return aNumber - bNumber;
+	};
 
-			if (Number.isNaN(aNumber) && Number.isNaN(bNumber)) return 0;
-			if (Number.isNaN(aNumber)) return 1;
-			if (Number.isNaN(bNumber)) return -1;
-			return aNumber - bNumber;
-		});
+	if (ITEM_NUMBER_SORTED_CATEGORIES.has(categoryKey)) {
+		return products.slice().sort(sortByItemNumber);
 	}
 
 	if (categoryKey === 'cookies-crackers') {
@@ -575,12 +581,7 @@ export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
 			const bRank = rank(b);
 			if (aRank !== bRank) return aRank - bRank;
 
-			const aNumber = Number.parseInt(a.itemNumber, 10);
-			const bNumber = Number.parseInt(b.itemNumber, 10);
-			if (Number.isNaN(aNumber) && Number.isNaN(bNumber)) return 0;
-			if (Number.isNaN(aNumber)) return 1;
-			if (Number.isNaN(bNumber)) return -1;
-			return aNumber - bNumber;
+			return sortByItemNumber(a, b);
 		});
 	}
 
