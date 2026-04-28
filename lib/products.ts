@@ -26,7 +26,6 @@ export const PRODUCT_SLUGS = [
 	'777-mackerel-tomato-sauce',
 	'brunswick-sardines-soybean-oil',
 	'skipper-tuna-vegetable-oil',
-	'lapana-tongol-chunk-tuna',
 	'old-capital-special-tuna',
 	'sun-bell-tuna',
 	'ovalau-blue-tuna',
@@ -312,7 +311,7 @@ export interface ProductBase {
 	comingSoon?: boolean;
 }
 
-export type ProductCriterionKey = 'size' | 'cut';
+export type ProductCriterionKey = 'size' | 'cut' | 'type';
 
 export interface ProductSubtypeOption {
 	value: string;
@@ -328,8 +327,8 @@ export interface ProductSubtypeConfig {
 	options: ProductSubtypeOption[];
 }
 
-const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig> = {
-	'101': {
+const PRODUCT_SUBTYPE_CONFIG_BY_SLUG: Partial<Record<ProductSlug, ProductSubtypeConfig>> = {
+	'lamb-shoulder-chops': {
 		criterionKey: 'cut',
 		defaultOptionValue: 'BBQ',
 		options: [
@@ -337,7 +336,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig
 			{ value: 'Regular', label: 'Regular' },
 		],
 	},
-	'102': {
+	'lamb-shoulder-chops-prepack': {
 		criterionKey: 'cut',
 		defaultOptionValue: 'BBQ',
 		options: [
@@ -346,7 +345,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig
 			{ value: 'Curry', label: 'Curry' },
 		],
 	},
-	'203': {
+	'punja-red-cow-milk-powder': {
 		criterionKey: 'size',
 		defaultOptionValue: '1kg',
 		options: [
@@ -364,7 +363,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig
 			},
 		],
 	},
-	'517': {
+	'nestle-smarties-50g': {
 		criterionKey: 'size',
 		defaultOptionValue: '50g',
 		options: [
@@ -382,7 +381,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig
 			},
 		],
 	},
-	'518': {
+	'nestle-milkybar-classic': {
 		criterionKey: 'size',
 		defaultOptionValue: '50g',
 		options: [
@@ -400,7 +399,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig
 			},
 		],
 	},
-	'519': {
+	'nestle-kitkat-chunky-milo-44g': {
 		criterionKey: 'size',
 		defaultOptionValue: '50g',
 		options: [
@@ -416,6 +415,14 @@ const PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER: Record<string, ProductSubtypeConfig
 				overallSize: '180 g',
 				unitPerPack: 16,
 			},
+		],
+	},
+	'sun-bell-tuna': {
+		criterionKey: 'type',
+		defaultOptionValue: 'Oil',
+		options: [
+			{ value: 'Oil', label: 'Oil' },
+			{ value: 'Chilli Oil', label: 'Chilli Oil' },
 		],
 	},
 };
@@ -437,6 +444,9 @@ const PRODUCT_DISPLAY_OVERRIDES_BY_ITEM_NUMBER: Record<string, ProductDisplayOve
 	'123': {
 		showUnitPerPack: false,
 	},
+	'124': {
+		showUnitPerPack: false,
+	},
 };
 
 export function getProductImageSource(slug: ProductSlug): string {
@@ -448,13 +458,13 @@ export function getProductImage(slug: ProductSlug): StaticImageData | string {
 }
 
 export function getProductSubtypeConfig(
-	product: Pick<ProductBase, 'itemNumber'>
+	product: Pick<ProductBase, 'slug'>
 ): ProductSubtypeConfig | undefined {
-	return PRODUCT_SUBTYPE_CONFIG_BY_ITEM_NUMBER[product.itemNumber];
+	return PRODUCT_SUBTYPE_CONFIG_BY_SLUG[product.slug];
 }
 
 export function getProductSubtypeOption(
-	product: Pick<ProductBase, 'itemNumber'>,
+	product: Pick<ProductBase, 'slug'>,
 	value?: string
 ): ProductSubtypeOption | undefined {
 	const config = getProductSubtypeConfig(product);
@@ -477,7 +487,7 @@ export function getProductSubtypeOption(
 }
 
 export function getProductDisplaySpecs(
-	product: Pick<ProductBase, 'itemNumber' | 'overallSize' | 'unitPerPack'>,
+	product: Pick<ProductBase, 'slug' | 'itemNumber' | 'overallSize' | 'unitPerPack'>,
 	subtypeValue?: string
 ): { overallSize: string; unitPerPack: number | string; showUnitPerPack: boolean } {
 	const subtypeOption = getProductSubtypeOption(product, subtypeValue);

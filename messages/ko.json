@@ -85,7 +85,8 @@
 		"comingSoon": "출시 예정",
 		"criteria": {
 			"size": "크기",
-			"cut": "절단"
+			"cut": "절단",
+			"type": "유형"
 		}
 	},
 	"quote": {
@@ -533,6 +534,7 @@
 		},
 		"sun-bell-tuna": {
 			"name": "Sun Bell 참치",
+			"subtitle": "(Oil, Chilli Oil)",
 			"description": "깔끔하고 순한 맛의 Sun Bell 참치 캔. 샐러드와 샌드위치에 활용하기 좋습니다.",
 			"seoTitle": "Sun Bell 참치 | A & S Distributors",
 			"seoDescription": "Sun Bell 참치, 순하고 다용도. 도매 가격 제공.",

@@ -85,7 +85,8 @@
 		"comingSoon": "O le a lata mai",
 		"criteria": {
 			"size": "Lapopo'a",
-			"cut": "Tipi"
+			"cut": "Tipi",
+			"type": "Ituaiga"
 		}
 	},
 	"quote": {
@@ -533,6 +534,7 @@
 		},
 		"sun-bell-tuna": {
 			"name": "Sun Bell Tuna",
+			"subtitle": "(Oil, Chilli Oil)",
 			"description": "Sun Bell canned tuna with clean, mild flavor and a flaky bite. Great for quick meals, salads, and sandwiches.",
 			"seoTitle": "Sun Bell Tuna | A & S Distributors",
 			"seoDescription": "Sun Bell Tuna, mild and versatile. Wholesale pricing available.",

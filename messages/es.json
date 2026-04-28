@@ -85,7 +85,8 @@
 		"comingSoon": "Próximamente",
 		"criteria": {
 			"size": "Tamaño",
-			"cut": "Corte"
+			"cut": "Corte",
+			"type": "Tipo"
 		}
 	},
 	"quote": {
@@ -533,6 +534,7 @@
 		},
 		"sun-bell-tuna": {
 			"name": "Sun Bell Atún",
+			"subtitle": "(Oil, Chilli Oil)",
 			"description": "Atún enlatado Sun Bell de sabor limpio y suave, con textura desmenuzable. Ideal para comidas rápidas, ensaladas y sándwiches.",
 			"seoTitle": "Sun Bell Atún | A & S Distributors",
 			"seoDescription": "Sun Bell atún, suave y versátil. Precios al por mayor disponibles.",

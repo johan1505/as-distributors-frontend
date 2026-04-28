@@ -238,7 +238,6 @@ import imgPopsKolaCan355ml from '@/public/images/pops-kola-can-355ml.png';
 import imgPopsOrangeCan355ml from '@/public/images/pops-orange-can-355ml.png';
 import imgPopsPineappleCan355ml from '@/public/images/pops-pineapple-can-355ml.png';
 import imgPopsLimeCan355ml from '@/public/images/pops-lime-can-355ml.png';
-import imgLapanaTongolChunkTuna from '@/public/images/lapana-tongol-chunk-tuna.png';
 import imgOldCapitalSpecialTuna from '@/public/images/old-capital-special-tuna.png';
 import imgSunBellTuna from '@/public/images/sun-bell-tuna.png';
 import imgOvalauBlueTuna from '@/public/images/ovalau-blue-tuna.png';
@@ -482,7 +481,6 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'pops-orange-can-355ml': imgPopsOrangeCan355ml,
 	'pops-pineapple-can-355ml': imgPopsPineappleCan355ml,
 	'pops-lime-can-355ml': imgPopsLimeCan355ml,
-	'lapana-tongol-chunk-tuna': imgLapanaTongolChunkTuna,
 	'old-capital-special-tuna': imgOldCapitalSpecialTuna,
 	'sun-bell-tuna': imgSunBellTuna,
 	'ovalau-blue-tuna': imgOvalauBlueTuna,
@@ -728,7 +726,6 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'pops-orange-can-355ml': '/images/pops-orange-can-355ml.png',
 	'pops-pineapple-can-355ml': '/images/pops-pineapple-can-355ml.png',
 	'pops-lime-can-355ml': '/images/pops-lime-can-355ml.png',
-	'lapana-tongol-chunk-tuna': '/images/lapana-tongol-chunk-tuna.png',
 	'old-capital-special-tuna': '/images/old-capital-special-tuna.png',
 	'sun-bell-tuna': '/images/sun-bell-tuna.png',
 	'ovalau-blue-tuna': '/images/ovalau-blue-tuna.png',
