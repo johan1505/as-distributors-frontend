@@ -98,6 +98,7 @@ export const PRODUCT_SLUGS = [
 	'guru-lucky-spicy-garlic-peas',
 	'guru-lucky-peas-peanuts',
 	'guru-lucky-cornflakes-chewra',
+	'guru-lucky-lakhri-meethai',
 	'bongo-cheese-snack-156gr',
 	'bongo-cheese-snack-64gr',
 	'bongo-cheese-snack-28gr',

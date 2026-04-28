@@ -684,7 +684,7 @@
 			"imageAlt": "Punjas 코코넛 오일 병"
 		},
 		"lamb-shoulder-whole": {
-			"name": "양 어깨살 통째",
+			"name": "N.Z. Spring 양 어깨살 통째",
 			"description": "프리미엄 뉴질랜드 양 어깨살, 통째. 자체 USDA 인증 시설에서 절단. 로스팅, 찜, 느린 조리에 완벽. 초식 양의 풍부하고 육즙 많은 고기.",
 			"seoTitle": "뉴질랜드 양 어깨살 통째 | A & S Distributors",
 			"seoDescription": "프리미엄 뉴질랜드 양 어깨살, USDA 인증. 로스팅에 완벽. 도매 가격 제공.",
@@ -1259,6 +1259,14 @@
 			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
 			"imageAlt": "Package of Cornflakes Chewra"
 		},
+		"guru-lucky-lakhri-meethai": {
+			"name": "Lakhri Meethai",
+			"description": "설탕이 가볍게 입혀진 황금빛 스틱 스낵으로, 섬세한 바삭함과 추억을 떠올리게 하는 달콤함이 매력적입니다. Guru Lucky Lakhri Meethai는 차와 함께 즐기기 좋고, 명절이나 모임에서 나누기에도 잘 어울립니다.",
+			"seoTitle": "Guru Lucky Lakhri Meethai | A & S Distributors",
+			"seoDescription": "Guru Lucky Lakhri Meethai, 설탕 코팅의 바삭한 달콤 스틱 스낵. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky Lakhri Meethai, 달콤한 스틱 스낵, 인도-피지안 디저트, wholesale snacks",
+			"imageAlt": "Package of Lakhri Meethai"
+		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO 치즈",
 			"description": "진짜 치즈 맛이 가득한 가볍고 통통한 콘 퍼프. BONGO는 30년 이상 태평양 전역에서 인기를 끌어왔습니다. 이 구운(튀기지 않은) 스낵은 할랄 인증을 받았으며 이동 중 간식으로 완벽합니다.",
@@ -1796,7 +1804,7 @@
 			"imageAlt": "Punjas 티 마살라 상자"
 		},
 		"lamb-shoulder-chops": {
-			"name": "양 어깨살 찹",
+			"name": "N.Z. Spring 양 어깨살 찹",
 			"description": "카레, 스튜, 케밥용으로 균일한 큐브로 자른 뉴질랜드 양고기. 초식으로 키우고 일관된 품질을 위해 USDA 인증 시설에서 가공됩니다. 빠른 식사 준비를 위해 바로 조리 가능.",
 			"seoTitle": "뉴질랜드 양고기 깍둑썰기 | A & S Distributors",
 			"seoDescription": "카레와 스튜용 깍둑썰기 뉴질랜드 양고기. USDA 인증. 도매 가격 제공.",
@@ -1805,7 +1813,7 @@
 			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
-			"name": "양 어깨살 찹 프리팩",
+			"name": "N.Z. Spring 양 어깨살 찹 프리팩",
 			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "깍둑썰기한 뉴질랜드 양고기의 편리한 사전 포장 1인분. 각 팩에는 레시피에 바로 사용할 수 있는 완벽하게 큐브 자른 고기가 들어 있습니다. 일관된 1인분 사이즈를 원하는 소매업체와 가정에 이상적.",
 			"seoTitle": "양고기 깍둑썰기 프리팩 1인분 | A & S Distributors",
@@ -1814,7 +1822,7 @@
 			"imageAlt": "양 어깨살 찹 프리팩 부위"
 		},
 		"lamb-neck-whole": {
-			"name": "양 목살 통째",
+			"name": "N.Z. Spring 양 목살 통째",
 			"description": "느린 조리에 적합한 맛있는 부위로 알려진 뉴질랜드산 양 목살 통째. 브레이징 중에 결합 조직이 분해되어 풍부하고 육즙 가득한 고기가 됩니다. 전통적인 태평양 섬과 중동 요리에서 인기.",
 			"seoTitle": "브레이징용 양 목살 통째 | A & S Distributors",
 			"seoDescription": "느린 조리와 브레이징용 양 목살 통째. 풍부한 맛. 도매 가격 제공.",
@@ -1822,7 +1830,7 @@
 			"imageAlt": "양 목살 통째 부위"
 		},
 		"lamb-neck-sliced": {
-			"name": "양 목살 슬라이스",
+			"name": "N.Z. Spring 양 목살 슬라이스",
 			"description": "더 쉬운 조리를 위해 메달리온 모양으로 자른 뉴질랜드 양 목살. 이 교차 절단 슬라이스는 갈색으로 익히기 위한 더 넓은 표면적을 노출시키면서 조리 시간을 줄입니다. 수프, 스튜, 카레에 완벽.",
 			"seoTitle": "양 목살 슬라이스 메달리온 | A & S Distributors",
 			"seoDescription": "더 쉬운 조리, 훌륭한 맛의 양 목살 슬라이스 메달리온. 도매 가격 제공.",
@@ -1830,7 +1838,7 @@
 			"imageAlt": "양 목살 슬라이스 부위"
 		},
 		"lamb-neck-sliced-prepack": {
-			"name": "양 목살 슬라이스 프리팩",
+			"name": "N.Z. Spring 양 목살 슬라이스 프리팩",
 			"description": "편리한 소매용 1인분으로 사전 포장된 슬라이스 양 목살. 각 팩에는 가족 식사에 완벽한 목살 메달리온이 들어 있습니다. 동일한 품질의 절단, 1인분으로 포장되어 바로 판매하거나 조리 가능.",
 			"seoTitle": "양 목살 슬라이스 프리팩 | A & S Distributors",
 			"seoDescription": "사전 포장된 슬라이스 양 목살. 소매용 1인분. 도매 가격 제공.",
@@ -1838,7 +1846,7 @@
 			"imageAlt": "양 목살 슬라이스 프리팩 부위"
 		},
 		"lamb-leg-whole": {
-			"name": "양 다리 통째",
+			"name": "N.Z. Spring 양 다리 통째",
 			"description": "클래식 센터피스 로스트인 뉴질랜드 양 다리 통째. 초식 양의 살코기이며 부드러운 고기로 허브와 마늘로 로스팅하기에 완벽합니다. 특별한 날과 일요일 저녁 식사에 많은 사람을 대접합니다.",
 			"seoTitle": "양 다리 통째 로스트 | A & S Distributors",
 			"seoDescription": "로스팅용 뉴질랜드 양 다리 통째. 클래식 센터피스. 도매 가격 제공.",
@@ -1846,7 +1854,7 @@
 			"imageAlt": "양 다리 통째 부위"
 		},
 		"lamb-leg-sliced-prepack": {
-			"name": "양 다리 슬라이스 프리팩",
+			"name": "N.Z. Spring 양 다리 슬라이스 프리팩",
 			"description": "편의를 위해 스테이크로 슬라이스하고 사전 포장된 뼈 없는 양 다리. 그릴, 팬 프라이, 빠른 로스팅에 완벽한 살코기의 다용도 부위. 사용하기 쉬운 1인분의 통 다리 품질.",
 			"seoTitle": "양 다리 스테이크 프리팩 | A & S Distributors",
 			"seoDescription": "사전 포장된 양 다리 스테이크. 살코기이고 다용도. 도매 가격 제공.",

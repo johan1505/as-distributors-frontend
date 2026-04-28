@@ -1051,6 +1051,14 @@
 			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
 			"imageAlt": "Package of Cornflakes Chewra"
 		},
+		"guru-lucky-lakhri-meethai": {
+			"name": "Lakhri Meethai",
+			"description": "金黄酥脆的甜点小条裹着一层细糖，入口轻脆，带着节庆零食般的怀旧甜香。Guru Lucky Lakhri Meethai 很适合配茶享用，也很适合在聚会和节日场合分享。",
+			"seoTitle": "Guru Lucky Lakhri Meethai | A & S Distributors",
+			"seoDescription": "Guru Lucky Lakhri Meethai，带糖衣的香脆甜点小条。Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky Lakhri Meethai, 甜味小食条, 印裔斐济甜点, wholesale snacks",
+			"imageAlt": "Package of Lakhri Meethai"
+		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO 芝士",
 			"description": "轻盈蓬松的玉米泡芙，充满真正芝士风味。BONGO在太平洋地区深受喜爱超过30年。这些烘焙（非油炸）零食获得清真认证，非常适合随时随地享用。",
@@ -1628,7 +1636,7 @@
 			"imageAlt": "Punjas茶马沙拉盒装"
 		},
 		"lamb-shoulder-whole": {
-			"name": "整羊肩",
+			"name": "N.Z. Spring 整羊肩",
 			"description": "优质新西兰整羊肩。在我们自己的USDA认证设施中切割。非常适合烘烤、焖煮或慢炖。来自草饲羊的浓郁多汁肉。",
 			"seoTitle": "新西兰整羊肩 | A & S Distributors",
 			"seoDescription": "优质新西兰羊肩，USDA认证。非常适合烘烤。提供批发价格。",
@@ -1636,7 +1644,7 @@
 			"imageAlt": "整羊肩切块"
 		},
 		"lamb-shoulder-chops": {
-			"name": "羊肩排",
+			"name": "N.Z. Spring 羊肩排",
 			"description": "新西兰羊肉切成均匀的小块，适合咖喱、炖菜和烤串。草饲羊肉在我们的USDA认证设施中加工，品质始终如一。即可烹饪，快速准备餐食。",
 			"seoTitle": "新西兰羊肉丁 | A & S Distributors",
 			"seoDescription": "适合咖喱和炖菜的新西兰羊肉丁。USDA认证。提供批发价格。",
@@ -1645,7 +1653,7 @@
 			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
-			"name": "羊肩排预包装",
+			"name": "N.Z. Spring 羊肩排预包装",
 			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "方便的新西兰羊肉丁预包装份量。每包含有完美切块的肉，随时可用于您的食谱。非常适合需要一致份量规格的零售商和家庭。",
 			"seoTitle": "羊肉丁预包装份量 | A & S Distributors",
@@ -1654,7 +1662,7 @@
 			"imageAlt": "羊肩排预包装"
 		},
 		"lamb-neck-whole": {
-			"name": "整羊颈",
+			"name": "N.Z. Spring 整羊颈",
 			"description": "来自新西兰的整羊颈，一种因慢炖而备受珍视的美味部位。结缔组织在焖煮过程中分解，创造出丰富多汁的肉。传统太平洋岛屿和中东菜肴的最爱。",
 			"seoTitle": "焖煮用整羊颈 | A & S Distributors",
 			"seoDescription": "适合慢炖和焖煮的整羊颈。浓郁风味。提供批发价格。",
@@ -1662,7 +1670,7 @@
 			"imageAlt": "整羊颈切块"
 		},
 		"lamb-neck-sliced": {
-			"name": "羊颈切片",
+			"name": "N.Z. Spring 羊颈切片",
 			"description": "新西兰羊颈切成片状以便更容易烹饪。这些横切片暴露更多表面积以便煎焦，同时减少烹饪时间。非常适合汤、炖菜和咖喱。",
 			"seoTitle": "羊颈片 | A & S Distributors",
 			"seoDescription": "羊颈片。更容易烹饪，美味可口。提供批发价格。",
@@ -1670,7 +1678,7 @@
 			"imageAlt": "羊颈切片切块"
 		},
 		"lamb-neck-sliced-prepack": {
-			"name": "羊颈切片预包装",
+			"name": "N.Z. Spring 羊颈切片预包装",
 			"description": "方便的零售就绪份量预包装羊颈切片。每包含有适合家庭餐的颈肉片。同样品质的切块，已分装好随时可售或烹饪。",
 			"seoTitle": "羊颈切片预包装 | A & S Distributors",
 			"seoDescription": "预包装羊颈切片。零售就绪份量。提供批发价格。",
@@ -1678,7 +1686,7 @@
 			"imageAlt": "羊颈切片预包装切块"
 		},
 		"lamb-leg-whole": {
-			"name": "整羊腿",
+			"name": "N.Z. Spring 整羊腿",
 			"description": "整只新西兰羊腿，经典的主菜烤肉。来自草饲羊的瘦嫩肉，非常适合与香草和大蒜一起烘烤。适合特殊场合和周日晚餐招待大量客人。",
 			"seoTitle": "整羊腿烤肉 | A & S Distributors",
 			"seoDescription": "烘烤用整只新西兰羊腿。经典主菜。提供批发价格。",
@@ -1686,7 +1694,7 @@
 			"imageAlt": "整羊腿切块"
 		},
 		"lamb-leg-sliced-prepack": {
-			"name": "羊腿切片预包装",
+			"name": "N.Z. Spring 羊腿切片预包装",
 			"description": "去骨羊腿切成牛排并预包装以方便使用。瘦肉多用途切块，非常适合烧烤、煎炒或快速烘烤。整腿的所有品质，以易于使用的份量呈现。",
 			"seoTitle": "羊腿牛排预包装 | A & S Distributors",
 			"seoDescription": "预包装羊腿牛排。瘦肉多用途。提供批发价格。",

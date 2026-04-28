@@ -91,6 +91,7 @@ import imgGuruLuckyFijiMix from '@/public/images/guru-lucky-fiji-mix.jpeg';
 import imgGuruLuckySpicyGarlicPeas from '@/public/images/guru-lucky-spicy-garlic-peas.jpeg';
 import imgGuruLuckyPeasPeanuts from '@/public/images/guru-lucky-peas-peanuts.jpeg';
 import imgGuruLuckyCornflakesChewra from '@/public/images/guru-lucky-cornflakes-chewra.jpeg';
+import imgGuruLuckyLakhriMeethai from '@/public/images/guru-lucky-lakhri-meethai.png';
 import imgBongoCheeseSnack156gr from '@/public/images/bongo-cheese-snack-156gr.png';
 import imgBongoCheeseSnack64gr from '@/public/images/bongo-cheese-snack-64gr.png';
 import imgBongoCheeseSnack28gr from '@/public/images/bongo-cheese-snack-28gr.png';
@@ -334,6 +335,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'guru-lucky-spicy-garlic-peas': imgGuruLuckySpicyGarlicPeas,
 	'guru-lucky-peas-peanuts': imgGuruLuckyPeasPeanuts,
 	'guru-lucky-cornflakes-chewra': imgGuruLuckyCornflakesChewra,
+	'guru-lucky-lakhri-meethai': imgGuruLuckyLakhriMeethai,
 	'bongo-cheese-snack-156gr': imgBongoCheeseSnack156gr,
 	'bongo-cheese-snack-64gr': imgBongoCheeseSnack64gr,
 	'bongo-cheese-snack-28gr': imgBongoCheeseSnack28gr,
@@ -579,6 +581,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'guru-lucky-spicy-garlic-peas': '/images/guru-lucky-spicy-garlic-peas.jpeg',
 	'guru-lucky-peas-peanuts': '/images/guru-lucky-peas-peanuts.jpeg',
 	'guru-lucky-cornflakes-chewra': '/images/guru-lucky-cornflakes-chewra.jpeg',
+	'guru-lucky-lakhri-meethai': '/images/guru-lucky-lakhri-meethai.png',
 	'bongo-cheese-snack-156gr': '/images/bongo-cheese-snack-156gr.png',
 	'bongo-cheese-snack-64gr': '/images/bongo-cheese-snack-64gr.png',
 	'bongo-cheese-snack-28gr': '/images/bongo-cheese-snack-28gr.png',

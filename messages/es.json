@@ -1051,6 +1051,14 @@
 			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
 			"imageAlt": "Package of Cornflakes Chewra"
 		},
+		"guru-lucky-lakhri-meethai": {
+			"name": "Lakhri Meethai",
+			"description": "Palitos dorados cubiertos de azucar con un crujido delicado y una dulzura nostalgica de feria. Guru Lucky Lakhri Meethai aporta un toque alegre al anaquel y combina perfecto con te o para compartir en celebraciones.",
+			"seoTitle": "Guru Lucky Lakhri Meethai | A & S Distributors",
+			"seoDescription": "Guru Lucky Lakhri Meethai, palitos dulces y crujientes con acabado azucarado. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky Lakhri Meethai, palitos dulces, dulces indo-fiyianos, wholesale snacks",
+			"imageAlt": "Paquete de Lakhri Meethai"
+		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO Queso",
 			"description": "Puffs de maíz ligeros y aireados con verdadero sabor a queso. BONGO ha sido favorito en todo el Pacífico por más de 30 años. Estos snacks horneados (no fritos) están certificados halal y son perfectos para snackear sobre la marcha.",
@@ -1628,7 +1636,7 @@
 			"imageAlt": "Caja de Punjas Tea Masala"
 		},
 		"lamb-shoulder-whole": {
-			"name": "Lamb Shoulder Whole",
+			"name": "N.Z. Spring Lamb Shoulder Whole",
 			"description": "Paleta de cordero premium de Nueva Zelanda, entera. Cortada en nuestra propia instalación certificada USDA. Perfecta para asar, brasear o cocción lenta. Carne rica y suculenta de corderos alimentados con pasto.",
 			"seoTitle": "Paleta de Cordero de Nueva Zelanda Entera | A & S Distributors",
 			"seoDescription": "Paleta de cordero premium de Nueva Zelanda, certificada USDA. Perfecta para asar. Precios al por mayor disponibles.",
@@ -1636,7 +1644,7 @@
 			"imageAlt": "Corte de Lamb Shoulder Whole"
 		},
 		"lamb-shoulder-chops": {
-			"name": "Lamb Shoulder Chops",
+			"name": "N.Z. Spring Lamb Shoulder Chops",
 			"subtitle": "(BBQ, Reg)",
 			"description": "Cordero de Nueva Zelanda cortado en cubos uniformes para curries, estofados y kebabs. Alimentado con pasto y procesado en nuestra instalación certificada USDA para calidad consistente. Listo para cocinar para preparación rápida de comidas.",
 			"seoTitle": "Cordero de Nueva Zelanda en Cubos | A & S Distributors",
@@ -1646,7 +1654,7 @@
 			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
-			"name": "Lamb Shoulder Chops Prepack",
+			"name": "N.Z. Spring Lamb Shoulder Chops Prepack",
 			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "Porciones pre-empacadas convenientes de cordero en cubos de Nueva Zelanda. Cada paquete contiene carne perfectamente cortada lista para tus recetas. Ideal para minoristas y hogares que quieren tamaños de porción consistentes.",
 			"seoTitle": "Cordero en Cubos Prepack Porciones | A & S Distributors",
@@ -1655,7 +1663,7 @@
 			"imageAlt": "Corte de Lamb Shoulder Chops Prepack"
 		},
 		"lamb-neck-whole": {
-			"name": "Lamb Neck Whole",
+			"name": "N.Z. Spring Lamb Neck Whole",
 			"description": "Cuellos de cordero enteros de Nueva Zelanda, un corte sabroso preciado para cocción lenta. El tejido conectivo se deshace durante el braseado para crear carne rica y suculenta. Un favorito para platos tradicionales de las Islas del Pacífico y Medio Oriente.",
 			"seoTitle": "Cuello de Cordero Entero para Brasear | A & S Distributors",
 			"seoDescription": "Cuello de cordero entero para cocción lenta y braseado. Rico sabor. Precios al por mayor disponibles.",
@@ -1663,7 +1671,7 @@
 			"imageAlt": "Corte de Lamb Neck Whole"
 		},
 		"lamb-neck-sliced": {
-			"name": "Lamb Neck Sliced",
+			"name": "N.Z. Spring Lamb Neck Sliced",
 			"description": "Cuello de cordero de Nueva Zelanda cortado en medallones para cocina más fácil. Estos cortes transversales exponen más superficie para dorar mientras reducen el tiempo de cocción. Perfecto para sopas, estofados y curries.",
 			"seoTitle": "Cuello de Cordero en Medallones | A & S Distributors",
 			"seoDescription": "Medallones de cuello de cordero en rebanadas. Cocina más fácil, gran sabor. Precios al por mayor disponibles.",
@@ -1671,7 +1679,7 @@
 			"imageAlt": "Corte de Lamb Neck Sliced"
 		},
 		"lamb-neck-sliced-prepack": {
-			"name": "Lamb Neck Sliced Prepack",
+			"name": "N.Z. Spring Lamb Neck Sliced Prepack",
 			"description": "Cuello de cordero en rebanadas pre-empacado en convenientes porciones listas para minoristas. Cada paquete contiene medallones de cuello perfectos para una comida familiar. El mismo corte de calidad, porcionado y listo para vender o cocinar.",
 			"seoTitle": "Cuello de Cordero en Rebanadas Prepack | A & S Distributors",
 			"seoDescription": "Cuello de cordero en rebanadas pre-empacado. Porciones listas para minoristas. Precios al por mayor disponibles.",
@@ -1679,7 +1687,7 @@
 			"imageAlt": "Corte de Lamb Neck Sliced Prepack"
 		},
 		"lamb-leg-whole": {
-			"name": "Lamb Leg Whole",
+			"name": "N.Z. Spring Lamb Leg Whole",
 			"description": "Pierna entera de cordero de Nueva Zelanda, el clásico asado central. Carne magra y tierna de corderos alimentados con pasto, perfecta para asar con hierbas y ajo. Alimenta a un grupo para ocasiones especiales y cenas dominicales.",
 			"seoTitle": "Pierna de Cordero Entera para Asar | A & S Distributors",
 			"seoDescription": "Pierna entera de cordero de Nueva Zelanda para asar. Clásica pieza central. Precios al por mayor disponibles.",
@@ -1687,7 +1695,7 @@
 			"imageAlt": "Corte de Lamb Leg Whole"
 		},
 		"lamb-leg-sliced-prepack": {
-			"name": "Lamb Leg Sliced Prepack",
+			"name": "N.Z. Spring Lamb Leg Sliced Prepack",
 			"description": "Pierna de cordero deshuesada cortada en filetes y pre-empacada para conveniencia. Cortes magros y versátiles perfectos para asar a la parrilla, freír en sartén o asar rápido. Toda la calidad de la pierna entera en porciones fáciles de usar.",
 			"seoTitle": "Filetes de Pierna de Cordero Prepack | A & S Distributors",
 			"seoDescription": "Filetes de pierna de cordero pre-empacados. Magros y versátiles. Precios al por mayor disponibles.",

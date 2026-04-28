@@ -1051,6 +1051,14 @@
 			"seoKeywords": "Guru Lucky cornflakes chewra, chewra snack, savory snacks, wholesale snacks",
 			"imageAlt": "Package of Cornflakes Chewra"
 		},
+		"guru-lucky-lakhri-meethai": {
+			"name": "Lakhri Meethai",
+			"description": "O fasi suamalie lanu auro ua ufiufi i le suka ma e iai le crunch malu ma le tofo e toe manatua ai aso fiafia. Guru Lucky Lakhri Meethai e lelei mo le ti, mo fa'amanatuga, ma mo le fa'asoa i taimi fiafia.",
+			"seoTitle": "Guru Lucky Lakhri Meethai | A & S Distributors",
+			"seoDescription": "Guru Lucky Lakhri Meethai, fasi suamalie ma crunchy ma le ufiufi suka. Wholesale pricing available.",
+			"seoKeywords": "Guru Lucky Lakhri Meethai, snacks suamalie, suamalie Indo-Fiti, wholesale snacks",
+			"imageAlt": "Package of Lakhri Meethai"
+		},
 		"bongo-cheese-snack-156gr": {
 			"name": "BONGO Sisi",
 			"description": "Mea'ai sikaleti malo ma le manogi sisi moni. BONGO ua fiafia i ai le Pasefika mo le sili atu i le 30 tausaga. O nei mea'ai tunu (e le falai) e halal fa'amaonia ma lelei mo mea'ai itiiti i so'o se taimi.",
@@ -1628,7 +1636,7 @@
 			"imageAlt": "Pusa o Punjas Tea Masala"
 		},
 		"lamb-shoulder-whole": {
-			"name": "Mamoe Tau'au Atoa",
+			"name": "N.Z. Spring Mamoe Tau'au Atoa",
 			"description": "Mamoe tau'au maualuga Niu Sila, atoa. Tipi i lo matou lava fale USDA fa'amaonia. Lelei mo tunu, kuka vevela, pe kuka tuai. Aano suamalie, susu mai mamoe fafaga mutia.",
 			"seoTitle": "Mamoe Tau'au Atoa Niu Sila | A & S Distributors",
 			"seoDescription": "Mamoe tau'au maualuga Niu Sila, USDA fa'amaonia. Lelei mo tunu. Tau fa'atau tele e maua.",
@@ -1636,7 +1644,7 @@
 			"imageAlt": "Tipi o Mamoe Tau'au Atoa"
 		},
 		"lamb-shoulder-chops": {
-			"name": "Lamb Shoulder Chops",
+			"name": "N.Z. Spring Lamb Shoulder Chops",
 			"description": "Mamoe Niu Sila tipi i fasi tutusa mo kare, stews, ma kebabs. Fafaga mutia ma galueaina i lo matou fale USDA fa'amaonia mo le tulaga tutusa. Ua saunia e kuka mo le saunauga mea'ai vave.",
 			"seoTitle": "Mamoe Tipi Niu Sila | A & S Distributors",
 			"seoDescription": "Mamoe tipi Niu Sila mo kare ma stews. USDA fa'amaonia. Tau fa'atau tele e maua.",
@@ -1645,7 +1653,7 @@
 			"subtitle": "(BBQ, Reg)"
 		},
 		"lamb-shoulder-chops-prepack": {
-			"name": "Lamb Shoulder Chops Prepack",
+			"name": "N.Z. Spring Lamb Shoulder Chops Prepack",
 			"subtitle": "(BBQ, Reg, Curry cut)",
 			"description": "Fasi fa'apusa faigofie o mamoe tipi Niu Sila. E iai i pusa uma aano tipi lelei ua saunia mo au fa'atonuga. Sili mo tagata fa'atau oloa ma aiga e mana'o i lapopo'a fasi tutusa.",
 			"seoTitle": "Mamoe Tipi Prepack Fasi | A & S Distributors",
@@ -1654,7 +1662,7 @@
 			"imageAlt": "Lamb Shoulder Chops Prepack"
 		},
 		"lamb-neck-whole": {
-			"name": "Mamoe Ua Atoa",
+			"name": "N.Z. Spring Mamoe Ua Atoa",
 			"description": "Ua mamoe atoa mai Niu Sila, o se tipi manogi taua mo kuka tuai. O le tissue fa'afeso'otai e malepe i le taimi o le braising e faia ai aano suamalie, susu. O se mea fiafia mo mea'ai masani o le Pasefika ma Sasa'e Tutotonu.",
 			"seoTitle": "Mamoe Ua Atoa mo Braising | A & S Distributors",
 			"seoDescription": "Mamoe ua atoa mo kuka tuai ma braising. Manogi suamalie. Tau fa'atau tele e maua.",
@@ -1662,7 +1670,7 @@
 			"imageAlt": "Tipi o Mamoe Ua Atoa"
 		},
 		"lamb-neck-sliced": {
-			"name": "Mamoe Ua Tipi",
+			"name": "N.Z. Spring Mamoe Ua Tipi",
 			"description": "Mamoe ua Niu Sila tipi i medalions mo kuka faigofie atu. O nei tipi fa'asae e fa'aali ai le tele o le luga mo le fa'amumu a'o fa'aitiitia le taimi kuka. Lelei mo supo, stews, ma kare.",
 			"seoTitle": "Mamoe Ua Tipi Medalions | A & S Distributors",
 			"seoDescription": "Medalions mamoe ua tipi. Kuka faigofie atu, manogi lelei. Tau fa'atau tele e maua.",
@@ -1670,7 +1678,7 @@
 			"imageAlt": "Tipi o Mamoe Ua Tipi"
 		},
 		"lamb-neck-sliced-prepack": {
-			"name": "Mamoe Ua Tipi Prepack",
+			"name": "N.Z. Spring Mamoe Ua Tipi Prepack",
 			"description": "Mamoe ua tipi fa'apusa i fasi faigofie ua saunia mo fa'atau oloa. E iai i pusa uma medalions ua e lelei mo mea'ai aiga. O le tipi lelei lava lea, fa'apusa ma saunia e fa'atau pe kuka.",
 			"seoTitle": "Mamoe Ua Tipi Prepack | A & S Distributors",
 			"seoDescription": "Mamoe ua tipi fa'apusa. Fasi saunia mo fa'atau oloa. Tau fa'atau tele e maua.",
@@ -1678,7 +1686,7 @@
 			"imageAlt": "Tipi o Mamoe Ua Tipi Prepack"
 		},
 		"lamb-leg-whole": {
-			"name": "Mamoe Vae Atoa",
+			"name": "N.Z. Spring Mamoe Vae Atoa",
 			"description": "Vae atoa o le mamoe Niu Sila, o le tunu autu masani. Aano mama, vaivai mai mamoe fafaga mutia, lelei mo tunu ma mea manogi ma garlic. E fafaga se motu mo mea fa'apitoa ma taeao Aso Sa.",
 			"seoTitle": "Mamoe Vae Atoa Tunu | A & S Distributors",
 			"seoDescription": "Mamoe vae Niu Sila atoa mo tunu. Mea autu masani. Tau fa'atau tele e maua.",
@@ -1686,7 +1694,7 @@
 			"imageAlt": "Tipi o Mamoe Vae Atoa"
 		},
 		"lamb-leg-sliced-prepack": {
-			"name": "Mamoe Vae Tipi Prepack",
+			"name": "N.Z. Spring Mamoe Vae Tipi Prepack",
 			"description": "Mamoe vae e leai ni ivi tipi i steaks ma fa'apusa mo le faigofie. Tipi mama, fa'aaoga tele e lelei mo sulu, pan-fry, pe tunu vave. O le lelei uma o le vae atoa i fasi faigofie ona fa'aaoga.",
 			"seoTitle": "Mamoe Vae Steaks Prepack | A & S Distributors",
 			"seoDescription": "Mamoe vae steaks fa'apusa. Mama ma fa'aaoga tele. Tau fa'atau tele e maua.",
