@@ -345,7 +345,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_SLUG: Partial<Record<ProductSlug, ProductSubtype
 			{ value: 'Curry', label: 'Curry' },
 		],
 	},
-	'punja-red-cow-milk-powder': {
+	'pink-taro': {
 		criterionKey: 'size',
 		defaultOptionValue: '1kg',
 		options: [
@@ -363,7 +363,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_SLUG: Partial<Record<ProductSlug, ProductSubtype
 			},
 		],
 	},
-	'nestle-smarties-50g': {
+	'cadbury-dream-bars': {
 		criterionKey: 'size',
 		defaultOptionValue: '50g',
 		options: [
@@ -381,7 +381,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_SLUG: Partial<Record<ProductSlug, ProductSubtype
 			},
 		],
 	},
-	'nestle-milkybar-classic': {
+	'cadbury-fruit-nut': {
 		criterionKey: 'size',
 		defaultOptionValue: '50g',
 		options: [
@@ -399,7 +399,7 @@ const PRODUCT_SUBTYPE_CONFIG_BY_SLUG: Partial<Record<ProductSlug, ProductSubtype
 			},
 		],
 	},
-	'nestle-kitkat-chunky-milo-44g': {
+	'cadbury-dairy-milk-bar': {
 		criterionKey: 'size',
 		defaultOptionValue: '50g',
 		options: [
