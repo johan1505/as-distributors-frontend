@@ -535,10 +535,7 @@ export function getCategories(): CategoryKey[] {
 	return CATEGORY_KEYS.filter((key) => categories.has(key));
 }
 
-const ITEM_NUMBER_SORTED_CATEGORIES = new Set<CategoryKey>([
-	'canned-fish-tuna',
-	'lamb-goat',
-]);
+const ITEM_NUMBER_SORTED_CATEGORIES = new Set<CategoryKey>(['canned-fish-tuna', 'lamb-goat']);
 
 export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
 	const products = getAllProductsBase().filter((p) => p.categoryKey === categoryKey);
