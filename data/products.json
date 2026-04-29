@@ -289,7 +289,7 @@
 	},
 	{
 		"slug": "pacific-crown-breadfruit",
-		"itemNumber": "TBD",
+		"itemNumber": "430",
 		"unitPerPack": 24,
 		"overallSize": "14 oz",
 		"categoryKey": "canned-vegetables",
@@ -1242,8 +1242,8 @@
 	{
 		"slug": "punja-red-cow-milk-powder",
 		"itemNumber": "393",
-		"unitPerPack": "TBD",
-		"overallSize": "450 g",
+		"unitPerPack": "24",
+		"overallSize": "400 g",
 		"categoryKey": "dairy",
 		"featured": false
 	},
