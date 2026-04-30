@@ -150,9 +150,8 @@
 				"salesRepRequired": "영업 담당자를 선택해 주세요",
 				"agreedToContactRequired": "이 요청을 제출하려면 연락 동의가 필요합니다"
 			},
-			"item": "항목",
-			"items": "항목",
-			"itemsInQuote": "견적 항목"
+			"item": "케이스",
+			"items": "케이스"
 		}
 	},
 	"sales": {

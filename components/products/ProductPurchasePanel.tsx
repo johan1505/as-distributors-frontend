@@ -41,7 +41,7 @@ export function ProductPurchasePanel({
         selectedSubtypeValue={selectedSubtypeValue}
         onSelectedSubtypeValueChange={setSelectedSubtypeValue}
         size="lg"
-        className="w-full sm:w-auto"
+        className="w-full sm:w-64"
       />
     </div>
   );

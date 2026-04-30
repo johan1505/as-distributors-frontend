@@ -71,8 +71,8 @@ export function SubmitQuoteContent({ productSlugToNameMapInEnglish }: SubmitQuot
               onClick={() => setIsItemsOpen(!isItemsOpen)}
             >
               <span className="text-xl font-semibold truncate">
-                {tQuotePage("itemsInQuote")} ({totalItems}{" "}
-                {totalItems === 1 ? tQuotePage("item") : tQuotePage("items")})
+                {totalItems}{" "}
+                {tQuotePage(totalItems === 1 ? "item" : "items")}
               </span>
               {isItemsOpen ? (
                 <ChevronUp className="size-5 text-muted-foreground shrink-0 ml-2" />

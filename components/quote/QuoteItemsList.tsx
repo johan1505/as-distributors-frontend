@@ -156,8 +156,8 @@ export function QuoteItemsList({
     <div className="flex-1">
       <div className="hidden lg:flex items-center justify-between mb-4">
         <h2 className="text-xl font-semibold">
-          {tQuotePage("itemsInQuote")} ({totalItems}{" "}
-          {totalItems === 1 ? tQuotePage("item") : tQuotePage("items")})
+          {totalItems}{" "}
+          {tQuotePage(totalItems === 1 ? "item" : "items")}
         </h2>
         <Button
           variant="ghost"

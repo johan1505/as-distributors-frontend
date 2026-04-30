@@ -150,9 +150,8 @@
 				"salesRepRequired": "Please select a sales rep",
 				"agreedToContactRequired": "You must agree to be contacted to submit this request"
 			},
-			"item": "item",
-			"items": "items",
-			"itemsInQuote": "Items in Quote"
+			"item": "case",
+			"items": "cases"
 		}
 	},
 	"sales": {

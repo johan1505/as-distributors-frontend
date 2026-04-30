@@ -150,9 +150,8 @@
 				"salesRepRequired": "请选择销售代表",
 				"agreedToContactRequired": "您必须同意被联系后才能提交此请求"
 			},
-			"item": "项目",
-			"items": "项目",
-			"itemsInQuote": "报价中的项目"
+			"item": "箱",
+			"items": "箱"
 		}
 	},
 	"sales": {

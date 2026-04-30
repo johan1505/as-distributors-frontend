@@ -150,9 +150,8 @@
 				"salesRepRequired": "Por favor seleccione un representante de ventas",
 				"agreedToContactRequired": "Debe aceptar ser contactado para enviar esta solicitud"
 			},
-			"item": "artículo",
-			"items": "artículos",
-			"itemsInQuote": "Artículos en Cotización"
+			"item": "caja",
+			"items": "cajas"
 		}
 	},
 	"sales": {
