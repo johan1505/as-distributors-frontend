@@ -28,6 +28,7 @@ import imgFishKawaKawaSteakSlices from '@/public/images/fish-kawa-kawa-steak-sli
 import imgUlaviParrotFish from '@/public/images/ulavi-parrot-fish.webp';
 import imgUnicornTa from '@/public/images/unicorn-ta.webp';
 import imgKawango from '@/public/images/kawango.png';
+import imgChaokohCoconutMilk from '@/public/images/chaokoh-coconut-milk.png';
 import imgPacificTasteCoconutMilk13oz from '@/public/images/pacific-taste-coconut-milk-13oz.webp';
 import imgPacificTasteCoconutMilk98oz from '@/public/images/pacific-taste-coconut-milk-98oz.webp';
 import imgPacificCrownFijiCoconutCream from '@/public/images/pacific-crown-fiji-coconut-cream.png';
@@ -59,7 +60,8 @@ import imgFmfCoconutCookies from '@/public/images/fmf-coconut-cookies.webp';
 import imgBigSisterLightFruitCake from '@/public/images/big-sister-light-fruit-cake.webp';
 import imgBigSisterDarkFruitCake from '@/public/images/big-sister-dark-fruit-cake.webp';
 import imgFmfFlour from '@/public/images/fmf-flour.webp';
-import imgSaoShortbreadCream from '@/public/images/sao-shortbread-cream.png';
+import imgArnottsSaoCracker from '@/public/images/arnotts-sao-cracker.png';
+import imgArnottsKingston from '@/public/images/arnotts-kingston.png';
 import imgFmfScotchFinger from '@/public/images/fmf-scotch-finger.png';
 import imgFmfBreakfastCrackers13oz from '@/public/images/fmf-breakfast-crackers-13oz.webp';
 import imgFmfBreakfastCrackersFine from '@/public/images/fmf-breakfast-crackers-fine.png';
@@ -220,7 +222,7 @@ import imgSunquickMangoJuiceConcentrate from '@/public/images/sunquick-mango-jui
 import imgBulaNoniFijiIslands from '@/public/images/bula-noni-fiji-islands.webp';
 import imgNestleSmarties50g from '@/public/images/nestle-smarties-50g.png';
 import imgNestleMilkybarClassic50g from '@/public/images/nestle-milkybar-classic-50g.png';
-import imgNestleKitkatChunkyMilo44g from '@/public/images/nestle-kitkat-chunky-milo-44g.png';
+import imgNestleKitkatChunkyMilo165g from '@/public/images/nestle-kitkat-chunky-milo-165g.jpeg';
 import imgJasonsBlackHacks150g from '@/public/images/jasons-black-hacks-150g.png';
 import imgJasonsClearMints150g from '@/public/images/jasons-clear-mints-150g.png';
 import imgPopsKola25l from '@/public/images/pops-kola-2-5l.png';
@@ -271,6 +273,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'ulavi-parrot-fish': imgUlaviParrotFish,
 	'unicorn-ta': imgUnicornTa,
 	kawango: imgKawango,
+	'chaokoh-coconut-milk': imgChaokohCoconutMilk,
 	'pacific-taste-coconut-milk-13oz': imgPacificTasteCoconutMilk13oz,
 	'pacific-taste-coconut-milk-98oz': imgPacificTasteCoconutMilk98oz,
 	'pacific-crown-fiji-coconut-cream': imgPacificCrownFijiCoconutCream,
@@ -302,7 +305,8 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'big-sister-light-fruit-cake': imgBigSisterLightFruitCake,
 	'big-sister-dark-fruit-cake': imgBigSisterDarkFruitCake,
 	'fmf-flour': imgFmfFlour,
-	'sao-shortbread-cream': imgSaoShortbreadCream,
+	'arnotts-sao-cracker': imgArnottsSaoCracker,
+	'arnotts-kingston': imgArnottsKingston,
 	'fmf-scotch-finger': imgFmfScotchFinger,
 	'fmf-breakfast-crackers-13oz': imgFmfBreakfastCrackers13oz,
 	'fmf-breakfast-crackers-fine': imgFmfBreakfastCrackersFine,
@@ -463,7 +467,7 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'bula-noni-fiji-islands': imgBulaNoniFijiIslands,
 	'nestle-smarties-50g': imgNestleSmarties50g,
 	'nestle-milkybar-classic': imgNestleMilkybarClassic50g,
-	'nestle-kitkat-chunky-milo-44g': imgNestleKitkatChunkyMilo44g,
+	'nestle-kitkat-chunky-milo-165g': imgNestleKitkatChunkyMilo165g,
 	'jasons-black-hacks-150g': imgJasonsBlackHacks150g,
 	'jasons-clear-mints-150g': imgJasonsClearMints150g,
 	'pops-kola-2-5l': imgPopsKola25l,
@@ -516,6 +520,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'ulavi-parrot-fish': '/images/ulavi-parrot-fish.webp',
 	'unicorn-ta': '/images/unicorn-ta.webp',
 	kawango: '/images/kawango.png',
+	'chaokoh-coconut-milk': '/images/chaokoh-coconut-milk.png',
 	'pacific-taste-coconut-milk-13oz': '/images/pacific-taste-coconut-milk-13oz.webp',
 	'pacific-taste-coconut-milk-98oz': '/images/pacific-taste-coconut-milk-98oz.webp',
 	'pacific-crown-fiji-coconut-cream': '/images/pacific-crown-fiji-coconut-cream.png',
@@ -547,7 +552,8 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'big-sister-light-fruit-cake': '/images/big-sister-light-fruit-cake.webp',
 	'big-sister-dark-fruit-cake': '/images/big-spister-dark-fruit-cake.webp',
 	'fmf-flour': '/images/fmf-flour.webp',
-	'sao-shortbread-cream': '/images/sao-shortbread-cream.png',
+	'arnotts-sao-cracker': '/images/arnotts-sao-cracker.png',
+	'arnotts-kingston': '/images/arnotts-kingston.png',
 	'fmf-scotch-finger': '/images/fmf-scotch-finger.png',
 	'fmf-breakfast-crackers-13oz': '/images/fmf-breakfast-crackers-13oz.webp',
 	'fmf-breakfast-crackers-fine': '/images/fmf-breakfast-crackers-fine.png',
@@ -708,7 +714,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'bula-noni-fiji-islands': '/images/bula-noni-fiji-islands.webp',
 	'nestle-smarties-50g': '/images/nestle-smarties-50g.png',
 	'nestle-milkybar-classic': '/images/nestle-milkybar-classic-50g.png',
-	'nestle-kitkat-chunky-milo-44g': '/images/nestle-kitkat-chunky-milo-44g.png',
+	'nestle-kitkat-chunky-milo-165g': '/images/nestle-kitkat-chunky-milo-165g.jpeg',
 	'jasons-black-hacks-150g': '/images/jasons-black-hacks-150g.png',
 	'jasons-clear-mints-150g': '/images/jasons-clear-mints-150g.png',
 	'pops-kola-2-5l': '/images/pops-kola-2-5l.png',

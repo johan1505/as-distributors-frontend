@@ -548,6 +548,14 @@
 			"seoKeywords": "Ovalau Blue tuna, canned tuna 6 oz, tuna wholesale, pantry tuna",
 			"imageAlt": "Can of Ovalau Blue Tuna"
 		},
+		"chaokoh-coconut-milk": {
+			"name": "Chaokoh Coconut Milk",
+			"description": "Chaokoh 13.5 oz 椰奶罐头。浓郁顺滑，适合咖喱、汤品、甜点以及太平洋和东南亚经典菜肴。",
+			"seoTitle": "Chaokoh Coconut Milk 13.5 oz | A & S Distributors",
+			"seoDescription": "Chaokoh Coconut Milk 13.5 oz。浓郁顺滑，适合咖喱和甜点。提供批发价格。",
+			"seoKeywords": "Chaokoh椰奶, 罐装椰奶, 咖喱用椰奶, 泰式椰奶, 批发椰奶",
+			"imageAlt": "Chaokoh Coconut Milk 罐头"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste椰奶",
 			"description": "浓郁美味的椰奶。非常适合经典地区菜肴、汤、咖喱、酱汁、甜点和饮料。椰奶也是乳制品的绝佳替代品。",
@@ -820,13 +828,21 @@
 			"seoKeywords": "FMF苏格兰手指, 斐济饼干, 酥饼曲奇, 太平洋岛屿食品",
 			"imageAlt": "FMF苏格兰手指饼干饼干包装"
 		},
-		"sao-shortbread-cream": {
-			"name": "Arnott's SAO酥饼奶油夹心",
-			"description": "经典SAO饼干的美味奶油夹心版本。两片酥脆微咸的饼干夹着一层甜奶油，完美平衡甜咸口味。整个太平洋地区下午茶的热门选择。",
-			"seoTitle": "SAO酥饼奶油夹心饼干 | A & S Distributors",
-			"seoDescription": "SAO酥饼奶油夹心饼干。完美甜咸平衡。提供批发价格。",
-			"seoKeywords": "SAO奶油饼干, 酥饼奶油, 夹心饼干, 太平洋零食",
-			"imageAlt": "SAO酥饼奶油夹心饼干包装"
+		"arnotts-sao-cracker": {
+			"name": "Arnott's SAO 苏打饼干",
+			"description": "经典 Arnott's SAO 苏打饼干，口感轻盈酥脆，带有淡淡咸香。适合搭配黄油、奶酪、抹酱，或配茶和汤一起享用。",
+			"seoTitle": "Arnott's SAO 苏打饼干 | A & S Distributors",
+			"seoDescription": "经典 Arnott's SAO 苏打饼干，轻盈酥脆。提供批发价格。",
+			"seoKeywords": "Arnott's SAO苏打饼干, SAO饼干, 咸味饼干, 澳大利亚饼干, 批发饼干",
+			"imageAlt": "Arnott's SAO 苏打饼干包装"
+		},
+		"arnotts-kingston": {
+			"name": "Arnott's Kingston",
+			"description": "经典 Arnott's 夹心饼干，由两片金黄色椰香饼干夹着浓郁巧克力奶油馅组成。酥脆香甜，充满澳大利亚风味。",
+			"seoTitle": "Arnott's Kingston 饼干 | A & S Distributors",
+			"seoDescription": "Arnott's Kingston 椰香饼干配巧克力奶油夹心。提供批发价格。",
+			"seoKeywords": "Arnott's Kingston, 椰香饼干, 巧克力奶油饼干, 澳大利亚曲奇, 批发曲奇",
+			"imageAlt": "Arnott's Kingston 饼干包装"
 		},
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF早餐饼干",
@@ -2126,13 +2142,13 @@
 			"seoKeywords": "Milkybar, 白巧克力, Nestlé巧克力, 批发糖果",
 			"imageAlt": "Nestlé Milkybar Classic包装"
 		},
-		"nestle-kitkat-chunky-milo-44g": {
+		"nestle-kitkat-chunky-milo-165g": {
 			"name": "Nestlé KitKat Chunky Milo",
-			"description": "KitKat Chunky威化巧克力棒，加入Milo风味，麦芽香更浓、口感更酥脆。",
-			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
-			"seoDescription": "KitKat Chunky Milo 44g。Milo风味威化巧克力棒。提供批发价格。",
+			"description": "更大规格的 KitKat Chunky Milo 威化巧克力棒，结合酥脆威化层与浓郁 Milo 风味涂层，带来更足的麦芽巧克力脆感。",
+			"seoTitle": "KitKat Chunky Milo 165g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 165g。大规格 Milo 风味威化巧克力棒。提供批发价格。",
 			"seoKeywords": "KitKat Chunky, Milo, 威化巧克力, Nestlé, 批发糖果",
-			"imageAlt": "KitKat Chunky Milo巧克力棒"
+			"imageAlt": "165 g KitKat Chunky Milo 巧克力棒"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",

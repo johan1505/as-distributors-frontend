@@ -548,6 +548,14 @@
 			"seoKeywords": "Ovalau Blue tuna, canned tuna 6 oz, tuna wholesale, pantry tuna",
 			"imageAlt": "Can of Ovalau Blue Tuna"
 		},
+		"chaokoh-coconut-milk": {
+			"name": "Chaokoh Coconut Milk",
+			"description": "Chaokoh Coconut Milk in a 13.5 oz can. Rich and creamy for curries, soups, desserts, and classic Pacific and Southeast Asian dishes.",
+			"seoTitle": "Chaokoh Coconut Milk 13.5 oz | A & S Distributors",
+			"seoDescription": "Chaokoh Coconut Milk 13.5 oz. Rich and creamy for curries and desserts. Wholesale pricing available.",
+			"seoKeywords": "Chaokoh coconut milk, canned coconut milk, coconut milk for curry, Thai coconut milk, wholesale coconut milk",
+			"imageAlt": "Can of Chaokoh Coconut Milk"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Coconut Milk",
 			"description": "Rich and tasty coconut milk goodness. Perfect for classic regional dishes, soups, curries, sauces, desserts and beverages. Coconut milk is also a great alternative to dairy.",
@@ -820,13 +828,21 @@
 			"seoKeywords": "FMF scotch finger, Fiji biscuits, shortbread cookies, Pacific Island food",
 			"imageAlt": "Package of FMF Scotch Finger crackers"
 		},
-		"sao-shortbread-cream": {
-			"name": "Arnott's SAO Shortbread Cream",
-			"description": "A delightful cream-filled version of the classic SAO cracker. Two crispy, lightly salted crackers sandwich a layer of sweet cream for the perfect sweet-savory balance. A popular choice for afternoon tea throughout the Pacific.",
-			"seoTitle": "SAO Shortbread Cream Crackers | A & S Distributors",
-			"seoDescription": "SAO Shortbread Cream crackers with sweet cream filling. Perfect sweet-savory balance. Wholesale pricing available.",
-			"seoKeywords": "SAO cream crackers, shortbread cream, filled crackers, Pacific snacks",
-			"imageAlt": "Package of SAO Shortbread Cream crackers"
+		"arnotts-sao-cracker": {
+			"name": "Arnott's SAO Cracker",
+			"description": "Classic Arnott's SAO crackers with a light, crisp texture and delicate savory taste. A pantry staple for topping with butter, cheese, and spreads or enjoying with tea and soup.",
+			"seoTitle": "Arnott's SAO Cracker | A & S Distributors",
+			"seoDescription": "Classic Arnott's SAO crackers, light and crisp. Wholesale pricing available.",
+			"seoKeywords": "Arnott's SAO cracker, SAO crackers, savory crackers, Australian crackers, wholesale crackers",
+			"imageAlt": "Package of Arnott's SAO Cracker"
+		},
+		"arnotts-kingston": {
+			"name": "Arnott's Kingston",
+			"description": "A classic Arnott's sandwich biscuit with two golden coconut biscuits wrapped around a rich chocolate cream filling. Crispy, sweet, and unmistakably Australian.",
+			"seoTitle": "Arnott's Kingston Biscuits | A & S Distributors",
+			"seoDescription": "Arnott's Kingston biscuits with crunchy coconut biscuits and chocolate cream. Wholesale pricing available.",
+			"seoKeywords": "Arnott's Kingston, coconut biscuits, chocolate cream biscuits, Australian cookies, wholesale cookies",
+			"imageAlt": "Package of Arnott's Kingston biscuits"
 		},
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF Breakfast Crackers",
@@ -2126,13 +2142,13 @@
 			"seoKeywords": "Milkybar, white chocolate, Nestlé chocolate, wholesale candy",
 			"imageAlt": "Nestlé Milkybar Classic pack"
 		},
-		"nestle-kitkat-chunky-milo-44g": {
+		"nestle-kitkat-chunky-milo-165g": {
 			"name": "Nestlé KitKat Chunky Milo",
-			"description": "A chunky KitKat wafer bar with Milo flavor for an extra malty chocolate crunch.",
-			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
-			"seoDescription": "KitKat Chunky Milo 44g. Wafer bar with Milo flavor. Wholesale pricing available.",
+			"description": "A larger KitKat Chunky Milo bar combining crisp wafer layers with a rich Milo-flavored coating for an extra malty chocolate crunch.",
+			"seoTitle": "KitKat Chunky Milo 165g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 165g. Large Milo-flavored wafer bar. Wholesale pricing available.",
 			"seoKeywords": "KitKat Chunky, Milo, wafer bar, Nestlé chocolate, wholesale candy",
-			"imageAlt": "KitKat Chunky Milo bar"
+			"imageAlt": "KitKat Chunky Milo 165 g bar"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",

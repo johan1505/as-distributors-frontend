@@ -548,6 +548,14 @@
 			"seoKeywords": "Ovalau Blue atún, atún enlatado 6 oz, atún al por mayor",
 			"imageAlt": "Lata de Ovalau Blue Atún"
 		},
+		"chaokoh-coconut-milk": {
+			"name": "Chaokoh Coconut Milk",
+			"description": "Leche de coco Chaokoh en lata de 13.5 oz. Rica y cremosa, ideal para curries, sopas, postres y platos clásicos del Pacífico y del Sudeste Asiático.",
+			"seoTitle": "Chaokoh Coconut Milk 13.5 oz | A & S Distributors",
+			"seoDescription": "Chaokoh Coconut Milk 13.5 oz. Rica y cremosa para curries y postres. Precios al por mayor disponibles.",
+			"seoKeywords": "leche de coco Chaokoh, leche de coco enlatada, leche de coco para curry, leche de coco tailandesa, leche de coco al por mayor",
+			"imageAlt": "Lata de Chaokoh Coconut Milk"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Leche de Coco",
 			"description": "Rica y sabrosa bondad de leche de coco. Perfecta para platos regionales clásicos, sopas, curries, salsas, postres y bebidas. La leche de coco también es una excelente alternativa a los lácteos.",
@@ -820,13 +828,21 @@
 			"seoKeywords": "FMF scotch finger, galletas de Fiji, galletas shortbread, comida de las Islas del Pacífico",
 			"imageAlt": "Paquete de FMF Scotch Finger"
 		},
-		"sao-shortbread-cream": {
-			"name": "Arnott's SAO Shortbread Cream",
-			"description": "Una deliciosa versión con crema del clásico cracker SAO. Dos crackers crujientes ligeramente salados rellenos de crema dulce para el equilibrio perfecto dulce-salado. Una opción popular para el té de la tarde en todo el Pacífico.",
-			"seoTitle": "SAO Shortbread Cream Crackers | A & S Distributors",
-			"seoDescription": "SAO Shortbread Cream crackers con relleno de crema dulce. Equilibrio perfecto dulce-salado. Precios al por mayor disponibles.",
-			"seoKeywords": "SAO cream crackers, shortbread cream, crackers rellenos, snacks del Pacífico",
-			"imageAlt": "Paquete de SAO Shortbread Cream"
+		"arnotts-sao-cracker": {
+			"name": "Arnott's SAO Cracker",
+			"description": "Crackers clásicos Arnott's SAO con textura ligera y crujiente y un delicado sabor salado. Un básico de despensa para disfrutar con mantequilla, queso, untables, té o sopa.",
+			"seoTitle": "Arnott's SAO Cracker | A & S Distributors",
+			"seoDescription": "Crackers clásicos Arnott's SAO, ligeros y crujientes. Precios al por mayor disponibles.",
+			"seoKeywords": "Arnott's SAO cracker, crackers SAO, crackers salados, crackers australianos, crackers al por mayor",
+			"imageAlt": "Paquete de Arnott's SAO Cracker"
+		},
+		"arnotts-kingston": {
+			"name": "Arnott's Kingston",
+			"description": "Una clásica galleta sándwich de Arnott's con dos galletas doradas de coco y un rico relleno de crema de chocolate. Crujiente, dulce e inconfundiblemente australiana.",
+			"seoTitle": "Galletas Arnott's Kingston | A & S Distributors",
+			"seoDescription": "Galletas Arnott's Kingston con galletas de coco crujientes y crema de chocolate. Precios al por mayor disponibles.",
+			"seoKeywords": "Arnott's Kingston, galletas de coco, galletas con crema de chocolate, galletas australianas, galletas al por mayor",
+			"imageAlt": "Paquete de galletas Arnott's Kingston"
 		},
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF Breakfast Crackers",
@@ -2126,13 +2142,13 @@
 			"seoKeywords": "Milkybar, chocolate blanco, chocolate Nestlé, dulces al por mayor",
 			"imageAlt": "Paquete de Nestlé Milkybar Classic"
 		},
-		"nestle-kitkat-chunky-milo-44g": {
+		"nestle-kitkat-chunky-milo-165g": {
 			"name": "Nestlé KitKat Chunky Milo",
-			"description": "Barra KitKat Chunky con wafer y sabor a Milo para un crujido extra con toque maltoso.",
-			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
-			"seoDescription": "KitKat Chunky Milo 44g. Barra de wafer con sabor a Milo. Precios al por mayor disponibles.",
+			"description": "Barra más grande de KitKat Chunky Milo con capas crujientes de wafer y cobertura con sabor a Milo para un crujido extra maltoso y chocolatoso.",
+			"seoTitle": "KitKat Chunky Milo 165g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 165g. Barra grande de wafer con sabor a Milo. Precios al por mayor disponibles.",
 			"seoKeywords": "KitKat Chunky, Milo, barra wafer, chocolate Nestlé, dulces al por mayor",
-			"imageAlt": "Barra de KitKat Chunky Milo"
+			"imageAlt": "Barra KitKat Chunky Milo de 165 g"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",

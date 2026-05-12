@@ -548,6 +548,14 @@
 			"seoKeywords": "Ovalau Blue tuna, canned tuna 6 oz, tuna wholesale, pantry tuna",
 			"imageAlt": "Can of Ovalau Blue Tuna"
 		},
+		"chaokoh-coconut-milk": {
+			"name": "Chaokoh Coconut Milk",
+			"description": "Chaokoh Coconut Milk i le apa 13.5 oz. Mauoa ma kulimi, lelei mo curry, supo, suamalie, ma taumafa masani a le Pasefika ma Asia i Saute Sasa'e.",
+			"seoTitle": "Chaokoh Coconut Milk 13.5 oz | A & S Distributors",
+			"seoDescription": "Chaokoh Coconut Milk 13.5 oz. Mauoa ma kulimi mo curry ma suamalie. Tau fa'atau tele e maua.",
+			"seoKeywords": "Chaokoh coconut milk, apa susu niu, susu niu mo curry, Thai coconut milk, susu niu fa'atau tele",
+			"imageAlt": "Apa o Chaokoh Coconut Milk"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste Susu Niu",
 			"description": "Susu niu suamalie ma manogi. Lelei mo mea'ai fa'a-lotu masani, supo, kare, sosi, mea suamalie ma mea inu. O le susu niu o se sui lelei fo'i mo susu povi.",
@@ -820,13 +828,21 @@
 			"seoKeywords": "FMF scotch finger, pisiketi Fiti, kuki shortbread, mea'ai motu Pasefika",
 			"imageAlt": "Afifi o kalake FMF Scotch Finger"
 		},
-		"sao-shortbread-cream": {
-			"name": "Arnott's SAO Shortbread Cream",
-			"description": "O se ituaiga kilimi fa'aopoopo o le masi SAO masani. Masi malo e lua, masima vaivai e fa'apipi'i ai le kilimi suamalie mo le paleni lelei suamalie-masima. O se filifiliga ta'uta'ua mo ti i le aoauli i le Pasefika atoa.",
-			"seoTitle": "SAO Shortbread Cream Masi | A & S Distributors",
-			"seoDescription": "SAO Shortbread Cream masi ma kilimi suamalie. Paleni suamalie-masima lelei. Tau fa'atau tele e maua.",
-			"seoKeywords": "SAO cream masi, shortbread cream, masi fa'apipi'i, mea'ai itiiti Pasefika",
-			"imageAlt": "Afifi o kalake SAO Shortbread Cream"
+		"arnotts-sao-cracker": {
+			"name": "Arnott's SAO Cracker",
+			"description": "O kalake Arnott's SAO masani e māma ma mālo ma e iai le tofo masima agamalu. O se mea tāua mo le pantry e 'ai fa'atasi ma pata, sisi, mea fa'asalalau, ti, po'o supo.",
+			"seoTitle": "Arnott's SAO Cracker | A & S Distributors",
+			"seoDescription": "Kalake Arnott's SAO masani, māma ma mālo. Tau fa'atau tele e maua.",
+			"seoKeywords": "Arnott's SAO cracker, SAO kalake, kalake masima, kalake Ausetalia, kalake fa'atau tele",
+			"imageAlt": "Afifi o Arnott's SAO Cracker"
+		},
+		"arnotts-kingston": {
+			"name": "Arnott's Kingston",
+			"description": "O se pisiketi sanuisi masani a Arnott's ma pisiketi niu auro e lua ma le kilimi sikaleti mauoa i le ogatotonu. Mālo, suamalie, ma manino lona sitaili Ausetalia.",
+			"seoTitle": "Arnott's Kingston Pistiketi | A & S Distributors",
+			"seoDescription": "Arnott's Kingston ma pisiketi niu mālo ma le kilimi sikaleti. Tau fa'atau tele e maua.",
+			"seoKeywords": "Arnott's Kingston, pisiketi niu, pisiketi kilimi sikaleti, kuki Ausetalia, kuki fa'atau tele",
+			"imageAlt": "Afifi o Arnott's Kingston pisiketi"
 		},
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF Masi Taeao",
@@ -2126,13 +2142,13 @@
 			"seoKeywords": "Milkybar, sukalati pa'epa'e, Nestlé, lole fa'atau tele",
 			"imageAlt": "Afifi o Nestlé Milkybar Classic"
 		},
-		"nestle-kitkat-chunky-milo-44g": {
+		"nestle-kitkat-chunky-milo-165g": {
 			"name": "Nestlé KitKat Chunky Milo",
-			"description": "KitKat Chunky wafer bar ma le manogi Milo mo se mālōlō sukalati ma le tofo malt.",
-			"seoTitle": "KitKat Chunky Milo 44g | A & S Distributors",
-			"seoDescription": "KitKat Chunky Milo 44g. Wafer bar ma le manogi Milo. Tau fa'atau tele e maua.",
+			"description": "O le KitKat Chunky Milo tele atu lea ma ona vaega wafer mālo ma le ufiufi tofo Milo mo se mālōlō sukalati ma le tofo malt sili atu.",
+			"seoTitle": "KitKat Chunky Milo 165g | A & S Distributors",
+			"seoDescription": "KitKat Chunky Milo 165g. Wafer bar tele ma le manogi Milo. Tau fa'atau tele e maua.",
 			"seoKeywords": "KitKat Chunky, Milo, wafer bar, sukalati Nestlé, lole fa'atau tele",
-			"imageAlt": "KitKat Chunky Milo pa"
+			"imageAlt": "Pa KitKat Chunky Milo 165 g"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "Jasons Black Hacks",

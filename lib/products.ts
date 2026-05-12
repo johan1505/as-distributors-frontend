@@ -34,6 +34,7 @@ export const PRODUCT_SLUGS = [
 	'ulavi-parrot-fish',
 	'unicorn-ta',
 	'kawango',
+	'chaokoh-coconut-milk',
 	'pacific-taste-coconut-milk-13oz',
 	'pacific-taste-coconut-milk-98oz',
 	'pacific-crown-fiji-coconut-cream',
@@ -65,7 +66,8 @@ export const PRODUCT_SLUGS = [
 	'big-sister-light-fruit-cake',
 	'big-sister-dark-fruit-cake',
 	'fmf-flour',
-	'sao-shortbread-cream',
+	'arnotts-sao-cracker',
+	'arnotts-kingston',
 	'fmf-scotch-finger',
 	'fmf-breakfast-crackers-13oz',
 	'fmf-breakfast-crackers-fine',
@@ -242,7 +244,7 @@ export const PRODUCT_SLUGS = [
 	'sunquick-mango-juice-concentrate',
 	'nestle-smarties-50g',
 	'nestle-milkybar-classic',
-	'nestle-kitkat-chunky-milo-44g',
+	'nestle-kitkat-chunky-milo-165g',
 	'jasons-black-hacks-150g',
 	'jasons-clear-mints-150g',
 ] as const;
@@ -561,7 +563,8 @@ export function getProductsByCategory(categoryKey: CategoryKey): ProductBase[] {
 			'scotch-finger',
 			'shortbread-cream',
 			'shortbread-plain',
-			'sao-shortbread-cream',
+			'arnotts-sao-cracker',
+			'arnotts-kingston',
 		]);
 
 		return products.slice().sort((a, b) => {

@@ -548,6 +548,14 @@
 			"seoKeywords": "Ovalau Blue 참치, 6 oz 참치 캔, 도매 참치, 기본 참치",
 			"imageAlt": "Ovalau Blue 참치 캔"
 		},
+		"chaokoh-coconut-milk": {
+			"name": "Chaokoh Coconut Milk",
+			"description": "13.5 oz 캔의 Chaokoh 코코넛 밀크. 커리, 수프, 디저트와 태평양 및 동남아 요리에 어울리는 진하고 크리미한 제품입니다.",
+			"seoTitle": "Chaokoh Coconut Milk 13.5 oz | A & S Distributors",
+			"seoDescription": "Chaokoh Coconut Milk 13.5 oz. 커리와 디저트에 좋은 진하고 크리미한 코코넛 밀크. 도매 가격 제공.",
+			"seoKeywords": "Chaokoh 코코넛 밀크, 코코넛 밀크 캔, 커리용 코코넛 밀크, 태국 코코넛 밀크, 도매 코코넛 밀크",
+			"imageAlt": "Chaokoh Coconut Milk 캔"
+		},
 		"pacific-taste-coconut-milk-13oz": {
 			"name": "Pacific Taste 코코넛 밀크",
 			"description": "풍부하고 맛있는 코코넛 밀크. 클래식 지역 요리, 수프, 커리, 소스, 디저트 및 음료에 완벽. 코코넛 밀크는 유제품의 훌륭한 대안이기도 합니다.",
@@ -1028,13 +1036,21 @@
 			"seoKeywords": "FMF 스카치 핑거, 피지 비스킷, 쇼트브레드 쿠키, 태평양 섬 식품",
 			"imageAlt": "FMF 스카치 핑거 크래커 패키지"
 		},
-		"sao-shortbread-cream": {
-			"name": "Arnott's SAO 쇼트브레드 크림",
-			"description": "클래식 SAO 크래커의 크림 필링 버전. 두 개의 바삭하고 살짝 짭짤한 크래커 사이에 달콤한 크림 층이 들어가 완벽한 달콤함과 짭짤함의 균형. 태평양 전역에서 오후 차에 인기 있는 선택.",
-			"seoTitle": "SAO 쇼트브레드 크림 크래커 | A & S Distributors",
-			"seoDescription": "달콤한 크림 필링의 SAO 쇼트브레드 크림 크래커. 완벽한 달콤-짭짤 균형. 도매 가격 제공.",
-			"seoKeywords": "SAO 크림 크래커, 쇼트브레드 크림, 필드 크래커, 태평양 스낵",
-			"imageAlt": "SAO 쇼트브레드 크림 크래커 패키지"
+		"arnotts-sao-cracker": {
+			"name": "Arnott's SAO 크래커",
+			"description": "가볍고 바삭한 식감과 은은한 짭짤한 맛의 클래식 Arnott's SAO 크래커입니다. 버터, 치즈, 스프레드와 곁들이거나 차와 수프와 함께 즐기기 좋은 팬트리 필수품입니다.",
+			"seoTitle": "Arnott's SAO 크래커 | A & S Distributors",
+			"seoDescription": "클래식 Arnott's SAO 크래커, 가볍고 바삭함. 도매 가격 제공.",
+			"seoKeywords": "Arnott's SAO 크래커, SAO 크래커, 짭짤한 크래커, 호주 크래커, 도매 크래커",
+			"imageAlt": "Arnott's SAO 크래커 패키지"
+		},
+		"arnotts-kingston": {
+			"name": "Arnott's Kingston",
+			"description": "두 장의 황금빛 코코넛 비스킷 사이에 진한 초콜릿 크림을 넣은 클래식 Arnott's 샌드위치 비스킷입니다. 바삭하고 달콤하며 호주다운 매력이 돋보입니다.",
+			"seoTitle": "Arnott's Kingston 비스킷 | A & S Distributors",
+			"seoDescription": "바삭한 코코넛 비스킷과 초콜릿 크림이 들어간 Arnott's Kingston. 도매 가격 제공.",
+			"seoKeywords": "Arnott's Kingston, 코코넛 비스킷, 초콜릿 크림 비스킷, 호주 쿠키, 도매 쿠키",
+			"imageAlt": "Arnott's Kingston 비스킷 패키지"
 		},
 		"fmf-breakfast-crackers-11lb": {
 			"name": "FMF 아침 크래커",
@@ -2126,13 +2142,13 @@
 			"seoKeywords": "밀키바, 화이트 초콜릿, 네슬레, 도매 캔디",
 			"imageAlt": "네슬레 밀키바 클래식 팩"
 		},
-		"nestle-kitkat-chunky-milo-44g": {
+		"nestle-kitkat-chunky-milo-165g": {
 			"name": "네슬레 킷캣 청키 마일로",
-			"description": "마일로 풍미가 더해진 청키 킷캣 웨이퍼 바. 몰트향 초콜릿의 바삭한 식감을 즐길 수 있습니다.",
-			"seoTitle": "킷캣 청키 마일로 44g | A & S Distributors",
-			"seoDescription": "킷캣 청키 마일로 44g. 마일로 풍미의 웨이퍼 바. 도매 가격 제공.",
+			"description": "더 커진 KitKat Chunky Milo 바로, 바삭한 웨이퍼 층과 진한 Milo 풍미 코팅이 어우러져 더욱 몰트한 초콜릿 크런치를 제공합니다.",
+			"seoTitle": "킷캣 청키 마일로 165g | A & S Distributors",
+			"seoDescription": "킷캣 청키 마일로 165g. 대용량 Milo 맛 웨이퍼 바. 도매 가격 제공.",
 			"seoKeywords": "킷캣 청키, 마일로, 웨이퍼 바, 네슬레 초콜릿, 도매 캔디",
-			"imageAlt": "킷캣 청키 마일로 바"
+			"imageAlt": "165 g 킷캣 청키 마일로 바"
 		},
 		"jasons-black-hacks-150g": {
 			"name": "제이슨스 블랙 핵스",

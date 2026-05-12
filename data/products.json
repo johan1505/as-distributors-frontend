@@ -240,6 +240,14 @@
 		"featured": false
 	},
 	{
+		"slug": "chaokoh-coconut-milk",
+		"itemNumber": "423",
+		"unitPerPack": 24,
+		"overallSize": "13.5 oz",
+		"categoryKey": "canned-vegetables",
+		"featured": false
+	},
+	{
 		"slug": "pacific-taste-coconut-milk-13oz",
 		"itemNumber": "424",
 		"unitPerPack": 24,
@@ -409,7 +417,7 @@
 	},
 	{
 		"slug": "punjas-scotch-finger",
-		"itemNumber": "311",
+		"itemNumber": "315",
 		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies-crackers",
@@ -488,8 +496,16 @@
 		"featured": false
 	},
 	{
-		"slug": "sao-shortbread-cream",
+		"slug": "arnotts-sao-cracker",
 		"itemNumber": "308",
+		"unitPerPack": 20,
+		"overallSize": "8.8 oz",
+		"categoryKey": "cookies-crackers",
+		"featured": false
+	},
+	{
+		"slug": "arnotts-kingston",
+		"itemNumber": "316",
 		"unitPerPack": 20,
 		"overallSize": "8.8 oz",
 		"categoryKey": "cookies-crackers",
@@ -1907,10 +1923,10 @@
 		"featured": false
 	},
 	{
-		"slug": "nestle-kitkat-chunky-milo-44g",
+		"slug": "nestle-kitkat-chunky-milo-165g",
 		"itemNumber": "588",
-		"unitPerPack": 36,
-		"overallSize": "45 g",
+		"unitPerPack": 13,
+		"overallSize": "165 g",
 		"categoryKey": "candies",
 		"featured": false
 	},
