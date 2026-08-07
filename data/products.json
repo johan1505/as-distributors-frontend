@@ -82,7 +82,7 @@
 	{
 		"slug": "crown-corned-mutton",
 		"itemNumber": "475",
-		"unitPerPack": 12,
+		"unitPerPack": 24,
 		"overallSize": "11.5 oz",
 		"categoryKey": "corned-beef",
 		"featured": false
