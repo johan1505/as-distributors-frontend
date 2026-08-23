@@ -192,6 +192,14 @@
 		"featured": false
 	},
 	{
+		"slug": "wahoo-lapana",
+		"itemNumber": "414",
+		"unitPerPack": 12,
+		"overallSize": "5 oz",
+		"categoryKey": "canned-fish-tuna",
+		"featured": false
+	},
+	{
 		"slug": "ovalau-blue-tuna",
 		"itemNumber": "415",
 		"unitPerPack": 48,

@@ -28,6 +28,7 @@ export const PRODUCT_SLUGS = [
 	'skipper-tuna-vegetable-oil',
 	'old-capital-special-tuna',
 	'sun-bell-tuna',
+	'wahoo-lapana',
 	'ovalau-blue-tuna',
 	'fish-kawa-kawa',
 	'fish-kawa-kawa-steak-slices',

@@ -242,10 +242,11 @@ import imgPopsPineappleCan355ml from '@/public/images/pops-pineapple-can-355ml.p
 import imgPopsLimeCan355ml from '@/public/images/pops-lime-can-355ml.png';
 import imgOldCapitalSpecialTuna from '@/public/images/old-capital-special-tuna.png';
 import imgSunBellTuna from '@/public/images/sun-bell-tuna.png';
+import imgWahooLapana from '@/public/images/wahoo-lapana.png';
 import imgOvalauBlueTuna from '@/public/images/ovalau-blue-tuna.png';
 import imgRoostersHalal from '@/public/images/roosters-halal.png';
 
-export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
+export const PRODUCT_IMAGE_BY_SLUG: Partial<Record<ProductSlug, StaticImageData>> = {
 	'ox-palm-corned-beef-7oz': imgOxPalmCornedBeef7oz,
 	'ox-palm-corned-beef-11-5oz': imgOxPalmCornedBeef115oz,
 	'ox-palm-corned-beef-tapered': imgOxPalmCornedBeefTapered,
@@ -487,11 +488,12 @@ export const PRODUCT_IMAGE_BY_SLUG: Record<ProductSlug, StaticImageData> = {
 	'pops-lime-can-355ml': imgPopsLimeCan355ml,
 	'old-capital-special-tuna': imgOldCapitalSpecialTuna,
 	'sun-bell-tuna': imgSunBellTuna,
+	'wahoo-lapana': imgWahooLapana,
 	'ovalau-blue-tuna': imgOvalauBlueTuna,
 	'roosters-halal': imgRoostersHalal,
 };
 
-export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
+export const PRODUCT_IMAGE_PATH_BY_SLUG: Partial<Record<ProductSlug, string>> = {
 	'roosters-halal': '/images/roosters-halal.png',
 	'ox-palm-corned-beef-7oz': '/images/ox-palm-corned-beef-7oz.webp',
 	'ox-palm-corned-beef-11-5oz': '/images/ox-palm-corned-beef-11-5oz.webp',
@@ -734,6 +736,7 @@ export const PRODUCT_IMAGE_PATH_BY_SLUG: Record<ProductSlug, string> = {
 	'pops-lime-can-355ml': '/images/pops-lime-can-355ml.png',
 	'old-capital-special-tuna': '/images/old-capital-special-tuna.png',
 	'sun-bell-tuna': '/images/sun-bell-tuna.png',
+	'wahoo-lapana': '/images/wahoo-lapana.png',
 	'ovalau-blue-tuna': '/images/ovalau-blue-tuna.png',
 };
 
