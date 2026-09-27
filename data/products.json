@@ -1729,12 +1729,11 @@
 	},
 	{
 		"slug": "kool-pop",
-		"itemNumber": "TBD",
-		"unitPerPack": "TBD",
-		"overallSize": "80 ml",
+		"itemNumber": "235",
+		"unitPerPack": 6,
+		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
-		"featured": false,
-		"comingSoon": true
+		"featured": false
 	},
 	{
 		"slug": "bula-pop",
@@ -1747,12 +1746,11 @@
 	},
 	{
 		"slug": "pacific-split",
-		"itemNumber": "TBD",
-		"unitPerPack": "TBD",
+		"itemNumber": "234",
+		"unitPerPack": 6,
 		"overallSize": "74 ml",
 		"categoryKey": "misc-frozen-fresh",
-		"featured": false,
-		"comingSoon": true
+		"featured": false
 	},
 	{
 		"slug": "paranthas-plain-value-pack",
