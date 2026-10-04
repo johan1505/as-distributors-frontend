@@ -1854,7 +1854,8 @@
 		"unitPerPack": 24,
 		"overallSize": "355 ml",
 		"categoryKey": "drinks",
-		"featured": false
+		"featured": false,
+		"hidden": true
 	},
 	{
 		"slug": "pops-pineapple-can-355ml",
@@ -1862,7 +1863,8 @@
 		"unitPerPack": 24,
 		"overallSize": "355 ml",
 		"categoryKey": "drinks",
-		"featured": false
+		"featured": false,
+		"hidden": true
 	},
 	{
 		"slug": "pops-lime-can-355ml",
@@ -1870,7 +1872,8 @@
 		"unitPerPack": 24,
 		"overallSize": "355 ml",
 		"categoryKey": "drinks",
-		"featured": false
+		"featured": false,
+		"hidden": true
 	},
 	{
 		"slug": "pops-kola-can-355ml",
@@ -1878,7 +1881,8 @@
 		"unitPerPack": 24,
 		"overallSize": "355 ml",
 		"categoryKey": "drinks",
-		"featured": false
+		"featured": false,
+		"hidden": true
 	},
 	{
 		"slug": "pops-orange-can-355ml",
@@ -1886,7 +1890,8 @@
 		"unitPerPack": 24,
 		"overallSize": "355 ml",
 		"categoryKey": "drinks",
-		"featured": false
+		"featured": false,
+		"hidden": true
 	},
 	{
 		"slug": "sunquick-tropical-juice-concentrate",

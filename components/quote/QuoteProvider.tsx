@@ -9,7 +9,9 @@ import {
   useCallback,
 } from "react";
 import {
+  getProductBySlug,
   getProductSubtypeConfig,
+  isProductSlug,
   type ProductBase,
 } from "@/lib/products";
 
@@ -56,6 +58,40 @@ const getItemTotalQuantity = (item: QuoteItem): number => {
   }
 
   return item.quantity ?? 0;
+};
+
+const isQuoteItem = (value: unknown): value is QuoteItem => {
+  if (!value || typeof value !== "object" || !("product" in value)) {
+    return false;
+  }
+
+  const product = value.product;
+  if (!product || typeof product !== "object" || !("slug" in product) || typeof product.slug !== "string") {
+    return false;
+  }
+
+  if ("quantity" in value && value.quantity !== undefined && typeof value.quantity !== "number") {
+    return false;
+  }
+  if (
+    "selectedSubtypeValue" in value &&
+    value.selectedSubtypeValue !== undefined &&
+    typeof value.selectedSubtypeValue !== "string"
+  ) {
+    return false;
+  }
+  if ("subtypeQuantities" in value && value.subtypeQuantities !== undefined) {
+    const quantities = value.subtypeQuantities;
+    if (
+      !quantities ||
+      typeof quantities !== "object" ||
+      Object.values(quantities).some((quantity) => typeof quantity !== "number")
+    ) {
+      return false;
+    }
+  }
+
+  return true;
 };
 
 const normalizeSubtypeSelection = (
@@ -111,12 +147,22 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed)) {
           const normalizedItems = parsed
-            .map((item) => {
-              if (!item || typeof item !== "object" || !("product" in item)) {
+            .map((item: unknown) => {
+              if (!isQuoteItem(item)) {
                 return null;
               }
 
-              return normalizeSubtypeSelection(item.product as ProductBase, item as QuoteItem);
+              const storedProduct = item.product;
+              if (!storedProduct?.slug || !isProductSlug(storedProduct.slug)) {
+                return null;
+              }
+
+              const visibleProduct = getProductBySlug(storedProduct.slug);
+              if (!visibleProduct) {
+                return null;
+              }
+
+              return normalizeSubtypeSelection(visibleProduct, item);
             })
             .filter((item): item is QuoteItem => item !== null);
           // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -141,6 +187,10 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
   }, [items, isHydrated]);
 
   const addItem = useCallback((product: ProductBase, subtypeValue?: string) => {
+    if (!getProductBySlug(product.slug)) {
+      return;
+    }
+
     setItems((prev) => {
       const subtypeConfig = getProductSubtypeConfig(product);
       const slug = product.slug;

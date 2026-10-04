@@ -312,6 +312,8 @@ export interface ProductBase {
 	categoryKey: CategoryKey;
 	featured: boolean;
 	comingSoon?: boolean;
+	/** When true, the product stays in catalog data but is omitted from the storefront. Remove the flag to bring it back. */
+	hidden?: boolean;
 }
 
 export type ProductCriterionKey = 'size' | 'cut' | 'type';
@@ -503,22 +505,33 @@ export function getProductDisplaySpecs(
 	};
 }
 
-// Type guard for ProductBase
-function isValidProductBase(p: {
-	slug: string;
-	itemNumber: string;
-	unitPerPack: number | string;
-	overallSize: string;
-	categoryKey: string;
-	featured: boolean;
-	comingSoon?: boolean;
-}): p is ProductBase {
-	return isProductSlug(p.slug) && isCategoryKey(p.categoryKey);
+// Validate the imported catalog data before exposing it to the storefront.
+function isValidProductBase<
+	T extends {
+		slug: string;
+		itemNumber: string;
+		unitPerPack: number | string;
+		overallSize: string;
+		categoryKey: string;
+		featured: boolean;
+		comingSoon?: boolean;
+		hidden?: boolean;
+	},
+>(value: T): value is T & ProductBase {
+	return isProductSlug(value.slug) && isCategoryKey(value.categoryKey);
 }
 
-export function getAllProductsBase(): ProductBase[] {
+export function isVisibleProduct(product: Pick<ProductBase, 'hidden'>): boolean {
+	return product.hidden !== true;
+}
+
+export function getAllProductsBase(options?: { includeHidden?: boolean }): ProductBase[] {
 	// Validate that all products have valid slugs (type-safe without casts)
-	return productsData.filter(isValidProductBase) as ProductBase[];
+	const products = productsData.filter(isValidProductBase);
+	if (options?.includeHidden) {
+		return products;
+	}
+	return products.filter(isVisibleProduct);
 }
 
 export function getProductBySlug(slug: ProductSlug): ProductBase | undefined {
